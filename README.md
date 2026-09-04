@@ -110,6 +110,12 @@ Bloc `criteres` dans `agences.json` : `min_chambres`, `min_pieces`, `min_surface
 `mots_exclus` (cherchés dans le **titre** uniquement : studio, parking, T2…), `mots_eliminatoires` (cherchés **partout**, description comprise : rez-de-chaussée, étudiant, bail mobilité, saisonnier…), `villes_acceptees`, `dpe_minimum` (F et G exclus par défaut).
 Une annonce dont la carte ne donne aucune caractéristique n'est jamais exclue : elle est « À vérifier ».
 
+## Sources testées mais illisibles pour le script
+
+Annonces chargées en JavaScript ou site protégé (vérifié le 4 septembre 2026) : Foncia, Laforêt,
+Human Immobilier, Guy Hoquet, Cabinet de Lesseps, Adour Gestion, Superimmo. Pour celles-là, créer
+une alerte e-mail sur leur site : c'est gratuit et immédiat.
+
 ## Agences repérées sans site exploitable
 
 Quelques enseignes locales sont connues mais sans page de locations identifiable en ligne ;

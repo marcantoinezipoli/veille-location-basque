@@ -67,6 +67,9 @@ MOTIFS_EXCLUS = re.compile(
     r"type-bien|/pratique/|/guide|/conseil|/dossier|/faq|/avis|/temoignage|catalog/|/ville/|/villes/|/carte|"
     r"/louer/?$|/location/?$|/locations/?$|/biens-louer/?\d?$|/biens-en-location/?$)", re.I)
 
+# Liens vers une collection ("toutes nos annonces") : jamais une annonce, même avec un identifiant
+TEXTES_COLLECTION = re.compile(r"^(toutes?\b|tous\b|voir tou|découvrir tou|decouvrir tou|nos biens|nos annonces|toutes nos)", re.I)
+
 # Textes de liens qui désignent une rubrique, jamais une annonce
 TEXTES_NAVIGATION = re.compile(
     r"^(voir|découvrir|decouvrir|toutes?|tous|nos biens|habitations?|immo pro|trouver|mon compte|"
@@ -250,6 +253,8 @@ def extraire_annonces(html, url_page, agence):
         a_chiffres = bool(re.search(r"€|m²|m2\b", ctx)) and len(ctx) >= 15
         if not (a_identifiant or a_chiffres):
             continue
+        if TEXTES_COLLECTION.match(txt):
+            continue
         if TEXTES_NAVIGATION.match(txt) and not a_identifiant:
             continue
         # exclut les mentions saisonnières / vente dans le texte de la carte
@@ -308,7 +313,8 @@ def classer(annonce, criteres):
     if villes:
         # zone géographique : on juge d'abord sur titre + URL + résumé de liste (la description
         # complète cite souvent toutes les villes du secteur en pied de page)
-        zone1 = (annonce.get("titre", "") + " " + annonce.get("url", "") + " " + annonce.get("contexte", "")).lower()
+        chemin_url = urlparse(annonce.get("url", "")).path
+        zone1 = (annonce.get("titre", "") + " " + chemin_url + " " + annonce.get("contexte", "")).lower()
         zone1 = zone1.replace("-", " ").replace("_", " ")
         zone2 = (annonce.get("description", "") or "").lower().replace("-", " ")
         codes_ok = set(str(c) for c in criteres.get("codes_postaux", []))
@@ -375,7 +381,8 @@ def lire_fiche(url):
     if corps:
         morceaux.append(texte_compact(corps.get_text(" "))[:5000])
     texte = " ".join(m for m in morceaux if m)
-    return texte or None
+    titre_h1 = texte_compact(h1.get_text(" ")) if h1 else None
+    return (texte or None, titre_h1)
 
 
 def extraire_dpe(texte):
@@ -442,10 +449,14 @@ def scorer(annonce, scoring):
 
 def enrichir_par_fiche(annonce, criteres, scoring):
     """Lit la fiche, complète les champs manquants, recalcule classement et score."""
-    texte = lire_fiche(annonce["url"])
+    texte, titre_h1 = lire_fiche(annonce["url"])
     annonce["fiche_lue"] = bool(texte)
     if texte:
         annonce["description"] = texte[:1200]
+        titre_actuel = annonce.get("titre", "")
+        if titre_h1 and 8 <= len(titre_h1) <= 120 and (
+                TEXTES_NAVIGATION.match(titre_actuel) or titre_actuel == annonce.get("contexte", "")[:140]):
+            annonce["titre"] = titre_h1
         prix, surface, chambres, pieces, typ = extraire_champs(texte)
         for k, v in (("prix", prix), ("surface", surface), ("chambres", chambres), ("pieces", pieces), ("type", typ)):
             if annonce.get(k) is None and v is not None:

@@ -195,13 +195,6 @@
  },
  "agences": [
   {
-   "nom": "Cabinet de Lesseps",
-   "ville": "Anglet",
-   "type": "indépendante",
-   "url": "https://www.cabinet-de-lesseps.com/",
-   "verifie": false
-  },
-  {
    "nom": "L'Agencerie Côte Basque",
    "ville": "Anglet",
    "type": "indépendante",
@@ -216,25 +209,11 @@
    "verifie": true
   },
   {
-   "nom": "Human Immobilier Anglet",
-   "ville": "Anglet",
-   "type": "réseau",
-   "url": "https://www.human-immobilier.fr/louer/anglet",
-   "verifie": true
-  },
-  {
    "nom": "Orpi Agence des 5 Cantons",
    "ville": "Anglet",
    "type": "réseau",
    "url": "https://www.orpi.com/ag5cantons/louer",
    "verifie": false
-  },
-  {
-   "nom": "Laforêt Anglet",
-   "ville": "Anglet",
-   "type": "réseau",
-   "url": "https://www.laforet.com/ville/location-appartement-anglet-64600",
-   "verifie": true
   },
   {
    "nom": "Agence Olaizola",
@@ -265,25 +244,11 @@
    "verifie": true
   },
   {
-   "nom": "Laforêt Biarritz",
-   "ville": "Biarritz",
-   "type": "réseau",
-   "url": "https://www.laforet.com/ville/location-appartement-biarritz-64200",
-   "verifie": true
-  },
-  {
    "nom": "Century 21 (Biarritz, toutes agences)",
    "ville": "Biarritz",
    "type": "réseau",
    "url": "https://www.century21.fr/annonces/location-appartement/v-biarritz/",
    "verifie": true
-  },
-  {
-   "nom": "Human Immobilier Biarritz",
-   "ville": "Biarritz",
-   "type": "réseau",
-   "url": "https://www.human-immobilier.fr/louer/biarritz",
-   "verifie": false
   },
   {
    "nom": "Square Habitat Bidart",
@@ -307,13 +272,6 @@
    "verifie": true
   },
   {
-   "nom": "Adour Gestion Locative",
-   "ville": "Bayonne",
-   "type": "indépendante",
-   "url": "https://adour-gestion.fr/vous-recherchez-un-bien-a-louer/",
-   "verifie": false
-  },
-  {
    "nom": "Manoir de France",
    "ville": "Bayonne",
    "type": "indépendante",
@@ -332,34 +290,6 @@
    "ville": "Bayonne",
    "type": "réseau",
    "url": "https://www.century21agencenivadour-bayonne.com/annonces/location/",
-   "verifie": false
-  },
-  {
-   "nom": "Human Immobilier Bayonne",
-   "ville": "Bayonne",
-   "type": "réseau",
-   "url": "https://www.human-immobilier.fr/louer/bayonne",
-   "verifie": false
-  },
-  {
-   "nom": "Laforêt Anglet (maisons)",
-   "ville": "Anglet",
-   "type": "réseau",
-   "url": "https://www.laforet.com/ville/location-maison-anglet-64600",
-   "verifie": true
-  },
-  {
-   "nom": "Laforêt Biarritz (maisons)",
-   "ville": "Biarritz",
-   "type": "réseau",
-   "url": "https://www.laforet.com/ville/location-maison-biarritz-64200",
-   "verifie": true
-  },
-  {
-   "nom": "Laforêt Bayonne",
-   "ville": "Bayonne",
-   "type": "réseau",
-   "url": "https://www.laforet.com/ville/location-appartement-bayonne-64100",
    "verifie": false
   },
   {
@@ -495,5 +425,6 @@
    "dpe_e": -1,
    "loyer_1900_moins": 1
   }
- }
+ },
+ "_sources_en_javascript": "Non lisibles par le script (annonces chargées en JavaScript ou site protégé) : Foncia, Laforêt, Human Immobilier, Guy Hoquet, Cabinet de Lesseps, Adour Gestion, Superimmo. Utiliser leurs alertes e-mail."
 }
