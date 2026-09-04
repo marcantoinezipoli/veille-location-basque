@@ -64,14 +64,14 @@ MOTIFS_EXCLUS = re.compile(
     r"syndic|gestion-locative|gerance|copropri|assurance|financement|pret|"
     r"qui-sommes|equipe|agence-immobiliere|agences-immobilieres|nos-agences|plan-du-site|sitemap|"
     r"prix-immobilier|prix-du-m|prix-m2|barometre|vendu|/actus|/actualites|/content/|content_only|"
-    r"type-bien|/pratique/|/guide|/conseil|/dossier|/faq|/avis|/temoignage|catalog/|"
+    r"type-bien|/pratique/|/guide|/conseil|/dossier|/faq|/avis|/temoignage|catalog/|/ville/|/villes/|/carte|"
     r"/louer/?$|/location/?$|/locations/?$|/biens-louer/?\d?$|/biens-en-location/?$)", re.I)
 
 # Textes de liens qui désignent une rubrique, jamais une annonce
 TEXTES_NAVIGATION = re.compile(
     r"^(voir|découvrir|decouvrir|toutes?|tous|nos biens|habitations?|immo pro|trouver|mon compte|"
     r"vendu|louer|location|locations|acheter|vendre|accueil|contact|en savoir|lire|suivant|précédent|"
-    r"precedent|page|appartements?|maisons?|villas?|terrains?|bureaux?|locaux)\b.{0,25}$", re.I)
+    r"precedent|page|appartements?|maisons?|villas?|terrains?|bureaux?|locaux)\b.{0,45}$", re.I)
 
 PARAMS_A_RETIRER = {"utm_source", "utm_medium", "utm_campaign", "utm_content",
                     "utm_term", "fbclid", "gclid", "ref", "origin"}
@@ -261,11 +261,13 @@ def extraire_annonces(html, url_page, agence):
 
         prix, surface, chambres, pieces, typ = extraire_champs(ctx)
         titre = txt if 8 <= len(txt) <= 140 else (ctx[:140] if ctx else url_n)
+        if TEXTES_NAVIGATION.match(txt) and len(ctx) > len(txt) + 10:
+            titre = ctx[:140]
 
         if url_n in trouvees:
             # garde la version la plus riche
             anc = trouvees[url_n]
-            if 8 <= len(txt) <= 140 and anc["titre"] == anc.get("contexte", "")[:140]:
+            if 8 <= len(txt) <= 140 and not TEXTES_NAVIGATION.match(txt) and anc["titre"] == anc.get("contexte", "")[:140]:
                 anc["titre"] = txt
             if len(ctx) > len(anc.get("contexte", "")):
                 anc.update(titre=titre, contexte=ctx[:300], prix=prix or anc.get("prix"),
@@ -319,7 +321,7 @@ def classer(annonce, criteres):
             if codes and codes_ok and not (codes & codes_ok):
                 return "hors zone (" + sorted(codes)[0] + ")"
             for c in exclues:
-                if re.search(r"\b" + re.escape(c) + r"\b", z):
+                if re.search(r"(?<![a-zà-ÿ])" + re.escape(c) + r"(?![a-zà-ÿ])", z):
                     return "hors zone (" + c + ")"
             return None
 
