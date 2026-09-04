@@ -62,7 +62,16 @@ MOTIFS_EXCLUS = re.compile(
     r"page=\d|/page/\d|tri=|sort=|order=|ordre=|"
     r"parking|garage|box-|bureau|local-|commerc|terrain|entrepot|"
     r"syndic|gestion-locative|gerance|copropri|assurance|financement|pret|"
-    r"qui-sommes|equipe|agence-immobiliere|nos-agences|plan-du-site|sitemap)", re.I)
+    r"qui-sommes|equipe|agence-immobiliere|agences-immobilieres|nos-agences|plan-du-site|sitemap|"
+    r"prix-immobilier|prix-du-m|prix-m2|barometre|vendu|/actus|/actualites|/content/|content_only|"
+    r"type-bien|/pratique/|/guide|/conseil|/dossier|/faq|/avis|/temoignage|catalog/|"
+    r"/louer/?$|/location/?$|/locations/?$|/biens-louer/?\d?$|/biens-en-location/?$)", re.I)
+
+# Textes de liens qui désignent une rubrique, jamais une annonce
+TEXTES_NAVIGATION = re.compile(
+    r"^(voir|découvrir|decouvrir|toutes?|tous|nos biens|habitations?|immo pro|trouver|mon compte|"
+    r"vendu|louer|location|locations|acheter|vendre|accueil|contact|en savoir|lire|suivant|précédent|"
+    r"precedent|page|appartements?|maisons?|villas?|terrains?|bureaux?|locaux)\b.{0,25}$", re.I)
 
 PARAMS_A_RETIRER = {"utm_source", "utm_medium", "utm_campaign", "utm_content",
                     "utm_term", "fbclid", "gclid", "ref", "origin"}
@@ -236,6 +245,13 @@ def extraire_annonces(html, url_page, agence):
             continue
 
         txt, ctx = contexte_du_lien(a)
+        # preuve positive d'annonce : identifiant numérique dans l'URL, ou prix / surface dans la carte
+        a_identifiant = bool(re.search(r"\d{4,}", p.path + "?" + p.query))
+        a_chiffres = bool(re.search(r"€|m²|m2\b", ctx)) and len(ctx) >= 15
+        if not (a_identifiant or a_chiffres):
+            continue
+        if TEXTES_NAVIGATION.match(txt) and not a_identifiant:
+            continue
         # exclut les mentions saisonnières / vente dans le texte de la carte
         if re.search(r"saisonni|vacances|\bvente\b|à vendre|a vendre|viager", ctx, re.I):
             continue
@@ -288,12 +304,30 @@ def classer(annonce, criteres):
         return "exclu"
     villes = [v.lower() for v in criteres.get("villes_acceptees", [])]
     if villes:
-        # si une autre commune est nommée explicitement et aucune ville cible n'apparaît -> à vérifier
-        cible_presente = any(v in ctx for v in villes)
-        autre = re.search(r"(saint-jean-de-luz|st-jean-de-luz|hendaye|ciboure|urrugne|"
-                          r"guethary|guéthary|ustaritz|cambo|hasparren|dax|capbreton|"
-                          r"hossegor|tarnos|boucau|pau|bordeaux|m[ée]rignac)", ctx)
-        if autre and not cible_presente:
+        # zone géographique : on juge d'abord sur titre + URL + résumé de liste (la description
+        # complète cite souvent toutes les villes du secteur en pied de page)
+        zone1 = (annonce.get("titre", "") + " " + annonce.get("url", "") + " " + annonce.get("contexte", "")).lower()
+        zone1 = zone1.replace("-", " ").replace("_", " ")
+        zone2 = (annonce.get("description", "") or "").lower().replace("-", " ")
+        codes_ok = set(str(c) for c in criteres.get("codes_postaux", []))
+        exclues = [c.lower().replace("-", " ") for c in criteres.get("communes_exclues", [])]
+
+        def verdict(z):
+            if any(v in z for v in villes):
+                return "ok"
+            codes = set(re.findall(r"\b(\d{5})\b", z))
+            if codes and codes_ok and not (codes & codes_ok):
+                return "hors zone (" + sorted(codes)[0] + ")"
+            for c in exclues:
+                if re.search(r"\b" + re.escape(c) + r"\b", z):
+                    return "hors zone (" + c + ")"
+            return None
+
+        v1 = verdict(zone1)
+        if v1 is None:
+            v1 = verdict(zone2)
+        if v1 and v1 != "ok":
+            annonce["motif_exclusion"] = v1
             return "exclu"
     ok = True
     connu = False

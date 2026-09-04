@@ -64,6 +64,62 @@
    "colocation",
    "chambre chez l'habitant",
    "sous-location"
+  ],
+  "codes_postaux": [
+   "64600",
+   "64200",
+   "64210",
+   "64100"
+  ],
+  "communes_exclues": [
+   "arbonne",
+   "arcangues",
+   "ahetze",
+   "bassussarry",
+   "guéthary",
+   "guethary",
+   "ustaritz",
+   "mouguerre",
+   "urcuit",
+   "lahonce",
+   "briscous",
+   "villefranque",
+   "saint-pierre-d'irube",
+   "st-pierre-d'irube",
+   "saint pierre d'irube",
+   "boucau",
+   "tarnos",
+   "ondres",
+   "labenne",
+   "capbreton",
+   "hossegor",
+   "seignosse",
+   "saint-jean-de-luz",
+   "st-jean-de-luz",
+   "saint jean de luz",
+   "ciboure",
+   "urrugne",
+   "hendaye",
+   "cambo",
+   "hasparren",
+   "saubrigues",
+   "dax",
+   "pau",
+   "bordeaux",
+   "cenon",
+   "mérignac",
+   "merignac",
+   "talence",
+   "pessac",
+   "lyon",
+   "paris",
+   "toulouse",
+   "nantes",
+   "la rochelle",
+   "agen",
+   "béziers",
+   "brest",
+   "montpellier"
   ]
  },
  "agences": [
@@ -72,7 +128,7 @@
    "ville": "Anglet",
    "type": "indépendante",
    "url": "https://www.cabinet-de-lesseps.com/",
-   "verifie": true
+   "verifie": false
   },
   {
    "nom": "L'Agencerie Côte Basque",
@@ -96,13 +152,6 @@
    "verifie": true
   },
   {
-   "nom": "Foncia Anglet",
-   "ville": "Anglet",
-   "type": "réseau",
-   "url": "https://fr.foncia.com/location/anglet-64600",
-   "verifie": true
-  },
-  {
    "nom": "Orpi Agence des 5 Cantons",
    "ville": "Anglet",
    "type": "réseau",
@@ -113,14 +162,7 @@
    "nom": "Laforêt Anglet",
    "ville": "Anglet",
    "type": "réseau",
-   "url": "https://www.laforet.com/agence-immobiliere/anglet",
-   "verifie": true
-  },
-  {
-   "nom": "Guy Hoquet Anglet",
-   "ville": "Anglet",
-   "type": "réseau",
-   "url": "https://anglet.guy-hoquet.com/",
+   "url": "https://www.laforet.com/ville/location-appartement-anglet-64600",
    "verifie": true
   },
   {
@@ -155,7 +197,7 @@
    "nom": "Laforêt Biarritz",
    "ville": "Biarritz",
    "type": "réseau",
-   "url": "https://www.laforet.com/agence-immobiliere/biarritz",
+   "url": "https://www.laforet.com/ville/location-appartement-biarritz-64200",
    "verifie": true
   },
   {
@@ -164,13 +206,6 @@
    "type": "réseau",
    "url": "https://www.century21.fr/annonces/location-appartement/v-biarritz/",
    "verifie": true
-  },
-  {
-   "nom": "Foncia Biarritz",
-   "ville": "Biarritz",
-   "type": "réseau",
-   "url": "https://fr.foncia.com/location/biarritz-64200",
-   "verifie": false
   },
   {
    "nom": "Human Immobilier Biarritz",
@@ -183,15 +218,8 @@
    "nom": "Orpi Bidartean",
    "ville": "Bidart",
    "type": "réseau",
-   "url": "https://www.orpi.com/bidartean/louer",
-   "verifie": true
-  },
-  {
-   "nom": "Foncia Bidart",
-   "ville": "Bidart",
-   "type": "réseau",
-   "url": "https://fr.foncia.com/location/bidart-64210",
-   "verifie": true
+   "url": "https://www.orpi.com/bidartean/",
+   "verifie": false
   },
   {
    "nom": "Square Habitat Bidart",
@@ -211,15 +239,15 @@
    "nom": "Acotztarra",
    "ville": "Bidart",
    "type": "indépendante",
-   "url": "https://www.acotztarra.com/",
+   "url": "https://www.acotztarra.com/482-location-%C3%A0-l-ann%C3%A9e-saint-jean-de-luz",
    "verifie": true
   },
   {
    "nom": "Adour Gestion Locative",
    "ville": "Bayonne",
    "type": "indépendante",
-   "url": "https://adour-gestion.fr/a-louer/",
-   "verifie": true
+   "url": "https://adour-gestion.fr/vous-recherchez-un-bien-a-louer/",
+   "verifie": false
   },
   {
    "nom": "Manoir de France",
@@ -239,21 +267,7 @@
    "nom": "Century 21 Agence Nivadour",
    "ville": "Bayonne",
    "type": "réseau",
-   "url": "https://www.century21agencenivadour-bayonne.com/",
-   "verifie": true
-  },
-  {
-   "nom": "Agence Donibane",
-   "ville": "Bayonne",
-   "type": "indépendante",
-   "url": "https://www.agence-donibane.com/annonces/transaction/location.html",
-   "verifie": true
-  },
-  {
-   "nom": "Foncia Bayonne",
-   "ville": "Bayonne",
-   "type": "réseau",
-   "url": "https://fr.foncia.com/location/bayonne-64100",
+   "url": "https://www.century21agencenivadour-bayonne.com/annonces/location/",
    "verifie": false
   },
   {
@@ -264,32 +278,46 @@
    "verifie": false
   },
   {
-   "nom": "Superimmo — Biarritz (agrégateur secondaire)",
-   "ville": "Biarritz",
-   "type": "portail secondaire",
-   "url": "https://www.superimmo.com/location/appartement/aquitaine/pyrenees-atlantiques/biarritz-64200",
+   "nom": "Laforêt Anglet (maisons)",
+   "ville": "Anglet",
+   "type": "réseau",
+   "url": "https://www.laforet.com/ville/location-maison-anglet-64600",
    "verifie": true
   },
   {
-   "nom": "Superimmo — Anglet (agrégateur secondaire)",
-   "ville": "Anglet",
-   "type": "portail secondaire",
-   "url": "https://www.superimmo.com/location/appartement/aquitaine/pyrenees-atlantiques/anglet-64600",
-   "verifie": false
+   "nom": "Laforêt Biarritz (maisons)",
+   "ville": "Biarritz",
+   "type": "réseau",
+   "url": "https://www.laforet.com/ville/location-maison-biarritz-64200",
+   "verifie": true
   },
   {
-   "nom": "Superimmo — Bidart (agrégateur secondaire)",
-   "ville": "Bidart",
-   "type": "portail secondaire",
-   "url": "https://www.superimmo.com/location/appartement/aquitaine/pyrenees-atlantiques/bidart-64210",
-   "verifie": false
-  },
-  {
-   "nom": "Superimmo — Bayonne (agrégateur secondaire)",
+   "nom": "Laforêt Bayonne",
    "ville": "Bayonne",
-   "type": "portail secondaire",
-   "url": "https://www.superimmo.com/location/appartement/aquitaine/pyrenees-atlantiques/bayonne-64100",
+   "type": "réseau",
+   "url": "https://www.laforet.com/ville/location-appartement-bayonne-64100",
    "verifie": false
+  },
+  {
+   "nom": "Century 21 (Anglet, toutes agences)",
+   "ville": "Anglet",
+   "type": "réseau",
+   "url": "https://www.century21.fr/annonces/location-appartement/v-anglet/",
+   "verifie": true
+  },
+  {
+   "nom": "Century 21 (Bayonne, toutes agences)",
+   "ville": "Bayonne",
+   "type": "réseau",
+   "url": "https://www.century21.fr/annonces/location-appartement/v-bayonne/",
+   "verifie": true
+  },
+  {
+   "nom": "Century 21 (Bidart, toutes agences)",
+   "ville": "Bidart",
+   "type": "réseau",
+   "url": "https://www.century21.fr/annonces/location-appartement/v-bidart/",
+   "verifie": true
   }
  ],
  "scoring": {
