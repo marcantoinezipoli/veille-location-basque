@@ -1,0 +1,407 @@
+{
+ "_aide": "url = page 'locations' de l'agence si connue, sinon page d'accueil (le script cherchera lui-même un lien 'louer/location'). verifie = false signifie que l'URL est déduite du schéma du site et doit être confirmée au premier lancement (python veille.py --test).",
+ "criteres": {
+  "min_chambres": 2,
+  "min_pieces": 3,
+  "min_surface": 0,
+  "max_loyer": 2200,
+  "mots_exclus": [
+   "studio",
+   "parking",
+   "garage",
+   "box ",
+   "bureau",
+   "local commercial",
+   "local pro",
+   "entrepôt",
+   "entrepot",
+   "terrain",
+   "t1 ",
+   "t2 "
+  ],
+  "villes_acceptees": [
+   "anglet",
+   "biarritz",
+   "bidart",
+   "bayonne"
+  ],
+  "meuble": "indifferent",
+  "dpe_minimum": "E",
+  "types_acceptes": [
+   "appartement",
+   "maison",
+   "villa",
+   "duplex",
+   "loft"
+  ],
+  "_aide_eliminatoires": "mots_exclus = cherchés dans le titre seulement. mots_eliminatoires = cherchés partout, description comprise : ils rejettent l'annonce quoi qu'il arrive.",
+  "mots_eliminatoires": [
+   "rez-de-chaussée",
+   "rez de chaussée",
+   "rez-de-chaussee",
+   "rez de chaussee",
+   "rez-de-jardin",
+   "rez de jardin",
+   "en rdc",
+   "au rdc",
+   "rdc ",
+   "étudiant",
+   "etudiant",
+   "bail étudiant",
+   "bail mobilité",
+   "bail mobilite",
+   "septembre à juin",
+   "de septembre a juin",
+   "9 mois",
+   "10 mois",
+   "bail civil",
+   "bail meublé de tourisme",
+   "meublé de tourisme",
+   "saisonni",
+   "location vacances",
+   "courte durée",
+   "moyenne durée",
+   "colocation",
+   "chambre chez l'habitant",
+   "sous-location"
+  ]
+ },
+ "agences": [
+  {
+   "nom": "Cabinet de Lesseps",
+   "ville": "Anglet",
+   "type": "indépendante",
+   "url": "https://www.cabinet-de-lesseps.com/",
+   "verifie": true
+  },
+  {
+   "nom": "L'Agencerie Côte Basque",
+   "ville": "Anglet",
+   "type": "indépendante",
+   "url": "https://cote-basque.lagencerie.fr/",
+   "verifie": true
+  },
+  {
+   "nom": "Le Logis Basque",
+   "ville": "Anglet",
+   "type": "indépendante",
+   "url": "https://www.lelogisbasque.fr/",
+   "verifie": true
+  },
+  {
+   "nom": "Human Immobilier Anglet",
+   "ville": "Anglet",
+   "type": "réseau",
+   "url": "https://www.human-immobilier.fr/louer/anglet",
+   "verifie": true
+  },
+  {
+   "nom": "Foncia Anglet",
+   "ville": "Anglet",
+   "type": "réseau",
+   "url": "https://fr.foncia.com/location/anglet-64600",
+   "verifie": true
+  },
+  {
+   "nom": "Orpi Agence des 5 Cantons",
+   "ville": "Anglet",
+   "type": "réseau",
+   "url": "https://www.orpi.com/ag5cantons/louer",
+   "verifie": false
+  },
+  {
+   "nom": "Laforêt Anglet",
+   "ville": "Anglet",
+   "type": "réseau",
+   "url": "https://www.laforet.com/agence-immobiliere/anglet",
+   "verifie": true
+  },
+  {
+   "nom": "Guy Hoquet Anglet",
+   "ville": "Anglet",
+   "type": "réseau",
+   "url": "https://anglet.guy-hoquet.com/",
+   "verifie": true
+  },
+  {
+   "nom": "Agence Olaizola",
+   "ville": "Biarritz",
+   "type": "indépendante",
+   "url": "https://www.olaizola.immo/annonces/transaction/location.html",
+   "verifie": true
+  },
+  {
+   "nom": "Agence Benquet",
+   "ville": "Biarritz",
+   "type": "indépendante",
+   "url": "https://www.agence-benquet.com/location-appartement-maison-biarritz/",
+   "verifie": true
+  },
+  {
+   "nom": "Immobiarritz",
+   "ville": "Biarritz",
+   "type": "indépendante",
+   "url": "http://www.immobiarritz.fr/",
+   "verifie": true
+  },
+  {
+   "nom": "AJP Mateille Biarritz",
+   "ville": "Biarritz",
+   "type": "réseau régional",
+   "url": "https://www.ajp-immobilier.com/agence-immobiliere/biarritz-64200/ajp-mateille-immobilier-biarritz/000044.htm",
+   "verifie": true
+  },
+  {
+   "nom": "Laforêt Biarritz",
+   "ville": "Biarritz",
+   "type": "réseau",
+   "url": "https://www.laforet.com/agence-immobiliere/biarritz",
+   "verifie": true
+  },
+  {
+   "nom": "Century 21 (Biarritz, toutes agences)",
+   "ville": "Biarritz",
+   "type": "réseau",
+   "url": "https://www.century21.fr/annonces/location-appartement/v-biarritz/",
+   "verifie": true
+  },
+  {
+   "nom": "Foncia Biarritz",
+   "ville": "Biarritz",
+   "type": "réseau",
+   "url": "https://fr.foncia.com/location/biarritz-64200",
+   "verifie": false
+  },
+  {
+   "nom": "Human Immobilier Biarritz",
+   "ville": "Biarritz",
+   "type": "réseau",
+   "url": "https://www.human-immobilier.fr/louer/biarritz",
+   "verifie": false
+  },
+  {
+   "nom": "Orpi Bidartean",
+   "ville": "Bidart",
+   "type": "réseau",
+   "url": "https://www.orpi.com/bidartean/louer",
+   "verifie": true
+  },
+  {
+   "nom": "Foncia Bidart",
+   "ville": "Bidart",
+   "type": "réseau",
+   "url": "https://fr.foncia.com/location/bidart-64210",
+   "verifie": true
+  },
+  {
+   "nom": "Square Habitat Bidart",
+   "ville": "Bidart",
+   "type": "réseau",
+   "url": "https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/bidart-64210",
+   "verifie": true
+  },
+  {
+   "nom": "Nestenn (Bidart)",
+   "ville": "Bidart",
+   "type": "réseau",
+   "url": "https://nestenn.com/location/appartement/bidart-64210",
+   "verifie": true
+  },
+  {
+   "nom": "Acotztarra",
+   "ville": "Bidart",
+   "type": "indépendante",
+   "url": "https://www.acotztarra.com/",
+   "verifie": true
+  },
+  {
+   "nom": "Adour Gestion Locative",
+   "ville": "Bayonne",
+   "type": "indépendante",
+   "url": "https://adour-gestion.fr/a-louer/",
+   "verifie": true
+  },
+  {
+   "nom": "Manoir de France",
+   "ville": "Bayonne",
+   "type": "indépendante",
+   "url": "https://www.manoirdefrance.fr/louer",
+   "verifie": true
+  },
+  {
+   "nom": "Aturri Immobilier",
+   "ville": "Bayonne",
+   "type": "indépendante",
+   "url": "https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1",
+   "verifie": true
+  },
+  {
+   "nom": "Century 21 Agence Nivadour",
+   "ville": "Bayonne",
+   "type": "réseau",
+   "url": "https://www.century21agencenivadour-bayonne.com/",
+   "verifie": true
+  },
+  {
+   "nom": "Agence Donibane",
+   "ville": "Bayonne",
+   "type": "indépendante",
+   "url": "https://www.agence-donibane.com/annonces/transaction/location.html",
+   "verifie": true
+  },
+  {
+   "nom": "Foncia Bayonne",
+   "ville": "Bayonne",
+   "type": "réseau",
+   "url": "https://fr.foncia.com/location/bayonne-64100",
+   "verifie": false
+  },
+  {
+   "nom": "Human Immobilier Bayonne",
+   "ville": "Bayonne",
+   "type": "réseau",
+   "url": "https://www.human-immobilier.fr/louer/bayonne",
+   "verifie": false
+  },
+  {
+   "nom": "Superimmo — Biarritz (agrégateur secondaire)",
+   "ville": "Biarritz",
+   "type": "portail secondaire",
+   "url": "https://www.superimmo.com/location/appartement/aquitaine/pyrenees-atlantiques/biarritz-64200",
+   "verifie": true
+  },
+  {
+   "nom": "Superimmo — Anglet (agrégateur secondaire)",
+   "ville": "Anglet",
+   "type": "portail secondaire",
+   "url": "https://www.superimmo.com/location/appartement/aquitaine/pyrenees-atlantiques/anglet-64600",
+   "verifie": false
+  },
+  {
+   "nom": "Superimmo — Bidart (agrégateur secondaire)",
+   "ville": "Bidart",
+   "type": "portail secondaire",
+   "url": "https://www.superimmo.com/location/appartement/aquitaine/pyrenees-atlantiques/bidart-64210",
+   "verifie": false
+  },
+  {
+   "nom": "Superimmo — Bayonne (agrégateur secondaire)",
+   "ville": "Bayonne",
+   "type": "portail secondaire",
+   "url": "https://www.superimmo.com/location/appartement/aquitaine/pyrenees-atlantiques/bayonne-64100",
+   "verifie": false
+  }
+ ],
+ "scoring": {
+  "_aide": "Points ajoutés ou retirés quand le mot apparaît dans le titre ou la description. Score final = points mots-clés + bonus objectifs (surface, loyer, DPE). 'coup_de_coeur_a_partir_de' = seuil à partir duquel l'annonce remonte en tête.",
+  "coup_de_coeur_a_partir_de": 5,
+  "mots_plus": {
+   "rénové": 3,
+   "renove": 3,
+   "rénovation": 2,
+   "refait à neuf": 3,
+   "entièrement refait": 3,
+   "neuf": 2,
+   "récent": 2,
+   "recent": 2,
+   "avec goût": 2,
+   "architecte": 2,
+   "prestations de qualité": 2,
+   "haut de gamme": 1,
+   "standing": 1,
+   "cachet": 2,
+   "charme": 1,
+   "lumineux": 2,
+   "lumineuse": 2,
+   "traversant": 2,
+   "plein sud": 2,
+   "exposé sud": 2,
+   "exposition sud": 2,
+   "ensoleillé": 1,
+   "belle hauteur sous plafond": 1,
+   "terrasse": 3,
+   "balcon": 2,
+   "jardin": 3,
+   "extérieur": 1,
+   "loggia": 1,
+   "parking": 2,
+   "garage": 2,
+   "box": 1,
+   "stationnement": 1,
+   "calme": 2,
+   "au calme": 2,
+   "sans vis-à-vis": 2,
+   "vue dégagée": 2,
+   "vue mer": 2,
+   "vue océan": 2,
+   "ascenseur": 1,
+   "dernier étage": 1,
+   "cave": 1,
+   "cellier": 1,
+   "dressing": 1,
+   "cuisine équipée": 1,
+   "cuisine aménagée": 1,
+   "double vitrage": 1,
+   "fibre": 1,
+   "pompe à chaleur": 1,
+   "climatisation": 1,
+   "cinq cantons": 2,
+   "5 cantons": 2,
+   "chambre d'amour": 2,
+   "saint-jean": 1,
+   "st jean": 1,
+   "chiberta": 1,
+   "saint-martin": 1,
+   "st martin": 1,
+   "aguilera": 1,
+   "parme": 1,
+   "lahouze": 1,
+   "proche plage": 1,
+   "proche des plages": 1,
+   "pied à pied des plages": 1,
+   "à pied": 1,
+   "location à l'année": 2,
+   "à l'année": 2,
+   "bail 3 ans": 1,
+   "non meublé": 0
+  },
+  "mots_moins": {
+   "à rafraîchir": -3,
+   "a rafraichir": -3,
+   "travaux": -3,
+   "à rénover": -4,
+   "dans son jus": -4,
+   "état d'usage": -2,
+   "sans ascenseur": -2,
+   "3ème étage sans": -3,
+   "4ème étage sans": -4,
+   "vis-à-vis": -2,
+   "mitoyen": -1,
+   "sur rue": -1,
+   "passant": -2,
+   "bruyant": -3,
+   "chauffage électrique": -1,
+   "convecteurs": -1,
+   "simple vitrage": -2,
+   "dpe f": -5,
+   "dpe g": -8,
+   "classe énergie f": -5,
+   "classe énergie g": -8,
+   "passoire": -8,
+   "hendaye": -10,
+   "saint-jean-de-luz": -10,
+   "st-jean-de-luz": -10,
+   "ciboure": -10
+  },
+  "bonus_objectifs": {
+   "_aide": "Bonus calculés sur les chiffres lus : surface, loyer (≤ 1 900 : +1, ≤ 1 700 : +2), DPE.",
+   "surface_70_plus": 1,
+   "surface_80_plus": 2,
+   "loyer_1700_moins": 2,
+   "dpe_a_b_c": 2,
+   "dpe_d": 0,
+   "dpe_e": -1,
+   "loyer_1900_moins": 1
+  }
+ }
+}
