@@ -386,12 +386,27 @@ def lire_fiche(url):
     og = soup.find("meta", attrs={"property": "og:image"}) or soup.find("meta", attrs={"name": "twitter:image"})
     if og and og.get("content", "").startswith("http"):
         photo = og["content"]
-    else:
-        for img in soup.find_all("img", src=True):
-            src = urljoin(url, img["src"])
-            if re.search(r"logo|icon|sprite|pixel|avatar|placeholder|\.svg", src, re.I):
+    if not photo:
+        lien_img = soup.find("link", attrs={"rel": "image_src"})
+        if lien_img and lien_img.get("href", "").startswith("http"):
+            photo = lien_img["href"]
+    if not photo:
+        for img in soup.find_all("img"):
+            src = img.get("data-src") or img.get("data-lazy-src") or img.get("data-original") or img.get("src") or ""
+            if not src and img.get("srcset"):
+                src = img["srcset"].split(",")[0].split()[0]
+            if not src:
                 continue
-            if re.search(r"\.(jpe?g|png|webp)", src, re.I):
+            src = urljoin(url, src)
+            if re.search(r"logo|icon|sprite|pixel|avatar|placeholder|blank|loader|\.svg|\.gif|base64", src, re.I):
+                continue
+            if re.search(r"\.(jpe?g|png|webp)(\?|$)|/photos?/|/images?/|/media/|/uploads?/", src, re.I):
+                largeur = img.get("width")
+                try:
+                    if largeur and int(str(largeur).replace("px", "")) < 120:
+                        continue
+                except ValueError:
+                    pass
                 photo = src
                 break
     return (texte or None, titre_h1, photo)
@@ -542,10 +557,15 @@ def mettre_a_jour_etat(etat, annonces_du_jour, criteres, aujourdhui, scoring=Non
 
     # lecture des fiches détaillées des nouveautés (hors exclues), dans la limite quotidienne
     a_lire = [a for a in nouveautes if a["classement"] != "exclu" and not a.get("fiche_lue")]
+    rattrapage = [a for a in etat["annonces"].values()
+                  if a["statut"] == "active" and a["classement"] != "exclu"
+                  and not a.get("photo") and not a.get("photo_cherchee") and a not in a_lire]
+    a_lire += rattrapage
     if a_lire:
         log(f"    lecture de {min(len(a_lire), MAX_FICHES_PAR_PASSAGE)} fiche(s) détaillée(s)…")
     for a in a_lire[:MAX_FICHES_PAR_PASSAGE]:
         enrichir_par_fiche(a, criteres, scoring)
+        a["photo_cherchee"] = True
         time.sleep(DELAI_ENTRE_FICHES)
 
     seuil_disparu = (date.fromisoformat(aujourdhui) - timedelta(days=JOURS_AVANT_DISPARU)).isoformat()
