@@ -93,6 +93,27 @@
   "type": "appartement",
   "ville_agence": "Bidart"
  },
+ "https://nestenn.com/a-louer-beau-4-pieces-lumineux-de-64-m-stains-ref-39718220": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-05",
+  "historique_prix": [
+   {
+    "date": "2026-09-05",
+    "prix": 1300
+   }
+  ],
+  "pieces": 4,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-05",
+  "prix": 1300,
+  "statut": "active",
+  "surface": 64.0,
+  "titre": "EXCLU location 93240 STAINS Appartement à louer 64m² 4 pièces 3 chambres 1 300 € CC/Mois",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
  "https://nestenn.com/a-louer-maison-malansac-3-chambres-113-m2-ref-39717712": {
   "agence": "Nestenn (Bidart)",
   "chambres": 3,
@@ -157,6 +178,27 @@
   "surface": 41.0,
   "titre": "EXCLU 47300 VILLENEUVE SUR LOT Appartement à louer 41m² 2 pièces 1 chambre 435 € CC/Mois",
   "type": "appartement",
+  "ville_agence": "Bidart"
+ },
+ "https://nestenn.com/maison-en-plein-centre-meublee-5-pieces-a-louer-a-l-isle-adam-102-m-ref-39497692": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-05",
+  "historique_prix": [
+   {
+    "date": "2026-09-05",
+    "prix": 2100
+   }
+  ],
+  "pieces": 5,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-05",
+  "prix": 2100,
+  "statut": "active",
+  "surface": 102.0,
+  "titre": "EXCLU Meublé 95290 L ISLE ADAM Maison à louer 102m² 5 pièces 3 chambres 2 100 € CC/Mois",
+  "type": "maison",
   "ville_agence": "Bidart"
  },
  "https://nestenn.com/maison-trets-5-piece-s-90-m2-ref-38646644": {
