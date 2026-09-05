@@ -83,6 +83,15 @@ main { max-width:640px; margin:0 auto; padding:14px 16px 80px; }
 .prix-marker.coeur { background:var(--noir); color:#fff; } .prix-marker.hopital { background:var(--rouge); color:#fff; }
 .leaflet-popup-content-wrapper { border-radius:14px; } .leaflet-popup-content { font:14px/1.4 "Inter", -apple-system, Arial, sans-serif; margin:12px 14px; }
 .leaflet-popup-content a { color:var(--encre); font-weight:700; }
+.marche h2 { font-size:1.2rem; margin:8px 0 6px; letter-spacing:-.01em; }
+.marche h3 { font-size:.95rem; margin:22px 0 8px; color:var(--texte2); font-weight:600; }
+.marche .note { font-size:.85rem; color:var(--texte2); margin:0 0 14px; }
+.marche .tableau { border:1px solid var(--ligne); border-radius:16px; padding:6px 12px; overflow-x:auto; }
+.marche th { text-align:right; font-size:.8rem; color:var(--texte2); padding:8px 4px; font-weight:600; }
+.marche th:first-child { text-align:left; } .marche th.sous-titre { text-align:left; padding-top:14px; }
+.marche td { text-align:right; font-size:.9rem; font-variant-numeric:tabular-nums; } .marche td:first-child { text-align:left; color:var(--texte2); }
+.marche small { color:var(--texte2); font-size:.75rem; }
+.marche .graphe { border:1px solid var(--ligne); border-radius:16px; padding:10px 6px 4px; }
 details.bloc { margin-top:28px; font-size:.88rem; border:1px solid var(--ligne); border-radius:16px; padding:6px 16px; }
 details.bloc summary { cursor:pointer; padding:10px 0; font-weight:600; }
 table { width:100%; border-collapse:collapse; }
@@ -101,12 +110,24 @@ footer { font-size:.78rem; color:var(--texte2); margin-top:28px; line-height:1.5
   <button data-onglet="coeur">♥ Coups de cœur<span class="n">8</span></button>
   <button data-onglet="tout">Tout<span class="n">12</span></button>
   <button data-onglet="carte">Carte</button>
+  <button data-onglet="marche">Marché</button>
   <button data-onglet="ecartees">Écartées<span class="n">58</span></button>
 </div></nav>
 <div class="filtres-villes"><button data-ville="toutes" class="actif">Toutes</button><button data-ville="Anglet">Anglet</button><button data-ville="Biarritz">Biarritz</button><button data-ville="Bidart">Bidart</button><button data-ville="Bayonne">Bayonne</button></div>
 <main>
   <p id="vide-msg" class="vide-msg"></p>
   <div id="carte-map"></div>
+  
+<section id="marche" class="marche" style="display:none">
+  <h2>Le marché sur les agences suivies</h2>
+  <p class="note">Données accumulées depuis le 4 sept. ; plus la veille tourne, plus les colonnes 30 et 90 jours deviennent parlantes. Annonces correspondant aux critères uniquement.</p>
+  <div class="tableau"><table>
+    <tr><th></th><th>7 j</th><th>30 j</th><th>90 j</th></tr><tr><td>Annonces sorties</td><td>12</td><td>12</td><td>12</td></tr><tr><td>Annonces retirées</td><td>0</td><td>0</td><td>0</td></tr><tr><td>…dont parties en ≤ 3 jours</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Durée médiane avant retrait</td><td>–</td><td>–</td><td>–</td></tr><tr><td>Baisses de loyer</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Loyer médian au m²</td><td>15.8 €</td><td>15.8 €</td><td>15.8 €</td></tr>
+    <tr><th colspan="4" class="sous-titre">Loyer médian des annonces sorties (nombre)</th></tr><tr><td>Anglet</td><td>1 520 € <small>(2)</small></td><td>1 520 € <small>(2)</small></td><td>1 520 € <small>(2)</small></td></tr><tr><td>Biarritz</td><td>1 620 € <small>(4)</small></td><td>1 620 € <small>(4)</small></td><td>1 620 € <small>(4)</small></td></tr><tr><td>Bidart</td><td>–</td><td>–</td><td>–</td></tr><tr><td>Bayonne</td><td>827 € <small>(3)</small></td><td>827 € <small>(3)</small></td><td>827 € <small>(3)</small></td></tr>
+  </table></div>
+  <h3>Par semaine : annonces sorties (barres) et loyer médian (points)</h3>
+  <div class="graphe"><svg viewBox="0 0 640 200" width="100%" xmlns="http://www.w3.org/2000/svg" style="display:block"><line x1="30" y1="170" x2="610" y2="170" stroke="#ebebeb"/><rect x="34" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="82" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="131" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="179" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="227" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="276" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="324" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="372" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="421" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="469" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="517" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="566" y="30" width="40" height="140" rx="4" fill="#d9e9e1"/><text x="586" y="25" text-anchor="middle" font-size="11" fill="#6a6a6a">12</text><circle cx="586" cy="77" r="4" fill="#008a5c"/><text x="586" y="69" text-anchor="middle" font-size="10" fill="#008a5c">1360</text><text x="54" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">14/6</text><text x="103" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">21/6</text><text x="151" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">28/6</text><text x="199" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">5/7</text><text x="248" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">12/7</text><text x="296" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">19/7</text><text x="344" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">26/7</text><text x="393" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">2/8</text><text x="441" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">9/8</text><text x="489" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">16/8</text><text x="538" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">23/8</text><text x="586" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">30/8</text></svg></div>
+</section>
   <div class="grille">
 <article class="carte match coeur" id="c-ayonne641002967067058901agencyag5cantons" data-id="ayonne641002967067058901agencyag5cantons" data-ville="Anglet" data-cl="match" data-coeur="1" data-nouveau="0">
   <div class="visuel">
@@ -2699,10 +2720,6 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article></div>
   
-<details class="bloc"><summary>📈 Tendances sur 7 jours</summary>
-  <p>12 annonce(s) sortie(s) · 0 retirée(s), dont 0 en 3 jours ou moins · 12 en ligne aujourd’hui · loyer médian 15.8 €/m²</p>
-  <table><tr><td>Anglet</td><td>1 520 €</td><td>2 annonce(s)</td></tr><tr><td>Biarritz</td><td>1 620 €</td><td>4 annonce(s)</td></tr><tr><td>Bayonne</td><td>827 €</td><td>3 annonce(s)</td></tr></table>
-</details>
   <details class="bloc"><summary>État des 17 agences surveillées</summary><table><tr class="ok"><td>L&#x27;Agencerie Côte Basque</td><td>Anglet</td><td>1 annonce(s) détectée(s)</td><td><a href="https://cote-basque.lagencerie.fr/immobilier/location/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Le Logis Basque</td><td>Anglet</td><td>3 annonce(s) détectée(s)</td><td><a href="https://www.lelogisbasque.fr/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Orpi Agence des 5 Cantons</td><td>Anglet</td><td>7 annonce(s) détectée(s)</td><td><a href="https://www.orpi.com/ag5cantons/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Agence Olaizola</td><td>Biarritz</td><td>2 annonce(s) détectée(s)</td><td><a href="https://www.olaizola.immo/annonces/annonces/transaction/Location.html" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Agence Benquet</td><td>Biarritz</td><td>5 annonce(s) détectée(s)</td><td><a href="https://www.agence-benquet.com/location-appartement-maison-biarritz/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Immobiarritz</td><td>Biarritz</td><td>2 annonce(s) détectée(s)</td><td><a href="http://www.immobiarritz.fr/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>AJP Mateille Biarritz</td><td>Biarritz</td><td>4 annonce(s) détectée(s)</td><td><a href="https://www.ajp-immobilier.com/agence-immobiliere/biarritz-64200/ajp-mateille-immobilier-biarritz/000044.htm" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Biarritz, toutes agences)</td><td>Biarritz</td><td>11 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-biarritz/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Square Habitat Bidart</td><td>Bidart</td><td>8 annonce(s) détectée(s)</td><td><a href="https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/bidart-64210" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Nestenn (Bidart)</td><td>Bidart</td><td>3 annonce(s) détectée(s)</td><td><a href="https://nestenn.com/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Acotztarra</td><td>Bidart</td><td>1 annonce(s) détectée(s)</td><td><a href="https://www.acotztarra.com/482-location-%C3%A0-l-ann%C3%A9e-saint-jean-de-luz" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Manoir de France</td><td>Bayonne</td><td>9 annonce(s) détectée(s)</td><td><a href="https://www.manoirdefrance.fr/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Aturri Immobilier</td><td>Bayonne</td><td>5 annonce(s) détectée(s)</td><td><a href="https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 Agence Nivadour</td><td>Bayonne</td><td>2 annonce(s) détectée(s)</td><td><a href="https://www.century21agencenivadour-bayonne.com/annonces/location/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Anglet, toutes agences)</td><td>Anglet</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-anglet/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Bayonne, toutes agences)</td><td>Bayonne</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-bayonne/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Bidart, toutes agences)</td><td>Bidart</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-bidart/" target="_blank" rel="noopener">ouvrir</a></td></tr></table></details>
   <footer>Score = mots-clés positifs (vert) et négatifs (rouge) lus dans l’annonce + bonus surface / loyer / DPE ; ♥ à partir de 5.
   Positions sur la carte approximatives (quartier cité, sinon ville de l’agence). Temps vers l’hôpital calculés par la route depuis ce point (OpenStreetMap) ; « estimation » si le calcul n’a pas pu être fait.
@@ -2737,10 +2754,12 @@ Marc-Antoine Zipoli et Léa Mathieux
   function applique(){
     var n=0;
     cartes.forEach(function(c){ var ok=visible(c); c.style.display=ok?'':'none'; if(ok) n++; appliqueSuivi(c); });
-    var enCarte = onglet==='carte';
-    grille.style.display = enCarte?'none':'';
+    var enCarte = onglet==='carte', enMarche = onglet==='marche';
+    grille.style.display = (enCarte||enMarche)?'none':'';
     divMap.style.display = enCarte?'block':'none';
-    msg.style.display=(n||enCarte)?'none':'';
+    var secM=document.getElementById('marche'); if(secM) secM.style.display = enMarche?'block':'none';
+    document.querySelector('.filtres-villes').style.display = enMarche?'none':'';
+    msg.style.display=(n||enCarte||enMarche)?'none':'';
     msg.textContent = onglet==='nouveau' ? 'Rien de nouveau depuis le dernier passage. Regarde « Coups de cœur » ou « Tout ».' : 'Aucune annonce dans cette sélection.';
     document.querySelectorAll('.onglets button').forEach(function(b){ b.classList.toggle('actif', b.dataset.onglet===onglet); });
     document.querySelectorAll('.filtres-villes button').forEach(function(b){ b.classList.toggle('actif', b.dataset.ville===ville); });
