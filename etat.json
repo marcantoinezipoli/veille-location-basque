@@ -97,6 +97,28 @@
    "url": "https://nestenn.com/a-louer-a-condom-appartement-de-117-m-entierement-renove-reparti-sur-deux-niveaux-et-beneficiant-de-plusieurs-ref-39714340",
    "ville_agence": "Bidart"
   },
+  "https://nestenn.com/a-louer-appartement-4-piece-s-secteur-bichon-traquette-ref-39717751": {
+   "agence": "Nestenn (Bidart)",
+   "atouts": [
+    "loyer 900 €"
+   ],
+   "chambres": 2,
+   "classement": "exclu",
+   "contexte": "EXCLU 49100 ANGERS Appartement à louer 67m² 4 pièces 2 chambres 900 € CC/Mois",
+   "derniere_vue": "2026-09-05",
+   "motif_exclusion": "hors zone (49100)",
+   "pieces": 4,
+   "premiere_vue": "2026-09-05",
+   "prix": 900,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 67.0,
+   "titre": "EXCLU 49100 ANGERS Appartement à louer 67m² 4 pièces 2 chambres 900 € CC/Mois",
+   "type": "appartement",
+   "url": "https://nestenn.com/a-louer-appartement-4-piece-s-secteur-bichon-traquette-ref-39717751",
+   "ville_agence": "Bidart"
+  },
   "https://nestenn.com/appartement-3-piece-s-50-79-m2-ref-39717033": {
    "agence": "Nestenn (Bidart)",
    "atouts": [
@@ -1620,6 +1642,12 @@
    "agences_ok": 17,
    "date": "2026-09-05",
    "nouveautes": 2
+  },
+  {
+   "actives": 68,
+   "agences_ok": 17,
+   "date": "2026-09-05",
+   "nouveautes": 1
   }
  ]
 }
