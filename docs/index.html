@@ -47,6 +47,8 @@ main { max-width:760px; margin:0 auto; padding:10px 12px 60px; }
 .pill.incertain { background:#fff7dc; color:#6b5200; font-weight:500; } .pill.exclu { background:#f3e4e4; color:#8a2a2e; font-weight:500; }
 .agence { font-size:.8rem; color:var(--gris); margin-bottom:6px; }
 .dist { font-size:.8rem; color:var(--encre); margin-bottom:6px; }
+.histo { font-size:.8rem; color:var(--bleu); font-weight:600; margin-bottom:6px; }
+.pill.longue { background:#fff1c2; color:#6b5200; }
 .chips { display:flex; flex-wrap:wrap; gap:4px; margin-bottom:6px; }
 .chip { font-size:.74rem; padding:2px 8px; border-radius:10px; border:1px solid var(--gris-clair); color:var(--gris); }
 .chip.plus { background:var(--vert-clair); border-color:#bfd6c8; color:var(--vert); } .chip.moins { background:#f7ecec; border-color:#e0c8c8; color:#8a2a2e; }
@@ -75,7 +77,7 @@ footer { font-size:.78rem; color:var(--gris); margin-top:24px; line-height:1.5; 
 <body>
 <header>
   <h1>Veille location · Côte Basque</h1>
-  <p class="sous">5 sept. · 12 annonces en ligne · 17 agences lues</p>
+  <p class="sous">5 sept. · 12 annonces en ligne · 16 agences lues</p>
   <p class="sous">2 chambres min · 2 200 € max · appartement ou maison · pas de RDC · à l’année</p>
 </header>
 <nav class="onglets">
@@ -100,6 +102,7 @@ footer { font-size:.78rem; color:var(--gris); margin-top:24px; line-height:1.5; 
       <div class="pills"><span class="pill">T4</span><span class="pill">3 ch.</span><span class="pill">80 m²</span><span class="pill dpe-ab">DPE A</span><span class="pill">Meublé</span><span class="pill prix-bon">13.1 €/m² · bon prix (-24 %)</span></div>
       <div class="agence">Orpi Agence des 5 Cantons · Anglet · quartier Saint-Léon · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~5 min à vélo · ~3 min en voiture (1.2 km)</div>
+      
       <div class="chips"><span class="chip plus">charme</span><span class="chip plus">lumineux</span><span class="chip plus">balcon</span><span class="chip plus">extérieur</span><span class="chip plus">parking</span><span class="chip plus">location à l&#x27;année</span></div>
     </div>
   </a>
@@ -133,6 +136,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T4</span><span class="pill">102 m²</span><span class="pill prix-ok">17.0 €/m² · dans le marché (0 %)</span></div>
       <div class="agence">Agence Benquet · Biarritz · quartier Hyper Centre · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~33 min à vélo · ~18 min en voiture (8.2 km)</div>
+      
       <div class="chips"><span class="chip plus">lumineuse</span><span class="chip plus">terrasse</span><span class="chip plus">ascenseur</span><span class="chip plus">à l&#x27;année</span><span class="chip plus">102 m²</span><span class="chip plus">loyer 1739 €</span></div>
     </div>
   </a>
@@ -166,6 +170,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T5</span><span class="pill">3 ch.</span><span class="pill">110.28 m²</span><span class="pill">Meublé</span><span class="pill prix-ok">18.0 €/m² · dans le marché (+4 %)</span></div>
       <div class="agence">Le Logis Basque · Anglet · quartier Montbrun · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~14 min à vélo · ~7 min en voiture (3.4 km)</div>
+      
       <div class="chips"><span class="chip plus">terrasse</span><span class="chip plus">calme</span><span class="chip plus">dressing</span><span class="chip plus">cuisine aménagée</span><span class="chip plus">110 m²</span></div>
     </div>
   </a>
@@ -199,6 +204,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T3</span><span class="pill">64 m²</span><span class="pill dpe-d">DPE D</span><span class="pill">Meublé</span><span class="pill prix-bon">12.9 €/m² · bon prix (-11 %)</span></div>
       <div class="agence">Manoir de France · Bayonne · quartier Mousserolles · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~7 min à vélo · ~4 min en voiture (1.8 km)</div>
+      
       <div class="chips"><span class="chip plus">rénové</span><span class="chip plus">avec goût</span><span class="chip plus">parking</span><span class="chip plus">dernier étage</span><span class="chip plus">cuisine équipée</span><span class="chip plus">loyer 827 €</span></div>
     </div>
   </a>
@@ -232,6 +238,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T3</span><span class="pill">83 m²</span><span class="pill">Meublé</span><span class="pill prix-ok">18.1 €/m² · dans le marché (+6 %)</span></div>
       <div class="agence">Agence Benquet · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~33 min à vélo · ~18 min en voiture (8.2 km)</div>
+      
       <div class="chips"><span class="chip plus">lumineux</span><span class="chip plus">balcon</span><span class="chip plus">ascenseur</span><span class="chip plus">cellier</span><span class="chip plus">83 m²</span><span class="chip plus">loyer 1500 €</span></div>
     </div>
   </a>
@@ -265,6 +272,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T7</span><span class="pill">5 ch.</span><span class="pill">149 m²</span><span class="pill prix-bon">14.5 €/m² · bon prix (-15 %)</span></div>
       <div class="agence">AJP Mateille Biarritz · Biarritz · Anglet (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~17 min à vélo · ~9 min en voiture (4.1 km)</div>
+      
       <div class="chips"><span class="chip plus">neuf</span><span class="chip plus">lumineuse</span><span class="chip plus">calme</span><span class="chip plus">149 m²</span></div>
     </div>
   </a>
@@ -298,6 +306,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T3</span><span class="pill">2 ch.</span><span class="pill">45 m²</span><span class="pill dpe-d">DPE D</span><span class="pill">Meublé</span><span class="pill prix-haut">17.6 €/m² · au-dessus du marché (+21 %)</span></div>
       <div class="agence">Manoir de France · Bayonne · quartier Marracq · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~4 min à vélo · ~3 min en voiture (1.0 km)</div>
+      
       <div class="chips"><span class="chip plus">rénové</span><span class="chip plus">cachet</span><span class="chip plus">parking</span><span class="chip plus">loyer 792 €</span></div>
     </div>
   </a>
@@ -331,6 +340,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T4</span><span class="pill">3 ch.</span><span class="pill">92 m²</span><span class="pill dpe-d">DPE D</span><span class="pill prix-bon">11.4 €/m² · bon prix (-21 %)</span></div>
       <div class="agence">Manoir de France · Bayonne · quartier Grand Bayonne · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~8 min à vélo · ~4 min en voiture (2.0 km)</div>
+      
       <div class="chips"><span class="chip plus">cave</span><span class="chip plus">92 m²</span><span class="chip plus">loyer 1053 €</span><span class="chip moins">sans ascenseur</span></div>
     </div>
   </a>
@@ -364,6 +374,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T4</span><span class="pill">3 ch.</span><span class="pill">86 m²</span><span class="pill dpe-d">DPE D</span><span class="pill prix-ok">15.8 €/m² · dans le marché (-7 %)</span></div>
       <div class="agence">Immobiarritz · Biarritz · quartier Mouriscot · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~32 min à vélo · ~17 min en voiture (8.0 km)</div>
+      
       <div class="chips"><span class="chip plus">terrasse</span><span class="chip plus">jardin</span><span class="chip plus">stationnement</span><span class="chip plus">saint-jean</span><span class="chip plus">86 m²</span><span class="chip plus">loyer 1360 €</span><span class="chip moins">saint-jean-de-luz</span></div>
     </div>
   </a>
@@ -398,6 +409,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="agence">Aturri Immobilier · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~9 min à vélo · ~5 min en voiture (2.1 km)</div>
       
+      
     </div>
   </a>
   <div class="actions">
@@ -430,6 +442,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">Meublé</span><span class="pill incertain">Infos à confirmer</span></div>
       <div class="agence">Century 21 (Anglet, toutes agences) · Anglet · Anglet (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~17 min à vélo · ~9 min en voiture (4.1 km)</div>
+      
       <div class="chips"><span class="chip plus">terrasse</span><span class="chip plus">balcon</span><span class="chip plus">jardin</span><span class="chip plus">parking</span><span class="chip plus">cave</span><span class="chip plus">non meublé</span></div>
     </div>
   </a>
@@ -463,6 +476,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">Meublé</span><span class="pill incertain">Infos à confirmer</span></div>
       <div class="agence">Agence Olaizola · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~33 min à vélo · ~18 min en voiture (8.2 km)</div>
+      
       <div class="chips"><span class="chip plus">neuf</span><span class="chip plus">parking</span><span class="chip plus">garage</span><span class="chip plus">box</span><span class="chip plus">cave</span><span class="chip plus">saint-jean</span><span class="chip moins">saint-jean-de-luz</span></div>
     </div>
   </a>
@@ -496,6 +510,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T5</span><span class="pill">2 ch.</span><span class="pill">60 m²</span><span class="pill dpe-ab">DPE A</span><span class="pill">Meublé</span><span class="pill prix-haut">30.6 €/m² · au-dessus du marché (+111 %)</span><span class="pill exclu">Écartée : rez de chaussée</span></div>
       <div class="agence">Century 21 Agence Nivadour · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~9 min à vélo · ~5 min en voiture (2.1 km)</div>
+      
       <div class="chips"><span class="chip plus">lumineuse</span><span class="chip plus">traversant</span><span class="chip plus">jardin</span><span class="chip plus">garage</span><span class="chip plus">calme</span><span class="chip plus">cellier</span></div>
     </div>
   </a>
@@ -529,6 +544,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T2</span><span class="pill">1 ch.</span><span class="pill">72 m²</span><span class="pill dpe-d">DPE D</span><span class="pill prix-haut">18.2 €/m² · au-dessus du marché (+26 %)</span><span class="pill exclu">Écartée : critères</span></div>
       <div class="agence">Manoir de France · Bayonne · quartier Halles · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~33 min à vélo · ~18 min en voiture (8.3 km)</div>
+      
       <div class="chips"><span class="chip plus">rénové</span><span class="chip plus">neuf</span><span class="chip plus">cachet</span><span class="chip plus">charme</span><span class="chip plus">lumineux</span><span class="chip plus">belle hauteur sous plafond</span></div>
     </div>
   </a>
@@ -562,6 +578,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T3</span><span class="pill">85 m²</span><span class="pill">Meublé</span><span class="pill prix-haut">17.6 €/m² · au-dessus du marché (+52 %)</span><span class="pill exclu">Écartée : bail mobilité</span></div>
       <div class="agence">Century 21 (Bidart, toutes agences) · Bidart · quartier Milady · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~39 min à vélo · ~21 min en voiture (9.9 km)</div>
+      
       <div class="chips"><span class="chip plus">terrasse</span><span class="chip plus">parking</span><span class="chip plus">vue océan</span><span class="chip plus">85 m²</span><span class="chip plus">loyer 1492 €</span></div>
     </div>
   </a>
@@ -595,6 +612,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T2</span><span class="pill exclu">Écartée : critères</span></div>
       <div class="agence">Century 21 (Bayonne, toutes agences) · Bayonne · quartier Arenes · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~6 min à vélo · ~3 min en voiture (1.5 km)</div>
+      
       <div class="chips"><span class="chip plus">lumineux</span><span class="chip plus">terrasse</span><span class="chip plus">calme</span><span class="chip plus">cave</span><span class="chip plus">loyer 1037 €</span></div>
     </div>
   </a>
@@ -628,6 +646,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T2</span><span class="pill">Meublé</span><span class="pill exclu">Écartée : etudiant</span></div>
       <div class="agence">Century 21 Agence Nivadour · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~9 min à vélo · ~5 min en voiture (2.1 km)</div>
+      
       <div class="chips"><span class="chip plus">terrasse</span><span class="chip plus">extérieur</span><span class="chip plus">parking</span><span class="chip plus">loyer 594 €</span></div>
     </div>
   </a>
@@ -661,6 +680,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T4</span><span class="pill">3 ch.</span><span class="pill">109 m²</span><span class="pill">Meublé</span><span class="pill prix-ok">11.9 €/m² · dans le marché (+3 %)</span><span class="pill exclu">Écartée : étudiant</span></div>
       <div class="agence">Century 21 (Bidart, toutes agences) · Bidart · Anglet (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~17 min à vélo · ~9 min en voiture (4.1 km)</div>
+      
       <div class="chips"><span class="chip plus">jardin</span><span class="chip plus">109 m²</span><span class="chip plus">loyer 1300 €</span></div>
     </div>
   </a>
@@ -694,6 +714,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T1</span><span class="pill">Meublé</span><span class="pill exclu">Écartée : rez-de-chaussée</span></div>
       <div class="agence">Century 21 (Bidart, toutes agences) · Bidart · Bidart (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~53 min à vélo · ~28 min en voiture (13.1 km)</div>
+      
       <div class="chips"><span class="chip plus">terrasse</span><span class="chip plus">sans vis-à-vis</span><span class="chip plus">à l&#x27;année</span><span class="chip plus">non meublé</span><span class="chip plus">loyer 545 €</span><span class="chip moins">vis-à-vis</span></div>
     </div>
   </a>
@@ -727,6 +748,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T3</span><span class="pill">2 ch.</span><span class="pill">70 m²</span><span class="pill">Meublé</span><span class="pill prix-ok">17.3 €/m² · dans le marché (0 %)</span><span class="pill exclu">Écartée : rez-de-chaussée</span></div>
       <div class="agence">Orpi Agence des 5 Cantons · Anglet · quartier Montbrun · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~14 min à vélo · ~7 min en voiture (3.4 km)</div>
+      
       <div class="chips"><span class="chip plus">jardin</span><span class="chip plus">extérieur</span><span class="chip plus">70 m²</span><span class="chip plus">loyer 1210 €</span></div>
     </div>
   </a>
@@ -760,6 +782,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T2</span><span class="pill">40 m²</span><span class="pill prix-ok">18.0 €/m² · dans le marché (+6 %)</span><span class="pill exclu">Écartée : critères</span></div>
       <div class="agence">Agence Benquet · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~33 min à vélo · ~18 min en voiture (8.2 km)</div>
+      
       <div class="chips"><span class="chip plus">terrasse</span><span class="chip plus">stationnement</span><span class="chip plus">loyer 720 €</span></div>
     </div>
   </a>
@@ -793,6 +816,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T3</span><span class="pill exclu">Écartée : hors zone (cenon)</span></div>
       <div class="agence">Aturri Immobilier · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~9 min à vélo · ~5 min en voiture (2.1 km)</div>
+      
       <div class="chips"><span class="chip plus">rénové</span><span class="chip plus">jardin</span></div>
     </div>
   </a>
@@ -826,6 +850,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T2</span><span class="pill">54 m²</span><span class="pill prix-ok">19.0 €/m² · dans le marché (+10 %)</span><span class="pill exclu">Écartée : critères</span></div>
       <div class="agence">L&#x27;Agencerie Côte Basque · Anglet · quartier Blancpignon · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~11 min à vélo · ~6 min en voiture (2.8 km)</div>
+      
       <div class="chips"><span class="chip plus">terrasse</span><span class="chip plus">loyer 1025 €</span></div>
     </div>
   </a>
@@ -859,6 +884,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T5</span><span class="pill">3 ch.</span><span class="pill">90 m²</span><span class="pill prix-ok">11.3 €/m² · dans le marché (-3 %)</span><span class="pill exclu">Écartée : hors zone (13530)</span></div>
       <div class="agence">Nestenn (Bidart) · Bidart · Bidart (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~53 min à vélo · ~28 min en voiture (13.1 km)</div>
+      
       <div class="chips"><span class="chip plus">90 m²</span><span class="chip plus">loyer 1020 €</span></div>
     </div>
   </a>
@@ -892,6 +918,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">207 m²</span><span class="pill prix-bon">8.2 €/m² · bon prix (-43 %)</span><span class="pill exclu">Écartée : hors zone (64990)</span></div>
       <div class="agence">Manoir de France · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~9 min à vélo · ~5 min en voiture (2.1 km)</div>
+      
       <div class="chips"><span class="chip plus">207 m²</span><span class="chip plus">loyer 1700 €</span></div>
     </div>
   </a>
@@ -925,6 +952,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">106 m²</span><span class="pill prix-bon">11.7 €/m² · bon prix (-19 %)</span><span class="pill exclu">Écartée : hors zone (40230)</span></div>
       <div class="agence">Manoir de France · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~9 min à vélo · ~5 min en voiture (2.1 km)</div>
+      
       <div class="chips"><span class="chip plus">106 m²</span><span class="chip plus">loyer 1235 €</span></div>
     </div>
   </a>
@@ -958,6 +986,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">87 m²</span><span class="pill prix-ok">14.5 €/m² · dans le marché (0 %)</span><span class="pill exclu">Écartée : hors zone (64990)</span></div>
       <div class="agence">Manoir de France · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~9 min à vélo · ~5 min en voiture (2.1 km)</div>
+      
       <div class="chips"><span class="chip plus">87 m²</span><span class="chip plus">loyer 1260 €</span></div>
     </div>
   </a>
@@ -991,6 +1020,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T1</span><span class="pill exclu">Écartée : critères</span></div>
       <div class="agence">Orpi Agence des 5 Cantons · Anglet · quartier Chambre D&#x27;Amour · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~29 min à vélo · ~16 min en voiture (7.4 km)</div>
+      
       <div class="chips"><span class="chip plus">chambre d&#x27;amour</span><span class="chip plus">loyer 650 €</span></div>
     </div>
   </a>
@@ -1024,6 +1054,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T2</span><span class="pill exclu">Écartée : critères</span></div>
       <div class="agence">Orpi Agence des 5 Cantons · Anglet · quartier Chambre D&#x27;Amour · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~29 min à vélo · ~16 min en voiture (7.4 km)</div>
+      
       <div class="chips"><span class="chip plus">chambre d&#x27;amour</span><span class="chip plus">loyer 700 €</span></div>
     </div>
   </a>
@@ -1057,6 +1088,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T2</span><span class="pill exclu">Écartée : critères</span></div>
       <div class="agence">Orpi Agence des 5 Cantons · Anglet · quartier Chambre D&#x27;Amour · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~29 min à vélo · ~16 min en voiture (7.4 km)</div>
+      
       <div class="chips"><span class="chip plus">chambre d&#x27;amour</span><span class="chip plus">loyer 685 €</span></div>
     </div>
   </a>
@@ -1090,6 +1122,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T2</span><span class="pill exclu">Écartée : critères</span></div>
       <div class="agence">Orpi Agence des 5 Cantons · Anglet · quartier Chambre D&#x27;Amour · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~29 min à vélo · ~16 min en voiture (7.4 km)</div>
+      
       <div class="chips"><span class="chip plus">chambre d&#x27;amour</span><span class="chip plus">loyer 667 €</span></div>
     </div>
   </a>
@@ -1123,6 +1156,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T4</span><span class="pill">3 ch.</span><span class="pill">117 m²</span><span class="pill prix-bon">6.2 €/m² · bon prix (-47 %)</span><span class="pill exclu">Écartée : hors zone (32100)</span></div>
       <div class="agence">Nestenn (Bidart) · Bidart · Bidart (ville de l&#x27;agence) · vu le 5 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~53 min à vélo · ~28 min en voiture (13.1 km)</div>
+      
       <div class="chips"><span class="chip plus">117 m²</span><span class="chip plus">loyer 720 €</span></div>
     </div>
   </a>
@@ -1156,6 +1190,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T5</span><span class="pill">3 ch.</span><span class="pill">113 m²</span><span class="pill prix-bon">8.7 €/m² · bon prix (-25 %)</span><span class="pill exclu">Écartée : hors zone (56220)</span></div>
       <div class="agence">Nestenn (Bidart) · Bidart · Bidart (ville de l&#x27;agence) · vu le 5 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~53 min à vélo · ~28 min en voiture (13.1 km)</div>
+      
       <div class="chips"><span class="chip plus">113 m²</span><span class="chip plus">loyer 980 €</span></div>
     </div>
   </a>
@@ -1189,6 +1224,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T1</span><span class="pill">Meublé</span><span class="pill exclu">Écartée : etudiant</span></div>
       <div class="agence">Century 21 (Bidart, toutes agences) · Bidart · quartier Saint-Charles · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~30 min à vélo · ~16 min en voiture (7.5 km)</div>
+      
       <div class="chips"><span class="chip plus">standing</span><span class="chip plus">loyer 562 €</span></div>
     </div>
   </a>
@@ -1222,6 +1258,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T5</span><span class="pill">4 ch.</span><span class="pill">120.56 m²</span><span class="pill prix-ok">15.7 €/m² · dans le marché (-9 %)</span><span class="pill exclu">Écartée : hors zone (arbonne)</span></div>
       <div class="agence">Le Logis Basque · Anglet · Anglet (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~17 min à vélo · ~9 min en voiture (4.1 km)</div>
+      
       <div class="chips"><span class="chip plus">120 m²</span><span class="chip plus">loyer 1890 €</span></div>
     </div>
   </a>
@@ -1255,6 +1292,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T3</span><span class="pill">2 ch.</span><span class="pill">51 m²</span><span class="pill prix-ok">11.6 €/m² · dans le marché (0 %)</span><span class="pill exclu">Écartée : hors zone (91150)</span></div>
       <div class="agence">Nestenn (Bidart) · Bidart · Bidart (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~53 min à vélo · ~28 min en voiture (13.1 km)</div>
+      
       <div class="chips"><span class="chip plus">loyer 590 €</span></div>
     </div>
   </a>
@@ -1288,6 +1326,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T5</span><span class="pill">4 ch.</span><span class="pill">65 m²</span><span class="pill prix-ok">13.1 €/m² · dans le marché (+13 %)</span><span class="pill exclu">Écartée : hors zone (56250)</span></div>
       <div class="agence">Nestenn (Bidart) · Bidart · Bidart (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~53 min à vélo · ~28 min en voiture (13.1 km)</div>
+      
       <div class="chips"><span class="chip plus">loyer 850 €</span></div>
     </div>
   </a>
@@ -1321,6 +1360,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T5</span><span class="pill">161 m²</span><span class="pill prix-ok">18.3 €/m² · dans le marché (+8 %)</span><span class="pill exclu">Écartée : critères</span></div>
       <div class="agence">Agence Benquet · Biarritz · quartier Kennedy · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~26 min à vélo · ~14 min en voiture (6.4 km)</div>
+      
       <div class="chips"><span class="chip plus">161 m²</span></div>
     </div>
   </a>
@@ -1354,6 +1394,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill exclu">Écartée : critères</span></div>
       <div class="agence">AJP Mateille Biarritz · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~33 min à vélo · ~18 min en voiture (8.2 km)</div>
+      
       <div class="chips"><span class="chip plus">loyer 675 €</span></div>
     </div>
   </a>
@@ -1387,6 +1428,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill exclu">Écartée : critères</span></div>
       <div class="agence">AJP Mateille Biarritz · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~33 min à vélo · ~18 min en voiture (8.2 km)</div>
+      
       <div class="chips"><span class="chip plus">loyer 1650 €</span></div>
     </div>
   </a>
@@ -1420,6 +1462,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill exclu">Écartée : critères</span></div>
       <div class="agence">AJP Mateille Biarritz · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~33 min à vélo · ~18 min en voiture (8.2 km)</div>
+      
       <div class="chips"><span class="chip plus">parking</span></div>
     </div>
   </a>
@@ -1453,6 +1496,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T1</span><span class="pill">13.76 m²</span><span class="pill exclu">Écartée : critères</span></div>
       <div class="agence">Le Logis Basque · Anglet · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~33 min à vélo · ~18 min en voiture (8.2 km)</div>
+      
       <div class="chips"><span class="chip plus">loyer 450 €</span></div>
     </div>
   </a>
@@ -1486,6 +1530,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T2</span><span class="pill">1 ch.</span><span class="pill">65 m²</span><span class="pill dpe-d">DPE D</span><span class="pill">Meublé</span><span class="pill prix-haut">18.5 €/m² · au-dessus du marché (+28 %)</span><span class="pill exclu">Écartée : critères</span></div>
       <div class="agence">Manoir de France · Bayonne · quartier Côte Des Basques · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~37 min à vélo · ~20 min en voiture (9.2 km)</div>
+      
       <div class="chips"><span class="chip plus">loyer 1200 €</span></div>
     </div>
   </a>
@@ -1519,6 +1564,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T4</span><span class="pill">2 ch.</span><span class="pill">67 m²</span><span class="pill prix-haut">13.4 €/m² · au-dessus du marché (+16 %)</span><span class="pill exclu">Écartée : hors zone (49100)</span></div>
       <div class="agence">Nestenn (Bidart) · Bidart · Bidart (ville de l&#x27;agence) · vu le 5 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~53 min à vélo · ~28 min en voiture (13.1 km)</div>
+      
       <div class="chips"><span class="chip plus">loyer 900 €</span></div>
     </div>
   </a>
@@ -1552,6 +1598,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T2</span><span class="pill">1 ch.</span><span class="pill">41 m²</span><span class="pill prix-ok">10.6 €/m² · dans le marché (-9 %)</span><span class="pill exclu">Écartée : hors zone (47300)</span></div>
       <div class="agence">Nestenn (Bidart) · Bidart · Bidart (ville de l&#x27;agence) · vu le 5 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~53 min à vélo · ~28 min en voiture (13.1 km)</div>
+      
       <div class="chips"><span class="chip plus">loyer 435 €</span></div>
     </div>
   </a>
@@ -1585,6 +1632,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">137 m²</span><span class="pill prix-ok">15.7 €/m² · dans le marché (-8 %)</span><span class="pill exclu">Écartée : hors zone (arcangues)</span></div>
       <div class="agence">Agence Benquet · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~33 min à vélo · ~18 min en voiture (8.2 km)</div>
+      
       <div class="chips"><span class="chip plus">137 m²</span><span class="chip moins">mitoyen</span></div>
     </div>
   </a>
@@ -1618,6 +1666,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill exclu">Écartée : hors zone (ustaritz)</span></div>
       <div class="agence">Century 21 (Bayonne, toutes agences) · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~9 min à vélo · ~5 min en voiture (2.1 km)</div>
+      
       <div class="chips"><span class="chip plus">loyer 1837 €</span></div>
     </div>
   </a>
@@ -1651,6 +1700,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill exclu">Écartée : hors zone (st jean de luz)</span></div>
       <div class="agence">Century 21 (Bidart, toutes agences) · Bidart · Bidart (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~53 min à vélo · ~28 min en voiture (13.1 km)</div>
+      
       <div class="chips"><span class="chip plus">st jean</span></div>
     </div>
   </a>
@@ -1684,6 +1734,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill exclu">Écartée : hors zone (st jean de luz)</span></div>
       <div class="agence">Century 21 (Bidart, toutes agences) · Bidart · Bidart (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~53 min à vélo · ~28 min en voiture (13.1 km)</div>
+      
       <div class="chips"><span class="chip plus">st jean</span></div>
     </div>
   </a>
@@ -1717,6 +1768,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill exclu">Écartée : hors zone (st jean de luz)</span></div>
       <div class="agence">Century 21 (Bidart, toutes agences) · Bidart · Bidart (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~53 min à vélo · ~28 min en voiture (13.1 km)</div>
+      
       <div class="chips"><span class="chip plus">st jean</span></div>
     </div>
   </a>
@@ -1750,6 +1802,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill exclu">Écartée : hors zone (st jean de luz)</span></div>
       <div class="agence">Century 21 (Bidart, toutes agences) · Bidart · Bidart (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~53 min à vélo · ~28 min en voiture (13.1 km)</div>
+      
       <div class="chips"><span class="chip plus">st jean</span></div>
     </div>
   </a>
@@ -1783,6 +1836,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T5</span><span class="pill exclu">Écartée : hors zone (arrossa)</span></div>
       <div class="agence">Aturri Immobilier · Bayonne · quartier St Martin · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~29 min à vélo · ~16 min en voiture (7.4 km)</div>
+      
       <div class="chips"><span class="chip plus">st martin</span></div>
     </div>
   </a>
@@ -1817,6 +1871,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="agence">Immobiarritz · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~33 min à vélo · ~18 min en voiture (8.2 km)</div>
       
+      
     </div>
   </a>
   <div class="actions">
@@ -1849,6 +1904,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T2</span><span class="pill">55 m²</span><span class="pill exclu">Écartée : critères</span></div>
       <div class="agence">Acotztarra · Bidart · Bidart (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~53 min à vélo · ~28 min en voiture (13.1 km)</div>
+      
       
     </div>
   </a>
@@ -1883,6 +1939,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="agence">Century 21 (Bidart, toutes agences) · Bidart · Bidart (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~53 min à vélo · ~28 min en voiture (13.1 km)</div>
       
+      
     </div>
   </a>
   <div class="actions">
@@ -1915,6 +1972,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill exclu">Écartée : hors zone (arcangues)</span></div>
       <div class="agence">Century 21 (Bidart, toutes agences) · Bidart · Bidart (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~53 min à vélo · ~28 min en voiture (13.1 km)</div>
+      
       
     </div>
   </a>
@@ -1949,6 +2007,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="agence">Aturri Immobilier · Bayonne · quartier Grande Plage · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~34 min à vélo · ~18 min en voiture (8.4 km)</div>
       
+      
     </div>
   </a>
   <div class="actions">
@@ -1981,6 +2040,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T1</span><span class="pill exclu">Écartée : critères</span></div>
       <div class="agence">Aturri Immobilier · Bayonne · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~33 min à vélo · ~18 min en voiture (8.2 km)</div>
+      
       
     </div>
   </a>
@@ -2015,6 +2075,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="agence">Manoir de France · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~9 min à vélo · ~5 min en voiture (2.1 km)</div>
       
+      
     </div>
   </a>
   <div class="actions">
@@ -2047,6 +2108,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill exclu">Écartée : hors zone (guethary)</span></div>
       <div class="agence">Agence Olaizola · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~33 min à vélo · ~18 min en voiture (8.2 km)</div>
+      
       
     </div>
   </a>
@@ -2081,6 +2143,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="agence">Orpi Agence des 5 Cantons · Anglet · quartier Beaurivage · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~37 min à vélo · ~20 min en voiture (9.3 km)</div>
       
+      
     </div>
   </a>
   <div class="actions">
@@ -2113,6 +2176,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T5</span><span class="pill exclu">Écartée : hors zone (tyrosse)</span></div>
       <div class="agence">Square Habitat Bidart · Bidart · Bidart (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~53 min à vélo · ~28 min en voiture (13.1 km)</div>
+      
       
     </div>
   </a>
@@ -2147,6 +2211,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="agence">Square Habitat Bidart · Bidart · Anglet (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~17 min à vélo · ~9 min en voiture (4.1 km)</div>
       
+      
     </div>
   </a>
   <div class="actions">
@@ -2179,6 +2244,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T2</span><span class="pill exclu">Écartée : critères</span></div>
       <div class="agence">Square Habitat Bidart · Bidart · Bayonne (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~9 min à vélo · ~5 min en voiture (2.1 km)</div>
+      
       
     </div>
   </a>
@@ -2213,6 +2279,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="agence">Square Habitat Bidart · Bidart · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~33 min à vélo · ~18 min en voiture (8.2 km)</div>
       
+      
     </div>
   </a>
   <div class="actions">
@@ -2245,6 +2312,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T2</span><span class="pill exclu">Écartée : critères</span></div>
       <div class="agence">Square Habitat Bidart · Bidart · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~33 min à vélo · ~18 min en voiture (8.2 km)</div>
+      
       
     </div>
   </a>
@@ -2279,6 +2347,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="agence">Square Habitat Bidart · Bidart · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~33 min à vélo · ~18 min en voiture (8.2 km)</div>
       
+      
     </div>
   </a>
   <div class="actions">
@@ -2311,6 +2380,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill exclu">Écartée : critères</span></div>
       <div class="agence">Square Habitat Bidart · Bidart · Bidart (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~53 min à vélo · ~28 min en voiture (13.1 km)</div>
+      
       <div class="chips"><span class="chip plus">saint-jean</span><span class="chip moins">saint-jean-de-luz</span></div>
     </div>
   </a>
@@ -2344,6 +2414,7 @@ Marc-Antoine Zipoli et Léa Mathieux
       <div class="pills"><span class="pill">T2</span><span class="pill exclu">Écartée : hors zone (hendaye)</span></div>
       <div class="agence">Square Habitat Bidart · Bidart · Bidart (ville de l&#x27;agence) · vu le 4 sept.</div>
       <div class="dist">🏥 CH Côte Basque : ~53 min à vélo · ~28 min en voiture (13.1 km)</div>
+      
       <div class="chips"><span class="chip moins">hendaye</span></div>
     </div>
   </a>
@@ -2372,7 +2443,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <p>12 annonce(s) sortie(s) · 0 retirée(s), dont 0 en 3 jours ou moins · 12 en ligne aujourd’hui · loyer médian 15.8 €/m²</p>
   <table><tr><td>Anglet</td><td>1 520 €</td><td>2 annonce(s)</td></tr><tr><td>Biarritz</td><td>1 620 €</td><td>4 annonce(s)</td></tr><tr><td>Bayonne</td><td>827 €</td><td>3 annonce(s)</td></tr></table>
 </details>
-  <details class="bloc"><summary>État des 17 agences surveillées</summary><table><tr class="ok"><td>L&#x27;Agencerie Côte Basque</td><td>Anglet</td><td>1 annonce(s) détectée(s)</td><td><a href="https://cote-basque.lagencerie.fr/immobilier/location/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Le Logis Basque</td><td>Anglet</td><td>3 annonce(s) détectée(s)</td><td><a href="https://www.lelogisbasque.fr/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Orpi Agence des 5 Cantons</td><td>Anglet</td><td>7 annonce(s) détectée(s)</td><td><a href="https://www.orpi.com/ag5cantons/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Agence Olaizola</td><td>Biarritz</td><td>2 annonce(s) détectée(s)</td><td><a href="https://www.olaizola.immo/annonces/annonces/transaction/Location.html" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Agence Benquet</td><td>Biarritz</td><td>5 annonce(s) détectée(s)</td><td><a href="https://www.agence-benquet.com/location-appartement-maison-biarritz/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Immobiarritz</td><td>Biarritz</td><td>2 annonce(s) détectée(s)</td><td><a href="http://www.immobiarritz.fr/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>AJP Mateille Biarritz</td><td>Biarritz</td><td>4 annonce(s) détectée(s)</td><td><a href="https://www.ajp-immobilier.com/agence-immobiliere/biarritz-64200/ajp-mateille-immobilier-biarritz/000044.htm" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Biarritz, toutes agences)</td><td>Biarritz</td><td>11 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-biarritz/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Square Habitat Bidart</td><td>Bidart</td><td>8 annonce(s) détectée(s)</td><td><a href="https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/bidart-64210" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Nestenn (Bidart)</td><td>Bidart</td><td>2 annonce(s) détectée(s)</td><td><a href="https://nestenn.com/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Acotztarra</td><td>Bidart</td><td>1 annonce(s) détectée(s)</td><td><a href="https://www.acotztarra.com/482-location-%C3%A0-l-ann%C3%A9e-saint-jean-de-luz" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Manoir de France</td><td>Bayonne</td><td>9 annonce(s) détectée(s)</td><td><a href="https://www.manoirdefrance.fr/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Aturri Immobilier</td><td>Bayonne</td><td>5 annonce(s) détectée(s)</td><td><a href="https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 Agence Nivadour</td><td>Bayonne</td><td>2 annonce(s) détectée(s)</td><td><a href="https://www.century21agencenivadour-bayonne.com/annonces/location/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Anglet, toutes agences)</td><td>Anglet</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-anglet/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Bayonne, toutes agences)</td><td>Bayonne</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-bayonne/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Bidart, toutes agences)</td><td>Bidart</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-bidart/" target="_blank" rel="noopener">ouvrir</a></td></tr></table></details>
+  <details class="bloc"><summary>État des 17 agences surveillées</summary><table><tr class="ok"><td>L&#x27;Agencerie Côte Basque</td><td>Anglet</td><td>1 annonce(s) détectée(s)</td><td><a href="https://cote-basque.lagencerie.fr/immobilier/location/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Le Logis Basque</td><td>Anglet</td><td>3 annonce(s) détectée(s)</td><td><a href="https://www.lelogisbasque.fr/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Orpi Agence des 5 Cantons</td><td>Anglet</td><td>7 annonce(s) détectée(s)</td><td><a href="https://www.orpi.com/ag5cantons/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Agence Olaizola</td><td>Biarritz</td><td>2 annonce(s) détectée(s)</td><td><a href="https://www.olaizola.immo/annonces/annonces/transaction/Location.html" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Agence Benquet</td><td>Biarritz</td><td>5 annonce(s) détectée(s)</td><td><a href="https://www.agence-benquet.com/location-appartement-maison-biarritz/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Immobiarritz</td><td>Biarritz</td><td>2 annonce(s) détectée(s)</td><td><a href="http://www.immobiarritz.fr/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>AJP Mateille Biarritz</td><td>Biarritz</td><td>4 annonce(s) détectée(s)</td><td><a href="https://www.ajp-immobilier.com/agence-immobiliere/biarritz-64200/ajp-mateille-immobilier-biarritz/000044.htm" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Biarritz, toutes agences)</td><td>Biarritz</td><td>11 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-biarritz/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="erreur"><td>Square Habitat Bidart</td><td>Bidart</td><td>Page inaccessible (ConnectTimeout)</td><td><a href="https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/bidart-64210" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Nestenn (Bidart)</td><td>Bidart</td><td>2 annonce(s) détectée(s)</td><td><a href="https://nestenn.com/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Acotztarra</td><td>Bidart</td><td>1 annonce(s) détectée(s)</td><td><a href="https://www.acotztarra.com/482-location-%C3%A0-l-ann%C3%A9e-saint-jean-de-luz" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Manoir de France</td><td>Bayonne</td><td>9 annonce(s) détectée(s)</td><td><a href="https://www.manoirdefrance.fr/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Aturri Immobilier</td><td>Bayonne</td><td>5 annonce(s) détectée(s)</td><td><a href="https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 Agence Nivadour</td><td>Bayonne</td><td>2 annonce(s) détectée(s)</td><td><a href="https://www.century21agencenivadour-bayonne.com/annonces/location/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Anglet, toutes agences)</td><td>Anglet</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-anglet/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Bayonne, toutes agences)</td><td>Bayonne</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-bayonne/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Bidart, toutes agences)</td><td>Bidart</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-bidart/" target="_blank" rel="noopener">ouvrir</a></td></tr></table></details>
   <footer>Score = mots-clés positifs (vert) et négatifs (rouge) lus dans l’annonce + bonus surface / loyer / DPE ; ♥ à partir de 5.
   Positions sur la carte approximatives (quartier cité, sinon ville de l’agence). Temps vers l’hôpital estimés à vol d’oiseau × 1,3.
   Les boutons Vu / Contacté / Visite / Non sont mémorisés sur cet appareil. Annonces retirées des sites depuis 3 jours supprimées.

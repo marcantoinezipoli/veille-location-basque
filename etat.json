@@ -46,6 +46,12 @@
    "ecart_prix_pct": -7,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 1360
+    }
+   ],
    "km_hopital": 8.0,
    "lat": 43.465,
    "lon": -1.554,
@@ -84,6 +90,12 @@
    "derniere_vue": "2026-09-05",
    "ecart_prix_pct": 10,
    "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 1025
+    }
+   ],
    "km_hopital": 2.8,
    "lat": 43.4848,
    "lon": -1.5054,
@@ -115,6 +127,12 @@
    "derniere_vue": "2026-09-05",
    "ecart_prix_pct": -47,
    "etiquette_prix": "bon prix",
+   "historique_prix": [
+    {
+     "date": "2026-09-05",
+     "prix": 720
+    }
+   ],
    "km_hopital": 13.1,
    "lat": 43.437,
    "lon": -1.5915,
@@ -146,6 +164,12 @@
    "derniere_vue": "2026-09-05",
    "ecart_prix_pct": 16,
    "etiquette_prix": "au-dessus du marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-05",
+     "prix": 900
+    }
+   ],
    "km_hopital": 13.1,
    "lat": 43.437,
    "lon": -1.5915,
@@ -359,6 +383,12 @@
    "derniere_vue": "2026-09-05",
    "ecart_prix_pct": -8,
    "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 2146
+    }
+   ],
    "km_hopital": 8.2,
    "lat": 43.4832,
    "lon": -1.5586,
@@ -401,6 +431,12 @@
    "ecart_prix_pct": 6,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 1500
+    }
+   ],
    "km_hopital": 8.2,
    "lat": 43.4832,
    "lon": -1.5586,
@@ -445,6 +481,12 @@
    "ecart_prix_pct": 0,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 1739
+    }
+   ],
    "km_hopital": 8.2,
    "lat": 43.4832,
    "lon": -1.5586,
@@ -480,6 +522,12 @@
    "derniere_vue": "2026-09-05",
    "ecart_prix_pct": 8,
    "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 2950
+    }
+   ],
    "km_hopital": 6.4,
    "lat": 43.476,
    "lon": -1.541,
@@ -512,6 +560,12 @@
    "derniere_vue": "2026-09-05",
    "ecart_prix_pct": 6,
    "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 720
+    }
+   ],
    "km_hopital": 8.2,
    "lat": 43.4832,
    "lon": -1.5586,
@@ -540,6 +594,12 @@
    "classement": "exclu",
    "contexte": "Local commercial 675 €",
    "derniere_vue": "2026-09-05",
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 675
+    }
+   ],
    "km_hopital": 8.2,
    "lat": 43.4832,
    "lon": -1.5586,
@@ -567,6 +627,12 @@
    "classement": "exclu",
    "contexte": "Local commercial 1 650 €",
    "derniere_vue": "2026-09-05",
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 1650
+    }
+   ],
    "km_hopital": 8.2,
    "lat": 43.4832,
    "lon": -1.5586,
@@ -603,6 +669,12 @@
    "ecart_prix_pct": -15,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 2163
+    }
+   ],
    "km_hopital": 4.1,
    "lat": 43.4855,
    "lon": -1.5185,
@@ -702,6 +774,12 @@
    "classement": "exclu",
    "contexte": "Exclusivité USTARITZ 64 1 837 € par mois charges comprises 145 m 2 , maison , 5 pcs",
    "derniere_vue": "2026-09-05",
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 1837
+    }
+   ],
    "km_hopital": 2.1,
    "lat": 43.4929,
    "lon": -1.4748,
@@ -790,6 +868,12 @@
    "description": "LOCATION ETUDIANTE SEULEMENT- SEPTEMBRE A JUIN PAS DE BAIL MOBILITE Appartement T1 bis idéalement situé aux portes de Saint-Charles, à proximité immédiate des transports en commun desservant les établissements scolaires ainsi que des commerces.Offrez-vous un cadre de vie exceptionnel dans une résidence de standing avec tous les services à portée de main. (piscine, tennis)L'eau est comprise dans les charges Appartement F2 à louer 2 pièces - 32,69 m 2 BIARRITZ - 64 Retour aux résultats Créer une alerte Modifier la recherche Accueil Location Location Appartement Location Appartement Pyrenees-Atlantiques (64) Location Appartement BIARRITZ (64200) Appartement F2 à louer 2 pièces - 32,69 m 2 BIARRITZ - 64 Ref : 5411 665 € par mois charges comprises Voir sur la carte 1/6 2/6 3/6 4/6 5/6 6/6 Exclusivité Envoyer un message Message Téléphoner à l'agence Téléphoner Planifier une visite et déposer un dossier Visiter le site dédié Envoyer ce bien à un ami Description LOCATION ETUDIANTE SEULEMENT- SEPTEMBRE A JUIN PAS DE BAIL MOBILITE Appartement T1 bis idéalement situé aux portes de Saint-Charles, à proximité immédiate des transports en commun desservant les établissements scolaires ainsi que d",
    "dpe": null,
    "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 562
+    }
+   ],
    "km_hopital": 7.5,
    "lat": 43.484,
    "lon": -1.5515,
@@ -817,6 +901,12 @@
    "classement": "exclu",
    "contexte": "Exclusivité BASSUSSARRY 64 3 000 € par mois charges comprises 204,4 m 2 , maison , 7 pcs",
    "derniere_vue": "2026-09-05",
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 3000
+    }
+   ],
    "km_hopital": 13.1,
    "lat": 43.437,
    "lon": -1.5915,
@@ -852,6 +942,12 @@
    "ecart_prix_pct": 3,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 1300
+    }
+   ],
    "km_hopital": 4.1,
    "lat": 43.4855,
    "lon": -1.5185,
@@ -889,6 +985,12 @@
    "description": "À LOUER STUDIO AVEC MEZZANINE BIDART.Bail à l'année Eau et électricité incluses.Studio non meublé situé au rez-de-chaussée, attenant à une maison comprenant : une pièce de vie avec mezzanine, une cuisine semi-ouverte, une salle d'eau avec WC et une terrasse sans vis-à-vis.Disponible à partir du 21 septembre ! Appartement F1 à louer 1 pièce - 24,90 m 2 BIDART - 64 Retour aux résultats Créer une alerte Modifier la recherche Accueil Location Location Appartement Location Appartement Pyrenees-Atlantiques (64) Location Appartement BIDART (64210) Appartement F1 à louer 1 pièce - 24,90 m 2 BIDART - 64 Ref : 3862 615 € par mois charges comprises Voir sur la carte 1/6 2/6 3/6 4/6 5/6 6/6 Envoyer un message Message Téléphoner à l'agence Téléphoner Planifier une visite et déposer un dossier Envoyer ce bien à un ami Description À LOUER STUDIO AVEC MEZZANINE BIDART. Bail à l'année Eau et électricité incluses. Studio non meublé situé au rez-de-chaussée, attenant à une maison comprenant : une pièce de vie avec mezzanine, une cuisine semi-ouverte, une salle d'eau avec WC et une terrasse sans vis-à-vis. Disponible à partir du 21 septembre ! Vue globale Surface totale : 29,9 m 2 Surface habitable : ",
    "dpe": null,
    "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 545
+    }
+   ],
    "km_hopital": 13.1,
    "lat": 43.437,
    "lon": -1.5915,
@@ -1009,6 +1111,12 @@
    "description": "LOCATION VIDE T2 A L'ANNÉEBAYONNE ARENES-LACHEPAILLETA louer dans très belle résidence calme et sécurisée, un appartement T2 lumineux avec 2 terrasses.Il est composé d'une pièce à vivre, d'une cuisine indépendante équipée et aménagée, d'une chambre, d'une salle de bains et d'un WC séparé.Une cave complète ce bien. Résidence très entretenue avec beaucoup de verdure.Transports en commun à 2 minutes. Appartement F2 à louer 2 pièces - 56,83 m 2 BAYONNE - 64 Retour aux résultats Créer une alerte Modifier la recherche Accueil Location Location Appartement Location Appartement Pyrenees-Atlantiques (64) Location Appartement BAYONNE (64100) Appartement F2 à louer 2 pièces - 56,83 m 2 BAYONNE - 64 Ref : 20326 1 037 € par mois charges comprises Voir sur la carte 1/8 2/8 3/8 4/8 5/8 6/8 + 2 7/8 8/8 Exclusivité Envoyer un message Message Téléphoner à l'agence Téléphoner Planifier une visite et déposer un dossier Visiter le site dédié Envoyer ce bien à un ami Description LOCATION VIDE T2 A L'ANNÉE BAYONNE ARENES-LACHEPAILLET A louer dans très belle résidence calme et sécurisée, un appartement T2 lumineux avec 2 terrasses. Il est composé d'une pièce à vivre, d'une cuisine indépendante équipée et ",
    "dpe": null,
    "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 1037
+    }
+   ],
    "km_hopital": 1.5,
    "lat": 43.489,
    "lon": -1.479,
@@ -1046,6 +1154,12 @@
    "ecart_prix_pct": 52,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 1492
+    }
+   ],
    "km_hopital": 9.9,
    "lat": 43.47,
    "lon": -1.5735,
@@ -1090,6 +1204,12 @@
    "ecart_prix_pct": 111,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 1837
+    }
+   ],
    "km_hopital": 2.1,
    "lat": 43.4929,
    "lon": -1.4748,
@@ -1126,6 +1246,12 @@
    "description": "ARCANGUES BOURG - LOCATION MEUBLEE - BAIL ETUDIANT Découvrez cet appartement type 2 bis, en parfai... Appartement F2 Bis à louer 2 pièces - 34,54 m 2 ARCANGUES - 64 Retour aux résultats Créer une alerte Modifier la recherche Accueil Location Location Appartement Location Appartement Pyrenees-Atlantiques (64) Location Appartement ARCANGUES (64200) Appartement F2 Bis à louer 2 pièces - 34,54 m 2 ARCANGUES - 64 Ref : 90169 724 € par mois charges comprises 152 avis (location/gestion) : 9,2/10 1/13 2/13 3/13 4/13 5/13 6/13 + 7 7/13 8/13 9/13 10/13 11/13 12/13 13/13 Exclusivité Envoyer un message Message Téléphoner à l'agence Téléphoner Planifier une visite et déposer un dossier Envoyer ce bien à un ami Description ARCANGUES BOURG - LOCATION MEUBLEE - BAIL ETUDIANT Découvrez cet appartement type 2 bis, en parfait état, situé en plein centre du village, le golf et les commodités aux pieds de la résidence. Entrée, 1 coin nuit et un bureau, jolie pièce à vivre très fonctionnelle, 1 salle de bain et 1 salle d'eau avec WC et belle terrasse couverte. 2 places de parking, 1 extérieure et 1 couverte. Les charges comprennent une provision pour les consommations d'eau et d'électricité, ainsi que l",
    "dpe": null,
    "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 594
+    }
+   ],
    "km_hopital": 2.1,
    "lat": 43.4929,
    "lon": -1.4748,
@@ -1305,6 +1431,12 @@
    "ecart_prix_pct": 4,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 1990
+    }
+   ],
    "km_hopital": 3.4,
    "lat": 43.4756,
    "lon": -1.5127,
@@ -1339,6 +1471,12 @@
    "derniere_vue": "2026-09-05",
    "ecart_prix_pct": -9,
    "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 1890
+    }
+   ],
    "km_hopital": 4.1,
    "lat": 43.4855,
    "lon": -1.5185,
@@ -1368,6 +1506,12 @@
    "classement": "exclu",
    "contexte": "Nouveauté Studio 1 pièce(s) 13.76 m² Biarritz (64200) 450 € CC*",
    "derniere_vue": "2026-09-05",
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 450
+    }
+   ],
    "km_hopital": 8.2,
    "lat": 43.4832,
    "lon": -1.5586,
@@ -1400,6 +1544,12 @@
    "ecart_prix_pct": 28,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 1200
+    }
+   ],
    "km_hopital": 9.2,
    "lat": 43.479,
    "lon": -1.568,
@@ -1441,6 +1591,12 @@
    "ecart_prix_pct": 26,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 1310
+    }
+   ],
    "km_hopital": 8.3,
    "lat": 43.482,
    "lon": -1.559,
@@ -1478,6 +1634,12 @@
    "ecart_prix_pct": -21,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 1053
+    }
+   ],
    "km_hopital": 2.0,
    "lat": 43.4925,
    "lon": -1.476,
@@ -1522,6 +1684,12 @@
    "ecart_prix_pct": 21,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 792
+    }
+   ],
    "km_hopital": 1.0,
    "lat": 43.4855,
    "lon": -1.4805,
@@ -1592,6 +1760,12 @@
    "ecart_prix_pct": -11,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 827
+    }
+   ],
    "km_hopital": 1.8,
    "lat": 43.488,
    "lon": -1.469,
@@ -1628,6 +1802,12 @@
    "derniere_vue": "2026-09-05",
    "ecart_prix_pct": -43,
    "etiquette_prix": "bon prix",
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 1700
+    }
+   ],
    "km_hopital": 2.1,
    "lat": 43.4929,
    "lon": -1.4748,
@@ -1660,6 +1840,12 @@
    "derniere_vue": "2026-09-05",
    "ecart_prix_pct": -19,
    "etiquette_prix": "bon prix",
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 1235
+    }
+   ],
    "km_hopital": 2.1,
    "lat": 43.4929,
    "lon": -1.4748,
@@ -1692,6 +1878,12 @@
    "derniere_vue": "2026-09-05",
    "ecart_prix_pct": 0,
    "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 1260
+    }
+   ],
    "km_hopital": 2.1,
    "lat": 43.4929,
    "lon": -1.4748,
@@ -1789,6 +1981,12 @@
    "classement": "exclu",
    "contexte": "650 € par mois Location Location Appartement 1 pièce 26,56 m 2 Anglet - Chambre d'Amour Favoris Message",
    "derniere_vue": "2026-09-05",
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 650
+    }
+   ],
    "km_hopital": 7.4,
    "lat": 43.4948,
    "lon": -1.547,
@@ -1817,6 +2015,12 @@
    "classement": "exclu",
    "contexte": "700 € par mois Location Location Appartement 2 pièces 42,78 m 2 Anglet - Chambre d'Amour Favoris Message",
    "derniere_vue": "2026-09-05",
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 700
+    }
+   ],
    "km_hopital": 7.4,
    "lat": 43.4948,
    "lon": -1.547,
@@ -1845,6 +2049,12 @@
    "classement": "exclu",
    "contexte": "Exclusivité Vidéo 685 € par mois Location Location Appartement 2 pièces 42 m 2 Anglet - Chambre d'Amour Favoris Message",
    "derniere_vue": "2026-09-05",
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 685
+    }
+   ],
    "km_hopital": 7.4,
    "lat": 43.4948,
    "lon": -1.547,
@@ -1873,6 +2083,12 @@
    "classement": "exclu",
    "contexte": "Vidéo 667 € par mois Location Location Appartement 2 pièces 46,41 m 2 Anglet - Chambre d'Amour Favoris Message",
    "derniere_vue": "2026-09-05",
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 667
+    }
+   ],
    "km_hopital": 7.4,
    "lat": 43.4948,
    "lon": -1.547,
@@ -1908,6 +2124,12 @@
    "ecart_prix_pct": 0,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 1210
+    }
+   ],
    "km_hopital": 3.4,
    "lat": 43.4756,
    "lon": -1.5127,
@@ -1952,6 +2174,12 @@
    "ecart_prix_pct": -24,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 1050
+    }
+   ],
    "km_hopital": 1.2,
    "lat": 43.483,
    "lon": -1.47,
@@ -1982,6 +2210,12 @@
    "classement": "exclu",
    "contexte": "3 600 € par mois Location Location Appartement 4 pièces 127,55 m 2 Biarritz - Milady - Colline - Beaurivage Favoris Message",
    "derniere_vue": "2026-09-05",
+   "historique_prix": [
+    {
+     "date": "2026-09-04",
+     "prix": 3600
+    }
+   ],
    "km_hopital": 9.3,
    "lat": 43.476,
    "lon": -1.569,
@@ -2243,6 +2477,12 @@
   {
    "actives": 69,
    "agences_ok": 17,
+   "date": "2026-09-05",
+   "nouveautes": 0
+  },
+  {
+   "actives": 69,
+   "agences_ok": 16,
    "date": "2026-09-05",
    "nouveautes": 0
   }
