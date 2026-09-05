@@ -535,13 +535,18 @@ def geolocaliser(annonce, lieux):
     """Attribue lat/lon : quartier cité dans le texte, sinon ville de l'agence."""
     if not lieux:
         return
-    texte = " ".join(str(annonce.get(k) or "") for k in ("titre", "contexte")).lower()
-    texte += " " + (annonce.get("description") or "")[:800].lower()
-    texte = texte.replace("’", "'")
-    for nom, (lat, lon) in (lieux.get("quartiers") or {}).items():
-        if nom in texte:
-            annonce["lat"], annonce["lon"], annonce["position"] = lat, lon, f"quartier {nom.title()}"
-            return
+    def nettoie(t):
+        t = t.lower().replace("’", "'")
+        return re.sub(r"s(?:ain)?t[ -]jean[ -]de[ -]luz", "sjdl", t)   # évite que "saint-jean" attrape Saint-Jean-de-Luz
+    zone_forte = nettoie(" ".join(str(annonce.get(k) or "") for k in ("titre", "contexte")))
+    zone_faible = nettoie((annonce.get("description") or "")[:600])
+    quartiers = sorted((lieux.get("quartiers") or {}).items(), key=lambda kv: -len(kv[0]))  # noms longs d'abord
+    for zone in (zone_forte, zone_faible):
+        for nom, (lat, lon) in quartiers:
+            if nom in zone:
+                annonce["lat"], annonce["lon"], annonce["position"] = lat, lon, f"quartier {nom.title()}"
+                return
+    texte = zone_forte + " " + zone_faible
     ville = annonce.get("ville_agence")
     for v in (lieux.get("villes") or {}):
         if re.search(r"(?<![a-zà-ÿ])" + v.lower() + r"(?![a-zà-ÿ])", texte):
