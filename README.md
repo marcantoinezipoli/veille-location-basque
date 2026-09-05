@@ -51,6 +51,20 @@ Résultat : le rapport se met à jour seul chaque matin, à une adresse du type
 
 Ensuite, ouvrir l'adresse GitHub Pages chaque matin (l'ajouter à l'écran d'accueil du téléphone).
 
+## Ce que contient le rapport (docs/index.html)
+
+- Onglets **Nouveau / ♥ Coups de cœur / Tout / 🗺 Carte / Écartées**, filtre par ville.
+- Chaque annonce : photo, loyer, T3 / chambres / m² / DPE, loyer au m² comparé à la médiane de la ville
+  (« bon prix » ≤ −10 %, « au-dessus du marché » ≥ +15 %), temps estimé jusqu'au CH Côte Basque,
+  mots-clés positifs et négatifs, puis boutons **Voir l'annonce**, **📞 appeler**, **✉️ e-mail pré-rédigé**
+  (texte dans le bloc `contact` de `agences.json`), **📋 copier le message**, et suivi
+  **Vu / Contacté / Visite / Non** mémorisé sur l'appareil.
+- **Carte** : repères OpenStreetMap avec le loyer, placés sur le quartier cité dans l'annonce
+  (table `lieux.quartiers`), sinon sur la ville. Position approximative par nature.
+- **Baisses de loyer** : une annonce déjà vue dont le loyer baisse d'au moins 3 % remonte en « Nouveau »
+  avec un badge bleu.
+- **Tendances 7 jours** en bas de page, et dans l'e-mail du lundi.
+
 ## Recevoir le rapport par e-mail chaque matin
 
 Le script envoie un digest (nouveautés + meilleures annonces en ligne) via Gmail si trois secrets

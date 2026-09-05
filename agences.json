@@ -426,5 +426,226 @@
    "loyer_1900_moins": 1
   }
  },
- "_sources_en_javascript": "Non lisibles par le script (annonces chargées en JavaScript ou site protégé) : Foncia, Laforêt, Human Immobilier, Guy Hoquet, Cabinet de Lesseps, Adour Gestion, Superimmo. Utiliser leurs alertes e-mail."
+ "_sources_en_javascript": "Non lisibles par le script (annonces chargées en JavaScript ou site protégé) : Foncia, Laforêt, Human Immobilier, Guy Hoquet, Cabinet de Lesseps, Adour Gestion, Superimmo. Utiliser leurs alertes e-mail.",
+ "lieux": {
+  "_aide": "Coordonnées approximatives (latitude, longitude) pour placer les annonces sur la carte : quartiers cités dans le texte, sinon ville de l'agence. hopital = Centre Hospitalier de la Côte Basque.",
+  "hopital": {
+   "nom": "CH Côte Basque (Bayonne)",
+   "lat": 43.4787,
+   "lon": -1.4803
+  },
+  "villes": {
+   "Anglet": [
+    43.4855,
+    -1.5185
+   ],
+   "Biarritz": [
+    43.4832,
+    -1.5586
+   ],
+   "Bidart": [
+    43.437,
+    -1.5915
+   ],
+   "Bayonne": [
+    43.4929,
+    -1.4748
+   ]
+  },
+  "quartiers": {
+   "cinq cantons": [
+    43.4836,
+    -1.5205
+   ],
+   "5 cantons": [
+    43.4836,
+    -1.5205
+   ],
+   "chambre d'amour": [
+    43.4948,
+    -1.547
+   ],
+   "chambre d amour": [
+    43.4948,
+    -1.547
+   ],
+   "chiberta": [
+    43.509,
+    -1.533
+   ],
+   "montbrun": [
+    43.4756,
+    -1.5127
+   ],
+   "blancpignon": [
+    43.4848,
+    -1.5054
+   ],
+   "sutar": [
+    43.4757,
+    -1.494
+   ],
+   "saint-jean": [
+    43.4789,
+    -1.5297
+   ],
+   "st jean": [
+    43.4789,
+    -1.5297
+   ],
+   "la barre": [
+    43.524,
+    -1.523
+   ],
+   "el hogar": [
+    43.49,
+    -1.53
+   ],
+   "saint-charles": [
+    43.484,
+    -1.5515
+   ],
+   "st charles": [
+    43.484,
+    -1.5515
+   ],
+   "saint-martin": [
+    43.4778,
+    -1.5505
+   ],
+   "st martin": [
+    43.4778,
+    -1.5505
+   ],
+   "aguilera": [
+    43.4735,
+    -1.548
+   ],
+   "parme": [
+    43.4715,
+    -1.5305
+   ],
+   "lahouze": [
+    43.479,
+    -1.54
+   ],
+   "kennedy": [
+    43.476,
+    -1.541
+   ],
+   "milady": [
+    43.47,
+    -1.5735
+   ],
+   "mouriscot": [
+    43.465,
+    -1.554
+   ],
+   "hyper centre": [
+    43.4832,
+    -1.5586
+   ],
+   "halles": [
+    43.482,
+    -1.559
+   ],
+   "grande plage": [
+    43.485,
+    -1.56
+   ],
+   "côte des basques": [
+    43.479,
+    -1.568
+   ],
+   "beaurivage": [
+    43.476,
+    -1.569
+   ],
+   "la négresse": [
+    43.468,
+    -1.543
+   ],
+   "negresse": [
+    43.468,
+    -1.543
+   ],
+   "saint-léon": [
+    43.483,
+    -1.47
+   ],
+   "st léon": [
+    43.483,
+    -1.47
+   ],
+   "saint leon": [
+    43.483,
+    -1.47
+   ],
+   "marracq": [
+    43.4855,
+    -1.4805
+   ],
+   "saint-esprit": [
+    43.497,
+    -1.47
+   ],
+   "st esprit": [
+    43.497,
+    -1.47
+   ],
+   "petit bayonne": [
+    43.4915,
+    -1.472
+   ],
+   "grand bayonne": [
+    43.4925,
+    -1.476
+   ],
+   "beyris": [
+    43.478,
+    -1.465
+   ],
+   "arènes": [
+    43.489,
+    -1.479
+   ],
+   "arenes": [
+    43.489,
+    -1.479
+   ],
+   "mousserolles": [
+    43.488,
+    -1.469
+   ],
+   "lauga": [
+    43.47,
+    -1.476
+   ],
+   "sainte-croix": [
+    43.501,
+    -1.478
+   ],
+   "ilbarritz": [
+    43.456,
+    -1.582
+   ],
+   "erretegia": [
+    43.44,
+    -1.596
+   ],
+   "uhabia": [
+    43.432,
+    -1.59
+   ],
+   "bidart centre": [
+    43.437,
+    -1.5915
+   ]
+  }
+ },
+ "contact": {
+  "_aide": "Texte de l'e-mail pré-rédigé ouvert par le bouton Contacter. {titre}, {agence}, {url} sont remplacés automatiquement. Compléter les [crochets].",
+  "sujet": "Candidature location — {titre}",
+  "corps": "Bonjour,\n\nNous sommes très intéressés par votre annonce « {titre} » ({url}).\n\nNous sommes un couple de professionnels de santé qui s'installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l'année, deux chambres minimum, pour une entrée en octobre-novembre.\n\nNotre dossier est complet (contrats, bulletins de salaire, avis d'imposition, pièces d'identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.\n\nPourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?\n\nBien cordialement,\nMarc-Antoine Zipoli et Léa Mathieux\n[téléphone]"
+ }
 }
