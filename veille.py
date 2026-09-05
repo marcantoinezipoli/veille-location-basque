@@ -565,14 +565,50 @@ def haversine_km(lat1, lon1, lat2, lon2):
     return 2 * r * math.asin(math.sqrt(a))
 
 
+_CACHE_ITINERAIRES = {}
+
+
+def itineraire_osrm(lat1, lon1, lat2, lon2):
+    """Itinéraire routier réel via le serveur public OSRM. Retourne (km, minutes_voiture) ou None."""
+    cle = (round(lat1, 4), round(lon1, 4), round(lat2, 4), round(lon2, 4))
+    if cle in _CACHE_ITINERAIRES:
+        return _CACHE_ITINERAIRES[cle]
+    url = f"https://router.project-osrm.org/route/v1/driving/{lon1},{lat1};{lon2},{lat2}?overview=false"
+    res = None
+    try:
+        r = requests.get(url, headers={"User-Agent": UA}, timeout=15)
+        if r.status_code == 200:
+            d = r.json()
+            if d.get("code") == "Ok" and d.get("routes"):
+                rt = d["routes"][0]
+                res = (round(rt["distance"] / 1000, 1), max(2, round(rt["duration"] / 60)))
+    except (requests.RequestException, ValueError, KeyError):
+        res = None
+    _CACHE_ITINERAIRES[cle] = res
+    return res
+
+
 def distances_hopital(annonce, lieux):
     h = (lieux or {}).get("hopital")
     if not h or annonce.get("lat") is None:
         return
-    km = haversine_km(annonce["lat"], annonce["lon"], h["lat"], h["lon"]) * 1.3   # facteur route
-    annonce["km_hopital"] = round(km, 1)
-    annonce["min_velo"] = max(3, round(km / 15 * 60))
-    annonce["min_voiture"] = max(3, round(km / 28 * 60))
+    cle_pos = f"{round(annonce['lat'], 4)},{round(annonce['lon'], 4)}"
+    if annonce.get("itineraire_pos") == cle_pos and annonce.get("km_hopital") is not None and annonce.get("itineraire_source") == "route":
+        return   # déjà calculé pour cette position
+    reel = itineraire_osrm(annonce["lat"], annonce["lon"], h["lat"], h["lon"])
+    if reel:
+        km, min_voiture = reel
+        annonce["km_hopital"] = km
+        annonce["min_voiture"] = min_voiture
+        annonce["min_velo"] = max(3, round(km / 15 * 60))
+        annonce["itineraire_source"] = "route"
+    else:
+        km = haversine_km(annonce["lat"], annonce["lon"], h["lat"], h["lon"]) * 1.3
+        annonce["km_hopital"] = round(km, 1)
+        annonce["min_velo"] = max(3, round(km / 15 * 60))
+        annonce["min_voiture"] = max(3, round(km / 28 * 60))
+        annonce["itineraire_source"] = "estimation"
+    annonce["itineraire_pos"] = cle_pos
 
 
 def mediane(vals):
@@ -846,26 +882,38 @@ def ligne_historique_prix(a):
 def ligne_distance(a):
     if a.get("km_hopital") is None:
         return ""
-    return f"🏥 CH Côte Basque : ~{a['min_velo']} min à vélo · ~{a['min_voiture']} min en voiture ({a['km_hopital']} km)"
+    src = "par la route" if a.get("itineraire_source") == "route" else "estimation"
+    return f"CH Côte Basque : {a['min_velo']} min à vélo · {a['min_voiture']} min en voiture · {a['km_hopital']} km ({src})"
 
 
-def carte_html(a, nouveau=False, seuil=5, contact=None):
+def lien_itineraire(a, lieux, mode="bicycling"):
+    h = (lieux or {}).get("hopital")
+    if not h or a.get("lat") is None:
+        return None
+    return f"https://www.google.com/maps/dir/?api=1&origin={a['lat']},{a['lon']}&destination={h['lat']},{h['lon']}&travelmode={mode}"
+
+
+def carte_html(a, nouveau=False, seuil=5, contact=None, lieux=None):
     cl = a.get("classement", "a_verifier")
     score = a.get("score") or 0
     coeur = score >= seuil and cl != "exclu"
     prix = prix_fmt(a.get("prix"))
-    pills = ""
+    faits = []
+    if a.get("type"):
+        faits.append(a["type"].capitalize())
     if a.get("pieces"):
-        pills += f'<span class="pill">T{a["pieces"]}</span>'
+        faits.append(f"T{a['pieces']}")
     if a.get("chambres"):
-        pills += f'<span class="pill">{a["chambres"]} ch.</span>'
+        faits.append(f"{a['chambres']} ch.")
     if a.get("surface"):
         sv = a["surface"]
-        pills += f'<span class="pill">{int(sv) if float(sv).is_integer() else sv} m²</span>'
+        faits.append(f"{int(sv) if float(sv).is_integer() else sv} m²")
+    if a.get("meuble"):
+        faits.append("Meublé")
+    ligne_faits = " · ".join(faits)
+    pills = ""
     if a.get("dpe"):
         pills += f'<span class="pill {classe_dpe(a["dpe"])}">DPE {a["dpe"]}</span>'
-    if a.get("meuble"):
-        pills += '<span class="pill">Meublé</span>'
     if a.get("etiquette_prix") and a.get("prix_m2"):
         cls_p = {"bon prix": "prix-bon", "au-dessus du marché": "prix-haut"}.get(a["etiquette_prix"], "prix-ok")
         signe = "+" if a.get("ecart_prix_pct", 0) > 0 else ""
@@ -880,8 +928,7 @@ def carte_html(a, nouveau=False, seuil=5, contact=None):
     atouts = "".join(f'<span class="chip plus">{esc(x)}</span>' for x in (a.get("atouts") or [])[:6])
     reserves = "".join(f'<span class="chip moins">{esc(x)}</span>' for x in (a.get("reserves") or [])[:4])
     photo = a.get("photo")
-    bloc_photo = (f'<div class="photo" style="background-image:url(\'{esc(photo)}\')"></div>' if photo
-                  else '<div class="photo vide"><span>Pas de photo</span></div>')
+    style_photo = f' style="background-image:url(\'{esc(photo)}\')"' if photo else ''
     badges = ""
     if a.get("evenement") == "baisse" and a.get("baisse"):
         b = a["baisse"]
@@ -894,104 +941,125 @@ def carte_html(a, nouveau=False, seuil=5, contact=None):
     ident = re.sub(r"[^a-z0-9]", "", a["url"].lower())[-40:]
     tel = a.get("tel")
     lien_mail = mailto(a, contact)
-    btn_tel = f'<a class="btn-sec" href="tel:{esc(tel_lien(tel))}">📞 {esc(tel_affiche(tel))}</a>' if tel else '<span class="btn-sec off">📞 n° sur la fiche</span>'
-    btn_mail = f'<a class="btn-sec" href="{esc(lien_mail)}">✉️ E-mail{"" if a.get("mail") else " (à compléter)"}</a>' if lien_mail else ""
+    btn_tel = f'<a class="ico" href="tel:{esc(tel_lien(tel))}"><span class="i">📞</span>Appeler</a>' if tel else '<span class="ico off"><span class="i">📞</span>N° sur la fiche</span>'
+    btn_mail = f'<a class="ico" href="{esc(lien_mail)}"><span class="i">✉️</span>E-mail</a>' if lien_mail else ""
     dist = ligne_distance(a)
+    lien_velo = lien_itineraire(a, lieux, "bicycling")
+    lien_auto = lien_itineraire(a, lieux, "driving")
     pos = a.get("position")
+    histo = ligne_historique_prix(a)
+    bloc_dist = ""
+    if dist:
+        liens = ""
+        if lien_velo:
+            liens = (f' <a href="{esc(lien_velo)}" target="_blank" rel="noopener">🚲 Itinéraire</a>'
+                     f' <a href="{esc(lien_auto)}" target="_blank" rel="noopener">🚗</a>')
+        bloc_dist = f'<p class="dist">🏥 {esc(dist)}{liens}</p>'
     return f"""
 <article class="carte {cl}{' coeur' if coeur else ''}{' nouveau' if nouveau else ''}" id="c-{ident}" data-id="{ident}" data-ville="{esc(ville)}" data-cl="{cl}" data-coeur="{1 if coeur else 0}" data-nouveau="{1 if nouveau else 0}">
-  <a class="lien" href="{esc(a['url'])}" target="_blank" rel="noopener">
-    {bloc_photo}
+  <a class="visuel{'' if photo else ' sans'}" href="{esc(a['url'])}" target="_blank" rel="noopener"{style_photo}>
     <div class="badges">{badges}</div>
-    <div class="corps">
-      <div class="ligne-prix"><span class="prix">{esc(prix) if prix else '<span class="prix-inconnu">Loyer non lu</span>'}</span>{'<span class="par-mois">/ mois</span>' if prix else ''}<span class="score {'pos' if score > 0 else 'neg' if score < 0 else ''}">{score:+d}</span></div>
-      <h3 class="titre">{esc(nettoyer_titre(a))}</h3>
-      <div class="pills">{pills}</div>
-      <div class="agence">{esc(a['agence'])} · {esc(ville)}{f' · {esc(pos)}' if pos else ''} · vu le {esc(date_courte(a.get('premiere_vue')))}</div>
-      {f'<div class="dist">{esc(dist)}</div>' if dist else ''}
-      {f'<div class="histo">📉 {esc(ligne_historique_prix(a))}</div>' if ligne_historique_prix(a) else ''}
-      {f'<div class="chips">{atouts}{reserves}</div>' if atouts or reserves else ''}
-    </div>
+    <span class="score {'pos' if score > 0 else 'neg' if score < 0 else ''}">{score:+d}</span>
+    <div class="voile"></div>
+    <div class="prix-sur-photo">{f'<span class="prix">{esc(prix)}</span><span class="par-mois">/ mois</span>' if prix else '<span class="prix-inconnu">Loyer non lu</span>'}</div>
   </a>
-  <div class="actions">
-    <a class="btn" href="{esc(a['url'])}" target="_blank" rel="noopener">Voir l’annonce →</a>
-    <div class="contact">{btn_tel}{btn_mail}<button class="btn-sec copier" data-msg="{esc(texte_message(a, contact))}">📋 Copier le message</button></div>
-    <div class="suivi" data-id="{ident}">
-      <button data-etat="vu">👁 Vu</button><button data-etat="contacte">📨 Contacté</button><button data-etat="visite">📅 Visite</button><button data-etat="non">✕ Non</button>
+  <div class="corps">
+    <a class="titre" href="{esc(a['url'])}" target="_blank" rel="noopener">{esc(nettoyer_titre(a))}</a>
+    {f'<p class="faits">{esc(ligne_faits)}</p>' if ligne_faits else ''}
+    {f'<div class="pills">{pills}</div>' if pills else ''}
+    <p class="agence">{esc(a['agence'])} · {esc(ville)}{f' · {esc(pos)}' if pos else ''} · vu le {esc(date_courte(a.get('premiere_vue')))}</p>
+    {bloc_dist}
+    {f'<p class="histo">📉 {esc(histo)}</p>' if histo else ''}
+    {f'<div class="chips">{atouts}{reserves}</div>' if atouts or reserves else ''}
+    <div class="actions">
+      <a class="btn" href="{esc(a['url'])}" target="_blank" rel="noopener">Voir l’annonce</a>
+      <div class="icos">{btn_tel}{btn_mail}<button class="ico copier" data-msg="{esc(texte_message(a, contact))}"><span class="i">📋</span>Copier</button></div>
+      <div class="suivi" data-id="{ident}">
+        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
+      </div>
     </div>
   </div>
 </article>"""
 
 
 CSS_RAPPORT = """
-:root { --encre:#1b1f1a; --papier:#f4f2ec; --carte:#ffffff; --vert:#1e5a3c; --vert-clair:#e4efe8; --rouge:#b5121b;
-        --or:#c9a227; --bleu:#1f5f8b; --gris:#6b6f66; --gris-clair:#e6e3da; --ombre:0 1px 2px rgba(0,0,0,.06), 0 6px 18px rgba(0,0,0,.06); }
+:root { --encre:#222222; --texte2:#6a6a6a; --fond:#ffffff; --fond2:#f7f7f7; --ligne:#ebebeb; --noir:#222222;
+        --vert:#008a5c; --vert-clair:#e7f6ef; --rouge:#e5484d; --or:#d9a300; --bleu:#2c7be5; --orange:#c2410c;
+        --ombre:0 1px 2px rgba(0,0,0,.05), 0 8px 24px rgba(0,0,0,.08); --rayon:20px; }
 * { box-sizing:border-box; }
-body { margin:0; background:var(--papier); color:var(--encre); font:16px/1.4 -apple-system, "Helvetica Neue", Arial, sans-serif; -webkit-text-size-adjust:100%; }
-header { background:var(--vert); color:#fff; padding:14px 16px 10px; }
-header h1 { margin:0; font-size:1.1rem; font-weight:700; }
-header .sous { margin:3px 0 0; font-size:.82rem; opacity:.85; }
-.onglets { position:sticky; top:0; z-index:500; display:flex; gap:6px; padding:10px 12px; background:var(--papier); border-bottom:1px solid var(--gris-clair); overflow-x:auto; }
-.onglets button { flex:0 0 auto; border:1px solid var(--gris-clair); background:#fff; color:var(--encre); border-radius:20px; padding:7px 12px; font-size:.88rem; font-weight:600; cursor:pointer; }
-.onglets button.actif { background:var(--vert); color:#fff; border-color:var(--vert); }
-.onglets button .n { font-weight:400; opacity:.75; margin-left:4px; }
-.filtres-villes { display:flex; gap:6px; padding:8px 12px 0; flex-wrap:wrap; }
-.filtres-villes button { border:1px solid var(--gris-clair); background:transparent; border-radius:14px; padding:4px 10px; font-size:.8rem; color:var(--gris); cursor:pointer; }
-.filtres-villes button.actif { color:var(--vert); border-color:var(--vert); background:var(--vert-clair); }
-main { max-width:760px; margin:0 auto; padding:10px 12px 60px; }
-.vide-msg { display:none; text-align:center; color:var(--gris); padding:40px 16px; font-size:.95rem; }
-.grille { display:grid; grid-template-columns:1fr; gap:14px; }
-@media (min-width:640px) { .grille { grid-template-columns:1fr 1fr; } }
-.carte { background:var(--carte); border-radius:14px; overflow:hidden; box-shadow:var(--ombre); position:relative; border-left:5px solid transparent; }
-.carte.s-vu { border-left-color:#b8b5aa; } .carte.s-contacte { border-left-color:var(--bleu); } .carte.s-visite { border-left-color:var(--or); } .carte.s-non { opacity:.5; }
-.carte .lien { color:inherit; text-decoration:none; display:block; }
-.carte .photo { height:170px; background:#dcd8cd center/cover no-repeat; }
-.carte .photo.vide { display:flex; align-items:center; justify-content:center; color:#9a978e; font-size:.85rem; background:repeating-linear-gradient(45deg,#e6e3da 0 10px,#ece9e0 10px 20px); }
-.carte .badges { position:absolute; top:10px; left:14px; display:flex; gap:6px; }
-.badge { font-size:.72rem; font-weight:700; letter-spacing:.03em; text-transform:uppercase; padding:4px 8px; border-radius:6px; color:#fff; }
-.badge.nouveau { background:var(--rouge); } .badge.coeur { background:var(--or); color:#2b2300; } .badge.baisse { background:var(--bleu); }
-.carte .corps { padding:12px 14px 6px; }
-.ligne-prix { display:flex; align-items:baseline; gap:6px; }
-.prix { font-size:1.5rem; font-weight:800; color:var(--vert); }
-.prix-inconnu { font-size:1rem; font-weight:600; color:var(--gris); }
-.par-mois { font-size:.85rem; color:var(--gris); }
-.score { margin-left:auto; font-size:.8rem; font-weight:700; padding:2px 8px; border-radius:10px; background:var(--gris-clair); color:var(--gris); }
-.score.pos { background:var(--vert-clair); color:var(--vert); } .score.neg { background:#f3e4e4; color:#8a2a2e; }
-.carte .titre { margin:6px 0 8px; font-size:1rem; font-weight:600; line-height:1.3; }
-.pills { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:8px; }
-.pill { font-size:.8rem; font-weight:600; padding:3px 9px; border-radius:8px; background:#f0eee7; color:var(--encre); }
-.pill.dpe-ab { background:#d5efd9; color:#145a2a; } .pill.dpe-c { background:#e6f2c9; color:#3f5a11; }
-.pill.dpe-d { background:#fff1c2; color:#6b5200; } .pill.dpe-e { background:#ffdfc2; color:#7a3d00; } .pill.dpe-fg { background:#ffd0d0; color:#7a1a1a; }
-.pill.prix-bon { background:#d5efd9; color:#145a2a; } .pill.prix-ok { background:#f0eee7; color:var(--gris); font-weight:500; } .pill.prix-haut { background:#ffdfc2; color:#7a3d00; }
-.pill.incertain { background:#fff7dc; color:#6b5200; font-weight:500; } .pill.exclu { background:#f3e4e4; color:#8a2a2e; font-weight:500; }
-.agence { font-size:.8rem; color:var(--gris); margin-bottom:6px; }
-.dist { font-size:.8rem; color:var(--encre); margin-bottom:6px; }
-.histo { font-size:.8rem; color:var(--bleu); font-weight:600; margin-bottom:6px; }
-.pill.longue { background:#fff1c2; color:#6b5200; }
-.chips { display:flex; flex-wrap:wrap; gap:4px; margin-bottom:6px; }
-.chip { font-size:.74rem; padding:2px 8px; border-radius:10px; border:1px solid var(--gris-clair); color:var(--gris); }
-.chip.plus { background:var(--vert-clair); border-color:#bfd6c8; color:var(--vert); } .chip.moins { background:#f7ecec; border-color:#e0c8c8; color:#8a2a2e; }
-.actions { padding:6px 14px 12px; }
-.btn { display:block; text-align:center; background:var(--vert); color:#fff; font-weight:700; padding:10px; border-radius:10px; font-size:.95rem; text-decoration:none; }
-.contact { display:flex; gap:6px; margin-top:8px; flex-wrap:wrap; }
-.btn-sec { flex:1 1 auto; text-align:center; border:1px solid var(--gris-clair); background:#fff; color:var(--encre); border-radius:9px; padding:8px 6px; font-size:.82rem; font-weight:600; text-decoration:none; cursor:pointer; white-space:nowrap; }
-.btn-sec.off { color:#9a978e; cursor:default; }
-.suivi { display:flex; gap:5px; margin-top:8px; }
-.suivi button { flex:1; border:1px solid var(--gris-clair); background:#faf9f5; color:var(--gris); border-radius:8px; padding:6px 2px; font-size:.75rem; cursor:pointer; }
-.suivi button.actif { background:var(--encre); color:#fff; border-color:var(--encre); }
-.carte.exclu .btn { background:#8e938b; } .carte.exclu .prix { color:var(--gris); }
-#carte-map { height:70vh; min-height:380px; border-radius:14px; overflow:hidden; box-shadow:var(--ombre); display:none; margin-top:4px; }
-.prix-marker { background:var(--vert); color:#fff; font-weight:700; font-size:.78rem; padding:3px 7px; border-radius:8px; white-space:nowrap; box-shadow:0 1px 4px rgba(0,0,0,.3); border:2px solid #fff; }
-.prix-marker.coeur { background:var(--or); color:#2b2300; } .prix-marker.hopital { background:var(--rouge); }
-.leaflet-popup-content { font:14px/1.35 -apple-system, Arial, sans-serif; margin:10px 12px; }
-.leaflet-popup-content a { color:var(--vert); font-weight:700; }
-details.bloc { margin-top:24px; font-size:.85rem; background:#fff; border-radius:12px; padding:4px 12px; box-shadow:var(--ombre); }
-details.bloc summary { cursor:pointer; padding:8px 0; font-weight:600; }
+html { scroll-behavior:smooth; }
+body { margin:0; background:var(--fond); color:var(--encre); font:16px/1.45 "Inter", -apple-system, "Helvetica Neue", Arial, sans-serif; -webkit-text-size-adjust:100%; -webkit-font-smoothing:antialiased; }
+a { color:inherit; }
+header { padding:26px 20px 8px; max-width:640px; margin:0 auto; }
+header h1 { margin:0; font-size:1.55rem; font-weight:700; letter-spacing:-.02em; }
+header .sous { margin:6px 0 0; font-size:.9rem; color:var(--texte2); }
+.onglets { position:sticky; top:0; z-index:500; background:rgba(255,255,255,.88); backdrop-filter:saturate(180%) blur(12px); -webkit-backdrop-filter:saturate(180%) blur(12px); border-bottom:1px solid var(--ligne); }
+.onglets-int { display:flex; gap:8px; padding:12px 16px; overflow-x:auto; max-width:640px; margin:0 auto; scrollbar-width:none; }
+.onglets-int::-webkit-scrollbar { display:none; }
+.onglets button { flex:0 0 auto; border:1px solid var(--ligne); background:#fff; color:var(--encre); border-radius:999px; padding:9px 15px; font:inherit; font-size:.9rem; font-weight:600; cursor:pointer; transition:all .15s; }
+.onglets button.actif { background:var(--noir); color:#fff; border-color:var(--noir); }
+.onglets button .n { font-weight:500; opacity:.6; margin-left:5px; }
+.filtres-villes { display:flex; gap:6px; padding:12px 16px 0; flex-wrap:wrap; max-width:640px; margin:0 auto; }
+.filtres-villes button { border:1px solid var(--ligne); background:transparent; border-radius:999px; padding:5px 12px; font:inherit; font-size:.82rem; color:var(--texte2); cursor:pointer; }
+.filtres-villes button.actif { color:var(--encre); border-color:var(--encre); }
+main { max-width:640px; margin:0 auto; padding:14px 16px 80px; }
+.vide-msg { display:none; text-align:center; color:var(--texte2); padding:60px 16px; font-size:.95rem; }
+.grille { display:grid; grid-template-columns:1fr; gap:28px; }
+.carte { border-radius:var(--rayon); background:#fff; overflow:hidden; box-shadow:var(--ombre); border-left:0; position:relative; transition:transform .15s; }
+.carte.s-non { opacity:.45; }
+.visuel { display:block; position:relative; height:260px; background:#e9e7e2 center/cover no-repeat; text-decoration:none; }
+@media (min-width:640px) { .visuel { height:320px; } }
+.visuel.sans { background:linear-gradient(135deg,#f1efe9,#e3e0d8); }
+.visuel .voile { position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(to top, rgba(0,0,0,.72) 0%, rgba(0,0,0,.25) 40%, rgba(0,0,0,0) 65%); }
+.badges { position:absolute; top:14px; left:14px; display:flex; gap:6px; z-index:2; }
+.badge { font-size:.72rem; font-weight:700; letter-spacing:.02em; padding:6px 10px; border-radius:999px; background:#fff; color:var(--encre); box-shadow:0 1px 3px rgba(0,0,0,.2); }
+.badge.nouveau { background:var(--rouge); color:#fff; } .badge.coeur { background:#fff; color:#8a6500; } .badge.baisse { background:var(--bleu); color:#fff; }
+.score { position:absolute; top:14px; right:14px; z-index:2; font-size:.75rem; font-weight:700; padding:5px 9px; border-radius:999px; background:rgba(255,255,255,.92); color:var(--texte2); }
+.score.pos { color:var(--vert); } .score.neg { color:var(--rouge); }
+.prix-sur-photo { position:absolute; left:18px; bottom:16px; z-index:2; color:#fff; display:flex; align-items:baseline; gap:6px; text-shadow:0 1px 6px rgba(0,0,0,.35); }
+.prix-sur-photo .prix { font-size:2rem; font-weight:800; letter-spacing:-.02em; }
+.prix-sur-photo .par-mois { font-size:.95rem; opacity:.9; }
+.prix-inconnu { font-size:1.05rem; font-weight:600; opacity:.9; }
+.corps { padding:16px 18px 18px; }
+.titre { display:block; font-size:1.12rem; font-weight:600; line-height:1.3; text-decoration:none; letter-spacing:-.01em; }
+.faits { margin:6px 0 0; font-size:.95rem; color:var(--texte2); }
+.pills { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+.pill { font-size:.78rem; font-weight:600; padding:4px 10px; border-radius:999px; background:var(--fond2); color:var(--encre); }
+.pill.dpe-ab { background:#dcf3e6; color:#0f6a3f; } .pill.dpe-c { background:#e6f2c9; color:#3f5a11; }
+.pill.dpe-d { background:#fff1c2; color:#6b5200; } .pill.dpe-e { background:#ffe1c9; color:#8a3d00; } .pill.dpe-fg { background:#ffd6d6; color:#8a1a1a; }
+.pill.prix-bon { background:var(--vert-clair); color:var(--vert); } .pill.prix-ok { color:var(--texte2); font-weight:500; } .pill.prix-haut { background:#ffe1c9; color:#8a3d00; }
+.pill.longue { background:#fff1c2; color:#6b5200; } .pill.incertain { background:#fff7dc; color:#6b5200; font-weight:500; } .pill.exclu { background:#ffe3e3; color:#8a1a1a; font-weight:500; }
+.agence { margin:12px 0 0; font-size:.82rem; color:var(--texte2); }
+.dist { margin:6px 0 0; font-size:.85rem; color:var(--encre); }
+.dist a { color:var(--bleu); text-decoration:none; font-weight:600; margin-left:6px; }
+.histo { margin:6px 0 0; font-size:.85rem; color:var(--bleu); font-weight:600; }
+.chips { display:flex; flex-wrap:wrap; gap:5px; margin-top:12px; }
+.chip { font-size:.76rem; padding:3px 9px; border-radius:999px; border:1px solid var(--ligne); color:var(--texte2); }
+.chip.plus { background:var(--vert-clair); border-color:transparent; color:var(--vert); } .chip.moins { background:#fff0f0; border-color:transparent; color:#b42323; }
+.actions { margin-top:16px; }
+.btn { display:block; text-align:center; background:var(--noir); color:#fff; font-weight:700; padding:13px; border-radius:12px; font-size:.98rem; text-decoration:none; transition:transform .1s; }
+.btn:active { transform:scale(.98); }
+.icos { display:flex; gap:8px; margin-top:10px; }
+.ico { flex:1; display:flex; flex-direction:column; align-items:center; gap:2px; border:1px solid var(--ligne); background:#fff; color:var(--encre); border-radius:12px; padding:9px 4px; font:inherit; font-size:.78rem; font-weight:600; text-decoration:none; cursor:pointer; }
+.ico .i { font-size:1.05rem; } .ico.off { color:#b0b0b0; cursor:default; }
+.suivi { display:flex; gap:0; margin-top:10px; border:1px solid var(--ligne); border-radius:12px; overflow:hidden; }
+.suivi button { flex:1; border:0; border-right:1px solid var(--ligne); background:#fff; color:var(--texte2); padding:8px 2px; font:inherit; font-size:.78rem; font-weight:600; cursor:pointer; }
+.suivi button:last-child { border-right:0; }
+.suivi button.actif { background:var(--noir); color:#fff; }
+.carte.s-visite .suivi button.actif { background:var(--or); color:#2b2300; } .carte.s-contacte .suivi button.actif { background:var(--bleu); }
+.carte.exclu .btn { background:#9a9a9a; }
+#carte-map { height:72vh; min-height:420px; border-radius:var(--rayon); overflow:hidden; box-shadow:var(--ombre); display:none; }
+.prix-marker { background:#fff; color:var(--encre); font-weight:700; font-size:.8rem; padding:5px 9px; border-radius:999px; white-space:nowrap; box-shadow:0 2px 8px rgba(0,0,0,.25); border:1px solid rgba(0,0,0,.08); }
+.prix-marker.coeur { background:var(--noir); color:#fff; } .prix-marker.hopital { background:var(--rouge); color:#fff; }
+.leaflet-popup-content-wrapper { border-radius:14px; } .leaflet-popup-content { font:14px/1.4 "Inter", -apple-system, Arial, sans-serif; margin:12px 14px; }
+.leaflet-popup-content a { color:var(--encre); font-weight:700; }
+details.bloc { margin-top:28px; font-size:.88rem; border:1px solid var(--ligne); border-radius:16px; padding:6px 16px; }
+details.bloc summary { cursor:pointer; padding:10px 0; font-weight:600; }
 table { width:100%; border-collapse:collapse; }
-td { border-top:1px solid var(--gris-clair); padding:6px 4px; vertical-align:top; }
+td { border-top:1px solid var(--ligne); padding:7px 4px; vertical-align:top; }
 tr.ok td:first-child { color:var(--vert); } tr.vide td:first-child, tr.erreur td:first-child { color:var(--rouge); }
-.toast { position:fixed; bottom:20px; left:50%; transform:translateX(-50%); background:var(--encre); color:#fff; padding:10px 16px; border-radius:20px; font-size:.85rem; display:none; z-index:999; }
-footer { font-size:.78rem; color:var(--gris); margin-top:24px; line-height:1.5; }
+.toast { position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--noir); color:#fff; padding:11px 18px; border-radius:999px; font-size:.88rem; display:none; z-index:999; box-shadow:var(--ombre); }
+footer { font-size:.78rem; color:var(--texte2); margin-top:28px; line-height:1.55; }
 """
 
 JS_RAPPORT = """
@@ -1069,7 +1137,7 @@ def generer_rapport(etat, nouveautes, rapports_agences, criteres, aujourdhui, ch
     actives = [a for a in etat["annonces"].values() if a["statut"] == "active"]
     actives.sort(key=lambda a: (ordre_cl[a.get("classement", "a_verifier")], -(a.get("score") or 0), a.get("premiere_vue", "")))
 
-    cartes = "".join(carte_html(a, a["url"] in urls_nouv, seuil, contact) for a in actives)
+    cartes = "".join(carte_html(a, a["url"] in urls_nouv, seuil, contact, lieux) for a in actives)
     n_nouv = sum(1 for a in nouveautes if a["classement"] != "exclu")
     n_coeur = sum(1 for a in actives if (a.get("score") or 0) >= seuil and a["classement"] != "exclu")
     n_tout = sum(1 for a in actives if a["classement"] != "exclu")
@@ -1109,22 +1177,23 @@ def generer_rapport(etat, nouveautes, rapports_agences, criteres, aujourdhui, ch
 <html lang="fr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Veille location Côte Basque — {esc(date_courte(aujourdhui))}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 <style>{CSS_RAPPORT}</style></head>
 <body>
 <header>
-  <h1>Veille location · Côte Basque</h1>
-  <p class="sous">{esc(date_courte(aujourdhui))} · {n_tout} annonces en ligne · {n_ok} agences lues</p>
-  <p class="sous">{esc(crit_txt)}</p>
+  <h1>Côte Basque · locations</h1>
+  <p class="sous">{esc(date_courte(aujourdhui))} · {n_tout} annonces en ligne · {n_ok} agences lues · {esc(crit_txt)}</p>
 </header>
-<nav class="onglets">
+<nav class="onglets"><div class="onglets-int">
   <button data-onglet="nouveau">Nouveau<span class="n">{n_nouv}</span></button>
   <button data-onglet="coeur">♥ Coups de cœur<span class="n">{n_coeur}</span></button>
   <button data-onglet="tout">Tout<span class="n">{n_tout}</span></button>
-  <button data-onglet="carte">🗺 Carte</button>
+  <button data-onglet="carte">Carte</button>
   <button data-onglet="ecartees">Écartées<span class="n">{n_exclu}</span></button>
-</nav>
+</div></nav>
 <div class="filtres-villes">{boutons_villes}</div>
 <main>
   <p id="vide-msg" class="vide-msg"></p>
@@ -1133,7 +1202,7 @@ def generer_rapport(etat, nouveautes, rapports_agences, criteres, aujourdhui, ch
   {bloc_tendances}
   <details class="bloc"><summary>État des {len(rapports_agences)} agences surveillées</summary><table>{lignes}</table></details>
   <footer>Score = mots-clés positifs (vert) et négatifs (rouge) lus dans l’annonce + bonus surface / loyer / DPE ; ♥ à partir de {seuil}.
-  Positions sur la carte approximatives (quartier cité, sinon ville de l’agence). Temps vers l’hôpital estimés à vol d’oiseau × 1,3.
+  Positions sur la carte approximatives (quartier cité, sinon ville de l’agence). Temps vers l’hôpital calculés par la route depuis ce point (OpenStreetMap) ; « estimation » si le calcul n’a pas pu être fait.
   Les boutons Vu / Contacté / Visite / Non sont mémorisés sur cet appareil. Annonces retirées des sites depuis {JOURS_AVANT_DISPARU} jours supprimées.
   Leboncoin, SeLoger, Bien’ici, Foncia, Laforêt ne sont pas lus ici : alertes e-mail + Jinka.</footer>
 </main>
@@ -1146,6 +1215,9 @@ def generer_rapport(etat, nouveautes, rapports_agences, criteres, aujourdhui, ch
 
 
 # --- E-mail ------------------------------------------------------------------------
+
+LIEUX_MAIL = {}
+
 
 def carte_mail(a, seuil=5, contact=None):
     """Version e-mail d'une carte : tableau + styles en ligne (les clients mail ignorent le CSS)."""
@@ -1175,6 +1247,9 @@ def carte_mail(a, seuil=5, contact=None):
     btns = ""
     if a.get("tel"):
         btns += f'<a href="tel:{esc(tel_lien(a["tel"]))}" style="display:inline-block;border:1px solid #cfcbc0;color:#1b1f1a;text-decoration:none;font-weight:600;padding:8px 12px;border-radius:8px;font-size:13px;margin:6px 6px 0 0">📞 {esc(tel_affiche(a["tel"]))}</a>'
+    lv = lien_itineraire(a, LIEUX_MAIL, "bicycling")
+    if lv:
+        btns += f'<a href="{esc(lv)}" style="display:inline-block;border:1px solid #cfcbc0;color:#1b1f1a;text-decoration:none;font-weight:600;padding:8px 12px;border-radius:8px;font-size:13px;margin:6px 6px 0 0">🚲 Itinéraire hôpital</a>'
     lm = mailto(a, contact)
     if lm:
         btns += f'<a href="{esc(lm)}" style="display:inline-block;border:1px solid #cfcbc0;color:#1b1f1a;text-decoration:none;font-weight:600;padding:8px 12px;border-radius:8px;font-size:13px;margin:6px 0 0">✉️ E-mail pré-rédigé</a>'
@@ -1293,6 +1368,8 @@ def main():
     scoring = config.get("scoring", {})
     contact = config.get("contact", {})
     lieux = config.get("lieux", {})
+    global LIEUX_MAIL
+    LIEUX_MAIL = lieux
     agences = config["agences"]
     if args.agence:
         agences = [a for a in agences if args.agence.lower() in a["nom"].lower()]
