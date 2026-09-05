@@ -65,6 +65,10 @@
    "min_voiture": 12,
    "photo": "https://www.olaizola.immo/office8/agenceolaizola/catalog/images/pr_web/4/9/1/1/7/9/1/5/49117915a.jpg.mid.jpg",
    "photo_cherchee": true,
+   "photos": [
+    "https://www.olaizola.immo/office8/agenceolaizola/catalog/images/pr_web/4/9/1/1/7/9/1/5/49117915a.jpg.mid.jpg"
+   ],
+   "photos_cherchees": true,
    "pieces": 4,
    "position": "quartier Mouriscot",
    "premiere_vue": "2026-09-04",
@@ -311,6 +315,12 @@
    "derniere_vue": "2026-09-05",
    "ecart_prix_pct": -10,
    "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-05",
+     "prix": 435
+    }
+   ],
    "itineraire_pos": "43.437,-1.5915",
    "itineraire_source": "route",
    "km_hopital": 12.6,
@@ -512,6 +522,19 @@
    "min_voiture": 13,
    "photo": "https://www.agence-benquet.com/wp-content/uploads/2026/08/ChatGPT-Image-3-aout-2026-15_41_51.png",
    "photo_cherchee": true,
+   "photos": [
+    "https://www.agence-benquet.com/wp-content/uploads/2026/08/ChatGPT-Image-3-aout-2026-15_41_51.png",
+    "https://www.agence-benquet.com/wp-content/uploads/2026/08/CUISINE.png",
+    "https://www.agence-benquet.com/wp-content/uploads/2026/08/ChatGPT-Image-3-aout-2026-15_31_10.png",
+    "https://www.agence-benquet.com/wp-content/uploads/2026/08/SEJOUR-1.png",
+    "https://www.agence-benquet.com/wp-content/uploads/2026/08/ChatGPT-Image-3-aout-2026-15_40_03.png",
+    "https://www.agence-benquet.com/wp-content/uploads/2026/08/ChatGPT-Image-3-aout-2026-15_32_07.png",
+    "https://www.agence-benquet.com/wp-content/uploads/2026/08/ChatGPT-Image-3-aout-2026-15_38_34.png",
+    "https://www.agence-benquet.com/wp-content/uploads/2026/08/ChatGPT-Image-3-aout-2026-15_33_36.png",
+    "https://www.agence-benquet.com/wp-content/uploads/2026/08/ChatGPT-Image-3-aout-2026-15_41_51-225x300.png",
+    "https://www.agence-benquet.com/wp-content/uploads/2026/08/CUISINE-300x225.png"
+   ],
+   "photos_cherchees": true,
    "pieces": 3,
    "position": "Biarritz (ville de l'agence)",
    "premiere_vue": "2026-09-04",
@@ -564,6 +587,19 @@
    "min_voiture": 13,
    "photo": "https://www.agence-benquet.com/wp-content/uploads/2021/02/IMG-20210222-WA0010.jpg",
    "photo_cherchee": true,
+   "photos": [
+    "https://www.agence-benquet.com/wp-content/uploads/2021/02/IMG-20210222-WA0010.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2021/02/IMG_2323-1.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2021/02/IMG_2325.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2021/02/IMG_2327.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2021/02/IMG_2328.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2021/02/IMG_2331-1.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2021/02/IMG_2330-1.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2021/02/IMG_2326.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2021/02/Photo-09-07-2026-10-09-55.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2021/02/Photo-09-07-2026-10-09-19.jpg"
+   ],
+   "photos_cherchees": true,
    "pieces": 4,
    "position": "quartier Hyper Centre",
    "premiere_vue": "2026-09-04",
@@ -761,6 +797,11 @@
    "min_voiture": 9,
    "photo": "https://media.immo-facile.com/office20/ajpmateille_170124/catalog/images/pr_web/5/8/4/0/1/7/2/0/58401720a.jpg?DATEMAJ=24/07/2026-10:06:36",
    "photo_cherchee": true,
+   "photos": [
+    "https://media.immo-facile.com/office20/ajpmateille_170124/catalog/images/pr_web/5/8/4/0/1/7/2/0/58401720a.jpg?DATEMAJ=24/07/2026-10:06:36",
+    "https://www.ajp-immobilier.com/storage/agencies/March2025/IfIaUlC1H31mmwiuixNo.jpg"
+   ],
+   "photos_cherchees": true,
    "pieces": 7,
    "position": "Anglet (ville de l'agence)",
    "premiere_vue": "2026-09-04",
@@ -834,6 +875,10 @@
    "min_voiture": 9,
    "photo": "https://www.century21.fr/theme/v6/images/facebook/century21_facebook-share.png",
    "photo_cherchee": true,
+   "photos": [
+    "https://www.century21.fr/theme/v6/images/facebook/century21_facebook-share.png"
+   ],
+   "photos_cherchees": true,
    "pieces": null,
    "position": "Anglet (ville de l'agence)",
    "premiere_vue": "2026-09-04",
@@ -1457,6 +1502,10 @@
    "min_voiture": 5,
    "photo": "https://www.immobilier-bayonne-aturri.com/imagesbiens/IMG_1444-10316965160952746637.jpg",
    "photo_cherchee": true,
+   "photos": [
+    "https://www.immobilier-bayonne-aturri.com/imagesbiens/IMG_1444-10316965160952746637.jpg"
+   ],
+   "photos_cherchees": true,
    "pieces": 3,
    "position": "Bayonne (ville de l'agence)",
    "premiere_vue": "2026-09-04",
@@ -1562,11 +1611,16 @@
    "km_hopital": 4.2,
    "lat": 43.4756,
    "lon": -1.5127,
+   "mail": "isabelle@lelogisbasque.fr",
    "meuble": true,
    "min_velo": 17,
    "min_voiture": 9,
    "photo": "https://logis-basque.staticlbi.com/1200xauto/images/biens/1/81497c654a8f449f298c46f9c4925b3c/photo_70186d8068c6842c62d2ada2e2fa225b.jpg",
    "photo_cherchee": true,
+   "photos": [
+    "https://logis-basque.staticlbi.com/1200xauto/images/biens/1/81497c654a8f449f298c46f9c4925b3c/photo_70186d8068c6842c62d2ada2e2fa225b.jpg"
+   ],
+   "photos_cherchees": true,
    "pieces": 5,
    "position": "quartier Montbrun",
    "premiere_vue": "2026-09-04",
@@ -1576,6 +1630,7 @@
    "score": 11,
    "statut": "active",
    "surface": 110.28,
+   "tel": "0559590954",
    "titre": "Maison 5 pièce(s) 3 chambre(s) 110.28 m²",
    "type": "maison",
    "url": "https://www.lelogisbasque.fr/location/1-anglet/maison/2333-magnifique-maison-sur-3-niveaux-avec-studio-independant-a-anglet-montbrun",
@@ -1781,6 +1836,19 @@
    "min_voiture": 6,
    "photo": "http://static.immoone.fr/004435/1600/B779000_1.jpg",
    "photo_cherchee": true,
+   "photos": [
+    "http://static.immoone.fr/004435/1600/B779000_1.jpg",
+    "http://static.immoone.fr/004435/1600/B779000_2.jpg",
+    "http://static.immoone.fr/004435/1600/B779000_3.jpg",
+    "http://static.immoone.fr/004435/1600/B779000_4.jpg",
+    "http://static.immoone.fr/004435/1600/B779000_5.jpg",
+    "http://static.immoone.fr/004435/1600/B779000_6.jpg",
+    "http://static.immoone.fr/004435/1600/B779000_7.jpg",
+    "http://static.immoone.fr/004435/1600/B779000_8.jpg",
+    "http://static.immoone.fr/004435/1600/B779000_9.jpg",
+    "http://static.immoone.fr/004435/1600/B779000_10.jpg"
+   ],
+   "photos_cherchees": true,
    "pieces": 4,
    "position": "quartier Grand Bayonne",
    "premiere_vue": "2026-09-04",
@@ -1833,6 +1901,18 @@
    "min_voiture": 3,
    "photo": "http://static.immoone.fr/004435/1600/B2923000_1.jpg",
    "photo_cherchee": true,
+   "photos": [
+    "http://static.immoone.fr/004435/1600/B2923000_1.jpg",
+    "http://static.immoone.fr/004435/1600/B2923000_2.jpg",
+    "http://static.immoone.fr/004435/1600/B2923000_3.jpg",
+    "http://static.immoone.fr/004435/1600/B2923000_4.jpg",
+    "http://static.immoone.fr/004435/1600/B2923000_5.jpg",
+    "http://static.immoone.fr/004435/1600/B2923000_6.jpg",
+    "http://static.immoone.fr/004435/1600/B2923000_7.jpg",
+    "http://static.immoone.fr/004435/1600/B2923000_8.jpg",
+    "http://static.immoone.fr/004435/1600/B2923000_9.jpg"
+   ],
+   "photos_cherchees": true,
    "pieces": 3,
    "position": "quartier Marracq",
    "premiere_vue": "2026-09-04",
@@ -1913,6 +1993,16 @@
    "min_voiture": 6,
    "photo": "http://static.immoone.fr/004435/1600/277-1031_1.jpg",
    "photo_cherchee": true,
+   "photos": [
+    "http://static.immoone.fr/004435/1600/277-1031_1.jpg",
+    "http://static.immoone.fr/004435/1600/277-1031_2.jpg",
+    "http://static.immoone.fr/004435/1600/277-1031_3.jpg",
+    "http://static.immoone.fr/004435/1600/277-1031_4.jpg",
+    "http://static.immoone.fr/004435/1600/277-1031_5.jpg",
+    "http://static.immoone.fr/004435/1600/277-1031_6.jpg",
+    "http://static.immoone.fr/004435/1600/277-1031_7.jpg"
+   ],
+   "photos_cherchees": true,
    "pieces": 3,
    "position": "quartier Mousserolles",
    "premiere_vue": "2026-09-04",
@@ -2104,6 +2194,10 @@
    "min_voiture": 13,
    "photo": "https://www.olaizola.immo/annonces/annonces/fiches/office8/agenceolaizola/catalog/images/background_5.jpg",
    "photo_cherchee": true,
+   "photos": [
+    "https://www.olaizola.immo/annonces/annonces/fiches/office8/agenceolaizola/catalog/images/background_5.jpg"
+   ],
+   "photos_cherchees": true,
    "pieces": null,
    "position": "Biarritz (ville de l'agence)",
    "premiere_vue": "2026-09-04",
@@ -2348,6 +2442,16 @@
    "min_voiture": 6,
    "photo": "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/f2554539-a59f-4a2d-8983-95a32dea80f9--70bc9652-eb83-4dc8-8d02-0688d0e8c676.jpg?p=estate-v2&ci_url_encoded=1&ci_sign=b512d71575962329eb91f78ff8ddeeec57dbe59a",
    "photo_cherchee": true,
+   "photos": [
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/f2554539-a59f-4a2d-8983-95a32dea80f9--70bc9652-eb83-4dc8-8d02-0688d0e8c676.jpg?p=estate-v2&ci_url_encoded=1&ci_sign=b512d71575962329eb91f78ff8ddeeec57dbe59a",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/f2554539-a59f-4a2d-8983-95a32dea80f9--70bc9652-eb83-4dc8-8d02-0688d0e8c676.jpg?p=default&ci_url_encoded=1&ci_sign=da26c449e947ee72324fe03a7f1c67482dda0a62",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/f2554539-a59f-4a2d-8983-95a32dea80f9--763d1a04-b95c-4f09-9d13-b0fb8e7d6768.jpg?p=default&ci_url_encoded=1&ci_sign=ae20985244f157a11f0b06d1b2961c1cb6ebb966",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/f2554539-a59f-4a2d-8983-95a32dea80f9--32465ecd-8852-463b-a17b-73aeb7f22739.jpg?p=default&ci_url_encoded=1&ci_sign=e550ff82cfb5fa929712720c16b68cfc6808166e",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/f2554539-a59f-4a2d-8983-95a32dea80f9--caf16992-16d0-4204-8423-d4fa0cd7c8e1.jpg?p=default&ci_url_encoded=1&ci_sign=079cf742120cdd85b02451cb171496ef96357314",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/f2554539-a59f-4a2d-8983-95a32dea80f9--6d561616-c4e5-4ab6-b35c-d62aa715dce3.jpg?p=default&ci_url_encoded=1&ci_sign=f4810de8c1c7fd69eb1d09326db26080425ddf4c",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/f2554539-a59f-4a2d-8983-95a32dea80f9--749aceee-558b-4104-821b-b774c6c8216f.jpg?p=default&ci_url_encoded=1&ci_sign=9ffce1a2ca12b5587d69047b6f3f1f727c1e628b"
+   ],
+   "photos_cherchees": true,
    "pieces": 4,
    "position": "quartier Saint-Léon",
    "premiere_vue": "2026-09-04",
@@ -2669,6 +2773,12 @@
    "agences_ok": 17,
    "date": "2026-09-05",
    "nouveautes": 1
+  },
+  {
+   "actives": 70,
+   "agences_ok": 17,
+   "date": "2026-09-05",
+   "nouveautes": 0
   }
  ]
 }

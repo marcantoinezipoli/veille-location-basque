@@ -31,16 +31,22 @@ main { max-width:640px; margin:0 auto; padding:14px 16px 80px; }
 .grille { display:grid; grid-template-columns:1fr; gap:28px; }
 .carte { border-radius:var(--rayon); background:#fff; overflow:hidden; box-shadow:var(--ombre); border-left:0; position:relative; transition:transform .15s; }
 .carte.s-non { opacity:.45; }
-.visuel { display:block; position:relative; height:260px; background:#e9e7e2 center/cover no-repeat; text-decoration:none; }
+.visuel { display:block; position:relative; height:260px; background:#e9e7e2; overflow:hidden; }
 @media (min-width:640px) { .visuel { height:320px; } }
 .visuel.sans { background:linear-gradient(135deg,#f1efe9,#e3e0d8); }
-.visuel .voile { position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(to top, rgba(0,0,0,.72) 0%, rgba(0,0,0,.25) 40%, rgba(0,0,0,0) 65%); }
+.galerie { display:flex; height:100%; overflow-x:auto; scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch; scrollbar-width:none; }
+.galerie::-webkit-scrollbar { display:none; }
+.diapo { flex:0 0 100%; height:100%; scroll-snap-align:start; }
+.diapo img { width:100%; height:100%; object-fit:cover; display:block; }
+.compteur { position:absolute; right:14px; bottom:16px; z-index:3; font-size:.75rem; font-weight:600; color:#fff; background:rgba(0,0,0,.45); padding:4px 9px; border-radius:999px; }
+.visuel .voile { position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(to top, rgba(0,0,0,.65) 0%, rgba(0,0,0,.15) 35%, rgba(0,0,0,0) 55%); pointer-events:none; }
+.badges, .score { pointer-events:none; }
 .badges { position:absolute; top:14px; left:14px; display:flex; gap:6px; z-index:2; }
 .badge { font-size:.72rem; font-weight:700; letter-spacing:.02em; padding:6px 10px; border-radius:999px; background:#fff; color:var(--encre); box-shadow:0 1px 3px rgba(0,0,0,.2); }
 .badge.nouveau { background:var(--rouge); color:#fff; } .badge.coeur { background:#fff; color:#8a6500; } .badge.baisse { background:var(--bleu); color:#fff; }
 .score { position:absolute; top:14px; right:14px; z-index:2; font-size:.75rem; font-weight:700; padding:5px 9px; border-radius:999px; background:rgba(255,255,255,.92); color:var(--texte2); }
 .score.pos { color:var(--vert); } .score.neg { color:var(--rouge); }
-.prix-sur-photo { position:absolute; left:18px; bottom:16px; z-index:2; color:#fff; display:flex; align-items:baseline; gap:6px; text-shadow:0 1px 6px rgba(0,0,0,.35); }
+.prix-sur-photo { position:absolute; left:18px; bottom:16px; z-index:3; color:#fff; display:flex; align-items:baseline; gap:6px; text-shadow:0 1px 6px rgba(0,0,0,.35); text-decoration:none; }
 .prix-sur-photo .prix { font-size:2rem; font-weight:800; letter-spacing:-.02em; }
 .prix-sur-photo .par-mois { font-size:.95rem; opacity:.9; }
 .prix-inconnu { font-size:1.05rem; font-weight:600; opacity:.9; }
@@ -103,12 +109,13 @@ footer { font-size:.78rem; color:var(--texte2); margin-top:28px; line-height:1.5
   <div id="carte-map"></div>
   <div class="grille">
 <article class="carte match coeur" id="c-ayonne641002967067058901agencyag5cantons" data-id="ayonne641002967067058901agencyag5cantons" data-ville="Anglet" data-cl="match" data-coeur="1" data-nouveau="0">
-  <a class="visuel" href="https://www.orpi.com/annonce-location-appartement-t4-bayonne-64100-2967-067058-901/?agency=ag5cantons" target="_blank" rel="noopener" style="background-image:url('https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/f2554539-a59f-4a2d-8983-95a32dea80f9--70bc9652-eb83-4dc8-8d02-0688d0e8c676.jpg?p=estate-v2&amp;ci_url_encoded=1&amp;ci_sign=b512d71575962329eb91f78ff8ddeeec57dbe59a')">
+  <div class="visuel">
+    <div class="galerie" data-n="7"><div class="diapo"><img src="https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/f2554539-a59f-4a2d-8983-95a32dea80f9--70bc9652-eb83-4dc8-8d02-0688d0e8c676.jpg?p=estate-v2&amp;ci_url_encoded=1&amp;ci_sign=b512d71575962329eb91f78ff8ddeeec57dbe59a" alt=""  onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/f2554539-a59f-4a2d-8983-95a32dea80f9--70bc9652-eb83-4dc8-8d02-0688d0e8c676.jpg?p=default&amp;ci_url_encoded=1&amp;ci_sign=da26c449e947ee72324fe03a7f1c67482dda0a62" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/f2554539-a59f-4a2d-8983-95a32dea80f9--763d1a04-b95c-4f09-9d13-b0fb8e7d6768.jpg?p=default&amp;ci_url_encoded=1&amp;ci_sign=ae20985244f157a11f0b06d1b2961c1cb6ebb966" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/f2554539-a59f-4a2d-8983-95a32dea80f9--32465ecd-8852-463b-a17b-73aeb7f22739.jpg?p=default&amp;ci_url_encoded=1&amp;ci_sign=e550ff82cfb5fa929712720c16b68cfc6808166e" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/f2554539-a59f-4a2d-8983-95a32dea80f9--caf16992-16d0-4204-8423-d4fa0cd7c8e1.jpg?p=default&amp;ci_url_encoded=1&amp;ci_sign=079cf742120cdd85b02451cb171496ef96357314" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/f2554539-a59f-4a2d-8983-95a32dea80f9--6d561616-c4e5-4ab6-b35c-d62aa715dce3.jpg?p=default&amp;ci_url_encoded=1&amp;ci_sign=f4810de8c1c7fd69eb1d09326db26080425ddf4c" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/f2554539-a59f-4a2d-8983-95a32dea80f9--749aceee-558b-4104-821b-b774c6c8216f.jpg?p=default&amp;ci_url_encoded=1&amp;ci_sign=9ffce1a2ca12b5587d69047b6f3f1f727c1e628b" alt="" loading=lazy onerror="this.parentNode.remove()"></div></div><span class="compteur">1 / 7</span>
     <div class="badges"><span class="badge coeur">♥ Coup de cœur</span></div>
     <span class="score pos">+18</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 050 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.orpi.com/annonce-location-appartement-t4-bayonne-64100-2967-067058-901/?agency=ag5cantons" target="_blank" rel="noopener"><span class="prix">1 050 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.orpi.com/annonce-location-appartement-t4-bayonne-64100-2967-067058-901/?agency=ag5cantons" target="_blank" rel="noopener">Location Appartement 4 pièces 80 m2 Bayonne - Saint-Léon</a>
     <p class="faits">Appartement · T4 · 3 ch. · 80 m² · Meublé</p>
@@ -139,12 +146,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte match coeur" id="c-mappartementmaisonbiarritzhypercentret42" data-id="mappartementmaisonbiarritzhypercentret42" data-ville="Biarritz" data-cl="match" data-coeur="1" data-nouveau="0">
-  <a class="visuel" href="https://www.agence-benquet.com/appartement-maison/biarritz-hyper-centre-t4-2/" target="_blank" rel="noopener" style="background-image:url('https://www.agence-benquet.com/wp-content/uploads/2021/02/IMG-20210222-WA0010.jpg')">
+  <div class="visuel">
+    <div class="galerie" data-n="10"><div class="diapo"><img src="https://www.agence-benquet.com/wp-content/uploads/2021/02/IMG-20210222-WA0010.jpg" alt=""  onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.agence-benquet.com/wp-content/uploads/2021/02/IMG_2323-1.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.agence-benquet.com/wp-content/uploads/2021/02/IMG_2325.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.agence-benquet.com/wp-content/uploads/2021/02/IMG_2327.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.agence-benquet.com/wp-content/uploads/2021/02/IMG_2328.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.agence-benquet.com/wp-content/uploads/2021/02/IMG_2331-1.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.agence-benquet.com/wp-content/uploads/2021/02/IMG_2330-1.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.agence-benquet.com/wp-content/uploads/2021/02/IMG_2326.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.agence-benquet.com/wp-content/uploads/2021/02/Photo-09-07-2026-10-09-55.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.agence-benquet.com/wp-content/uploads/2021/02/Photo-09-07-2026-10-09-19.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div></div><span class="compteur">1 / 10</span>
     <div class="badges"><span class="badge coeur">♥ Coup de cœur</span></div>
     <span class="score pos">+11</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 739 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.agence-benquet.com/appartement-maison/biarritz-hyper-centre-t4-2/" target="_blank" rel="noopener"><span class="prix">1 739 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.agence-benquet.com/appartement-maison/biarritz-hyper-centre-t4-2/" target="_blank" rel="noopener">BIARRITZ, Hyper Centre, T4</a>
     <p class="faits">Appartement · T4 · 102 m²</p>
@@ -175,12 +183,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte match coeur" id="c-eauxavecstudioindependantaangletmontbrun" data-id="eauxavecstudioindependantaangletmontbrun" data-ville="Anglet" data-cl="match" data-coeur="1" data-nouveau="0">
-  <a class="visuel" href="https://www.lelogisbasque.fr/location/1-anglet/maison/2333-magnifique-maison-sur-3-niveaux-avec-studio-independant-a-anglet-montbrun" target="_blank" rel="noopener" style="background-image:url('https://logis-basque.staticlbi.com/1200xauto/images/biens/1/81497c654a8f449f298c46f9c4925b3c/photo_70186d8068c6842c62d2ada2e2fa225b.jpg')">
+  <div class="visuel">
+    <div class="galerie"><div class="diapo"><img src="https://logis-basque.staticlbi.com/1200xauto/images/biens/1/81497c654a8f449f298c46f9c4925b3c/photo_70186d8068c6842c62d2ada2e2fa225b.jpg" alt="" onerror="this.parentNode.remove()"></div></div>
     <div class="badges"><span class="badge coeur">♥ Coup de cœur</span></div>
     <span class="score pos">+11</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 990 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.lelogisbasque.fr/location/1-anglet/maison/2333-magnifique-maison-sur-3-niveaux-avec-studio-independant-a-anglet-montbrun" target="_blank" rel="noopener"><span class="prix">1 990 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.lelogisbasque.fr/location/1-anglet/maison/2333-magnifique-maison-sur-3-niveaux-avec-studio-independant-a-anglet-montbrun" target="_blank" rel="noopener">Maison 5 pièce(s) 3 chambre(s) 110.28 m²</a>
     <p class="faits">Maison · T5 · 3 ch. · 110.28 m² · Meublé</p>
@@ -191,7 +200,7 @@ Marc-Antoine Zipoli et Léa Mathieux
     <div class="chips"><span class="chip plus">terrasse</span><span class="chip plus">calme</span><span class="chip plus">dressing</span><span class="chip plus">cuisine aménagée</span><span class="chip plus">110 m²</span></div>
     <div class="actions">
       <a class="btn" href="https://www.lelogisbasque.fr/location/1-anglet/maison/2333-magnifique-maison-sur-3-niveaux-avec-studio-independant-a-anglet-montbrun" target="_blank" rel="noopener">Voir l’annonce</a>
-      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20Maison%205%20pi%C3%A8ce%28s%29%203%20chambre%28s%29%20110.28%20m%C2%B2&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20Maison%205%20pi%C3%A8ce%28s%29%203%20chambre%28s%29%20110.28%20m%C2%B2%20%C2%BB%20%28https%3A//www.lelogisbasque.fr/location/1-anglet/maison/2333-magnifique-maison-sur-3-niveaux-avec-studio-independant-a-anglet-montbrun%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
+      <div class="icos"><a class="ico" href="tel:+33559590954"><span class="i">📞</span>Appeler</a><a class="ico" href="mailto:isabelle@lelogisbasque.fr?subject=Candidature%20location%20%E2%80%94%20Maison%205%20pi%C3%A8ce%28s%29%203%20chambre%28s%29%20110.28%20m%C2%B2&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20Maison%205%20pi%C3%A8ce%28s%29%203%20chambre%28s%29%20110.28%20m%C2%B2%20%C2%BB%20%28https%3A//www.lelogisbasque.fr/location/1-anglet/maison/2333-magnifique-maison-sur-3-niveaux-avec-studio-independant-a-anglet-montbrun%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
 
 Nous sommes très intéressés par votre annonce « Maison 5 pièce(s) 3 chambre(s) 110.28 m² » (https://www.lelogisbasque.fr/location/1-anglet/maison/2333-magnifique-maison-sur-3-niveaux-avec-studio-independant-a-anglet-montbrun).
 
@@ -211,12 +220,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte match coeur" id="c-de64m2bayonnequartiermousserolles2771031" data-id="de64m2bayonnequartiermousserolles2771031" data-ville="Bayonne" data-cl="match" data-coeur="1" data-nouveau="0">
-  <a class="visuel" href="https://www.manoirdefrance.fr/location,appartement-appartement-t3-de-64m2-bayonne-quartier-mousserolles,277-1031" target="_blank" rel="noopener" style="background-image:url('http://static.immoone.fr/004435/1600/277-1031_1.jpg')">
+  <div class="visuel">
+    <div class="galerie" data-n="7"><div class="diapo"><img src="http://static.immoone.fr/004435/1600/277-1031_1.jpg" alt=""  onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/277-1031_2.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/277-1031_3.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/277-1031_4.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/277-1031_5.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/277-1031_6.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/277-1031_7.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div></div><span class="compteur">1 / 7</span>
     <div class="badges"><span class="badge coeur">♥ Coup de cœur</span></div>
     <span class="score pos">+11</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">827 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.manoirdefrance.fr/location,appartement-appartement-t3-de-64m2-bayonne-quartier-mousserolles,277-1031" target="_blank" rel="noopener"><span class="prix">827 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.manoirdefrance.fr/location,appartement-appartement-t3-de-64m2-bayonne-quartier-mousserolles,277-1031" target="_blank" rel="noopener">Appartement Bayonne Appartement Bayonne</a>
     <p class="faits">Appartement · T3 · 64 m² · Meublé</p>
@@ -247,12 +257,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte match coeur" id="c-eavecbalconascenseuretresidencesecurisee" data-id="eavecbalconascenseuretresidencesecurisee" data-ville="Biarritz" data-cl="match" data-coeur="1" data-nouveau="0">
-  <a class="visuel" href="https://www.agence-benquet.com/appartement-maison/biarritz-appartement-t3-meuble-avec-balcon-ascenseur-et-residence-securisee/" target="_blank" rel="noopener" style="background-image:url('https://www.agence-benquet.com/wp-content/uploads/2026/08/ChatGPT-Image-3-aout-2026-15_41_51.png')">
+  <div class="visuel">
+    <div class="galerie" data-n="10"><div class="diapo"><img src="https://www.agence-benquet.com/wp-content/uploads/2026/08/ChatGPT-Image-3-aout-2026-15_41_51.png" alt=""  onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.agence-benquet.com/wp-content/uploads/2026/08/CUISINE.png" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.agence-benquet.com/wp-content/uploads/2026/08/ChatGPT-Image-3-aout-2026-15_31_10.png" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.agence-benquet.com/wp-content/uploads/2026/08/SEJOUR-1.png" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.agence-benquet.com/wp-content/uploads/2026/08/ChatGPT-Image-3-aout-2026-15_40_03.png" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.agence-benquet.com/wp-content/uploads/2026/08/ChatGPT-Image-3-aout-2026-15_32_07.png" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.agence-benquet.com/wp-content/uploads/2026/08/ChatGPT-Image-3-aout-2026-15_38_34.png" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.agence-benquet.com/wp-content/uploads/2026/08/ChatGPT-Image-3-aout-2026-15_33_36.png" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.agence-benquet.com/wp-content/uploads/2026/08/ChatGPT-Image-3-aout-2026-15_41_51-225x300.png" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.agence-benquet.com/wp-content/uploads/2026/08/CUISINE-300x225.png" alt="" loading=lazy onerror="this.parentNode.remove()"></div></div><span class="compteur">1 / 10</span>
     <div class="badges"><span class="badge coeur">♥ Coup de cœur</span></div>
     <span class="score pos">+10</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 500 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.agence-benquet.com/appartement-maison/biarritz-appartement-t3-meuble-avec-balcon-ascenseur-et-residence-securisee/" target="_blank" rel="noopener"><span class="prix">1 500 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.agence-benquet.com/appartement-maison/biarritz-appartement-t3-meuble-avec-balcon-ascenseur-et-residence-securisee/" target="_blank" rel="noopener">Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée</a>
     <p class="faits">Appartement · T3 · 83 m² · Meublé</p>
@@ -283,12 +294,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte match coeur" id="c-mannonceslocationsmaisonanglet6458401720" data-id="mannonceslocationsmaisonanglet6458401720" data-ville="Biarritz" data-cl="match" data-coeur="1" data-nouveau="0">
-  <a class="visuel" href="https://www.ajp-immobilier.com/annonces/locations/maison/anglet-64/58401720" target="_blank" rel="noopener" style="background-image:url('https://media.immo-facile.com/office20/ajpmateille_170124/catalog/images/pr_web/5/8/4/0/1/7/2/0/58401720a.jpg?DATEMAJ=24/07/2026-10:06:36')">
+  <div class="visuel">
+    <div class="galerie" data-n="2"><div class="diapo"><img src="https://media.immo-facile.com/office20/ajpmateille_170124/catalog/images/pr_web/5/8/4/0/1/7/2/0/58401720a.jpg?DATEMAJ=24/07/2026-10:06:36" alt=""  onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.ajp-immobilier.com/storage/agencies/March2025/IfIaUlC1H31mmwiuixNo.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div></div><span class="compteur">1 / 2</span>
     <div class="badges"><span class="badge coeur">♥ Coup de cœur</span></div>
     <span class="score pos">+10</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">2 163 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.ajp-immobilier.com/annonces/locations/maison/anglet-64/58401720" target="_blank" rel="noopener"><span class="prix">2 163 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.ajp-immobilier.com/annonces/locations/maison/anglet-64/58401720" target="_blank" rel="noopener">Location maison Anglet : 2 163 € - AJP Mateille Immobilier Biarritz</a>
     <p class="faits">Maison · T7 · 5 ch. · 149 m²</p>
@@ -319,12 +331,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte match coeur" id="c-nt3piaces4514m2bailmeublealanneeb2923000" data-id="nt3piaces4514m2bailmeublealanneeb2923000" data-ville="Bayonne" data-cl="match" data-coeur="1" data-nouveau="0">
-  <a class="visuel" href="https://www.manoirdefrance.fr/location,appartement-appartement-3-piAces-4514-m2-bail-meuble-a-l-annee,B2923000" target="_blank" rel="noopener" style="background-image:url('http://static.immoone.fr/004435/1600/B2923000_1.jpg')">
+  <div class="visuel">
+    <div class="galerie" data-n="9"><div class="diapo"><img src="http://static.immoone.fr/004435/1600/B2923000_1.jpg" alt=""  onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/B2923000_2.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/B2923000_3.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/B2923000_4.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/B2923000_5.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/B2923000_6.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/B2923000_7.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/B2923000_8.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/B2923000_9.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div></div><span class="compteur">1 / 9</span>
     <div class="badges"><span class="badge coeur">♥ Coup de cœur</span></div>
     <span class="score pos">+9</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">792 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.manoirdefrance.fr/location,appartement-appartement-3-piAces-4514-m2-bail-meuble-a-l-annee,B2923000" target="_blank" rel="noopener"><span class="prix">792 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.manoirdefrance.fr/location,appartement-appartement-3-piAces-4514-m2-bail-meuble-a-l-annee,B2923000" target="_blank" rel="noopener">Appartement Bayonne Appartement Bayonne</a>
     <p class="faits">Appartement · T3 · 2 ch. · 45 m² · Meublé</p>
@@ -355,12 +368,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte match" id="c-ucoeurdebayonneaproximitadelacathb779000" data-id="ucoeurdebayonneaproximitadelacathb779000" data-ville="Bayonne" data-cl="match" data-coeur="0" data-nouveau="0">
-  <a class="visuel" href="https://www.manoirdefrance.fr/location,appartement-A-louer-t4-vide-au-coeur-de-bayonne-A-proximitA-de-la-cath,B779000" target="_blank" rel="noopener" style="background-image:url('http://static.immoone.fr/004435/1600/B779000_1.jpg')">
+  <div class="visuel">
+    <div class="galerie" data-n="10"><div class="diapo"><img src="http://static.immoone.fr/004435/1600/B779000_1.jpg" alt=""  onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/B779000_2.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/B779000_3.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/B779000_4.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/B779000_5.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/B779000_6.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/B779000_7.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/B779000_8.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/B779000_9.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/B779000_10.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div></div><span class="compteur">1 / 10</span>
     <div class="badges"></div>
     <span class="score pos">+3</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 053 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.manoirdefrance.fr/location,appartement-A-louer-t4-vide-au-coeur-de-bayonne-A-proximitA-de-la-cath,B779000" target="_blank" rel="noopener"><span class="prix">1 053 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.manoirdefrance.fr/location,appartement-A-louer-t4-vide-au-coeur-de-bayonne-A-proximitA-de-la-cath,B779000" target="_blank" rel="noopener">Appartement Bayonne Appartement Bayonne</a>
     <p class="faits">Appartement · T4 · 3 ch. · 92 m²</p>
@@ -391,12 +405,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte match" id="c-savecjardinterrasseet2stationnementshtml" data-id="savecjardinterrasseet2stationnementshtml" data-ville="Biarritz" data-cl="match" data-coeur="0" data-nouveau="0">
-  <a class="visuel" href="http://www.immobiarritz.fr/fiches/4-40-26_49117915/biarritz-mouriscot-maison-climatisee-de-3-chambres-avec-jardin-terrasse-et-2-stationnements.html" target="_blank" rel="noopener" style="background-image:url('https://www.olaizola.immo/office8/agenceolaizola/catalog/images/pr_web/4/9/1/1/7/9/1/5/49117915a.jpg.mid.jpg')">
+  <div class="visuel">
+    <div class="galerie"><div class="diapo"><img src="https://www.olaizola.immo/office8/agenceolaizola/catalog/images/pr_web/4/9/1/1/7/9/1/5/49117915a.jpg.mid.jpg" alt="" onerror="this.parentNode.remove()"></div></div>
     <div class="badges"></div>
     <span class="score pos">+2</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 360 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="http://www.immobiarritz.fr/fiches/4-40-26_49117915/biarritz-mouriscot-maison-climatisee-de-3-chambres-avec-jardin-terrasse-et-2-stationnements.html" target="_blank" rel="noopener"><span class="prix">1 360 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="http://www.immobiarritz.fr/fiches/4-40-26_49117915/biarritz-mouriscot-maison-climatisee-de-3-chambres-avec-jardin-terrasse-et-2-stationnements.html" target="_blank" rel="noopener">64200 BIARRITZ MOURISCOT - Maison climatisée de 3 chambres avec jardin, terrasse et 2…</a>
     <p class="faits">Maison · T4 · 3 ch. · 86 m²</p>
@@ -427,12 +442,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte match" id="c-ecesbayonnebienimmobilier2ges23930006410" data-id="ecesbayonnebienimmobilier2ges23930006410" data-ville="Bayonne" data-cl="match" data-coeur="0" data-nouveau="0">
-  <a class="visuel" href="https://www.immobilier-bayonne-aturri.com/location-appartement-t3-3-pieces-bayonne/bien-immobilier/2/ges23930006-410" target="_blank" rel="noopener" style="background-image:url('https://www.immobilier-bayonne-aturri.com/imagesbiens/IMG_1444-10316965160952746637.jpg')">
+  <div class="visuel">
+    <div class="galerie"><div class="diapo"><img src="https://www.immobilier-bayonne-aturri.com/imagesbiens/IMG_1444-10316965160952746637.jpg" alt="" onerror="this.parentNode.remove()"></div></div>
     <div class="badges"></div>
     <span class="score ">+0</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.immobilier-bayonne-aturri.com/location-appartement-t3-3-pieces-bayonne/bien-immobilier/2/ges23930006-410" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.immobilier-bayonne-aturri.com/location-appartement-t3-3-pieces-bayonne/bien-immobilier/2/ges23930006-410" target="_blank" rel="noopener">Location appartement T3 58m2BAYONNE886 C.C. € / moisA proximité de la place saint…</a>
     <p class="faits">Appartement · T3 · 58 m²</p>
@@ -463,12 +479,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte a_verifier coeur" id="c-calisation27921filtrerenttypeappartement" data-id="calisation27921filtrerenttypeappartement" data-ville="Anglet" data-cl="a_verifier" data-coeur="1" data-nouveau="0">
-  <a class="visuel" href="https://www.century21.fr/projet-immobilier/?localisation=27921&amp;filtre=rent&amp;type=appartement" target="_blank" rel="noopener" style="background-image:url('https://www.century21.fr/theme/v6/images/facebook/century21_facebook-share.png')">
+  <div class="visuel">
+    <div class="galerie"><div class="diapo"><img src="https://www.century21.fr/theme/v6/images/facebook/century21_facebook-share.png" alt="" onerror="this.parentNode.remove()"></div></div>
     <div class="badges"><span class="badge coeur">♥ Coup de cœur</span></div>
     <span class="score pos">+11</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.century21.fr/projet-immobilier/?localisation=27921&amp;filtre=rent&amp;type=appartement" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.century21.fr/projet-immobilier/?localisation=27921&amp;filtre=rent&amp;type=appartement" target="_blank" rel="noopener">Votre projet immobilier avec CENTURY 21</a>
     <p class="faits">Maison · Meublé</p>
@@ -499,12 +516,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte a_verifier" id="c-savecjardinterrasseet2stationnementshtml" data-id="savecjardinterrasseet2stationnementshtml" data-ville="Biarritz" data-cl="a_verifier" data-coeur="0" data-nouveau="0">
-  <a class="visuel" href="https://www.olaizola.immo/annonces/annonces/fiches/4-40-26_49117915/biarritz-mouriscot-maison-climatisee-de-3-chambres-avec-jardin-terrasse-et-2-stationnements.html" target="_blank" rel="noopener" style="background-image:url('https://www.olaizola.immo/annonces/annonces/fiches/office8/agenceolaizola/catalog/images/background_5.jpg')">
+  <div class="visuel">
+    <div class="galerie"><div class="diapo"><img src="https://www.olaizola.immo/annonces/annonces/fiches/office8/agenceolaizola/catalog/images/background_5.jpg" alt="" onerror="this.parentNode.remove()"></div></div>
     <div class="badges"></div>
     <span class="score neg">-1</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.olaizola.immo/annonces/annonces/fiches/4-40-26_49117915/biarritz-mouriscot-maison-climatisee-de-3-chambres-avec-jardin-terrasse-et-2-stationnements.html" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.olaizola.immo/annonces/annonces/fiches/4-40-26_49117915/biarritz-mouriscot-maison-climatisee-de-3-chambres-avec-jardin-terrasse-et-2-stationnements.html" target="_blank" rel="noopener">Découvrir</a>
     <p class="faits">Maison · Meublé</p>
@@ -535,12 +553,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-yonnecomtrouverlogementdetail15635506173" data-id="yonnecomtrouverlogementdetail15635506173" data-ville="Bayonne" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.century21agencenivadour-bayonne.com/trouver_logement/detail/15635506173/" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+17</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 837 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.century21agencenivadour-bayonne.com/trouver_logement/detail/15635506173/" target="_blank" rel="noopener"><span class="prix">1 837 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.century21agencenivadour-bayonne.com/trouver_logement/detail/15635506173/" target="_blank" rel="noopener">Maison à louer 5 pièces - 145 m 2 USTARITZ - 64</a>
     <p class="faits">Maison · T5 · 2 ch. · 60 m² · Meublé</p>
@@ -571,12 +590,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-2bispleindecharmeaucoeurdebiarri21541688" data-id="2bispleindecharmeaucoeurdebiarri21541688" data-ville="Bayonne" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.manoirdefrance.fr/location,appartement-A-louer-A-l-annAe-t2-bis-plein-de-charme-au-coeur-de-biarri,2154-1688" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+14</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 310 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.manoirdefrance.fr/location,appartement-A-louer-A-l-annAe-t2-bis-plein-de-charme-au-coeur-de-biarri,2154-1688" target="_blank" rel="noopener"><span class="prix">1 310 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.manoirdefrance.fr/location,appartement-A-louer-A-l-annAe-t2-bis-plein-de-charme-au-coeur-de-biarri,2154-1688" target="_blank" rel="noopener">Biarritz</a>
     <p class="faits">Appartement · T2 · 1 ch. · 72 m²</p>
@@ -607,12 +627,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-tury21frtrouverlogementdetail16862458660" data-id="tury21frtrouverlogementdetail16862458660" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.century21.fr/trouver_logement/detail/16862458660/" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+11</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 492 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.century21.fr/trouver_logement/detail/16862458660/" target="_blank" rel="noopener"><span class="prix">1 492 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.century21.fr/trouver_logement/detail/16862458660/" target="_blank" rel="noopener">Exclusivité BIARRITZ 64 1 492 € par mois charges comprises 85,9 m2 , appartement , 3 pcs</a>
     <p class="faits">Appartement · T3 · 85 m² · Meublé</p>
@@ -643,12 +664,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-tury21frtrouverlogementdetail16861435309" data-id="tury21frtrouverlogementdetail16861435309" data-ville="Bayonne" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.century21.fr/trouver_logement/detail/16861435309/" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+10</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 037 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.century21.fr/trouver_logement/detail/16861435309/" target="_blank" rel="noopener"><span class="prix">1 037 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.century21.fr/trouver_logement/detail/16861435309/" target="_blank" rel="noopener">Appartement F2 à louer 2 pièces - 56,83 m 2 BAYONNE - 64</a>
     <p class="faits">Appartement · T2</p>
@@ -679,12 +701,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-yonnecomtrouverlogementdetail16619277475" data-id="yonnecomtrouverlogementdetail16619277475" data-ville="Bayonne" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.century21agencenivadour-bayonne.com/trouver_logement/detail/16619277475/" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+8</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">594 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.century21agencenivadour-bayonne.com/trouver_logement/detail/16619277475/" target="_blank" rel="noopener"><span class="prix">594 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.century21agencenivadour-bayonne.com/trouver_logement/detail/16619277475/" target="_blank" rel="noopener">Appartement F2 Bis à louer 2 pièces - 34,54 m 2 ARCANGUES - 64</a>
     <p class="faits">Appartement · T2 · Meublé</p>
@@ -715,12 +738,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-tury21frtrouverlogementdetail16435946739" data-id="tury21frtrouverlogementdetail16435946739" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.century21.fr/trouver_logement/detail/16435946739/" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+7</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 300 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.century21.fr/trouver_logement/detail/16435946739/" target="_blank" rel="noopener"><span class="prix">1 300 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.century21.fr/trouver_logement/detail/16435946739/" target="_blank" rel="noopener">Exclusivité ANGLET 64 1 300 € par mois charges comprises 109 m2 , maison , 4 pcs</a>
     <p class="faits">Maison · T4 · 3 ch. · 109 m² · Meublé</p>
@@ -751,12 +775,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-tury21frtrouverlogementdetail16436146634" data-id="tury21frtrouverlogementdetail16436146634" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.century21.fr/trouver_logement/detail/16436146634/" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+7</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">545 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.century21.fr/trouver_logement/detail/16436146634/" target="_blank" rel="noopener"><span class="prix">545 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.century21.fr/trouver_logement/detail/16436146634/" target="_blank" rel="noopener">Appartement F1 à louer 1 pièce - 24,90 m 2 BIDART - 64</a>
     <p class="faits">Maison · T1 · Meublé</p>
@@ -787,12 +812,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-2a6d4bfbbd724eb5c3f735bcagencyag5cantons" data-id="2a6d4bfbbd724eb5c3f735bcagencyag5cantons" data-ville="Anglet" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.orpi.com/annonce-location-appartement-t3-anglet-64600-4fcaa5e4-2a6d-4bfb-bd72-4eb5c3f735bc/?agency=ag5cantons" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+7</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 210 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.orpi.com/annonce-location-appartement-t3-anglet-64600-4fcaa5e4-2a6d-4bfb-bd72-4eb5c3f735bc/?agency=ag5cantons" target="_blank" rel="noopener"><span class="prix">1 210 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.orpi.com/annonce-location-appartement-t3-anglet-64600-4fcaa5e4-2a6d-4bfb-bd72-4eb5c3f735bc/?agency=ag5cantons" target="_blank" rel="noopener">Appartement à louer 3 pièces • Anglet</a>
     <p class="faits">Appartement · T3 · 2 ch. · 70 m² · Meublé</p>
@@ -823,12 +849,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-ementt2meubleavecterrasseetstationnement" data-id="ementt2meubleavecterrasseetstationnement" data-ville="Biarritz" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.agence-benquet.com/appartement-maison/ustaritz-appartement-t2-meuble-avec-terrasse-et-stationnement/" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+6</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">720 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.agence-benquet.com/appartement-maison/ustaritz-appartement-t2-meuble-avec-terrasse-et-stationnement/" target="_blank" rel="noopener"><span class="prix">720 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.agence-benquet.com/appartement-maison/ustaritz-appartement-t2-meuble-avec-terrasse-et-stationnement/" target="_blank" rel="noopener">Ustaritz – Appartement T2 meublé avec terrasse et stationnement</a>
     <p class="faits">Appartement · T2 · 40 m²</p>
@@ -859,12 +886,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-ison3piecescenonbienimmobilier2lmai98229" data-id="ison3piecescenonbienimmobilier2lmai98229" data-ville="Bayonne" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.immobilier-bayonne-aturri.com/location-maison-3-pieces-cenon/bien-immobilier/2/lmai98229" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+6</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.immobilier-bayonne-aturri.com/location-maison-3-pieces-cenon/bien-immobilier/2/lmai98229" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.immobilier-bayonne-aturri.com/location-maison-3-pieces-cenon/bien-immobilier/2/lmai98229" target="_blank" rel="noopener">Location maison T3 77m2CENON1 150 C.C. € / moisMaison rue brousse mellet à cenon -…</a>
     <p class="faits">Maison · T3</p>
@@ -895,12 +923,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-eriefrimmobiliergrandt2angletblancpignon" data-id="eriefrimmobiliergrandt2angletblancpignon" data-ville="Anglet" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://cote-basque.lagencerie.fr/immobilier/grand-t2-anglet-blancpignon/" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+5</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 025 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://cote-basque.lagencerie.fr/immobilier/grand-t2-anglet-blancpignon/" target="_blank" rel="noopener"><span class="prix">1 025 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://cote-basque.lagencerie.fr/immobilier/grand-t2-anglet-blancpignon/" target="_blank" rel="noopener">54.00m² 1 GRAND T2 – ANGLET BLANCPIGNON Anglet 1 025€ /mois À louer jusqu’en juin –…</a>
     <p class="faits">Maison · T2 · 54 m²</p>
@@ -931,12 +960,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-tenncommaisontrets5pieces90m2ref38646644" data-id="tenncommaisontrets5pieces90m2ref38646644" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://nestenn.com/maison-trets-5-piece-s-90-m2-ref-38646644" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+4</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 020 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://nestenn.com/maison-trets-5-piece-s-90-m2-ref-38646644" target="_blank" rel="noopener"><span class="prix">1 020 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://nestenn.com/maison-trets-5-piece-s-90-m2-ref-38646644" target="_blank" rel="noopener">EXCLU 13530 TRETS Maison à louer 90m² 5 pièces 3 chambres 1 020 € CC/Mois</a>
     <p class="faits">Maison · T5 · 3 ch. · 90 m²</p>
@@ -967,12 +997,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-nmaisonmaisondeville7piaces207m2b2924000" data-id="nmaisonmaisondeville7piaces207m2b2924000" data-ville="Bayonne" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.manoirdefrance.fr/location,maison-maison-de-ville-7-piAces-207-m2,B2924000" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+4</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 700 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.manoirdefrance.fr/location,maison-maison-de-ville-7-piAces-207-m2,B2924000" target="_blank" rel="noopener"><span class="prix">1 700 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.manoirdefrance.fr/location,maison-maison-de-ville-7-piAces-207-m2,B2924000" target="_blank" rel="noopener">Maison Mouguerre Maison Mouguerre</a>
     <p class="faits">Maison · 207 m²</p>
@@ -1003,12 +1034,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-tionmaisonmaisont4saubrigues120138166356" data-id="tionmaisonmaisont4saubrigues120138166356" data-ville="Bayonne" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.manoirdefrance.fr/location,maison-maison-t4-saubrigues,120138-166356" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+4</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 235 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.manoirdefrance.fr/location,maison-maison-t4-saubrigues,120138-166356" target="_blank" rel="noopener"><span class="prix">1 235 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.manoirdefrance.fr/location,maison-maison-t4-saubrigues,120138-166356" target="_blank" rel="noopener">Maison Saubrigues Maison Saubrigues</a>
     <p class="faits">Maison · 106 m²</p>
@@ -1039,12 +1071,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-cefrlocationmaisonmaisont4urcuitb3030000" data-id="cefrlocationmaisonmaisont4urcuitb3030000" data-ville="Bayonne" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.manoirdefrance.fr/location,maison-maison-t4-urcuit,B3030000" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+4</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 260 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.manoirdefrance.fr/location,maison-maison-t4-urcuit,B3030000" target="_blank" rel="noopener"><span class="prix">1 260 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.manoirdefrance.fr/location,maison-maison-t4-urcuit,B3030000" target="_blank" rel="noopener">Maison Urcuit Maison Urcuit</a>
     <p class="faits">Maison · 87 m²</p>
@@ -1075,12 +1108,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-ca6846e2bba1ae5c1932a9f5agencyag5cantons" data-id="ca6846e2bba1ae5c1932a9f5agencyag5cantons" data-ville="Anglet" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.orpi.com/annonce-location-appartement-t1-anglet-64600-9058a702-ca68-46e2-bba1-ae5c1932a9f5/?agency=ag5cantons" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+4</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">650 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.orpi.com/annonce-location-appartement-t1-anglet-64600-9058a702-ca68-46e2-bba1-ae5c1932a9f5/?agency=ag5cantons" target="_blank" rel="noopener"><span class="prix">650 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.orpi.com/annonce-location-appartement-t1-anglet-64600-9058a702-ca68-46e2-bba1-ae5c1932a9f5/?agency=ag5cantons" target="_blank" rel="noopener">Location Appartement 1 pièce 26,56 m2 Anglet - Chambre d&#x27;Amour</a>
     <p class="faits">Appartement · T1</p>
@@ -1111,12 +1145,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-2f224918b8e6d7f79f2be7ebagencyag5cantons" data-id="2f224918b8e6d7f79f2be7ebagencyag5cantons" data-ville="Anglet" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-264d4594-2f22-4918-b8e6-d7f79f2be7eb/?agency=ag5cantons" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+4</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">700 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-264d4594-2f22-4918-b8e6-d7f79f2be7eb/?agency=ag5cantons" target="_blank" rel="noopener"><span class="prix">700 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-264d4594-2f22-4918-b8e6-d7f79f2be7eb/?agency=ag5cantons" target="_blank" rel="noopener">Location Appartement 2 pièces 42,78 m2 Anglet - Chambre d&#x27;Amour</a>
     <p class="faits">Appartement · T2</p>
@@ -1147,12 +1182,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-0995429293f92d63404b8f32agencyag5cantons" data-id="0995429293f92d63404b8f32agencyag5cantons" data-ville="Anglet" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-d535426d-0995-4292-93f9-2d63404b8f32/?agency=ag5cantons" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+4</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">685 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-d535426d-0995-4292-93f9-2d63404b8f32/?agency=ag5cantons" target="_blank" rel="noopener"><span class="prix">685 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-d535426d-0995-4292-93f9-2d63404b8f32/?agency=ag5cantons" target="_blank" rel="noopener">Location Appartement 2 pièces 42 m2 Anglet - Chambre d&#x27;Amour</a>
     <p class="faits">Appartement · T2</p>
@@ -1183,12 +1219,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-c4f349039e4f160872608d4dagencyag5cantons" data-id="c4f349039e4f160872608d4dagencyag5cantons" data-ville="Anglet" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-fdaf9677-c4f3-4903-9e4f-160872608d4d/?agency=ag5cantons" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+4</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">667 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-fdaf9677-c4f3-4903-9e4f-160872608d4d/?agency=ag5cantons" target="_blank" rel="noopener"><span class="prix">667 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-fdaf9677-c4f3-4903-9e4f-160872608d4d/?agency=ag5cantons" target="_blank" rel="noopener">Location Appartement 2 pièces 46,41 m2 Anglet - Chambre d&#x27;Amour</a>
     <p class="faits">Appartement · T2</p>
@@ -1219,12 +1256,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-veauxetbeneficiantdeplusieursref39714340" data-id="veauxetbeneficiantdeplusieursref39714340" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://nestenn.com/a-louer-a-condom-appartement-de-117-m-entierement-renove-reparti-sur-deux-niveaux-et-beneficiant-de-plusieurs-ref-39714340" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+4</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">720 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://nestenn.com/a-louer-a-condom-appartement-de-117-m-entierement-renove-reparti-sur-deux-niveaux-et-beneficiant-de-plusieurs-ref-39714340" target="_blank" rel="noopener"><span class="prix">720 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://nestenn.com/a-louer-a-condom-appartement-de-117-m-entierement-renove-reparti-sur-deux-niveaux-et-beneficiant-de-plusieurs-ref-39714340" target="_blank" rel="noopener">EXCLU location 32100 CONDOM Appartement à louer 117m² 4 pièces 3 chambres 720 € CC/Mois</a>
     <p class="faits">Appartement · T4 · 3 ch. · 117 m²</p>
@@ -1255,12 +1293,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-rmaisonmalansac3chambres113m2ref39717712" data-id="rmaisonmalansac3chambres113m2ref39717712" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://nestenn.com/a-louer-maison-malansac-3-chambres-113-m2-ref-39717712" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+4</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">980 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://nestenn.com/a-louer-maison-malansac-3-chambres-113-m2-ref-39717712" target="_blank" rel="noopener"><span class="prix">980 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://nestenn.com/a-louer-maison-malansac-3-chambres-113-m2-ref-39717712" target="_blank" rel="noopener">EXCLU 56220 MALANSAC Maison à louer 113m² 5 pièces 3 chambres 980 € CC/Mois</a>
     <p class="faits">Maison · T5 · 3 ch. · 113 m²</p>
@@ -1290,13 +1329,14 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
-<article class="carte exclu nouveau" id="c-emineejardinclosstationnementref39605548" data-id="emineejardinclosstationnementref39605548" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="1">
-  <a class="visuel sans" href="https://nestenn.com/orleans-beaumonts-vauquois-maison-de-ville-meublee-t4-3-chambres-parquet-cheminee-jardin-clos-stationnement-ref-39605548" target="_blank" rel="noopener">
-    <div class="badges"><span class="badge nouveau">Nouveau</span></div>
+<article class="carte exclu" id="c-emineejardinclosstationnementref39605548" data-id="emineejardinclosstationnementref39605548" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
+  <div class="visuel sans">
+    
+    <div class="badges"></div>
     <span class="score pos">+4</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 500 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://nestenn.com/orleans-beaumonts-vauquois-maison-de-ville-meublee-t4-3-chambres-parquet-cheminee-jardin-clos-stationnement-ref-39605548" target="_blank" rel="noopener"><span class="prix">1 500 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://nestenn.com/orleans-beaumonts-vauquois-maison-de-ville-meublee-t4-3-chambres-parquet-cheminee-jardin-clos-stationnement-ref-39605548" target="_blank" rel="noopener">EXCLU 45000 ORLEANS Maison à louer 100m² 4 pièces 3 chambres 1 500 € CC/Mois</a>
     <p class="faits">Maison · T4 · 3 ch. · 100 m²</p>
@@ -1327,12 +1367,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-tury21frtrouverlogementdetail16176241716" data-id="tury21frtrouverlogementdetail16176241716" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.century21.fr/trouver_logement/detail/16176241716/" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+3</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">562 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.century21.fr/trouver_logement/detail/16176241716/" target="_blank" rel="noopener"><span class="prix">562 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.century21.fr/trouver_logement/detail/16176241716/" target="_blank" rel="noopener">Exclusivité BIARRITZ 64 665 € par mois charges comprises 32,7 m2 , appartement , 2 pcs</a>
     <p class="faits">Appartement · T1 · Meublé</p>
@@ -1363,12 +1404,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-ierementrenoveavecjardinetstationnements" data-id="ierementrenoveavecjardinetstationnements" data-ville="Anglet" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.lelogisbasque.fr/location/101-arbonne/appartement/2327-superbe-appartement-t5-entierement-renove-avec-jardin-et-stationnements" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+3</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 890 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.lelogisbasque.fr/location/101-arbonne/appartement/2327-superbe-appartement-t5-entierement-renove-avec-jardin-et-stationnements" target="_blank" rel="noopener"><span class="prix">1 890 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.lelogisbasque.fr/location/101-arbonne/appartement/2327-superbe-appartement-t5-entierement-renove-avec-jardin-et-stationnements" target="_blank" rel="noopener">Coup de coeur Appartement 5 pièce(s) 4 chambre(s) 120.56 m² Arbonne (64210) 1 890 € CC*</a>
     <p class="faits">Appartement · T5 · 4 ch. · 120.56 m²</p>
@@ -1399,12 +1441,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-nncomappartement3pieces5079m2ref39717033" data-id="nncomappartement3pieces5079m2ref39717033" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://nestenn.com/appartement-3-piece-s-50-79-m2-ref-39717033" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+2</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">590 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://nestenn.com/appartement-3-piece-s-50-79-m2-ref-39717033" target="_blank" rel="noopener"><span class="prix">590 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://nestenn.com/appartement-3-piece-s-50-79-m2-ref-39717033" target="_blank" rel="noopener">EXCLU 91150 ETAMPES Appartement à louer 51m² 3 pièces 2 chambres 590 € CC/Mois</a>
     <p class="faits">Appartement · T3 · 2 ch. · 51 m²</p>
@@ -1435,12 +1478,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-erauseindunancienmanoirrenoveref39716897" data-id="erauseindunancienmanoirrenoveref39716897" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://nestenn.com/appartement-a-louer-au-sein-d-un-ancien-manoir-renove-ref-39716897" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+2</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">850 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://nestenn.com/appartement-a-louer-au-sein-d-un-ancien-manoir-renove-ref-39716897" target="_blank" rel="noopener"><span class="prix">850 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://nestenn.com/appartement-a-louer-au-sein-d-un-ancien-manoir-renove-ref-39716897" target="_blank" rel="noopener">EXCLU On aime beaucoup 56250 SAINT NOLFF Appartement à louer 65m² 5 pièces 4 chambres…</a>
     <p class="faits">Appartement · T5 · 4 ch. · 65 m²</p>
@@ -1471,12 +1515,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-appartementmaisonbiarritzkennedymaisont5" data-id="appartementmaisonbiarritzkennedymaisont5" data-ville="Biarritz" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.agence-benquet.com/appartement-maison/biarritz-kennedy-maison-t5/" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+2</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">2 950 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.agence-benquet.com/appartement-maison/biarritz-kennedy-maison-t5/" target="_blank" rel="noopener"><span class="prix">2 950 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.agence-benquet.com/appartement-maison/biarritz-kennedy-maison-t5/" target="_blank" rel="noopener">BIARRITZ, Kennedy, Maison T5 Meublée</a>
     <p class="faits">Maison · T5 · 161 m²</p>
@@ -1507,12 +1552,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-ationslocalprofessionnelanglet6455329510" data-id="ationslocalprofessionnelanglet6455329510" data-ville="Biarritz" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.ajp-immobilier.com/annonces/locations/local_professionnel/anglet-64/55329510" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+2</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">675 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.ajp-immobilier.com/annonces/locations/local_professionnel/anglet-64/55329510" target="_blank" rel="noopener"><span class="prix">675 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.ajp-immobilier.com/annonces/locations/local_professionnel/anglet-64/55329510" target="_blank" rel="noopener">Local commercial</a>
     
@@ -1543,12 +1589,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-calprofessionnelsaintjeandeluz6460372591" data-id="calprofessionnelsaintjeandeluz6460372591" data-ville="Biarritz" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.ajp-immobilier.com/annonces/locations/local_professionnel/saint-jean-de-luz-64/60372591" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+2</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 650 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.ajp-immobilier.com/annonces/locations/local_professionnel/saint-jean-de-luz-64/60372591" target="_blank" rel="noopener"><span class="prix">1 650 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.ajp-immobilier.com/annonces/locations/local_professionnel/saint-jean-de-luz-64/60372591" target="_blank" rel="noopener">Local commercial</a>
     
@@ -1579,12 +1626,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-ncyid367652propertymaisonlistingtyperent" data-id="ncyid367652propertymaisonlistingtyperent" data-ville="Biarritz" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.ajp-immobilier.com/recherche?agency_id=367652&amp;property=maison&amp;listing_type=rent" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+2</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.ajp-immobilier.com/recherche?agency_id=367652&amp;property=maison&amp;listing_type=rent" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.ajp-immobilier.com/recherche?agency_id=367652&amp;property=maison&amp;listing_type=rent" target="_blank" rel="noopener">LOCATION maison (1) parking (1)</a>
     <p class="faits">Maison</p>
@@ -1615,12 +1663,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-ndangleterrefacealhoteldupalaisabiarritz" data-id="ndangleterrefacealhoteldupalaisabiarritz" data-ville="Anglet" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.lelogisbasque.fr/location/80-biarritz/studio/2332-adorable-studio-a-louer-a-l-annee-residence-pavillon-d-angleterre-face-a-l-hotel-du-palais-a-biarritz" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+2</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">450 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.lelogisbasque.fr/location/80-biarritz/studio/2332-adorable-studio-a-louer-a-l-annee-residence-pavillon-d-angleterre-face-a-l-hotel-du-palais-a-biarritz" target="_blank" rel="noopener"><span class="prix">450 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.lelogisbasque.fr/location/80-biarritz/studio/2332-adorable-studio-a-louer-a-l-annee-residence-pavillon-d-angleterre-face-a-l-hotel-du-palais-a-biarritz" target="_blank" rel="noopener">Studio 1 pièce(s) 13.76 m²</a>
     <p class="faits">T1 · 13.76 m²</p>
@@ -1651,12 +1700,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-t2bismeublabiarritzproximitacateb5262800" data-id="t2bismeublabiarritzproximitacateb5262800" data-ville="Bayonne" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.manoirdefrance.fr/location,appartement-A-louer-A-l-annAe-t2-bis-meublA-biarritz-proximitA-cAte,B5262800" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+2</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 200 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.manoirdefrance.fr/location,appartement-A-louer-A-l-annAe-t2-bis-meublA-biarritz-proximitA-cAte,B5262800" target="_blank" rel="noopener"><span class="prix">1 200 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.manoirdefrance.fr/location,appartement-A-louer-A-l-annAe-t2-bis-meublA-biarritz-proximitA-cAte,B5262800" target="_blank" rel="noopener">Biarritz</a>
     <p class="faits">Appartement · T2 · 1 ch. · 65 m² · Meublé</p>
@@ -1687,12 +1737,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-4piecessecteurbichontraquetteref39717751" data-id="4piecessecteurbichontraquetteref39717751" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://nestenn.com/a-louer-appartement-4-piece-s-secteur-bichon-traquette-ref-39717751" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+2</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">900 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://nestenn.com/a-louer-appartement-4-piece-s-secteur-bichon-traquette-ref-39717751" target="_blank" rel="noopener"><span class="prix">900 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://nestenn.com/a-louer-appartement-4-piece-s-secteur-bichon-traquette-ref-39717751" target="_blank" rel="noopener">EXCLU 49100 ANGERS Appartement à louer 67m² 4 pièces 2 chambres 900 € CC/Mois</a>
     <p class="faits">Appartement · T4 · 2 ch. · 67 m²</p>
@@ -1723,12 +1774,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-ntvilleneuvesurlot2pieces40m2ref39354035" data-id="ntvilleneuvesurlot2pieces40m2ref39354035" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://nestenn.com/appartement-villeneuve-sur-lot-2-piece-s-40-m2-ref-39354035" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+2</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">435 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://nestenn.com/appartement-villeneuve-sur-lot-2-piece-s-40-m2-ref-39354035" target="_blank" rel="noopener"><span class="prix">435 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://nestenn.com/appartement-villeneuve-sur-lot-2-piece-s-40-m2-ref-39354035" target="_blank" rel="noopener">EXCLU 47300 VILLENEUVE SUR LOT Appartement à louer 41m² 2 pièces 1 chambre 435 € CC/Mois</a>
     <p class="faits">Appartement · T2 · 1 ch. · 41 m²</p>
@@ -1759,12 +1811,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-aisonarcanguesprochebourgmaisonmitoyenne" data-id="aisonarcanguesprochebourgmaisonmitoyenne" data-ville="Biarritz" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.agence-benquet.com/appartement-maison/arcangues-proche-bourg-maison-mitoyenne/" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+1</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">2 146 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.agence-benquet.com/appartement-maison/arcangues-proche-bourg-maison-mitoyenne/" target="_blank" rel="noopener"><span class="prix">2 146 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.agence-benquet.com/appartement-maison/arcangues-proche-bourg-maison-mitoyenne/" target="_blank" rel="noopener">ARCANGUES, Proche Bourg, Maison Mitoyenne</a>
     <p class="faits">Maison · 137 m²</p>
@@ -1795,12 +1848,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-tury21frtrouverlogementdetail15635506173" data-id="tury21frtrouverlogementdetail15635506173" data-ville="Bayonne" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.century21.fr/trouver_logement/detail/15635506173/" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+1</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">1 837 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.century21.fr/trouver_logement/detail/15635506173/" target="_blank" rel="noopener"><span class="prix">1 837 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.century21.fr/trouver_logement/detail/15635506173/" target="_blank" rel="noopener">Exclusivité USTARITZ 64 1 837 € par mois charges comprises 145 m2 , maison , 5 pcs</a>
     <p class="faits">Maison</p>
@@ -1831,12 +1885,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-tury21frtrouverlogementdetail15761023161" data-id="tury21frtrouverlogementdetail15761023161" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.century21.fr/trouver_logement/detail/15761023161/" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+1</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.century21.fr/trouver_logement/detail/15761023161/" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.century21.fr/trouver_logement/detail/15761023161/" target="_blank" rel="noopener">Exclusivité ST JEAN DE LUZ 64 785 € par mois charges comprises 33,5 m2 , appartement ,…</a>
     <p class="faits">Appartement</p>
@@ -1867,12 +1922,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-tury21frtrouverlogementdetail15857771220" data-id="tury21frtrouverlogementdetail15857771220" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.century21.fr/trouver_logement/detail/15857771220/" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+1</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.century21.fr/trouver_logement/detail/15857771220/" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.century21.fr/trouver_logement/detail/15857771220/" target="_blank" rel="noopener">Exclusivité ST JEAN DE LUZ 64 690 € par mois charges comprises 29,5 m2 , appartement ,…</a>
     <p class="faits">Appartement</p>
@@ -1903,12 +1959,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-tury21frtrouverlogementdetail16642923731" data-id="tury21frtrouverlogementdetail16642923731" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.century21.fr/trouver_logement/detail/16642923731/" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+1</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.century21.fr/trouver_logement/detail/16642923731/" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.century21.fr/trouver_logement/detail/16642923731/" target="_blank" rel="noopener">Exclusivité ST JEAN DE LUZ 64 590 € par mois charges comprises 34,3 m2 , appartement ,…</a>
     <p class="faits">Appartement</p>
@@ -1939,12 +1996,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-tury21frtrouverlogementdetail16642962659" data-id="tury21frtrouverlogementdetail16642962659" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.century21.fr/trouver_logement/detail/16642962659/" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+1</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.century21.fr/trouver_logement/detail/16642962659/" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.century21.fr/trouver_logement/detail/16642962659/" target="_blank" rel="noopener">Exclusivité ST JEAN DE LUZ 64 999,55 € par mois charges comprises 61,0 m2 , appartement…</a>
     <p class="faits">Appartement</p>
@@ -1975,12 +2033,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-stmartindarrossabienimmobilier2lmai98230" data-id="stmartindarrossabienimmobilier2lmai98230" data-ville="Bayonne" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.immobilier-bayonne-aturri.com/location-maison-5-pieces-st-martin-d-arrossa/bien-immobilier/2/lmai98230" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score pos">+1</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.immobilier-bayonne-aturri.com/location-maison-5-pieces-st-martin-d-arrossa/bien-immobilier/2/lmai98230" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.immobilier-bayonne-aturri.com/location-maison-5-pieces-st-martin-d-arrossa/bien-immobilier/2/lmai98230" target="_blank" rel="noopener">Location maison T5 130m 2 ST MARTIN D ARROSSA 1 000 C.C. € / mois Au cœur du pays…</a>
     <p class="faits">Maison · T5</p>
@@ -2011,12 +2070,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-ledansuneresidencehautdegammerecentehtml" data-id="ledansuneresidencehautdegammerecentehtml" data-ville="Biarritz" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="http://www.immobiarritz.fr/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-dans-une-residence-haut-de-gamme-recente.html" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score ">+0</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="http://www.immobiarritz.fr/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-dans-une-residence-haut-de-gamme-recente.html" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="http://www.immobiarritz.fr/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-dans-une-residence-haut-de-gamme-recente.html" target="_blank" rel="noopener">Découvrir</a>
     
@@ -2047,12 +2107,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-ationlanneaupaysbasque342appartementhtml" data-id="ationlanneaupaysbasque342appartementhtml" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.acotztarra.com/location-à-l-année-au-pays-basque/342-appartement.html" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score ">+0</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.acotztarra.com/location-à-l-année-au-pays-basque/342-appartement.html" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.acotztarra.com/location-à-l-année-au-pays-basque/342-appartement.html" target="_blank" rel="noopener">Ref. 432 : APPARTEMENT</a>
     <p class="faits">Appartement · T2 · 55 m²</p>
@@ -2083,12 +2144,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-tury21frtrouverlogementdetail16176497401" data-id="tury21frtrouverlogementdetail16176497401" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.century21.fr/trouver_logement/detail/16176497401/" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score ">+0</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">3 000 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.century21.fr/trouver_logement/detail/16176497401/" target="_blank" rel="noopener"><span class="prix">3 000 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.century21.fr/trouver_logement/detail/16176497401/" target="_blank" rel="noopener">Exclusivité BASSUSSARRY 64 3 000 € par mois charges comprises 204,4 m2 , maison , 7 pcs</a>
     <p class="faits">Maison</p>
@@ -2119,12 +2181,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-tury21frtrouverlogementdetail16619277475" data-id="tury21frtrouverlogementdetail16619277475" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.century21.fr/trouver_logement/detail/16619277475/" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score ">+0</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.century21.fr/trouver_logement/detail/16619277475/" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.century21.fr/trouver_logement/detail/16619277475/" target="_blank" rel="noopener">Exclusivité ARCANGUES 64 724 € par mois charges comprises 34,5 m2 , appartement , 2 pcs</a>
     <p class="faits">Appartement</p>
@@ -2155,12 +2218,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-cesbiarritzbienimmobilier2ges55390001410" data-id="cesbiarritzbienimmobilier2ges55390001410" data-ville="Bayonne" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.immobilier-bayonne-aturri.com/location-appartement-t1-1-pieces-biarritz/bien-immobilier/2/ges55390001-410" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score ">+0</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.immobilier-bayonne-aturri.com/location-appartement-t1-1-pieces-biarritz/bien-immobilier/2/ges55390001-410" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.immobilier-bayonne-aturri.com/location-appartement-t1-1-pieces-biarritz/bien-immobilier/2/ges55390001-410" target="_blank" rel="noopener">Location appartement T1 24m 2 BIARRITZ 480 C.C. € / mois Biarritz, à deux pas de la…</a>
     <p class="faits">Appartement · T1</p>
@@ -2191,12 +2255,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-11piecesbiarritzbienimmobilier2lapp98185" data-id="11piecesbiarritzbienimmobilier2lapp98185" data-ville="Bayonne" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.immobilier-bayonne-aturri.com/location-appartement-t1-1-pieces-biarritz/bien-immobilier/2/lapp98185" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score ">+0</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.immobilier-bayonne-aturri.com/location-appartement-t1-1-pieces-biarritz/bien-immobilier/2/lapp98185" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.immobilier-bayonne-aturri.com/location-appartement-t1-1-pieces-biarritz/bien-immobilier/2/lapp98185" target="_blank" rel="noopener">Location appartement T1 19m2BIARRITZ424 C.C. € / moisPlein centre de biarritz, studio…</a>
     <p class="faits">Appartement · T1</p>
@@ -2227,12 +2292,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-mentappartementt3castanettolosanb2736001" data-id="mentappartementt3castanettolosanb2736001" data-ville="Bayonne" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.manoirdefrance.fr/location,appartement-appartement-t3-castanet-tolosan-,B2736001" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score ">+0</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.manoirdefrance.fr/location,appartement-appartement-t3-castanet-tolosan-,B2736001" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.manoirdefrance.fr/location,appartement-appartement-t3-castanet-tolosan-,B2736001" target="_blank" rel="noopener">Appartement Castanet-tolosan Appartement Castanet-tolosan Castanet-Tolosan</a>
     <p class="faits">Appartement · 69 m²</p>
@@ -2263,12 +2329,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-ledansuneresidencehautdegammerecentehtml" data-id="ledansuneresidencehautdegammerecentehtml" data-ville="Biarritz" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.olaizola.immo/annonces/annonces/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-dans-une-residence-haut-de-gamme-recente.html" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score ">+0</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.olaizola.immo/annonces/annonces/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-dans-une-residence-haut-de-gamme-recente.html" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.olaizola.immo/annonces/annonces/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-dans-une-residence-haut-de-gamme-recente.html" target="_blank" rel="noopener">Découvrir</a>
     
@@ -2299,12 +2366,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-b9a04554a4a94a52cd9a4957agencyag5cantons" data-id="b9a04554a4a94a52cd9a4957agencyag5cantons" data-ville="Anglet" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.orpi.com/annonce-location-appartement-t4-biarritz-64200-56a045e4-b9a0-4554-a4a9-4a52cd9a4957/?agency=ag5cantons" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score ">+0</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix">3 600 €</span><span class="par-mois">/ mois</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.orpi.com/annonce-location-appartement-t4-biarritz-64200-56a045e4-b9a0-4554-a4a9-4a52cd9a4957/?agency=ag5cantons" target="_blank" rel="noopener"><span class="prix">3 600 €</span><span class="par-mois">/ mois</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.orpi.com/annonce-location-appartement-t4-biarritz-64200-56a045e4-b9a0-4554-a4a9-4a52cd9a4957/?agency=ag5cantons" target="_blank" rel="noopener">Location Appartement 4 pièces 127,55 m2 Biarritz - Milady - Colline - Beaurivage</a>
     <p class="faits">Appartement · T4</p>
@@ -2335,12 +2403,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-etyrosse3d3fa139ecd44f1e8614d12e1aa55ca3" data-id="etyrosse3d3fa139ecd44f1e8614d12e1aa55ca3" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.squarehabitat.fr/square-habitat-aquitaine/annonces/biens/location/appartement/saint-vincent-de-tyrosse/3d3fa139-ecd4-4f1e-8614-d12e1aa55ca3" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score ">+0</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.squarehabitat.fr/square-habitat-aquitaine/annonces/biens/location/appartement/saint-vincent-de-tyrosse/3d3fa139-ecd4-4f1e-8614-d12e1aa55ca3" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.squarehabitat.fr/square-habitat-aquitaine/annonces/biens/location/appartement/saint-vincent-de-tyrosse/3d3fa139-ecd4-4f1e-8614-d12e1aa55ca3" target="_blank" rel="noopener">Appartement à louer - SAINT-VINCENT-DE-TYROSSE, 5 pièces</a>
     <p class="faits">Appartement · T5</p>
@@ -2371,12 +2440,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-ntanglet028f767a64c6462787054d43c0578c1a" data-id="ntanglet028f767a64c6462787054d43c0578c1a" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/anglet/028f767a-64c6-4627-8705-4d43c0578c1a" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score ">+0</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/anglet/028f767a-64c6-4627-8705-4d43c0578c1a" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/anglet/028f767a-64c6-4627-8705-4d43c0578c1a" target="_blank" rel="noopener">Studio à louer - ANGLET</a>
     
@@ -2407,12 +2477,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-tbayonne3c6174ef50ea498ab7ffbd7d5792cea6" data-id="tbayonne3c6174ef50ea498ab7ffbd7d5792cea6" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/bayonne/3c6174ef-50ea-498a-b7ff-bd7d5792cea6" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score ">+0</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/bayonne/3c6174ef-50ea-498a-b7ff-bd7d5792cea6" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/bayonne/3c6174ef-50ea-498a-b7ff-bd7d5792cea6" target="_blank" rel="noopener">Appartement à louer - BAYONNE, 2 pièces</a>
     <p class="faits">Appartement · T2</p>
@@ -2443,12 +2514,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-biarritz0b2c2099403449c886a8f942d3efb78c" data-id="biarritz0b2c2099403449c886a8f942d3efb78c" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/biarritz/0b2c2099-4034-49c8-86a8-f942d3efb78c" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score ">+0</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/biarritz/0b2c2099-4034-49c8-86a8-f942d3efb78c" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/biarritz/0b2c2099-4034-49c8-86a8-f942d3efb78c" target="_blank" rel="noopener">Appartement à louer - BIARRITZ, 2 pièces</a>
     <p class="faits">Appartement · T2</p>
@@ -2479,12 +2551,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-biarritz2c22621300864164ab59227ec6b9d0f1" data-id="biarritz2c22621300864164ab59227ec6b9d0f1" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/biarritz/2c226213-0086-4164-ab59-227ec6b9d0f1" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score ">+0</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/biarritz/2c226213-0086-4164-ab59-227ec6b9d0f1" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/biarritz/2c226213-0086-4164-ab59-227ec6b9d0f1" target="_blank" rel="noopener">Appartement à louer - BIARRITZ, 2 pièces</a>
     <p class="faits">Appartement · T2</p>
@@ -2515,12 +2588,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-biarritz6277b96951224ae890acbdd121fe6d7c" data-id="biarritz6277b96951224ae890acbdd121fe6d7c" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/biarritz/6277b969-5122-4ae8-90ac-bdd121fe6d7c" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score ">+0</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/biarritz/6277b969-5122-4ae8-90ac-bdd121fe6d7c" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/biarritz/6277b969-5122-4ae8-90ac-bdd121fe6d7c" target="_blank" rel="noopener">Appartement à louer - Biarritz, 2 pièces</a>
     <p class="faits">Appartement · T2</p>
@@ -2551,12 +2625,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-eandeluz662532b946b34d72bd1a8d875f9ee7c0" data-id="eandeluz662532b946b34d72bd1a8d875f9ee7c0" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/saint-jean-de-luz/662532b9-46b3-4d72-bd1a-8d875f9ee7c0" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score neg">-9</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/saint-jean-de-luz/662532b9-46b3-4d72-bd1a-8d875f9ee7c0" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/saint-jean-de-luz/662532b9-46b3-4d72-bd1a-8d875f9ee7c0" target="_blank" rel="noopener">Studio à louer - Saint-Jean-de-Luz</a>
     
@@ -2587,12 +2662,13 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article>
 <article class="carte exclu" id="c-thendaye8c89bd3dd98f49789fee97831d3a689a" data-id="thendaye8c89bd3dd98f49789fee97831d3a689a" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <a class="visuel sans" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/hendaye/8c89bd3d-d98f-4978-9fee-97831d3a689a" target="_blank" rel="noopener">
+  <div class="visuel sans">
+    
     <div class="badges"></div>
     <span class="score neg">-10</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo"><span class="prix-inconnu">Loyer non lu</span></div>
-  </a>
+    <a class="prix-sur-photo" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/hendaye/8c89bd3d-d98f-4978-9fee-97831d3a689a" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
   <div class="corps">
     <a class="titre" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/hendaye/8c89bd3d-d98f-4978-9fee-97831d3a689a" target="_blank" rel="noopener">Appartement à louer - Hendaye, 2 pièces</a>
     <p class="faits">Appartement · T2</p>
@@ -2627,7 +2703,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <p>12 annonce(s) sortie(s) · 0 retirée(s), dont 0 en 3 jours ou moins · 12 en ligne aujourd’hui · loyer médian 15.8 €/m²</p>
   <table><tr><td>Anglet</td><td>1 520 €</td><td>2 annonce(s)</td></tr><tr><td>Biarritz</td><td>1 620 €</td><td>4 annonce(s)</td></tr><tr><td>Bayonne</td><td>827 €</td><td>3 annonce(s)</td></tr></table>
 </details>
-  <details class="bloc"><summary>État des 17 agences surveillées</summary><table><tr class="ok"><td>L&#x27;Agencerie Côte Basque</td><td>Anglet</td><td>1 annonce(s) détectée(s)</td><td><a href="https://cote-basque.lagencerie.fr/immobilier/location/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Le Logis Basque</td><td>Anglet</td><td>3 annonce(s) détectée(s)</td><td><a href="https://www.lelogisbasque.fr/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Orpi Agence des 5 Cantons</td><td>Anglet</td><td>7 annonce(s) détectée(s)</td><td><a href="https://www.orpi.com/ag5cantons/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Agence Olaizola</td><td>Biarritz</td><td>2 annonce(s) détectée(s)</td><td><a href="https://www.olaizola.immo/annonces/annonces/transaction/Location.html" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Agence Benquet</td><td>Biarritz</td><td>5 annonce(s) détectée(s)</td><td><a href="https://www.agence-benquet.com/location-appartement-maison-biarritz/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Immobiarritz</td><td>Biarritz</td><td>2 annonce(s) détectée(s)</td><td><a href="http://www.immobiarritz.fr/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>AJP Mateille Biarritz</td><td>Biarritz</td><td>4 annonce(s) détectée(s)</td><td><a href="https://www.ajp-immobilier.com/agence-immobiliere/biarritz-64200/ajp-mateille-immobilier-biarritz/000044.htm" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Biarritz, toutes agences)</td><td>Biarritz</td><td>11 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-biarritz/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Square Habitat Bidart</td><td>Bidart</td><td>8 annonce(s) détectée(s)</td><td><a href="https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/bidart-64210" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Nestenn (Bidart)</td><td>Bidart</td><td>2 annonce(s) détectée(s)</td><td><a href="https://nestenn.com/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Acotztarra</td><td>Bidart</td><td>1 annonce(s) détectée(s)</td><td><a href="https://www.acotztarra.com/482-location-%C3%A0-l-ann%C3%A9e-saint-jean-de-luz" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Manoir de France</td><td>Bayonne</td><td>9 annonce(s) détectée(s)</td><td><a href="https://www.manoirdefrance.fr/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Aturri Immobilier</td><td>Bayonne</td><td>5 annonce(s) détectée(s)</td><td><a href="https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 Agence Nivadour</td><td>Bayonne</td><td>2 annonce(s) détectée(s)</td><td><a href="https://www.century21agencenivadour-bayonne.com/annonces/location/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Anglet, toutes agences)</td><td>Anglet</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-anglet/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Bayonne, toutes agences)</td><td>Bayonne</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-bayonne/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Bidart, toutes agences)</td><td>Bidart</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-bidart/" target="_blank" rel="noopener">ouvrir</a></td></tr></table></details>
+  <details class="bloc"><summary>État des 17 agences surveillées</summary><table><tr class="ok"><td>L&#x27;Agencerie Côte Basque</td><td>Anglet</td><td>1 annonce(s) détectée(s)</td><td><a href="https://cote-basque.lagencerie.fr/immobilier/location/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Le Logis Basque</td><td>Anglet</td><td>3 annonce(s) détectée(s)</td><td><a href="https://www.lelogisbasque.fr/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Orpi Agence des 5 Cantons</td><td>Anglet</td><td>7 annonce(s) détectée(s)</td><td><a href="https://www.orpi.com/ag5cantons/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Agence Olaizola</td><td>Biarritz</td><td>2 annonce(s) détectée(s)</td><td><a href="https://www.olaizola.immo/annonces/annonces/transaction/Location.html" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Agence Benquet</td><td>Biarritz</td><td>5 annonce(s) détectée(s)</td><td><a href="https://www.agence-benquet.com/location-appartement-maison-biarritz/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Immobiarritz</td><td>Biarritz</td><td>2 annonce(s) détectée(s)</td><td><a href="http://www.immobiarritz.fr/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>AJP Mateille Biarritz</td><td>Biarritz</td><td>4 annonce(s) détectée(s)</td><td><a href="https://www.ajp-immobilier.com/agence-immobiliere/biarritz-64200/ajp-mateille-immobilier-biarritz/000044.htm" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Biarritz, toutes agences)</td><td>Biarritz</td><td>11 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-biarritz/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Square Habitat Bidart</td><td>Bidart</td><td>8 annonce(s) détectée(s)</td><td><a href="https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/bidart-64210" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Nestenn (Bidart)</td><td>Bidart</td><td>3 annonce(s) détectée(s)</td><td><a href="https://nestenn.com/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Acotztarra</td><td>Bidart</td><td>1 annonce(s) détectée(s)</td><td><a href="https://www.acotztarra.com/482-location-%C3%A0-l-ann%C3%A9e-saint-jean-de-luz" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Manoir de France</td><td>Bayonne</td><td>9 annonce(s) détectée(s)</td><td><a href="https://www.manoirdefrance.fr/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Aturri Immobilier</td><td>Bayonne</td><td>5 annonce(s) détectée(s)</td><td><a href="https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 Agence Nivadour</td><td>Bayonne</td><td>2 annonce(s) détectée(s)</td><td><a href="https://www.century21agencenivadour-bayonne.com/annonces/location/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Anglet, toutes agences)</td><td>Anglet</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-anglet/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Bayonne, toutes agences)</td><td>Bayonne</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-bayonne/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Bidart, toutes agences)</td><td>Bidart</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-bidart/" target="_blank" rel="noopener">ouvrir</a></td></tr></table></details>
   <footer>Score = mots-clés positifs (vert) et négatifs (rouge) lus dans l’annonce + bonus surface / loyer / DPE ; ♥ à partir de 5.
   Positions sur la carte approximatives (quartier cité, sinon ville de l’agence). Temps vers l’hôpital calculés par la route depuis ce point (OpenStreetMap) ; « estimation » si le calcul n’a pas pu être fait.
   Les boutons Vu / Contacté / Visite / Non sont mémorisés sur cet appareil. Annonces retirées des sites depuis 3 jours supprimées.
@@ -2695,6 +2771,13 @@ Marc-Antoine Zipoli et Léa Mathieux
     var id=b.parentNode.dataset.id; suivi[id] = (suivi[id]===b.dataset.etat)? undefined : b.dataset.etat; if(!suivi[id]) delete suivi[id]; sauver(); applique(); }); });
   document.querySelectorAll('.copier').forEach(function(b){ b.addEventListener('click', function(){
     var t=b.dataset.msg; if(navigator.clipboard){ navigator.clipboard.writeText(t).then(function(){ montrerToast('Message copié'); }); } else { montrerToast('Copie non disponible'); } }); });
+  document.querySelectorAll('.galerie').forEach(function(g){
+    var compteur=g.parentNode.querySelector('.compteur'); if(!compteur) return;
+    g.addEventListener('scroll', function(){
+      var n=g.querySelectorAll('.diapo').length, i=Math.round(g.scrollLeft/g.clientWidth)+1;
+      compteur.textContent=Math.min(i,n)+' / '+n;
+    }, {passive:true});
+  });
   var nNouv=cartes.filter(function(c){return c.dataset.nouveau==='1' && c.dataset.cl!=='exclu';}).length;
   if(!nNouv) onglet='coeur';
   if(!cartes.filter(function(c){return c.dataset.coeur==='1';}).length && !nNouv) onglet='tout';
