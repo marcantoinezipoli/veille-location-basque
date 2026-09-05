@@ -366,7 +366,7 @@ def lire_fiche(url):
     """Ouvre la page de l'annonce et renvoie un texte descriptif (ou None)."""
     html, err = recuperer(url, essais=1)
     if not html:
-        return {"texte": None, "h1": None, "photo": None, "tels": [], "mails": []}
+        return {"texte": None, "h1": None, "photo": None, "photos": [], "tels": [], "mails": []}
     soup = BeautifulSoup(html, "lxml")
     for t in soup(["script", "style", "nav", "noscript", "svg", "form"]):
         t.decompose()
@@ -386,6 +386,38 @@ def lire_fiche(url):
     og = soup.find("meta", attrs={"property": "og:image"}) or soup.find("meta", attrs={"name": "twitter:image"})
     if og and og.get("content", "").startswith("http"):
         photo = og["content"]
+    # galerie : toutes les images plausibles de la fiche
+    photos = []
+
+    def ajoute_photo(src):
+        if not src:
+            return
+        src = urljoin(url, src.strip())
+        if not src.startswith("http"):
+            return
+        if re.search(r"logo|icon|sprite|pixel|avatar|placeholder|blank|loader|\.svg|\.gif|base64|captcha|badge|flag|drapeau|facebook|instagram|map|carte|plan\b|dpe|ges|energie", src, re.I):
+            return
+        if not re.search(r"\.(jpe?g|png|webp)(\?|$)|/photos?/|/images?/|/media/|/uploads?/|/img/|/pictures?/", src, re.I):
+            return
+        if src not in photos:
+            photos.append(src)
+
+    if photo:
+        ajoute_photo(photo)
+    zone = soup.find("main") or soup.find("article") or soup.body or soup
+    for a in zone.find_all("a", href=True):
+        if re.search(r"\.(jpe?g|png|webp)(\?|$)", a["href"], re.I):
+            ajoute_photo(a["href"])
+    for img in zone.find_all("img"):
+        for attr in ("data-src", "data-lazy-src", "data-original", "data-full", "data-large", "src"):
+            if img.get(attr):
+                ajoute_photo(img[attr])
+                break
+        if img.get("srcset"):
+            candidats = [c.strip().split()[0] for c in img["srcset"].split(",") if c.strip()]
+            if candidats:
+                ajoute_photo(candidats[-1])
+    photos = photos[:10]
     if not photo:
         lien_img = soup.find("link", attrs={"rel": "image_src"})
         if lien_img and lien_img.get("href", "").startswith("http"):
@@ -433,7 +465,10 @@ def lire_fiche(url):
                 mails.append(m.group(0))
             if len(mails) >= 2:
                 break
-    return {"texte": texte or None, "h1": titre_h1, "photo": photo, "tels": tels, "mails": mails}
+    if photo and photo not in photos:
+        photos.insert(0, photo)
+    return {"texte": texte or None, "h1": titre_h1, "photo": photo or (photos[0] if photos else None),
+            "photos": photos, "tels": tels, "mails": mails}
 
 
 def extraire_dpe(texte):
@@ -505,6 +540,9 @@ def enrichir_par_fiche(annonce, criteres, scoring):
     annonce["fiche_lue"] = bool(texte)
     if photo:
         annonce["photo"] = photo
+    if fiche["photos"]:
+        annonce["photos"] = fiche["photos"]
+    annonce["photos_cherchees"] = True
     if fiche["tels"]:
         annonce["tel"] = fiche["tels"][0]
     if fiche["mails"]:
@@ -750,6 +788,19 @@ def mettre_a_jour_etat(etat, annonces_du_jour, criteres, aujourdhui, scoring=Non
         if a.get("prix") and not a.get("historique_prix"):
             a["historique_prix"] = [{"date": a.get("premiere_vue", aujourdhui), "prix": a["prix"]}]
         time.sleep(DELAI_ENTRE_FICHES)
+    # rattrapage galerie pour les annonces déjà connues (une fois, 15 par passage)
+    for a in [x for x in etat["annonces"].values() if x["statut"] == "active" and x["classement"] != "exclu"
+              and not x.get("photos_cherchees") and x not in a_lire[:MAX_FICHES_PAR_PASSAGE]][:15]:
+        f = lire_fiche(a["url"])
+        if f["photos"]:
+            a["photos"] = f["photos"]
+            a["photo"] = a.get("photo") or f["photos"][0]
+        if f["tels"] and not a.get("tel"):
+            a["tel"] = f["tels"][0]
+        if f["mails"] and not a.get("mail"):
+            a["mail"] = f["mails"][0]
+        a["photos_cherchees"] = True
+        time.sleep(DELAI_ENTRE_FICHES)
     # rattrapage contact pour les fiches déjà lues sans téléphone (une fois)
     for a in [x for x in etat["annonces"].values() if x["statut"] == "active" and x["classement"] != "exclu"
               and x.get("fiche_lue") and not x.get("tel") and not x.get("contact_cherche")][:15]:
@@ -928,7 +979,15 @@ def carte_html(a, nouveau=False, seuil=5, contact=None, lieux=None):
     atouts = "".join(f'<span class="chip plus">{esc(x)}</span>' for x in (a.get("atouts") or [])[:6])
     reserves = "".join(f'<span class="chip moins">{esc(x)}</span>' for x in (a.get("reserves") or [])[:4])
     photo = a.get("photo")
-    style_photo = f' style="background-image:url(\'{esc(photo)}\')"' if photo else ''
+    photos = a.get("photos") or ([photo] if photo else [])
+    if photo and photo not in photos:
+        photos = [photo] + photos
+    diapos = "".join(
+        f'<div class="diapo"><img src="{esc(u)}" alt="" {"loading=lazy" if i else ""} onerror="this.parentNode.remove()"></div>'
+        for i, u in enumerate(photos[:10]))
+    galerie = (f'<div class="galerie" data-n="{len(photos[:10])}">{diapos}</div>'
+               f'<span class="compteur">1 / {len(photos[:10])}</span>' if len(photos) > 1
+               else (f'<div class="galerie"><div class="diapo"><img src="{esc(photo)}" alt="" onerror="this.parentNode.remove()"></div></div>' if photo else ''))
     badges = ""
     if a.get("evenement") == "baisse" and a.get("baisse"):
         b = a["baisse"]
@@ -957,12 +1016,13 @@ def carte_html(a, nouveau=False, seuil=5, contact=None, lieux=None):
         bloc_dist = f'<p class="dist">🏥 {esc(dist)}{liens}</p>'
     return f"""
 <article class="carte {cl}{' coeur' if coeur else ''}{' nouveau' if nouveau else ''}" id="c-{ident}" data-id="{ident}" data-ville="{esc(ville)}" data-cl="{cl}" data-coeur="{1 if coeur else 0}" data-nouveau="{1 if nouveau else 0}">
-  <a class="visuel{'' if photo else ' sans'}" href="{esc(a['url'])}" target="_blank" rel="noopener"{style_photo}>
+  <div class="visuel{'' if photo else ' sans'}">
+    {galerie}
     <div class="badges">{badges}</div>
     <span class="score {'pos' if score > 0 else 'neg' if score < 0 else ''}">{score:+d}</span>
     <div class="voile"></div>
-    <div class="prix-sur-photo">{f'<span class="prix">{esc(prix)}</span><span class="par-mois">/ mois</span>' if prix else '<span class="prix-inconnu">Loyer non lu</span>'}</div>
-  </a>
+    <a class="prix-sur-photo" href="{esc(a['url'])}" target="_blank" rel="noopener">{f'<span class="prix">{esc(prix)}</span><span class="par-mois">/ mois</span>' if prix else '<span class="prix-inconnu">Loyer non lu</span>'}</a>
+  </div>
   <div class="corps">
     <a class="titre" href="{esc(a['url'])}" target="_blank" rel="noopener">{esc(nettoyer_titre(a))}</a>
     {f'<p class="faits">{esc(ligne_faits)}</p>' if ligne_faits else ''}
@@ -1007,16 +1067,22 @@ main { max-width:640px; margin:0 auto; padding:14px 16px 80px; }
 .grille { display:grid; grid-template-columns:1fr; gap:28px; }
 .carte { border-radius:var(--rayon); background:#fff; overflow:hidden; box-shadow:var(--ombre); border-left:0; position:relative; transition:transform .15s; }
 .carte.s-non { opacity:.45; }
-.visuel { display:block; position:relative; height:260px; background:#e9e7e2 center/cover no-repeat; text-decoration:none; }
+.visuel { display:block; position:relative; height:260px; background:#e9e7e2; overflow:hidden; }
 @media (min-width:640px) { .visuel { height:320px; } }
 .visuel.sans { background:linear-gradient(135deg,#f1efe9,#e3e0d8); }
-.visuel .voile { position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(to top, rgba(0,0,0,.72) 0%, rgba(0,0,0,.25) 40%, rgba(0,0,0,0) 65%); }
+.galerie { display:flex; height:100%; overflow-x:auto; scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch; scrollbar-width:none; }
+.galerie::-webkit-scrollbar { display:none; }
+.diapo { flex:0 0 100%; height:100%; scroll-snap-align:start; }
+.diapo img { width:100%; height:100%; object-fit:cover; display:block; }
+.compteur { position:absolute; right:14px; bottom:16px; z-index:3; font-size:.75rem; font-weight:600; color:#fff; background:rgba(0,0,0,.45); padding:4px 9px; border-radius:999px; }
+.visuel .voile { position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(to top, rgba(0,0,0,.65) 0%, rgba(0,0,0,.15) 35%, rgba(0,0,0,0) 55%); pointer-events:none; }
+.badges, .score { pointer-events:none; }
 .badges { position:absolute; top:14px; left:14px; display:flex; gap:6px; z-index:2; }
 .badge { font-size:.72rem; font-weight:700; letter-spacing:.02em; padding:6px 10px; border-radius:999px; background:#fff; color:var(--encre); box-shadow:0 1px 3px rgba(0,0,0,.2); }
 .badge.nouveau { background:var(--rouge); color:#fff; } .badge.coeur { background:#fff; color:#8a6500; } .badge.baisse { background:var(--bleu); color:#fff; }
 .score { position:absolute; top:14px; right:14px; z-index:2; font-size:.75rem; font-weight:700; padding:5px 9px; border-radius:999px; background:rgba(255,255,255,.92); color:var(--texte2); }
 .score.pos { color:var(--vert); } .score.neg { color:var(--rouge); }
-.prix-sur-photo { position:absolute; left:18px; bottom:16px; z-index:2; color:#fff; display:flex; align-items:baseline; gap:6px; text-shadow:0 1px 6px rgba(0,0,0,.35); }
+.prix-sur-photo { position:absolute; left:18px; bottom:16px; z-index:3; color:#fff; display:flex; align-items:baseline; gap:6px; text-shadow:0 1px 6px rgba(0,0,0,.35); text-decoration:none; }
 .prix-sur-photo .prix { font-size:2rem; font-weight:800; letter-spacing:-.02em; }
 .prix-sur-photo .par-mois { font-size:.95rem; opacity:.9; }
 .prix-inconnu { font-size:1.05rem; font-weight:600; opacity:.9; }
@@ -1122,6 +1188,13 @@ JS_RAPPORT = """
     var id=b.parentNode.dataset.id; suivi[id] = (suivi[id]===b.dataset.etat)? undefined : b.dataset.etat; if(!suivi[id]) delete suivi[id]; sauver(); applique(); }); });
   document.querySelectorAll('.copier').forEach(function(b){ b.addEventListener('click', function(){
     var t=b.dataset.msg; if(navigator.clipboard){ navigator.clipboard.writeText(t).then(function(){ montrerToast('Message copié'); }); } else { montrerToast('Copie non disponible'); } }); });
+  document.querySelectorAll('.galerie').forEach(function(g){
+    var compteur=g.parentNode.querySelector('.compteur'); if(!compteur) return;
+    g.addEventListener('scroll', function(){
+      var n=g.querySelectorAll('.diapo').length, i=Math.round(g.scrollLeft/g.clientWidth)+1;
+      compteur.textContent=Math.min(i,n)+' / '+n;
+    }, {passive:true});
+  });
   var nNouv=cartes.filter(function(c){return c.dataset.nouveau==='1' && c.dataset.cl!=='exclu';}).length;
   if(!nNouv) onglet='coeur';
   if(!cartes.filter(function(c){return c.dataset.coeur==='1';}).length && !nNouv) onglet='tout';
