@@ -51,6 +51,21 @@ Résultat : le rapport se met à jour seul chaque matin, à une adresse du type
 
 Ensuite, ouvrir l'adresse GitHub Pages chaque matin (l'ajouter à l'écran d'accueil du téléphone).
 
+## Recevoir le rapport par e-mail chaque matin
+
+Le script envoie un digest (nouveautés + meilleures annonces en ligne) via Gmail si trois secrets
+sont définis dans le dépôt : *Settings → Secrets and variables → Actions → New repository secret*.
+
+| Nom | Valeur |
+|---|---|
+| `MAIL_USER` | l'adresse Gmail qui envoie (ex. `prenom@gmail.com`) |
+| `MAIL_PASSWORD` | un **mot de passe d'application** Google (pas le mot de passe du compte) |
+| `MAIL_TO` | destinataires, séparés par des virgules |
+
+Mot de passe d'application : myaccount.google.com → Sécurité → Validation en deux étapes (doit être
+activée) → « Mots de passe des applications » → créer → copier les 16 caractères.
+Sans ces secrets, le script tourne normalement et écrit simplement « E-mail non envoyé ».
+
 ## Installation alternative : sur ton ordinateur
 
 ```bash

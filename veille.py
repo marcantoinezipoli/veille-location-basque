@@ -382,7 +382,19 @@ def lire_fiche(url):
         morceaux.append(texte_compact(corps.get_text(" "))[:5000])
     texte = " ".join(m for m in morceaux if m)
     titre_h1 = texte_compact(h1.get_text(" ")) if h1 else None
-    return (texte or None, titre_h1)
+    photo = None
+    og = soup.find("meta", attrs={"property": "og:image"}) or soup.find("meta", attrs={"name": "twitter:image"})
+    if og and og.get("content", "").startswith("http"):
+        photo = og["content"]
+    else:
+        for img in soup.find_all("img", src=True):
+            src = urljoin(url, img["src"])
+            if re.search(r"logo|icon|sprite|pixel|avatar|placeholder|\.svg", src, re.I):
+                continue
+            if re.search(r"\.(jpe?g|png|webp)", src, re.I):
+                photo = src
+                break
+    return (texte or None, titre_h1, photo)
 
 
 def extraire_dpe(texte):
@@ -449,8 +461,10 @@ def scorer(annonce, scoring):
 
 def enrichir_par_fiche(annonce, criteres, scoring):
     """Lit la fiche, complète les champs manquants, recalcule classement et score."""
-    texte, titre_h1 = lire_fiche(annonce["url"])
+    texte, titre_h1, photo = lire_fiche(annonce["url"])
     annonce["fiche_lue"] = bool(texte)
+    if photo:
+        annonce["photo"] = photo
     if texte:
         annonce["description"] = texte[:1200]
         titre_actuel = annonce.get("titre", "")
@@ -551,175 +565,337 @@ def esc(s):
     return htmlmod.escape(str(s if s is not None else ""))
 
 
-def libelle_champs(a):
+MOIS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."]
+
+
+def date_courte(iso):
+    try:
+        d = date.fromisoformat(iso)
+        return f"{d.day} {MOIS[d.month - 1]}"
+    except Exception:
+        return iso or ""
+
+
+def prix_fmt(p):
+    return f"{p:,} €".replace(",", " ") if p else None
+
+
+def resume_bien(a):
+    """Ligne courte : Appartement T4 · 80 m² · 3 ch."""
     parts = []
     if a.get("type"):
         parts.append(a["type"].capitalize())
     if a.get("pieces"):
         parts.append(f"T{a['pieces']}")
+    if a.get("surface"):
+        sv = a["surface"]
+        parts.append(f"{int(sv) if float(sv).is_integer() else sv} m²")
     if a.get("chambres"):
         parts.append(f"{a['chambres']} ch.")
-    if a.get("surface"):
-        s = a["surface"]
-        parts.append(f"{int(s) if float(s).is_integer() else s} m²")
-    if a.get("prix"):
-        parts.append(f"{a['prix']:,} €".replace(",", " "))
-    return " — ".join(parts)
+    return " · ".join(parts)
 
 
-def carte_annonce(a, nouveau=False, seuil_coeur=5):
+def libelle_champs(a):
+    r = resume_bien(a)
+    return (r + " — " + prix_fmt(a["prix"])) if a.get("prix") and r else (r or prix_fmt(a.get("prix")) or "")
+
+
+def nettoyer_titre(a):
+    t = (a.get("titre") or "").strip()
+    t = re.sub(r"\s*\|.*$", "", t)                      # coupe "| 64100 827 € | 64 m²"
+    t = re.sub(r"(\b\w+\b)(\s+\1\b)+", r"\1", t, flags=re.I)  # "Bayonne Bayonne" -> "Bayonne"
+    t = re.sub(r"\s{2,}", " ", t).strip(" -–—·")
+    if len(t) > 90:
+        t = t[:88].rsplit(" ", 1)[0] + "…"
+    return t or a.get("url", "")
+
+
+def classe_dpe(d):
+    return {"A": "dpe-ab", "B": "dpe-ab", "C": "dpe-c", "D": "dpe-d", "E": "dpe-e"}.get(d, "dpe-fg")
+
+
+def carte_html(a, nouveau=False, seuil=5):
     cl = a.get("classement", "a_verifier")
-    badge = {"match": "Correspond", "a_verifier": "À vérifier", "exclu": "Hors critères"}[cl]
-    if cl == "exclu" and a.get("motif_exclusion"):
-        badge += f" ({a['motif_exclusion']})"
-    infos = libelle_champs(a)
+    score = a.get("score") or 0
+    coeur = score >= seuil and cl != "exclu"
+    prix = prix_fmt(a.get("prix"))
+    pills = ""
+    if a.get("pieces"):
+        pills += f'<span class="pill">T{a["pieces"]}</span>'
+    if a.get("chambres"):
+        pills += f'<span class="pill">{a["chambres"]} ch.</span>'
+    if a.get("surface"):
+        sv = a["surface"]
+        pills += f'<span class="pill">{int(sv) if float(sv).is_integer() else sv} m²</span>'
     if a.get("dpe"):
-        infos += f" — DPE {a['dpe']}"
+        pills += f'<span class="pill {classe_dpe(a["dpe"])}">DPE {a["dpe"]}</span>'
     if a.get("meuble"):
-        infos += " — meublé"
-    ctx = a.get("description") or a.get("contexte", "")
-    titre = a.get("titre") or a["url"]
-    score = a.get("score", 0) or 0
-    coeur = score >= seuil_coeur and cl != "exclu"
-    chips = "".join(f'<span class="chip plus">{esc(x)}</span>' for x in (a.get("atouts") or [])[:8])
-    chips += "".join(f'<span class="chip moins">{esc(x)}</span>' for x in (a.get("reserves") or [])[:5])
+        pills += '<span class="pill">Meublé</span>'
+    if cl == "a_verifier":
+        pills += '<span class="pill incertain">Infos à confirmer</span>'
+    if cl == "exclu":
+        pills += f'<span class="pill exclu">Écartée : {esc(a.get("motif_exclusion") or "critères")}</span>'
+    atouts = "".join(f'<span class="chip plus">{esc(x)}</span>' for x in (a.get("atouts") or [])[:6])
+    reserves = "".join(f'<span class="chip moins">{esc(x)}</span>' for x in (a.get("reserves") or [])[:4])
+    photo = a.get("photo")
+    bloc_photo = (f'<div class="photo" style="background-image:url(\'{esc(photo)}\')"></div>' if photo
+                  else '<div class="photo vide"><span>Pas de photo</span></div>')
+    badges = ""
+    if nouveau:
+        badges += '<span class="badge nouveau">Nouveau</span>'
+    if coeur:
+        badges += '<span class="badge coeur">♥ Coup de cœur</span>'
+    ville = a.get("ville_agence", "")
     return f"""
-    <li class="annonce {cl}{' nouveau' if nouveau else ''}{' coeur' if coeur else ''}">
-      <a href="{esc(a['url'])}" target="_blank" rel="noopener">
-        <span class="ligne1"><span class="titre">{esc(titre[:110])}</span><span class="score" title="score mots-clés">{'♥ ' if coeur else ''}{score:+d}</span></span>
-        <span class="infos">{esc(infos) if infos else '<em>caractéristiques non lues, ouvrir l’annonce</em>'}</span>
-        <span class="meta">{esc(a['agence'])} · {esc(a.get('ville_agence',''))} · vu le {esc(a.get('premiere_vue',''))} · {badge}</span>
-      </a>
-      {f'<div class="chips">{chips}</div>' if chips else ''}
-      {f'<p class="ctx">{esc(ctx[:240])}…</p>' if ctx and ctx != titre else ''}
-    </li>"""
+<article class="carte {cl}{' coeur' if coeur else ''}{' nouveau' if nouveau else ''}" data-ville="{esc(ville)}" data-cl="{cl}" data-coeur="{1 if coeur else 0}" data-nouveau="{1 if nouveau else 0}">
+  <a class="lien" href="{esc(a['url'])}" target="_blank" rel="noopener">
+    {bloc_photo}
+    <div class="badges">{badges}</div>
+    <div class="corps">
+      <div class="ligne-prix"><span class="prix">{esc(prix) if prix else '<span class="prix-inconnu">Loyer non lu</span>'}</span>{'<span class="par-mois">/ mois</span>' if prix else ''}<span class="score {'pos' if score > 0 else 'neg' if score < 0 else ''}">{score:+d}</span></div>
+      <h3 class="titre">{esc(nettoyer_titre(a))}</h3>
+      <div class="pills">{pills}</div>
+      <div class="agence">{esc(a['agence'])} · {esc(ville)} · vu le {esc(date_courte(a.get('premiere_vue')))}</div>
+      {f'<div class="chips">{atouts}{reserves}</div>' if atouts or reserves else ''}
+      <span class="btn">Voir l’annonce →</span>
+    </div>
+  </a>
+</article>"""
+
+
+CSS_RAPPORT = """
+:root { --encre:#1b1f1a; --papier:#f4f2ec; --carte:#ffffff; --vert:#1e5a3c; --vert-clair:#e4efe8; --rouge:#b5121b;
+        --or:#c9a227; --gris:#6b6f66; --gris-clair:#e6e3da; --ombre:0 1px 2px rgba(0,0,0,.06), 0 6px 18px rgba(0,0,0,.06); }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--papier); color:var(--encre); font:16px/1.4 -apple-system, "Helvetica Neue", Arial, sans-serif; -webkit-text-size-adjust:100%; }
+header { background:var(--vert); color:#fff; padding:16px 16px 12px; }
+header h1 { margin:0; font-size:1.15rem; font-weight:700; letter-spacing:.01em; }
+header .sous { margin:4px 0 0; font-size:.85rem; opacity:.85; }
+.onglets { position:sticky; top:0; z-index:5; display:flex; gap:6px; padding:10px 12px; background:var(--papier); border-bottom:1px solid var(--gris-clair); overflow-x:auto; }
+.onglets button { flex:0 0 auto; border:1px solid var(--gris-clair); background:#fff; color:var(--encre); border-radius:20px; padding:7px 13px; font-size:.9rem; font-weight:600; cursor:pointer; }
+.onglets button.actif { background:var(--vert); color:#fff; border-color:var(--vert); }
+.onglets button .n { font-weight:400; opacity:.75; margin-left:4px; }
+.filtres-villes { display:flex; gap:6px; padding:8px 12px 0; flex-wrap:wrap; }
+.filtres-villes button { border:1px solid var(--gris-clair); background:transparent; border-radius:14px; padding:4px 10px; font-size:.8rem; color:var(--gris); cursor:pointer; }
+.filtres-villes button.actif { color:var(--vert); border-color:var(--vert); background:var(--vert-clair); }
+main { max-width:760px; margin:0 auto; padding:10px 12px 60px; }
+.vide-msg { display:none; text-align:center; color:var(--gris); padding:40px 16px; font-size:.95rem; }
+.grille { display:grid; grid-template-columns:1fr; gap:14px; }
+@media (min-width:640px) { .grille { grid-template-columns:1fr 1fr; } }
+.carte { background:var(--carte); border-radius:14px; overflow:hidden; box-shadow:var(--ombre); position:relative; }
+.carte .lien { color:inherit; text-decoration:none; display:block; }
+.carte .photo { height:170px; background:#dcd8cd center/cover no-repeat; }
+.carte .photo.vide { display:flex; align-items:center; justify-content:center; color:#9a978e; font-size:.85rem; background:repeating-linear-gradient(45deg,#e6e3da 0 10px,#ece9e0 10px 20px); }
+.carte .badges { position:absolute; top:10px; left:10px; display:flex; gap:6px; }
+.badge { font-size:.72rem; font-weight:700; letter-spacing:.03em; text-transform:uppercase; padding:4px 8px; border-radius:6px; color:#fff; }
+.badge.nouveau { background:var(--rouge); }
+.badge.coeur { background:var(--or); color:#2b2300; }
+.carte .corps { padding:12px 14px 14px; }
+.ligne-prix { display:flex; align-items:baseline; gap:6px; }
+.prix { font-size:1.5rem; font-weight:800; color:var(--vert); letter-spacing:-.01em; }
+.prix-inconnu { font-size:1rem; font-weight:600; color:var(--gris); }
+.par-mois { font-size:.85rem; color:var(--gris); }
+.score { margin-left:auto; font-size:.8rem; font-weight:700; padding:2px 8px; border-radius:10px; background:var(--gris-clair); color:var(--gris); }
+.score.pos { background:var(--vert-clair); color:var(--vert); }
+.score.neg { background:#f3e4e4; color:#8a2a2e; }
+.carte .titre { margin:6px 0 8px; font-size:1rem; font-weight:600; line-height:1.3; }
+.pills { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:8px; }
+.pill { font-size:.8rem; font-weight:600; padding:3px 9px; border-radius:8px; background:#f0eee7; color:var(--encre); }
+.pill.dpe-ab { background:#d5efd9; color:#145a2a; } .pill.dpe-c { background:#e6f2c9; color:#3f5a11; }
+.pill.dpe-d { background:#fff1c2; color:#6b5200; } .pill.dpe-e { background:#ffdfc2; color:#7a3d00; } .pill.dpe-fg { background:#ffd0d0; color:#7a1a1a; }
+.pill.incertain { background:#fff7dc; color:#6b5200; font-weight:500; }
+.pill.exclu { background:#f3e4e4; color:#8a2a2e; font-weight:500; }
+.agence { font-size:.8rem; color:var(--gris); margin-bottom:8px; }
+.chips { display:flex; flex-wrap:wrap; gap:4px; margin-bottom:10px; }
+.chip { font-size:.74rem; padding:2px 8px; border-radius:10px; border:1px solid var(--gris-clair); color:var(--gris); }
+.chip.plus { background:var(--vert-clair); border-color:#bfd6c8; color:var(--vert); }
+.chip.moins { background:#f7ecec; border-color:#e0c8c8; color:#8a2a2e; }
+.btn { display:block; text-align:center; background:var(--vert); color:#fff; font-weight:700; padding:10px; border-radius:10px; font-size:.95rem; }
+.carte.exclu { opacity:.85; } .carte.exclu .btn { background:#8e938b; } .carte.exclu .prix { color:var(--gris); }
+h2.section { font-size:.95rem; color:var(--gris); text-transform:uppercase; letter-spacing:.06em; margin:18px 4px 10px; }
+details.agences { margin-top:28px; font-size:.85rem; }
+details.agences summary { color:var(--gris); cursor:pointer; padding:8px 4px; }
+table { width:100%; border-collapse:collapse; }
+td { border-top:1px solid var(--gris-clair); padding:6px 4px; vertical-align:top; }
+tr.ok td:first-child { color:var(--vert); } tr.vide td:first-child, tr.erreur td:first-child { color:var(--rouge); }
+footer { font-size:.78rem; color:var(--gris); margin-top:24px; line-height:1.5; }
+"""
+
+JS_RAPPORT = """
+(function(){
+  var onglet='nouveau', ville='toutes';
+  var cartes=[].slice.call(document.querySelectorAll('.carte'));
+  var msg=document.getElementById('vide-msg');
+  function applique(){
+    var n=0;
+    cartes.forEach(function(c){
+      var ok=true;
+      if(onglet==='nouveau') ok=c.dataset.nouveau==='1' && c.dataset.cl!=='exclu';
+      else if(onglet==='coeur') ok=c.dataset.coeur==='1';
+      else if(onglet==='tout') ok=c.dataset.cl!=='exclu';
+      else if(onglet==='ecartees') ok=c.dataset.cl==='exclu';
+      if(ok && ville!=='toutes' && c.dataset.ville!==ville) ok=false;
+      c.style.display=ok?'':'none'; if(ok) n++;
+    });
+    msg.style.display=n?'none':'';
+    msg.textContent = onglet==='nouveau' ? 'Rien de nouveau depuis le dernier passage. Regarde « Coups de cœur » ou « Tout ».' : 'Aucune annonce dans cette sélection.';
+    document.querySelectorAll('.onglets button').forEach(function(b){ b.classList.toggle('actif', b.dataset.onglet===onglet); });
+    document.querySelectorAll('.filtres-villes button').forEach(function(b){ b.classList.toggle('actif', b.dataset.ville===ville); });
+  }
+  document.querySelectorAll('.onglets button').forEach(function(b){ b.addEventListener('click', function(){ onglet=b.dataset.onglet; applique(); }); });
+  document.querySelectorAll('.filtres-villes button').forEach(function(b){ b.addEventListener('click', function(){ ville=b.dataset.ville; applique(); }); });
+  var nNouv=cartes.filter(function(c){return c.dataset.nouveau==='1' && c.dataset.cl!=='exclu';}).length;
+  if(!nNouv) onglet='coeur';
+  if(!cartes.filter(function(c){return c.dataset.coeur==='1';}).length && !nNouv) onglet='tout';
+  applique();
+})();
+"""
 
 
 def generer_rapport(etat, nouveautes, rapports_agences, criteres, aujourdhui, chemin, scoring=None):
     seuil = (scoring or {}).get("coup_de_coeur_a_partir_de", 5)
+    ordre_cl = {"match": 0, "a_verifier": 1, "exclu": 2}
+    urls_nouv = {a["url"] for a in nouveautes}
     actives = [a for a in etat["annonces"].values() if a["statut"] == "active"]
-    actives.sort(key=lambda a: (
-        {"match": 0, "a_verifier": 1, "exclu": 2}[a.get("classement", "a_verifier")],
-        -(a.get("score") or 0), a.get("premiere_vue", "")), reverse=False)
-    actives.sort(key=lambda a: -(a.get("score") or 0) if a.get("classement") != "exclu" else 10**6)
-    actives.sort(key=lambda a: {"match": 0, "a_verifier": 1, "exclu": 2}[a.get("classement", "a_verifier")])
-    nouveautes = sorted(nouveautes, key=lambda a: -(a.get("score") or 0))
+    actives.sort(key=lambda a: (ordre_cl[a.get("classement", "a_verifier")], -(a.get("score") or 0), a.get("premiere_vue", "")))
 
-    nouv_match = [a for a in nouveautes if a["classement"] == "match"]
-    nouv_verif = [a for a in nouveautes if a["classement"] == "a_verifier"]
-    nouv_exclu = [a for a in nouveautes if a["classement"] == "exclu"]
+    cartes = "".join(carte_html(a, a["url"] in urls_nouv, seuil) for a in actives)
+    n_nouv = sum(1 for a in nouveautes if a["classement"] != "exclu")
+    n_coeur = sum(1 for a in actives if (a.get("score") or 0) >= seuil and a["classement"] != "exclu")
+    n_tout = sum(1 for a in actives if a["classement"] != "exclu")
+    n_exclu = len(actives) - n_tout
+    villes = ["Anglet", "Biarritz", "Bidart", "Bayonne"]
+    boutons_villes = '<button data-ville="toutes" class="actif">Toutes</button>' + "".join(
+        f'<button data-ville="{v}">{v}</button>' for v in villes)
 
-    def liste(items, nouveau=False):
-        return "<ul class='liste'>" + "".join(carte_annonce(a, nouveau, seuil) for a in items) + "</ul>" if items else ""
-
-    # groupe des actives par ville
-    par_ville = {}
-    for a in actives:
-        par_ville.setdefault(a.get("ville_agence", "Autre"), []).append(a)
-
-    sections_villes = ""
-    for ville in ["Anglet", "Biarritz", "Bidart", "Bayonne"] + sorted(set(par_ville) - {"Anglet", "Biarritz", "Bidart", "Bayonne"}):
-        if ville not in par_ville:
-            continue
-        items = par_ville[ville]
-        visibles = [a for a in items if a["classement"] != "exclu"]
-        exclues = [a for a in items if a["classement"] == "exclu"]
-        sections_villes += f"""
-        <details class="ville" open>
-          <summary>{esc(ville)} <span class="compte">{len(visibles)} annonce(s)</span></summary>
-          {liste(visibles)}
-          {f'<details class="exclues"><summary>{len(exclues)} hors critères (étudiant, studio, parking, hors budget…)</summary>{liste(exclues)}</details>' if exclues else ''}
-        </details>"""
-
-    lignes_agences = ""
-    for r in rapports_agences:
-        cls = r["statut"]
-        lignes_agences += f"""<tr class="{cls}"><td>{esc(r['nom'])}</td><td>{esc(r['ville'])}</td>
-        <td>{esc(r['message'])}</td><td><a href="{esc(r['url_utilisee'])}" target="_blank" rel="noopener">ouvrir</a></td></tr>"""
-
+    lignes = "".join(
+        f'<tr class="{r["statut"]}"><td>{esc(r["nom"])}</td><td>{esc(r["ville"])}</td><td>{esc(r["message"][:60])}</td>'
+        f'<td><a href="{esc(r["url_utilisee"])}" target="_blank" rel="noopener">ouvrir</a></td></tr>' for r in rapports_agences)
     n_ok = sum(1 for r in rapports_agences if r["statut"] == "ok")
-    n_pb = len(rapports_agences) - n_ok
     c = criteres
-    crit_txt = (f"{c.get('min_chambres', '?')} chambres minimum, {c.get('max_loyer', '?')} € CC maximum, "
-                f"appartement ou maison, pas de rez-de-chaussée, location à l'année uniquement")
-
-    if nouveautes:
-        bloc_nouv = f"""
-        <section class="nouveautes">
-          <h2>Nouveau aujourd’hui <span class="compte">{len(nouveautes)}</span></h2>
-          {f'<h3>Correspond à vos critères ({len(nouv_match)})</h3>' + liste(nouv_match, True) if nouv_match else ''}
-          {f'<h3>À vérifier ({len(nouv_verif)})</h3><p class="note">Caractéristiques incomplètes sur la page de liste : ouvrir l’annonce pour trancher.</p>' + liste(nouv_verif, True) if nouv_verif else ''}
-          {f'<details class="exclues"><summary>{len(nouv_exclu)} nouveauté(s) hors critères</summary>{liste(nouv_exclu, True)}</details>' if nouv_exclu else ''}
-        </section>"""
-    else:
-        bloc_nouv = """<section class="nouveautes vide"><h2>Nouveau aujourd’hui</h2>
-        <p>Rien de nouveau depuis le dernier passage. Les annonces actives restent listées ci-dessous.</p></section>"""
+    crit_txt = (f"{c.get('min_chambres', 2)} chambres min · {prix_fmt(c.get('max_loyer'))} max · "
+                f"appartement ou maison · pas de RDC · à l’année")
 
     page = f"""<!doctype html>
 <html lang="fr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Veille location Côte Basque — {esc(aujourdhui)}</title>
-<style>
-:root {{ --encre:#1c1f1a; --papier:#fbfaf6; --vert:#1e5a3c; --rouge:#b5121b; --gris:#6b6f66; --ligne:#dcdad2; --jaune:#f6ead1; }}
-* {{ box-sizing:border-box; }}
-body {{ margin:0; background:var(--papier); color:var(--encre); font:16px/1.45 "Helvetica Neue", Arial, sans-serif; }}
-header {{ background:var(--vert); color:#fff; padding:18px 16px 14px; }}
-header h1 {{ margin:0; font-size:1.25rem; font-weight:600; }}
-header p {{ margin:4px 0 0; opacity:.85; font-size:.9rem; }}
-main {{ max-width:720px; margin:0 auto; padding:8px 12px 48px; }}
-h2 {{ font-size:1.1rem; margin:22px 0 8px; display:flex; align-items:baseline; gap:8px; }}
-h3 {{ font-size:.95rem; margin:14px 0 6px; color:var(--vert); }}
-.compte {{ font-size:.8rem; font-weight:normal; color:var(--gris); }}
-.note {{ font-size:.85rem; color:var(--gris); margin:0 0 6px; }}
-.liste {{ list-style:none; margin:0; padding:0; }}
-.annonce {{ border-top:1px solid var(--ligne); padding:10px 0; }}
-.annonce a {{ text-decoration:none; color:inherit; display:block; }}
-.annonce a span {{ display:block; margin-top:2px; }}
-.annonce .titre {{ font-weight:600; }}
-.annonce .infos {{ font-size:.95rem; }}
-.annonce .meta {{ font-size:.8rem; color:var(--gris); }}
-.annonce .badge {{ font-size:.75rem; color:var(--gris); }}
-.annonce.match .badge {{ color:var(--vert); font-weight:600; }}
-.annonce.nouveau {{ background:var(--jaune); padding-left:10px; padding-right:10px; border-left:4px solid var(--rouge); }}
-.annonce .ctx {{ margin:6px 0 0; font-size:.82rem; color:var(--gris); }}
-.annonce .ligne1 {{ display:flex; justify-content:space-between; gap:8px; align-items:baseline; }}
-.annonce .score {{ font-size:.85rem; color:var(--gris); white-space:nowrap; }}
-.annonce.coeur .score {{ color:var(--rouge); font-weight:600; }}
-.annonce.coeur .titre {{ color:var(--vert); }}
-.chips {{ margin-top:6px; display:flex; flex-wrap:wrap; gap:4px; }}
-.chip {{ font-size:.75rem; padding:1px 7px; border-radius:10px; border:1px solid var(--ligne); }}
-.chip.plus {{ background:#e6f0ea; border-color:#bfd6c8; color:var(--vert); }}
-.chip.moins {{ background:#f3ecec; border-color:#dcc3c3; color:#7a2d31; }}
-details.ville {{ margin-top:10px; }}
-details.ville > summary {{ font-size:1.05rem; font-weight:600; cursor:pointer; padding:8px 0; }}
-details.exclues {{ margin:8px 0 0; }}
-details.exclues > summary {{ font-size:.85rem; color:var(--gris); cursor:pointer; }}
-details.exclues .annonce {{ opacity:.7; }}
-table {{ width:100%; border-collapse:collapse; font-size:.85rem; }}
-td {{ border-top:1px solid var(--ligne); padding:6px 4px; vertical-align:top; }}
-tr.ok td:first-child {{ color:var(--vert); }}
-tr.vide td:first-child, tr.erreur td:first-child {{ color:var(--rouge); }}
-.vide p {{ color:var(--gris); }}
-footer {{ font-size:.8rem; color:var(--gris); margin-top:28px; }}
-</style></head>
+<title>Veille location Côte Basque — {esc(date_courte(aujourdhui))}</title>
+<style>{CSS_RAPPORT}</style></head>
 <body>
 <header>
-  <h1>Veille location — Anglet · Biarritz · Bidart · Bayonne</h1>
-  <p>Mis à jour le {esc(aujourdhui)} · {len(actives)} annonces actives · {n_ok} agences lues{f' · {n_pb} à vérifier' if n_pb else ''}</p>
-  <p>Critères : {esc(crit_txt)} · score ≥ {seuil} = coup de cœur ♥</p>
+  <h1>Veille location · Côte Basque</h1>
+  <p class="sous">{esc(date_courte(aujourdhui))} · {n_tout} annonces en ligne · {n_ok} agences lues</p>
+  <p class="sous">{esc(crit_txt)}</p>
 </header>
+<nav class="onglets">
+  <button data-onglet="nouveau">Nouveau<span class="n">{n_nouv}</span></button>
+  <button data-onglet="coeur">♥ Coups de cœur<span class="n">{n_coeur}</span></button>
+  <button data-onglet="tout">Tout<span class="n">{n_tout}</span></button>
+  <button data-onglet="ecartees">Écartées<span class="n">{n_exclu}</span></button>
+</nav>
+<div class="filtres-villes">{boutons_villes}</div>
 <main>
-  {bloc_nouv}
-  <h2>Toutes les annonces actives</h2>
-  <p class="note">Par ville d’implantation de l’agence, triées par score. Le score additionne les mots-clés positifs (vert) et négatifs (rouge) trouvés dans l’annonce, plus des bonus surface / loyer / DPE. Les annonces non revues depuis {JOURS_AVANT_DISPARU} jours sont retirées automatiquement.</p>
-  {sections_villes or '<p class="note">Aucune annonce active pour l’instant.</p>'}
-  <h2>État des agences surveillées</h2>
-  <table>{lignes_agences}</table>
-  <footer>Les portails nationaux (Leboncoin, SeLoger, Bien’ici, PAP) ne sont pas lus par cet outil : utiliser leurs alertes e-mail ou Jinka en complément.</footer>
+  <p id="vide-msg" class="vide-msg"></p>
+  <div class="grille">{cartes}</div>
+  <details class="agences"><summary>État des {len(rapports_agences)} agences surveillées</summary><table>{lignes}</table></details>
+  <footer>Score = mots-clés positifs (vert) et négatifs (rouge) lus dans l’annonce + bonus surface / loyer / DPE ; ♥ à partir de {seuil}.
+  « Infos à confirmer » : la fiche ne donne pas tous les chiffres, ouvrir l’annonce. Les annonces disparues des sites depuis {JOURS_AVANT_DISPARU} jours sont retirées.
+  Leboncoin, SeLoger, Bien’ici, Foncia, Laforêt ne sont pas lus ici : alertes e-mail + Jinka.</footer>
 </main>
+<script>{JS_RAPPORT}</script>
 </body></html>"""
     chemin.parent.mkdir(parents=True, exist_ok=True)
     chemin.write_text(page, encoding="utf-8")
+
+
+# --- E-mail ------------------------------------------------------------------------
+
+def carte_mail(a, seuil=5):
+    """Version e-mail d'une carte : tableau + styles en ligne (les clients mail ignorent le CSS)."""
+    score = a.get("score") or 0
+    coeur = score >= seuil
+    prix = prix_fmt(a.get("prix")) or "Loyer non lu"
+    infos = resume_bien(a)
+    if a.get("dpe"):
+        infos += f" · DPE {a['dpe']}"
+    if a.get("meuble"):
+        infos += " · meublé"
+    atouts = " · ".join((a.get("atouts") or [])[:5])
+    reserves = " · ".join((a.get("reserves") or [])[:3])
+    photo = f'<img src="{esc(a["photo"])}" width="100%" style="display:block;max-height:220px;object-fit:cover;border-radius:10px 10px 0 0" alt="">' if a.get("photo") else ""
+    etiquette = '<span style="background:#c9a227;color:#2b2300;font-size:11px;font-weight:700;padding:3px 7px;border-radius:5px;margin-right:6px">♥ COUP DE CŒUR</span>' if coeur else ""
+    return f"""
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#fff;border-radius:10px;margin:0 0 14px;border:1px solid #e6e3da;font-family:-apple-system,Helvetica,Arial,sans-serif">
+  <tr><td>{photo}</td></tr>
+  <tr><td style="padding:12px 14px 14px">
+    <div style="margin-bottom:4px">{etiquette}<span style="font-size:22px;font-weight:800;color:#1e5a3c">{esc(prix)}</span> <span style="color:#6b6f66;font-size:13px">/ mois</span></div>
+    <div style="font-size:16px;font-weight:600;color:#1b1f1a;margin:4px 0">{esc(nettoyer_titre(a))}</div>
+    <div style="font-size:14px;color:#1b1f1a;margin-bottom:4px">{esc(infos)}</div>
+    <div style="font-size:12px;color:#6b6f66;margin-bottom:8px">{esc(a['agence'])} · {esc(a.get('ville_agence',''))}</div>
+    {f'<div style="font-size:12px;color:#1e5a3c;margin-bottom:3px">+ {esc(atouts)}</div>' if atouts else ''}
+    {f'<div style="font-size:12px;color:#8a2a2e;margin-bottom:8px">− {esc(reserves)}</div>' if reserves else ''}
+    <a href="{esc(a['url'])}" style="display:inline-block;background:#1e5a3c;color:#fff;text-decoration:none;font-weight:700;padding:9px 16px;border-radius:8px;font-size:14px">Voir l’annonce →</a>
+  </td></tr>
+</table>"""
+
+
+def generer_mail(etat, nouveautes, aujourdhui, url_rapport, seuil=5, chemin_html=None, chemin_sujet=None):
+    """Écrit le corps HTML de l'e-mail et son sujet. Retourne (sujet, html)."""
+    nouv = sorted([a for a in nouveautes if a["classement"] != "exclu"], key=lambda a: -(a.get("score") or 0))
+    actives = [a for a in etat["annonces"].values() if a["statut"] == "active" and a["classement"] != "exclu"]
+    top = sorted(actives, key=lambda a: -(a.get("score") or 0))[:4]
+    n_coeur = sum(1 for a in nouv if (a.get("score") or 0) >= seuil)
+    if nouv:
+        sujet = f"🏠 {len(nouv)} nouvelle{'s' if len(nouv) > 1 else ''} annonce{'s' if len(nouv) > 1 else ''}" + (f", dont {n_coeur} coup{'s' if n_coeur > 1 else ''} de cœur" if n_coeur else "") + f" — {date_courte(aujourdhui)}"
+    else:
+        sujet = f"Veille location — rien de nouveau le {date_courte(aujourdhui)}"
+    bloc_nouv = "".join(carte_mail(a, seuil) for a in nouv) if nouv else \
+        '<p style="color:#6b6f66;font-family:Helvetica,Arial,sans-serif">Aucune nouvelle annonce sur les agences surveillées depuis hier.</p>'
+    bloc_top = "".join(carte_mail(a, seuil) for a in top if a not in nouv)
+    html = f"""<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head>
+<body style="margin:0;background:#f4f2ec;padding:16px 10px">
+<div style="max-width:560px;margin:0 auto;font-family:-apple-system,Helvetica,Arial,sans-serif">
+  <h1 style="font-size:18px;color:#1e5a3c;margin:0 0 4px">Veille location · Côte Basque</h1>
+  <p style="font-size:13px;color:#6b6f66;margin:0 0 16px">{esc(date_courte(aujourdhui))} · <a href="{esc(url_rapport)}" style="color:#1e5a3c">ouvrir le rapport complet</a></p>
+  <h2 style="font-size:13px;color:#6b6f66;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px">Nouveau aujourd’hui ({len(nouv)})</h2>
+  {bloc_nouv}
+  {f'<h2 style="font-size:13px;color:#6b6f66;text-transform:uppercase;letter-spacing:.06em;margin:22px 0 10px">Toujours en ligne, les mieux notées</h2>{bloc_top}' if bloc_top else ''}
+  <p style="font-size:12px;color:#6b6f66;margin-top:20px">Envoyé automatiquement chaque matin. Portails nationaux non inclus : Jinka + alertes Foncia / Laforêt / Human.</p>
+</div></body></html>"""
+    if chemin_html:
+        chemin_html.parent.mkdir(parents=True, exist_ok=True)
+        chemin_html.write_text(html, encoding="utf-8")
+    if chemin_sujet:
+        chemin_sujet.write_text(sujet, encoding="utf-8")
+    return sujet, html
+
+
+def envoyer_mail(sujet, html):
+    """Envoie via SMTP si MAIL_USER / MAIL_PASSWORD / MAIL_TO sont définis dans l'environnement."""
+    import os
+    import smtplib
+    from email.mime.multipart import MIMEMultipart
+    from email.mime.text import MIMEText
+    user, pwd, to = os.environ.get("MAIL_USER"), os.environ.get("MAIL_PASSWORD"), os.environ.get("MAIL_TO")
+    if not (user and pwd and to):
+        log("E-mail non envoyé : MAIL_USER / MAIL_PASSWORD / MAIL_TO absents.")
+        return False
+    serveur = os.environ.get("MAIL_SMTP", "smtp.gmail.com")
+    port = int(os.environ.get("MAIL_PORT", "465"))
+    msg = MIMEMultipart("alternative")
+    msg["Subject"], msg["From"], msg["To"] = sujet, f"Veille location <{user}>", to
+    msg.attach(MIMEText("Rapport disponible en ligne.", "plain", "utf-8"))
+    msg.attach(MIMEText(html, "html", "utf-8"))
+    destinataires = [d.strip() for d in re.split(r"[,;]", to) if d.strip()]
+    try:
+        with smtplib.SMTP_SSL(serveur, port, timeout=30) as smtp:
+            smtp.login(user, pwd)
+            smtp.sendmail(user, destinataires, msg.as_string())
+        log(f"E-mail envoyé à {', '.join(destinataires)}.")
+        return True
+    except Exception as e:
+        log(f"Échec de l'envoi e-mail : {type(e).__name__} : {e}")
+        return False
 
 
 # --- Programme principal ----------------------------------------------------------
@@ -731,6 +907,8 @@ def main():
     ap.add_argument("--sortie", default=str(SORTIE_DEFAUT), help="chemin du rapport HTML")
     ap.add_argument("--config", default=str(FICHIER_CONFIG))
     ap.add_argument("--etat", default=str(FICHIER_ETAT))
+    ap.add_argument("--mail", action="store_true", help="envoie le digest par e-mail (variables MAIL_USER, MAIL_PASSWORD, MAIL_TO)")
+    ap.add_argument("--url-rapport", default="https://marcantoinezipoli.github.io/veille-location-basque/")
     args = ap.parse_args()
 
     config = charger_json(Path(args.config), None)
@@ -787,6 +965,12 @@ def main():
         nouveautes_affichees = nouveautes
 
     generer_rapport(etat, nouveautes_affichees, rapports, criteres, aujourdhui, Path(args.sortie), scoring)
+    seuil = scoring.get("coup_de_coeur_a_partir_de", 5)
+    dossier_sortie = Path(args.sortie).parent
+    sujet, html_mail = generer_mail(etat, nouveautes_affichees, aujourdhui, args.url_rapport, seuil,
+                                    dossier_sortie / "mail.html", dossier_sortie / "mail_sujet.txt")
+    if args.mail:
+        envoyer_mail(sujet, html_mail)
     n_match = sum(1 for a in nouveautes if a["classement"] == "match")
     log(f"\nRapport écrit : {args.sortie}")
     log(f"{len(nouveautes)} nouveauté(s) dont {n_match} correspondant aux critères.")
