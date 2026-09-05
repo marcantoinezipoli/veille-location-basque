@@ -2,7 +2,9 @@ name: Veille location quotidienne
 
 on:
   schedule:
-    - cron: "30 5 * * *"     # 05h30 UTC = 07h30 Paris en été, 06h30 en hiver
+    - cron: "30 5 * * *"     # 07h30 Paris (été) / 06h30 (hiver) — digest du matin, toujours envoyé
+    - cron: "0 11 * * *"     # 13h00 / 12h00 — e-mail seulement s'il y a du nouveau
+    - cron: "30 16 * * *"    # 18h30 / 17h30 — idem
   workflow_dispatch:         # permet un lancement manuel depuis l'onglet Actions
 
 permissions:

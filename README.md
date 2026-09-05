@@ -63,7 +63,12 @@ Ensuite, ouvrir l'adresse GitHub Pages chaque matin (l'ajouter à l'écran d'acc
   (table `lieux.quartiers`), sinon sur la ville. Position approximative par nature.
 - **Baisses de loyer** : une annonce déjà vue dont le loyer baisse d'au moins 3 % remonte en « Nouveau »
   avec un badge bleu.
+- **Historique de prix** : chaque changement de loyer est daté et affiché sur la carte
+  (« 1 800 € (4 sept.) → 1 690 € (5 sept.) ») ; au-delà de 14 jours en ligne, l'annonce porte
+  une étiquette « En ligne depuis N j », et « négociable ? » à partir de 21 jours.
 - **Tendances 7 jours** en bas de page, et dans l'e-mail du lundi.
+- **Trois passages par jour** (7 h 30, 13 h, 18 h 30 heure de Paris en été). Le digest du matin
+  part toujours ; les deux autres n'envoient un e-mail que s'il y a du nouveau.
 
 ## Recevoir le rapport par e-mail chaque matin
 

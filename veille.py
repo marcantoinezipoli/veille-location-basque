@@ -665,14 +665,23 @@ def mettre_a_jour_etat(etat, annonces_du_jour, criteres, aujourdhui, scoring=Non
             e = etat["annonces"][url_n]
             e["derniere_vue"] = aujourdhui
             e["statut"] = "active"
-            # baisse de loyer ?
+            e.pop("evenement", None)
+            if e.get("prix") and not e.get("historique_prix"):
+                if e.get("baisse"):
+                    e["historique_prix"] = [{"date": e.get("premiere_vue", aujourdhui), "prix": e["baisse"]["ancien"]},
+                                            {"date": e["baisse"]["date"], "prix": e["baisse"]["nouveau"]}]
+                else:
+                    e["historique_prix"] = [{"date": e.get("premiere_vue", aujourdhui), "prix": e["prix"]}]
+            # changement de loyer ?
             if e.get("prix") and a.get("prix") and a["prix"] < e["prix"] * 0.97:
                 e["baisse"] = {"ancien": e["prix"], "nouveau": a["prix"], "date": aujourdhui}
                 e["prix"] = a["prix"]
                 e["evenement"] = "baisse"
+                e.setdefault("historique_prix", []).append({"date": aujourdhui, "prix": a["prix"]})
                 nouveautes.append(e)
             elif e.get("prix") and a.get("prix") and a["prix"] > e["prix"] * 1.03:
                 e["prix"] = a["prix"]
+                e.setdefault("historique_prix", []).append({"date": aujourdhui, "prix": a["prix"]})
             # enrichit si on a mieux aujourd'hui
             for k in ("prix", "surface", "chambres", "pieces", "type"):
                 if e.get(k) is None and a.get(k) is not None:
@@ -684,6 +693,8 @@ def mettre_a_jour_etat(etat, annonces_du_jour, criteres, aujourdhui, scoring=Non
         else:
             a = dict(a)
             a.update(premiere_vue=aujourdhui, derniere_vue=aujourdhui, statut="active")
+            if a.get("prix"):
+                a["historique_prix"] = [{"date": aujourdhui, "prix": a["prix"]}]
             a["classement"] = classer(a, criteres)
             a["score"], a["atouts"], a["reserves"] = scorer(a, scoring)
             etat["annonces"][url_n] = a
@@ -700,6 +711,8 @@ def mettre_a_jour_etat(etat, annonces_du_jour, criteres, aujourdhui, scoring=Non
     for a in a_lire[:MAX_FICHES_PAR_PASSAGE]:
         enrichir_par_fiche(a, criteres, scoring)
         a["photo_cherchee"] = True
+        if a.get("prix") and not a.get("historique_prix"):
+            a["historique_prix"] = [{"date": a.get("premiere_vue", aujourdhui), "prix": a["prix"]}]
         time.sleep(DELAI_ENTRE_FICHES)
     # rattrapage contact pour les fiches déjà lues sans téléphone (une fois)
     for a in [x for x in etat["annonces"].values() if x["statut"] == "active" and x["classement"] != "exclu"
@@ -815,6 +828,21 @@ def texte_message(a, contact):
     return contact.get("corps", "").format(titre=titre, agence=a["agence"], url=a["url"])
 
 
+def jours_en_ligne(a, aujourdhui=None):
+    try:
+        j0 = date.fromisoformat(aujourdhui) if aujourdhui else date.today()
+        return (j0 - date.fromisoformat(a["premiere_vue"])).days
+    except Exception:
+        return None
+
+
+def ligne_historique_prix(a):
+    h = a.get("historique_prix") or []
+    if len(h) < 2:
+        return ""
+    return "Loyer : " + " → ".join(f"{prix_fmt(x['prix'])} ({date_courte(x['date'])})" for x in h[-4:])
+
+
 def ligne_distance(a):
     if a.get("km_hopital") is None:
         return ""
@@ -842,6 +870,9 @@ def carte_html(a, nouveau=False, seuil=5, contact=None):
         cls_p = {"bon prix": "prix-bon", "au-dessus du marché": "prix-haut"}.get(a["etiquette_prix"], "prix-ok")
         signe = "+" if a.get("ecart_prix_pct", 0) > 0 else ""
         pills += f'<span class="pill {cls_p}">{a["prix_m2"]} €/m² · {a["etiquette_prix"]} ({signe}{a.get("ecart_prix_pct", 0)} %)</span>'
+    j = jours_en_ligne(a)
+    if j is not None and j >= 14:
+        pills += f'<span class="pill {"longue" if j >= 21 else ""}">En ligne depuis {j} j{" · négociable ?" if j >= 21 else ""}</span>'
     if cl == "a_verifier":
         pills += '<span class="pill incertain">Infos à confirmer</span>'
     if cl == "exclu":
@@ -878,6 +909,7 @@ def carte_html(a, nouveau=False, seuil=5, contact=None):
       <div class="pills">{pills}</div>
       <div class="agence">{esc(a['agence'])} · {esc(ville)}{f' · {esc(pos)}' if pos else ''} · vu le {esc(date_courte(a.get('premiere_vue')))}</div>
       {f'<div class="dist">{esc(dist)}</div>' if dist else ''}
+      {f'<div class="histo">📉 {esc(ligne_historique_prix(a))}</div>' if ligne_historique_prix(a) else ''}
       {f'<div class="chips">{atouts}{reserves}</div>' if atouts or reserves else ''}
     </div>
   </a>
@@ -934,6 +966,8 @@ main { max-width:760px; margin:0 auto; padding:10px 12px 60px; }
 .pill.incertain { background:#fff7dc; color:#6b5200; font-weight:500; } .pill.exclu { background:#f3e4e4; color:#8a2a2e; font-weight:500; }
 .agence { font-size:.8rem; color:var(--gris); margin-bottom:6px; }
 .dist { font-size:.8rem; color:var(--encre); margin-bottom:6px; }
+.histo { font-size:.8rem; color:var(--bleu); font-weight:600; margin-bottom:6px; }
+.pill.longue { background:#fff1c2; color:#6b5200; }
 .chips { display:flex; flex-wrap:wrap; gap:4px; margin-bottom:6px; }
 .chip { font-size:.74rem; padding:2px 8px; border-radius:10px; border:1px solid var(--gris-clair); color:var(--gris); }
 .chip.plus { background:var(--vert-clair); border-color:#bfd6c8; color:var(--vert); } .chip.moins { background:#f7ecec; border-color:#e0c8c8; color:#8a2a2e; }
@@ -1132,6 +1166,12 @@ def carte_mail(a, seuil=5, contact=None):
     if a.get("etiquette_prix") == "bon prix":
         infos += " · bon prix"
     dist = ligne_distance(a)
+    j = jours_en_ligne(a)
+    if j is not None and j >= 14:
+        infos += f" · en ligne depuis {j} j"
+    histo = ligne_historique_prix(a)
+    if histo:
+        dist = (histo + ("  ·  " + dist if dist else ""))
     btns = ""
     if a.get("tel"):
         btns += f'<a href="tel:{esc(tel_lien(a["tel"]))}" style="display:inline-block;border:1px solid #cfcbc0;color:#1b1f1a;text-decoration:none;font-weight:600;padding:8px 12px;border-radius:8px;font-size:13px;margin:6px 6px 0 0">📞 {esc(tel_affiche(a["tel"]))}</a>'
@@ -1241,6 +1281,7 @@ def main():
     ap.add_argument("--etat", default=str(FICHIER_ETAT))
     ap.add_argument("--mail", action="store_true", help="envoie le digest par e-mail (variables MAIL_USER, MAIL_PASSWORD, MAIL_TO)")
     ap.add_argument("--hebdo", action="store_true", help="force le bloc tendances 7 jours dans l'e-mail (sinon le lundi)")
+    ap.add_argument("--mail-toujours", action="store_true", help="envoie l'e-mail même sans nouveauté")
     ap.add_argument("--url-rapport", default="https://marcantoinezipoli.github.io/veille-location-basque/")
     args = ap.parse_args()
 
@@ -1289,7 +1330,7 @@ def main():
     etat.setdefault("historique", []).append(
         {"date": aujourdhui, "nouveautes": len(nouveautes), "actives": sum(1 for a in etat["annonces"].values() if a["statut"] == "active"),
          "agences_ok": sum(1 for r in rapports if r["statut"] == "ok")})
-    etat["historique"] = etat["historique"][-90:]
+    etat["historique"] = etat["historique"][-400:]
     sauver_json(Path(args.etat), etat)
 
     if premier_lancement:
@@ -1306,7 +1347,11 @@ def main():
     sujet, html_mail = generer_mail(etat, nouveautes_affichees, aujourdhui, args.url_rapport, seuil,
                                     dossier_sortie / "mail.html", dossier_sortie / "mail_sujet.txt", contact, hebdo)
     if args.mail:
-        envoyer_mail(sujet, html_mail)
+        heure_utc = datetime.utcnow().hour
+        if nouveautes_affichees or heure_utc < 9 or args.mail_toujours:
+            envoyer_mail(sujet, html_mail)
+        else:
+            log("E-mail non envoyé : rien de nouveau à ce passage (le digest du matin part toujours).")
     n_match = sum(1 for a in nouveautes if a["classement"] == "match")
     log(f"\nRapport écrit : {args.sortie}")
     log(f"{len(nouveautes)} nouveauté(s) dont {n_match} correspondant aux critères.")
