@@ -34,6 +34,7 @@ from bs4 import BeautifulSoup
 ICI = Path(__file__).resolve().parent
 FICHIER_CONFIG = ICI / "agences.json"
 FICHIER_ETAT = ICI / "etat.json"
+FICHIER_JOURNAL = ICI / "journal.json"   # historique permanent, jamais purgé
 SORTIE_DEFAUT = ICI / "docs" / "index.html"
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -677,6 +678,81 @@ def calculer_prix_m2(etat):
     return {v: mediane(l) for v, l in par_ville.items()}, med_global
 
 
+def mettre_a_jour_journal(journal, etat):
+    """Copie compacte et permanente de chaque annonce vue (l'état courant, lui, est purgé)."""
+    for url, a in etat["annonces"].items():
+        j = journal.setdefault(url, {})
+        for k in ("agence", "ville_agence", "titre", "prix", "surface", "pieces", "chambres", "type",
+                  "classement", "premiere_vue", "derniere_vue", "statut", "historique_prix", "dpe", "position"):
+            if a.get(k) is not None:
+                j[k] = a[k]
+    return journal
+
+
+def stats_periode(journal, aujourdhui, jours):
+    j0 = date.fromisoformat(aujourdhui)
+    depuis = (j0 - timedelta(days=jours)).isoformat()
+    tous = [a for a in journal.values() if a.get("classement") != "exclu"]
+    sorties = [a for a in tous if a.get("premiere_vue", "") >= depuis]
+    disparues = [a for a in tous if a.get("statut") == "disparu" and a.get("derniere_vue", "") >= depuis]
+    durees = []
+    for a in disparues:
+        try:
+            durees.append((date.fromisoformat(a["derniere_vue"]) - date.fromisoformat(a["premiere_vue"])).days)
+        except Exception:
+            pass
+    rapides = sum(1 for d in durees if d <= 3)
+    loyers = {}
+    for v in ("Anglet", "Biarritz", "Bidart", "Bayonne"):
+        l = [a["prix"] for a in sorties if a.get("ville_agence") == v and a.get("prix")]
+        if l:
+            loyers[v] = (round(mediane(l)), len(l))
+    m2 = [a["prix"] / a["surface"] for a in sorties if a.get("prix") and a.get("surface") and a["surface"] >= 20]
+    baisses = sum(1 for a in tous if any(x.get("date", "") >= depuis for x in (a.get("historique_prix") or [])[1:]))
+    return {"jours": jours, "sorties": len(sorties), "disparues": len(disparues), "rapides": rapides,
+            "duree_mediane": round(mediane(durees)) if durees else None, "loyers": loyers,
+            "med_m2": round(mediane(m2), 1) if m2 else None, "baisses": baisses}
+
+
+def series_hebdo(journal, aujourdhui, semaines=12):
+    """Par semaine : nombre d'annonces sorties et loyer médian des sorties."""
+    j0 = date.fromisoformat(aujourdhui)
+    out = []
+    for i in range(semaines - 1, -1, -1):
+        fin = j0 - timedelta(days=7 * i)
+        debut = fin - timedelta(days=6)
+        sel = [a for a in journal.values() if a.get("classement") != "exclu"
+               and debut.isoformat() <= a.get("premiere_vue", "") <= fin.isoformat()]
+        loy = [a["prix"] for a in sel if a.get("prix")]
+        out.append({"label": f"{debut.day}/{debut.month}", "n": len(sel), "med": round(mediane(loy)) if loy else None})
+    return out
+
+
+def svg_marche(series):
+    """Petit graphique SVG autonome : barres = annonces sorties par semaine, points = loyer médian."""
+    if not series:
+        return ""
+    w, h, m = 640, 200, 30
+    n = len(series)
+    lw = (w - 2 * m) / n
+    maxn = max(1, max(s["n"] for s in series))
+    meds = [s["med"] for s in series if s["med"]]
+    lo, hi = (min(meds) * 0.9, max(meds) * 1.05) if meds else (0, 1)
+    barres, points, labels = "", "", ""
+    for i, sv in enumerate(series):
+        x = m + i * lw
+        bh = (h - 2 * m) * sv["n"] / maxn
+        barres += f'<rect x="{x + 4:.0f}" y="{h - m - bh:.0f}" width="{lw - 8:.0f}" height="{bh:.0f}" rx="4" fill="#d9e9e1"/>'
+        if sv["n"]:
+            barres += f'<text x="{x + lw / 2:.0f}" y="{h - m - bh - 5:.0f}" text-anchor="middle" font-size="11" fill="#6a6a6a">{sv["n"]}</text>'
+        if sv["med"]:
+            y = h - m - (h - 2 * m) * (sv["med"] - lo) / (hi - lo if hi > lo else 1)
+            points += f'<circle cx="{x + lw / 2:.0f}" cy="{y:.0f}" r="4" fill="#008a5c"/><text x="{x + lw / 2:.0f}" y="{y - 8:.0f}" text-anchor="middle" font-size="10" fill="#008a5c">{sv["med"]}</text>'
+        labels += f'<text x="{x + lw / 2:.0f}" y="{h - m + 16}" text-anchor="middle" font-size="10" fill="#6a6a6a">{sv["label"]}</text>'
+    return (f'<svg viewBox="0 0 {w} {h}" width="100%" xmlns="http://www.w3.org/2000/svg" style="display:block">'
+            f'<line x1="{m}" y1="{h - m}" x2="{w - m}" y2="{h - m}" stroke="#ebebeb"/>{barres}{points}{labels}</svg>')
+
+
 def tendances_7_jours(etat, aujourdhui):
     """Statistiques simples sur la semaine écoulée."""
     j0 = date.fromisoformat(aujourdhui)
@@ -1119,6 +1195,15 @@ main { max-width:640px; margin:0 auto; padding:14px 16px 80px; }
 .prix-marker.coeur { background:var(--noir); color:#fff; } .prix-marker.hopital { background:var(--rouge); color:#fff; }
 .leaflet-popup-content-wrapper { border-radius:14px; } .leaflet-popup-content { font:14px/1.4 "Inter", -apple-system, Arial, sans-serif; margin:12px 14px; }
 .leaflet-popup-content a { color:var(--encre); font-weight:700; }
+.marche h2 { font-size:1.2rem; margin:8px 0 6px; letter-spacing:-.01em; }
+.marche h3 { font-size:.95rem; margin:22px 0 8px; color:var(--texte2); font-weight:600; }
+.marche .note { font-size:.85rem; color:var(--texte2); margin:0 0 14px; }
+.marche .tableau { border:1px solid var(--ligne); border-radius:16px; padding:6px 12px; overflow-x:auto; }
+.marche th { text-align:right; font-size:.8rem; color:var(--texte2); padding:8px 4px; font-weight:600; }
+.marche th:first-child { text-align:left; } .marche th.sous-titre { text-align:left; padding-top:14px; }
+.marche td { text-align:right; font-size:.9rem; font-variant-numeric:tabular-nums; } .marche td:first-child { text-align:left; color:var(--texte2); }
+.marche small { color:var(--texte2); font-size:.75rem; }
+.marche .graphe { border:1px solid var(--ligne); border-radius:16px; padding:10px 6px 4px; }
 details.bloc { margin-top:28px; font-size:.88rem; border:1px solid var(--ligne); border-radius:16px; padding:6px 16px; }
 details.bloc summary { cursor:pointer; padding:10px 0; font-weight:600; }
 table { width:100%; border-collapse:collapse; }
@@ -1154,10 +1239,12 @@ JS_RAPPORT = """
   function applique(){
     var n=0;
     cartes.forEach(function(c){ var ok=visible(c); c.style.display=ok?'':'none'; if(ok) n++; appliqueSuivi(c); });
-    var enCarte = onglet==='carte';
-    grille.style.display = enCarte?'none':'';
+    var enCarte = onglet==='carte', enMarche = onglet==='marche';
+    grille.style.display = (enCarte||enMarche)?'none':'';
     divMap.style.display = enCarte?'block':'none';
-    msg.style.display=(n||enCarte)?'none':'';
+    var secM=document.getElementById('marche'); if(secM) secM.style.display = enMarche?'block':'none';
+    document.querySelector('.filtres-villes').style.display = enMarche?'none':'';
+    msg.style.display=(n||enCarte||enMarche)?'none':'';
     msg.textContent = onglet==='nouveau' ? 'Rien de nouveau depuis le dernier passage. Regarde « Coups de cœur » ou « Tout ».' : 'Aucune annonce dans cette sélection.';
     document.querySelectorAll('.onglets button').forEach(function(b){ b.classList.toggle('actif', b.dataset.onglet===onglet); });
     document.querySelectorAll('.filtres-villes button').forEach(function(b){ b.classList.toggle('actif', b.dataset.ville===ville); });
@@ -1203,7 +1290,7 @@ JS_RAPPORT = """
 """
 
 
-def generer_rapport(etat, nouveautes, rapports_agences, criteres, aujourdhui, chemin, scoring=None, contact=None, lieux=None):
+def generer_rapport(etat, nouveautes, rapports_agences, criteres, aujourdhui, chemin, scoring=None, contact=None, lieux=None, journal=None):
     seuil = (scoring or {}).get("coup_de_coeur_a_partir_de", 5)
     ordre_cl = {"match": 0, "a_verifier": 1, "exclu": 2}
     urls_nouv = {a["url"] for a in nouveautes}
@@ -1230,13 +1317,43 @@ def generer_rapport(etat, nouveautes, rapports_agences, criteres, aujourdhui, ch
                         "coeur": (a.get("score") or 0) >= seuil})
     hopital = (lieux or {}).get("hopital")
 
-    t = tendances_7_jours(etat, aujourdhui)
-    lignes_med = "".join(f"<tr><td>{v}</td><td>{prix_fmt(round(m))}</td><td>{n} annonce(s)</td></tr>" for v, (m, n) in t["med_loyer"].items())
-    bloc_tendances = f"""
-<details class="bloc"><summary>📈 Tendances sur 7 jours</summary>
-  <p>{t['sorties']} annonce(s) sortie(s) · {t['disparues']} retirée(s), dont {t['rapides']} en 3 jours ou moins · {t['actives']} en ligne aujourd’hui{f" · loyer médian {t['med_m2']} €/m²" if t['med_m2'] else ''}</p>
-  <table>{lignes_med}</table>
-</details>""" if t["med_loyer"] or t["sorties"] else ""
+    journal = journal or {}
+    debut_suivi = min([a.get("premiere_vue", aujourdhui) for a in journal.values()] or [aujourdhui])
+    periodes = [stats_periode(journal, aujourdhui, n) for n in (7, 30, 90)]
+
+    def cellule(v):
+        return "–" if v is None else v
+
+    lignes_stats = ""
+    for lib, cle, fmt in (("Annonces sorties", "sorties", None), ("Annonces retirées", "disparues", None),
+                          ("…dont parties en ≤ 3 jours", "rapides", None), ("Durée médiane avant retrait", "duree_mediane", "j"),
+                          ("Baisses de loyer", "baisses", None), ("Loyer médian au m²", "med_m2", "€")):
+        vals = "".join(f"<td>{cellule(p[cle])}{(' ' + fmt) if fmt and p[cle] is not None else ''}</td>" for p in periodes)
+        lignes_stats += f"<tr><td>{lib}</td>{vals}</tr>"
+    lignes_villes = ""
+    for v in ("Anglet", "Biarritz", "Bidart", "Bayonne"):
+        cells = []
+        for p in periodes:
+            if v in p["loyers"]:
+                m, n = p["loyers"][v]
+                cells.append(f"<td>{prix_fmt(m)} <small>({n})</small></td>")
+            else:
+                cells.append("<td>–</td>")
+        vals = "".join(cells)
+        lignes_villes += f"<tr><td>{v}</td>{vals}</tr>"
+    graphe = svg_marche(series_hebdo(journal, aujourdhui))
+    bloc_marche = f"""
+<section id="marche" class="marche" style="display:none">
+  <h2>Le marché sur les agences suivies</h2>
+  <p class="note">Données accumulées depuis le {esc(date_courte(debut_suivi))} ; plus la veille tourne, plus les colonnes 30 et 90 jours deviennent parlantes. Annonces correspondant aux critères uniquement.</p>
+  <div class="tableau"><table>
+    <tr><th></th><th>7 j</th><th>30 j</th><th>90 j</th></tr>{lignes_stats}
+    <tr><th colspan="4" class="sous-titre">Loyer médian des annonces sorties (nombre)</th></tr>{lignes_villes}
+  </table></div>
+  <h3>Par semaine : annonces sorties (barres) et loyer médian (points)</h3>
+  <div class="graphe">{graphe}</div>
+</section>"""
+    bloc_tendances = ""
 
     lignes = "".join(
         f'<tr class="{r["statut"]}"><td>{esc(r["nom"])}</td><td>{esc(r["ville"])}</td><td>{esc(r["message"][:60])}</td>'
@@ -1265,12 +1382,14 @@ def generer_rapport(etat, nouveautes, rapports_agences, criteres, aujourdhui, ch
   <button data-onglet="coeur">♥ Coups de cœur<span class="n">{n_coeur}</span></button>
   <button data-onglet="tout">Tout<span class="n">{n_tout}</span></button>
   <button data-onglet="carte">Carte</button>
+  <button data-onglet="marche">Marché</button>
   <button data-onglet="ecartees">Écartées<span class="n">{n_exclu}</span></button>
 </div></nav>
 <div class="filtres-villes">{boutons_villes}</div>
 <main>
   <p id="vide-msg" class="vide-msg"></p>
   <div id="carte-map"></div>
+  {bloc_marche}
   <div class="grille">{cartes}</div>
   {bloc_tendances}
   <details class="bloc"><summary>État des {len(rapports_agences)} agences surveillées</summary><table>{lignes}</table></details>
@@ -1427,6 +1546,7 @@ def main():
     ap.add_argument("--sortie", default=str(SORTIE_DEFAUT), help="chemin du rapport HTML")
     ap.add_argument("--config", default=str(FICHIER_CONFIG))
     ap.add_argument("--etat", default=str(FICHIER_ETAT))
+    ap.add_argument("--journal", default=str(FICHIER_JOURNAL))
     ap.add_argument("--mail", action="store_true", help="envoie le digest par e-mail (variables MAIL_USER, MAIL_PASSWORD, MAIL_TO)")
     ap.add_argument("--hebdo", action="store_true", help="force le bloc tendances 7 jours dans l'e-mail (sinon le lundi)")
     ap.add_argument("--mail-toujours", action="store_true", help="envoie l'e-mail même sans nouveauté")
@@ -1452,6 +1572,7 @@ def main():
 
     aujourdhui = date.today().isoformat()
     etat = charger_json(Path(args.etat), {"annonces": {}, "historique": []})
+    journal = charger_json(Path(args.journal), {})
 
     toutes = {}
     rapports = []
@@ -1482,6 +1603,8 @@ def main():
          "agences_ok": sum(1 for r in rapports if r["statut"] == "ok")})
     etat["historique"] = etat["historique"][-400:]
     sauver_json(Path(args.etat), etat)
+    mettre_a_jour_journal(journal, etat)
+    sauver_json(Path(args.journal), journal)
 
     if premier_lancement:
         # au premier passage tout est "nouveau" : on le signale mais on ne surligne pas 300 annonces
@@ -1490,7 +1613,7 @@ def main():
     else:
         nouveautes_affichees = nouveautes
 
-    generer_rapport(etat, nouveautes_affichees, rapports, criteres, aujourdhui, Path(args.sortie), scoring, contact, lieux)
+    generer_rapport(etat, nouveautes_affichees, rapports, criteres, aujourdhui, Path(args.sortie), scoring, contact, lieux, journal)
     seuil = scoring.get("coup_de_coeur_a_partir_de", 5)
     dossier_sortie = Path(args.sortie).parent
     hebdo = args.hebdo or date.fromisoformat(aujourdhui).weekday() == 0
