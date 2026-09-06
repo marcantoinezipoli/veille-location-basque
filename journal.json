@@ -2,7 +2,7 @@
  "http://www.immobiarritz.fr/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-dans-une-residence-haut-de-gamme-recente.html": {
   "agence": "Immobiarritz",
   "classement": "exclu",
-  "derniere_vue": "2026-09-05",
+  "derniere_vue": "2026-09-06",
   "position": "Biarritz (ville de l'agence)",
   "premiere_vue": "2026-09-04",
   "statut": "active",
@@ -13,7 +13,7 @@
   "agence": "Immobiarritz",
   "chambres": 3,
   "classement": "match",
-  "derniere_vue": "2026-09-05",
+  "derniere_vue": "2026-09-06",
   "dpe": "D",
   "historique_prix": [
    {
@@ -1156,6 +1156,87 @@
   "titre": "Location Appartement 4 pièces 127,55 m2 Biarritz - Milady - Colline - Beaurivage",
   "type": "appartement",
   "ville_agence": "Anglet"
+ },
+ "https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/landes/tarnos-40220": {
+  "agence": "Square Habitat Bidart",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-06",
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-06",
+  "statut": "active",
+  "titre": "Location appartement Tarnos (40220)",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
+ "https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/anglet-64600": {
+  "agence": "Square Habitat Bidart",
+  "classement": "match",
+  "derniere_vue": "2026-09-06",
+  "dpe": "C",
+  "historique_prix": [
+   {
+    "date": "2026-09-06",
+    "prix": 425
+   }
+  ],
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-09-06",
+  "prix": 425,
+  "statut": "active",
+  "titre": "Location appartement Anglet (64600) et alentours",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
+ "https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/ascain-64310": {
+  "agence": "Square Habitat Bidart",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-06",
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-06",
+  "statut": "active",
+  "titre": "Location appartement Ascain (64310)",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
+ "https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/bayonne-64100": {
+  "agence": "Square Habitat Bidart",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-06",
+  "dpe": "C",
+  "historique_prix": [
+   {
+    "date": "2026-09-06",
+    "prix": 550
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-06",
+  "prix": 550,
+  "statut": "active",
+  "titre": "Location appartement Bayonne (64100) et alentours",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
+ "https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/biarritz-64200": {
+  "agence": "Square Habitat Bidart",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-06",
+  "dpe": "D",
+  "historique_prix": [
+   {
+    "date": "2026-09-06",
+    "prix": 678
+   }
+  ],
+  "pieces": 2,
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-09-06",
+  "prix": 678,
+  "statut": "active",
+  "titre": "Location appartement Biarritz (64200) et alentours",
+  "type": "appartement",
+  "ville_agence": "Bidart"
  },
  "https://www.squarehabitat.fr/square-habitat-aquitaine/annonces/biens/location/appartement/saint-vincent-de-tyrosse/3d3fa139-ecd4-4f1e-8614-d12e1aa55ca3": {
   "agence": "Square Habitat Bidart",
