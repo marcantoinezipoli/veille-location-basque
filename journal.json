@@ -285,6 +285,48 @@
   "type": "appartement",
   "ville_agence": "Bidart"
  },
+ "https://nestenn.com/appartement-t1-a-louer-au-3eme-etage-a-quimperle-ref-39710243": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 0,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-07",
+  "historique_prix": [
+   {
+    "date": "2026-09-07",
+    "prix": 370
+   }
+  ],
+  "pieces": 1,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-07",
+  "prix": 370,
+  "statut": "active",
+  "surface": 16.0,
+  "titre": "EXCLU location 29300 QUIMPERLÉ Appartement à louer 16m² 1 pièce 0 chambre 370 € CC/Mois",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
+ "https://nestenn.com/appartement-t3-centre-ville-amiens-ref-39718708": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-07",
+  "historique_prix": [
+   {
+    "date": "2026-09-07",
+    "prix": 800
+   }
+  ],
+  "pieces": 3,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-07",
+  "prix": 800,
+  "statut": "active",
+  "surface": 71.0,
+  "titre": "EXCLU 80000 Amiens Appartement à louer 71m² 3 pièces 2 chambres 800 € CC/Mois",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
  "https://nestenn.com/appartement-villeneuve-sur-lot-2-piece-s-40-m2-ref-39354035": {
   "agence": "Nestenn (Bidart)",
   "chambres": 1,
@@ -304,6 +346,27 @@
   "surface": 41.0,
   "titre": "EXCLU 47300 VILLENEUVE SUR LOT Appartement à louer 41m² 2 pièces 1 chambre 435 € CC/Mois",
   "type": "appartement",
+  "ville_agence": "Bidart"
+ },
+ "https://nestenn.com/belle-maison-meublee-en-pierre-a-yssingeaux-ref-39654387": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-07",
+  "historique_prix": [
+   {
+    "date": "2026-09-07",
+    "prix": 1080
+   }
+  ],
+  "pieces": 4,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-07",
+  "prix": 1080,
+  "statut": "active",
+  "surface": 160.0,
+  "titre": "EXCLU Coup de coeur 43200 Yssingeaux Maison à louer 160m² 4 pièces 3 chambres 1 080 € CC/Mois",
+  "type": "maison",
   "ville_agence": "Bidart"
  },
  "https://nestenn.com/maison-en-plein-centre-meublee-5-pieces-a-louer-a-l-isle-adam-102-m-ref-39497692": {
@@ -831,6 +894,25 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.century21.fr/trouver_logement/detail/16935966350": {
+  "agence": "Century 21 (Bayonne, toutes agences)",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-07",
+  "historique_prix": [
+   {
+    "date": "2026-09-07",
+    "prix": 1037
+   }
+  ],
+  "pieces": 2,
+  "position": "quartier Arenes",
+  "premiere_vue": "2026-09-07",
+  "prix": 1037,
+  "statut": "active",
+  "titre": "Appartement F2 à louer 2 pièces - 56,83 m 2 BAYONNE - 64",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.century21agencenivadour-bayonne.com/trouver_logement/detail/15635506173": {
   "agence": "Century 21 Agence Nivadour",
   "chambres": 2,
@@ -1338,6 +1420,28 @@
   "prix": 667,
   "statut": "active",
   "titre": "Location Appartement 2 pièces 46,41 m2 Anglet - Chambre d'Amour",
+  "type": "appartement",
+  "ville_agence": "Anglet"
+ },
+ "https://www.orpi.com/annonce-location-appartement-t3-anglet-64600-251-067058-535?agency=ag5cantons": {
+  "agence": "Orpi Agence des 5 Cantons",
+  "chambres": 2,
+  "classement": "match",
+  "derniere_vue": "2026-09-07",
+  "dpe": "A",
+  "historique_prix": [
+   {
+    "date": "2026-09-07",
+    "prix": 1400
+   }
+  ],
+  "pieces": 3,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-09-07",
+  "prix": 1400,
+  "statut": "active",
+  "surface": 85.28,
+  "titre": "Location Appartement 3 pièces 85,28 m2 Anglet - Hardoy",
   "type": "appartement",
   "ville_agence": "Anglet"
  },

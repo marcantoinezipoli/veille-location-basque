@@ -154,7 +154,7 @@
    "classement": "exclu",
    "contexte": "54.00m² 1 1 GRAND T2 – ANGLET BLANCPIGNON Anglet 1 025€ /mois À louer jusqu’en juin – Grand 2 pièces meublé de 54 m²Comme une petite maison, ce grand 2 pièces meublé de 54 m² bénéficie d’une terrasse et d’une cour privative sans vis à vis.Il comprend un séjour, une cuisine, un coin buanderie, une sa",
    "derniere_vue": "2026-09-07",
-   "ecart_prix_pct": 10,
+   "ecart_prix_pct": 13,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -193,7 +193,7 @@
    "classement": "exclu",
    "contexte": "EXCLU location 32100 CONDOM Appartement à louer 117m² 4 pièces 3 chambres 720 € CC/Mois",
    "derniere_vue": "2026-09-05",
-   "ecart_prix_pct": -51,
+   "ecart_prix_pct": -49,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -232,7 +232,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 49100 ANGERS Appartement à louer 67m² 4 pièces 2 chambres 900 € CC/Mois",
    "derniere_vue": "2026-09-05",
-   "ecart_prix_pct": 6,
+   "ecart_prix_pct": 11,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -271,7 +271,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 29200 BREST Appartement à louer 69m² 4 pièces 3 chambres 722 € CC/Mois",
    "derniere_vue": "2026-09-06",
-   "ecart_prix_pct": -17,
+   "ecart_prix_pct": -13,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -310,7 +310,7 @@
    "classement": "exclu",
    "contexte": "EXCLU location 93240 STAINS Appartement à louer 64m² 4 pièces 3 chambres 1 300 € CC/Mois",
    "derniere_vue": "2026-09-05",
-   "ecart_prix_pct": 60,
+   "ecart_prix_pct": 68,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -350,7 +350,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 31320 CASTANET TOLOSAN Maison à louer 138m² 5 pièces 4 chambres 1 700 € CC/Mois",
    "derniere_vue": "2026-09-07",
-   "ecart_prix_pct": -3,
+   "ecart_prix_pct": 2,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -390,7 +390,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 56220 MALANSAC Maison à louer 113m² 5 pièces 3 chambres 980 € CC/Mois",
    "derniere_vue": "2026-09-05",
-   "ecart_prix_pct": -31,
+   "ecart_prix_pct": -28,
    "etiquette_prix": "bon prix",
    "itineraire_pos": "43.437,-1.5915",
    "itineraire_source": "route",
@@ -424,7 +424,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 29200 BREST Maison à louer 82m² 4 pièces 2 chambres 387 € CC/Mois",
    "derniere_vue": "2026-09-06",
-   "ecart_prix_pct": -63,
+   "ecart_prix_pct": -61,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -463,7 +463,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 17000 La Rochelle Appartement à louer 24m² 1 pièce 0 chambre 635 € CC/Mois",
    "derniere_vue": "2026-09-07",
-   "ecart_prix_pct": 109,
+   "ecart_prix_pct": 119,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -502,7 +502,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 31000 TOULOUSE Appartement à louer 25m² 1 pièce 0 chambre 854 € CC/Mois",
    "derniere_vue": "2026-09-07",
-   "ecart_prix_pct": 169,
+   "ecart_prix_pct": 183,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -541,7 +541,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 91150 ETAMPES Appartement à louer 51m² 3 pièces 2 chambres 590 € CC/Mois",
    "derniere_vue": "2026-09-04",
-   "ecart_prix_pct": -9,
+   "ecart_prix_pct": -4,
    "etiquette_prix": "dans le marché",
    "itineraire_pos": "43.437,-1.5915",
    "itineraire_source": "route",
@@ -574,7 +574,7 @@
    "classement": "exclu",
    "contexte": "EXCLU On aime beaucoup 56250 SAINT NOLFF Appartement à louer 65m² 5 pièces 4 chambres 850 € CC/Mois",
    "derniere_vue": "2026-09-04",
-   "ecart_prix_pct": 3,
+   "ecart_prix_pct": 8,
    "etiquette_prix": "dans le marché",
    "itineraire_pos": "43.437,-1.5915",
    "itineraire_source": "route",
@@ -598,6 +598,82 @@
    "url": "https://nestenn.com/appartement-a-louer-au-sein-d-un-ancien-manoir-renove-ref-39716897",
    "ville_agence": "Bidart"
   },
+  "https://nestenn.com/appartement-t1-a-louer-au-3eme-etage-a-quimperle-ref-39710243": {
+   "agence": "Nestenn (Bidart)",
+   "atouts": [
+    "loyer 370 €"
+   ],
+   "chambres": 0,
+   "classement": "exclu",
+   "contexte": "EXCLU location 29300 QUIMPERLÉ Appartement à louer 16m² 1 pièce 0 chambre 370 € CC/Mois",
+   "derniere_vue": "2026-09-07",
+   "historique_prix": [
+    {
+     "date": "2026-09-07",
+     "prix": 370
+    }
+   ],
+   "itineraire_pos": "43.437,-1.5915",
+   "itineraire_source": "route",
+   "km_hopital": 12.6,
+   "lat": 43.437,
+   "lon": -1.5915,
+   "min_velo": 50,
+   "min_voiture": 14,
+   "motif_exclusion": "hors zone (29300)",
+   "pieces": 1,
+   "position": "Bidart (ville de l'agence)",
+   "premiere_vue": "2026-09-07",
+   "prix": 370,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 16.0,
+   "titre": "EXCLU location 29300 QUIMPERLÉ Appartement à louer 16m² 1 pièce 0 chambre 370 € CC/Mois",
+   "type": "appartement",
+   "url": "https://nestenn.com/appartement-t1-a-louer-au-3eme-etage-a-quimperle-ref-39710243",
+   "ville_agence": "Bidart"
+  },
+  "https://nestenn.com/appartement-t3-centre-ville-amiens-ref-39718708": {
+   "agence": "Nestenn (Bidart)",
+   "atouts": [
+    "71 m²",
+    "loyer 800 €"
+   ],
+   "chambres": 2,
+   "classement": "exclu",
+   "contexte": "EXCLU 80000 Amiens Appartement à louer 71m² 3 pièces 2 chambres 800 € CC/Mois",
+   "derniere_vue": "2026-09-07",
+   "ecart_prix_pct": -7,
+   "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-07",
+     "prix": 800
+    }
+   ],
+   "itineraire_pos": "43.437,-1.5915",
+   "itineraire_source": "route",
+   "km_hopital": 12.6,
+   "lat": 43.437,
+   "lon": -1.5915,
+   "min_velo": 50,
+   "min_voiture": 14,
+   "motif_exclusion": "hors zone (80000)",
+   "pieces": 3,
+   "position": "Bidart (ville de l'agence)",
+   "premiere_vue": "2026-09-07",
+   "prix": 800,
+   "prix_m2": 11.3,
+   "reserves": [],
+   "score": 3,
+   "statut": "active",
+   "surface": 71.0,
+   "titre": "EXCLU 80000 Amiens Appartement à louer 71m² 3 pièces 2 chambres 800 € CC/Mois",
+   "type": "appartement",
+   "url": "https://nestenn.com/appartement-t3-centre-ville-amiens-ref-39718708",
+   "ville_agence": "Bidart"
+  },
   "https://nestenn.com/appartement-villeneuve-sur-lot-2-piece-s-40-m2-ref-39354035": {
    "agence": "Nestenn (Bidart)",
    "atouts": [
@@ -607,7 +683,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 47300 VILLENEUVE SUR LOT Appartement à louer 41m² 2 pièces 1 chambre 435 € CC/Mois",
    "derniere_vue": "2026-09-05",
-   "ecart_prix_pct": -17,
+   "ecart_prix_pct": -12,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -637,6 +713,46 @@
    "url": "https://nestenn.com/appartement-villeneuve-sur-lot-2-piece-s-40-m2-ref-39354035",
    "ville_agence": "Bidart"
   },
+  "https://nestenn.com/belle-maison-meublee-en-pierre-a-yssingeaux-ref-39654387": {
+   "agence": "Nestenn (Bidart)",
+   "atouts": [
+    "160 m²",
+    "loyer 1080 €"
+   ],
+   "chambres": 3,
+   "classement": "exclu",
+   "contexte": "EXCLU Coup de coeur 43200 Yssingeaux Maison à louer 160m² 4 pièces 3 chambres 1 080 € CC/Mois",
+   "derniere_vue": "2026-09-07",
+   "ecart_prix_pct": -44,
+   "etiquette_prix": "bon prix",
+   "historique_prix": [
+    {
+     "date": "2026-09-07",
+     "prix": 1080
+    }
+   ],
+   "itineraire_pos": "43.437,-1.5915",
+   "itineraire_source": "route",
+   "km_hopital": 12.6,
+   "lat": 43.437,
+   "lon": -1.5915,
+   "min_velo": 50,
+   "min_voiture": 14,
+   "motif_exclusion": "hors zone (43200)",
+   "pieces": 4,
+   "position": "Bidart (ville de l'agence)",
+   "premiere_vue": "2026-09-07",
+   "prix": 1080,
+   "prix_m2": 6.8,
+   "reserves": [],
+   "score": 4,
+   "statut": "active",
+   "surface": 160.0,
+   "titre": "EXCLU Coup de coeur 43200 Yssingeaux Maison à louer 160m² 4 pièces 3 chambres 1 080 € CC/Mois",
+   "type": "maison",
+   "url": "https://nestenn.com/belle-maison-meublee-en-pierre-a-yssingeaux-ref-39654387",
+   "ville_agence": "Bidart"
+  },
   "https://nestenn.com/maison-en-plein-centre-meublee-5-pieces-a-louer-a-l-isle-adam-102-m-ref-39497692": {
    "agence": "Nestenn (Bidart)",
    "atouts": [
@@ -646,7 +762,7 @@
    "classement": "exclu",
    "contexte": "EXCLU Meublé 95290 L ISLE ADAM Maison à louer 102m² 5 pièces 3 chambres 2 100 € CC/Mois",
    "derniere_vue": "2026-09-05",
-   "ecart_prix_pct": 62,
+   "ecart_prix_pct": 70,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -686,8 +802,8 @@
    "classement": "exclu",
    "contexte": "EXCLU 13530 TRETS Maison à louer 90m² 5 pièces 3 chambres 1 020 € CC/Mois",
    "derniere_vue": "2026-09-04",
-   "ecart_prix_pct": -11,
-   "etiquette_prix": "bon prix",
+   "ecart_prix_pct": -7,
+   "etiquette_prix": "dans le marché",
    "itineraire_pos": "43.437,-1.5915",
    "itineraire_source": "route",
    "km_hopital": 12.6,
@@ -720,7 +836,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 45000 ORLEANS Maison à louer 100m² 4 pièces 3 chambres 1 500 € CC/Mois",
    "derniere_vue": "2026-09-05",
-   "ecart_prix_pct": 18,
+   "ecart_prix_pct": 24,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -760,7 +876,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 13310 ST MARTIN DE CRAU Appartement à louer 28m² 1 pièce 0 chambre 480 € CC/Mois",
    "derniere_vue": "2026-09-07",
-   "ecart_prix_pct": 35,
+   "ecart_prix_pct": 41,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -1557,7 +1673,7 @@
    "derniere_vue": "2026-09-07",
    "description": "Location étudiante SEULEMENT !! (9 mois) - IDEAL POUR 2/3 AMI(E)S DE SEPTEMBRE A JUINIdéalement située à Anglet, à deux pas des plages, cette maison meublée de 109 m² offre un cadre de vie privilégié.Elle se compose d'un séjour, d'une cuisine, de 3 chambres, de 2 salles de bains et d'un WC, offrant un confort idéal pour une colocation.À proximité immédiate d'un arrêt de bus, vous rejoignez facilement les principaux établissements d'enseignement : Stella Maris (2 km), le campus d'Anglet, l'IUT de Bayonne et l'école d'ingénieurs (moins de 5 km).Vous profiterez également d'un jardin, parfait pour les moments de détente.L'eau est incluse dans les charges. Maison à louer 4 pièces - 109 m 2 ANGLET - 64 Retour aux résultats Créer une alerte Modifier la recherche Accueil Location Location Maison Location Maison Pyrenees-Atlantiques (64) Location Maison ANGLET (64600) Maison à louer 4 pièces - 109 m 2 ANGLET - 64 Ref : 5432 1 300 € par mois charges comprises Voir sur la carte 1/12 2/12 3/12 4/12 5/12 6/12 + 6 7/12 8/12 9/12 10/12 11/12 12/12 Exclusivité Envoyer un message Message Téléphoner à l'agence Téléphoner Planifier une visite et déposer un dossier Visiter le site dédié Envoyer ce bie",
    "dpe": null,
-   "ecart_prix_pct": -6,
+   "ecart_prix_pct": -2,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -1781,7 +1897,7 @@
    "derniere_vue": "2026-09-07",
    "description": "LOCATION MEUBLÉE BAIL MOBILITÉ 10 mois (de septembre à juin) ou BAIL CODE CIVIL (logement de fonction ou résidence secondaire)BIARRITZ MILADYA louer très bel appartement T3 de 85m² avec grande terrasse, vue océan et montagne.Il comprend une entrée, un séjour-salon, deux chambres, une cuisine (lave-vaisselle, lave-linge, plaque, four, hotte) une salle de bains, une salle d'eau, un WC séparé.Place de parking privative.Disponible à partir du 25 septembre 2026 Appartement F3 à louer 3 pièces - 85,94 m 2 BIARRITZ - 64 Retour aux résultats Créer une alerte Modifier la recherche Accueil Location Location Appartement Location Appartement Pyrenees-Atlantiques (64) Location Appartement BIARRITZ (64200) Appartement F3 à louer 3 pièces - 85,94 m 2 BIARRITZ - 64 Ref : 20328 1 492 € par mois charges comprises Voir sur la carte 1/11 2/11 3/11 4/11 5/11 6/11 + 5 7/11 8/11 9/11 10/11 11/11 Exclusivité Envoyer un message Message Téléphoner à l'agence Téléphoner Planifier une visite et déposer un dossier Visiter le site dédié Envoyer ce bien à un ami Description LOCATION MEUBLÉE BAIL MOBILITÉ 10 mois (de septembre à juin) ou BAIL CODE CIVIL (logement de fonction ou résidence secondaire) BIARRITZ MILA",
    "dpe": null,
-   "ecart_prix_pct": 39,
+   "ecart_prix_pct": 45,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -1859,6 +1975,57 @@
    "titre": "Appartement T2 à louer 2 pièces - 39 m 2 BAYONNE - 64",
    "type": "appartement",
    "url": "https://www.century21.fr/trouver_logement/detail/16934979724/",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.century21.fr/trouver_logement/detail/16935966350": {
+   "agence": "Century 21 (Bayonne, toutes agences)",
+   "atouts": [
+    "lumineux",
+    "terrasse",
+    "calme",
+    "cave",
+    "loyer 1037 €"
+   ],
+   "chambres": null,
+   "classement": "exclu",
+   "contexte": "Voir le détail du bien",
+   "derniere_vue": "2026-09-07",
+   "description": "LOCATION VIDE T2 A L'ANNÉEBAYONNE ARENES-LACHEPAILLETA louer dans très belle résidence calme et sécurisée, un appartement T2 lumineux avec 2 terrasses.Il est composé d'une pièce à vivre, d'une cuisine indépendante équipée et aménagée, d'une chambre, d'une salle de bains et d'un WC séparé.Une cave complète ce bien. Résidence très entretenue avec beaucoup de verdure.Transports en commun à 2 minutes. Appartement F2 à louer 2 pièces - 56,83 m 2 BAYONNE - 64 Retour aux résultats Créer une alerte Modifier la recherche Accueil Location Location Appartement Location Appartement Pyrenees-Atlantiques (64) Location Appartement BAYONNE (64100) Appartement F2 à louer 2 pièces - 56,83 m 2 BAYONNE - 64 Ref : 20330 1 037 € par mois charges comprises Voir sur la carte 1/8 2/8 3/8 4/8 5/8 6/8 + 2 7/8 8/8 Envoyer un message Message Téléphoner à l'agence Téléphoner Planifier une visite et déposer un dossier Envoyer ce bien à un ami Description LOCATION VIDE T2 A L'ANNÉE BAYONNE ARENES-LACHEPAILLET A louer dans très belle résidence calme et sécurisée, un appartement T2 lumineux avec 2 terrasses. Il est composé d'une pièce à vivre, d'une cuisine indépendante équipée et aménagée, d'une chambre, d'une sal",
+   "dpe": null,
+   "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-07",
+     "prix": 1037
+    }
+   ],
+   "itineraire_pos": "43.489,-1.479",
+   "itineraire_source": "route",
+   "km_hopital": 2.3,
+   "lat": 43.489,
+   "lon": -1.479,
+   "mail": "dpo@century21france.com",
+   "meuble": true,
+   "min_velo": 9,
+   "min_voiture": 3,
+   "photo": "https://www.century21.fr/imagesBien/s3/202/3610/c21_202_3610_20330_8_D7DD9A06-019F-4A2C-990F-DB5BD00A553A.jpg",
+   "photo_cherchee": true,
+   "photos": [
+    "https://www.century21.fr/imagesBien/s3/202/3610/c21_202_3610_20330_8_D7DD9A06-019F-4A2C-990F-DB5BD00A553A.jpg"
+   ],
+   "photos_cherchees": true,
+   "pieces": 2,
+   "position": "quartier Arenes",
+   "premiere_vue": "2026-09-07",
+   "prix": 1037,
+   "reserves": [],
+   "score": 10,
+   "statut": "active",
+   "surface": null,
+   "tel": "0559246520",
+   "titre": "Appartement F2 à louer 2 pièces - 56,83 m 2 BAYONNE - 64",
+   "type": "appartement",
+   "url": "https://www.century21.fr/trouver_logement/detail/16935966350/",
    "ville_agence": "Bayonne"
   },
   "https://www.century21agencenivadour-bayonne.com/trouver_logement/detail/15635506173": {
@@ -2126,7 +2293,7 @@
    "derniere_vue": "2026-09-07",
    "description": "Location Anglet : Magnifique maison sur 3 niveaux avec studio indépendant à ANGLET Montbrun. Maison 5 pièce(s) 3 chambre(s) 110.28 m² Agence immobilière à Anglet Location Anglet Maison Isabelle LAVIELLE Négociatrice Appeler l'agent Contacter l'agent Contacter l'agent Retour aux résultats Télécharger la fiche Partager ce bien Exclusivité Coup de coeur Afficher toutes les photos Maison 5 pièce(s) 3 chambre(s) 110.28 m² Anglet (64600) 1 990 € CC* * Charges comprises Référence 2370 A propos de ce bien Administrateurs de biens immobiliers, nous proposons à la location une maison indépendante de 111 m² environ à ANGLET, disponible mi-septembre. Cette maison individuelle meublée de type 4 est située au coeur du quartier Montbrun, à proximité immédiate du parc du Maharin, lieu priviligié d'observation de la nature calme et reposante. Elle se compose d'une entrée sur dégagement desservant un séjour avec cuisine aménagée et équipée donnant sur une magnifique terrasse entourée de verdure, une salle d'eau, un wc séparé et une chambre avec dressing et rangements donnant également sur la terrasse. A l'étage le palier permet de proifiter d'un bureau pour travailler au calme et dessert une chambre",
    "dpe": null,
-   "ecart_prix_pct": 4,
+   "ecart_prix_pct": 7,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -2175,7 +2342,7 @@
    "classement": "exclu",
    "contexte": "Coup de coeur Appartement 5 pièce(s) 4 chambre(s) 120.56 m² Arbonne (64210) 1 890 € CC*",
    "derniere_vue": "2026-09-07",
-   "ecart_prix_pct": -9,
+   "ecart_prix_pct": -7,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -2214,7 +2381,7 @@
    "classement": "exclu",
    "contexte": "Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 54.26 m² Bayonne (64100) 890 € CC*",
    "derniere_vue": "2026-09-07",
-   "ecart_prix_pct": -5,
+   "ecart_prix_pct": -3,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -2252,7 +2419,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Coup de coeur Appartement 1 pièce(s) 28.04 m² Biarritz (64200) 695 € CC*",
    "derniere_vue": "2026-09-07",
-   "ecart_prix_pct": 43,
+   "ecart_prix_pct": 47,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -2290,7 +2457,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Coup de coeur Appartement 1 pièce(s) 28.04 m² Biarritz (64200) 695 € CC*",
    "derniere_vue": "2026-09-07",
-   "ecart_prix_pct": 43,
+   "ecart_prix_pct": 47,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -3047,6 +3214,73 @@
    "url": "https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-fdaf9677-c4f3-4903-9e4f-160872608d4d/?agency=ag5cantons",
    "ville_agence": "Anglet"
   },
+  "https://www.orpi.com/annonce-location-appartement-t3-anglet-64600-251-067058-535?agency=ag5cantons": {
+   "agence": "Orpi Agence des 5 Cantons",
+   "atouts": [
+    "lumineux",
+    "ensoleillé",
+    "terrasse",
+    "jardin",
+    "extérieur",
+    "double vitrage",
+    "à l'année",
+    "85 m²",
+    "loyer 1400 €",
+    "DPE A"
+   ],
+   "chambres": 2,
+   "classement": "match",
+   "contexte": "1 400 € par mois Location Location Appartement 3 pièces 85,28 m 2 Anglet - Hardoy Favoris Message",
+   "derniere_vue": "2026-09-07",
+   "description": "Appartement, 85.28 m² T-3 à louer à Anglet pour 1 400 € avec Orpi Appartement à louer 3 pièces • 85,28 m 2 Anglet Déposer un dossier Message Écrire à l'agence Partager Partager via e-mail Partager via facebook Partager via whatsapp Partager via SMS Favoris 9 Photos Carte Appartement à louer 3 pièces • 85,28 m 2 Anglet Bon état 1 400 € par mois Charges comprises Loyer de base : 1 320 € Honoraires TTC à la charge du locataire : 1 107 € dont 255 € d'honoraires d'état des lieux Provisions pour charges : 80 € Location meublée Zone soumise à l’encadrement des loyers Réf. Orpi : 251-067058-535 L'essentiel 3 pièces Surface 85,28 m² 2 chambres 1 salle de bain/eau Séjour 40,03 m² Intérieur Chauffage central Électricité Double vitrage Meublé Extérieur Terrasse Avec jardin privatif Afficher plus de détails Afficher moins de détails L'avis de l'agent Anglet/ Location T3 meublée à l'année. ANGLET - Quartier EL HOGAR Location meublée à l'année à partir du 1er septembre Grand et lumineux T3 de 85m² comprenant une pièce de vie donnant sur une terrasse et un beau jardin ensoleillé, une cuisine ouverte, 2 chambres avec placard, 1 salle d'eau et des wc indépendant. *Comment postuler ?* Il vous suffit ",
+   "dpe": "A",
+   "ecart_prix_pct": -3,
+   "etiquette_prix": "dans le marché",
+   "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-07",
+     "prix": 1400
+    }
+   ],
+   "itineraire_pos": "43.4855,-1.5185",
+   "itineraire_source": "route",
+   "km_hopital": 4.9,
+   "lat": 43.4855,
+   "lon": -1.5185,
+   "meuble": true,
+   "min_velo": 20,
+   "min_voiture": 9,
+   "photo": "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/4ed370f3-5aff-4be7-af7f-f6a4fff26b6c--fc6bf4e4-48b0-4166-8d62-68a8f62e6d08.jpg?p=estate-v2&ci_url_encoded=1&ci_sign=0471510cfdd10910da7ee9621f7f3ab8e690db68",
+   "photo_cherchee": true,
+   "photos": [
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/4ed370f3-5aff-4be7-af7f-f6a4fff26b6c--fc6bf4e4-48b0-4166-8d62-68a8f62e6d08.jpg?p=estate-v2&ci_url_encoded=1&ci_sign=0471510cfdd10910da7ee9621f7f3ab8e690db68",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/4ed370f3-5aff-4be7-af7f-f6a4fff26b6c--fc6bf4e4-48b0-4166-8d62-68a8f62e6d08.jpg?p=default&ci_url_encoded=1&ci_sign=81a8535cd910df03999d54ccfdb449ac4f42c250",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/4ed370f3-5aff-4be7-af7f-f6a4fff26b6c--f54a69aa-82bc-4b94-a9be-962c0c85c4d4.jpg?p=default&ci_url_encoded=1&ci_sign=41e5e268139121a973551f8df5e62fde31b8a19d",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/4ed370f3-5aff-4be7-af7f-f6a4fff26b6c--f456c9a2-97df-4150-80e4-b001fb4a1364.jpg?p=default&ci_url_encoded=1&ci_sign=874aa07fdfdecc6d86141fd0667adab47d9b5e2a",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/4ed370f3-5aff-4be7-af7f-f6a4fff26b6c--07610ea0-f964-4fd1-bd43-3b0da765d088.jpg?p=default&ci_url_encoded=1&ci_sign=492da7b0583e3e6b9b16cfbe1030879e79cf6819",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/4ed370f3-5aff-4be7-af7f-f6a4fff26b6c--89b9e8d6-0c03-4373-ac64-0ae6ccc7af63.jpg?p=default&ci_url_encoded=1&ci_sign=429b1ac5f5ba779533172f3fa2e38441cdb1cafe",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/4ed370f3-5aff-4be7-af7f-f6a4fff26b6c--2b70e52e-6c40-4240-a181-3a9008edb7f3.jpg?p=default&ci_url_encoded=1&ci_sign=13e6e460e62fa0152cbfaa85b79e7112cc98c737",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/4ed370f3-5aff-4be7-af7f-f6a4fff26b6c--52b1226e-c150-44c4-9872-4b89e5ae8016.jpg?p=default&ci_url_encoded=1&ci_sign=684ab11eb37b4e6d8473671a90314123f89a990b",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/4ed370f3-5aff-4be7-af7f-f6a4fff26b6c--ed5a89a7-26a0-4a0f-a2f6-6c2bbbf16fdc.jpg?p=default&ci_url_encoded=1&ci_sign=eedb81a7ff4667e18b18479e0333eb07c142b4fc",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/4ed370f3-5aff-4be7-af7f-f6a4fff26b6c--07b68185-d4ba-42b9-9a57-e09fda1da52b.jpg?p=default&ci_url_encoded=1&ci_sign=c935073e89ef45c4c2c0124eb8c2a04334aefd4e"
+   ],
+   "photos_cherchees": true,
+   "pieces": 3,
+   "position": "Anglet (ville de l'agence)",
+   "premiere_vue": "2026-09-07",
+   "prix": 1400,
+   "prix_m2": 16.4,
+   "reserves": [],
+   "score": 19,
+   "statut": "active",
+   "surface": 85.28,
+   "tel": "0559030434",
+   "titre": "Location Appartement 3 pièces 85,28 m2 Anglet - Hardoy",
+   "type": "appartement",
+   "url": "https://www.orpi.com/annonce-location-appartement-t3-anglet-64600-251-067058-535/?agency=ag5cantons",
+   "ville_agence": "Anglet"
+  },
   "https://www.orpi.com/annonce-location-appartement-t3-anglet-64600-4fcaa5e4-2a6d-4bfb-bd72-4eb5c3f735bc?agency=ag5cantons": {
    "agence": "Orpi Agence des 5 Cantons",
    "atouts": [
@@ -3061,7 +3295,7 @@
    "derniere_vue": "2026-09-07",
    "description": "Appartement, m² T-3 à louer à Anglet pour 1 210 € avec Orpi Appartement à louer 3 pièces • Anglet Déposer un dossier Message Écrire à l'agence Partager Partager via e-mail Partager via facebook Partager via whatsapp Partager via SMS Favoris 9 Photos Carte Appartement à louer 3 pièces • Anglet Bon état 1 210 € par mois Charges comprises Loyer de base : 990 € Dépôt de garantie : 1 980 € Honoraires TTC à la charge du locataire : 910 € dont 210 € d'honoraires d'état des lieux Provisions pour charges : 220 € Location meublée Réf. Orpi : 4fcaa5e4-2a6d-4bfb-bd72-4eb5c3f735bc L'essentiel 3 pièces Surface 70 m² 2 chambres 1 salle de bain/eau Intérieur Meublé Extérieur Avec jardin privatif Afficher plus de détails Afficher moins de détails L'avis de l'agent Location étudiante de Septembre 2026 à Juin 2027. ANGLET Maharin À louer, agréable appartement situé en rez-de-chaussée d’une maison, offrant un cadre de vie confortable et un accès à un jardin. Le logement comprend deux chambres, ainsi qu’un troisième coin nuit offrant un espace supplémentaire selon les besoins. Il dispose également d’une salle d’eau et de WC indépendants. Loyer TOUTES CHARGES COMPRISES : Eau, électricité, chauffage, int",
    "dpe": null,
-   "ecart_prix_pct": 0,
+   "ecart_prix_pct": 3,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -3113,7 +3347,7 @@
    "derniere_vue": "2026-09-07",
    "description": "Appartement, 82 m² T-4 à louer à Anglet pour 1 320 € avec Orpi Appartement à louer 4 pièces • 82 m 2 Anglet Déposer un dossier Message Écrire à l'agence Partager Partager via e-mail Partager via facebook Partager via whatsapp Partager via SMS Favoris 8 Photos Carte Appartement à louer 4 pièces • 82 m 2 Anglet Bon état 1 320 € par mois Charges comprises Loyer de base : 1 270 € Dépôt de garantie : 1 270 € Honoraires TTC à la charge du locataire : 1 066 € dont 246 € d'honoraires d'état des lieux Provisions pour charges : 50 € Location meublée Réf. Orpi : 8c4df96b-7979-48c8-bf2a-b3b83106a08f L'essentiel 4 pièces Surface 82 m² 3 chambres 1 salle de bain/eau Séjour 27,18 m² Intérieur Ascenseur Chauffage central Meublé Extérieur Balcon Cave Place de parking Afficher plus de détails Afficher moins de détails L'avis de l'agent Location meublée à l'année - ANGLET CENTRE. ANGLET - Maignon Location meublée à l'année. Bel appartement meublé comprenant une entrée, un séjour donnant sur un balcon, une cuisine équipée, 3 chambres et une salle de bain. Disponible dès maintenant. Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques georisques.gouv.fr M",
    "dpe": "A",
-   "ecart_prix_pct": -7,
+   "ecart_prix_pct": -4,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -3179,7 +3413,7 @@
    "derniere_vue": "2026-09-07",
    "description": "Appartement, 80 m² T-4 à louer à Bayonne pour 1 050 € avec Orpi Appartement à louer 4 pièces • 80 m 2 Bayonne Déposer un dossier Message Écrire à l'agence Partager Partager via e-mail Partager via facebook Partager via whatsapp Partager via SMS Favoris 6 Photos Carte Appartement à louer 4 pièces • 80 m 2 Bayonne Bon état 1 050 € par mois Charges comprises Loyer de base : 970 € Dépôt de garantie : 1 950 € Honoraires TTC à la charge du locataire : 1 040 € dont 240 € d'honoraires d'état des lieux Provisions pour charges : 80 € Location meublée Zone soumise à l’encadrement des loyers Réf. Orpi : 2967-067058-901 L'essentiel 4 pièces Surface 80 m² 3 chambres 2 salles de bain/eau Intérieur Cheminée Chauffage central Gaz Meublé Extérieur Balcon Place de parking Afficher plus de détails Afficher moins de détails L'avis de l'agent Appartement Bayonne 4 pièce(s) 80 m2. BAYONNE MARRACQ Bel appartement meublé pour une location à l'année, en duplex, atypique, lumineux et plein de charme dans une petite copropriété proche de l'hôpital. Une belle pièce à vivre, une cuisine séparée, une salle de bain et une salle d'eau, 2 chambres et des combles entièrement aménagés rajoutant un 3ème espace nuit. L",
    "dpe": "A",
-   "ecart_prix_pct": -24,
+   "ecart_prix_pct": -22,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -3802,6 +4036,12 @@
    "agences_ok": 17,
    "date": "2026-09-07",
    "nouveautes": 7
+  },
+  {
+   "actives": 98,
+   "agences_ok": 17,
+   "date": "2026-09-07",
+   "nouveautes": 5
   }
  ]
 }
