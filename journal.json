@@ -213,6 +213,27 @@
   "type": "maison",
   "ville_agence": "Bidart"
  },
+ "https://nestenn.com/a-louer-studio-meuble-centre-ville-de-la-rochelle-24-m2-ref-36719520": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 0,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-07",
+  "historique_prix": [
+   {
+    "date": "2026-09-07",
+    "prix": 635
+   }
+  ],
+  "pieces": 1,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-07",
+  "prix": 635,
+  "statut": "active",
+  "surface": 24.0,
+  "titre": "EXCLU 17000 La Rochelle Appartement à louer 24m² 1 pièce 0 chambre 635 € CC/Mois",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
  "https://nestenn.com/a-louer-t1-meuble-renove-au-coeur-de-toulouse-ref-39314699": {
   "agence": "Nestenn (Bidart)",
   "chambres": 0,
@@ -342,6 +363,27 @@
   "type": "maison",
   "ville_agence": "Bidart"
  },
+ "https://nestenn.com/studio-ref-39718953": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 0,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-07",
+  "historique_prix": [
+   {
+    "date": "2026-09-07",
+    "prix": 480
+   }
+  ],
+  "pieces": 1,
+  "position": "quartier St Martin",
+  "premiere_vue": "2026-09-07",
+  "prix": 480,
+  "statut": "active",
+  "surface": 28.0,
+  "titre": "EXCLU 13310 ST MARTIN DE CRAU Appartement à louer 28m² 1 pièce 0 chambre 480 € CC/Mois",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
  "https://www.acotztarra.com/location-à-l-année-au-pays-basque/342-appartement.html": {
   "agence": "Acotztarra",
   "classement": "exclu",
@@ -354,6 +396,25 @@
   "titre": "Ref. 432 : APPARTEMENT",
   "type": "appartement",
   "ville_agence": "Bidart"
+ },
+ "https://www.agence-benquet.com/appartement-maison/anglet-bois-belin-t2": {
+  "agence": "Agence Benquet",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-07",
+  "historique_prix": [
+   {
+    "date": "2026-09-07",
+    "prix": 806
+   }
+  ],
+  "pieces": 2,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-09-07",
+  "prix": 806,
+  "statut": "active",
+  "surface": 47.12,
+  "titre": "ANGLET, Bois Belin, T2",
+  "ville_agence": "Biarritz"
  },
  "https://www.agence-benquet.com/appartement-maison/arcangues-proche-bourg-maison-mitoyenne": {
   "agence": "Agence Benquet",
@@ -372,6 +433,26 @@
   "surface": 137.0,
   "titre": "ARCANGUES, Proche Bourg, Maison Mitoyenne",
   "type": "maison",
+  "ville_agence": "Biarritz"
+ },
+ "https://www.agence-benquet.com/appartement-maison/biarritz-appartement-t2-meuble-avec-terrasse-stationnement-privatif-et-residence-securisee": {
+  "agence": "Agence Benquet",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-07",
+  "historique_prix": [
+   {
+    "date": "2026-09-07",
+    "prix": 890
+   }
+  ],
+  "pieces": 2,
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-09-07",
+  "prix": 890,
+  "statut": "active",
+  "surface": 46.53,
+  "titre": "Biarritz – Appartement T2 meublé avec terrasse, stationnement privatif et résidence sécurisée",
+  "type": "appartement",
   "ville_agence": "Biarritz"
  },
  "https://www.agence-benquet.com/appartement-maison/biarritz-appartement-t3-meuble-avec-balcon-ascenseur-et-residence-securisee": {
@@ -731,6 +812,25 @@
   "type": "appartement",
   "ville_agence": "Bidart"
  },
+ "https://www.century21.fr/trouver_logement/detail/16934979724": {
+  "agence": "Century 21 (Bayonne, toutes agences)",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-07",
+  "historique_prix": [
+   {
+    "date": "2026-09-07",
+    "prix": 660
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-07",
+  "prix": 660,
+  "statut": "active",
+  "titre": "Appartement T2 à louer 2 pièces - 39 m 2 BAYONNE - 64",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.century21agencenivadour-bayonne.com/trouver_logement/detail/15635506173": {
   "agence": "Century 21 Agence Nivadour",
   "chambres": 2,
@@ -875,7 +975,48 @@
   "type": "appartement",
   "ville_agence": "Anglet"
  },
+ "https://www.lelogisbasque.fr/location/79-bayonne/appartement/2334-superbe-t2-bourgeois-de-55m-a-bayonne-chateau-de-saint-forcet": {
+  "agence": "Le Logis Basque",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-07",
+  "historique_prix": [
+   {
+    "date": "2026-09-07",
+    "prix": 890
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-07",
+  "prix": 890,
+  "statut": "active",
+  "surface": 54.26,
+  "titre": "Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 54.26 m² Bayonne (64100) 890 € CC*",
+  "type": "appartement",
+  "ville_agence": "Anglet"
+ },
  "https://www.lelogisbasque.fr/location/80-biarritz/appartement/2331-superbe-t1-bis-de-septembre-a-juin-idealement-place-a-biarritz": {
+  "agence": "Le Logis Basque",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-07",
+  "historique_prix": [
+   {
+    "date": "2026-09-07",
+    "prix": 695
+   }
+  ],
+  "pieces": 1,
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-09-07",
+  "prix": 695,
+  "statut": "active",
+  "surface": 28.04,
+  "titre": "Exclusivité Coup de coeur Appartement 1 pièce(s) 28.04 m² Biarritz (64200) 695 € CC*",
+  "type": "appartement",
+  "ville_agence": "Anglet"
+ },
+ "https://www.lelogisbasque.fr/location/80-biarritz/appartement/2335-superbe-t1-bis-de-septembre-a-juin-idealement-place-a-biarritz": {
   "agence": "Le Logis Basque",
   "classement": "exclu",
   "derniere_vue": "2026-09-07",
