@@ -177,6 +177,27 @@
   "type": "maison",
   "ville_agence": "Bidart"
  },
+ "https://nestenn.com/a-louer-maison-6-pieces-moreac-ref-39574549": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 4,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-08",
+  "historique_prix": [
+   {
+    "date": "2026-09-08",
+    "prix": 1014
+   }
+  ],
+  "pieces": 6,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-08",
+  "prix": 1014,
+  "statut": "active",
+  "surface": 136.0,
+  "titre": "EXCLU 56500 MOREAC Maison à louer 136m² 6 pièces 4 chambres 1 014 € CC/Mois",
+  "type": "maison",
+  "ville_agence": "Bidart"
+ },
  "https://nestenn.com/a-louer-maison-malansac-3-chambres-113-m2-ref-39717712": {
   "agence": "Nestenn (Bidart)",
   "chambres": 3,
@@ -465,6 +486,27 @@
   "statut": "active",
   "surface": 28.0,
   "titre": "EXCLU 13310 ST MARTIN DE CRAU Appartement à louer 28m² 1 pièce 0 chambre 480 € CC/Mois",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
+ "https://nestenn.com/vert-buisson-appartement-3-pieces-ref-33392034": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-08",
+  "historique_prix": [
+   {
+    "date": "2026-09-08",
+    "prix": 730
+   }
+  ],
+  "pieces": 3,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-08",
+  "prix": 730,
+  "statut": "active",
+  "surface": 63.0,
+  "titre": "EXCLU 35170 BRUZ Appartement à louer 63m² 3 pièces 2 chambres 730 € CC/Mois",
   "type": "appartement",
   "ville_agence": "Bidart"
  },
