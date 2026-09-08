@@ -193,7 +193,7 @@
    "classement": "exclu",
    "contexte": "EXCLU location 32100 CONDOM Appartement à louer 117m² 4 pièces 3 chambres 720 € CC/Mois",
    "derniere_vue": "2026-09-05",
-   "ecart_prix_pct": -47,
+   "ecart_prix_pct": -48,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -232,7 +232,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 49100 ANGERS Appartement à louer 67m² 4 pièces 2 chambres 900 € CC/Mois",
    "derniere_vue": "2026-09-05",
-   "ecart_prix_pct": 14,
+   "ecart_prix_pct": 12,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -271,7 +271,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 29200 BREST Appartement à louer 69m² 4 pièces 3 chambres 722 € CC/Mois",
    "derniere_vue": "2026-09-06",
-   "ecart_prix_pct": -11,
+   "ecart_prix_pct": -12,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -310,7 +310,7 @@
    "classement": "exclu",
    "contexte": "EXCLU location 93240 STAINS Appartement à louer 64m² 4 pièces 3 chambres 1 300 € CC/Mois",
    "derniere_vue": "2026-09-05",
-   "ecart_prix_pct": 73,
+   "ecart_prix_pct": 70,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -350,7 +350,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 31320 CASTANET TOLOSAN Maison à louer 138m² 5 pièces 4 chambres 1 700 € CC/Mois",
    "derniere_vue": "2026-09-07",
-   "ecart_prix_pct": 5,
+   "ecart_prix_pct": 3,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -390,7 +390,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 56500 MOREAC Maison à louer 136m² 6 pièces 4 chambres 1 014 € CC/Mois",
    "derniere_vue": "2026-09-08",
-   "ecart_prix_pct": -36,
+   "ecart_prix_pct": -37,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -430,7 +430,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 56220 MALANSAC Maison à louer 113m² 5 pièces 3 chambres 980 € CC/Mois",
    "derniere_vue": "2026-09-05",
-   "ecart_prix_pct": -26,
+   "ecart_prix_pct": -27,
    "etiquette_prix": "bon prix",
    "itineraire_pos": "43.437,-1.5915",
    "itineraire_source": "route",
@@ -464,7 +464,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 29200 BREST Maison à louer 82m² 4 pièces 2 chambres 387 € CC/Mois",
    "derniere_vue": "2026-09-06",
-   "ecart_prix_pct": -60,
+   "ecart_prix_pct": -61,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -503,7 +503,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 17000 La Rochelle Appartement à louer 24m² 1 pièce 0 chambre 635 € CC/Mois",
    "derniere_vue": "2026-09-07",
-   "ecart_prix_pct": 126,
+   "ecart_prix_pct": 122,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -542,7 +542,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 31000 TOULOUSE Appartement à louer 25m² 1 pièce 0 chambre 854 € CC/Mois",
    "derniere_vue": "2026-09-07",
-   "ecart_prix_pct": 191,
+   "ecart_prix_pct": 186,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -684,7 +684,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 80000 Amiens Appartement à louer 71m² 3 pièces 2 chambres 800 € CC/Mois",
    "derniere_vue": "2026-09-07",
-   "ecart_prix_pct": -4,
+   "ecart_prix_pct": -5,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -723,8 +723,8 @@
    "classement": "exclu",
    "contexte": "EXCLU 47300 VILLENEUVE SUR LOT Appartement à louer 41m² 2 pièces 1 chambre 435 € CC/Mois",
    "derniere_vue": "2026-09-05",
-   "ecart_prix_pct": -10,
-   "etiquette_prix": "dans le marché",
+   "ecart_prix_pct": -11,
+   "etiquette_prix": "bon prix",
    "historique_prix": [
     {
      "date": "2026-09-05",
@@ -763,7 +763,7 @@
    "classement": "exclu",
    "contexte": "EXCLU Coup de coeur 43200 Yssingeaux Maison à louer 160m² 4 pièces 3 chambres 1 080 € CC/Mois",
    "derniere_vue": "2026-09-07",
-   "ecart_prix_pct": -42,
+   "ecart_prix_pct": -43,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -793,6 +793,45 @@
    "url": "https://nestenn.com/belle-maison-meublee-en-pierre-a-yssingeaux-ref-39654387",
    "ville_agence": "Bidart"
   },
+  "https://nestenn.com/les-pennes-mirabeau-petite-maison-t2-avec-jardin-et-terrasse-ref-39575614": {
+   "agence": "Nestenn (Bidart)",
+   "atouts": [
+    "loyer 960 €"
+   ],
+   "chambres": 1,
+   "classement": "exclu",
+   "contexte": "EXCLU Coup de coeur 13170 LES PENNES MIRABEAU Maison à louer 41m² 2 pièces 1 chambre 960 € CC/Mois",
+   "derniere_vue": "2026-09-08",
+   "ecart_prix_pct": 96,
+   "etiquette_prix": "au-dessus du marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-08",
+     "prix": 960
+    }
+   ],
+   "itineraire_pos": "43.437,-1.5915",
+   "itineraire_source": "route",
+   "km_hopital": 12.6,
+   "lat": 43.437,
+   "lon": -1.5915,
+   "min_velo": 50,
+   "min_voiture": 14,
+   "motif_exclusion": "hors zone (13170)",
+   "pieces": 2,
+   "position": "Bidart (ville de l'agence)",
+   "premiere_vue": "2026-09-08",
+   "prix": 960,
+   "prix_m2": 23.4,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 41.0,
+   "titre": "EXCLU Coup de coeur 13170 LES PENNES MIRABEAU Maison à louer 41m² 2 pièces 1 chambre 960 € CC/Mois",
+   "type": "maison",
+   "url": "https://nestenn.com/les-pennes-mirabeau-petite-maison-t2-avec-jardin-et-terrasse-ref-39575614",
+   "ville_agence": "Bidart"
+  },
   "https://nestenn.com/location/bidart-64210": {
    "agence": "Nestenn (Bidart)",
    "atouts": [
@@ -808,7 +847,7 @@
    "derniere_vue": "2026-09-08",
    "description": "Consultez sur cette page toutes les annonces de Location à Bidart (64210) publiées par les agences du groupe Nestenn. Location à Bidart Filtres Trier par : Les plus pertinents Les moins chers Les plus chers Créer une alerte Location à Bidart Accédez directement au type de bien recherché : location maison Bidart (64210) - location appartement Bidart (64210) - location studio Bidart (64210) - location local professionnel Bidart (64210) - location bureau Bidart (64210) - location garage parking Bidart (64210) 2 biens immobiliers en location à Bidart EXCLU On aime beaucoup À 51.1 km de 64210 Bidart Appartement à louer 69m² 3 pièces 2 chambres 720 € CC/Mois A LOUER - DAX, Venez découvrir ce bel appartement meublé situé au premier étage avec ascenseur, composé d'une entrée avec placard, d'une cuisine séparée (équipée d'une cuisinière, d'une hotte, d'un réfrigérateur), et d'un séjour lumineux. Il dispose également d'un grand couloir avec placards, de deux chambres avec placards, d'une salle de... EXCLU À 51.1 km de 64210 Bidart Appartement à louer 63m² 3 pièces 2 chambres 800 € CC/Mois Libre de suite. Venez découvrir ce magnifique appartement T3 en rez-de-chaussée, idéalement situé au sei",
    "dpe": null,
-   "ecart_prix_pct": -11,
+   "ecart_prix_pct": -13,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -852,7 +891,7 @@
    "classement": "exclu",
    "contexte": "EXCLU Meublé 95290 L ISLE ADAM Maison à louer 102m² 5 pièces 3 chambres 2 100 € CC/Mois",
    "derniere_vue": "2026-09-05",
-   "ecart_prix_pct": 75,
+   "ecart_prix_pct": 72,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -916,6 +955,45 @@
    "url": "https://nestenn.com/maison-trets-5-piece-s-90-m2-ref-38646644",
    "ville_agence": "Bidart"
   },
+  "https://nestenn.com/nancy-artem-appartement-t3-ref-33662206": {
+   "agence": "Nestenn (Bidart)",
+   "atouts": [
+    "loyer 540 €"
+   ],
+   "chambres": 2,
+   "classement": "exclu",
+   "contexte": "EXCLU location 54000 NANCY Appartement à louer 45m² 3 pièces 2 chambres 540 € CC/Mois",
+   "derniere_vue": "2026-09-08",
+   "ecart_prix_pct": 0,
+   "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-08",
+     "prix": 540
+    }
+   ],
+   "itineraire_pos": "43.437,-1.5915",
+   "itineraire_source": "route",
+   "km_hopital": 12.6,
+   "lat": 43.437,
+   "lon": -1.5915,
+   "min_velo": 50,
+   "min_voiture": 14,
+   "motif_exclusion": "hors zone (54000)",
+   "pieces": 3,
+   "position": "Bidart (ville de l'agence)",
+   "premiere_vue": "2026-09-08",
+   "prix": 540,
+   "prix_m2": 12.0,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 45.0,
+   "titre": "EXCLU location 54000 NANCY Appartement à louer 45m² 3 pièces 2 chambres 540 € CC/Mois",
+   "type": "appartement",
+   "url": "https://nestenn.com/nancy-artem-appartement-t3-ref-33662206",
+   "ville_agence": "Bidart"
+  },
   "https://nestenn.com/orleans-beaumonts-vauquois-maison-de-ville-meublee-t4-3-chambres-parquet-cheminee-jardin-clos-stationnement-ref-39605548": {
    "agence": "Nestenn (Bidart)",
    "atouts": [
@@ -926,7 +1004,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 45000 ORLEANS Maison à louer 100m² 4 pièces 3 chambres 1 500 € CC/Mois",
    "derniere_vue": "2026-09-05",
-   "ecart_prix_pct": 28,
+   "ecart_prix_pct": 26,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -966,7 +1044,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 13310 ST MARTIN DE CRAU Appartement à louer 28m² 1 pièce 0 chambre 480 € CC/Mois",
    "derniere_vue": "2026-09-07",
-   "ecart_prix_pct": 46,
+   "ecart_prix_pct": 43,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -1005,7 +1083,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 35170 BRUZ Appartement à louer 63m² 3 pièces 2 chambres 730 € CC/Mois",
    "derniere_vue": "2026-09-08",
-   "ecart_prix_pct": -1,
+   "ecart_prix_pct": -3,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -1802,7 +1880,7 @@
    "derniere_vue": "2026-09-08",
    "description": "Location étudiante SEULEMENT !! (9 mois) - IDEAL POUR 2/3 AMI(E)S DE SEPTEMBRE A JUINIdéalement située à Anglet, à deux pas des plages, cette maison meublée de 109 m² offre un cadre de vie privilégié.Elle se compose d'un séjour, d'une cuisine, de 3 chambres, de 2 salles de bains et d'un WC, offrant un confort idéal pour une colocation.À proximité immédiate d'un arrêt de bus, vous rejoignez facilement les principaux établissements d'enseignement : Stella Maris (2 km), le campus d'Anglet, l'IUT de Bayonne et l'école d'ingénieurs (moins de 5 km).Vous profiterez également d'un jardin, parfait pour les moments de détente.L'eau est incluse dans les charges. Maison à louer 4 pièces - 109 m 2 ANGLET - 64 Retour aux résultats Créer une alerte Modifier la recherche Accueil Location Location Maison Location Maison Pyrenees-Atlantiques (64) Location Maison ANGLET (64600) Maison à louer 4 pièces - 109 m 2 ANGLET - 64 Ref : 5432 1 300 € par mois charges comprises Voir sur la carte 1/12 2/12 3/12 4/12 5/12 6/12 + 6 7/12 8/12 9/12 10/12 11/12 12/12 Exclusivité Envoyer un message Message Téléphoner à l'agence Téléphoner Planifier une visite et déposer un dossier Visiter le site dédié Envoyer ce bie",
    "dpe": null,
-   "ecart_prix_pct": 1,
+   "ecart_prix_pct": 0,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -2026,7 +2104,7 @@
    "derniere_vue": "2026-09-08",
    "description": "LOCATION MEUBLÉE BAIL MOBILITÉ 10 mois (de septembre à juin) ou BAIL CODE CIVIL (logement de fonction ou résidence secondaire)BIARRITZ MILADYA louer très bel appartement T3 de 85m² avec grande terrasse, vue océan et montagne.Il comprend une entrée, un séjour-salon, deux chambres, une cuisine (lave-vaisselle, lave-linge, plaque, four, hotte) une salle de bains, une salle d'eau, un WC séparé.Place de parking privative.Disponible à partir du 25 septembre 2026 Appartement F3 à louer 3 pièces - 85,94 m 2 BIARRITZ - 64 Retour aux résultats Créer une alerte Modifier la recherche Accueil Location Location Appartement Location Appartement Pyrenees-Atlantiques (64) Location Appartement BIARRITZ (64200) Appartement F3 à louer 3 pièces - 85,94 m 2 BIARRITZ - 64 Ref : 20328 1 492 € par mois charges comprises Voir sur la carte 1/11 2/11 3/11 4/11 5/11 6/11 + 5 7/11 8/11 9/11 10/11 11/11 Exclusivité Envoyer un message Message Téléphoner à l'agence Téléphoner Planifier une visite et déposer un dossier Visiter le site dédié Envoyer ce bien à un ami Description LOCATION MEUBLÉE BAIL MOBILITÉ 10 mois (de septembre à juin) ou BAIL CODE CIVIL (logement de fonction ou résidence secondaire) BIARRITZ MILA",
    "dpe": null,
-   "ecart_prix_pct": 50,
+   "ecart_prix_pct": 47,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -4251,6 +4329,12 @@
   },
   {
    "actives": 100,
+   "agences_ok": 17,
+   "date": "2026-09-08",
+   "nouveautes": 2
+  },
+  {
+   "actives": 102,
    "agences_ok": 17,
    "date": "2026-09-08",
    "nouveautes": 2

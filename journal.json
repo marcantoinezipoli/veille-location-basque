@@ -390,6 +390,27 @@
   "type": "maison",
   "ville_agence": "Bidart"
  },
+ "https://nestenn.com/les-pennes-mirabeau-petite-maison-t2-avec-jardin-et-terrasse-ref-39575614": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-08",
+  "historique_prix": [
+   {
+    "date": "2026-09-08",
+    "prix": 960
+   }
+  ],
+  "pieces": 2,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-08",
+  "prix": 960,
+  "statut": "active",
+  "surface": 41.0,
+  "titre": "EXCLU Coup de coeur 13170 LES PENNES MIRABEAU Maison à louer 41m² 2 pièces 1 chambre 960 € CC/Mois",
+  "type": "maison",
+  "ville_agence": "Bidart"
+ },
  "https://nestenn.com/location/bidart-64210": {
   "agence": "Nestenn (Bidart)",
   "chambres": 2,
@@ -445,6 +466,27 @@
   "surface": 90.0,
   "titre": "EXCLU 13530 TRETS Maison à louer 90m² 5 pièces 3 chambres 1 020 € CC/Mois",
   "type": "maison",
+  "ville_agence": "Bidart"
+ },
+ "https://nestenn.com/nancy-artem-appartement-t3-ref-33662206": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-08",
+  "historique_prix": [
+   {
+    "date": "2026-09-08",
+    "prix": 540
+   }
+  ],
+  "pieces": 3,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-08",
+  "prix": 540,
+  "statut": "active",
+  "surface": 45.0,
+  "titre": "EXCLU location 54000 NANCY Appartement à louer 45m² 3 pièces 2 chambres 540 € CC/Mois",
+  "type": "appartement",
   "ville_agence": "Bidart"
  },
  "https://nestenn.com/orleans-beaumonts-vauquois-maison-de-ville-meublee-t4-3-chambres-parquet-cheminee-jardin-clos-stationnement-ref-39605548": {
