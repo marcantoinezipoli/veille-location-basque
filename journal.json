@@ -93,6 +93,27 @@
   "type": "appartement",
   "ville_agence": "Bidart"
  },
+ "https://nestenn.com/a-louer-appartement-2-chambres-saint-gilles-croix-de-vie-ref-39204201": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-09",
+  "historique_prix": [
+   {
+    "date": "2026-09-09",
+    "prix": 750
+   }
+  ],
+  "pieces": 3,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-09",
+  "prix": 750,
+  "statut": "active",
+  "surface": 63.0,
+  "titre": "EXCLU 85800 SAINT GILLES CROIX DE VIE Appartement à louer 63m² 3 pièces 2 chambres 750 € CC/Mois",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
  "https://nestenn.com/a-louer-appartement-4-piece-s-secteur-bichon-traquette-ref-39717751": {
   "agence": "Nestenn (Bidart)",
   "chambres": 2,
@@ -175,6 +196,27 @@
   "surface": 138.0,
   "titre": "EXCLU 31320 CASTANET TOLOSAN Maison à louer 138m² 5 pièces 4 chambres 1 700 € CC/Mois",
   "type": "maison",
+  "ville_agence": "Bidart"
+ },
+ "https://nestenn.com/a-louer-charmant-t4-atypique-rue-dublan-bordeaux-ref-39038476": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-09",
+  "historique_prix": [
+   {
+    "date": "2026-09-09",
+    "prix": 920
+   }
+  ],
+  "pieces": 4,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-09",
+  "prix": 920,
+  "statut": "active",
+  "surface": 39.0,
+  "titre": "EXCLU 33000 BORDEAUX Appartement à louer 39m² 4 pièces 1 chambre 920 € CC/Mois",
+  "type": "appartement",
   "ville_agence": "Bidart"
  },
  "https://nestenn.com/a-louer-en-exclusivite-maison-de-village-de-50-61m-ref-39666648": {
@@ -366,6 +408,27 @@
   "statut": "active",
   "surface": 31.0,
   "titre": "EXCLU 83400 HYERES Appartement à louer 31m² 2 pièces 0 chambre 925 € CC/Mois",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
+ "https://nestenn.com/appartement-neuf-dernier-etage-montbrison-42600-centre-ville-2-chambres-ref-39227950": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-09",
+  "historique_prix": [
+   {
+    "date": "2026-09-09",
+    "prix": 690
+   }
+  ],
+  "pieces": 3,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-09",
+  "prix": 690,
+  "statut": "active",
+  "surface": 98.0,
+  "titre": "EXCLU 42600 MONTBRISON Appartement à louer 98m² 3 pièces 2 chambres 690 € CC/Mois",
   "type": "appartement",
   "ville_agence": "Bidart"
  },
