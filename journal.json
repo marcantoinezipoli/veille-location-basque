@@ -457,7 +457,7 @@
   "agence": "Nestenn (Bidart)",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-09-08",
+  "derniere_vue": "2026-09-09",
   "historique_prix": [
    {
     "date": "2026-09-08",
@@ -968,6 +968,24 @@
   "prix": 545,
   "statut": "active",
   "titre": "Appartement F1 à louer 1 pièce - 24,90 m 2 BIDART - 64",
+  "type": "maison",
+  "ville_agence": "Bidart"
+ },
+ "https://www.century21.fr/trouver_logement/detail/16551259223": {
+  "agence": "Century 21 (Bidart, toutes agences)",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-09",
+  "historique_prix": [
+   {
+    "date": "2026-09-09",
+    "prix": 2530
+   }
+  ],
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-09-09",
+  "prix": 2530,
+  "statut": "active",
+  "titre": "Exclusivité BIARRITZ 64 2 530 € par mois charges comprises 94,5 m2 , maison , 4 pcs",
   "type": "maison",
   "ville_agence": "Bidart"
  },
