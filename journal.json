@@ -348,6 +348,27 @@
   "type": "appartement",
   "ville_agence": "Bidart"
  },
+ "https://nestenn.com/appartement-hyeres-2-piece-s-30-m2-ref-38984713": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 0,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-09",
+  "historique_prix": [
+   {
+    "date": "2026-09-09",
+    "prix": 925
+   }
+  ],
+  "pieces": 2,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-09",
+  "prix": 925,
+  "statut": "active",
+  "surface": 31.0,
+  "titre": "EXCLU 83400 HYERES Appartement à louer 31m² 2 pièces 0 chambre 925 € CC/Mois",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
  "https://nestenn.com/appartement-t1-a-louer-au-3eme-etage-a-quimperle-ref-39710243": {
   "agence": "Nestenn (Bidart)",
   "chambres": 0,
@@ -594,6 +615,27 @@
   "type": "appartement",
   "ville_agence": "Bidart"
  },
+ "https://nestenn.com/toulouse-31400-au-pied-du-metro-rangueil-agreable-et-grand-t2-de-57-64m-2-balcons-de-6-92m-et-2-78m-tres-ref-39722803": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-09",
+  "historique_prix": [
+   {
+    "date": "2026-09-09",
+    "prix": 725
+   }
+  ],
+  "pieces": 2,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-09",
+  "prix": 725,
+  "statut": "active",
+  "surface": 58.0,
+  "titre": "EXCLU 31400 TOULOUSE Appartement à louer 58m² 2 pièces 1 chambre 725 € CC/Mois",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
  "https://nestenn.com/vert-buisson-appartement-3-pieces-ref-33392034": {
   "agence": "Nestenn (Bidart)",
   "chambres": 2,
@@ -627,6 +669,26 @@
   "titre": "Ref. 432 : APPARTEMENT",
   "type": "appartement",
   "ville_agence": "Bidart"
+ },
+ "https://www.agence-benquet.com/appartement-maison/anglet-appartement-t4-meuble-avec-terrasse-et-deux-stationnements": {
+  "agence": "Agence Benquet",
+  "classement": "match",
+  "derniere_vue": "2026-09-09",
+  "historique_prix": [
+   {
+    "date": "2026-09-09",
+    "prix": 1600
+   }
+  ],
+  "pieces": 4,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-09-09",
+  "prix": 1600,
+  "statut": "active",
+  "surface": 92.0,
+  "titre": "Anglet – Appartement T4 meublé avec terrasse, deux stationnements.",
+  "type": "appartement",
+  "ville_agence": "Biarritz"
  },
  "https://www.agence-benquet.com/appartement-maison/anglet-bois-belin-t2": {
   "agence": "Agence Benquet",
@@ -1238,7 +1300,7 @@
   "agence": "Le Logis Basque",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-09-08",
+  "derniere_vue": "2026-09-09",
   "historique_prix": [
    {
     "date": "2026-09-04",
@@ -1543,6 +1605,32 @@
   "statut": "active",
   "titre": "Plan du site",
   "type": "maison",
+  "ville_agence": "Biarritz"
+ },
+ "https://www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-studio-meuble-centre-ville.html": {
+  "agence": "Agence Olaizola",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-09",
+  "pieces": 2,
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-09-09",
+  "statut": "active",
+  "surface": 180.0,
+  "titre": "AGENCE OLAIZOLA",
+  "type": "villa",
+  "ville_agence": "Biarritz"
+ },
+ "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html": {
+  "agence": "Agence Olaizola",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-09",
+  "pieces": 2,
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-09-09",
+  "statut": "active",
+  "surface": 180.0,
+  "titre": "AGENCE OLAIZOLA",
+  "type": "villa",
   "ville_agence": "Biarritz"
  },
  "https://www.orpi.com/annonce-location-appartement-t1-anglet-64600-9058a702-ca68-46e2-bba1-ae5c1932a9f5?agency=ag5cantons": {
