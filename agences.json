@@ -369,10 +369,10 @@
    "climatisation": 1,
    "cinq cantons": 2,
    "5 cantons": 2,
-   "chambre d'amour": 2,
+   "chambre d'amour": 3,
    "saint-jean": 1,
    "st jean": 1,
-   "chiberta": 1,
+   "chiberta": 3,
    "saint-martin": 1,
    "st martin": 1,
    "aguilera": 1,
@@ -385,7 +385,19 @@
    "location à l'année": 2,
    "à l'année": 2,
    "bail 3 ans": 1,
-   "non meublé": 0
+   "non meublé": 0,
+   "pignada": 3,
+   "chambre d amour": 3,
+   "la barre": 3,
+   "blancpignon": 3,
+   "forêt": 1,
+   "foret": 1,
+   "pinède": 1,
+   "pinede": 1,
+   "front de mer": 2,
+   "piste cyclable": 1,
+   "vélodyssée": 1,
+   "velodyssee": 1
   },
   "mots_moins": {
    "à rafraîchir": -3,
@@ -640,6 +652,10 @@
    "bidart centre": [
     43.437,
     -1.5915
+   ],
+   "pignada": [
+    43.506,
+    -1.529
    ]
   }
  },
