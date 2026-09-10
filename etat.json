@@ -155,8 +155,8 @@
    "classement": "exclu",
    "contexte": "54.00m² 1 1 GRAND T2 – ANGLET BLANCPIGNON Anglet 1 025€ /mois À louer jusqu’en juin – Grand 2 pièces meublé de 54 m²Comme une petite maison, ce grand 2 pièces meublé de 54 m² bénéficie d’une terrasse et d’une cour privative sans vis à vis.Il comprend un séjour, une cuisine, un coin buanderie, une sa",
    "derniere_vue": "2026-09-10",
-   "ecart_prix_pct": 13,
-   "etiquette_prix": "dans le marché",
+   "ecart_prix_pct": 16,
+   "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
      "date": "2026-09-04",
@@ -418,6 +418,45 @@
    "titre": "EXCLU 31320 CASTANET TOLOSAN Maison à louer 138m² 5 pièces 4 chambres 1 700 € CC/Mois",
    "type": "maison",
    "url": "https://nestenn.com/a-louer-belle-maison-familiale-de-137-44-m-a-mervilla-avec-vue-sur-les-pyrenees-ref-39718656",
+   "ville_agence": "Bidart"
+  },
+  "https://nestenn.com/a-louer-centre-ville-de-fontenay-le-comte-appartement-meuble-ref-38056282": {
+   "agence": "Nestenn (Bidart)",
+   "atouts": [
+    "loyer 664 €"
+   ],
+   "chambres": 1,
+   "classement": "exclu",
+   "contexte": "EXCLU location 85200 FONTENAY LE COMTE Appartement à louer 40m² 3 pièces 1 chambre 664 € CC/Mois",
+   "derniere_vue": "2026-09-10",
+   "ecart_prix_pct": 35,
+   "etiquette_prix": "au-dessus du marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-10",
+     "prix": 664
+    }
+   ],
+   "itineraire_pos": "43.437,-1.5915",
+   "itineraire_source": "route",
+   "km_hopital": 12.6,
+   "lat": 43.437,
+   "lon": -1.5915,
+   "min_velo": 50,
+   "min_voiture": 14,
+   "motif_exclusion": "hors zone (85200)",
+   "pieces": 3,
+   "position": "Bidart (ville de l'agence)",
+   "premiere_vue": "2026-09-10",
+   "prix": 664,
+   "prix_m2": 16.6,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 40.0,
+   "titre": "EXCLU location 85200 FONTENAY LE COMTE Appartement à louer 40m² 3 pièces 1 chambre 664 € CC/Mois",
+   "type": "appartement",
+   "url": "https://nestenn.com/a-louer-centre-ville-de-fontenay-le-comte-appartement-meuble-ref-38056282",
    "ville_agence": "Bidart"
   },
   "https://nestenn.com/a-louer-charmant-t4-atypique-rue-dublan-bordeaux-ref-39038476": {
@@ -1268,6 +1307,45 @@
    "titre": "EXCLU 45000 ORLEANS Maison à louer 100m² 4 pièces 3 chambres 1 500 € CC/Mois",
    "type": "maison",
    "url": "https://nestenn.com/orleans-beaumonts-vauquois-maison-de-ville-meublee-t4-3-chambres-parquet-cheminee-jardin-clos-stationnement-ref-39605548",
+   "ville_agence": "Bidart"
+  },
+  "https://nestenn.com/perpignan-appartement-3-pieces-66-64-m2-perpignan-boulevard-felix-mercader-avec-cave-ref-38248806": {
+   "agence": "Nestenn (Bidart)",
+   "atouts": [
+    "loyer 550 €"
+   ],
+   "chambres": 2,
+   "classement": "exclu",
+   "contexte": "EXCLU location 66000 PERPIGNAN Appartement à louer 67m² 3 pièces 2 chambres 550 € CC/Mois",
+   "derniere_vue": "2026-09-10",
+   "ecart_prix_pct": -33,
+   "etiquette_prix": "bon prix",
+   "historique_prix": [
+    {
+     "date": "2026-09-10",
+     "prix": 550
+    }
+   ],
+   "itineraire_pos": "43.437,-1.5915",
+   "itineraire_source": "route",
+   "km_hopital": 12.6,
+   "lat": 43.437,
+   "lon": -1.5915,
+   "min_velo": 50,
+   "min_voiture": 14,
+   "motif_exclusion": "hors zone (66000)",
+   "pieces": 3,
+   "position": "Bidart (ville de l'agence)",
+   "premiere_vue": "2026-09-10",
+   "prix": 550,
+   "prix_m2": 8.2,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 67.0,
+   "titre": "EXCLU location 66000 PERPIGNAN Appartement à louer 67m² 3 pièces 2 chambres 550 € CC/Mois",
+   "type": "appartement",
+   "url": "https://nestenn.com/perpignan-appartement-3-pieces-66-64-m2-perpignan-boulevard-felix-mercader-avec-cave-ref-38248806",
    "ville_agence": "Bidart"
   },
   "https://nestenn.com/studio-meuble-32-20-m-marines-ref-39677235": {
@@ -2938,7 +3016,7 @@
    "derniere_vue": "2026-09-10",
    "description": "Location Anglet : Magnifique maison sur 3 niveaux avec studio indépendant à ANGLET Montbrun. Maison 5 pièce(s) 3 chambre(s) 110.28 m² Agence immobilière à Anglet Location Anglet Maison Isabelle LAVIELLE Négociatrice Appeler l'agent Contacter l'agent Contacter l'agent Retour aux résultats Télécharger la fiche Partager ce bien Exclusivité Coup de coeur Afficher toutes les photos Maison 5 pièce(s) 3 chambre(s) 110.28 m² Anglet (64600) 1 990 € CC* * Charges comprises Référence 2370 A propos de ce bien Administrateurs de biens immobiliers, nous proposons à la location une maison indépendante de 111 m² environ à ANGLET, disponible mi-septembre. Cette maison individuelle meublée de type 4 est située au coeur du quartier Montbrun, à proximité immédiate du parc du Maharin, lieu priviligié d'observation de la nature calme et reposante. Elle se compose d'une entrée sur dégagement desservant un séjour avec cuisine aménagée et équipée donnant sur une magnifique terrasse entourée de verdure, une salle d'eau, un wc séparé et une chambre avec dressing et rangements donnant également sur la terrasse. A l'étage le palier permet de proifiter d'un bureau pour travailler au calme et dessert une chambre",
    "dpe": null,
-   "ecart_prix_pct": 7,
+   "ecart_prix_pct": 10,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -2987,7 +3065,7 @@
    "classement": "exclu",
    "contexte": "Coup de coeur Appartement 5 pièce(s) 4 chambre(s) 120.56 m² Arbonne (64210) 1 890 € CC*",
    "derniere_vue": "2026-09-10",
-   "ecart_prix_pct": -7,
+   "ecart_prix_pct": -4,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -3017,6 +3095,46 @@
    "url": "https://www.lelogisbasque.fr/location/101-arbonne/appartement/2327-superbe-appartement-t5-entierement-renove-avec-jardin-et-stationnements",
    "ville_agence": "Anglet"
   },
+  "https://www.lelogisbasque.fr/location/113-lahonce/maison/2340-belle-maison-sur-2-niveaux-a-lahonce-vue-imprenable-sur-l-adour": {
+   "agence": "Le Logis Basque",
+   "atouts": [
+    "120 m²",
+    "loyer 1570 €"
+   ],
+   "chambres": 4,
+   "classement": "exclu",
+   "contexte": "Nouveauté Maison 6 pièce(s) 4 chambre(s) 120.36 m² Lahonce (64990) 1 570 € CC*",
+   "derniere_vue": "2026-09-10",
+   "ecart_prix_pct": -21,
+   "etiquette_prix": "bon prix",
+   "historique_prix": [
+    {
+     "date": "2026-09-10",
+     "prix": 1570
+    }
+   ],
+   "itineraire_pos": "43.4855,-1.5185",
+   "itineraire_source": "route",
+   "km_hopital": 4.9,
+   "lat": 43.4855,
+   "lon": -1.5185,
+   "min_velo": 20,
+   "min_voiture": 9,
+   "motif_exclusion": "hors zone (64990)",
+   "pieces": 6,
+   "position": "Anglet (ville de l'agence)",
+   "premiere_vue": "2026-09-10",
+   "prix": 1570,
+   "prix_m2": 13.0,
+   "reserves": [],
+   "score": 4,
+   "statut": "active",
+   "surface": 120.36,
+   "titre": "Nouveauté Maison 6 pièce(s) 4 chambre(s) 120.36 m² Lahonce (64990) 1 570 € CC*",
+   "type": "maison",
+   "url": "https://www.lelogisbasque.fr/location/113-lahonce/maison/2340-belle-maison-sur-2-niveaux-a-lahonce-vue-imprenable-sur-l-adour",
+   "ville_agence": "Anglet"
+  },
   "https://www.lelogisbasque.fr/location/79-bayonne/appartement/2334-superbe-t2-bourgeois-de-55m-a-bayonne-chateau-de-saint-forcet": {
    "agence": "Le Logis Basque",
    "atouts": [
@@ -3026,7 +3144,7 @@
    "classement": "exclu",
    "contexte": "Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 54.26 m² Bayonne (64100) 890 € CC*",
    "derniere_vue": "2026-09-10",
-   "ecart_prix_pct": -3,
+   "ecart_prix_pct": 0,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -3064,7 +3182,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Coup de coeur Appartement 1 pièce(s) 28.04 m² Biarritz (64200) 695 € CC*",
    "derniere_vue": "2026-09-07",
-   "ecart_prix_pct": 47,
+   "ecart_prix_pct": 51,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -3102,7 +3220,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Coup de coeur Appartement 1 pièce(s) 28.04 m² Biarritz (64200) 695 € CC*",
    "derniere_vue": "2026-09-09",
-   "ecart_prix_pct": 47,
+   "ecart_prix_pct": 51,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -4036,7 +4154,7 @@
    "derniere_vue": "2026-09-10",
    "description": "Appartement, 85.28 m² T-3 à louer à Anglet pour 1 400 € avec Orpi Appartement à louer 3 pièces • 85,28 m 2 Anglet Déposer un dossier Message Écrire à l'agence Partager Partager via e-mail Partager via facebook Partager via whatsapp Partager via SMS Favoris 9 Photos Carte Appartement à louer 3 pièces • 85,28 m 2 Anglet Bon état 1 400 € par mois Charges comprises Loyer de base : 1 320 € Honoraires TTC à la charge du locataire : 1 107 € dont 255 € d'honoraires d'état des lieux Provisions pour charges : 80 € Location meublée Zone soumise à l’encadrement des loyers Réf. Orpi : 251-067058-535 L'essentiel 3 pièces Surface 85,28 m² 2 chambres 1 salle de bain/eau Séjour 40,03 m² Intérieur Chauffage central Électricité Double vitrage Meublé Extérieur Terrasse Avec jardin privatif Afficher plus de détails Afficher moins de détails L'avis de l'agent Anglet/ Location T3 meublée à l'année. ANGLET - Quartier EL HOGAR Location meublée à l'année à partir du 1er septembre Grand et lumineux T3 de 85m² comprenant une pièce de vie donnant sur une terrasse et un beau jardin ensoleillé, une cuisine ouverte, 2 chambres avec placard, 1 salle d'eau et des wc indépendant. *Comment postuler ?* Il vous suffit ",
    "dpe": "A",
-   "ecart_prix_pct": -3,
+   "ecart_prix_pct": 0,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -4097,7 +4215,7 @@
    "derniere_vue": "2026-09-10",
    "description": "Appartement, m² T-3 à louer à Anglet pour 1 210 € avec Orpi Appartement à louer 3 pièces • Anglet Déposer un dossier Message Écrire à l'agence Partager Partager via e-mail Partager via facebook Partager via whatsapp Partager via SMS Favoris 9 Photos Carte Appartement à louer 3 pièces • Anglet Bon état 1 210 € par mois Charges comprises Loyer de base : 990 € Dépôt de garantie : 1 980 € Honoraires TTC à la charge du locataire : 910 € dont 210 € d'honoraires d'état des lieux Provisions pour charges : 220 € Location meublée Réf. Orpi : 4fcaa5e4-2a6d-4bfb-bd72-4eb5c3f735bc L'essentiel 3 pièces Surface 70 m² 2 chambres 1 salle de bain/eau Intérieur Meublé Extérieur Avec jardin privatif Afficher plus de détails Afficher moins de détails L'avis de l'agent Location étudiante de Septembre 2026 à Juin 2027. ANGLET Maharin À louer, agréable appartement situé en rez-de-chaussée d’une maison, offrant un cadre de vie confortable et un accès à un jardin. Le logement comprend deux chambres, ainsi qu’un troisième coin nuit offrant un espace supplémentaire selon les besoins. Il dispose également d’une salle d’eau et de WC indépendants. Loyer TOUTES CHARGES COMPRISES : Eau, électricité, chauffage, int",
    "dpe": null,
-   "ecart_prix_pct": 3,
+   "ecart_prix_pct": 5,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -4149,7 +4267,7 @@
    "derniere_vue": "2026-09-10",
    "description": "Appartement, 82 m² T-4 à louer à Anglet pour 1 320 € avec Orpi Appartement à louer 4 pièces • 82 m 2 Anglet Déposer un dossier Message Écrire à l'agence Partager Partager via e-mail Partager via facebook Partager via whatsapp Partager via SMS Favoris 8 Photos Carte Appartement à louer 4 pièces • 82 m 2 Anglet Bon état 1 320 € par mois Charges comprises Loyer de base : 1 270 € Dépôt de garantie : 1 270 € Honoraires TTC à la charge du locataire : 1 066 € dont 246 € d'honoraires d'état des lieux Provisions pour charges : 50 € Location meublée Réf. Orpi : 8c4df96b-7979-48c8-bf2a-b3b83106a08f L'essentiel 4 pièces Surface 82 m² 3 chambres 1 salle de bain/eau Séjour 27,18 m² Intérieur Ascenseur Chauffage central Meublé Extérieur Balcon Cave Place de parking Afficher plus de détails Afficher moins de détails L'avis de l'agent Location meublée à l'année - ANGLET CENTRE. ANGLET - Maignon Location meublée à l'année. Bel appartement meublé comprenant une entrée, un séjour donnant sur un balcon, une cuisine équipée, 3 chambres et une salle de bain. Disponible dès maintenant. Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques georisques.gouv.fr M",
    "dpe": "A",
-   "ecart_prix_pct": -4,
+   "ecart_prix_pct": -2,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -4215,7 +4333,7 @@
    "derniere_vue": "2026-09-10",
    "description": "Appartement, 80 m² T-4 à louer à Bayonne pour 1 050 € avec Orpi Appartement à louer 4 pièces • 80 m 2 Bayonne Déposer un dossier Message Écrire à l'agence Partager Partager via e-mail Partager via facebook Partager via whatsapp Partager via SMS Favoris 6 Photos Carte Appartement à louer 4 pièces • 80 m 2 Bayonne Bon état 1 050 € par mois Charges comprises Loyer de base : 970 € Dépôt de garantie : 1 950 € Honoraires TTC à la charge du locataire : 1 040 € dont 240 € d'honoraires d'état des lieux Provisions pour charges : 80 € Location meublée Zone soumise à l’encadrement des loyers Réf. Orpi : 2967-067058-901 L'essentiel 4 pièces Surface 80 m² 3 chambres 2 salles de bain/eau Intérieur Cheminée Chauffage central Gaz Meublé Extérieur Balcon Place de parking Afficher plus de détails Afficher moins de détails L'avis de l'agent Appartement Bayonne 4 pièce(s) 80 m2. BAYONNE MARRACQ Bel appartement meublé pour une location à l'année, en duplex, atypique, lumineux et plein de charme dans une petite copropriété proche de l'hôpital. Une belle pièce à vivre, une cuisine séparée, une salle de bain et une salle d'eau, 2 chambres et des combles entièrement aménagés rajoutant un 3ème espace nuit. L",
    "dpe": "A",
-   "ecart_prix_pct": -22,
+   "ecart_prix_pct": -20,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -4898,6 +5016,12 @@
    "agences_ok": 17,
    "date": "2026-09-10",
    "nouveautes": 0
+  },
+  {
+   "actives": 105,
+   "agences_ok": 17,
+   "date": "2026-09-10",
+   "nouveautes": 3
   }
  ]
 }

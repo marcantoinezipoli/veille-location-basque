@@ -198,6 +198,27 @@
   "type": "maison",
   "ville_agence": "Bidart"
  },
+ "https://nestenn.com/a-louer-centre-ville-de-fontenay-le-comte-appartement-meuble-ref-38056282": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-10",
+  "historique_prix": [
+   {
+    "date": "2026-09-10",
+    "prix": 664
+   }
+  ],
+  "pieces": 3,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-10",
+  "prix": 664,
+  "statut": "active",
+  "surface": 40.0,
+  "titre": "EXCLU location 85200 FONTENAY LE COMTE Appartement à louer 40m² 3 pièces 1 chambre 664 € CC/Mois",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
  "https://nestenn.com/a-louer-charmant-t4-atypique-rue-dublan-bordeaux-ref-39038476": {
   "agence": "Nestenn (Bidart)",
   "chambres": 1,
@@ -634,6 +655,27 @@
   "surface": 100.0,
   "titre": "EXCLU 45000 ORLEANS Maison à louer 100m² 4 pièces 3 chambres 1 500 € CC/Mois",
   "type": "maison",
+  "ville_agence": "Bidart"
+ },
+ "https://nestenn.com/perpignan-appartement-3-pieces-66-64-m2-perpignan-boulevard-felix-mercader-avec-cave-ref-38248806": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-10",
+  "historique_prix": [
+   {
+    "date": "2026-09-10",
+    "prix": 550
+   }
+  ],
+  "pieces": 3,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-10",
+  "prix": 550,
+  "statut": "active",
+  "surface": 67.0,
+  "titre": "EXCLU location 66000 PERPIGNAN Appartement à louer 67m² 3 pièces 2 chambres 550 € CC/Mois",
+  "type": "appartement",
   "ville_agence": "Bidart"
  },
  "https://nestenn.com/studio-meuble-32-20-m-marines-ref-39677235": {
@@ -1378,6 +1420,27 @@
   "surface": 120.56,
   "titre": "Coup de coeur Appartement 5 pièce(s) 4 chambre(s) 120.56 m² Arbonne (64210) 1 890 € CC*",
   "type": "appartement",
+  "ville_agence": "Anglet"
+ },
+ "https://www.lelogisbasque.fr/location/113-lahonce/maison/2340-belle-maison-sur-2-niveaux-a-lahonce-vue-imprenable-sur-l-adour": {
+  "agence": "Le Logis Basque",
+  "chambres": 4,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-10",
+  "historique_prix": [
+   {
+    "date": "2026-09-10",
+    "prix": 1570
+   }
+  ],
+  "pieces": 6,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-09-10",
+  "prix": 1570,
+  "statut": "active",
+  "surface": 120.36,
+  "titre": "Nouveauté Maison 6 pièce(s) 4 chambre(s) 120.36 m² Lahonce (64990) 1 570 € CC*",
+  "type": "maison",
   "ville_agence": "Anglet"
  },
  "https://www.lelogisbasque.fr/location/79-bayonne/appartement/2334-superbe-t2-bourgeois-de-55m-a-bayonne-chateau-de-saint-forcet": {
