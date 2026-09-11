@@ -297,6 +297,27 @@
   "type": "maison",
   "ville_agence": "Bidart"
  },
+ "https://nestenn.com/a-louer-maison-pommeret-ref-39724950": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-11",
+  "historique_prix": [
+   {
+    "date": "2026-09-11",
+    "prix": 750
+   }
+  ],
+  "pieces": 3,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-11",
+  "prix": 750,
+  "statut": "active",
+  "surface": 67.0,
+  "titre": "EXCLU Nouveauté 22120 POMMERET Maison à louer 67m² 3 pièces 2 chambres 750 € CC/Mois",
+  "type": "maison",
+  "ville_agence": "Bidart"
+ },
  "https://nestenn.com/a-louer-maison-t4-de-82m-testauto_maison_06-09-2026-ref-39718282": {
   "agence": "Nestenn (Bidart)",
   "chambres": 2,
@@ -642,6 +663,27 @@
   "type": "maison",
   "ville_agence": "Bidart"
  },
+ "https://nestenn.com/maison-meublee-amienoise-amiens-sud-3-chambres-avec-salle-d-eau-individuelle-ref-38889915": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-11",
+  "historique_prix": [
+   {
+    "date": "2026-09-11",
+    "prix": 900
+   }
+  ],
+  "pieces": 4,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-11",
+  "prix": 900,
+  "statut": "active",
+  "surface": 64.0,
+  "titre": "EXCLU 80000 AMIENS Maison à louer 64m² 4 pièces 3 chambres 900 € CC/Mois",
+  "type": "maison",
+  "ville_agence": "Bidart"
+ },
  "https://nestenn.com/maison-trets-5-piece-s-90-m2-ref-38646644": {
   "agence": "Nestenn (Bidart)",
   "chambres": 3,
@@ -697,6 +739,27 @@
   "surface": 100.0,
   "titre": "EXCLU 45000 ORLEANS Maison à louer 100m² 4 pièces 3 chambres 1 500 € CC/Mois",
   "type": "maison",
+  "ville_agence": "Bidart"
+ },
+ "https://nestenn.com/pamiers-a-louer-t3-duplex-meuble-a-pamiers-ref-39532898": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 0,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-11",
+  "historique_prix": [
+   {
+    "date": "2026-09-11",
+    "prix": 590
+   }
+  ],
+  "pieces": 3,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-11",
+  "prix": 590,
+  "statut": "active",
+  "surface": 38.0,
+  "titre": "EXCLU Meublé 09100 PAMIERS Appartement à louer 38m² 3 pièces 0 chambre 590 € CC/Mois",
+  "type": "appartement",
   "ville_agence": "Bidart"
  },
  "https://nestenn.com/perpignan-appartement-3-pieces-66-64-m2-perpignan-boulevard-felix-mercader-avec-cave-ref-38248806": {
@@ -1030,6 +1093,17 @@
   "type": "maison",
   "ville_agence": "Biarritz"
  },
+ "https://www.ajp-immobilier.com/recherche?agency_id=367652&property=appartement&listing_type=rent": {
+  "agence": "AJP Mateille Biarritz",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-11",
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-09-11",
+  "statut": "active",
+  "titre": "LOCATION appartement (2) maison (1) parking (2)",
+  "type": "appartement",
+  "ville_agence": "Biarritz"
+ },
  "https://www.ajp-immobilier.com/recherche?agency_id=367652&property=maison&listing_type=rent": {
   "agence": "AJP Mateille Biarritz",
   "classement": "exclu",
@@ -1037,7 +1111,7 @@
   "position": "Biarritz (ville de l'agence)",
   "premiere_vue": "2026-09-04",
   "statut": "active",
-  "titre": "LOCATION maison (1) parking (1)",
+  "titre": "LOCATION appartement (2) maison (1) parking (2)",
   "type": "maison",
   "ville_agence": "Biarritz"
  },
@@ -1506,6 +1580,25 @@
   "type": "appartement",
   "ville_agence": "Anglet"
  },
+ "https://www.lelogisbasque.fr/location/79-bayonne/studio/2338-adorable-studio-climatise-a-louer-a-l-annee-a-bayonne-proche-halles": {
+  "agence": "Le Logis Basque",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-11",
+  "historique_prix": [
+   {
+    "date": "2026-09-11",
+    "prix": 520
+   }
+  ],
+  "pieces": 1,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-11",
+  "prix": 520,
+  "statut": "active",
+  "surface": 14.41,
+  "titre": "Studio 1 pièce(s) 14.41 m²",
+  "ville_agence": "Anglet"
+ },
  "https://www.lelogisbasque.fr/location/80-biarritz/appartement/2331-superbe-t1-bis-de-septembre-a-juin-idealement-place-a-biarritz": {
   "agence": "Le Logis Basque",
   "classement": "exclu",
@@ -1823,7 +1916,7 @@
  "https://www.orpi.com/annonce-location-appartement-t1-anglet-64600-9058a702-ca68-46e2-bba1-ae5c1932a9f5?agency=ag5cantons": {
   "agence": "Orpi Agence des 5 Cantons",
   "classement": "exclu",
-  "derniere_vue": "2026-09-10",
+  "derniere_vue": "2026-09-11",
   "historique_prix": [
    {
     "date": "2026-09-04",

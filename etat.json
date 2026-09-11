@@ -45,7 +45,7 @@
    "derniere_vue": "2026-09-11",
    "description": "BIARRITZ MOURISCOT - Maison climatisée de 3 chambres avec jardin, terrasse et 2 stationnements - BIARRITZ - MOURISCOT À découvrir en avant-première, cette maison... 64200 BIARRITZ BIARRITZ MOURISCOT - Maison climatisée de 3 chambres avec jardin, terrasse et 2 stationnements Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Maisons A vendre Maison Ref. : OLAVMO1593 64200 BIARRITZ BIARRITZ MOURISCOT - Maison climatisée de 3 chambres avec jardin, terrasse et 2 stationnements 550 000 € ** BIARRITZ - MOURISCOT À découvrir en avant-première, cette maison individuelle des années 1950 est située dans le quartier résidentiel de Mouriscot, à proximité des commerces, des transports et de l'espace naturel du lac. Développant environ 86 m² habitables, elle offre une distribution principalement de plain-pied. Elle se compose d'une pièce de vie exposée sud-est avec cuisine ouverte, de trois chambres, d'une salle d'eau et d'un WC indépendant. Quelques marches permettent d'accéd",
    "dpe": "D",
-   "ecart_prix_pct": -8,
+   "ecart_prix_pct": -7,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -429,7 +429,7 @@
    "classement": "exclu",
    "contexte": "EXCLU location 85200 FONTENAY LE COMTE Appartement à louer 40m² 3 pièces 1 chambre 664 € CC/Mois",
    "derniere_vue": "2026-09-10",
-   "ecart_prix_pct": 35,
+   "ecart_prix_pct": 36,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -468,7 +468,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 33000 BORDEAUX Appartement à louer 39m² 4 pièces 1 chambre 920 € CC/Mois",
    "derniere_vue": "2026-09-09",
-   "ecart_prix_pct": 92,
+   "ecart_prix_pct": 93,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -609,6 +609,45 @@
    "titre": "EXCLU 56220 MALANSAC Maison à louer 113m² 5 pièces 3 chambres 980 € CC/Mois",
    "type": "maison",
    "url": "https://nestenn.com/a-louer-maison-malansac-3-chambres-113-m2-ref-39717712",
+   "ville_agence": "Bidart"
+  },
+  "https://nestenn.com/a-louer-maison-pommeret-ref-39724950": {
+   "agence": "Nestenn (Bidart)",
+   "atouts": [
+    "loyer 750 €"
+   ],
+   "chambres": 2,
+   "classement": "exclu",
+   "contexte": "EXCLU Nouveauté 22120 POMMERET Maison à louer 67m² 3 pièces 2 chambres 750 € CC/Mois",
+   "derniere_vue": "2026-09-11",
+   "ecart_prix_pct": -9,
+   "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-11",
+     "prix": 750
+    }
+   ],
+   "itineraire_pos": "43.437,-1.5915",
+   "itineraire_source": "route",
+   "km_hopital": 12.6,
+   "lat": 43.437,
+   "lon": -1.5915,
+   "min_velo": 50,
+   "min_voiture": 14,
+   "motif_exclusion": "hors zone (22120)",
+   "pieces": 3,
+   "position": "Bidart (ville de l'agence)",
+   "premiere_vue": "2026-09-11",
+   "prix": 750,
+   "prix_m2": 11.2,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 67.0,
+   "titre": "EXCLU Nouveauté 22120 POMMERET Maison à louer 67m² 3 pièces 2 chambres 750 € CC/Mois",
+   "type": "maison",
+   "url": "https://nestenn.com/a-louer-maison-pommeret-ref-39724950",
    "ville_agence": "Bidart"
   },
   "https://nestenn.com/a-louer-maison-t4-de-82m-testauto_maison_06-09-2026-ref-39718282": {
@@ -778,7 +817,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 13008 MARSEILLE Appartement à louer 62m² 2 pièces 1 chambre 955 € CC/Mois",
    "derniere_vue": "2026-09-11",
-   "ecart_prix_pct": 25,
+   "ecart_prix_pct": 26,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -883,7 +922,7 @@
    "classement": "exclu",
    "contexte": "EXCLU Meublé 92400 COURBEVOIE Appartement à louer 48m² 2 pièces 1 chambre 1 390 € CC/Mois",
    "derniere_vue": "2026-09-09",
-   "ecart_prix_pct": 136,
+   "ecart_prix_pct": 137,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -922,7 +961,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 83400 HYERES Appartement à louer 31m² 2 pièces 0 chambre 925 € CC/Mois",
    "derniere_vue": "2026-09-09",
-   "ecart_prix_pct": 142,
+   "ecart_prix_pct": 143,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -1156,7 +1195,7 @@
    "classement": "exclu",
    "contexte": "EXCLU Coup de coeur 13170 LES PENNES MIRABEAU Maison à louer 41m² 2 pièces 1 chambre 960 € CC/Mois",
    "derniere_vue": "2026-09-08",
-   "ecart_prix_pct": 90,
+   "ecart_prix_pct": 91,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -1275,6 +1314,45 @@
    "url": "https://nestenn.com/maison-en-plein-centre-meublee-5-pieces-a-louer-a-l-isle-adam-102-m-ref-39497692",
    "ville_agence": "Bidart"
   },
+  "https://nestenn.com/maison-meublee-amienoise-amiens-sud-3-chambres-avec-salle-d-eau-individuelle-ref-38889915": {
+   "agence": "Nestenn (Bidart)",
+   "atouts": [
+    "loyer 900 €"
+   ],
+   "chambres": 3,
+   "classement": "exclu",
+   "contexte": "EXCLU 80000 AMIENS Maison à louer 64m² 4 pièces 3 chambres 900 € CC/Mois",
+   "derniere_vue": "2026-09-11",
+   "ecart_prix_pct": 15,
+   "etiquette_prix": "au-dessus du marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-11",
+     "prix": 900
+    }
+   ],
+   "itineraire_pos": "43.437,-1.5915",
+   "itineraire_source": "route",
+   "km_hopital": 12.6,
+   "lat": 43.437,
+   "lon": -1.5915,
+   "min_velo": 50,
+   "min_voiture": 14,
+   "motif_exclusion": "hors zone (80000)",
+   "pieces": 4,
+   "position": "Bidart (ville de l'agence)",
+   "premiere_vue": "2026-09-11",
+   "prix": 900,
+   "prix_m2": 14.1,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 64.0,
+   "titre": "EXCLU 80000 AMIENS Maison à louer 64m² 4 pièces 3 chambres 900 € CC/Mois",
+   "type": "maison",
+   "url": "https://nestenn.com/maison-meublee-amienoise-amiens-sud-3-chambres-avec-salle-d-eau-individuelle-ref-38889915",
+   "ville_agence": "Bidart"
+  },
   "https://nestenn.com/maison-trets-5-piece-s-90-m2-ref-38646644": {
    "agence": "Nestenn (Bidart)",
    "atouts": [
@@ -1386,6 +1464,45 @@
    "titre": "EXCLU 45000 ORLEANS Maison à louer 100m² 4 pièces 3 chambres 1 500 € CC/Mois",
    "type": "maison",
    "url": "https://nestenn.com/orleans-beaumonts-vauquois-maison-de-ville-meublee-t4-3-chambres-parquet-cheminee-jardin-clos-stationnement-ref-39605548",
+   "ville_agence": "Bidart"
+  },
+  "https://nestenn.com/pamiers-a-louer-t3-duplex-meuble-a-pamiers-ref-39532898": {
+   "agence": "Nestenn (Bidart)",
+   "atouts": [
+    "loyer 590 €"
+   ],
+   "chambres": 0,
+   "classement": "exclu",
+   "contexte": "EXCLU Meublé 09100 PAMIERS Appartement à louer 38m² 3 pièces 0 chambre 590 € CC/Mois",
+   "derniere_vue": "2026-09-11",
+   "ecart_prix_pct": 27,
+   "etiquette_prix": "au-dessus du marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-11",
+     "prix": 590
+    }
+   ],
+   "itineraire_pos": "43.437,-1.5915",
+   "itineraire_source": "route",
+   "km_hopital": 12.6,
+   "lat": 43.437,
+   "lon": -1.5915,
+   "min_velo": 50,
+   "min_voiture": 14,
+   "motif_exclusion": "hors zone (09100)",
+   "pieces": 3,
+   "position": "Bidart (ville de l'agence)",
+   "premiere_vue": "2026-09-11",
+   "prix": 590,
+   "prix_m2": 15.5,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 38.0,
+   "titre": "EXCLU Meublé 09100 PAMIERS Appartement à louer 38m² 3 pièces 0 chambre 590 € CC/Mois",
+   "type": "appartement",
+   "url": "https://nestenn.com/pamiers-a-louer-t3-duplex-meuble-a-pamiers-ref-39532898",
    "ville_agence": "Bidart"
   },
   "https://nestenn.com/perpignan-appartement-3-pieces-66-64-m2-perpignan-boulevard-felix-mercader-avec-cave-ref-38248806": {
@@ -1554,7 +1671,7 @@
    "classement": "exclu",
    "contexte": "EXCLU 35170 BRUZ Appartement à louer 63m² 3 pièces 2 chambres 730 € CC/Mois",
    "derniere_vue": "2026-09-08",
-   "ecart_prix_pct": -6,
+   "ecart_prix_pct": -5,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -1875,7 +1992,7 @@
    "derniere_vue": "2026-09-11",
    "description": "Appartement T4 vide de 102 m² avec terrasse – Hyper Centre de Biarritz À louer vide à l'année – Disponible immédiatement. Situé en plein cœur de Biarritz, dans le quartier Hyper Centre, découvrez ce spacieux appartement de type T4 de 102 m², situé au 5ᵉ étage d'une copropriété sécurisée avec… BIARRITZ, Hyper Centre, T4 Aller au contenu BIARRITZ, Hyper Centre, T4 Biarritz HYPER CENTRE 1 739 € 1 739 € HYPER CENTRE Descriptif du bien Appartement T4 vide de 102 m² avec terrasse – Hyper Centre de Biarritz À louer vide à l’année – Disponible immédiatement. Situé en plein cœur de Biarritz, dans le quartier Hyper Centre, découvrez ce spacieux appartement de type T4 de 102 m² , situé au 5ᵉ étage d’une copropriété sécurisée avec ascenseur. L’appartement se compose d’une entrée avec dégagement desservant une belle pièce de vie lumineuse comprenant un vaste salon-séjour avec accès direct à une agréable terrasse. La cuisine est indépendante, aménagée et entièrement équipée (hotte, plaque de cuisson, four et lave-vaisselle). L’espace nuit comprend trois grandes chambres, dont une bénéficiant de sa propre salle d’eau privative. Une salle de bains ainsi qu’un WC indépendant complètent l’ensemble. ",
    "dpe": null,
-   "ecart_prix_pct": -1,
+   "ecart_prix_pct": 0,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -2125,6 +2242,35 @@
    "url": "https://www.ajp-immobilier.com/annonces/locations/maison/anglet-64/58401720",
    "ville_agence": "Biarritz"
   },
+  "https://www.ajp-immobilier.com/recherche?agency_id=367652&property=appartement&listing_type=rent": {
+   "agence": "AJP Mateille Biarritz",
+   "atouts": [
+    "parking"
+   ],
+   "chambres": null,
+   "classement": "exclu",
+   "contexte": "LOCATION appartement (2) maison (1) parking (2)",
+   "derniere_vue": "2026-09-11",
+   "itineraire_pos": "43.4832,-1.5586",
+   "itineraire_source": "route",
+   "km_hopital": 8.2,
+   "lat": 43.4832,
+   "lon": -1.5586,
+   "min_velo": 33,
+   "min_voiture": 13,
+   "pieces": null,
+   "position": "Biarritz (ville de l'agence)",
+   "premiere_vue": "2026-09-11",
+   "prix": null,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": null,
+   "titre": "LOCATION appartement (2) maison (1) parking (2)",
+   "type": "appartement",
+   "url": "https://www.ajp-immobilier.com/recherche?agency_id=367652&property=appartement&listing_type=rent",
+   "ville_agence": "Biarritz"
+  },
   "https://www.ajp-immobilier.com/recherche?agency_id=367652&property=maison&listing_type=rent": {
    "agence": "AJP Mateille Biarritz",
    "atouts": [
@@ -2132,7 +2278,7 @@
    ],
    "chambres": null,
    "classement": "exclu",
-   "contexte": "LOCATION maison (1) parking (1)",
+   "contexte": "LOCATION appartement (2) maison (1) parking (2)",
    "derniere_vue": "2026-09-11",
    "itineraire_pos": "43.4832,-1.5586",
    "itineraire_source": "route",
@@ -2149,7 +2295,7 @@
    "score": 2,
    "statut": "active",
    "surface": null,
-   "titre": "LOCATION maison (1) parking (1)",
+   "titre": "LOCATION appartement (2) maison (1) parking (2)",
    "type": "maison",
    "url": "https://www.ajp-immobilier.com/recherche?agency_id=367652&property=maison&listing_type=rent",
    "ville_agence": "Biarritz"
@@ -2671,7 +2817,7 @@
    "derniere_vue": "2026-09-11",
    "description": "LOCATION MEUBLÉE BAIL MOBILITÉ 10 mois (de septembre à juin) ou BAIL CODE CIVIL (logement de fonction ou résidence secondaire)BIARRITZ MILADYA louer très bel appartement T3 de 85m² avec grande terrasse, vue océan et montagne.Il comprend une entrée, un séjour-salon, deux chambres, une cuisine (lave-vaisselle, lave-linge, plaque, four, hotte) une salle de bains, une salle d'eau, un WC séparé.Place de parking privative.Disponible à partir du 25 septembre 2026 Appartement F3 à louer 3 pièces - 85,94 m 2 BIARRITZ - 64 Retour aux résultats Créer une alerte Modifier la recherche Accueil Location Location Appartement Location Appartement Pyrenees-Atlantiques (64) Location Appartement BIARRITZ (64200) Appartement F3 à louer 3 pièces - 85,94 m 2 BIARRITZ - 64 Ref : 20328 1 492 € par mois charges comprises Voir sur la carte 1/11 2/11 3/11 4/11 5/11 6/11 + 5 7/11 8/11 9/11 10/11 11/11 Exclusivité Envoyer un message Message Téléphoner à l'agence Téléphoner Planifier une visite et déposer un dossier Visiter le site dédié Envoyer ce bien à un ami Description LOCATION MEUBLÉE BAIL MOBILITÉ 10 mois (de septembre à juin) ou BAIL CODE CIVIL (logement de fonction ou résidence secondaire) BIARRITZ MILA",
    "dpe": null,
-   "ecart_prix_pct": 43,
+   "ecart_prix_pct": 44,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -3252,6 +3398,41 @@
    "url": "https://www.lelogisbasque.fr/location/79-bayonne/appartement/2334-superbe-t2-bourgeois-de-55m-a-bayonne-chateau-de-saint-forcet",
    "ville_agence": "Anglet"
   },
+  "https://www.lelogisbasque.fr/location/79-bayonne/studio/2338-adorable-studio-climatise-a-louer-a-l-annee-a-bayonne-proche-halles": {
+   "agence": "Le Logis Basque",
+   "atouts": [
+    "loyer 520 €"
+   ],
+   "chambres": null,
+   "classement": "exclu",
+   "contexte": "Coup de coeur Studio 1 pièce(s) 14.41 m² Bayonne (64100) 520 € CC*",
+   "derniere_vue": "2026-09-11",
+   "historique_prix": [
+    {
+     "date": "2026-09-11",
+     "prix": 520
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "pieces": 1,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-11",
+   "prix": 520,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 14.41,
+   "titre": "Studio 1 pièce(s) 14.41 m²",
+   "type": null,
+   "url": "https://www.lelogisbasque.fr/location/79-bayonne/studio/2338-adorable-studio-climatise-a-louer-a-l-annee-a-bayonne-proche-halles",
+   "ville_agence": "Anglet"
+  },
   "https://www.lelogisbasque.fr/location/80-biarritz/appartement/2331-superbe-t1-bis-de-septembre-a-juin-idealement-place-a-biarritz": {
    "agence": "Le Logis Basque",
    "atouts": [
@@ -3374,7 +3555,7 @@
    "derniere_vue": "2026-09-11",
    "description": "Ã? louer Ã l'annÃ©e- T2 bis meublÃ© Biarritz ProximitÃ© CÃ´te Biarritz Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Biarritz 1200 € Ã? louer Ã l'annÃ©e- T2 bis meublÃ© Biarritz ProximitÃ© CÃ´te à louer de 2 pièce(s) sur 65 m² Retour au listing Points clés... 2 pièce(s) , 65 m² 1 chambre(s) Ref. B5262800 Descriptif du bien • Ã? louer Ã l'annÃ©e- T2 bis meublÃ© Biarritz ProximitÃ© CÃ´te À proximité immédiate de la Côte des Basques et des Halles de Biarritz, découvrez ce charmant T2 bis meublé, agréable et fonctionnel, bénéficiant d\\'un emplacement particulièrement recherché. L\\'appartement se compose d\\'une chambre principale avec sa salle de bains privative équipée d\\'une baignoire. Une seconde pièce aménagée avec un lit superposé complète l\\'espace nuit et pourra parfaitement convenir à des enfants. Une troisième pièce peut être aménagée selon les besoins en bureau ou en espace de couchage d\\'appoint. Le logement dispose également d\\'un agréable séjour ainsi que d\\'une cuisine entièrement équipée offrant un cadre de vie confortable et pratique au quotidien. Vous profiterez pleinement de la vie biarrote gr",
    "dpe": "D",
-   "ecart_prix_pct": 28,
+   "ecart_prix_pct": 35,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -3423,7 +3604,7 @@
    "derniere_vue": "2026-09-11",
    "description": "Ã? louer Ã l'annÃ©e T2 Bis plein de charme au coeur de Biarri Biarritz Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Biarritz 1310 € Ã? louer Ã l'annÃ©e T2 Bis plein de charme au coeur de Biarri à louer de 2 pièce(s) sur 72 m² Retour au listing Points clés... 2 pièce(s) , 72 m² 1 chambre(s) 1 salle(s) de bains Ref. 2154-1688 Descriptif du bien • Ã? louer Ã l'annÃ©e T2 Bis plein de charme au coeur de Biarri À louer à l\\'année T2 Bis plein de charme au coeur de Biarritz À seulement quelques pas des Halles, cet appartement de 70 m2 séduit par son cachet authentique et son emplacement idéal. Son parquet ancien, ses cheminées décoratives et sa belle hauteur sous plafond lui confèrent une atmosphère chaleureuse et élégante. L\\'espace de vie est agréable et lumineux, avec un séjour convivial qui s\\'ouvre sur un bureau pouvant également servir de second coin nuit. La chambre principale offre un espace confortable et intimiste. La cuisine rénovée et semi-équipée (plaques et hotte) allie modernité et praticité, tandis que la salle d\\'eau, récemment refaite à neuf, apporte une touche contemporaine et fonctionnelle. U",
    "dpe": "D",
-   "ecart_prix_pct": 26,
+   "ecart_prix_pct": 33,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -3468,7 +3649,7 @@
    "derniere_vue": "2026-09-11",
    "description": "Ã? louer T4 vide au coeur de Bayonne, Ã proximitÃ© de la Cath Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 1053 € Ã? louer T4 vide au coeur de Bayonne, Ã proximitÃ© de la Cath à louer de 4 pièce(s) sur 92 m² Retour au listing Points clés... 4 pièce(s) , 92 m² 3 chambre(s) 2 salle(s) de bains Ref. B779000 Descriptif du bien • Ã? louer T4 vide au coeur de Bayonne, Ã proximitÃ© de la Cath Dans le secteur recherché du grand Bayonne à proximité de la Cathédrale, découvrez cet appartement T4 vide situé au 1er étage d\\'un immeuble sans ascenseur. L\\'appartement se compose d\\'une salle de séjour, de trois chambres, d\\'une cuisine, d\\'une salle d\\'eau avec WC, d\\'une salle de bain ainsi que d\\'un WC indépendant. Une cave complète ce bien. Idéalement situé au coeur de Bayonne, dans un secteur central et agréable, cet appartement offre une configuration fonctionnelle avec trois chambres, adaptée à une famille ou à un couple recherchant de beaux volumes. NoB779000 BAYONNE Appartement Nombre de pièces : 4 Surface habitable : 92.68m2 DPE : D ZONE SOUMISE A ENCADREMENT DES LOYERS LOYER CC / mois : 1053.6",
    "dpe": "D",
-   "ecart_prix_pct": -21,
+   "ecart_prix_pct": -17,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -3533,7 +3714,7 @@
    "derniere_vue": "2026-09-11",
    "description": "Appartement 3 piÃ¨ces - 45.14 m2 BAIL MEUBLE A L ANNEE Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 792 € Appartement 3 piÃ¨ces - 45.14 m2 BAIL MEUBLE A L ANNEE à louer de 3 pièce(s) sur 45 m² Retour au listing Points clés... 3 pièce(s) , 45 m² 2 chambre(s) 1 salle(s) de bains Ref. B2923000 Descriptif du bien • Appartement 3 piÃ¨ces - 45.14 m2 BAIL MEUBLE A L ANNEE BAYONNE - MARRACQ - BAIL MEUBLE A L ANNEE Venez découvrir cet appartement 3 pièces entièrement rénové et meublé de 45m2 situé dans une ravissante bâtisse du XIXè, remplie de cachet à Bayonne, quartier Marracq. Il est composé d\\'une salle de séjour avec coin cuisine, deux chambres avec placards, une salle d\\'eau avec WC. Pour rappel, le bien ne dispose pas d\\'emplacement de parking. Emplacement idéal, proche de toutes commodités (commerces, écoles, lycées) et des transports en communs. A venir découvrir rapidement ! Disponible début septembre ! Manoir de France: 05.59.59.66.33 NoB2923000 BAYONNE Appartement Nombre de pièces : 3 Surface habitable : 45.14m2 DPE : D ZONE SOUMISE A ENCADREMENT DES LOYERS LOYER CC / mois : 792.83 EUR ",
    "dpe": "D",
-   "ecart_prix_pct": 21,
+   "ecart_prix_pct": 28,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -3625,8 +3806,8 @@
    "derniere_vue": "2026-09-11",
    "description": "Appartement T3 de 64m2, Bayonne quartier Mousserolles Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 827 € Appartement T3 de 64m2, Bayonne quartier Mousserolles à louer de 3 pièce(s) sur 64 m² Retour au listing Points clés... 3 pièce(s) , 64 m² 1 salle(s) de bains Ref. 277-1031 Descriptif du bien • Appartement T3 de 64m2, Bayonne quartier Mousserolles A louer dans un petit chateau récemment réhabilité avec goût, ce beau T3 rénové de 64m2 sous les combles. Dans une résidence avec un grand parc arboré venez découvrir ce charmant T3 au 2ème et dernier étage, qui comprend une pièce à vivre très agréable avec ces poutres apparentes et son plancher, une cuisine équipée, meublée et semi-ouverte sur la pièce à vivre, deux chambres, d\\'une salle d\\'eau ainsi qu\\'un WC. L\\'appartement dispose d\\'une place de parking privative DISPONIBLE DEBUT SEPTEMBRE 2026 Manoir de France: 05.59.59.66.33 NoB27700C BAYONNE Appartement Nombre de pièces : 3 Surface habitable : 64.01m2 DPE : D ZONE SOUMISE A ENCADREMENT DES LOYERS LOYER CC / mois : 827.82EUR par mois charges comprises Loyer de base : 729.71EUR Loyer de ",
    "dpe": "D",
-   "ecart_prix_pct": -11,
-   "etiquette_prix": "bon prix",
+   "ecart_prix_pct": -6,
+   "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
     {
@@ -3680,7 +3861,7 @@
    "classement": "exclu",
    "contexte": "Maison Mouguerre Maison Mouguerre Mouguerre | 64990 1700 € | 207 m² | Réf B2924000",
    "derniere_vue": "2026-09-11",
-   "ecart_prix_pct": -43,
+   "ecart_prix_pct": -40,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -3720,7 +3901,7 @@
    "classement": "exclu",
    "contexte": "Maison Saubrigues Maison Saubrigues Saubrigues | 40230 1235 € | 106 m² | Réf 120138-166356",
    "derniere_vue": "2026-09-11",
-   "ecart_prix_pct": -19,
+   "ecart_prix_pct": -15,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -3760,7 +3941,7 @@
    "classement": "exclu",
    "contexte": "Maison Urcuit Maison Urcuit Urcuit | 64990 1260 € | 87 m² | Réf B3030000",
    "derniere_vue": "2026-09-11",
-   "ecart_prix_pct": 0,
+   "ecart_prix_pct": 6,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -4043,7 +4224,7 @@
    "chambres": null,
    "classement": "exclu",
    "contexte": "650 € par mois Location Location Appartement 1 pièce 26,56 m 2 Anglet - Chambre d'Amour Favoris Message",
-   "derniere_vue": "2026-09-10",
+   "derniere_vue": "2026-09-11",
    "historique_prix": [
     {
      "date": "2026-09-04",
@@ -5143,6 +5324,12 @@
    "agences_ok": 17,
    "date": "2026-09-11",
    "nouveautes": 3
+  },
+  {
+   "actives": 100,
+   "agences_ok": 17,
+   "date": "2026-09-11",
+   "nouveautes": 5
   }
  ]
 }
