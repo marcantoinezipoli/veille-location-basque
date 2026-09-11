@@ -261,6 +261,27 @@
   "type": "maison",
   "ville_agence": "Bidart"
  },
+ "https://nestenn.com/a-louer-jolie-maison-en-pierre-t3-campagne-pledran-ref-39724990": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-11",
+  "historique_prix": [
+   {
+    "date": "2026-09-11",
+    "prix": 940
+   }
+  ],
+  "pieces": 5,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-11",
+  "prix": 940,
+  "statut": "active",
+  "surface": 96.0,
+  "titre": "EXCLU On aime beaucoup 22960 PLEDRAN Maison à louer 96m² 5 pièces 2 chambres 940 € CC/Mois",
+  "type": "maison",
+  "ville_agence": "Bidart"
+ },
  "https://nestenn.com/a-louer-maison-6-pieces-moreac-ref-39574549": {
   "agence": "Nestenn (Bidart)",
   "chambres": 4,
@@ -495,6 +516,27 @@
   "type": "appartement",
   "ville_agence": "Bidart"
  },
+ "https://nestenn.com/appartement-la-crau-1-piece-s-18-m2-ref-39344494": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 0,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-11",
+  "historique_prix": [
+   {
+    "date": "2026-09-11",
+    "prix": 570
+   }
+  ],
+  "pieces": 1,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-11",
+  "prix": 570,
+  "statut": "active",
+  "surface": 16.0,
+  "titre": "EXCLU 83260 LA CRAU Appartement à louer 16m² 1 pièce 0 chambre 570 € CC/Mois",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
  "https://nestenn.com/appartement-neuf-dernier-etage-montbrison-42600-centre-ville-2-chambres-ref-39227950": {
   "agence": "Nestenn (Bidart)",
   "chambres": 2,
@@ -513,6 +555,27 @@
   "statut": "active",
   "surface": 98.0,
   "titre": "EXCLU 42600 MONTBRISON Appartement à louer 98m² 3 pièces 2 chambres 690 € CC/Mois",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
+ "https://nestenn.com/appartement-renove-de-type-2-avec-chambre-dressing-et-exposition-agreable-quartier-capucins-ref-33330321": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-11",
+  "historique_prix": [
+   {
+    "date": "2026-09-11",
+    "prix": 570
+   }
+  ],
+  "pieces": 2,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-11",
+  "prix": 570,
+  "statut": "active",
+  "surface": 45.0,
+  "titre": "EXCLU Coup de coeur 11000 CARCASSONNE Appartement à louer 45m² 2 pièces 1 chambre 570 € CC/Mois",
   "type": "appartement",
   "ville_agence": "Bidart"
  },
@@ -1125,6 +1188,35 @@
   "titre": "Votre projet immobilier avec CENTURY 21",
   "type": "maison",
   "ville_agence": "Anglet"
+ },
+ "https://www.century21.fr/projet-immobilier?localisation=28023&filtre=rent&type=appartement": {
+  "agence": "Century 21 (Bidart, toutes agences)",
+  "classement": "a_verifier",
+  "derniere_vue": "2026-09-11",
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-11",
+  "statut": "active",
+  "titre": "Votre projet immobilier avec CENTURY 21",
+  "type": "maison",
+  "ville_agence": "Bidart"
+ },
+ "https://www.century21.fr/trouver_logement/detail/15274644556": {
+  "agence": "Century 21 (Biarritz, toutes agences)",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-11",
+  "historique_prix": [
+   {
+    "date": "2026-09-11",
+    "prix": 1650
+   }
+  ],
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-09-11",
+  "prix": 1650,
+  "statut": "active",
+  "titre": "Exclusivité ST JEAN DE LUZ 64 1 650 € par mois charges comprises 80,5 m2 , appartement , 3 pcs",
+  "type": "appartement",
+  "ville_agence": "Biarritz"
  },
  "https://www.century21.fr/trouver_logement/detail/15635506173": {
   "agence": "Century 21 (Bayonne, toutes agences)",
