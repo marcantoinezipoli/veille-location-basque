@@ -135,6 +135,27 @@
   "type": "appartement",
   "ville_agence": "Bidart"
  },
+ "https://nestenn.com/a-louer-appartement-t3-meuble-angers-sud-ref-33648874": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-12",
+  "historique_prix": [
+   {
+    "date": "2026-09-12",
+    "prix": 1000
+   }
+  ],
+  "pieces": 3,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-12",
+  "prix": 1000,
+  "statut": "active",
+  "surface": 61.0,
+  "titre": "EXCLU Meublé 49000 ANGERS Appartement à louer 61m² 3 pièces 2 chambres 1 000 € CC/Mois",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
  "https://nestenn.com/a-louer-appartement-t4-de-69m-testauto_appartement_06-09-2026-ref-39718283": {
   "agence": "Nestenn (Bidart)",
   "chambres": 3,
@@ -918,6 +939,27 @@
   "statut": "disparu",
   "surface": 28.0,
   "titre": "EXCLU 13310 ST MARTIN DE CRAU Appartement à louer 28m² 1 pièce 0 chambre 480 € CC/Mois",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
+ "https://nestenn.com/t3-massy-opera-ref-39727201": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-12",
+  "historique_prix": [
+   {
+    "date": "2026-09-12",
+    "prix": 1007
+   }
+  ],
+  "pieces": 3,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-12",
+  "prix": 1007,
+  "statut": "active",
+  "surface": 60.0,
+  "titre": "EXCLU 91300 MASSY Appartement à louer 60m² 3 pièces 2 chambres 1 007 € CC/Mois",
   "type": "appartement",
   "ville_agence": "Bidart"
  },
