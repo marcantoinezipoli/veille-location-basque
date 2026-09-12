@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="fr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Veille location Côte Basque — 11 sept.</title>
+<title>Veille location Côte Basque — 12 sept.</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
@@ -103,15 +103,15 @@ footer { font-size:.78rem; color:var(--texte2); margin-top:28px; line-height:1.5
 <body>
 <header>
   <h1>Côte Basque · locations</h1>
-  <p class="sous">11 sept. · 18 annonces en ligne · 17 agences lues · 2 chambres min · 2 200 € max · appartement ou maison · pas de RDC · à l’année</p>
+  <p class="sous">12 sept. · 18 annonces en ligne · 17 agences lues · 2 chambres min · 2 200 € max · appartement ou maison · pas de RDC · à l’année</p>
 </header>
 <nav class="onglets"><div class="onglets-int">
-  <button data-onglet="nouveau">Nouveau<span class="n">1</span></button>
+  <button data-onglet="nouveau">Nouveau<span class="n">0</span></button>
   <button data-onglet="coeur">♥ Coups de cœur<span class="n">13</span></button>
   <button data-onglet="tout">Tout<span class="n">18</span></button>
   <button data-onglet="carte">Carte</button>
   <button data-onglet="marche">Marché</button>
-  <button data-onglet="ecartees">Écartées<span class="n">87</span></button>
+  <button data-onglet="ecartees">Écartées<span class="n">83</span></button>
 </div></nav>
 <div class="filtres-villes"><button data-ville="toutes" class="actif">Toutes</button><button data-ville="Anglet">Anglet</button><button data-ville="Biarritz">Biarritz</button><button data-ville="Bidart">Bidart</button><button data-ville="Bayonne">Bayonne</button></div>
 <main>
@@ -122,11 +122,11 @@ footer { font-size:.78rem; color:var(--texte2); margin-top:28px; line-height:1.5
   <h2>Le marché sur les agences suivies</h2>
   <p class="note">Données accumulées depuis le 4 sept. ; plus la veille tourne, plus les colonnes 30 et 90 jours deviennent parlantes. Annonces correspondant aux critères uniquement.</p>
   <div class="tableau"><table>
-    <tr><th></th><th>7 j</th><th>30 j</th><th>90 j</th></tr><tr><td>Annonces sorties</td><td>18</td><td>18</td><td>18</td></tr><tr><td>Annonces retirées</td><td>0</td><td>0</td><td>0</td></tr><tr><td>…dont parties en ≤ 3 jours</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Durée médiane avant retrait</td><td>–</td><td>–</td><td>–</td></tr><tr><td>Baisses de loyer</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Loyer médian au m²</td><td>16.3 €</td><td>16.3 €</td><td>16.3 €</td></tr>
-    <tr><th colspan="4" class="sous-titre">Loyer médian des annonces sorties (nombre)</th></tr><tr><td>Anglet</td><td>1 360 € <small>(4)</small></td><td>1 360 € <small>(4)</small></td><td>1 360 € <small>(4)</small></td></tr><tr><td>Biarritz</td><td>1 600 € <small>(5)</small></td><td>1 600 € <small>(5)</small></td><td>1 600 € <small>(5)</small></td></tr><tr><td>Bidart</td><td>425 € <small>(1)</small></td><td>425 € <small>(1)</small></td><td>425 € <small>(1)</small></td></tr><tr><td>Bayonne</td><td>827 € <small>(3)</small></td><td>827 € <small>(3)</small></td><td>827 € <small>(3)</small></td></tr>
+    <tr><th></th><th>7 j</th><th>30 j</th><th>90 j</th></tr><tr><td>Annonces sorties</td><td>6</td><td>18</td><td>18</td></tr><tr><td>Annonces retirées</td><td>0</td><td>0</td><td>0</td></tr><tr><td>…dont parties en ≤ 3 jours</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Durée médiane avant retrait</td><td>–</td><td>–</td><td>–</td></tr><tr><td>Baisses de loyer</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Loyer médian au m²</td><td>16.4 €</td><td>16.3 €</td><td>16.3 €</td></tr>
+    <tr><th colspan="4" class="sous-titre">Loyer médian des annonces sorties (nombre)</th></tr><tr><td>Anglet</td><td>1 360 € <small>(2)</small></td><td>1 360 € <small>(4)</small></td><td>1 360 € <small>(4)</small></td></tr><tr><td>Biarritz</td><td>1 600 € <small>(1)</small></td><td>1 600 € <small>(5)</small></td><td>1 600 € <small>(5)</small></td></tr><tr><td>Bidart</td><td>425 € <small>(1)</small></td><td>425 € <small>(1)</small></td><td>425 € <small>(1)</small></td></tr><tr><td>Bayonne</td><td>–</td><td>827 € <small>(3)</small></td><td>827 € <small>(3)</small></td></tr>
   </table></div>
   <h3>Par semaine : annonces sorties (barres) et loyer médian (points)</h3>
-  <div class="graphe"><svg viewBox="0 0 640 200" width="100%" xmlns="http://www.w3.org/2000/svg" style="display:block"><line x1="30" y1="170" x2="610" y2="170" stroke="#ebebeb"/><rect x="34" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="82" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="131" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="179" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="227" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="276" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="324" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="372" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="421" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="469" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="517" y="30" width="40" height="140" rx="4" fill="#d9e9e1"/><text x="538" y="25" text-anchor="middle" font-size="11" fill="#6a6a6a">12</text><rect x="566" y="100" width="40" height="70" rx="4" fill="#d9e9e1"/><text x="586" y="95" text-anchor="middle" font-size="11" fill="#6a6a6a">6</text><circle cx="538" cy="77" r="4" fill="#008a5c"/><text x="538" y="69" text-anchor="middle" font-size="10" fill="#008a5c">1360</text><circle cx="586" cy="77" r="4" fill="#008a5c"/><text x="586" y="69" text-anchor="middle" font-size="10" fill="#008a5c">1360</text><text x="54" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">20/6</text><text x="103" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">27/6</text><text x="151" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">4/7</text><text x="199" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">11/7</text><text x="248" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">18/7</text><text x="296" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">25/7</text><text x="344" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">1/8</text><text x="393" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">8/8</text><text x="441" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">15/8</text><text x="489" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">22/8</text><text x="538" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">29/8</text><text x="586" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">5/9</text></svg></div>
+  <div class="graphe"><svg viewBox="0 0 640 200" width="100%" xmlns="http://www.w3.org/2000/svg" style="display:block"><line x1="30" y1="170" x2="610" y2="170" stroke="#ebebeb"/><rect x="34" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="82" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="131" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="179" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="227" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="276" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="324" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="372" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="421" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="469" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="517" y="30" width="40" height="140" rx="4" fill="#d9e9e1"/><text x="538" y="25" text-anchor="middle" font-size="11" fill="#6a6a6a">12</text><rect x="566" y="100" width="40" height="70" rx="4" fill="#d9e9e1"/><text x="586" y="95" text-anchor="middle" font-size="11" fill="#6a6a6a">6</text><circle cx="538" cy="77" r="4" fill="#008a5c"/><text x="538" y="69" text-anchor="middle" font-size="10" fill="#008a5c">1360</text><circle cx="586" cy="77" r="4" fill="#008a5c"/><text x="586" y="69" text-anchor="middle" font-size="10" fill="#008a5c">1360</text><text x="54" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">21/6</text><text x="103" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">28/6</text><text x="151" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">5/7</text><text x="199" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">12/7</text><text x="248" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">19/7</text><text x="296" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">26/7</text><text x="344" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">2/8</text><text x="393" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">9/8</text><text x="441" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">16/8</text><text x="489" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">23/8</text><text x="538" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">30/8</text><text x="586" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">6/9</text></svg></div>
 </section>
   <div class="grille">
 <article class="carte match coeur" id="c-3anglet64600251067058535agencyag5cantons" data-id="3anglet64600251067058535agencyag5cantons" data-ville="Anglet" data-cl="match" data-coeur="1" data-nouveau="0">
@@ -684,10 +684,10 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
-<article class="carte a_verifier coeur nouveau" id="c-calisation28023filtrerenttypeappartement" data-id="calisation28023filtrerenttypeappartement" data-ville="Bidart" data-cl="a_verifier" data-coeur="1" data-nouveau="1">
+<article class="carte a_verifier coeur" id="c-calisation28023filtrerenttypeappartement" data-id="calisation28023filtrerenttypeappartement" data-ville="Bidart" data-cl="a_verifier" data-coeur="1" data-nouveau="0">
   <div class="visuel">
     <div class="galerie"><div class="diapo"><img src="https://www.century21.fr/theme/v6/images/facebook/century21_facebook-share.png" alt="" onerror="this.parentNode.remove()"></div></div>
-    <div class="badges"><span class="badge nouveau">Nouveau</span><span class="badge coeur">♥ Coup de cœur</span></div>
+    <div class="badges"><span class="badge coeur">♥ Coup de cœur</span></div>
     <span class="score pos">+11</span>
     <div class="voile"></div>
     <a class="prix-sur-photo" href="https://www.century21.fr/projet-immobilier/?localisation=28023&amp;filtre=rent&amp;type=appartement" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
@@ -1202,43 +1202,6 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
-<article class="carte exclu" id="c-ison3piecescenonbienimmobilier2lmai98229" data-id="ison3piecescenonbienimmobilier2lmai98229" data-ville="Bayonne" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <div class="visuel sans">
-    
-    <div class="badges"></div>
-    <span class="score pos">+6</span>
-    <div class="voile"></div>
-    <a class="prix-sur-photo" href="https://www.immobilier-bayonne-aturri.com/location-maison-3-pieces-cenon/bien-immobilier/2/lmai98229" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
-  </div>
-  <div class="corps">
-    <a class="titre" href="https://www.immobilier-bayonne-aturri.com/location-maison-3-pieces-cenon/bien-immobilier/2/lmai98229" target="_blank" rel="noopener">Location maison T3 77m2CENON1 150 C.C. € / moisMaison rue brousse mellet à cenon -…</a>
-    <p class="faits">Maison · T3</p>
-    <div class="pills"><span class="pill exclu">Écartée : hors zone (cenon)</span></div>
-    <p class="agence">Aturri Immobilier · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 4 sept.</p>
-    <p class="dist">🏥 CH Côte Basque : 12 min à vélo · 5 min en voiture · 3.0 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
-    
-    <div class="chips"><span class="chip plus">rénové</span><span class="chip plus">jardin</span></div>
-    <div class="actions">
-      <a class="btn" href="https://www.immobilier-bayonne-aturri.com/location-maison-3-pieces-cenon/bien-immobilier/2/lmai98229" target="_blank" rel="noopener">Voir l’annonce</a>
-      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20Location%20maison%20T3%2077m2CENON1%20150%20C.C.%20%E2%82%AC%20/%20moisMaison%20rue%20brousse%20mellet%20%C3%A0%20cenon%20-%E2%80%A6&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20Location%20maison%20T3%2077m2CENON1%20150%20C.C.%20%E2%82%AC%20/%20moisMaison%20rue%20brousse%20mellet%20%C3%A0%20cenon%20-%E2%80%A6%20%C2%BB%20%28https%3A//www.immobilier-bayonne-aturri.com/location-maison-3-pieces-cenon/bien-immobilier/2/lmai98229%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
-
-Nous sommes très intéressés par votre annonce « Location maison T3 77m2CENON1 150 C.C. € / moisMaison rue brousse mellet à cenon -… » (https://www.immobilier-bayonne-aturri.com/location-maison-3-pieces-cenon/bien-immobilier/2/lmai98229).
-
-Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
-
-Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
-
-Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
-
-Bien cordialement,
-Marc-Antoine Zipoli et Léa Mathieux
-[téléphone]"><span class="i">📋</span>Copier</button></div>
-      <div class="suivi" data-id="ison3piecescenonbienimmobilier2lmai98229">
-        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
-      </div>
-    </div>
-  </div>
-</article>
 <article class="carte exclu" id="c-tationnementprivatifetresidencesecurisee" data-id="tationnementprivatifetresidencesecurisee" data-ville="Biarritz" data-cl="exclu" data-coeur="0" data-nouveau="0">
   <div class="visuel sans">
     
@@ -1572,43 +1535,6 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
-<article class="carte exclu" id="c-ncomalouermaison6piecesmoreacref39574549" data-id="ncomalouermaison6piecesmoreacref39574549" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <div class="visuel sans">
-    
-    <div class="badges"></div>
-    <span class="score pos">+4</span>
-    <div class="voile"></div>
-    <a class="prix-sur-photo" href="https://nestenn.com/a-louer-maison-6-pieces-moreac-ref-39574549" target="_blank" rel="noopener"><span class="prix">1 014 €</span><span class="par-mois">/ mois</span></a>
-  </div>
-  <div class="corps">
-    <a class="titre" href="https://nestenn.com/a-louer-maison-6-pieces-moreac-ref-39574549" target="_blank" rel="noopener">EXCLU 56500 MOREAC Maison à louer 136m² 6 pièces 4 chambres 1 014 € CC/Mois</a>
-    <p class="faits">Maison · T6 · 4 ch. · 136 m²</p>
-    <div class="pills"><span class="pill prix-bon">7.5 €/m² · bon prix (-39 %)</span><span class="pill exclu">Écartée : hors zone (56500)</span></div>
-    <p class="agence">Nestenn (Bidart) · Bidart · Bidart (ville de l&#x27;agence) · vu le 8 sept.</p>
-    <p class="dist">🏥 CH Côte Basque : 50 min à vélo · 14 min en voiture · 12.6 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
-    
-    <div class="chips"><span class="chip plus">136 m²</span><span class="chip plus">loyer 1014 €</span></div>
-    <div class="actions">
-      <a class="btn" href="https://nestenn.com/a-louer-maison-6-pieces-moreac-ref-39574549" target="_blank" rel="noopener">Voir l’annonce</a>
-      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20EXCLU%2056500%20MOREAC%20Maison%20%C3%A0%20louer%20136m%C2%B2%206%20pi%C3%A8ces%204%20chambres%201%20014%20%E2%82%AC%20CC/Mois&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20EXCLU%2056500%20MOREAC%20Maison%20%C3%A0%20louer%20136m%C2%B2%206%20pi%C3%A8ces%204%20chambres%201%20014%20%E2%82%AC%20CC/Mois%20%C2%BB%20%28https%3A//nestenn.com/a-louer-maison-6-pieces-moreac-ref-39574549%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
-
-Nous sommes très intéressés par votre annonce « EXCLU 56500 MOREAC Maison à louer 136m² 6 pièces 4 chambres 1 014 € CC/Mois » (https://nestenn.com/a-louer-maison-6-pieces-moreac-ref-39574549).
-
-Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
-
-Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
-
-Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
-
-Bien cordialement,
-Marc-Antoine Zipoli et Léa Mathieux
-[téléphone]"><span class="i">📋</span>Copier</button></div>
-      <div class="suivi" data-id="ncomalouermaison6piecesmoreacref39574549">
-        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
-      </div>
-    </div>
-  </div>
-</article>
 <article class="carte exclu" id="c-ison42600centreville2chambresref39227950" data-id="ison42600centreville2chambresref39227950" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
   <div class="visuel sans">
     
@@ -1683,6 +1609,43 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
+<article class="carte exclu" id="c-isonenpierret3campagnepledranref39724990" data-id="isonenpierret3campagnepledranref39724990" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
+  <div class="visuel sans">
+    
+    <div class="badges"></div>
+    <span class="score pos">+4</span>
+    <div class="voile"></div>
+    <a class="prix-sur-photo" href="https://nestenn.com/a-louer-jolie-maison-en-pierre-t3-campagne-pledran-ref-39724990" target="_blank" rel="noopener"><span class="prix">940 €</span><span class="par-mois">/ mois</span></a>
+  </div>
+  <div class="corps">
+    <a class="titre" href="https://nestenn.com/a-louer-jolie-maison-en-pierre-t3-campagne-pledran-ref-39724990" target="_blank" rel="noopener">EXCLU On aime beaucoup 22960 PLEDRAN Maison à louer 96m² 5 pièces 2 chambres 940 € CC/Mois</a>
+    <p class="faits">Maison · T5 · 2 ch. · 96 m²</p>
+    <div class="pills"><span class="pill prix-bon">9.8 €/m² · bon prix (-20 %)</span><span class="pill exclu">Écartée : hors zone (22960)</span></div>
+    <p class="agence">Nestenn (Bidart) · Bidart · Bidart (ville de l&#x27;agence) · vu le 11 sept.</p>
+    <p class="dist">🏥 CH Côte Basque : 50 min à vélo · 14 min en voiture · 12.6 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
+    
+    <div class="chips"><span class="chip plus">96 m²</span><span class="chip plus">loyer 940 €</span></div>
+    <div class="actions">
+      <a class="btn" href="https://nestenn.com/a-louer-jolie-maison-en-pierre-t3-campagne-pledran-ref-39724990" target="_blank" rel="noopener">Voir l’annonce</a>
+      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20EXCLU%20On%20aime%20beaucoup%2022960%20PLEDRAN%20Maison%20%C3%A0%20louer%2096m%C2%B2%205%20pi%C3%A8ces%202%20chambres%20940%20%E2%82%AC%20CC/Mois&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20EXCLU%20On%20aime%20beaucoup%2022960%20PLEDRAN%20Maison%20%C3%A0%20louer%2096m%C2%B2%205%20pi%C3%A8ces%202%20chambres%20940%20%E2%82%AC%20CC/Mois%20%C2%BB%20%28https%3A//nestenn.com/a-louer-jolie-maison-en-pierre-t3-campagne-pledran-ref-39724990%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
+
+Nous sommes très intéressés par votre annonce « EXCLU On aime beaucoup 22960 PLEDRAN Maison à louer 96m² 5 pièces 2 chambres 940 € CC/Mois » (https://nestenn.com/a-louer-jolie-maison-en-pierre-t3-campagne-pledran-ref-39724990).
+
+Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
+
+Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
+
+Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
+
+Bien cordialement,
+Marc-Antoine Zipoli et Léa Mathieux
+[téléphone]"><span class="i">📋</span>Copier</button></div>
+      <div class="suivi" data-id="isonenpierret3campagnepledranref39724990">
+        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
+      </div>
+    </div>
+  </div>
+</article>
 <article class="carte exclu" id="c-ationtroischambresdisponiblesref38624750" data-id="ationtroischambresdisponiblesref38624750" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
   <div class="visuel sans">
     
@@ -1715,43 +1678,6 @@ Bien cordialement,
 Marc-Antoine Zipoli et Léa Mathieux
 [téléphone]"><span class="i">📋</span>Copier</button></div>
       <div class="suivi" data-id="ationtroischambresdisponiblesref38624750">
-        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
-      </div>
-    </div>
-  </div>
-</article>
-<article class="carte exclu nouveau" id="c-isonenpierret3campagnepledranref39724990" data-id="isonenpierret3campagnepledranref39724990" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="1">
-  <div class="visuel sans">
-    
-    <div class="badges"><span class="badge nouveau">Nouveau</span></div>
-    <span class="score pos">+4</span>
-    <div class="voile"></div>
-    <a class="prix-sur-photo" href="https://nestenn.com/a-louer-jolie-maison-en-pierre-t3-campagne-pledran-ref-39724990" target="_blank" rel="noopener"><span class="prix">940 €</span><span class="par-mois">/ mois</span></a>
-  </div>
-  <div class="corps">
-    <a class="titre" href="https://nestenn.com/a-louer-jolie-maison-en-pierre-t3-campagne-pledran-ref-39724990" target="_blank" rel="noopener">EXCLU On aime beaucoup 22960 PLEDRAN Maison à louer 96m² 5 pièces 2 chambres 940 € CC/Mois</a>
-    <p class="faits">Maison · T5 · 2 ch. · 96 m²</p>
-    <div class="pills"><span class="pill prix-bon">9.8 €/m² · bon prix (-20 %)</span><span class="pill exclu">Écartée : hors zone (22960)</span></div>
-    <p class="agence">Nestenn (Bidart) · Bidart · Bidart (ville de l&#x27;agence) · vu le 11 sept.</p>
-    <p class="dist">🏥 CH Côte Basque : 50 min à vélo · 14 min en voiture · 12.6 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
-    
-    <div class="chips"><span class="chip plus">96 m²</span><span class="chip plus">loyer 940 €</span></div>
-    <div class="actions">
-      <a class="btn" href="https://nestenn.com/a-louer-jolie-maison-en-pierre-t3-campagne-pledran-ref-39724990" target="_blank" rel="noopener">Voir l’annonce</a>
-      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20EXCLU%20On%20aime%20beaucoup%2022960%20PLEDRAN%20Maison%20%C3%A0%20louer%2096m%C2%B2%205%20pi%C3%A8ces%202%20chambres%20940%20%E2%82%AC%20CC/Mois&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20EXCLU%20On%20aime%20beaucoup%2022960%20PLEDRAN%20Maison%20%C3%A0%20louer%2096m%C2%B2%205%20pi%C3%A8ces%202%20chambres%20940%20%E2%82%AC%20CC/Mois%20%C2%BB%20%28https%3A//nestenn.com/a-louer-jolie-maison-en-pierre-t3-campagne-pledran-ref-39724990%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
-
-Nous sommes très intéressés par votre annonce « EXCLU On aime beaucoup 22960 PLEDRAN Maison à louer 96m² 5 pièces 2 chambres 940 € CC/Mois » (https://nestenn.com/a-louer-jolie-maison-en-pierre-t3-campagne-pledran-ref-39724990).
-
-Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
-
-Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
-
-Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
-
-Bien cordialement,
-Marc-Antoine Zipoli et Léa Mathieux
-[téléphone]"><span class="i">📋</span>Copier</button></div>
-      <div class="suivi" data-id="isonenpierret3campagnepledranref39724990">
         <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
       </div>
     </div>
@@ -1831,6 +1757,43 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
+<article class="carte exclu" id="c-tury21frtrouverlogementdetail15274644556" data-id="tury21frtrouverlogementdetail15274644556" data-ville="Biarritz" data-cl="exclu" data-coeur="0" data-nouveau="0">
+  <div class="visuel sans">
+    
+    <div class="badges"></div>
+    <span class="score pos">+3</span>
+    <div class="voile"></div>
+    <a class="prix-sur-photo" href="https://www.century21.fr/trouver_logement/detail/15274644556/" target="_blank" rel="noopener"><span class="prix">1 650 €</span><span class="par-mois">/ mois</span></a>
+  </div>
+  <div class="corps">
+    <a class="titre" href="https://www.century21.fr/trouver_logement/detail/15274644556/" target="_blank" rel="noopener">Exclusivité ST JEAN DE LUZ 64 1 650 € par mois charges comprises 80,5 m2 , appartement…</a>
+    <p class="faits">Appartement</p>
+    <div class="pills"><span class="pill exclu">Écartée : hors zone (st jean de luz)</span></div>
+    <p class="agence">Century 21 (Biarritz, toutes agences) · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 11 sept.</p>
+    <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
+    
+    <div class="chips"><span class="chip plus">st jean</span><span class="chip plus">loyer 1650 €</span></div>
+    <div class="actions">
+      <a class="btn" href="https://www.century21.fr/trouver_logement/detail/15274644556/" target="_blank" rel="noopener">Voir l’annonce</a>
+      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20Exclusivit%C3%A9%20ST%20JEAN%20DE%20LUZ%2064%201%20650%20%E2%82%AC%20par%20mois%20charges%20comprises%2080%2C5%20m2%20%2C%20appartement%E2%80%A6&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20Exclusivit%C3%A9%20ST%20JEAN%20DE%20LUZ%2064%201%20650%20%E2%82%AC%20par%20mois%20charges%20comprises%2080%2C5%20m2%20%2C%20appartement%E2%80%A6%20%C2%BB%20%28https%3A//www.century21.fr/trouver_logement/detail/15274644556/%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
+
+Nous sommes très intéressés par votre annonce « Exclusivité ST JEAN DE LUZ 64 1 650 € par mois charges comprises 80,5 m2 , appartement… » (https://www.century21.fr/trouver_logement/detail/15274644556/).
+
+Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
+
+Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
+
+Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
+
+Bien cordialement,
+Marc-Antoine Zipoli et Léa Mathieux
+[téléphone]"><span class="i">📋</span>Copier</button></div>
+      <div class="suivi" data-id="tury21frtrouverlogementdetail15274644556">
+        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
+      </div>
+    </div>
+  </div>
+</article>
 <article class="carte exclu" id="c-8bde463db085830b7a46aa78agencyag5cantons" data-id="8bde463db085830b7a46aa78agencyag5cantons" data-ville="Anglet" data-cl="exclu" data-coeur="0" data-nouveau="0">
   <div class="visuel sans">
     
@@ -1868,43 +1831,6 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
-<article class="carte exclu nouveau" id="c-tury21frtrouverlogementdetail15274644556" data-id="tury21frtrouverlogementdetail15274644556" data-ville="Biarritz" data-cl="exclu" data-coeur="0" data-nouveau="1">
-  <div class="visuel sans">
-    
-    <div class="badges"><span class="badge nouveau">Nouveau</span></div>
-    <span class="score pos">+3</span>
-    <div class="voile"></div>
-    <a class="prix-sur-photo" href="https://www.century21.fr/trouver_logement/detail/15274644556/" target="_blank" rel="noopener"><span class="prix">1 650 €</span><span class="par-mois">/ mois</span></a>
-  </div>
-  <div class="corps">
-    <a class="titre" href="https://www.century21.fr/trouver_logement/detail/15274644556/" target="_blank" rel="noopener">Exclusivité ST JEAN DE LUZ 64 1 650 € par mois charges comprises 80,5 m2 , appartement…</a>
-    <p class="faits">Appartement</p>
-    <div class="pills"><span class="pill exclu">Écartée : hors zone (st jean de luz)</span></div>
-    <p class="agence">Century 21 (Biarritz, toutes agences) · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 11 sept.</p>
-    <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
-    
-    <div class="chips"><span class="chip plus">st jean</span><span class="chip plus">loyer 1650 €</span></div>
-    <div class="actions">
-      <a class="btn" href="https://www.century21.fr/trouver_logement/detail/15274644556/" target="_blank" rel="noopener">Voir l’annonce</a>
-      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20Exclusivit%C3%A9%20ST%20JEAN%20DE%20LUZ%2064%201%20650%20%E2%82%AC%20par%20mois%20charges%20comprises%2080%2C5%20m2%20%2C%20appartement%E2%80%A6&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20Exclusivit%C3%A9%20ST%20JEAN%20DE%20LUZ%2064%201%20650%20%E2%82%AC%20par%20mois%20charges%20comprises%2080%2C5%20m2%20%2C%20appartement%E2%80%A6%20%C2%BB%20%28https%3A//www.century21.fr/trouver_logement/detail/15274644556/%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
-
-Nous sommes très intéressés par votre annonce « Exclusivité ST JEAN DE LUZ 64 1 650 € par mois charges comprises 80,5 m2 , appartement… » (https://www.century21.fr/trouver_logement/detail/15274644556/).
-
-Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
-
-Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
-
-Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
-
-Bien cordialement,
-Marc-Antoine Zipoli et Léa Mathieux
-[téléphone]"><span class="i">📋</span>Copier</button></div>
-      <div class="suivi" data-id="tury21frtrouverlogementdetail15274644556">
-        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
-      </div>
-    </div>
-  </div>
-</article>
 <article class="carte exclu" id="c-appartementmaisonbiarritzkennedymaisont5" data-id="appartementmaisonbiarritzkennedymaisont5" data-ville="Biarritz" data-cl="exclu" data-coeur="0" data-nouveau="0">
   <div class="visuel sans">
     
@@ -1937,43 +1863,6 @@ Bien cordialement,
 Marc-Antoine Zipoli et Léa Mathieux
 [téléphone]"><span class="i">📋</span>Copier</button></div>
       <div class="suivi" data-id="appartementmaisonbiarritzkennedymaisont5">
-        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
-      </div>
-    </div>
-  </div>
-</article>
-<article class="carte exclu" id="c-ationslocalprofessionnelanglet6455329510" data-id="ationslocalprofessionnelanglet6455329510" data-ville="Biarritz" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <div class="visuel sans">
-    
-    <div class="badges"></div>
-    <span class="score pos">+2</span>
-    <div class="voile"></div>
-    <a class="prix-sur-photo" href="https://www.ajp-immobilier.com/annonces/locations/local_professionnel/anglet-64/55329510" target="_blank" rel="noopener"><span class="prix">675 €</span><span class="par-mois">/ mois</span></a>
-  </div>
-  <div class="corps">
-    <a class="titre" href="https://www.ajp-immobilier.com/annonces/locations/local_professionnel/anglet-64/55329510" target="_blank" rel="noopener">Local commercial</a>
-    
-    <div class="pills"><span class="pill exclu">Écartée : critères</span></div>
-    <p class="agence">AJP Mateille Biarritz · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</p>
-    <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
-    
-    <div class="chips"><span class="chip plus">loyer 675 €</span></div>
-    <div class="actions">
-      <a class="btn" href="https://www.ajp-immobilier.com/annonces/locations/local_professionnel/anglet-64/55329510" target="_blank" rel="noopener">Voir l’annonce</a>
-      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20Local%20commercial&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20Local%20commercial%20%C2%BB%20%28https%3A//www.ajp-immobilier.com/annonces/locations/local_professionnel/anglet-64/55329510%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
-
-Nous sommes très intéressés par votre annonce « Local commercial » (https://www.ajp-immobilier.com/annonces/locations/local_professionnel/anglet-64/55329510).
-
-Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
-
-Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
-
-Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
-
-Bien cordialement,
-Marc-Antoine Zipoli et Léa Mathieux
-[téléphone]"><span class="i">📋</span>Copier</button></div>
-      <div class="suivi" data-id="ationslocalprofessionnelanglet6455329510">
         <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
       </div>
     </div>
@@ -2233,117 +2122,6 @@ Bien cordialement,
 Marc-Antoine Zipoli et Léa Mathieux
 [téléphone]"><span class="i">📋</span>Copier</button></div>
       <div class="suivi" data-id="deseptembreajuinidealementplaceabiarritz">
-        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
-      </div>
-    </div>
-  </div>
-</article>
-<article class="carte exclu" id="c-emaisont2avecjardinetterrasseref39575614" data-id="emaisont2avecjardinetterrasseref39575614" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <div class="visuel sans">
-    
-    <div class="badges"></div>
-    <span class="score pos">+2</span>
-    <div class="voile"></div>
-    <a class="prix-sur-photo" href="https://nestenn.com/les-pennes-mirabeau-petite-maison-t2-avec-jardin-et-terrasse-ref-39575614" target="_blank" rel="noopener"><span class="prix">960 €</span><span class="par-mois">/ mois</span></a>
-  </div>
-  <div class="corps">
-    <a class="titre" href="https://nestenn.com/les-pennes-mirabeau-petite-maison-t2-avec-jardin-et-terrasse-ref-39575614" target="_blank" rel="noopener">EXCLU Coup de coeur 13170 LES PENNES MIRABEAU Maison à louer 41m² 2 pièces 1 chambre…</a>
-    <p class="faits">Maison · T2 · 1 ch. · 41 m²</p>
-    <div class="pills"><span class="pill prix-haut">23.4 €/m² · au-dessus du marché (+91 %)</span><span class="pill exclu">Écartée : hors zone (13170)</span></div>
-    <p class="agence">Nestenn (Bidart) · Bidart · Bidart (ville de l&#x27;agence) · vu le 8 sept.</p>
-    <p class="dist">🏥 CH Côte Basque : 50 min à vélo · 14 min en voiture · 12.6 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
-    
-    <div class="chips"><span class="chip plus">loyer 960 €</span></div>
-    <div class="actions">
-      <a class="btn" href="https://nestenn.com/les-pennes-mirabeau-petite-maison-t2-avec-jardin-et-terrasse-ref-39575614" target="_blank" rel="noopener">Voir l’annonce</a>
-      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20EXCLU%20Coup%20de%20coeur%2013170%20LES%20PENNES%20MIRABEAU%20Maison%20%C3%A0%20louer%2041m%C2%B2%202%20pi%C3%A8ces%201%20chambre%E2%80%A6&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20EXCLU%20Coup%20de%20coeur%2013170%20LES%20PENNES%20MIRABEAU%20Maison%20%C3%A0%20louer%2041m%C2%B2%202%20pi%C3%A8ces%201%20chambre%E2%80%A6%20%C2%BB%20%28https%3A//nestenn.com/les-pennes-mirabeau-petite-maison-t2-avec-jardin-et-terrasse-ref-39575614%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
-
-Nous sommes très intéressés par votre annonce « EXCLU Coup de coeur 13170 LES PENNES MIRABEAU Maison à louer 41m² 2 pièces 1 chambre… » (https://nestenn.com/les-pennes-mirabeau-petite-maison-t2-avec-jardin-et-terrasse-ref-39575614).
-
-Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
-
-Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
-
-Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
-
-Bien cordialement,
-Marc-Antoine Zipoli et Léa Mathieux
-[téléphone]"><span class="i">📋</span>Copier</button></div>
-      <div class="suivi" data-id="emaisont2avecjardinetterrasseref39575614">
-        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
-      </div>
-    </div>
-  </div>
-</article>
-<article class="carte exclu" id="c-enncomnancyartemappartementt3ref33662206" data-id="enncomnancyartemappartementt3ref33662206" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <div class="visuel sans">
-    
-    <div class="badges"></div>
-    <span class="score pos">+2</span>
-    <div class="voile"></div>
-    <a class="prix-sur-photo" href="https://nestenn.com/nancy-artem-appartement-t3-ref-33662206" target="_blank" rel="noopener"><span class="prix">540 €</span><span class="par-mois">/ mois</span></a>
-  </div>
-  <div class="corps">
-    <a class="titre" href="https://nestenn.com/nancy-artem-appartement-t3-ref-33662206" target="_blank" rel="noopener">EXCLU location 54000 NANCY Appartement à louer 45m² 3 pièces 2 chambres 540 € CC/Mois</a>
-    <p class="faits">Appartement · T3 · 2 ch. · 45 m²</p>
-    <div class="pills"><span class="pill prix-ok">12.0 €/m² · dans le marché (-2 %)</span><span class="pill exclu">Écartée : hors zone (54000)</span></div>
-    <p class="agence">Nestenn (Bidart) · Bidart · Bidart (ville de l&#x27;agence) · vu le 8 sept.</p>
-    <p class="dist">🏥 CH Côte Basque : 50 min à vélo · 14 min en voiture · 12.6 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
-    
-    <div class="chips"><span class="chip plus">loyer 540 €</span></div>
-    <div class="actions">
-      <a class="btn" href="https://nestenn.com/nancy-artem-appartement-t3-ref-33662206" target="_blank" rel="noopener">Voir l’annonce</a>
-      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20EXCLU%20location%2054000%20NANCY%20Appartement%20%C3%A0%20louer%2045m%C2%B2%203%20pi%C3%A8ces%202%20chambres%20540%20%E2%82%AC%20CC/Mois&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20EXCLU%20location%2054000%20NANCY%20Appartement%20%C3%A0%20louer%2045m%C2%B2%203%20pi%C3%A8ces%202%20chambres%20540%20%E2%82%AC%20CC/Mois%20%C2%BB%20%28https%3A//nestenn.com/nancy-artem-appartement-t3-ref-33662206%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
-
-Nous sommes très intéressés par votre annonce « EXCLU location 54000 NANCY Appartement à louer 45m² 3 pièces 2 chambres 540 € CC/Mois » (https://nestenn.com/nancy-artem-appartement-t3-ref-33662206).
-
-Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
-
-Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
-
-Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
-
-Bien cordialement,
-Marc-Antoine Zipoli et Léa Mathieux
-[téléphone]"><span class="i">📋</span>Copier</button></div>
-      <div class="suivi" data-id="enncomnancyartemappartementt3ref33662206">
-        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
-      </div>
-    </div>
-  </div>
-</article>
-<article class="carte exclu" id="c-vertbuissonappartement3piecesref33392034" data-id="vertbuissonappartement3piecesref33392034" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <div class="visuel sans">
-    
-    <div class="badges"></div>
-    <span class="score pos">+2</span>
-    <div class="voile"></div>
-    <a class="prix-sur-photo" href="https://nestenn.com/vert-buisson-appartement-3-pieces-ref-33392034" target="_blank" rel="noopener"><span class="prix">730 €</span><span class="par-mois">/ mois</span></a>
-  </div>
-  <div class="corps">
-    <a class="titre" href="https://nestenn.com/vert-buisson-appartement-3-pieces-ref-33392034" target="_blank" rel="noopener">EXCLU 35170 BRUZ Appartement à louer 63m² 3 pièces 2 chambres 730 € CC/Mois</a>
-    <p class="faits">Appartement · T3 · 2 ch. · 63 m²</p>
-    <div class="pills"><span class="pill prix-ok">11.6 €/m² · dans le marché (-5 %)</span><span class="pill exclu">Écartée : hors zone (35170)</span></div>
-    <p class="agence">Nestenn (Bidart) · Bidart · Bidart (ville de l&#x27;agence) · vu le 8 sept.</p>
-    <p class="dist">🏥 CH Côte Basque : 50 min à vélo · 14 min en voiture · 12.6 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
-    
-    <div class="chips"><span class="chip plus">loyer 730 €</span></div>
-    <div class="actions">
-      <a class="btn" href="https://nestenn.com/vert-buisson-appartement-3-pieces-ref-33392034" target="_blank" rel="noopener">Voir l’annonce</a>
-      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20EXCLU%2035170%20BRUZ%20Appartement%20%C3%A0%20louer%2063m%C2%B2%203%20pi%C3%A8ces%202%20chambres%20730%20%E2%82%AC%20CC/Mois&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20EXCLU%2035170%20BRUZ%20Appartement%20%C3%A0%20louer%2063m%C2%B2%203%20pi%C3%A8ces%202%20chambres%20730%20%E2%82%AC%20CC/Mois%20%C2%BB%20%28https%3A//nestenn.com/vert-buisson-appartement-3-pieces-ref-33392034%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
-
-Nous sommes très intéressés par votre annonce « EXCLU 35170 BRUZ Appartement à louer 63m² 3 pièces 2 chambres 730 € CC/Mois » (https://nestenn.com/vert-buisson-appartement-3-pieces-ref-33392034).
-
-Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
-
-Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
-
-Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
-
-Bien cordialement,
-Marc-Antoine Zipoli et Léa Mathieux
-[téléphone]"><span class="i">📋</span>Copier</button></div>
-      <div class="suivi" data-id="vertbuissonappartement3piecesref33392034">
         <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
       </div>
     </div>
@@ -2793,6 +2571,80 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
+<article class="carte exclu" id="c-mappartementlacrau1pieces18m2ref39344494" data-id="mappartementlacrau1pieces18m2ref39344494" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
+  <div class="visuel sans">
+    
+    <div class="badges"></div>
+    <span class="score pos">+2</span>
+    <div class="voile"></div>
+    <a class="prix-sur-photo" href="https://nestenn.com/appartement-la-crau-1-piece-s-18-m2-ref-39344494" target="_blank" rel="noopener"><span class="prix">570 €</span><span class="par-mois">/ mois</span></a>
+  </div>
+  <div class="corps">
+    <a class="titre" href="https://nestenn.com/appartement-la-crau-1-piece-s-18-m2-ref-39344494" target="_blank" rel="noopener">EXCLU 83260 LA CRAU Appartement à louer 16m² 1 pièce 0 chambre 570 € CC/Mois</a>
+    <p class="faits">Appartement · T1 · 16 m²</p>
+    <div class="pills"><span class="pill exclu">Écartée : hors zone (83260)</span></div>
+    <p class="agence">Nestenn (Bidart) · Bidart · Bidart (ville de l&#x27;agence) · vu le 11 sept.</p>
+    <p class="dist">🏥 CH Côte Basque : 50 min à vélo · 14 min en voiture · 12.6 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
+    
+    <div class="chips"><span class="chip plus">loyer 570 €</span></div>
+    <div class="actions">
+      <a class="btn" href="https://nestenn.com/appartement-la-crau-1-piece-s-18-m2-ref-39344494" target="_blank" rel="noopener">Voir l’annonce</a>
+      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20EXCLU%2083260%20LA%20CRAU%20Appartement%20%C3%A0%20louer%2016m%C2%B2%201%20pi%C3%A8ce%200%20chambre%20570%20%E2%82%AC%20CC/Mois&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20EXCLU%2083260%20LA%20CRAU%20Appartement%20%C3%A0%20louer%2016m%C2%B2%201%20pi%C3%A8ce%200%20chambre%20570%20%E2%82%AC%20CC/Mois%20%C2%BB%20%28https%3A//nestenn.com/appartement-la-crau-1-piece-s-18-m2-ref-39344494%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
+
+Nous sommes très intéressés par votre annonce « EXCLU 83260 LA CRAU Appartement à louer 16m² 1 pièce 0 chambre 570 € CC/Mois » (https://nestenn.com/appartement-la-crau-1-piece-s-18-m2-ref-39344494).
+
+Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
+
+Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
+
+Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
+
+Bien cordialement,
+Marc-Antoine Zipoli et Léa Mathieux
+[téléphone]"><span class="i">📋</span>Copier</button></div>
+      <div class="suivi" data-id="mappartementlacrau1pieces18m2ref39344494">
+        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="carte exclu" id="c-itionagreablequartiercapucinsref33330321" data-id="itionagreablequartiercapucinsref33330321" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
+  <div class="visuel sans">
+    
+    <div class="badges"></div>
+    <span class="score pos">+2</span>
+    <div class="voile"></div>
+    <a class="prix-sur-photo" href="https://nestenn.com/appartement-renove-de-type-2-avec-chambre-dressing-et-exposition-agreable-quartier-capucins-ref-33330321" target="_blank" rel="noopener"><span class="prix">570 €</span><span class="par-mois">/ mois</span></a>
+  </div>
+  <div class="corps">
+    <a class="titre" href="https://nestenn.com/appartement-renove-de-type-2-avec-chambre-dressing-et-exposition-agreable-quartier-capucins-ref-33330321" target="_blank" rel="noopener">EXCLU Coup de coeur 11000 CARCASSONNE Appartement à louer 45m² 2 pièces 1 chambre 570 €…</a>
+    <p class="faits">Appartement · T2 · 1 ch. · 45 m²</p>
+    <div class="pills"><span class="pill prix-ok">12.7 €/m² · dans le marché (+4 %)</span><span class="pill exclu">Écartée : hors zone (11000)</span></div>
+    <p class="agence">Nestenn (Bidart) · Bidart · Bidart (ville de l&#x27;agence) · vu le 11 sept.</p>
+    <p class="dist">🏥 CH Côte Basque : 50 min à vélo · 14 min en voiture · 12.6 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
+    
+    <div class="chips"><span class="chip plus">loyer 570 €</span></div>
+    <div class="actions">
+      <a class="btn" href="https://nestenn.com/appartement-renove-de-type-2-avec-chambre-dressing-et-exposition-agreable-quartier-capucins-ref-33330321" target="_blank" rel="noopener">Voir l’annonce</a>
+      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20EXCLU%20Coup%20de%20coeur%2011000%20CARCASSONNE%20Appartement%20%C3%A0%20louer%2045m%C2%B2%202%20pi%C3%A8ces%201%20chambre%20570%20%E2%82%AC%E2%80%A6&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20EXCLU%20Coup%20de%20coeur%2011000%20CARCASSONNE%20Appartement%20%C3%A0%20louer%2045m%C2%B2%202%20pi%C3%A8ces%201%20chambre%20570%20%E2%82%AC%E2%80%A6%20%C2%BB%20%28https%3A//nestenn.com/appartement-renove-de-type-2-avec-chambre-dressing-et-exposition-agreable-quartier-capucins-ref-33330321%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
+
+Nous sommes très intéressés par votre annonce « EXCLU Coup de coeur 11000 CARCASSONNE Appartement à louer 45m² 2 pièces 1 chambre 570 €… » (https://nestenn.com/appartement-renove-de-type-2-avec-chambre-dressing-et-exposition-agreable-quartier-capucins-ref-33330321).
+
+Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
+
+Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
+
+Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
+
+Bien cordialement,
+Marc-Antoine Zipoli et Léa Mathieux
+[téléphone]"><span class="i">📋</span>Copier</button></div>
+      <div class="suivi" data-id="itionagreablequartiercapucinsref33330321">
+        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
+      </div>
+    </div>
+  </div>
+</article>
 <article class="carte exclu" id="c-bresavecsalledeauindividuelleref38889915" data-id="bresavecsalledeauindividuelleref38889915" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="0">
   <div class="visuel sans">
     
@@ -2941,27 +2793,27 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
-<article class="carte exclu nouveau" id="c-itionagreablequartiercapucinsref33330321" data-id="itionagreablequartiercapucinsref33330321" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="1">
+<article class="carte exclu nouveau" id="c-meublehypercentremontdemarsanref39727119" data-id="meublehypercentremontdemarsanref39727119" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="1">
   <div class="visuel sans">
     
     <div class="badges"><span class="badge nouveau">Nouveau</span></div>
     <span class="score pos">+2</span>
     <div class="voile"></div>
-    <a class="prix-sur-photo" href="https://nestenn.com/appartement-renove-de-type-2-avec-chambre-dressing-et-exposition-agreable-quartier-capucins-ref-33330321" target="_blank" rel="noopener"><span class="prix">570 €</span><span class="par-mois">/ mois</span></a>
+    <a class="prix-sur-photo" href="https://nestenn.com/a-louer-studio-meuble-hyper-centre-mont-de-marsan-ref-39727119" target="_blank" rel="noopener"><span class="prix">359 €</span><span class="par-mois">/ mois</span></a>
   </div>
   <div class="corps">
-    <a class="titre" href="https://nestenn.com/appartement-renove-de-type-2-avec-chambre-dressing-et-exposition-agreable-quartier-capucins-ref-33330321" target="_blank" rel="noopener">EXCLU Coup de coeur 11000 CARCASSONNE Appartement à louer 45m² 2 pièces 1 chambre 570 €…</a>
-    <p class="faits">Appartement · T2 · 1 ch. · 45 m²</p>
-    <div class="pills"><span class="pill prix-ok">12.7 €/m² · dans le marché (+4 %)</span><span class="pill exclu">Écartée : hors zone (11000)</span></div>
-    <p class="agence">Nestenn (Bidart) · Bidart · Bidart (ville de l&#x27;agence) · vu le 11 sept.</p>
+    <a class="titre" href="https://nestenn.com/a-louer-studio-meuble-hyper-centre-mont-de-marsan-ref-39727119" target="_blank" rel="noopener">EXCLU 40000 MONT DE MARSAN Appartement à louer 17m² 1 pièce 0 chambre 359 € CC/Mois</a>
+    <p class="faits">Appartement · T1 · 17 m²</p>
+    <div class="pills"><span class="pill exclu">Écartée : hors zone (40000)</span></div>
+    <p class="agence">Nestenn (Bidart) · Bidart · Bidart (ville de l&#x27;agence) · vu le 12 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 50 min à vélo · 14 min en voiture · 12.6 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
-    <div class="chips"><span class="chip plus">loyer 570 €</span></div>
+    <div class="chips"><span class="chip plus">loyer 359 €</span></div>
     <div class="actions">
-      <a class="btn" href="https://nestenn.com/appartement-renove-de-type-2-avec-chambre-dressing-et-exposition-agreable-quartier-capucins-ref-33330321" target="_blank" rel="noopener">Voir l’annonce</a>
-      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20EXCLU%20Coup%20de%20coeur%2011000%20CARCASSONNE%20Appartement%20%C3%A0%20louer%2045m%C2%B2%202%20pi%C3%A8ces%201%20chambre%20570%20%E2%82%AC%E2%80%A6&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20EXCLU%20Coup%20de%20coeur%2011000%20CARCASSONNE%20Appartement%20%C3%A0%20louer%2045m%C2%B2%202%20pi%C3%A8ces%201%20chambre%20570%20%E2%82%AC%E2%80%A6%20%C2%BB%20%28https%3A//nestenn.com/appartement-renove-de-type-2-avec-chambre-dressing-et-exposition-agreable-quartier-capucins-ref-33330321%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
+      <a class="btn" href="https://nestenn.com/a-louer-studio-meuble-hyper-centre-mont-de-marsan-ref-39727119" target="_blank" rel="noopener">Voir l’annonce</a>
+      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20EXCLU%2040000%20MONT%20DE%20MARSAN%20Appartement%20%C3%A0%20louer%2017m%C2%B2%201%20pi%C3%A8ce%200%20chambre%20359%20%E2%82%AC%20CC/Mois&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20EXCLU%2040000%20MONT%20DE%20MARSAN%20Appartement%20%C3%A0%20louer%2017m%C2%B2%201%20pi%C3%A8ce%200%20chambre%20359%20%E2%82%AC%20CC/Mois%20%C2%BB%20%28https%3A//nestenn.com/a-louer-studio-meuble-hyper-centre-mont-de-marsan-ref-39727119%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
 
-Nous sommes très intéressés par votre annonce « EXCLU Coup de coeur 11000 CARCASSONNE Appartement à louer 45m² 2 pièces 1 chambre 570 €… » (https://nestenn.com/appartement-renove-de-type-2-avec-chambre-dressing-et-exposition-agreable-quartier-capucins-ref-33330321).
+Nous sommes très intéressés par votre annonce « EXCLU 40000 MONT DE MARSAN Appartement à louer 17m² 1 pièce 0 chambre 359 € CC/Mois » (https://nestenn.com/a-louer-studio-meuble-hyper-centre-mont-de-marsan-ref-39727119).
 
 Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
 
@@ -2972,33 +2824,33 @@ Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux 
 Bien cordialement,
 Marc-Antoine Zipoli et Léa Mathieux
 [téléphone]"><span class="i">📋</span>Copier</button></div>
-      <div class="suivi" data-id="itionagreablequartiercapucinsref33330321">
+      <div class="suivi" data-id="meublehypercentremontdemarsanref39727119">
         <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
       </div>
     </div>
   </div>
 </article>
-<article class="carte exclu nouveau" id="c-mappartementlacrau1pieces18m2ref39344494" data-id="mappartementlacrau1pieces18m2ref39344494" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="1">
+<article class="carte exclu nouveau" id="c-omappartementlamorlaye1piecesref39066933" data-id="omappartementlamorlaye1piecesref39066933" data-ville="Bidart" data-cl="exclu" data-coeur="0" data-nouveau="1">
   <div class="visuel sans">
     
     <div class="badges"><span class="badge nouveau">Nouveau</span></div>
     <span class="score pos">+2</span>
     <div class="voile"></div>
-    <a class="prix-sur-photo" href="https://nestenn.com/appartement-la-crau-1-piece-s-18-m2-ref-39344494" target="_blank" rel="noopener"><span class="prix">570 €</span><span class="par-mois">/ mois</span></a>
+    <a class="prix-sur-photo" href="https://nestenn.com/appartement-lamorlaye-1-piece-s-ref-39066933" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
   </div>
   <div class="corps">
-    <a class="titre" href="https://nestenn.com/appartement-la-crau-1-piece-s-18-m2-ref-39344494" target="_blank" rel="noopener">EXCLU 83260 LA CRAU Appartement à louer 16m² 1 pièce 0 chambre 570 € CC/Mois</a>
-    <p class="faits">Appartement · T1 · 16 m²</p>
-    <div class="pills"><span class="pill exclu">Écartée : hors zone (83260)</span></div>
-    <p class="agence">Nestenn (Bidart) · Bidart · Bidart (ville de l&#x27;agence) · vu le 11 sept.</p>
+    <a class="titre" href="https://nestenn.com/appartement-lamorlaye-1-piece-s-ref-39066933" target="_blank" rel="noopener">EXCLU 60260 LAMORLAYE Garage à louer 0m² 0 pièce 0 chambre 90 € CC/Mois</a>
+    
+    <div class="pills"><span class="pill exclu">Écartée : critères</span></div>
+    <p class="agence">Nestenn (Bidart) · Bidart · Bidart (ville de l&#x27;agence) · vu le 12 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 50 min à vélo · 14 min en voiture · 12.6 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
-    <div class="chips"><span class="chip plus">loyer 570 €</span></div>
+    <div class="chips"><span class="chip plus">garage</span></div>
     <div class="actions">
-      <a class="btn" href="https://nestenn.com/appartement-la-crau-1-piece-s-18-m2-ref-39344494" target="_blank" rel="noopener">Voir l’annonce</a>
-      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20EXCLU%2083260%20LA%20CRAU%20Appartement%20%C3%A0%20louer%2016m%C2%B2%201%20pi%C3%A8ce%200%20chambre%20570%20%E2%82%AC%20CC/Mois&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20EXCLU%2083260%20LA%20CRAU%20Appartement%20%C3%A0%20louer%2016m%C2%B2%201%20pi%C3%A8ce%200%20chambre%20570%20%E2%82%AC%20CC/Mois%20%C2%BB%20%28https%3A//nestenn.com/appartement-la-crau-1-piece-s-18-m2-ref-39344494%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
+      <a class="btn" href="https://nestenn.com/appartement-lamorlaye-1-piece-s-ref-39066933" target="_blank" rel="noopener">Voir l’annonce</a>
+      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20EXCLU%2060260%20LAMORLAYE%20Garage%20%C3%A0%20louer%200m%C2%B2%200%20pi%C3%A8ce%200%20chambre%2090%20%E2%82%AC%20CC/Mois&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20EXCLU%2060260%20LAMORLAYE%20Garage%20%C3%A0%20louer%200m%C2%B2%200%20pi%C3%A8ce%200%20chambre%2090%20%E2%82%AC%20CC/Mois%20%C2%BB%20%28https%3A//nestenn.com/appartement-lamorlaye-1-piece-s-ref-39066933%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
 
-Nous sommes très intéressés par votre annonce « EXCLU 83260 LA CRAU Appartement à louer 16m² 1 pièce 0 chambre 570 € CC/Mois » (https://nestenn.com/appartement-la-crau-1-piece-s-18-m2-ref-39344494).
+Nous sommes très intéressés par votre annonce « EXCLU 60260 LAMORLAYE Garage à louer 0m² 0 pièce 0 chambre 90 € CC/Mois » (https://nestenn.com/appartement-lamorlaye-1-piece-s-ref-39066933).
 
 Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
 
@@ -3009,7 +2861,7 @@ Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux 
 Bien cordialement,
 Marc-Antoine Zipoli et Léa Mathieux
 [téléphone]"><span class="i">📋</span>Copier</button></div>
-      <div class="suivi" data-id="mappartementlacrau1pieces18m2ref39344494">
+      <div class="suivi" data-id="omappartementlamorlaye1piecesref39066933">
         <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
       </div>
     </div>
@@ -4015,7 +3867,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article></div>
   
-  <details class="bloc"><summary>État des 17 agences surveillées</summary><table><tr class="ok"><td>L&#x27;Agencerie Côte Basque</td><td>Anglet</td><td>1 annonce(s) détectée(s)</td><td><a href="https://cote-basque.lagencerie.fr/immobilier/location/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Le Logis Basque</td><td>Anglet</td><td>5 annonce(s) détectée(s)</td><td><a href="https://www.lelogisbasque.fr/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Orpi Agence des 5 Cantons</td><td>Anglet</td><td>9 annonce(s) détectée(s)</td><td><a href="https://www.orpi.com/ag5cantons/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Agence Olaizola</td><td>Biarritz</td><td>2 annonce(s) détectée(s)</td><td><a href="https://www.olaizola.immo/annonces/transaction/location.html" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Agence Benquet</td><td>Biarritz</td><td>7 annonce(s) détectée(s)</td><td><a href="https://www.agence-benquet.com/location-appartement-maison-biarritz/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Immobiarritz</td><td>Biarritz</td><td>2 annonce(s) détectée(s)</td><td><a href="http://www.immobiarritz.fr/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>AJP Mateille Biarritz</td><td>Biarritz</td><td>4 annonce(s) détectée(s)</td><td><a href="https://www.ajp-immobilier.com/agence-immobiliere/biarritz-64200/ajp-mateille-immobilier-biarritz/000044.htm" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Biarritz, toutes agences)</td><td>Biarritz</td><td>11 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-biarritz/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Square Habitat Bidart</td><td>Bidart</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/bidart-64210" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Nestenn (Bidart)</td><td>Bidart</td><td>3 annonce(s) détectée(s)</td><td><a href="https://nestenn.com/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Acotztarra</td><td>Bidart</td><td>1 annonce(s) détectée(s)</td><td><a href="https://www.acotztarra.com/482-location-%C3%A0-l-ann%C3%A9e-saint-jean-de-luz" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Manoir de France</td><td>Bayonne</td><td>9 annonce(s) détectée(s)</td><td><a href="https://www.manoirdefrance.fr/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Aturri Immobilier</td><td>Bayonne</td><td>5 annonce(s) détectée(s)</td><td><a href="https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 Agence Nivadour</td><td>Bayonne</td><td>1 annonce(s) détectée(s)</td><td><a href="https://www.century21agencenivadour-bayonne.com/annonces/location/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Anglet, toutes agences)</td><td>Anglet</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-anglet/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Bayonne, toutes agences)</td><td>Bayonne</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-bayonne/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Bidart, toutes agences)</td><td>Bidart</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-bidart/" target="_blank" rel="noopener">ouvrir</a></td></tr></table></details>
+  <details class="bloc"><summary>État des 17 agences surveillées</summary><table><tr class="ok"><td>L&#x27;Agencerie Côte Basque</td><td>Anglet</td><td>1 annonce(s) détectée(s)</td><td><a href="https://cote-basque.lagencerie.fr/immobilier/location/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Le Logis Basque</td><td>Anglet</td><td>5 annonce(s) détectée(s)</td><td><a href="https://www.lelogisbasque.fr/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Orpi Agence des 5 Cantons</td><td>Anglet</td><td>9 annonce(s) détectée(s)</td><td><a href="https://www.orpi.com/ag5cantons/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Agence Olaizola</td><td>Biarritz</td><td>2 annonce(s) détectée(s)</td><td><a href="https://www.olaizola.immo/annonces/transaction/location.html" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Agence Benquet</td><td>Biarritz</td><td>7 annonce(s) détectée(s)</td><td><a href="https://www.agence-benquet.com/location-appartement-maison-biarritz/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Immobiarritz</td><td>Biarritz</td><td>2 annonce(s) détectée(s)</td><td><a href="http://www.immobiarritz.fr/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>AJP Mateille Biarritz</td><td>Biarritz</td><td>4 annonce(s) détectée(s)</td><td><a href="https://www.ajp-immobilier.com/agence-immobiliere/biarritz-64200/ajp-mateille-immobilier-biarritz/000044.htm" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Biarritz, toutes agences)</td><td>Biarritz</td><td>11 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-biarritz/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Square Habitat Bidart</td><td>Bidart</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/bidart-64210" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Nestenn (Bidart)</td><td>Bidart</td><td>2 annonce(s) détectée(s)</td><td><a href="https://nestenn.com/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Acotztarra</td><td>Bidart</td><td>1 annonce(s) détectée(s)</td><td><a href="https://www.acotztarra.com/482-location-%C3%A0-l-ann%C3%A9e-saint-jean-de-luz" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Manoir de France</td><td>Bayonne</td><td>9 annonce(s) détectée(s)</td><td><a href="https://www.manoirdefrance.fr/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Aturri Immobilier</td><td>Bayonne</td><td>5 annonce(s) détectée(s)</td><td><a href="https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 Agence Nivadour</td><td>Bayonne</td><td>1 annonce(s) détectée(s)</td><td><a href="https://www.century21agencenivadour-bayonne.com/annonces/location/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Anglet, toutes agences)</td><td>Anglet</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-anglet/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Bayonne, toutes agences)</td><td>Bayonne</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-bayonne/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Bidart, toutes agences)</td><td>Bidart</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-bidart/" target="_blank" rel="noopener">ouvrir</a></td></tr></table></details>
   <footer>Score = mots-clés positifs (vert) et négatifs (rouge) lus dans l’annonce + bonus surface / loyer / DPE ; ♥ à partir de 5.
   Positions sur la carte approximatives (quartier cité, sinon ville de l’agence). Temps vers l’hôpital calculés par la route depuis ce point (OpenStreetMap) ; « estimation » si le calcul n’a pas pu être fait.
   Les boutons Vu / Contacté / Visite / Non sont mémorisés sur cet appareil. Annonces retirées des sites depuis 3 jours supprimées.
