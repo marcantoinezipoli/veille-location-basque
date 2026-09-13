@@ -1889,7 +1889,7 @@
    "chambres": 2,
    "classement": "exclu",
    "contexte": "EXCLU 91300 MASSY Appartement à louer 60m² 3 pièces 2 chambres 1 007 € CC/Mois",
-   "derniere_vue": "2026-09-12",
+   "derniere_vue": "2026-09-13",
    "ecart_prix_pct": 19,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
@@ -5740,6 +5740,12 @@
    "agences_ok": 16,
    "date": "2026-09-13",
    "nouveautes": 1
+  },
+  {
+   "actives": 90,
+   "agences_ok": 17,
+   "date": "2026-09-13",
+   "nouveautes": 0
   },
   {
    "actives": 90,
