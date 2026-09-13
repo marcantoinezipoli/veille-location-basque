@@ -154,7 +154,7 @@
    "chambres": null,
    "classement": "exclu",
    "contexte": "54.00m² 1 1 GRAND T2 – ANGLET BLANCPIGNON Anglet 1 025€ /mois À louer jusqu’en juin – Grand 2 pièces meublé de 54 m²Comme une petite maison, ce grand 2 pièces meublé de 54 m² bénéficie d’une terrasse et d’une cour privative sans vis à vis.Il comprend un séjour, une cuisine, un coin buanderie, une sa",
-   "derniere_vue": "2026-09-12",
+   "derniere_vue": "2026-09-13",
    "ecart_prix_pct": 16,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
@@ -5740,6 +5740,12 @@
    "agences_ok": 16,
    "date": "2026-09-13",
    "nouveautes": 1
+  },
+  {
+   "actives": 90,
+   "agences_ok": 17,
+   "date": "2026-09-13",
+   "nouveautes": 0
   }
  ]
 }
