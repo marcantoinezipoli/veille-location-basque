@@ -586,7 +586,7 @@
    "classement": "exclu",
    "contexte": "EXCLU On aime beaucoup 22960 PLEDRAN Maison à louer 96m² 5 pièces 2 chambres 940 € CC/Mois",
    "derniere_vue": "2026-09-11",
-   "ecart_prix_pct": -30,
+   "ecart_prix_pct": -31,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -1076,7 +1076,7 @@
    "classement": "exclu",
    "contexte": "EXCLU Nouveauté 77310 SAINT FARGEAU PONTHIERRY Appartement à louer 57m² 2 pièces 1 chambre 810 € CC/Mois",
    "derniere_vue": "2026-09-13",
-   "ecart_prix_pct": 1,
+   "ecart_prix_pct": 0,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -1260,7 +1260,7 @@
    "contexte": "EXCLU Coup de coeur 11000 CARCASSONNE Appartement à louer 45m² 2 pièces 1 chambre 570 € CC/Mois",
    "derniere_vue": "2026-09-11",
    "ecart_prix_pct": -10,
-   "etiquette_prix": "dans le marché",
+   "etiquette_prix": "bon prix",
    "historique_prix": [
     {
      "date": "2026-09-11",
@@ -2703,6 +2703,52 @@
    "url": "https://www.century21.fr/projet-immobilier/?localisation=27921&filtre=rent&type=appartement",
    "ville_agence": "Anglet"
   },
+  "https://www.century21.fr/projet-immobilier?localisation=27999&filtre=rent&type=appartement": {
+   "agence": "Century 21 (Bayonne, toutes agences)",
+   "atouts": [
+    "terrasse",
+    "balcon",
+    "jardin",
+    "parking",
+    "cave",
+    "non meublé"
+   ],
+   "chambres": null,
+   "classement": "a_verifier",
+   "contact_cherche": true,
+   "contexte": "Voir d'autres biens sur la carte",
+   "derniere_vue": "2026-09-14",
+   "description": "Faites un premier repérage pour votre projet immobilier sur la cartographie proposée par CENTURY 21 : biens à vendre, à louer et vendus. Prix immobiliers et biens prochainement en vente. Votre projet immobilier avec CENTURY 21 Votre projet immobilier avec CENTURY 21 Localisation Appliquer Budget Quel est votre budget ? Min € Max € Appliquer Type de bien Maison Appartement Terrain Parking Immeuble Divers Appliquer Nombre de pièces Nombre de pièces 1 2 3 4 5 Nombre de chambres 1 2 3 4 5 Appliquer Superficie Quelle surface habitable ? Min m 2 Max m 2 Superficie du terrain ? Min m 2 Max m 2 Appliquer Autres spécificités Jardin Terrasse Accès PMR Balcon Cave / Sous-sol Vidéo 360 Parking Contrôle CLÉ Meublé Non meublé Appliquer La carte est en cours de chargement... Modifier ma recherche Votre projet immobilier avec CENTURY 21 Où cherchez-vous ? * Indiquez le numéro de votre rue pour une estimation plus précise Quel est votre budget ? Min € Max € Quel(s) type(s) de bien(s) recherchez-vous ? Maison Appartement Terrain Parking Immeuble Divers Combien de pièces ? 1 2 3 4 5 Combien de chambres ? 1 2 3 4 5 Quelles surfaces habitables ? Min m 2 Max m 2 Autres spécificités Jardin Terrasse Accès",
+   "dpe": null,
+   "fiche_lue": true,
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "mail": "dpo@century21france.com",
+   "meuble": true,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "photo": "https://www.century21.fr/theme/v6/images/facebook/century21_facebook-share.png",
+   "photo_cherchee": true,
+   "photos": [
+    "https://www.century21.fr/theme/v6/images/facebook/century21_facebook-share.png"
+   ],
+   "photos_cherchees": true,
+   "pieces": null,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-14",
+   "prix": null,
+   "reserves": [],
+   "score": 11,
+   "statut": "active",
+   "surface": null,
+   "titre": "Votre projet immobilier avec CENTURY 21",
+   "type": "maison",
+   "url": "https://www.century21.fr/projet-immobilier/?localisation=27999&filtre=rent&type=appartement",
+   "ville_agence": "Bayonne"
+  },
   "https://www.century21.fr/projet-immobilier?localisation=28023&filtre=rent&type=appartement": {
    "agence": "Century 21 (Bidart, toutes agences)",
    "atouts": [
@@ -2887,6 +2933,43 @@
    "titre": "Exclusivité ST JEAN DE LUZ 64 1 130 € par mois charges comprises 63,4 m2 , appartement , 4 pcs",
    "type": "appartement",
    "url": "https://www.century21.fr/trouver_logement/detail/15674714757/",
+   "ville_agence": "Biarritz"
+  },
+  "https://www.century21.fr/trouver_logement/detail/15717590057": {
+   "agence": "Century 21 (Biarritz, toutes agences)",
+   "atouts": [
+    "st jean",
+    "loyer 1300 €"
+   ],
+   "chambres": null,
+   "classement": "exclu",
+   "contexte": "Exclusivité ST JEAN DE LUZ 64 1 300 € par mois charges comprises 69,6 m 2 , appartement , 3 pcs",
+   "derniere_vue": "2026-09-14",
+   "historique_prix": [
+    {
+     "date": "2026-09-14",
+     "prix": 1300
+    }
+   ],
+   "itineraire_pos": "43.4832,-1.5586",
+   "itineraire_source": "route",
+   "km_hopital": 8.2,
+   "lat": 43.4832,
+   "lon": -1.5586,
+   "min_velo": 33,
+   "min_voiture": 13,
+   "motif_exclusion": "hors zone (st jean de luz)",
+   "pieces": null,
+   "position": "Biarritz (ville de l'agence)",
+   "premiere_vue": "2026-09-14",
+   "prix": 1300,
+   "reserves": [],
+   "score": 3,
+   "statut": "active",
+   "surface": null,
+   "titre": "Exclusivité ST JEAN DE LUZ 64 1 300 € par mois charges comprises 69,6 m2 , appartement , 3 pcs",
+   "type": "appartement",
+   "url": "https://www.century21.fr/trouver_logement/detail/15717590057/",
    "ville_agence": "Biarritz"
   },
   "https://www.century21.fr/trouver_logement/detail/15761023161": {
@@ -3294,7 +3377,7 @@
    "derniere_vue": "2026-09-14",
    "description": "LOCATION MEUBLÉE BAIL MOBILITÉ 10 mois (de septembre à juin) ou BAIL CODE CIVIL (logement de fonction ou résidence secondaire)BIARRITZ MILADYA louer très bel appartement T3 de 85m² avec grande terrasse, vue océan et montagne.Il comprend une entrée, un séjour-salon, deux chambres, une cuisine (lave-vaisselle, lave-linge, plaque, four, hotte) une salle de bains, une salle d'eau, un WC séparé.Place de parking privative.Disponible à partir du 25 septembre 2026 Appartement F3 à louer 3 pièces - 85,94 m 2 BIARRITZ - 64 Retour aux résultats Créer une alerte Modifier la recherche Accueil Location Location Appartement Location Appartement Pyrenees-Atlantiques (64) Location Appartement BIARRITZ (64200) Appartement F3 à louer 3 pièces - 85,94 m 2 BIARRITZ - 64 Ref : 20328 1 492 € par mois charges comprises Voir sur la carte 1/11 2/11 3/11 4/11 5/11 6/11 + 5 7/11 8/11 9/11 10/11 11/11 Exclusivité Envoyer un message Message Téléphoner à l'agence Téléphoner Planifier une visite et déposer un dossier Visiter le site dédié Envoyer ce bien à un ami Description LOCATION MEUBLÉE BAIL MOBILITÉ 10 mois (de septembre à juin) ou BAIL CODE CIVIL (logement de fonction ou résidence secondaire) BIARRITZ MILA",
    "dpe": null,
-   "ecart_prix_pct": 25,
+   "ecart_prix_pct": 24,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -5855,6 +5938,12 @@
    "agences_ok": 17,
    "date": "2026-09-14",
    "nouveautes": 3
+  },
+  {
+   "actives": 90,
+   "agences_ok": 17,
+   "date": "2026-09-14",
+   "nouveautes": 2
   }
  ]
 }

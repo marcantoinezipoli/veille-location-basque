@@ -1307,6 +1307,17 @@
   "type": "maison",
   "ville_agence": "Anglet"
  },
+ "https://www.century21.fr/projet-immobilier?localisation=27999&filtre=rent&type=appartement": {
+  "agence": "Century 21 (Bayonne, toutes agences)",
+  "classement": "a_verifier",
+  "derniere_vue": "2026-09-14",
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-14",
+  "statut": "active",
+  "titre": "Votre projet immobilier avec CENTURY 21",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
  "https://www.century21.fr/projet-immobilier?localisation=28023&filtre=rent&type=appartement": {
   "agence": "Century 21 (Bidart, toutes agences)",
   "classement": "a_verifier",
@@ -1380,6 +1391,24 @@
   "prix": 1130,
   "statut": "active",
   "titre": "Exclusivité ST JEAN DE LUZ 64 1 130 € par mois charges comprises 63,4 m2 , appartement , 4 pcs",
+  "type": "appartement",
+  "ville_agence": "Biarritz"
+ },
+ "https://www.century21.fr/trouver_logement/detail/15717590057": {
+  "agence": "Century 21 (Biarritz, toutes agences)",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-14",
+  "historique_prix": [
+   {
+    "date": "2026-09-14",
+    "prix": 1300
+   }
+  ],
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-09-14",
+  "prix": 1300,
+  "statut": "active",
+  "titre": "Exclusivité ST JEAN DE LUZ 64 1 300 € par mois charges comprises 69,6 m2 , appartement , 3 pcs",
   "type": "appartement",
   "ville_agence": "Biarritz"
  },
