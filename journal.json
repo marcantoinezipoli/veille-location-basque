@@ -1308,7 +1308,7 @@
  },
  "https://www.century21.fr/projet-immobilier?localisation=27921&filtre=rent&type=appartement": {
   "agence": "Century 21 (Anglet, toutes agences)",
-  "classement": "exclu",
+  "classement": "a_verifier",
   "derniere_vue": "2026-09-15",
   "position": "Anglet (ville de l'agence)",
   "premiere_vue": "2026-09-15",
@@ -1330,7 +1330,7 @@
  },
  "https://www.century21.fr/projet-immobilier?localisation=28023&filtre=rent&type=appartement": {
   "agence": "Century 21 (Bidart, toutes agences)",
-  "classement": "exclu",
+  "classement": "a_verifier",
   "derniere_vue": "2026-09-15",
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-09-15",
