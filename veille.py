@@ -674,6 +674,8 @@ def enrichir_par_fiche(annonce, criteres, scoring):
     if texte:
         annonce["description"] = texte[:1200]
         titre_actuel = annonce.get("titre", "")
+        if titre_h1 and TEXTES_PUBLICITAIRES.match(titre_h1):
+            titre_h1 = None
         if titre_h1 and 8 <= len(titre_h1) <= 120 and (
                 len(titre_actuel) < 12 or TEXTES_NAVIGATION.match(titre_actuel)
                 or titre_actuel == annonce.get("contexte", "")[:140]):
@@ -685,6 +687,10 @@ def enrichir_par_fiche(annonce, criteres, scoring):
         annonce["dpe"] = extraire_dpe(texte) or annonce.get("dpe")
         annonce["meuble"] = bool(RE_MEUBLE.search(texte))
         annonce["classement"] = classer(annonce, criteres)
+    # une page sans aucune caractéristique chiffrée n'est pas une annonce
+    if annonce.get("fiche_lue") and not any(annonce.get(k) for k in ("prix", "surface", "pieces", "chambres")):
+        annonce["classement"] = "exclu"
+        annonce["motif_exclusion"] = "page d'agence, pas une annonce"
     annonce["score"], annonce["atouts"], annonce["reserves"] = scorer(annonce, scoring)
 
 
