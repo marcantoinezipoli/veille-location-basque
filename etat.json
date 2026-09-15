@@ -3542,6 +3542,55 @@
    "url": "https://www.century21.fr/trouver_logement/detail/16937861793/",
    "ville_agence": "Bayonne"
   },
+  "https://www.century21.fr/trouver_logement/detail/16953713569": {
+   "agence": "Century 21 (Bayonne, toutes agences)",
+   "atouts": [
+    "balcon",
+    "cuisine aménagée",
+    "loyer 812 €"
+   ],
+   "chambres": null,
+   "classement": "match",
+   "contexte": "Voir le détail du bien",
+   "derniere_vue": "2026-09-15",
+   "description": "BAYONNE T3 meublé avec balconAppartement T3 meublé dans un environnement recherché, à proximité immédiate des commerces, transports et commodités.Ce logement se compose d'une entrée, d'un séjour donnant accès à un balcon, d'une cuisine aménagée et équipée, de deux chambres, d'une salle de bains avec WC.Appartement entièrement meublé, fonctionnel et prêt à accueillir ses futurs occupants. Situation idéale, proche du centre-ville et des principaux axes.Disponible 1er octobre 2026 Appartement F3 à louer 3 pièces - 57,15 m 2 BAYONNE - 64 Retour aux résultats Créer une alerte Modifier la recherche Accueil Location Location Appartement Location Appartement Pyrenees-Atlantiques (64) Location Appartement BAYONNE (64100) Appartement F3 à louer 3 pièces - 57,15 m 2 BAYONNE - 64 Ref : 33173 864 € par mois charges comprises Voir sur la carte 1/6 2/6 3/6 4/6 5/6 6/6 Exclusivité Envoyer un message Message Téléphoner à l'agence Téléphoner Planifier une visite et déposer un dossier Envoyer ce bien à un ami Description BAYONNE T3 meublé avec balcon Appartement T3 meublé dans un environnement recherché, à proximité immédiate des commerces, transports et commodités. Ce logement se compose d'une entré",
+   "dpe": null,
+   "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-15",
+     "prix": 812
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "mail": "dpo@century21france.com",
+   "meuble": true,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "photo": "https://www.century21.fr/imagesBien/s3/202/2295/c21_202_2295_33173_8_6EE0A9AA-E047-431E-93FD-0FFA7ECEA0B5.jpg",
+   "photo_cherchee": true,
+   "photos": [
+    "https://www.century21.fr/imagesBien/s3/202/2295/c21_202_2295_33173_8_6EE0A9AA-E047-431E-93FD-0FFA7ECEA0B5.jpg"
+   ],
+   "photos_cherchees": true,
+   "pieces": 3,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-15",
+   "prix": 812,
+   "reserves": [],
+   "score": 5,
+   "statut": "active",
+   "surface": null,
+   "tel": "0559452410",
+   "titre": "Appartement F3 à louer 3 pièces - 57,15 m 2 BAYONNE - 64",
+   "type": "appartement",
+   "url": "https://www.century21.fr/trouver_logement/detail/16953713569/",
+   "ville_agence": "Bayonne"
+  },
   "https://www.century21agencenivadour-bayonne.com/trouver_logement/detail/15635506173": {
    "agence": "Century 21 Agence Nivadour",
    "atouts": [
@@ -4168,6 +4217,682 @@
    "url": "https://www.immobilier-bayonne-aturri.com/location-maison-5-pieces-st-martin-d-arrossa/bien-immobilier/2/lmai98230",
    "ville_agence": "Bayonne"
   },
+  "https://www.laforet.com/agence-immobiliere/anglet/louer/anglet/appartement-1-piece-52842685": {
+   "agence": "Laforêt (64, appartements)",
+   "atouts": [
+    "loyer 580 €"
+   ],
+   "chambres": 1,
+   "classement": "exclu",
+   "contexte": "(nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) 0 / 0 Appartement 580 €/mois ANGLET (64600) 30 m² • 1 pièce • 1 chambre Surface : 30 m² • 1 pièce • 1 chbre (nouvel onglet) Message Appeler",
+   "derniere_vue": "2026-09-15",
+   "ecart_prix_pct": 20,
+   "etiquette_prix": "au-dessus du marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-15",
+     "prix": 580
+    }
+   ],
+   "itineraire_pos": "43.4855,-1.5185",
+   "itineraire_source": "route",
+   "km_hopital": 4.9,
+   "lat": 43.4855,
+   "lon": -1.5185,
+   "min_velo": 20,
+   "min_voiture": 9,
+   "pieces": 1,
+   "position": "Anglet (ville de l'agence)",
+   "premiere_vue": "2026-09-15",
+   "prix": 580,
+   "prix_m2": 19.3,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 30.0,
+   "titre": "(nouvel onglet)",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/anglet/louer/anglet/appartement-1-piece-52842685",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/anglet/louer/anglet/appartement-1-piece-52890488": {
+   "agence": "Laforêt (64, appartements)",
+   "atouts": [
+    "loyer 500 €"
+   ],
+   "chambres": 1,
+   "classement": "exclu",
+   "contexte": "(nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) 0 / 0 Appartement 500 €/mois ANGLET (64600) 28 m² • 1 pièce • 1 chambre Surface : 28 m² • 1 pièce • 1 chbre (nouvel onglet) Message Appeler",
+   "derniere_vue": "2026-09-15",
+   "ecart_prix_pct": 12,
+   "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-15",
+     "prix": 500
+    }
+   ],
+   "itineraire_pos": "43.4855,-1.5185",
+   "itineraire_source": "route",
+   "km_hopital": 4.9,
+   "lat": 43.4855,
+   "lon": -1.5185,
+   "min_velo": 20,
+   "min_voiture": 9,
+   "pieces": 1,
+   "position": "Anglet (ville de l'agence)",
+   "premiere_vue": "2026-09-15",
+   "prix": 500,
+   "prix_m2": 17.9,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 28.0,
+   "titre": "(nouvel onglet)",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/anglet/louer/anglet/appartement-1-piece-52890488",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/bayonne/louer/bayonne/appartement-4-pieces-52875690": {
+   "agence": "Laforêt (64, appartements)",
+   "atouts": [
+    "lumineux",
+    "extérieur",
+    "parking",
+    "vue dégagée",
+    "ascenseur",
+    "cave",
+    "location à l'année",
+    "forêt",
+    "94 m²",
+    "loyer 1499 €"
+   ],
+   "chambres": 3,
+   "classement": "match",
+   "contexte": "(nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) 0 / 0 Appartement 1 499 €/mois BAYONNE (64100) 94 m² • 4 pièces • 3 chambres Ascenseur • 1 cave • 1 salle de bain • Parking (nouvel onglet) Message Appeler",
+   "derniere_vue": "2026-09-15",
+   "description": "15/09/2026 - ✅ T4 avec vue imprenable sur l'Adour - Bayonne À louer à l'année, bel appartement de type 4 situé au 6e étage sur 8 d'une résidence i... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T4 BAYONNE à louer 1 499 €/mois Charges comprises 94 m² • 4 pièces • 3 chambres Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 4 pièces Surface : 94.08 m² Surf. séj : 36.8 m² 3 chbres 1 salle de bain Intérieur Cuisine Indépendante Chauffage Gaz Ascenseur 1 cave Extérieur Parking Couvert Autres Ann. const. : 1960 Description T4 avec vue imprenable sur l'Adour - Bayonne À louer à l'année, bel appartement de type 4 situé au 6e étage sur 8 d'une résidence idéalement située Allée Marine à Bayonne. Bénéficiant d'une triple exposition, cet appartement lumineux offre un vaste séjour double d'environ 36 m², trois chambres et vient d'être entièrement fraîchement repeint. Vous profiterez également d'une très belle vue dégagée sur l'Adour, la Citadelle et la cathédrale de Bayonne. Une cave ainsi qu'une place de parking en sous-sol sécurisé complètent ce bien. Disponible immédiatement pour une location à l'année. Loyer hors charges 1 199,00 € ",
+   "dpe": null,
+   "ecart_prix_pct": -1,
+   "etiquette_prix": "dans le marché",
+   "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-15",
+     "prix": 1499
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "mail": "bayonne@laforet.com",
+   "meuble": true,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "photo": "https://laforetbusiness.laforet-intranet.com/office9/laforet_bayonne_akp/catalog/images/pr_p/5/2/8/7/5/6/9/0/52875690a.jpg",
+   "photo_cherchee": true,
+   "photos": [
+    "https://laforetbusiness.laforet-intranet.com/office9/laforet_bayonne_akp/catalog/images/pr_p/5/2/8/7/5/6/9/0/52875690a.jpg",
+    "https://www.laforet.com/glide/storage/media/58799/4ef4c4ff-eee5-4f58-9c7c-d1cf080e21f8.jpeg?w=140&h=140&fit=crop&q=75&fm=webp&s=264c95638026c090ee7a799af4d4649f"
+   ],
+   "photos_cherchees": true,
+   "pieces": 4,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-15",
+   "prix": 1499,
+   "prix_m2": 15.9,
+   "reserves": [],
+   "score": 18,
+   "statut": "active",
+   "surface": 94.0,
+   "tel": "0559440200",
+   "titre": "(nouvel onglet)",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/bayonne/louer/bayonne/appartement-4-pieces-52875690",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/bayonne/louer/bidart/maison-2-pieces-52875685": {
+   "agence": "Laforêt (64, maisons)",
+   "atouts": [
+    "terrasse",
+    "parking",
+    "loyer 646 €"
+   ],
+   "chambres": 1,
+   "classement": "exclu",
+   "contexte": "(nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) 1 / 4 Maison 646 €/mois BIDART (64210) 30 m² • 2 pièces • 1 chambre Terrasse • 1 salle d'eau • Meublé • Parking (nouvel onglet) Message Appeler",
+   "derniere_vue": "2026-09-15",
+   "ecart_prix_pct": 34,
+   "etiquette_prix": "au-dessus du marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-15",
+     "prix": 646
+    }
+   ],
+   "itineraire_pos": "43.437,-1.5915",
+   "itineraire_source": "route",
+   "km_hopital": 12.6,
+   "lat": 43.437,
+   "lon": -1.5915,
+   "min_velo": 50,
+   "min_voiture": 14,
+   "pieces": 2,
+   "position": "Bidart (ville de l'agence)",
+   "premiere_vue": "2026-09-15",
+   "prix": 646,
+   "prix_m2": 21.5,
+   "reserves": [],
+   "score": 7,
+   "statut": "active",
+   "surface": 30.0,
+   "titre": "(nouvel onglet)",
+   "type": "maison",
+   "url": "https://www.laforet.com/agence-immobiliere/bayonne/louer/bidart/maison-2-pieces-52875685",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/biarritz/louer/biarritz/appartement-4-pieces-52924306": {
+   "agence": "Laforêt (64, appartements)",
+   "atouts": [
+    "avec goût",
+    "belle hauteur sous plafond",
+    "terrasse",
+    "cave",
+    "cuisine aménagée",
+    "forêt",
+    "76 m²",
+    "loyer 1530 €"
+   ],
+   "chambres": 2,
+   "classement": "exclu",
+   "contexte": "Nouveauté (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) 1 / 7 Appartement 1 530 €/mois BIARRITZ (64200) 76 m² • 4 pièces • 2 chambres Terrasse • 1 cave • 1 salle de bain • 1 salle d'eau (nouvel onglet) Message Appeler",
+   "derniere_vue": "2026-09-15",
+   "description": "15/09/2026 - ✅ Au coeur de l'hypercentre de Biarritz, découvrez ce charmant appartement de caractère occupant l'intégralité du rez-de-chaussée d'un... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T4 BIARRITZ à louer 1 530 €/mois Charges comprises 76 m² • 4 pièces • 2 chambres Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 4 pièces Surface : 75.66 m² 2 chbres 1 salle de bain 1 salle d'eau Intérieur Cuisine Aménagée/équipée Chauffage Gaz Terrasse 1 cave Meublé Autres Ann. const. : 1930 Soumis à la copropriété Nb lots copro : 2 Description Au coeur de l'hypercentre de Biarritz, découvrez ce charmant appartement de caractère occupant l'intégralité du rez-de-chaussée d'une élégante maison des années 1930. Au sein d'une petite copropriété intimiste composée de seulement deux lots, cet appartement séduit par son atmosphère chaleureuse et authentique, sublimée par de beaux éléments anciens : parquet d'origine, belle hauteur sous plafond et volumes généreux. Il a été entièrement meublé avec goût, dans un esprit à la fois élégant et confortable. Il se compose d'une entrée avec dégagement et nombreux rangements, une pièce de vie ouv",
+   "dpe": null,
+   "ecart_prix_pct": 25,
+   "etiquette_prix": "au-dessus du marché",
+   "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-09-15",
+     "prix": 1530
+    }
+   ],
+   "itineraire_pos": "43.4832,-1.5586",
+   "itineraire_source": "route",
+   "km_hopital": 8.2,
+   "lat": 43.4832,
+   "lon": -1.5586,
+   "mail": "biarritz@laforet.com",
+   "meuble": true,
+   "min_velo": 33,
+   "min_voiture": 13,
+   "motif_exclusion": "rez-de-chaussée",
+   "photo": "https://laforetbusiness.laforet-intranet.com/office9/laforet_biarritz/catalog/images/pr_p/5/2/9/2/4/3/0/6/52924306a.jpg",
+   "photo_cherchee": true,
+   "photos": [
+    "https://laforetbusiness.laforet-intranet.com/office9/laforet_biarritz/catalog/images/pr_p/5/2/9/2/4/3/0/6/52924306a.jpg",
+    "https://www.laforet.com/glide/storage/media/65877/laforet-1.jpg?w=140&h=140&fit=crop&q=75&fm=webp&s=fea21a9bd0daeaad6f22a4566eb5b67a"
+   ],
+   "photos_cherchees": true,
+   "pieces": 4,
+   "position": "Biarritz (ville de l'agence)",
+   "premiere_vue": "2026-09-15",
+   "prix": 1530,
+   "prix_m2": 20.1,
+   "reserves": [],
+   "score": 12,
+   "statut": "active",
+   "surface": 76.0,
+   "tel": "0559220200",
+   "titre": "(nouvel onglet)",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/biarritz/louer/biarritz/appartement-4-pieces-52924306",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/pau/louer/billere/appartement-1-piece-52531297": {
+   "agence": "Laforêt (64, appartements)",
+   "atouts": [
+    "loyer 445 €"
+   ],
+   "chambres": 1,
+   "classement": "exclu",
+   "contexte": "(nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) 0 / 0 Appartement 445 €/mois BILLERE (64140) 21 m² • 1 pièce • 1 chambre 1 salle d'eau • Meublé (nouvel ongl",
+   "derniere_vue": "2026-09-15",
+   "ecart_prix_pct": 32,
+   "etiquette_prix": "au-dessus du marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-15",
+     "prix": 445
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (64140)",
+   "pieces": 1,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-15",
+   "prix": 445,
+   "prix_m2": 21.2,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 21.0,
+   "titre": "Appartement 445 €/mois BILLERE (64140) 21 m² • 1 pièce • 1 chambre 1 salle d'eau • Meublé (nouvel onglet)",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/pau/louer/billere/appartement-1-piece-52531297",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/pau/louer/idron/maison-4-pieces-22063814": {
+   "agence": "Laforêt (64, maisons)",
+   "atouts": [
+    "terrasse",
+    "garage",
+    "119 m²",
+    "loyer 1500 €"
+   ],
+   "chambres": 3,
+   "classement": "exclu",
+   "contexte": "(nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) 1 / 11 Maison 1 500 €/mois IDRON (64320) 119 m² • 4 pièces • 3 chambres Surf. terrain : 750 m² • Terrasse • Piscine • Garage",
+   "derniere_vue": "2026-09-15",
+   "ecart_prix_pct": -21,
+   "etiquette_prix": "bon prix",
+   "historique_prix": [
+    {
+     "date": "2026-09-15",
+     "prix": 1500
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "pieces": 4,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-15",
+   "prix": 1500,
+   "prix_m2": 12.6,
+   "reserves": [],
+   "score": 9,
+   "statut": "active",
+   "surface": 119.0,
+   "titre": "Maison 1 500 €/mois IDRON (64320) 119 m² • 4 pièces • 3 chambres Surf. terrain : 750 m² • Terrasse • Piscine • Garage (nouvel onglet)",
+   "type": "maison",
+   "url": "https://www.laforet.com/agence-immobiliere/pau/louer/idron/maison-4-pieces-22063814",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-2-pieces-21594199": {
+   "agence": "Laforêt (64, appartements)",
+   "atouts": [
+    "loyer 570 €"
+   ],
+   "chambres": 1,
+   "classement": "exclu",
+   "contexte": "(nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) 1 / 5 Appartement 570 €/mois PAU (64000) 32 m² • 2 pièces • 1 chambre 1 salle d'eau • Meublé (nouvel onglet) Message Appeler",
+   "derniere_vue": "2026-09-15",
+   "ecart_prix_pct": 11,
+   "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-15",
+     "prix": 570
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (64000)",
+   "pieces": 2,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-15",
+   "prix": 570,
+   "prix_m2": 17.8,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 32.0,
+   "titre": "(nouvel onglet)",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-2-pieces-21594199",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-2-pieces-21842875": {
+   "agence": "Laforêt (64, appartements)",
+   "atouts": [
+    "balcon",
+    "loyer 565 €"
+   ],
+   "chambres": 1,
+   "classement": "exclu",
+   "contexte": "(nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) 1 / 7 Appartement 565 €/mois PAU (64000) 40 m² • 2 pièces • 1 chambre Cheminée • 1 salle de bain • Balcon (nouvel onglet) Message Appeler",
+   "derniere_vue": "2026-09-15",
+   "ecart_prix_pct": -12,
+   "etiquette_prix": "bon prix",
+   "historique_prix": [
+    {
+     "date": "2026-09-15",
+     "prix": 565
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (64000)",
+   "pieces": 2,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-15",
+   "prix": 565,
+   "prix_m2": 14.1,
+   "reserves": [],
+   "score": 4,
+   "statut": "active",
+   "surface": 40.0,
+   "titre": "(nouvel onglet)",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-2-pieces-21842875",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-2-pieces-22528572": {
+   "agence": "Laforêt (64, appartements)",
+   "atouts": [
+    "balcon",
+    "ascenseur",
+    "loyer 700 €"
+   ],
+   "chambres": 1,
+   "classement": "exclu",
+   "contexte": "(nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) 1 / 7 Appartement 700 €/mois PAU (64000) 36 m² • 2 pièces • 1 chambre Ascenseur • 1 salle de bain • Balcon • Meublé (nouvel onglet) Message Appeler",
+   "derniere_vue": "2026-09-15",
+   "ecart_prix_pct": 21,
+   "etiquette_prix": "au-dessus du marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-15",
+     "prix": 700
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (64000)",
+   "pieces": 2,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-15",
+   "prix": 700,
+   "prix_m2": 19.4,
+   "reserves": [],
+   "score": 5,
+   "statut": "active",
+   "surface": 36.0,
+   "titre": "(nouvel onglet)",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-2-pieces-22528572",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-2-pieces-52220794": {
+   "agence": "Laforêt (64, appartements)",
+   "atouts": [
+    "parking",
+    "ascenseur",
+    "loyer 600 €"
+   ],
+   "chambres": 1,
+   "classement": "exclu",
+   "contexte": "(nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) 1 / 9 Appartement 600 €/mois PAU (64000) 37 m² • 2 pièces • 1 chambre Piscine • Ascenseur • 1 salle de bain • Parking (nouvel onglet) Message Appeler",
+   "derniere_vue": "2026-09-15",
+   "ecart_prix_pct": 1,
+   "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-15",
+     "prix": 600
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (64000)",
+   "pieces": 2,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-15",
+   "prix": 600,
+   "prix_m2": 16.2,
+   "reserves": [],
+   "score": 5,
+   "statut": "active",
+   "surface": 37.0,
+   "titre": "(nouvel onglet)",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-2-pieces-52220794",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-2-pieces-52891789": {
+   "agence": "Laforêt (64, appartements)",
+   "atouts": [
+    "loyer 575 €"
+   ],
+   "chambres": 1,
+   "classement": "exclu",
+   "contexte": "(nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) 1 / 7 Appartement 575 €/mois PAU (64000) 33 m² • 2 pièces • 1 chambre 1 salle d'eau • Meublé (nouvel onglet) Message Appeler",
+   "derniere_vue": "2026-09-15",
+   "ecart_prix_pct": 8,
+   "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-15",
+     "prix": 575
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (64000)",
+   "pieces": 2,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-15",
+   "prix": 575,
+   "prix_m2": 17.4,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 33.0,
+   "titre": "(nouvel onglet)",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-2-pieces-52891789",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-3-pieces-52239904": {
+   "agence": "Laforêt (64, appartements)",
+   "atouts": [
+    "terrasse",
+    "garage",
+    "ascenseur",
+    "cave",
+    "loyer 919 €"
+   ],
+   "chambres": 2,
+   "classement": "exclu",
+   "contexte": "(nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) 0 / 0 Appartement 919 €/mois PAU (64000) 60 m² • 3 pièces • 2 chambres Terrasse • Ascenseur • Garage • 1 cave (nouvel onglet",
+   "derniere_vue": "2026-09-15",
+   "ecart_prix_pct": -5,
+   "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-15",
+     "prix": 919
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "pieces": 3,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-15",
+   "prix": 919,
+   "prix_m2": 15.3,
+   "reserves": [],
+   "score": 9,
+   "statut": "active",
+   "surface": 60.0,
+   "titre": "Appartement 919 €/mois PAU (64000) 60 m² • 3 pièces • 2 chambres Terrasse • Ascenseur • Garage • 1 cave (nouvel onglet)",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-3-pieces-52239904",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-3-pieces-52918850": {
+   "agence": "Laforêt (64, appartements)",
+   "atouts": [
+    "balcon",
+    "cave",
+    "loyer 750 €"
+   ],
+   "chambres": 2,
+   "classement": "exclu",
+   "contexte": "(nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) 1 / 10 Appartement 750 €/mois PAU (64000) 55 m² • 3 pièces • 2 chambres 1 cave • 1 salle d'eau • Balcon • Meublé (nouvel onglet) Message App",
+   "derniere_vue": "2026-09-15",
+   "ecart_prix_pct": -15,
+   "etiquette_prix": "bon prix",
+   "historique_prix": [
+    {
+     "date": "2026-09-15",
+     "prix": 750
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (64000)",
+   "pieces": 3,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-15",
+   "prix": 750,
+   "prix_m2": 13.6,
+   "reserves": [],
+   "score": 5,
+   "statut": "active",
+   "surface": 55.0,
+   "titre": "Appartement 750 €/mois PAU (64000) 55 m² • 3 pièces • 2 chambres 1 cave • 1 salle d'eau • Balcon • Meublé (nouvel onglet)",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-3-pieces-52918850",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-4-pieces-52271103": {
+   "agence": "Laforêt (64, appartements)",
+   "atouts": [
+    "loyer 800 €"
+   ],
+   "chambres": 3,
+   "classement": "exclu",
+   "contexte": "(nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) 1 / 9 Appartement 800 €/mois PAU (64000) 68 m² • 4 pièces • 3 chambres 1 salle de bain • Meublé (nouvel onglet) Message Appeler",
+   "derniere_vue": "2026-09-15",
+   "ecart_prix_pct": -26,
+   "etiquette_prix": "bon prix",
+   "historique_prix": [
+    {
+     "date": "2026-09-15",
+     "prix": 800
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (64000)",
+   "pieces": 4,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-15",
+   "prix": 800,
+   "prix_m2": 11.8,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 68.0,
+   "titre": "(nouvel onglet)",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-4-pieces-52271103",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-4-pieces-52916419": {
+   "agence": "Laforêt (64, appartements)",
+   "atouts": [
+    "loyer 850 €"
+   ],
+   "chambres": 3,
+   "classement": "exclu",
+   "contexte": "Nouveauté (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) (nouvel onglet) 1 / 9 Appartement 850 €/mois PAU (64000) 68 m² • 4 pièces • 3 chambres 1 salle de bain (nouvel onglet) Message Appeler",
+   "derniere_vue": "2026-09-15",
+   "ecart_prix_pct": -22,
+   "etiquette_prix": "bon prix",
+   "historique_prix": [
+    {
+     "date": "2026-09-15",
+     "prix": 850
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (64000)",
+   "pieces": 4,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-15",
+   "prix": 850,
+   "prix_m2": 12.5,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 68.0,
+   "titre": "(nouvel onglet)",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-4-pieces-52916419",
+   "ville_agence": "Bayonne"
+  },
   "https://www.lelogisbasque.fr/location/1-anglet/maison/2333-magnifique-maison-sur-3-niveaux-avec-studio-independant-a-anglet-montbrun": {
    "agence": "Le Logis Basque",
    "atouts": [
@@ -4498,7 +5223,7 @@
    "derniere_vue": "2026-09-15",
    "description": "Ã? louer Ã l'annÃ©e- T2 bis meublÃ© Biarritz ProximitÃ© CÃ´te Biarritz Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Biarritz 1200 € Ã? louer Ã l'annÃ©e- T2 bis meublÃ© Biarritz ProximitÃ© CÃ´te à louer de 2 pièce(s) sur 65 m² Retour au listing Points clés... 2 pièce(s) , 65 m² 1 chambre(s) Ref. B5262800 Descriptif du bien • Ã? louer Ã l'annÃ©e- T2 bis meublÃ© Biarritz ProximitÃ© CÃ´te À proximité immédiate de la Côte des Basques et des Halles de Biarritz, découvrez ce charmant T2 bis meublé, agréable et fonctionnel, bénéficiant d\\'un emplacement particulièrement recherché. L\\'appartement se compose d\\'une chambre principale avec sa salle de bains privative équipée d\\'une baignoire. Une seconde pièce aménagée avec un lit superposé complète l\\'espace nuit et pourra parfaitement convenir à des enfants. Une troisième pièce peut être aménagée selon les besoins en bureau ou en espace de couchage d\\'appoint. Le logement dispose également d\\'un agréable séjour ainsi que d\\'une cuisine entièrement équipée offrant un cadre de vie confortable et pratique au quotidien. Vous profiterez pleinement de la vie biarrote gr",
    "dpe": "D",
-   "ecart_prix_pct": 35,
+   "ecart_prix_pct": 15,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -4547,8 +5272,8 @@
    "derniere_vue": "2026-09-15",
    "description": "Ã? louer Ã l'annÃ©e T2 Bis plein de charme au coeur de Biarri Biarritz Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Biarritz 1310 € Ã? louer Ã l'annÃ©e T2 Bis plein de charme au coeur de Biarri à louer de 2 pièce(s) sur 72 m² Retour au listing Points clés... 2 pièce(s) , 72 m² 1 chambre(s) 1 salle(s) de bains Ref. 2154-1688 Descriptif du bien • Ã? louer Ã l'annÃ©e T2 Bis plein de charme au coeur de Biarri À louer à l\\'année T2 Bis plein de charme au coeur de Biarritz À seulement quelques pas des Halles, cet appartement de 70 m2 séduit par son cachet authentique et son emplacement idéal. Son parquet ancien, ses cheminées décoratives et sa belle hauteur sous plafond lui confèrent une atmosphère chaleureuse et élégante. L\\'espace de vie est agréable et lumineux, avec un séjour convivial qui s\\'ouvre sur un bureau pouvant également servir de second coin nuit. La chambre principale offre un espace confortable et intimiste. La cuisine rénovée et semi-équipée (plaques et hotte) allie modernité et praticité, tandis que la salle d\\'eau, récemment refaite à neuf, apporte une touche contemporaine et fonctionnelle. U",
    "dpe": "D",
-   "ecart_prix_pct": 33,
-   "etiquette_prix": "au-dessus du marché",
+   "ecart_prix_pct": 13,
+   "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
     {
@@ -4592,7 +5317,7 @@
    "derniere_vue": "2026-09-15",
    "description": "Ã? louer T4 vide au coeur de Bayonne, Ã proximitÃ© de la Cath Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 1053 € Ã? louer T4 vide au coeur de Bayonne, Ã proximitÃ© de la Cath à louer de 4 pièce(s) sur 92 m² Retour au listing Points clés... 4 pièce(s) , 92 m² 3 chambre(s) 2 salle(s) de bains Ref. B779000 Descriptif du bien • Ã? louer T4 vide au coeur de Bayonne, Ã proximitÃ© de la Cath Dans le secteur recherché du grand Bayonne à proximité de la Cathédrale, découvrez cet appartement T4 vide situé au 1er étage d\\'un immeuble sans ascenseur. L\\'appartement se compose d\\'une salle de séjour, de trois chambres, d\\'une cuisine, d\\'une salle d\\'eau avec WC, d\\'une salle de bain ainsi que d\\'un WC indépendant. Une cave complète ce bien. Idéalement situé au coeur de Bayonne, dans un secteur central et agréable, cet appartement offre une configuration fonctionnelle avec trois chambres, adaptée à une famille ou à un couple recherchant de beaux volumes. NoB779000 BAYONNE Appartement Nombre de pièces : 4 Surface habitable : 92.68m2 DPE : D ZONE SOUMISE A ENCADREMENT DES LOYERS LOYER CC / mois : 1053.6",
    "dpe": "D",
-   "ecart_prix_pct": -17,
+   "ecart_prix_pct": -29,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -4657,8 +5382,8 @@
    "derniere_vue": "2026-09-15",
    "description": "Appartement 3 piÃ¨ces - 45.14 m2 BAIL MEUBLE A L ANNEE Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 792 € Appartement 3 piÃ¨ces - 45.14 m2 BAIL MEUBLE A L ANNEE à louer de 3 pièce(s) sur 45 m² Retour au listing Points clés... 3 pièce(s) , 45 m² 2 chambre(s) 1 salle(s) de bains Ref. B2923000 Descriptif du bien • Appartement 3 piÃ¨ces - 45.14 m2 BAIL MEUBLE A L ANNEE BAYONNE - MARRACQ - BAIL MEUBLE A L ANNEE Venez découvrir cet appartement 3 pièces entièrement rénové et meublé de 45m2 situé dans une ravissante bâtisse du XIXè, remplie de cachet à Bayonne, quartier Marracq. Il est composé d\\'une salle de séjour avec coin cuisine, deux chambres avec placards, une salle d\\'eau avec WC. Pour rappel, le bien ne dispose pas d\\'emplacement de parking. Emplacement idéal, proche de toutes commodités (commerces, écoles, lycées) et des transports en communs. A venir découvrir rapidement ! Disponible début septembre ! Manoir de France: 05.59.59.66.33 NoB2923000 BAYONNE Appartement Nombre de pièces : 3 Surface habitable : 45.14m2 DPE : D ZONE SOUMISE A ENCADREMENT DES LOYERS LOYER CC / mois : 792.83 EUR ",
    "dpe": "D",
-   "ecart_prix_pct": 28,
-   "etiquette_prix": "au-dessus du marché",
+   "ecart_prix_pct": 10,
+   "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
     {
@@ -4749,8 +5474,8 @@
    "derniere_vue": "2026-09-15",
    "description": "Appartement T3 de 64m2, Bayonne quartier Mousserolles Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 827 € Appartement T3 de 64m2, Bayonne quartier Mousserolles à louer de 3 pièce(s) sur 64 m² Retour au listing Points clés... 3 pièce(s) , 64 m² 1 salle(s) de bains Ref. 277-1031 Descriptif du bien • Appartement T3 de 64m2, Bayonne quartier Mousserolles A louer dans un petit chateau récemment réhabilité avec goût, ce beau T3 rénové de 64m2 sous les combles. Dans une résidence avec un grand parc arboré venez découvrir ce charmant T3 au 2ème et dernier étage, qui comprend une pièce à vivre très agréable avec ces poutres apparentes et son plancher, une cuisine équipée, meublée et semi-ouverte sur la pièce à vivre, deux chambres, d\\'une salle d\\'eau ainsi qu\\'un WC. L\\'appartement dispose d\\'une place de parking privative DISPONIBLE DEBUT SEPTEMBRE 2026 Manoir de France: 05.59.59.66.33 NoB27700C BAYONNE Appartement Nombre de pièces : 3 Surface habitable : 64.01m2 DPE : D ZONE SOUMISE A ENCADREMENT DES LOYERS LOYER CC / mois : 827.82EUR par mois charges comprises Loyer de base : 729.71EUR Loyer de ",
    "dpe": "D",
-   "ecart_prix_pct": -6,
-   "etiquette_prix": "dans le marché",
+   "ecart_prix_pct": -20,
+   "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
     {
@@ -4804,7 +5529,7 @@
    "classement": "exclu",
    "contexte": "Maison Mouguerre Maison Mouguerre Mouguerre | 64990 1700 € | 207 m² | Réf B2924000",
    "derniere_vue": "2026-09-15",
-   "ecart_prix_pct": -40,
+   "ecart_prix_pct": -49,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -4844,7 +5569,7 @@
    "classement": "exclu",
    "contexte": "Maison Saubrigues Maison Saubrigues Saubrigues | 40230 1235 € | 106 m² | Réf 120138-166356",
    "derniere_vue": "2026-09-15",
-   "ecart_prix_pct": -15,
+   "ecart_prix_pct": -27,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -4884,7 +5609,7 @@
    "classement": "exclu",
    "contexte": "Maison Urcuit Maison Urcuit Urcuit | 64990 1260 € | 87 m² | Réf B3030000",
    "derniere_vue": "2026-09-15",
-   "ecart_prix_pct": 6,
+   "ecart_prix_pct": -10,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -6357,6 +7082,12 @@
    "agences_ok": 18,
    "date": "2026-09-15",
    "nouveautes": 0
+  },
+  {
+   "actives": 106,
+   "agences_ok": 20,
+   "date": "2026-09-15",
+   "nouveautes": 17
   }
  ]
 }

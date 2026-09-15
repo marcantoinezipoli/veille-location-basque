@@ -1657,6 +1657,25 @@
   "type": "maison",
   "ville_agence": "Bayonne"
  },
+ "https://www.century21.fr/trouver_logement/detail/16953713569": {
+  "agence": "Century 21 (Bayonne, toutes agences)",
+  "classement": "match",
+  "derniere_vue": "2026-09-15",
+  "historique_prix": [
+   {
+    "date": "2026-09-15",
+    "prix": 812
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-15",
+  "prix": 812,
+  "statut": "active",
+  "titre": "Appartement F3 à louer 3 pièces - 57,15 m 2 BAYONNE - 64",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.century21agencenivadour-bayonne.com/trouver_logement/detail/15635506173": {
   "agence": "Century 21 Agence Nivadour",
   "chambres": 2,
@@ -1949,6 +1968,342 @@
   "statut": "active",
   "titre": "Location maison T5 130m 2 ST MARTIN D ARROSSA 1 000 C.C. € / mois Au cœur du pays basque intérieur venez découvrir cette spacieuse maison de",
   "type": "maison",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/anglet/louer/anglet/appartement-1-piece-52842685": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-15",
+  "historique_prix": [
+   {
+    "date": "2026-09-15",
+    "prix": 580
+   }
+  ],
+  "pieces": 1,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-09-15",
+  "prix": 580,
+  "statut": "active",
+  "surface": 30.0,
+  "titre": "(nouvel onglet)",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/anglet/louer/anglet/appartement-1-piece-52890488": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-15",
+  "historique_prix": [
+   {
+    "date": "2026-09-15",
+    "prix": 500
+   }
+  ],
+  "pieces": 1,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-09-15",
+  "prix": 500,
+  "statut": "active",
+  "surface": 28.0,
+  "titre": "(nouvel onglet)",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/bayonne/louer/bayonne/appartement-4-pieces-52875690": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 3,
+  "classement": "match",
+  "derniere_vue": "2026-09-15",
+  "historique_prix": [
+   {
+    "date": "2026-09-15",
+    "prix": 1499
+   }
+  ],
+  "pieces": 4,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-15",
+  "prix": 1499,
+  "statut": "active",
+  "surface": 94.0,
+  "titre": "(nouvel onglet)",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/bayonne/louer/bidart/maison-2-pieces-52875685": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-15",
+  "historique_prix": [
+   {
+    "date": "2026-09-15",
+    "prix": 646
+   }
+  ],
+  "pieces": 2,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-15",
+  "prix": 646,
+  "statut": "active",
+  "surface": 30.0,
+  "titre": "(nouvel onglet)",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/biarritz/louer/biarritz/appartement-4-pieces-52924306": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-15",
+  "historique_prix": [
+   {
+    "date": "2026-09-15",
+    "prix": 1530
+   }
+  ],
+  "pieces": 4,
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-09-15",
+  "prix": 1530,
+  "statut": "active",
+  "surface": 76.0,
+  "titre": "(nouvel onglet)",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/pau/louer/billere/appartement-1-piece-52531297": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-15",
+  "historique_prix": [
+   {
+    "date": "2026-09-15",
+    "prix": 445
+   }
+  ],
+  "pieces": 1,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-15",
+  "prix": 445,
+  "statut": "active",
+  "surface": 21.0,
+  "titre": "Appartement 445 €/mois BILLERE (64140) 21 m² • 1 pièce • 1 chambre 1 salle d'eau • Meublé (nouvel onglet)",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/pau/louer/idron/maison-4-pieces-22063814": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-15",
+  "historique_prix": [
+   {
+    "date": "2026-09-15",
+    "prix": 1500
+   }
+  ],
+  "pieces": 4,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-15",
+  "prix": 1500,
+  "statut": "active",
+  "surface": 119.0,
+  "titre": "Maison 1 500 €/mois IDRON (64320) 119 m² • 4 pièces • 3 chambres Surf. terrain : 750 m² • Terrasse • Piscine • Garage (nouvel onglet)",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-2-pieces-21594199": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-15",
+  "historique_prix": [
+   {
+    "date": "2026-09-15",
+    "prix": 570
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-15",
+  "prix": 570,
+  "statut": "active",
+  "surface": 32.0,
+  "titre": "(nouvel onglet)",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-2-pieces-21842875": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-15",
+  "historique_prix": [
+   {
+    "date": "2026-09-15",
+    "prix": 565
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-15",
+  "prix": 565,
+  "statut": "active",
+  "surface": 40.0,
+  "titre": "(nouvel onglet)",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-2-pieces-22528572": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-15",
+  "historique_prix": [
+   {
+    "date": "2026-09-15",
+    "prix": 700
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-15",
+  "prix": 700,
+  "statut": "active",
+  "surface": 36.0,
+  "titre": "(nouvel onglet)",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-2-pieces-52220794": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-15",
+  "historique_prix": [
+   {
+    "date": "2026-09-15",
+    "prix": 600
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-15",
+  "prix": 600,
+  "statut": "active",
+  "surface": 37.0,
+  "titre": "(nouvel onglet)",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-2-pieces-52891789": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-15",
+  "historique_prix": [
+   {
+    "date": "2026-09-15",
+    "prix": 575
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-15",
+  "prix": 575,
+  "statut": "active",
+  "surface": 33.0,
+  "titre": "(nouvel onglet)",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-3-pieces-52239904": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-15",
+  "historique_prix": [
+   {
+    "date": "2026-09-15",
+    "prix": 919
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-15",
+  "prix": 919,
+  "statut": "active",
+  "surface": 60.0,
+  "titre": "Appartement 919 €/mois PAU (64000) 60 m² • 3 pièces • 2 chambres Terrasse • Ascenseur • Garage • 1 cave (nouvel onglet)",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-3-pieces-52918850": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-15",
+  "historique_prix": [
+   {
+    "date": "2026-09-15",
+    "prix": 750
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-15",
+  "prix": 750,
+  "statut": "active",
+  "surface": 55.0,
+  "titre": "Appartement 750 €/mois PAU (64000) 55 m² • 3 pièces • 2 chambres 1 cave • 1 salle d'eau • Balcon • Meublé (nouvel onglet)",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-4-pieces-52271103": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-15",
+  "historique_prix": [
+   {
+    "date": "2026-09-15",
+    "prix": 800
+   }
+  ],
+  "pieces": 4,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-15",
+  "prix": 800,
+  "statut": "active",
+  "surface": 68.0,
+  "titre": "(nouvel onglet)",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-4-pieces-52916419": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-15",
+  "historique_prix": [
+   {
+    "date": "2026-09-15",
+    "prix": 850
+   }
+  ],
+  "pieces": 4,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-15",
+  "prix": 850,
+  "statut": "active",
+  "surface": 68.0,
+  "titre": "(nouvel onglet)",
+  "type": "appartement",
   "ville_agence": "Bayonne"
  },
  "https://www.lelogisbasque.fr/location/1-anglet/maison/2333-magnifique-maison-sur-3-niveaux-avec-studio-independant-a-anglet-montbrun": {
