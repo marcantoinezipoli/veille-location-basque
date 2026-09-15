@@ -144,11 +144,24 @@ Bloc `criteres` dans `agences.json` : `min_chambres`, `min_pieces`, `min_surface
 `mots_exclus` (cherchés dans le **titre** uniquement : studio, parking, T2…), `mots_eliminatoires` (cherchés **partout**, description comprise : rez-de-chaussée, étudiant, bail mobilité, saisonnier…), `villes_acceptees`, `dpe_minimum` (F et G exclus par défaut).
 Une annonce dont la carte ne donne aucune caractéristique n'est jamais exclue : elle est « À vérifier ».
 
-## Sources testées mais illisibles pour le script
+## Sites en JavaScript : lus avec un vrai navigateur
 
-Annonces chargées en JavaScript ou site protégé (vérifié le 4 septembre 2026) : Foncia, Laforêt,
-Human Immobilier, Guy Hoquet, Cabinet de Lesseps, Adour Gestion, Superimmo. Pour celles-là, créer
-une alerte e-mail sur leur site : c'est gratuit et immédiat.
+Les sources marquées `"js": true` dans `agences.json` (Foncia, Laforêt, Human Immobilier,
+Adour Gestion, Superimmo) chargent leurs annonces en JavaScript : un simple téléchargement de page
+ne voit rien. Elles sont donc ouvertes dans **Chromium sans interface** (Playwright), qui exécute la
+page, refuse le bandeau cookies quand c'est possible, déroule la liste, puis rend le HTML final au
+reste du script. Images, polices et traceurs sont bloqués pour aller plus vite.
+
+Conséquences : `pip install playwright` puis `python -m playwright install chromium` en local
+(le workflow GitHub le fait tout seul), et un passage un peu plus long (compter 2 à 4 minutes).
+Si Playwright ou Chromium manque, le script le signale et continue avec les autres agences.
+
+## Sources historiquement illisibles
+
+Restent hors de portée : **Guy Hoquet Anglet** (agence fermée, le site redirige vers l'annuaire
+national) et **Cabinet de Lesseps** (ne publie que des ventes ; la location se fait de gré à gré,
+les appeler au 05 59 50 07 79). Leboncoin, SeLoger, Bien'ici et PAP restent volontairement exclus
+(protections anti-robots, CGU) : utiliser Jinka.
 
 ## Agences repérées sans site exploitable
 

@@ -89,6 +89,106 @@ RE_DPE = re.compile(r"(?:\bdpe\b|classe\s+(?:[ée]nerg(?:ie|[ée]tique))|consomm
 RE_MEUBLE = re.compile(r"\bmeubl[ée]e?s?\b", re.I)
 
 
+
+# --- Navigateur pour les sites en JavaScript -------------------------------------
+
+HOTES_JS = set()        # hôtes à charger avec un vrai navigateur (rempli depuis agences.json)
+NAVIGATEUR = None       # instance partagée, ouverte une seule fois par passage
+
+
+def hote(url):
+    return urlparse(url).netloc.lower().replace("www.", "")
+
+
+def est_js(url):
+    return hote(url) in HOTES_JS
+
+
+class NavigateurJS:
+    """Chromium sans interface, partagé pour tout le passage. Dégradation douce si absent."""
+
+    def __init__(self):
+        self.pw = self.nav = self.ctx = None
+        self.actif = False
+
+    def demarrer(self):
+        try:
+            from playwright.sync_api import sync_playwright
+        except ImportError:
+            log("Playwright absent : les sites en JavaScript seront ignorés (pip install playwright).")
+            return False
+        try:
+            self.pw = sync_playwright().start()
+            self.nav = self.pw.chromium.launch(args=["--no-sandbox", "--disable-dev-shm-usage"])
+            self.ctx = self.nav.new_context(user_agent=UA, locale="fr-FR",
+                                            viewport={"width": 1366, "height": 900})
+            self.ctx.set_default_timeout(20000)
+            # on bloque images/polices/pubs : pages 3 à 5 fois plus rapides
+            self.ctx.route("**/*", self._filtrer)
+            self.actif = True
+            log("Navigateur JavaScript démarré.")
+            return True
+        except Exception as e:
+            log(f"Navigateur JavaScript indisponible ({type(e).__name__}) : sites JS ignorés.")
+            self.arreter()
+            return False
+
+    @staticmethod
+    def _filtrer(route):
+        r = route.request
+        if r.resource_type in ("image", "media", "font"):
+            return route.abort()
+        if re.search(r"doubleclick|googletag|google-analytics|facebook\.net|hotjar|criteo|taboola", r.url, re.I):
+            return route.abort()
+        return route.continue_()
+
+    def html(self, url):
+        if not self.actif:
+            return None, "navigateur inactif"
+        page = None
+        try:
+            page = self.ctx.new_page()
+            page.goto(url, wait_until="domcontentloaded", timeout=30000)
+            # bandeau cookies : on refuse quand c'est possible, sinon on continue
+            for libelle in ("Continuer sans accepter", "Tout refuser", "Refuser", "Continuer sans"):
+                try:
+                    page.get_by_role("button", name=re.compile(libelle, re.I)).first.click(timeout=1200)
+                    break
+                except Exception:
+                    pass
+            try:
+                page.wait_for_load_state("networkidle", timeout=8000)
+            except Exception:
+                pass
+            page.wait_for_timeout(1200)
+            # déroule la page : beaucoup de listes chargent au défilement
+            try:
+                for _ in range(3):
+                    page.mouse.wheel(0, 2500)
+                    page.wait_for_timeout(600)
+            except Exception:
+                pass
+            return page.content(), None
+        except Exception as e:
+            return None, type(e).__name__
+        finally:
+            if page:
+                try:
+                    page.close()
+                except Exception:
+                    pass
+
+    def arreter(self):
+        for objet, methode in ((self.ctx, "close"), (self.nav, "close"), (self.pw, "stop")):
+            try:
+                if objet:
+                    getattr(objet, methode)()
+            except Exception:
+                pass
+        self.ctx = self.nav = self.pw = None
+        self.actif = False
+
+
 # --- Utilitaires ---------------------------------------------------------------
 
 def log(msg):
@@ -116,7 +216,12 @@ def normaliser_url(url):
 
 
 def recuperer(url, essais=2):
-    """Télécharge une page. Retourne (html, erreur)."""
+    """Télécharge une page. Passe par le navigateur si l'hôte en a besoin. Retourne (html, erreur)."""
+    if est_js(url) and NAVIGATEUR is not None and NAVIGATEUR.actif:
+        html, err = NAVIGATEUR.html(url)
+        if html:
+            return html, None
+        return None, f"navigateur : {err}"
     derniere_erreur = None
     for i in range(essais):
         try:
@@ -1570,6 +1675,12 @@ def main():
             log("Aucune agence ne correspond à ce filtre.")
             sys.exit(1)
 
+    global HOTES_JS, NAVIGATEUR
+    HOTES_JS = {hote(a["url"]) for a in config["agences"] if a.get("js")}
+    if any(a.get("js") for a in agences):
+        NAVIGATEUR = NavigateurJS()
+        NAVIGATEUR.demarrer()
+
     aujourdhui = date.today().isoformat()
     etat = charger_json(Path(args.etat), {"annonces": {}, "historique": []})
     journal = charger_json(Path(args.journal), {})
@@ -1588,15 +1699,19 @@ def main():
                 log(f"       … et {len(annonces)-5} autre(s)")
         toutes.update(annonces)
         if i < len(agences) - 1:
-            time.sleep(DELAI_ENTRE_SITES)
+            time.sleep(0.5 if ag.get("js") else DELAI_ENTRE_SITES)
 
     if args.test:
+        if NAVIGATEUR:
+            NAVIGATEUR.arreter()
         n_ok = sum(1 for r in rapports if r["statut"] == "ok")
         log(f"\nTest terminé : {n_ok}/{len(rapports)} agences lisibles, {len(toutes)} liens d'annonce au total.")
         log("Rien n'a été enregistré. Lancer sans --test pour créer l'état initial et le rapport.")
         return
 
     nouveautes = mettre_a_jour_etat(etat, toutes, criteres, aujourdhui, scoring, config.get("lieux"))
+    if NAVIGATEUR:
+        NAVIGATEUR.arreter()
     premier_lancement = not etat.get("historique")
     etat.setdefault("historique", []).append(
         {"date": aujourdhui, "nouveautes": len(nouveautes), "actives": sum(1 for a in etat["annonces"].values() if a["statut"] == "active"),

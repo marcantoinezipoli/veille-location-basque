@@ -190,7 +190,37 @@
    "cambo-les-bains",
    "biriatou",
    "béhobie",
-   "behobie"
+   "behobie",
+   "billère",
+   "billere",
+   "idron",
+   "lescar",
+   "jurançon",
+   "jurancon",
+   "gan",
+   "morlaas",
+   "bizanos",
+   "gelos",
+   "lons",
+   "vielle st girons",
+   "vielle-saint-girons",
+   "castets",
+   "vieux boucau",
+   "vieux-boucau",
+   "st paul les dax",
+   "saint-paul-les-dax",
+   "mont de marsan",
+   "mont-de-marsan",
+   "parentis",
+   "léon",
+   "messanges",
+   "azur",
+   "magescq",
+   "saubion",
+   "josse",
+   "saint-martin-de-hinx",
+   "orx",
+   "st jean de marsacq"
   ]
  },
  "agences": [
@@ -312,6 +342,102 @@
    "type": "réseau",
    "url": "https://www.century21.fr/annonces/location-appartement/v-bidart/",
    "verifie": true
+  },
+  {
+   "nom": "Foncia Bayonne",
+   "ville": "Bayonne",
+   "type": "réseau",
+   "url": "https://fr.foncia.com/location/bayonne-64100",
+   "verifie": true,
+   "js": true
+  },
+  {
+   "nom": "Foncia Anglet",
+   "ville": "Anglet",
+   "type": "réseau",
+   "url": "https://fr.foncia.com/location/anglet-64600",
+   "verifie": true,
+   "js": true
+  },
+  {
+   "nom": "Foncia Biarritz",
+   "ville": "Biarritz",
+   "type": "réseau",
+   "url": "https://fr.foncia.com/location/biarritz-64200",
+   "verifie": true,
+   "js": true
+  },
+  {
+   "nom": "Foncia Bidart",
+   "ville": "Bidart",
+   "type": "réseau",
+   "url": "https://fr.foncia.com/location/bidart-64210",
+   "verifie": true,
+   "js": true
+  },
+  {
+   "nom": "Laforêt (64, appartements)",
+   "ville": "Bayonne",
+   "type": "réseau",
+   "url": "https://www.laforet.com/departement/location-appartement-pyrenees-atlantiques",
+   "verifie": true,
+   "js": true
+  },
+  {
+   "nom": "Laforêt (64, maisons)",
+   "ville": "Bayonne",
+   "type": "réseau",
+   "url": "https://www.laforet.com/departement/location-maison-pyrenees-atlantiques",
+   "verifie": true,
+   "js": true
+  },
+  {
+   "nom": "Human Immobilier Anglet",
+   "ville": "Anglet",
+   "type": "réseau",
+   "url": "https://www.human-immobilier.fr/immobilier-agence-location-anglet",
+   "verifie": true,
+   "js": true
+  },
+  {
+   "nom": "Adour Gestion Locative",
+   "ville": "Bayonne",
+   "type": "indépendante",
+   "url": "https://adour-gestion.fr/a-louer/",
+   "verifie": true,
+   "js": true
+  },
+  {
+   "nom": "Superimmo Anglet",
+   "ville": "Anglet",
+   "type": "portail secondaire",
+   "url": "https://www.superimmo.com/location/appartement/aquitaine/pyrenees-atlantiques/anglet-64600",
+   "verifie": true,
+   "js": true
+  },
+  {
+   "nom": "Superimmo Bayonne",
+   "ville": "Bayonne",
+   "type": "portail secondaire",
+   "url": "https://www.superimmo.com/location/appartement/aquitaine/pyrenees-atlantiques/bayonne-64100",
+   "verifie": true,
+   "js": true
+  },
+  {
+   "nom": "Superimmo Biarritz",
+   "ville": "Biarritz",
+   "type": "portail secondaire",
+   "url": "https://www.superimmo.com/location/appartement/aquitaine/pyrenees-atlantiques/biarritz-64200",
+   "verifie": true,
+   "js": true
+  },
+  {
+   "nom": "Superimmo Bidart",
+   "ville": "Bidart",
+   "type": "portail secondaire",
+   "url": "https://www.superimmo.com/location/appartement/aquitaine/pyrenees-atlantiques/bidart-64210",
+   "verifie": true,
+   "js": true
   }
  ],
  "scoring": {
@@ -438,7 +564,7 @@
    "loyer_1900_moins": 1
   }
  },
- "_sources_en_javascript": "Non lisibles par le script (annonces chargées en JavaScript ou site protégé) : Foncia, Laforêt, Human Immobilier, Guy Hoquet, Cabinet de Lesseps, Adour Gestion, Superimmo. Utiliser leurs alertes e-mail.",
+ "_sources_en_javascript": "Ces sources sont lues avec un vrai navigateur (Playwright) : champ \"js\": true. Vérifié le 9 septembre 2026.",
  "lieux": {
   "_aide": "Coordonnées approximatives (latitude, longitude) pour placer les annonces sur la carte : quartiers cités dans le texte, sinon ville de l'agence. hopital = Centre Hospitalier de la Côte Basque.",
   "hopital": {
