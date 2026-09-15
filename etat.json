@@ -2715,8 +2715,7 @@
     "non meublé"
    ],
    "chambres": null,
-   "classement": "a_verifier",
-   "contact_cherche": true,
+   "classement": "exclu",
    "contexte": "Voir d'autres biens sur la carte",
    "derniere_vue": "2026-09-15",
    "description": "Faites un premier repérage pour votre projet immobilier sur la cartographie proposée par CENTURY 21 : biens à vendre, à louer et vendus. Prix immobiliers et biens prochainement en vente. Votre projet immobilier avec CENTURY 21 Votre projet immobilier avec CENTURY 21 Localisation Appliquer Budget Quel est votre budget ? Min € Max € Appliquer Type de bien Maison Appartement Terrain Parking Immeuble Divers Appliquer Nombre de pièces Nombre de pièces 1 2 3 4 5 Nombre de chambres 1 2 3 4 5 Appliquer Superficie Quelle surface habitable ? Min m 2 Max m 2 Superficie du terrain ? Min m 2 Max m 2 Appliquer Autres spécificités Jardin Terrasse Accès PMR Balcon Cave / Sous-sol Vidéo 360 Parking Contrôle CLÉ Meublé Non meublé Appliquer La carte est en cours de chargement... Modifier ma recherche Votre projet immobilier avec CENTURY 21 Où cherchez-vous ? * Indiquez le numéro de votre rue pour une estimation plus précise Quel est votre budget ? Min € Max € Quel(s) type(s) de bien(s) recherchez-vous ? Maison Appartement Terrain Parking Immeuble Divers Combien de pièces ? 1 2 3 4 5 Combien de chambres ? 1 2 3 4 5 Quelles surfaces habitables ? Min m 2 Max m 2 Autres spécificités Jardin Terrasse Accès",
@@ -2731,6 +2730,7 @@
    "meuble": true,
    "min_velo": 20,
    "min_voiture": 9,
+   "motif_exclusion": "page d'agence, pas une annonce",
    "photo": "https://www.century21.fr/theme/v6/images/facebook/century21_facebook-share.png",
    "photo_cherchee": true,
    "photos": [
@@ -2745,7 +2745,7 @@
    "score": 11,
    "statut": "active",
    "surface": null,
-   "titre": "Votre projet immobilier avec CENTURY 21",
+   "titre": "Voir d'autres biens sur la carte",
    "type": "maison",
    "url": "https://www.century21.fr/projet-immobilier/?localisation=27921&filtre=rent&type=appartement",
    "ville_agence": "Anglet"
@@ -2761,8 +2761,7 @@
     "non meublé"
    ],
    "chambres": null,
-   "classement": "a_verifier",
-   "contact_cherche": true,
+   "classement": "exclu",
    "contexte": "Voir d'autres biens sur la carte",
    "derniere_vue": "2026-09-15",
    "description": "Faites un premier repérage pour votre projet immobilier sur la cartographie proposée par CENTURY 21 : biens à vendre, à louer et vendus. Prix immobiliers et biens prochainement en vente. Votre projet immobilier avec CENTURY 21 Votre projet immobilier avec CENTURY 21 Localisation Appliquer Budget Quel est votre budget ? Min € Max € Appliquer Type de bien Maison Appartement Terrain Parking Immeuble Divers Appliquer Nombre de pièces Nombre de pièces 1 2 3 4 5 Nombre de chambres 1 2 3 4 5 Appliquer Superficie Quelle surface habitable ? Min m 2 Max m 2 Superficie du terrain ? Min m 2 Max m 2 Appliquer Autres spécificités Jardin Terrasse Accès PMR Balcon Cave / Sous-sol Vidéo 360 Parking Contrôle CLÉ Meublé Non meublé Appliquer La carte est en cours de chargement... Modifier ma recherche Votre projet immobilier avec CENTURY 21 Où cherchez-vous ? * Indiquez le numéro de votre rue pour une estimation plus précise Quel est votre budget ? Min € Max € Quel(s) type(s) de bien(s) recherchez-vous ? Maison Appartement Terrain Parking Immeuble Divers Combien de pièces ? 1 2 3 4 5 Combien de chambres ? 1 2 3 4 5 Quelles surfaces habitables ? Min m 2 Max m 2 Autres spécificités Jardin Terrasse Accès",
@@ -2777,6 +2776,7 @@
    "meuble": true,
    "min_velo": 50,
    "min_voiture": 14,
+   "motif_exclusion": "page d'agence, pas une annonce",
    "photo": "https://www.century21.fr/theme/v6/images/facebook/century21_facebook-share.png",
    "photo_cherchee": true,
    "photos": [
@@ -2791,7 +2791,7 @@
    "score": 11,
    "statut": "active",
    "surface": null,
-   "titre": "Votre projet immobilier avec CENTURY 21",
+   "titre": "Voir d'autres biens sur la carte",
    "type": "maison",
    "url": "https://www.century21.fr/projet-immobilier/?localisation=28023&filtre=rent&type=appartement",
    "ville_agence": "Bidart"
@@ -7011,6 +7011,12 @@
    "agences_ok": 20,
    "date": "2026-09-15",
    "nouveautes": 5
+  },
+  {
+   "actives": 105,
+   "agences_ok": 20,
+   "date": "2026-09-15",
+   "nouveautes": 4
   },
   {
    "actives": 105,
