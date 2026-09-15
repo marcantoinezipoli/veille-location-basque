@@ -671,7 +671,8 @@ def enrichir_par_fiche(annonce, criteres, scoring):
         annonce["description"] = texte[:1200]
         titre_actuel = annonce.get("titre", "")
         if titre_h1 and 8 <= len(titre_h1) <= 120 and (
-                TEXTES_NAVIGATION.match(titre_actuel) or titre_actuel == annonce.get("contexte", "")[:140]):
+                len(titre_actuel) < 12 or TEXTES_NAVIGATION.match(titre_actuel)
+                or titre_actuel == annonce.get("contexte", "")[:140]):
             annonce["titre"] = titre_h1
         prix, surface, chambres, pieces, typ = extraire_champs(texte)
         for k, v in (("prix", prix), ("surface", surface), ("chambres", chambres), ("pieces", pieces), ("type", typ)):
@@ -951,7 +952,27 @@ def traiter_agence(agence):
 
 # --- Mise à jour de l'état -------------------------------------------------------
 
+def nettoyer_etat(etat):
+    """Reprend les annonces déjà enregistrées : titres parasites, accroches d'agence."""
+    retires = 0
+    for url in list(etat["annonces"]):
+        a = etat["annonces"][url]
+        a["titre"] = texte_compact(a.get("titre", ""))
+        a["contexte"] = texte_compact(a.get("contexte", ""))
+        if TEXTES_PUBLICITAIRES.match(a["titre"]) or TEXTES_COLLECTION.match(a["titre"]):
+            del etat["annonces"][url]
+            retires += 1
+            continue
+        if len(a["titre"]) < 8:                       # titre vide : relire la fiche
+            a["titre"] = a["contexte"][:140] or a["titre"]
+            if len(a["titre"]) < 8:
+                a.pop("fiche_lue", None)
+    if retires:
+        log(f"    {retires} entrée(s) sans annonce retirée(s) de l'historique.")
+
+
 def mettre_a_jour_etat(etat, annonces_du_jour, criteres, aujourdhui, scoring=None, lieux=None):
+    nettoyer_etat(etat)
     """Fusionne les annonces trouvées dans l'état persistant. Retourne la liste des nouveautés."""
     nouveautes = []
     vues = set()
@@ -1094,7 +1115,9 @@ def libelle_champs(a):
 def nettoyer_titre(a):
     t = (a.get("titre") or "").strip()
     t = re.sub(r"\s*\|.*$", "", t)                      # coupe "| 64100 827 € | 64 m²"
-    t = re.sub(r"(\b\w+\b)(\s+\1\b)+", r"\1", t, flags=re.I)  # "Bayonne Bayonne" -> "Bayonne"
+    for _ in range(3):  # "Appartement Bayonne Appartement Bayonne" -> "Appartement Bayonne"
+        t = re.sub(r"\b((?:\w+\W+){0,3}\w+)\W+\1\b", r"\1", t, flags=re.I)
+    t = re.sub(r"(\b\w+\b)(\s+\1\b)+", r"\1", t, flags=re.I)
     t = re.sub(r"\s{2,}", " ", t).strip(" -–—·")
     if len(t) > 90:
         t = t[:88].rsplit(" ", 1)[0] + "…"
