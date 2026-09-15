@@ -71,6 +71,11 @@ MOTIFS_EXCLUS = re.compile(
 # Liens vers une collection ("toutes nos annonces") : jamais une annonce, même avec un identifiant
 TEXTES_COLLECTION = re.compile(r"^(toutes?\b|tous\b|voir tou|découvrir tou|decouvrir tou|nos biens|nos annonces|toutes nos)", re.I)
 
+# Accroches d'agence : jamais une annonce, même avec un identifiant dans l'URL
+TEXTES_PUBLICITAIRES = re.compile(
+    r"^(votre projet|confiez|estimez|vendez|achetez|rejoignez|prenez rendez|"
+    r"d[ée]couvrir$|en savoir|contactez|nous contacter|agence\b)", re.I)
+
 # Une URL qui contient /louer/ ou /location/ suivi d'un identifiant long est une annonce :
 # cette règle l'emporte sur les motifs d'exclusion (ex. Laforêt met ses annonces sous
 # /agence-immobiliere/<ville>/louer/<ville>/appartement-4-pieces-52875690).
@@ -245,7 +250,8 @@ def recuperer(url, essais=2):
 
 
 def texte_compact(s):
-    return re.sub(r"\s+", " ", s or "").strip()
+    t = re.sub(r"\(nouvel onglet\)|\(nouvelle fen[êe]tre\)|\(ouvre dans[^)]*\)", " ", s or "", flags=re.I)
+    return re.sub(r"\s+", " ", t).strip()
 
 
 def entier(x):
@@ -365,7 +371,7 @@ def extraire_annonces(html, url_page, agence):
         a_chiffres = bool(re.search(r"€|m²|m2\b", ctx)) and len(ctx) >= 15
         if not (a_identifiant or a_chiffres):
             continue
-        if TEXTES_COLLECTION.match(txt):
+        if TEXTES_COLLECTION.match(txt) or TEXTES_PUBLICITAIRES.match(txt):
             continue
         if TEXTES_NAVIGATION.match(txt) and not a_identifiant:
             continue
@@ -378,6 +384,8 @@ def extraire_annonces(html, url_page, agence):
 
         prix, surface, chambres, pieces, typ = extraire_champs(ctx)
         titre = txt if 8 <= len(txt) <= 140 else (ctx[:140] if ctx else url_n)
+        if not txt and ctx:
+            titre = ctx[:140]
         if TEXTES_NAVIGATION.match(txt) and len(ctx) > len(txt) + 10:
             titre = ctx[:140]
 
