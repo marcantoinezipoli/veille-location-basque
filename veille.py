@@ -879,6 +879,9 @@ def tendances_7_jours(etat, aujourdhui):
 
 # --- Traitement d'une agence ----------------------------------------------------
 
+DIAGNOSTIC = {}
+
+
 def traiter_agence(agence):
     """Retourne (annonces, info) ; info = dict(statut, message, url_utilisee)."""
     url = agence["url"]
@@ -901,6 +904,18 @@ def traiter_agence(agence):
                     annonces, url_utilisee = annonces2, page_loc
 
     if not annonces:
+        if agence.get("js"):
+            soup = BeautifulSoup(html, "lxml")
+            txt = texte_compact(soup.get_text(" "))
+            liens = [a["href"] for a in soup.find_all("a", href=True)][:400]
+            interne = [h for h in liens if hote(urljoin(url, h)) == hote(url)]
+            DIAGNOSTIC[agence["nom"]] = {
+                "url": url, "titre": (soup.title.get_text() if soup.title else ""),
+                "taille_html": len(html), "taille_texte": len(txt),
+                "liens": len(liens), "liens_internes": len(interne),
+                "extrait_texte": txt[:400],
+                "exemples_liens": [urljoin(url, h) for h in interne[:25]],
+            }
         msg = ("Aucun lien d'annonce reconnu : site probablement en JavaScript ou "
                "aucune location en ligne. Ouvrir l'URL à la main pour vérifier.")
         return {}, {"statut": "vide", "message": msg, "url_utilisee": url_utilisee}
@@ -1718,6 +1733,8 @@ def main():
          "agences_ok": sum(1 for r in rapports if r["statut"] == "ok")})
     etat["historique"] = etat["historique"][-400:]
     sauver_json(Path(args.etat), etat)
+    if DIAGNOSTIC:
+        sauver_json(Path(args.sortie).parent.parent / "diagnostic.json", DIAGNOSTIC)
     mettre_a_jour_journal(journal, etat)
     sauver_json(Path(args.journal), journal)
 
