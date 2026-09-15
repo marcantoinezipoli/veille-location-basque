@@ -924,7 +924,9 @@ def traiter_agence(agence):
                 "liens": len(liens), "liens_internes": len(interne),
                 "extrait_texte": txt[:400],
                 "liens_distincts": len(distincts),
-                "exemples_liens": [f"{motifs[u]} | {u}" for u in distincts[:40]],
+                "exemples_liens": [f"{motifs[u]} | {u}" for u in distincts[:12]],
+                "liens_probables": [f"{motifs[u]} | {u}" for u in distincts
+                                    if re.search(r"\d{4,}", u) or re.search(r"/(annonce|bien|detail|offre|ref)", u, re.I)][:30],
             }
         msg = ("Aucun lien d'annonce reconnu : site probablement en JavaScript ou "
                "aucune location en ligne. Ouvrir l'URL à la main pour vérifier.")

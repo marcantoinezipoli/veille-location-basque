@@ -344,38 +344,6 @@
    "verifie": true
   },
   {
-   "nom": "Foncia Bayonne",
-   "ville": "Bayonne",
-   "type": "réseau",
-   "url": "https://fr.foncia.com/location/bayonne-64100",
-   "verifie": true,
-   "js": true
-  },
-  {
-   "nom": "Foncia Anglet",
-   "ville": "Anglet",
-   "type": "réseau",
-   "url": "https://fr.foncia.com/location/anglet-64600",
-   "verifie": true,
-   "js": true
-  },
-  {
-   "nom": "Foncia Biarritz",
-   "ville": "Biarritz",
-   "type": "réseau",
-   "url": "https://fr.foncia.com/location/biarritz-64200",
-   "verifie": true,
-   "js": true
-  },
-  {
-   "nom": "Foncia Bidart",
-   "ville": "Bidart",
-   "type": "réseau",
-   "url": "https://fr.foncia.com/location/bidart-64210",
-   "verifie": true,
-   "js": true
-  },
-  {
    "nom": "Laforêt (64, appartements)",
    "ville": "Bayonne",
    "type": "réseau",
@@ -404,38 +372,6 @@
    "ville": "Bayonne",
    "type": "indépendante",
    "url": "https://adour-gestion.fr/a-louer/",
-   "verifie": true,
-   "js": true
-  },
-  {
-   "nom": "Superimmo Anglet",
-   "ville": "Anglet",
-   "type": "portail secondaire",
-   "url": "https://www.superimmo.com/location/appartement/aquitaine/pyrenees-atlantiques/anglet-64600",
-   "verifie": true,
-   "js": true
-  },
-  {
-   "nom": "Superimmo Bayonne",
-   "ville": "Bayonne",
-   "type": "portail secondaire",
-   "url": "https://www.superimmo.com/location/appartement/aquitaine/pyrenees-atlantiques/bayonne-64100",
-   "verifie": true,
-   "js": true
-  },
-  {
-   "nom": "Superimmo Biarritz",
-   "ville": "Biarritz",
-   "type": "portail secondaire",
-   "url": "https://www.superimmo.com/location/appartement/aquitaine/pyrenees-atlantiques/biarritz-64200",
-   "verifie": true,
-   "js": true
-  },
-  {
-   "nom": "Superimmo Bidart",
-   "ville": "Bidart",
-   "type": "portail secondaire",
-   "url": "https://www.superimmo.com/location/appartement/aquitaine/pyrenees-atlantiques/bidart-64210",
    "verifie": true,
    "js": true
   }
@@ -789,5 +725,6 @@
   "_aide": "Texte de l'e-mail pré-rédigé ouvert par le bouton Contacter. {titre}, {agence}, {url} sont remplacés automatiquement. Compléter les [crochets].",
   "sujet": "Candidature location — {titre}",
   "corps": "Bonjour,\n\nNous sommes très intéressés par votre annonce « {titre} » ({url}).\n\nNous sommes un couple de professionnels de santé qui s'installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l'année, deux chambres minimum, pour une entrée en octobre-novembre.\n\nNotre dossier est complet (contrats, bulletins de salaire, avis d'imposition, pièces d'identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.\n\nPourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?\n\nBien cordialement,\nMarc-Antoine Zipoli et Léa Mathieux\n[téléphone]"
- }
+ },
+ "_sources_bloquees": "Foncia renvoie 403 Forbidden et Superimmo un captcha depuis un serveur : blocage volontaire au niveau serveur, non contournable sans violer leurs CGU. Utiliser leurs alertes e-mail. Guy Hoquet Anglet : agence fermée. Cabinet de Lesseps : ne publie que des ventes (05 59 50 07 79)."
 }
