@@ -71,6 +71,11 @@ MOTIFS_EXCLUS = re.compile(
 # Liens vers une collection ("toutes nos annonces") : jamais une annonce, même avec un identifiant
 TEXTES_COLLECTION = re.compile(r"^(toutes?\b|tous\b|voir tou|découvrir tou|decouvrir tou|nos biens|nos annonces|toutes nos)", re.I)
 
+# Une URL qui contient /louer/ ou /location/ suivi d'un identifiant long est une annonce :
+# cette règle l'emporte sur les motifs d'exclusion (ex. Laforêt met ses annonces sous
+# /agence-immobiliere/<ville>/louer/<ville>/appartement-4-pieces-52875690).
+MOTIFS_ANNONCE_CERTAINE = re.compile(r"/(?:louer|location)/[^?]*?\d{6,}", re.I)
+
 # Textes de liens qui désignent une rubrique, jamais une annonce
 TEXTES_NAVIGATION = re.compile(
     r"^(voir|découvrir|decouvrir|toutes?|tous|nos biens|habitations?|immo pro|trouver|mon compte|"
@@ -342,7 +347,8 @@ def extraire_annonces(html, url_page, agence):
             continue
         if p.netloc.lower() != hote:
             continue
-        if MOTIFS_EXCLUS.search(href):
+        certaine = bool(MOTIFS_ANNONCE_CERTAINE.search(href))
+        if MOTIFS_EXCLUS.search(href) and not certaine:
             continue
         url_n = normaliser_url(href)
         if url_n == url_page_n:
@@ -350,12 +356,12 @@ def extraire_annonces(html, url_page, agence):
         # profondeur : une annonce n'est jamais la racine ou un chemin trop court
         if len(p.path.strip("/")) < 4:
             continue
-        if not MOTIFS_INCLUS.search(p.path + "?" + p.query):
+        if not certaine and not MOTIFS_INCLUS.search(p.path + "?" + p.query):
             continue
 
         txt, ctx = contexte_du_lien(a)
         # preuve positive d'annonce : identifiant numérique dans l'URL, ou prix / surface dans la carte
-        a_identifiant = bool(re.search(r"\d{4,}", p.path + "?" + p.query))
+        a_identifiant = certaine or bool(re.search(r"\d{4,}", p.path + "?" + p.query))
         a_chiffres = bool(re.search(r"€|m²|m2\b", ctx)) and len(ctx) >= 15
         if not (a_identifiant or a_chiffres):
             continue
