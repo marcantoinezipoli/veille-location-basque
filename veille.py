@@ -909,12 +909,22 @@ def traiter_agence(agence):
             txt = texte_compact(soup.get_text(" "))
             liens = [a["href"] for a in soup.find_all("a", href=True)][:400]
             interne = [h for h in liens if hote(urljoin(url, h)) == hote(url)]
+            distincts, motifs = [], {}
+            for h in interne:
+                u = normaliser_url(urljoin(url, h))
+                if u in distincts:
+                    continue
+                distincts.append(u)
+                m = MOTIFS_EXCLUS.search(u)
+                motifs[u] = ("exclu:" + m.group(0)[:22]) if m else (
+                    "inclus-ok" if MOTIFS_INCLUS.search(urlparse(u).path + "?" + urlparse(u).query) else "pas-de-motif-inclus")
             DIAGNOSTIC[agence["nom"]] = {
                 "url": url, "titre": (soup.title.get_text() if soup.title else ""),
                 "taille_html": len(html), "taille_texte": len(txt),
                 "liens": len(liens), "liens_internes": len(interne),
                 "extrait_texte": txt[:400],
-                "exemples_liens": [urljoin(url, h) for h in interne[:25]],
+                "liens_distincts": len(distincts),
+                "exemples_liens": [f"{motifs[u]} | {u}" for u in distincts[:40]],
             }
         msg = ("Aucun lien d'annonce reconnu : site probablement en JavaScript ou "
                "aucune location en ligne. Ouvrir l'URL à la main pour vérifier.")
