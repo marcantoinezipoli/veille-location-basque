@@ -386,6 +386,10 @@ def extraire_annonces(html, url_page, agence):
         titre = txt if 8 <= len(txt) <= 140 else (ctx[:140] if ctx else url_n)
         if not txt and ctx:
             titre = ctx[:140]
+        if TEXTES_PUBLICITAIRES.match(titre) or TEXTES_COLLECTION.match(titre):
+            continue
+        if titre.startswith("http"):          # aucun libellé exploitable
+            titre = ctx[:140] or titre
         if TEXTES_NAVIGATION.match(txt) and len(ctx) > len(txt) + 10:
             titre = ctx[:140]
 
@@ -959,7 +963,9 @@ def nettoyer_etat(etat):
         a = etat["annonces"][url]
         a["titre"] = texte_compact(a.get("titre", ""))
         a["contexte"] = texte_compact(a.get("contexte", ""))
-        if TEXTES_PUBLICITAIRES.match(a["titre"]) or TEXTES_COLLECTION.match(a["titre"]):
+        a["titre"] = nettoyer_titre(a) if a.get("titre") else ""
+        if (TEXTES_PUBLICITAIRES.match(a["titre"]) or TEXTES_COLLECTION.match(a["titre"])
+                or (a["titre"].startswith("http") and not a.get("prix"))):
             del etat["annonces"][url]
             retires += 1
             continue
