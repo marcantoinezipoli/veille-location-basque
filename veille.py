@@ -1303,7 +1303,7 @@ def carte_html(a, nouveau=False, seuil=5, contact=None, lieux=None):
                      f' <a href="{esc(lien_auto)}" target="_blank" rel="noopener">🚗</a>')
         bloc_dist = f'<p class="dist">🏥 {esc(dist)}{liens}</p>'
     return f"""
-<article class="carte {cl}{' coeur' if coeur else ''}{' nouveau' if nouveau else ''}" id="c-{ident}" data-id="{ident}" data-ville="{esc(ville)}" data-cl="{cl}" data-coeur="{1 if coeur else 0}" data-nouveau="{1 if nouveau else 0}">
+<article class="carte {cl}{' coeur' if coeur else ''}{' nouveau' if nouveau else ''}" id="c-{ident}" data-id="{ident}" data-ville="{esc(ville)}" data-pieces="{a.get("pieces") or 0}" data-cl="{cl}" data-coeur="{1 if coeur else 0}" data-nouveau="{1 if nouveau else 0}">
   <div class="visuel{'' if photo else ' sans'}">
     {galerie}
     <div class="badges">{badges}</div>
@@ -1444,6 +1444,8 @@ JS_RAPPORT = """
     var ok=true, e=suivi[c.dataset.id];
     if(onglet==='nouveau') ok=c.dataset.nouveau==='1' && c.dataset.cl!=='exclu' && e!=='non';
     else if(onglet==='coeur') ok=c.dataset.coeur==='1' && e!=='non';
+    else if(onglet==='t2') ok=c.dataset.cl!=='exclu' && e!=='non' && c.dataset.pieces==='2';
+    else if(onglet==='t3') ok=c.dataset.cl!=='exclu' && e!=='non' && parseInt(c.dataset.pieces||0)>=3;
     else if(onglet==='tout'||onglet==='carte') ok=c.dataset.cl!=='exclu' && e!=='non';
     else if(onglet==='ecartees') ok=c.dataset.cl==='exclu' || e==='non';
     if(ok && ville!=='toutes' && c.dataset.ville!==ville) ok=false;
@@ -1458,7 +1460,9 @@ JS_RAPPORT = """
     var secM=document.getElementById('marche'); if(secM) secM.style.display = enMarche?'block':'none';
     document.querySelector('.filtres-villes').style.display = enMarche?'none':'';
     msg.style.display=(n||enCarte||enMarche)?'none':'';
-    msg.textContent = onglet==='nouveau' ? 'Rien de nouveau depuis le dernier passage. Regarde « Coups de cœur » ou « Tout ».' : 'Aucune annonce dans cette sélection.';
+    msg.textContent = onglet==='nouveau' ? 'Rien de nouveau depuis le dernier passage. Regarde « Coups de cœur » ou « Tout ».'
+      : onglet==='t2' ? 'Aucun T2 de 55 m² ou plus en ligne actuellement.'
+      : onglet==='t3' ? 'Aucun T3 ou plus grand en ligne actuellement.' : 'Aucune annonce dans cette sélection.';
     document.querySelectorAll('.onglets button').forEach(function(b){ b.classList.toggle('actif', b.dataset.onglet===onglet); });
     document.querySelectorAll('.filtres-villes button').forEach(function(b){ b.classList.toggle('actif', b.dataset.ville===ville); });
     if(enCarte) dessineCarte();
@@ -1516,6 +1520,8 @@ def generer_rapport(etat, nouveautes, rapports_agences, criteres, aujourdhui, ch
     n_nouv = sum(1 for a in nouveautes if a["classement"] != "exclu")
     n_coeur = sum(1 for a in actives if (a.get("score") or 0) >= seuil and a["classement"] != "exclu")
     n_tout = sum(1 for a in actives if a["classement"] != "exclu")
+    n_t2 = sum(1 for a in actives if a["classement"] != "exclu" and a.get("pieces") == 2)
+    n_t3 = sum(1 for a in actives if a["classement"] != "exclu" and (a.get("pieces") or 0) >= 3)
     n_exclu = len(actives) - n_tout
     villes = ["Anglet", "Biarritz", "Bidart", "Bayonne"]
     boutons_villes = '<button data-ville="toutes" class="actif">Toutes</button>' + "".join(
@@ -1595,6 +1601,8 @@ def generer_rapport(etat, nouveautes, rapports_agences, criteres, aujourdhui, ch
 <nav class="onglets"><div class="onglets-int">
   <button data-onglet="nouveau">Nouveau<span class="n">{n_nouv}</span></button>
   <button data-onglet="coeur">♥ Coups de cœur<span class="n">{n_coeur}</span></button>
+  <button data-onglet="t3">T3 et +<span class="n">{n_t3}</span></button>
+  <button data-onglet="t2">T2<span class="n">{n_t2}</span></button>
   <button data-onglet="tout">Tout<span class="n">{n_tout}</span></button>
   <button data-onglet="carte">Carte</button>
   <button data-onglet="marche">Marché</button>
@@ -1696,7 +1704,15 @@ def generer_mail(etat, nouveautes, aujourdhui, url_rapport, seuil=5, chemin_html
         sujet = ("🏠 " if n_n else "📉 ") + " + ".join(morceaux) + (f", dont {n_coeur} coup{'s' if n_coeur > 1 else ''} de cœur" if n_coeur else "") + f" — {date_courte(aujourdhui)}"
     else:
         sujet = f"Veille location — rien de nouveau le {date_courte(aujourdhui)}"
-    bloc_nouv = "".join(carte_mail(a, seuil, contact) for a in nouv) if nouv else \
+    nouv_t3 = [a for a in nouv if (a.get("pieces") or 0) != 2]
+    nouv_t2 = [a for a in nouv if a.get("pieces") == 2]
+    entete = '<h2 style="font-size:13px;color:#6b6f66;text-transform:uppercase;letter-spacing:.06em;margin:18px 0 10px">{}</h2>'
+    bloc_nouv = ""
+    if nouv_t3:
+        bloc_nouv += (entete.format(f"T3 et plus ({len(nouv_t3)})") if nouv_t2 else "") + "".join(carte_mail(a, seuil, contact) for a in nouv_t3)
+    if nouv_t2:
+        bloc_nouv += entete.format(f"T2 ({len(nouv_t2)})") + "".join(carte_mail(a, seuil, contact) for a in nouv_t2)
+    bloc_nouv = bloc_nouv or \
         '<p style="color:#6b6f66;font-family:Helvetica,Arial,sans-serif">Aucune nouvelle annonce sur les agences surveillées depuis hier.</p>'
     bloc_top = "".join(carte_mail(a, seuil, contact) for a in top if a not in nouv)
     bloc_hebdo = ""
