@@ -36,15 +36,6 @@
   ],
   "_aide_eliminatoires": "mots_exclus = cherchés dans le titre seulement. mots_eliminatoires = cherchés partout, description comprise : ils rejettent l'annonce quoi qu'il arrive.",
   "mots_eliminatoires": [
-   "rez-de-chaussée",
-   "rez de chaussée",
-   "rez-de-chaussee",
-   "rez de chaussee",
-   "rez-de-jardin",
-   "rez de jardin",
-   "en rdc",
-   "au rdc",
-   "rdc ",
    "étudiant",
    "etudiant",
    "bail étudiant",
@@ -221,7 +212,20 @@
    "saint-martin-de-hinx",
    "orx",
    "st jean de marsacq"
-  ]
+  ],
+  "mots_signales": {
+   "_aide": "Ne rejettent plus l'annonce : affichent une étiquette orange sur la carte pour attirer l'oeil.",
+   "rez-de-chaussée": "Rez-de-chaussée",
+   "rez de chaussée": "Rez-de-chaussée",
+   "rez-de-chaussee": "Rez-de-chaussée",
+   "rez de chaussee": "Rez-de-chaussée",
+   "en rdc": "Rez-de-chaussée",
+   "au rdc": "Rez-de-chaussée",
+   "rez-de-jardin": "Rez-de-jardin",
+   "rez de jardin": "Rez-de-jardin",
+   "plain-pied": "Plain-pied",
+   "plain pied": "Plain-pied"
+  }
  },
  "agences": [
   {
@@ -487,7 +491,11 @@
    "hendaye": -10,
    "saint-jean-de-luz": -10,
    "st-jean-de-luz": -10,
-   "ciboure": -10
+   "ciboure": -10,
+   "rez-de-chaussée": -2,
+   "rez de chaussée": -2,
+   "rez-de-jardin": -1,
+   "en rdc": -2
   },
   "bonus_objectifs": {
    "_aide": "Bonus calculés sur les chiffres lus : surface, loyer (≤ 1 900 : +1, ≤ 1 700 : +2), DPE.",

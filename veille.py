@@ -476,6 +476,13 @@ def classer(annonce, criteres):
     elif pi is not None:
         connu = True
         ok &= pi >= criteres.get("min_pieces", 0)
+    signaux = []
+    for mot, etiquette in (criteres.get("mots_signales") or {}).items():
+        if mot.startswith("_"):
+            continue
+        if mot.lower() in ctx and etiquette not in signaux:
+            signaux.append(etiquette)
+    annonce["signaux"] = signaux
     if annonce.get("dpe") in ("F", "G") and criteres.get("dpe_minimum", "E") in "ABCDE":
         ok = False
     if not ok:
@@ -717,6 +724,12 @@ def geolocaliser(annonce, lieux):
                 return
     texte = zone_forte + " " + zone_faible
     ville = annonce.get("ville_agence")
+    reperes = (annonce.get("titre", "") + " " + annonce.get("contexte", "") + " " +
+               urlparse(annonce.get("url", "")).path).lower().replace("-", " ")
+    for v in (lieux.get("villes") or {}):
+        if re.search(r"(?<![a-zà-ÿ])" + v.lower() + r"(?![a-zà-ÿ])", reperes):
+            annonce["ville_agence"] = ville = v          # la ville du bien prime sur celle de l'agence
+            break
     for v in (lieux.get("villes") or {}):
         if re.search(r"(?<![a-zà-ÿ])" + v.lower() + r"(?![a-zà-ÿ])", texte):
             ville = v
@@ -1126,6 +1139,8 @@ def libelle_champs(a):
 
 def nettoyer_titre(a):
     t = (a.get("titre") or "").strip()
+    t = re.sub(r"^\s*(nouveaut[ée]|exclusivit[ée]|coup de c\u0153ur|nouveau)\b\s*", "", t, flags=re.I)
+    t = re.sub(r"^\s*\d+\s*/\s*\d+\s*", "", t)          # compteur de carrousel
     t = re.sub(r"\s*\|.*$", "", t)                      # coupe "| 64100 827 € | 64 m²"
     for _ in range(3):  # "Appartement Bayonne Appartement Bayonne" -> "Appartement Bayonne"
         t = re.sub(r"\b((?:\w+\W+){0,3}\w+)\W+\1\b", r"\1", t, flags=re.I)
@@ -1229,6 +1244,8 @@ def carte_html(a, nouveau=False, seuil=5, contact=None, lieux=None):
     j = jours_en_ligne(a)
     if j is not None and j >= 14:
         pills += f'<span class="pill {"longue" if j >= 21 else ""}">En ligne depuis {j} j{" · négociable ?" if j >= 21 else ""}</span>'
+    for sig in (a.get("signaux") or []):
+        pills += f'<span class="pill signal">⚠ {esc(sig)}</span>'
     if cl == "a_verifier":
         pills += '<span class="pill incertain">Infos à confirmer</span>'
     if cl == "exclu":
@@ -1351,7 +1368,8 @@ main { max-width:640px; margin:0 auto; padding:14px 16px 80px; }
 .pill.dpe-ab { background:#dcf3e6; color:#0f6a3f; } .pill.dpe-c { background:#e6f2c9; color:#3f5a11; }
 .pill.dpe-d { background:#fff1c2; color:#6b5200; } .pill.dpe-e { background:#ffe1c9; color:#8a3d00; } .pill.dpe-fg { background:#ffd6d6; color:#8a1a1a; }
 .pill.prix-bon { background:var(--vert-clair); color:var(--vert); } .pill.prix-ok { color:var(--texte2); font-weight:500; } .pill.prix-haut { background:#ffe1c9; color:#8a3d00; }
-.pill.longue { background:#fff1c2; color:#6b5200; } .pill.incertain { background:#fff7dc; color:#6b5200; font-weight:500; } .pill.exclu { background:#ffe3e3; color:#8a1a1a; font-weight:500; }
+.pill.longue { background:#fff1c2; color:#6b5200; } .pill.signal { background:#ffe8cc; color:#8a4b00; border:1px solid #f0c48a; }
+.pill.incertain { background:#fff7dc; color:#6b5200; font-weight:500; } .pill.exclu { background:#ffe3e3; color:#8a1a1a; font-weight:500; }
 .agence { margin:12px 0 0; font-size:.82rem; color:var(--texte2); }
 .dist { margin:6px 0 0; font-size:.85rem; color:var(--encre); }
 .dist a { color:var(--bleu); text-decoration:none; font-weight:600; margin-left:6px; }
@@ -1610,6 +1628,8 @@ def carte_mail(a, seuil=5, contact=None):
         etiquette = f'<span style="background:#1f5f8b;color:#fff;font-size:11px;font-weight:700;padding:3px 7px;border-radius:5px;margin-right:6px">BAISSE −{esc(prix_fmt(a["baisse"]["ancien"] - a["baisse"]["nouveau"]))}</span>' + etiquette
     if a.get("etiquette_prix") == "bon prix":
         infos += " · bon prix"
+    for sig in (a.get("signaux") or []):
+        infos += f" · ⚠ {sig}"
     dist = ligne_distance(a)
     j = jours_en_ligne(a)
     if j is not None and j >= 14:
