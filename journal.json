@@ -1062,9 +1062,17 @@
   "agence": "Acotztarra",
   "classement": "exclu",
   "derniere_vue": "2026-09-16",
+  "dpe": "D",
+  "historique_prix": [
+   {
+    "date": "2026-09-04",
+    "prix": 900
+   }
+  ],
   "pieces": 2,
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-09-04",
+  "prix": 900,
   "statut": "active",
   "surface": 55.0,
   "titre": "Ref. 432 : APPARTEMENT",
@@ -1297,12 +1305,20 @@
  },
  "https://www.ajp-immobilier.com/recherche?agency_id=367652&property=maison&listing_type=rent": {
   "agence": "AJP Mateille Biarritz",
-  "classement": "exclu",
+  "classement": "match",
   "derniere_vue": "2026-09-16",
+  "historique_prix": [
+   {
+    "date": "2026-09-04",
+    "prix": 2163
+   }
+  ],
   "position": "Biarritz (ville de l'agence)",
   "premiere_vue": "2026-09-04",
+  "prix": 2163,
   "statut": "active",
-  "titre": "LOCATION appartement (2) maison (1) parking (2)",
+  "surface": 149.0,
+  "titre": "Toutes nos annonces immobilières correspondant à votre recherche",
   "type": "maison",
   "ville_agence": "Biarritz"
  },
@@ -1992,7 +2008,7 @@
    }
   ],
   "pieces": 1,
-  "position": "Anglet (ville de l'agence)",
+  "position": "quartier Chiberta",
   "premiere_vue": "2026-09-15",
   "prix": 580,
   "statut": "active",
@@ -2013,7 +2029,7 @@
    }
   ],
   "pieces": 1,
-  "position": "Anglet (ville de l'agence)",
+  "position": "quartier Chiberta",
   "premiere_vue": "2026-09-15",
   "prix": 500,
   "statut": "active",
@@ -2102,7 +2118,7 @@
   "prix": 850,
   "statut": "active",
   "surface": 34.0,
-  "titre": "Appartement 850 €/mois L ISLE ADAM (95290) 34 m² • 2 pièces • 1 chambre 1 salle d'eau • Meublé • Parking",
+  "titre": "Appartement 850 €/mois L ISLE ADAM (95290) 34 m² • 2 pièces • 1 chambre 1 salle d'eau •…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -2123,7 +2139,28 @@
   "prix": 1218,
   "statut": "active",
   "surface": 62.0,
-  "titre": "Appartement 1 218 €/mois NOISY LE GRAND (93160) 62 m² • 3 pièces • 2 chambres 1 cave • 1 salle de bain • Balcon • Parking",
+  "titre": "Appartement 1 218 €/mois NOISY LE GRAND (93160) 62 m² • 3 pièces • 2 chambres 1 cave •…",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/paris12garedelyon/louer/paris/appartement-2-pieces-52929725": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-16",
+  "historique_prix": [
+   {
+    "date": "2026-09-16",
+    "prix": 1567
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-16",
+  "prix": 1567,
+  "statut": "active",
+  "surface": 45.0,
+  "titre": "Appartement 1 567 €/mois PARIS (75012) 45 m² • 2 pièces • 1 chambre 1 cave • 1 salle de bain • 1 salle d'eau • Meublé",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -2312,7 +2349,7 @@
   "prix": 750,
   "statut": "active",
   "surface": 55.0,
-  "titre": "Appartement 750 €/mois PAU (64000) 55 m² • 3 pièces • 2 chambres 1 cave • 1 salle d'eau • Balcon • Meublé",
+  "titre": "Appartement 750 €/mois PAU (64000) 55 m² • 3 pièces • 2 chambres 1 cave • 1 salle d'eau…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -2375,7 +2412,7 @@
   "prix": 887,
   "statut": "active",
   "surface": 36.0,
-  "titre": "Appartement 887 €/mois SAINT MAUR DES FOSSES (94210) 36 m² • 2 pièces • 1 chambre 1 salle d'eau • Parking",
+  "titre": "Appartement 887 €/mois SAINT MAUR DES FOSSES (94210) 36 m² • 2 pièces • 1 chambre 1…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -2544,7 +2581,7 @@
  "https://www.manoirdefrance.fr/location,appartement-A-louer-A-l-annAe-t2-bis-meublA-biarritz-proximitA-cAte,B5262800": {
   "agence": "Manoir de France",
   "chambres": 1,
-  "classement": "exclu",
+  "classement": "match",
   "derniere_vue": "2026-09-16",
   "dpe": "D",
   "historique_prix": [
@@ -2566,7 +2603,7 @@
  "https://www.manoirdefrance.fr/location,appartement-A-louer-A-l-annAe-t2-bis-plein-de-charme-au-coeur-de-biarri,2154-1688": {
   "agence": "Manoir de France",
   "chambres": 1,
-  "classement": "exclu",
+  "classement": "match",
   "derniere_vue": "2026-09-16",
   "dpe": "D",
   "historique_prix": [
@@ -2680,7 +2717,7 @@
   "prix": 1450,
   "statut": "active",
   "surface": 113.0,
-  "titre": "Appartement Bayonne Appartement Bayonne Bayonne | 64100 1450 € | 113 m² | Réf B5670001",
+  "titre": "Appartement Bayonne",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -2877,8 +2914,10 @@
  },
  "https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-d535426d-0995-4292-93f9-2d63404b8f32?agency=ag5cantons": {
   "agence": "Orpi Agence des 5 Cantons",
+  "chambres": 1,
   "classement": "exclu",
   "derniere_vue": "2026-09-16",
+  "dpe": "A",
   "historique_prix": [
    {
     "date": "2026-09-04",
@@ -2890,14 +2929,17 @@
   "premiere_vue": "2026-09-04",
   "prix": 685,
   "statut": "active",
+  "surface": 42.0,
   "titre": "Location Appartement 2 pièces 42 m2 Anglet - Chambre d'Amour",
   "type": "appartement",
   "ville_agence": "Anglet"
  },
  "https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-fdaf9677-c4f3-4903-9e4f-160872608d4d?agency=ag5cantons": {
   "agence": "Orpi Agence des 5 Cantons",
+  "chambres": 1,
   "classement": "exclu",
   "derniere_vue": "2026-09-16",
+  "dpe": "A",
   "historique_prix": [
    {
     "date": "2026-09-04",
@@ -2909,6 +2951,7 @@
   "premiere_vue": "2026-09-04",
   "prix": 667,
   "statut": "active",
+  "surface": 46.41,
   "titre": "Location Appartement 2 pièces 46,41 m2 Anglet - Chambre d'Amour",
   "type": "appartement",
   "ville_agence": "Anglet"
@@ -3145,11 +3188,20 @@
   "agence": "Square Habitat Bidart",
   "classement": "exclu",
   "derniere_vue": "2026-09-16",
+  "dpe": "C",
+  "historique_prix": [
+   {
+    "date": "2026-09-04",
+    "prix": 486
+   }
+  ],
   "pieces": 2,
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-04",
+  "prix": 486,
   "statut": "active",
-  "titre": "Appartement à louer - BAYONNE, 2 pièces",
+  "surface": 37.06,
+  "titre": "Location appartement 2 pièces - 37.06m² à Bayonne (64100)",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -3157,11 +3209,20 @@
   "agence": "Square Habitat Bidart",
   "classement": "exclu",
   "derniere_vue": "2026-09-16",
+  "dpe": "D",
+  "historique_prix": [
+   {
+    "date": "2026-09-04",
+    "prix": 468
+   }
+  ],
   "pieces": 2,
   "position": "Biarritz (ville de l'agence)",
   "premiere_vue": "2026-09-04",
+  "prix": 468,
   "statut": "active",
-  "titre": "Appartement à louer - BIARRITZ, 2 pièces",
+  "surface": 35.64,
+  "titre": "Location appartement 2 pièces - 35.64m² à Biarritz (64200)",
   "type": "appartement",
   "ville_agence": "Biarritz"
  },
@@ -3169,11 +3230,20 @@
   "agence": "Square Habitat Bidart",
   "classement": "exclu",
   "derniere_vue": "2026-09-16",
+  "dpe": "D",
+  "historique_prix": [
+   {
+    "date": "2026-09-04",
+    "prix": 502
+   }
+  ],
   "pieces": 2,
   "position": "Biarritz (ville de l'agence)",
   "premiere_vue": "2026-09-04",
+  "prix": 502,
   "statut": "active",
-  "titre": "Appartement à louer - BIARRITZ, 2 pièces",
+  "surface": 38.2,
+  "titre": "Location appartement 2 pièces - 38.2m² à Biarritz (64200)",
   "type": "appartement",
   "ville_agence": "Biarritz"
  },
@@ -3181,11 +3251,20 @@
   "agence": "Square Habitat Bidart",
   "classement": "exclu",
   "derniere_vue": "2026-09-16",
+  "dpe": "C",
+  "historique_prix": [
+   {
+    "date": "2026-09-04",
+    "prix": 531
+   }
+  ],
   "pieces": 2,
   "position": "Biarritz (ville de l'agence)",
   "premiere_vue": "2026-09-04",
+  "prix": 531,
   "statut": "active",
-  "titre": "Appartement à louer - Biarritz, 2 pièces",
+  "surface": 40.42,
+  "titre": "Location appartement 2 pièces - 40.42m² à Biarritz (64200)",
   "type": "appartement",
   "ville_agence": "Biarritz"
  },
