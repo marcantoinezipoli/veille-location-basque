@@ -421,8 +421,12 @@ def classer(annonce, criteres):
     # les mots exclus ne sont cherchés que dans le titre (et le résumé de la liste), pas dans la
     # description complète : "parking" dans une description est un atout, pas un parking à louer
     zone_exclusion = (annonce.get("titre", "") + " " + annonce.get("contexte", "")[:120]).lower()
+    # « garage », « parking »… n'excluent que si le titre ne désigne pas un logement
+    est_logement = bool(re.search(r"appartement|maison|villa|duplex|loft|\bt\s?[2-9]\b|\bf\s?[2-9]\b|"
+                                  r"\d\s*pi[èe]ces?|chambre", zone_exclusion, re.I))
     for mot in criteres.get("mots_exclus", []):
-        if mot.lower() in zone_exclusion:
+        if mot.lower() in zone_exclusion and not est_logement:
+            annonce["motif_exclusion"] = mot.strip()
             return "exclu"
     # éliminatoires : cherchés dans tout le texte disponible (description comprise)
     ctx_norm = ctx.replace("’", "'")
@@ -476,7 +480,17 @@ def classer(annonce, criteres):
     elif pi is not None:
         connu = True
         ok &= pi >= criteres.get("min_pieces", 0)
+    # un T2 n'est retenu que s'il est grand (rangement pour vélos et home trainer)
+    seuil_t2 = criteres.get("t2_surface_minimum")
+    est_t2 = (annonce.get("pieces") == 2) or (annonce.get("chambres") == 1 and not annonce.get("pieces"))
+    if seuil_t2 and est_t2:
+        if annonce.get("surface") is not None and annonce["surface"] < seuil_t2:
+            annonce["motif_exclusion"] = f"T2 de {int(annonce['surface'])} m², sous le seuil de {seuil_t2} m²"
+            return "exclu"
+
     signaux = []
+    if est_t2:
+        signaux.append("2 pièces")
     for mot, etiquette in (criteres.get("mots_signales") or {}).items():
         if mot.startswith("_"):
             continue
@@ -1494,7 +1508,9 @@ def generer_rapport(etat, nouveautes, rapports_agences, criteres, aujourdhui, ch
     ordre_cl = {"match": 0, "a_verifier": 1, "exclu": 2}
     urls_nouv = {a["url"] for a in nouveautes}
     actives = [a for a in etat["annonces"].values() if a["statut"] == "active"]
-    actives.sort(key=lambda a: (ordre_cl[a.get("classement", "a_verifier")], -(a.get("score") or 0), a.get("premiere_vue", "")))
+    actives.sort(key=lambda a: (ordre_cl[a.get("classement", "a_verifier")],
+                                1 if (a.get("pieces") == 2) else 0,
+                                -(a.get("score") or 0), a.get("premiere_vue", "")))
 
     cartes = "".join(carte_html(a, a["url"] in urls_nouv, seuil, contact, lieux) for a in actives)
     n_nouv = sum(1 for a in nouveautes if a["classement"] != "exclu")
