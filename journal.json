@@ -1079,6 +1079,25 @@
   "type": "appartement",
   "ville_agence": "Bidart"
  },
+ "https://www.agence-benquet.com/appartement-maison/216968": {
+  "agence": "Agence Benquet",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-16",
+  "historique_prix": [
+   {
+    "date": "2026-09-16",
+    "prix": 3200
+   }
+  ],
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-09-16",
+  "prix": 3200,
+  "statut": "active",
+  "surface": 160.0,
+  "titre": "Anglet – Maison de caractère avec piscine, prestations de qualité et emplacement recherché",
+  "type": "maison",
+  "ville_agence": "Anglet"
+ },
  "https://www.agence-benquet.com/appartement-maison/anglet-appartement-t4-meuble-avec-terrasse-et-deux-stationnements": {
   "agence": "Agence Benquet",
   "classement": "match",
@@ -2274,6 +2293,27 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/noisylegrand-gestion/louer/noisy-le-grand/maison-4-pieces-52930839": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-16",
+  "historique_prix": [
+   {
+    "date": "2026-09-16",
+    "prix": 1800
+   }
+  ],
+  "pieces": 4,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-16",
+  "prix": 1800,
+  "statut": "active",
+  "surface": 78.0,
+  "titre": "Maison 1 800 €/mois NOISY LE GRAND (93160) 78 m² • 4 pièces • 3 chambres Terrasse • Sous-sol • Garage • 1 salle de bain",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/paris12garedelyon/louer/paris/appartement-2-pieces-52929725": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 1,
@@ -2514,12 +2554,16 @@
    {
     "date": "2026-09-15",
     "prix": 850
+   },
+   {
+    "date": "2026-09-16",
+    "prix": 800
    }
   ],
   "pieces": 4,
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-15",
-  "prix": 850,
+  "prix": 800,
   "statut": "active",
   "surface": 68.0,
   "titre": "Appartement 850 €/mois PAU (64000) 68 m² • 4 pièces • 3 chambres 1…",
@@ -2977,10 +3021,10 @@
  },
  "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html": {
   "agence": "Agence Olaizola",
-  "classement": "a_verifier",
+  "classement": "match",
   "derniere_vue": "2026-09-16",
   "pieces": 2,
-  "position": "Bidart (ville de l'agence)",
+  "position": "Biarritz (ville de l'agence)",
   "premiere_vue": "2026-09-16",
   "statut": "active",
   "surface": 228.0,
