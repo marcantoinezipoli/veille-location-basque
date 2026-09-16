@@ -1118,6 +1118,25 @@
   "titre": "ANGLET, Bois Belin, T2",
   "ville_agence": "Anglet"
  },
+ "https://www.agence-benquet.com/appartement-maison/arcangues-maison-familiale-avec-piscine-prestations-de-standing-et-cadre-verdoyant": {
+  "agence": "Agence Benquet",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-16",
+  "historique_prix": [
+   {
+    "date": "2026-09-16",
+    "prix": 3200
+   }
+  ],
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-09-16",
+  "prix": 3200,
+  "statut": "active",
+  "surface": 202.0,
+  "titre": "Arcangues – Maison Familiale avec piscine, prestations de standing et cadre verdoyant",
+  "type": "maison",
+  "ville_agence": "Biarritz"
+ },
  "https://www.agence-benquet.com/appartement-maison/arcangues-proche-bourg-maison-mitoyenne": {
   "agence": "Agence Benquet",
   "classement": "exclu",
@@ -1135,6 +1154,26 @@
   "surface": 137.0,
   "titre": "ARCANGUES, Proche Bourg, Maison Mitoyenne",
   "type": "maison",
+  "ville_agence": "Biarritz"
+ },
+ "https://www.agence-benquet.com/appartement-maison/biarritz-appartement-t2-avec-cellier-independant": {
+  "agence": "Agence Benquet",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-16",
+  "historique_prix": [
+   {
+    "date": "2026-09-16",
+    "prix": 780
+   }
+  ],
+  "pieces": 2,
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-09-16",
+  "prix": 780,
+  "statut": "active",
+  "surface": 43.0,
+  "titre": "Biarritz – Appartement T2 avec cellier indépendant",
+  "type": "appartement",
   "ville_agence": "Biarritz"
  },
  "https://www.agence-benquet.com/appartement-maison/biarritz-appartement-t2-meuble-avec-terrasse-stationnement-privatif-et-residence-securisee": {
@@ -1344,6 +1383,17 @@
   "type": "maison",
   "ville_agence": "Bayonne"
  },
+ "https://www.century21.fr/projet-immobilier?localisation=28020&filtre=rent&type=appartement": {
+  "agence": "Century 21 (Biarritz, toutes agences)",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-16",
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-09-16",
+  "statut": "active",
+  "titre": "Voir d'autres biens sur la carte",
+  "type": "maison",
+  "ville_agence": "Biarritz"
+ },
  "https://www.century21.fr/projet-immobilier?localisation=28023&filtre=rent&type=appartement": {
   "agence": "Century 21 (Bidart, toutes agences)",
   "classement": "a_verifier",
@@ -1423,7 +1473,7 @@
  "https://www.century21.fr/trouver_logement/detail/15717590057": {
   "agence": "Century 21 (Biarritz, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-09-14",
+  "derniere_vue": "2026-09-16",
   "historique_prix": [
    {
     "date": "2026-09-14",
@@ -2055,7 +2105,7 @@
   "prix": 690,
   "statut": "active",
   "surface": 45.0,
-  "titre": "Appartement 690 €/mois L UNION (31240) 45 m² • 2 pièces • 1 chambre Accès handicapé • Ascenseur • 1 salle d'eau • Balcon",
+  "titre": "Appartement 690 €/mois L UNION (31240) 45 m² • 2 pièces • 1 chambre Accès handicapé •…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -2140,6 +2190,66 @@
   "statut": "active",
   "surface": 34.0,
   "titre": "Appartement 850 €/mois L ISLE ADAM (95290) 34 m² • 2 pièces • 1 chambre 1 salle d'eau •…",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/montpellier-nord-centre/louer/montpellier/appartement-1-piece-52930632": {
+  "agence": "Laforêt (64, maisons)",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-16",
+  "historique_prix": [
+   {
+    "date": "2026-09-16",
+    "prix": 399
+   }
+  ],
+  "pieces": 1,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-16",
+  "prix": 399,
+  "statut": "active",
+  "surface": 17.0,
+  "titre": "Appartement 399 €/mois MONTPELLIER (34000) 17 m² • 1 pièce 1 salle d'eau",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/morsang-gestion/louer/evry-courcouronnes/appartement-1-piece-52930424": {
+  "agence": "Laforêt (64, maisons)",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-16",
+  "historique_prix": [
+   {
+    "date": "2026-09-16",
+    "prix": 706
+   }
+  ],
+  "pieces": 1,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-16",
+  "prix": 706,
+  "statut": "active",
+  "surface": 29.0,
+  "titre": "Appartement 706 €/mois EVRY COURCOURONNES (91000) 29 m² • 1 pièce 1 salle d'eau • Meublé",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/noisylegrand-gestion/louer/noisy-le-grand/appartement-1-piece-52930732": {
+  "agence": "Laforêt (64, maisons)",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-16",
+  "historique_prix": [
+   {
+    "date": "2026-09-16",
+    "prix": 674
+   }
+  ],
+  "pieces": 1,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-16",
+  "prix": 674,
+  "statut": "active",
+  "surface": 34.0,
+  "titre": "Appartement 674 €/mois NOISY LE GRAND (93160) 34 m² • 1 pièce 1 salle de bain",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -2454,7 +2564,7 @@
   "prix": 1050,
   "statut": "active",
   "surface": 34.0,
-  "titre": "Appartement 1 050 €/mois PREVESSIN MOENS (01280) 34 m² • 1 pièce • 1 chambre 1 cave • 1 salle de bain • Balcon • Meublé",
+  "titre": "Appartement 1 050 €/mois PREVESSIN MOENS (01280) 34 m² • 1 pièce • 1 chambre 1 cave • 1…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -2867,10 +2977,10 @@
  },
  "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html": {
   "agence": "Agence Olaizola",
-  "classement": "match",
+  "classement": "a_verifier",
   "derniere_vue": "2026-09-16",
   "pieces": 2,
-  "position": "Biarritz (ville de l'agence)",
+  "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-09-16",
   "statut": "active",
   "surface": 228.0,
@@ -3313,11 +3423,11 @@
  "https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/hendaye/8c89bd3d-d98f-4978-9fee-97831d3a689a": {
   "agence": "Square Habitat Bidart",
   "classement": "exclu",
-  "derniere_vue": "2026-09-06",
+  "derniere_vue": "2026-09-16",
   "pieces": 2,
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-09-04",
-  "statut": "disparu",
+  "statut": "active",
   "titre": "Appartement à louer - Hendaye, 2 pièces",
   "type": "appartement",
   "ville_agence": "Bidart"

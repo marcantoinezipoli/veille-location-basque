@@ -2287,6 +2287,46 @@
    "url": "https://www.agence-benquet.com/appartement-maison/anglet-bois-belin-t2/",
    "ville_agence": "Anglet"
   },
+  "https://www.agence-benquet.com/appartement-maison/arcangues-maison-familiale-avec-piscine-prestations-de-standing-et-cadre-verdoyant": {
+   "agence": "Agence Benquet",
+   "atouts": [
+    "standing",
+    "202 m²"
+   ],
+   "chambres": null,
+   "classement": "exclu",
+   "contexte": "Arcangues – Maison Familiale avec piscine, prestations de standing et cadre verdoyant 202m² 3 200€",
+   "derniere_vue": "2026-09-16",
+   "ecart_prix_pct": -4,
+   "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-16",
+     "prix": 3200
+    }
+   ],
+   "itineraire_pos": "43.4832,-1.5586",
+   "itineraire_source": "route",
+   "km_hopital": 8.2,
+   "lat": 43.4832,
+   "lon": -1.5586,
+   "min_velo": 33,
+   "min_voiture": 13,
+   "motif_exclusion": "hors zone (arcangues)",
+   "pieces": null,
+   "position": "Biarritz (ville de l'agence)",
+   "premiere_vue": "2026-09-16",
+   "prix": 3200,
+   "prix_m2": 15.8,
+   "reserves": [],
+   "score": 3,
+   "statut": "active",
+   "surface": 202.0,
+   "titre": "Arcangues – Maison Familiale avec piscine, prestations de standing et cadre verdoyant",
+   "type": "maison",
+   "url": "https://www.agence-benquet.com/appartement-maison/arcangues-maison-familiale-avec-piscine-prestations-de-standing-et-cadre-verdoyant/",
+   "ville_agence": "Biarritz"
+  },
   "https://www.agence-benquet.com/appartement-maison/arcangues-proche-bourg-maison-mitoyenne": {
    "agence": "Agence Benquet",
    "atouts": [
@@ -2328,6 +2368,46 @@
    "url": "https://www.agence-benquet.com/appartement-maison/arcangues-proche-bourg-maison-mitoyenne/",
    "ville_agence": "Biarritz"
   },
+  "https://www.agence-benquet.com/appartement-maison/biarritz-appartement-t2-avec-cellier-independant": {
+   "agence": "Agence Benquet",
+   "atouts": [
+    "cellier",
+    "loyer 780 €"
+   ],
+   "chambres": null,
+   "classement": "exclu",
+   "contexte": "Biarritz – Appartement T2 avec cellier indépendant 43m² 780€",
+   "derniere_vue": "2026-09-16",
+   "ecart_prix_pct": 10,
+   "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-16",
+     "prix": 780
+    }
+   ],
+   "itineraire_pos": "43.4832,-1.5586",
+   "itineraire_source": "route",
+   "km_hopital": 8.2,
+   "lat": 43.4832,
+   "lon": -1.5586,
+   "min_velo": 33,
+   "min_voiture": 13,
+   "motif_exclusion": "T2 de 43 m², sous le seuil de 55 m²",
+   "pieces": 2,
+   "position": "Biarritz (ville de l'agence)",
+   "premiere_vue": "2026-09-16",
+   "prix": 780,
+   "prix_m2": 18.1,
+   "reserves": [],
+   "score": 4,
+   "statut": "active",
+   "surface": 43.0,
+   "titre": "Biarritz – Appartement T2 avec cellier indépendant",
+   "type": "appartement",
+   "url": "https://www.agence-benquet.com/appartement-maison/biarritz-appartement-t2-avec-cellier-independant/",
+   "ville_agence": "Biarritz"
+  },
   "https://www.agence-benquet.com/appartement-maison/biarritz-appartement-t2-meuble-avec-terrasse-stationnement-privatif-et-residence-securisee": {
    "agence": "Agence Benquet",
    "atouts": [
@@ -2339,7 +2419,7 @@
    "classement": "exclu",
    "contexte": "Biarritz – Appartement T2 meublé avec terrasse, stationnement privatif et résidence sécurisée 46.53m² 890€",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": 17,
+   "ecart_prix_pct": 16,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -2386,7 +2466,7 @@
    "derniere_vue": "2026-09-16",
    "description": "Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée Situé au sein de la résidence ETCHE CHURRIA, dans un environnement agréable à Biarritz, cet appartement meublé de type T3, d'une superficie de 83,09 m², situé au 2ᵉ étage d'une copropriété sécurisée avec ascenseur, offre un cadre de vie… Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée Aller au contenu Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée Biarritz PROCHE CENTRE 1 500 € 1 500 € PROCHE CENTRE Descriptif du bien Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée Situé au sein de la résidence ETCHE CHURRIA, dans un environnement agréable à Biarritz, cet appartement meublé de type T3, d’une superficie de 83,09 m² , situé au 2ᵉ étage d’une copropriété sécurisée avec ascenseur, offre un cadre de vie confortable et fonctionnel. Ce bien se compose d’une entrée avec dégagement desservant les différents espaces de vie. Il propose un séjour lumineux, une cuisine ouverte aménagée et équipée, deux chambres confortables avec rangements, une salle d’eau, un WC indépendant ainsi qu’un cellier offrant un espace de rangement",
    "dpe": null,
-   "ecart_prix_pct": 11,
+   "ecart_prix_pct": 10,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -2750,7 +2830,7 @@
    "derniere_vue": "2026-09-16",
    "description": "Plus de 5 000 annonces immobilières AJP est un groupe indépendant d’agences immobilières implantées à Paris et de la Bretagne jusqu’à la Nouvelle Aquitaine dans les départements 17, 33, 35, 40, 44, 49, 56, 64, 75 et 85. Toutes nos annonces immobilières correspondant à votre recherche ACHATS VENTES LOCATIONS GESTION LOCATIVE SYNDIC LMNP IMMOBILIER NEUF VACANCES ENTREPRISES DEVENIR FRANCHISÉ ACHATS VENTES LOCATIONS GESTION LOCATIVE SYNDIC LMNP IMMOBILIER NEUF LOCATIONS DE VACANCES ENTREPRISES DEVENIR FRANCHISÉ AJP Recrute AJP Actualités Service Qualité Clients Toutes nos annonces immobilières correspondant à votre recherche Résultats de votre recherche: 1 annonces en ligne. Trier par Trier par Prix, ordre croissant Prix, ordre décroissant Date, ordre croissant Date, ordre décroissant Previous Next EXCLUSIVITÉ Maison 2 163 € anglet 149 m² 7 5 2 REF297 - AJP Mateille Immobilier Biarritz voir la carte voir les annonces Nos derniers biens loués Loué par notre agence AJP Mateille Immobilier Biarritz maison ustaritz AJP Immobilier Plan du site Suivez-nous sur Politique de Protection des Données Politique de cookies Service Qualité clients Mentions légales Trouvez votre bien avec JipiGO! No",
    "dpe": null,
-   "ecart_prix_pct": -11,
+   "ecart_prix_pct": -12,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -2836,6 +2916,54 @@
    "type": "maison",
    "url": "https://www.century21.fr/projet-immobilier/?localisation=27921&filtre=rent&type=appartement",
    "ville_agence": "Anglet"
+  },
+  "https://www.century21.fr/projet-immobilier?localisation=28020&filtre=rent&type=appartement": {
+   "agence": "Century 21 (Biarritz, toutes agences)",
+   "atouts": [
+    "terrasse",
+    "balcon",
+    "jardin",
+    "parking",
+    "cave",
+    "non meublé",
+    "sous-sol"
+   ],
+   "chambres": null,
+   "classement": "exclu",
+   "contexte": "Voir d'autres biens sur la carte",
+   "derniere_vue": "2026-09-16",
+   "description": "Faites un premier repérage pour votre projet immobilier sur la cartographie proposée par CENTURY 21 : biens à vendre, à louer et vendus. Prix immobiliers et biens prochainement en vente. Votre projet immobilier avec CENTURY 21 Votre projet immobilier avec CENTURY 21 Localisation Appliquer Budget Quel est votre budget ? Min € Max € Appliquer Type de bien Maison Appartement Terrain Parking Immeuble Divers Appliquer Nombre de pièces Nombre de pièces 1 2 3 4 5 Nombre de chambres 1 2 3 4 5 Appliquer Superficie Quelle surface habitable ? Min m 2 Max m 2 Superficie du terrain ? Min m 2 Max m 2 Appliquer Autres spécificités Jardin Terrasse Accès PMR Balcon Cave / Sous-sol Vidéo 360 Parking Contrôle CLÉ Meublé Non meublé Appliquer La carte est en cours de chargement... Modifier ma recherche Votre projet immobilier avec CENTURY 21 Où cherchez-vous ? * Indiquez le numéro de votre rue pour une estimation plus précise Quel est votre budget ? Min € Max € Quel(s) type(s) de bien(s) recherchez-vous ? Maison Appartement Terrain Parking Immeuble Divers Combien de pièces ? 1 2 3 4 5 Combien de chambres ? 1 2 3 4 5 Quelles surfaces habitables ? Min m 2 Max m 2 Autres spécificités Jardin Terrasse Accès",
+   "dpe": null,
+   "fiche_lue": true,
+   "itineraire_pos": "43.4832,-1.5586",
+   "itineraire_source": "route",
+   "km_hopital": 8.2,
+   "lat": 43.4832,
+   "lon": -1.5586,
+   "mail": "dpo@century21france.com",
+   "meuble": true,
+   "min_velo": 33,
+   "min_voiture": 13,
+   "motif_exclusion": "page d'agence, pas une annonce",
+   "photo": "https://www.century21.fr/theme/v6/images/facebook/century21_facebook-share.png",
+   "photo_cherchee": true,
+   "photos": [
+    "https://www.century21.fr/theme/v6/images/facebook/century21_facebook-share.png"
+   ],
+   "photos_cherchees": true,
+   "pieces": null,
+   "position": "Biarritz (ville de l'agence)",
+   "premiere_vue": "2026-09-16",
+   "prix": null,
+   "reserves": [],
+   "score": 14,
+   "signaux": [],
+   "statut": "active",
+   "surface": null,
+   "titre": "Voir d'autres biens sur la carte",
+   "type": "maison",
+   "url": "https://www.century21.fr/projet-immobilier/?localisation=28020&filtre=rent&type=appartement",
+   "ville_agence": "Biarritz"
   },
   "https://www.century21.fr/projet-immobilier?localisation=28023&filtre=rent&type=appartement": {
    "agence": "Century 21 (Bidart, toutes agences)",
@@ -3035,7 +3163,7 @@
    "chambres": null,
    "classement": "exclu",
    "contexte": "Exclusivité ST JEAN DE LUZ 64 1 300 € par mois charges comprises 69,6 m 2 , appartement , 3 pcs",
-   "derniere_vue": "2026-09-14",
+   "derniere_vue": "2026-09-16",
    "historique_prix": [
     {
      "date": "2026-09-14",
@@ -3787,7 +3915,7 @@
    "classement": "exclu",
    "contexte": "Appartement 2 pièces - 40 m² BAYONNE (64100) 820 € / mois",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": 28,
+   "ecart_prix_pct": 26,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -4441,7 +4569,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Appartement 690 €/mois L UNION (31240) 45 m² • 2 pièces • 1 chambre Accès handicapé • Ascenseur • 1 salle d'eau • Balcon Message Appeler",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": -5,
+   "ecart_prix_pct": -6,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -4466,7 +4594,7 @@
    "score": 5,
    "statut": "active",
    "surface": 45.0,
-   "titre": "Appartement 690 €/mois L UNION (31240) 45 m² • 2 pièces • 1 chambre Accès handicapé • Ascenseur • 1 salle d'eau • Balcon",
+   "titre": "Appartement 690 €/mois L UNION (31240) 45 m² • 2 pièces • 1 chambre Accès handicapé •…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/balma/louer/l-union/appartement-2-pieces-52929897#section-video",
    "ville_agence": "Bayonne"
@@ -4492,7 +4620,7 @@
    "derniere_vue": "2026-09-16",
    "description": "15/09/2026 - ✅ T4 avec vue imprenable sur l'Adour - Bayonne À louer à l'année, bel appartement de type 4 situé au 6e étage sur 8 d'une résidence i... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T4 BAYONNE à louer 1 499 €/mois Charges comprises 94 m² • 4 pièces • 3 chambres Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 4 pièces Surface : 94.08 m² Surf. séj : 36.8 m² 3 chbres 1 salle de bain Intérieur Cuisine Indépendante Chauffage Gaz Ascenseur 1 cave Extérieur Parking Couvert Autres Ann. const. : 1960 Description T4 avec vue imprenable sur l'Adour - Bayonne À louer à l'année, bel appartement de type 4 situé au 6e étage sur 8 d'une résidence idéalement située Allée Marine à Bayonne. Bénéficiant d'une triple exposition, cet appartement lumineux offre un vaste séjour double d'environ 36 m², trois chambres et vient d'être entièrement fraîchement repeint. Vous profiterez également d'une très belle vue dégagée sur l'Adour, la Citadelle et la cathédrale de Bayonne. Une cave ainsi qu'une place de parking en sous-sol sécurisé complètent ce bien. Disponible immédiatement pour une location à l'année. Loyer hors charges 1 199,00 € ",
    "dpe": null,
-   "ecart_prix_pct": -1,
+   "ecart_prix_pct": -2,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -4648,7 +4776,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 850 €/mois L ISLE ADAM (95290) 34 m² • 2 pièces • 1 chambre 1 salle d'eau • Meublé • Parking Message Appeler",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": 56,
+   "ecart_prix_pct": 53,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -4677,6 +4805,120 @@
    "url": "https://www.laforet.com/agence-immobiliere/lisleadam/louer/l-isle-adam/appartement-2-pieces-52928591",
    "ville_agence": "Bayonne"
   },
+  "https://www.laforet.com/agence-immobiliere/montpellier-nord-centre/louer/montpellier/appartement-1-piece-52930632": {
+   "agence": "Laforêt (64, maisons)",
+   "atouts": [
+    "loyer 399 €"
+   ],
+   "chambres": null,
+   "classement": "exclu",
+   "contexte": "0 / 0 Appartement 399 €/mois MONTPELLIER (34000) 17 m² • 1 pièce 1 salle d'eau Message Appeler",
+   "derniere_vue": "2026-09-16",
+   "historique_prix": [
+    {
+     "date": "2026-09-16",
+     "prix": 399
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (34000)",
+   "pieces": 1,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-16",
+   "prix": 399,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 17.0,
+   "titre": "Appartement 399 €/mois MONTPELLIER (34000) 17 m² • 1 pièce 1 salle d'eau",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/montpellier-nord-centre/louer/montpellier/appartement-1-piece-52930632",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/morsang-gestion/louer/evry-courcouronnes/appartement-1-piece-52930424": {
+   "agence": "Laforêt (64, maisons)",
+   "atouts": [
+    "loyer 706 €"
+   ],
+   "chambres": null,
+   "classement": "exclu",
+   "contexte": "Nouveauté 0 / 0 Appartement 706 €/mois EVRY COURCOURONNES (91000) 29 m² • 1 pièce 1 salle d'eau • Meublé Message Appeler",
+   "derniere_vue": "2026-09-16",
+   "ecart_prix_pct": 49,
+   "etiquette_prix": "au-dessus du marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-16",
+     "prix": 706
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (91000)",
+   "pieces": 1,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-16",
+   "prix": 706,
+   "prix_m2": 24.3,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 29.0,
+   "titre": "Appartement 706 €/mois EVRY COURCOURONNES (91000) 29 m² • 1 pièce 1 salle d'eau • Meublé",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/morsang-gestion/louer/evry-courcouronnes/appartement-1-piece-52930424",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/noisylegrand-gestion/louer/noisy-le-grand/appartement-1-piece-52930732": {
+   "agence": "Laforêt (64, maisons)",
+   "atouts": [
+    "loyer 674 €"
+   ],
+   "chambres": null,
+   "classement": "exclu",
+   "contexte": "0 / 0 Appartement 674 €/mois NOISY LE GRAND (93160) 34 m² • 1 pièce 1 salle de bain Message Appeler",
+   "derniere_vue": "2026-09-16",
+   "ecart_prix_pct": 21,
+   "etiquette_prix": "au-dessus du marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-16",
+     "prix": 674
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (93160)",
+   "pieces": 1,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-16",
+   "prix": 674,
+   "prix_m2": 19.8,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 34.0,
+   "titre": "Appartement 674 €/mois NOISY LE GRAND (93160) 34 m² • 1 pièce 1 salle de bain",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/noisylegrand-gestion/louer/noisy-le-grand/appartement-1-piece-52930732",
+   "ville_agence": "Bayonne"
+  },
   "https://www.laforet.com/agence-immobiliere/noisylegrand-gestion/louer/noisy-le-grand/appartement-3-pieces-52928702": {
    "agence": "Laforêt (64, maisons)",
    "atouts": [
@@ -4689,7 +4931,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 1 218 €/mois NOISY LE GRAND (93160) 62 m² • 3 pièces • 2 chambres 1 cave • 1 salle de bain • Balcon • Parking Message Appeler",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": 22,
+   "ecart_prix_pct": 20,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -4729,7 +4971,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 1 567 €/mois PARIS (75012) 45 m² • 2 pièces • 1 chambre 1 cave • 1 salle de bain • 1 salle d'eau • Meublé Message Appeler",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": 117,
+   "ecart_prix_pct": 113,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -4768,7 +5010,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Appartement 445 €/mois BILLERE (64140) 21 m² • 1 pièce • 1 chambre 1 salle d'eau • Meublé Message Appeler",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": 32,
+   "ecart_prix_pct": 30,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -4810,7 +5052,7 @@
    "classement": "exclu",
    "contexte": "1 / 11 Maison 1 500 €/mois IDRON (64320) 119 m² • 4 pièces • 3 chambres Surf. terrain : 750 m² • Terrasse • Piscine • Garage Message Appeler",
    "derniere_vue": "2026-09-15",
-   "ecart_prix_pct": -21,
+   "ecart_prix_pct": -23,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -4848,7 +5090,7 @@
    "classement": "exclu",
    "contexte": "1 / 5 Appartement 570 €/mois PAU (64000) 32 m² • 2 pièces • 1 chambre 1 salle d'eau • Meublé Message Appeler",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": 11,
+   "ecart_prix_pct": 9,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -4888,7 +5130,7 @@
    "classement": "exclu",
    "contexte": "1 / 7 Appartement 565 €/mois PAU (64000) 40 m² • 2 pièces • 1 chambre Cheminée • 1 salle de bain • Balcon Message Appeler",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": -12,
+   "ecart_prix_pct": -13,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -4929,7 +5171,7 @@
    "classement": "exclu",
    "contexte": "1 / 7 Appartement 700 €/mois PAU (64000) 36 m² • 2 pièces • 1 chambre Ascenseur • 1 salle de bain • Balcon • Meublé Message Appeler",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": 21,
+   "ecart_prix_pct": 19,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -4970,7 +5212,7 @@
    "classement": "exclu",
    "contexte": "1 / 9 Appartement 600 €/mois PAU (64000) 37 m² • 2 pièces • 1 chambre Piscine • Ascenseur • 1 salle de bain • Parking Message Appeler",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": 1,
+   "ecart_prix_pct": -1,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -5009,7 +5251,7 @@
    "classement": "exclu",
    "contexte": "1 / 7 Appartement 575 €/mois PAU (64000) 33 m² • 2 pièces • 1 chambre 1 salle d'eau • Meublé Message Appeler",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": 8,
+   "ecart_prix_pct": 7,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -5052,7 +5294,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Appartement 919 €/mois PAU (64000) 60 m² • 3 pièces • 2 chambres Terrasse • Ascenseur • Garage • 1 cave Message Appeler",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": -5,
+   "ecart_prix_pct": -6,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -5093,7 +5335,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 10 Appartement 750 €/mois PAU (64000) 55 m² • 3 pièces • 2 chambres 1 cave • 1 salle d'eau • Balcon • Meublé Message Appeler",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": -15,
+   "ecart_prix_pct": -17,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -5132,7 +5374,7 @@
    "classement": "exclu",
    "contexte": "1 / 9 Appartement 800 €/mois PAU (64000) 68 m² • 4 pièces • 3 chambres 1 salle de bain • Meublé Message Appeler",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": -26,
+   "ecart_prix_pct": -28,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -5171,7 +5413,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 9 Appartement 850 €/mois PAU (64000) 68 m² • 4 pièces • 3 chambres 1 salle de bain Message Appeler",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": -22,
+   "ecart_prix_pct": -23,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -5211,7 +5453,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 887 €/mois SAINT MAUR DES FOSSES (94210) 36 m² • 2 pièces • 1 chambre 1 salle d'eau • Parking Message Appeler",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": 53,
+   "ecart_prix_pct": 51,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -5252,7 +5494,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Appartement 1 050 €/mois PREVESSIN MOENS (01280) 34 m² • 1 pièce • 1 chambre 1 cave • 1 salle de bain • Balcon • Meublé Message Appeler",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": 93,
+   "ecart_prix_pct": 90,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -5277,7 +5519,7 @@
    "score": 6,
    "statut": "active",
    "surface": 34.0,
-   "titre": "Appartement 1 050 €/mois PREVESSIN MOENS (01280) 34 m² • 1 pièce • 1 chambre 1 cave • 1 salle de bain • Balcon • Meublé",
+   "titre": "Appartement 1 050 €/mois PREVESSIN MOENS (01280) 34 m² • 1 pièce • 1 chambre 1 cave • 1…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/saintgenispouilly/louer/prevessin-moens/appartement-1-piece-52929712",
    "ville_agence": "Bayonne"
@@ -5426,7 +5668,7 @@
    "classement": "exclu",
    "contexte": "Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 54.26 m² Bayonne (64100) 890 € CC*",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": 2,
+   "ecart_prix_pct": 1,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -5616,8 +5858,8 @@
    "derniere_vue": "2026-09-16",
    "description": "Ã? louer Ã l'annÃ©e- T2 bis meublÃ© Biarritz ProximitÃ© CÃ´te Biarritz Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Biarritz 1200 € Ã? louer Ã l'annÃ©e- T2 bis meublÃ© Biarritz ProximitÃ© CÃ´te à louer de 2 pièce(s) sur 65 m² Retour au listing Points clés... 2 pièce(s) , 65 m² 1 chambre(s) Ref. B5262800 Descriptif du bien • Ã? louer Ã l'annÃ©e- T2 bis meublÃ© Biarritz ProximitÃ© CÃ´te À proximité immédiate de la Côte des Basques et des Halles de Biarritz, découvrez ce charmant T2 bis meublé, agréable et fonctionnel, bénéficiant d\\'un emplacement particulièrement recherché. L\\'appartement se compose d\\'une chambre principale avec sa salle de bains privative équipée d\\'une baignoire. Une seconde pièce aménagée avec un lit superposé complète l\\'espace nuit et pourra parfaitement convenir à des enfants. Une troisième pièce peut être aménagée selon les besoins en bureau ou en espace de couchage d\\'appoint. Le logement dispose également d\\'un agréable séjour ainsi que d\\'une cuisine entièrement équipée offrant un cadre de vie confortable et pratique au quotidien. Vous profiterez pleinement de la vie biarrote gr",
    "dpe": "D",
-   "ecart_prix_pct": 15,
-   "etiquette_prix": "au-dessus du marché",
+   "ecart_prix_pct": 13,
+   "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
     {
@@ -5683,7 +5925,7 @@
    "derniere_vue": "2026-09-16",
    "description": "Ã? louer Ã l'annÃ©e T2 Bis plein de charme au coeur de Biarri Biarritz Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Biarritz 1310 € Ã? louer Ã l'annÃ©e T2 Bis plein de charme au coeur de Biarri à louer de 2 pièce(s) sur 72 m² Retour au listing Points clés... 2 pièce(s) , 72 m² 1 chambre(s) 1 salle(s) de bains Ref. 2154-1688 Descriptif du bien • Ã? louer Ã l'annÃ©e T2 Bis plein de charme au coeur de Biarri À louer à l\\'année T2 Bis plein de charme au coeur de Biarritz À seulement quelques pas des Halles, cet appartement de 70 m2 séduit par son cachet authentique et son emplacement idéal. Son parquet ancien, ses cheminées décoratives et sa belle hauteur sous plafond lui confèrent une atmosphère chaleureuse et élégante. L\\'espace de vie est agréable et lumineux, avec un séjour convivial qui s\\'ouvre sur un bureau pouvant également servir de second coin nuit. La chambre principale offre un espace confortable et intimiste. La cuisine rénovée et semi-équipée (plaques et hotte) allie modernité et praticité, tandis que la salle d\\'eau, récemment refaite à neuf, apporte une touche contemporaine et fonctionnelle. U",
    "dpe": "D",
-   "ecart_prix_pct": 13,
+   "ecart_prix_pct": 12,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -5746,7 +5988,7 @@
    "derniere_vue": "2026-09-16",
    "description": "Ã? louer T4 vide au coeur de Bayonne, Ã proximitÃ© de la Cath Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 1053 € Ã? louer T4 vide au coeur de Bayonne, Ã proximitÃ© de la Cath à louer de 4 pièce(s) sur 92 m² Retour au listing Points clés... 4 pièce(s) , 92 m² 3 chambre(s) 2 salle(s) de bains Ref. B779000 Descriptif du bien • Ã? louer T4 vide au coeur de Bayonne, Ã proximitÃ© de la Cath Dans le secteur recherché du grand Bayonne à proximité de la Cathédrale, découvrez cet appartement T4 vide situé au 1er étage d\\'un immeuble sans ascenseur. L\\'appartement se compose d\\'une salle de séjour, de trois chambres, d\\'une cuisine, d\\'une salle d\\'eau avec WC, d\\'une salle de bain ainsi que d\\'un WC indépendant. Une cave complète ce bien. Idéalement situé au coeur de Bayonne, dans un secteur central et agréable, cet appartement offre une configuration fonctionnelle avec trois chambres, adaptée à une famille ou à un couple recherchant de beaux volumes. NoB779000 BAYONNE Appartement Nombre de pièces : 4 Surface habitable : 92.68m2 DPE : D ZONE SOUMISE A ENCADREMENT DES LOYERS LOYER CC / mois : 1053.6",
    "dpe": "D",
-   "ecart_prix_pct": -29,
+   "ecart_prix_pct": -30,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -5812,7 +6054,7 @@
    "derniere_vue": "2026-09-15",
    "description": "Appartement 3 piÃ¨ces - 45.14 m2 BAIL MEUBLE A L ANNEE Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 792 € Appartement 3 piÃ¨ces - 45.14 m2 BAIL MEUBLE A L ANNEE à louer de 3 pièce(s) sur 45 m² Retour au listing Points clés... 3 pièce(s) , 45 m² 2 chambre(s) 1 salle(s) de bains Ref. B2923000 Descriptif du bien • Appartement 3 piÃ¨ces - 45.14 m2 BAIL MEUBLE A L ANNEE BAYONNE - MARRACQ - BAIL MEUBLE A L ANNEE Venez découvrir cet appartement 3 pièces entièrement rénové et meublé de 45m2 situé dans une ravissante bâtisse du XIXè, remplie de cachet à Bayonne, quartier Marracq. Il est composé d\\'une salle de séjour avec coin cuisine, deux chambres avec placards, une salle d\\'eau avec WC. Pour rappel, le bien ne dispose pas d\\'emplacement de parking. Emplacement idéal, proche de toutes commodités (commerces, écoles, lycées) et des transports en communs. A venir découvrir rapidement ! Disponible début septembre ! Manoir de France: 05.59.59.66.33 NoB2923000 BAYONNE Appartement Nombre de pièces : 3 Surface habitable : 45.14m2 DPE : D ZONE SOUMISE A ENCADREMENT DES LOYERS LOYER CC / mois : 792.83 EUR ",
    "dpe": "D",
-   "ecart_prix_pct": 10,
+   "ecart_prix_pct": 8,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -5905,7 +6147,7 @@
    "derniere_vue": "2026-09-16",
    "description": "Appartement T3 de 64m2, Bayonne quartier Mousserolles Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 827 € Appartement T3 de 64m2, Bayonne quartier Mousserolles à louer de 3 pièce(s) sur 64 m² Retour au listing Points clés... 3 pièce(s) , 64 m² 1 salle(s) de bains Ref. 277-1031 Descriptif du bien • Appartement T3 de 64m2, Bayonne quartier Mousserolles A louer dans un petit chateau récemment réhabilité avec goût, ce beau T3 rénové de 64m2 sous les combles. Dans une résidence avec un grand parc arboré venez découvrir ce charmant T3 au 2ème et dernier étage, qui comprend une pièce à vivre très agréable avec ces poutres apparentes et son plancher, une cuisine équipée, meublée et semi-ouverte sur la pièce à vivre, deux chambres, d\\'une salle d\\'eau ainsi qu\\'un WC. L\\'appartement dispose d\\'une place de parking privative DISPONIBLE DEBUT SEPTEMBRE 2026 Manoir de France: 05.59.59.66.33 NoB27700C BAYONNE Appartement Nombre de pièces : 3 Surface habitable : 64.01m2 DPE : D ZONE SOUMISE A ENCADREMENT DES LOYERS LOYER CC / mois : 827.82EUR par mois charges comprises Loyer de base : 729.71EUR Loyer de ",
    "dpe": "D",
-   "ecart_prix_pct": -20,
+   "ecart_prix_pct": -21,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -5967,7 +6209,7 @@
    "derniere_vue": "2026-09-16",
    "description": "APPARTEMENT T4 - QUARTIER DES ARENES BAYONNE Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 1450 € APPARTEMENT T4 - QUARTIER DES ARENES BAYONNE à louer de 4 pièce(s) sur 113 m² Retour au listing Points clés... 4 pièce(s) , 113 m² 3 chambre(s) Ref. B5670001 Descriptif du bien • APPARTEMENT T4 - QUARTIER DES ARENES BAYONNE Idéalement situé proche du centre-ville et de toutes les commodités, venez découvrir ce bel appartement T4 de 113.60m2. Il se compose d\\'une entrée, d\\'une cuisine séparée, meublée et équipée d\\'une plaque de cuisson et d\\'une hotte, d\\'un séjour lumineux ouvrant sur un balcon, d\\'un couloir avec rangements, de trois chambres et de deux salles de bains. Un garage et une cave privatives accompagnent le bien. Logement agréable et fonctionnel à proximité immédiate des services et commerces. Manoir de France: 05.59.59.66.33 NoB5670001 BAYONNE Appartement Nombre de pièces : 4 Surface habitable : 113.60m2 DPE : D ZONE SOUMISE A ENCADREMENT DES LOYERS LOYER CC / mois : 1450 EUR par mois charges comprises Loyer de base : 1265.00EUR Loyer de référence majoré (loyer de base a ne pas d",
    "dpe": "D",
-   "ecart_prix_pct": -20,
+   "ecart_prix_pct": -21,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -6025,7 +6267,7 @@
    "classement": "exclu",
    "contexte": "Maison Mouguerre Maison Mouguerre Mouguerre | 64990 1700 € | 207 m² | Réf B2924000",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": -49,
+   "ecart_prix_pct": -50,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -6065,7 +6307,7 @@
    "classement": "exclu",
    "contexte": "Maison Saubrigues Maison Saubrigues Saubrigues | 40230 1235 € | 106 m² | Réf 120138-166356",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": -27,
+   "ecart_prix_pct": -28,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -6105,8 +6347,8 @@
    "classement": "exclu",
    "contexte": "Maison Urcuit Maison Urcuit Urcuit | 64990 1260 € | 87 m² | Réf B3030000",
    "derniere_vue": "2026-09-16",
-   "ecart_prix_pct": -10,
-   "etiquette_prix": "dans le marché",
+   "ecart_prix_pct": -11,
+   "etiquette_prix": "bon prix",
    "historique_prix": [
     {
      "date": "2026-09-04",
@@ -6212,46 +6454,32 @@
   },
   "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html": {
    "agence": "Agence Olaizola",
-   "atouts": [
-    "saint-jean",
-    "228 m²"
-   ],
+   "atouts": [],
    "chambres": null,
-   "classement": "match",
-   "contact_cherche": true,
+   "classement": "a_verifier",
    "contexte": "",
    "derniere_vue": "2026-09-16",
-   "description": "OLAIZOLA AGENCE OLAIZOLA Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact AGENCE OLAIZOLA + de critères Découvrez notre Agence AGENCE OLAIZOLA Agence Immobilière de Confiance sur la Côte Basque et dans les Landes Depuis plusieurs années, l’Agence OLAIZOLA, née de l’alliance de deux frères, incarne l’esprit familial et la proximité avec les propriétaires locaux. Notre équipe d’experts chevronnés, forte de plus de 15 collaborateurs passionnés, se tient à votre service pour vos projets d'achat, de vente, de location et de gestion de biens immobiliers sur la Côte Basque et dans les Landes : de Biarritz à Saint-Jean-de-Luz, en passant par Bidart. Chez OLAIZOLA, chaque bien bénéficie d’une visibilité optimale et d’un suivi rigoureux, reflétant notre engagement pour des transactions efficaces et une satisfaction totale de nos clients. Notre portefeuille varié saura répondre à vos envies, que vous soyez attiré par la côte ou l’intérieur du Pays Basque. Explorez un territoire u",
-   "dpe": null,
-   "fiche_lue": true,
-   "itineraire_pos": "43.4832,-1.5586",
+   "fiche_lue": false,
+   "itineraire_pos": "43.437,-1.5915",
    "itineraire_source": "route",
-   "km_hopital": 8.2,
-   "lat": 43.4832,
-   "lon": -1.5586,
-   "meuble": false,
-   "min_velo": 33,
-   "min_voiture": 13,
-   "photo": "https://www.olaizola.immo/annonces/fiches/office8/agenceolaizola/catalog/images/background_5.jpg",
+   "km_hopital": 12.6,
+   "lat": 43.437,
+   "lon": -1.5915,
+   "min_velo": 50,
+   "min_voiture": 14,
    "photo_cherchee": true,
-   "photos": [
-    "https://www.olaizola.immo/annonces/fiches/office8/agenceolaizola/catalog/images/background_5.jpg"
-   ],
    "photos_cherchees": true,
    "pieces": null,
-   "position": "Biarritz (ville de l'agence)",
+   "position": "Bidart (ville de l'agence)",
    "premiere_vue": "2026-09-16",
    "prix": null,
-   "reserves": [
-    "passant",
-    "saint-jean-de-luz"
-   ],
-   "score": -9,
+   "reserves": [],
+   "score": 0,
    "signaux": [],
    "statut": "active",
-   "surface": 228.0,
+   "surface": null,
    "titre": "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html",
-   "type": "maison",
+   "type": null,
    "url": "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html",
    "ville_agence": "Bidart"
   },
@@ -7147,7 +7375,7 @@
    "derniere_vue": "2026-09-16",
    "description": "LOCATION ETUDIANTE (9 MOIS)Appartement T2 étudiant meublé composé d'une pièce à vivre, d'une cuisine, d'une chambre, une salle d'eau avec WC<b Location appartement 2 pièces - 37.06m² à Bayonne (64100) Location appartement 2 pièces - 37.06m² à Bayonne (64100) LOCATION ETUDIANTE (9 MOIS) Appartement T2 étudiant meublé composé d'une pièce à vivre, d'une cuisine, d'une chambre, une salle d'eau avec WC Disponible à partir de septembre 2026 (Bail de 9 mois étudiant : Septembre à Mai) Honoraires de 486 € TTC à la charge du locataire comprenant 112 € TTC pour l'état des lieux. Zone soumise à encadrement des loyers. Loyer de référence majoré (loyer de base à ne pas dépasser) 741.2 €/mois. Loyer de base 556 €/mois. Dépôt de garantie 556 €. Classe énergie C, Classe climat A Montant moyen estimé des dépenses annuelles d'énergie pour un usage standard, établi à partir des prix de l'énergie de l'année 2021 : entre 451.00 et 611.00 €. Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : georisques.gouv.fr. cliquer pour afficher plus du text Informations sur le logement Nature Appartement Surface habitable 37.06m² Nombre de pièces 2 Nombre de chamb",
    "dpe": "C",
-   "ecart_prix_pct": -18,
+   "ecart_prix_pct": -20,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -7384,7 +7612,7 @@
    "chambres": null,
    "classement": "exclu",
    "contexte": "Appartement à louer - Hendaye, 2 pièces",
-   "derniere_vue": "2026-09-06",
+   "derniere_vue": "2026-09-16",
    "itineraire_pos": "43.437,-1.5915",
    "itineraire_source": "route",
    "km_hopital": 12.6,
@@ -7401,7 +7629,7 @@
     "hendaye"
    ],
    "score": -10,
-   "statut": "disparu",
+   "statut": "active",
    "surface": null,
    "titre": "Appartement à louer - Hendaye, 2 pièces",
    "type": "appartement",
@@ -7777,6 +8005,12 @@
    "agences_ok": 20,
    "date": "2026-09-16",
    "nouveautes": 5
+  },
+  {
+   "actives": 120,
+   "agences_ok": 20,
+   "date": "2026-09-16",
+   "nouveautes": 9
   }
  ]
 }
