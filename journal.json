@@ -2038,6 +2038,27 @@
   "type": "appartement",
   "ville_agence": "Anglet"
  },
+ "https://www.laforet.com/agence-immobiliere/balma/louer/l-union/appartement-2-pieces-52929897": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-16",
+  "historique_prix": [
+   {
+    "date": "2026-09-16",
+    "prix": 690
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-16",
+  "prix": 690,
+  "statut": "active",
+  "surface": 45.0,
+  "titre": "Appartement 690 €/mois L UNION (31240) 45 m² • 2 pièces • 1 chambre Accès handicapé • Ascenseur • 1 salle d'eau • Balcon",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/bayonne/louer/bayonne/appartement-4-pieces-52875690": {
   "agence": "Laforêt (64, appartements)",
   "chambres": 3,
@@ -2413,6 +2434,27 @@
   "statut": "active",
   "surface": 36.0,
   "titre": "Appartement 887 €/mois SAINT MAUR DES FOSSES (94210) 36 m² • 2 pièces • 1 chambre 1…",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/saintgenispouilly/louer/prevessin-moens/appartement-1-piece-52929712": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-16",
+  "historique_prix": [
+   {
+    "date": "2026-09-16",
+    "prix": 1050
+   }
+  ],
+  "pieces": 1,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-16",
+  "prix": 1050,
+  "statut": "active",
+  "surface": 34.0,
+  "titre": "Appartement 1 050 €/mois PREVESSIN MOENS (01280) 34 m² • 1 pièce • 1 chambre 1 cave • 1 salle de bain • Balcon • Meublé",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },

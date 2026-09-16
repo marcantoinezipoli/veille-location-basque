@@ -4430,6 +4430,47 @@
    "url": "https://www.laforet.com/agence-immobiliere/anglet/louer/anglet/appartement-1-piece-52890488",
    "ville_agence": "Anglet"
   },
+  "https://www.laforet.com/agence-immobiliere/balma/louer/l-union/appartement-2-pieces-52929897": {
+   "agence": "Laforêt (64, maisons)",
+   "atouts": [
+    "balcon",
+    "ascenseur",
+    "loyer 690 €"
+   ],
+   "chambres": 1,
+   "classement": "exclu",
+   "contexte": "0 / 0 Appartement 690 €/mois L UNION (31240) 45 m² • 2 pièces • 1 chambre Accès handicapé • Ascenseur • 1 salle d'eau • Balcon Message Appeler",
+   "derniere_vue": "2026-09-16",
+   "ecart_prix_pct": -5,
+   "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-16",
+     "prix": 690
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (31240)",
+   "pieces": 2,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-16",
+   "prix": 690,
+   "prix_m2": 15.3,
+   "reserves": [],
+   "score": 5,
+   "statut": "active",
+   "surface": 45.0,
+   "titre": "Appartement 690 €/mois L UNION (31240) 45 m² • 2 pièces • 1 chambre Accès handicapé • Ascenseur • 1 salle d'eau • Balcon",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/balma/louer/l-union/appartement-2-pieces-52929897#section-video",
+   "ville_agence": "Bayonne"
+  },
   "https://www.laforet.com/agence-immobiliere/bayonne/louer/bayonne/appartement-4-pieces-52875690": {
    "agence": "Laforêt (64, appartements)",
    "atouts": [
@@ -5198,6 +5239,47 @@
    "titre": "Appartement 887 €/mois SAINT MAUR DES FOSSES (94210) 36 m² • 2 pièces • 1 chambre 1…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/saint-maur-des-fosses/louer/saint-maur-des-fosses/appartement-2-pieces-52928601",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/saintgenispouilly/louer/prevessin-moens/appartement-1-piece-52929712": {
+   "agence": "Laforêt (64, maisons)",
+   "atouts": [
+    "balcon",
+    "cave",
+    "loyer 1050 €"
+   ],
+   "chambres": 1,
+   "classement": "exclu",
+   "contexte": "0 / 0 Appartement 1 050 €/mois PREVESSIN MOENS (01280) 34 m² • 1 pièce • 1 chambre 1 cave • 1 salle de bain • Balcon • Meublé Message Appeler",
+   "derniere_vue": "2026-09-16",
+   "ecart_prix_pct": 93,
+   "etiquette_prix": "au-dessus du marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-16",
+     "prix": 1050
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (01280)",
+   "pieces": 1,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-16",
+   "prix": 1050,
+   "prix_m2": 30.9,
+   "reserves": [],
+   "score": 6,
+   "statut": "active",
+   "surface": 34.0,
+   "titre": "Appartement 1 050 €/mois PREVESSIN MOENS (01280) 34 m² • 1 pièce • 1 chambre 1 cave • 1 salle de bain • Balcon • Meublé",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/saintgenispouilly/louer/prevessin-moens/appartement-1-piece-52929712",
    "ville_agence": "Bayonne"
   },
   "https://www.lelogisbasque.fr/location/1-anglet/maison/2333-magnifique-maison-sur-3-niveaux-avec-studio-independant-a-anglet-montbrun": {
@@ -7689,6 +7771,12 @@
    "agences_ok": 20,
    "date": "2026-09-16",
    "nouveautes": 3
+  },
+  {
+   "actives": 113,
+   "agences_ok": 20,
+   "date": "2026-09-16",
+   "nouveautes": 5
   }
  ]
 }
