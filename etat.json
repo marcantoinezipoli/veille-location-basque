@@ -2746,7 +2746,7 @@
    "chambres": null,
    "classement": "match",
    "contact_cherche": true,
-   "contexte": "LOCATION appartement (2) maison (1) parking (2)",
+   "contexte": "LOCATION maison (1) parking (2)",
    "derniere_vue": "2026-09-16",
    "description": "Plus de 5 000 annonces immobilières AJP est un groupe indépendant d’agences immobilières implantées à Paris et de la Bretagne jusqu’à la Nouvelle Aquitaine dans les départements 17, 33, 35, 40, 44, 49, 56, 64, 75 et 85. Toutes nos annonces immobilières correspondant à votre recherche ACHATS VENTES LOCATIONS GESTION LOCATIVE SYNDIC LMNP IMMOBILIER NEUF VACANCES ENTREPRISES DEVENIR FRANCHISÉ ACHATS VENTES LOCATIONS GESTION LOCATIVE SYNDIC LMNP IMMOBILIER NEUF LOCATIONS DE VACANCES ENTREPRISES DEVENIR FRANCHISÉ AJP Recrute AJP Actualités Service Qualité Clients Toutes nos annonces immobilières correspondant à votre recherche Résultats de votre recherche: 1 annonces en ligne. Trier par Trier par Prix, ordre croissant Prix, ordre décroissant Date, ordre croissant Date, ordre décroissant Previous Next EXCLUSIVITÉ Maison 2 163 € anglet 149 m² 7 5 2 REF297 - AJP Mateille Immobilier Biarritz voir la carte voir les annonces Nos derniers biens loués Loué par notre agence AJP Mateille Immobilier Biarritz maison ustaritz AJP Immobilier Plan du site Suivez-nous sur Politique de Protection des Données Politique de cookies Service Qualité clients Mentions légales Trouvez votre bien avec JipiGO! No",
    "dpe": null,
@@ -2755,7 +2755,7 @@
    "fiche_lue": true,
    "historique_prix": [
     {
-     "date": "2026-09-04",
+     "date": "2026-09-16",
      "prix": 2163
     }
    ],
@@ -2775,7 +2775,7 @@
    "photos_cherchees": true,
    "pieces": null,
    "position": "Biarritz (ville de l'agence)",
-   "premiere_vue": "2026-09-04",
+   "premiere_vue": "2026-09-16",
    "prix": 2163,
    "prix_m2": 14.5,
    "reserves": [],
@@ -4713,7 +4713,7 @@
    "score": 4,
    "statut": "active",
    "surface": 45.0,
-   "titre": "Appartement 1 567 €/mois PARIS (75012) 45 m² • 2 pièces • 1 chambre 1 cave • 1 salle de bain • 1 salle d'eau • Meublé",
+   "titre": "Appartement 1 567 €/mois PARIS (75012) 45 m² • 2 pièces • 1 chambre 1 cave • 1 salle de…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/paris12garedelyon/louer/paris/appartement-2-pieces-52929725",
    "ville_agence": "Bayonne"
@@ -7677,6 +7677,12 @@
    "agences_ok": 20,
    "date": "2026-09-16",
    "nouveautes": 6
+  },
+  {
+   "actives": 111,
+   "agences_ok": 20,
+   "date": "2026-09-16",
+   "nouveautes": 3
   },
   {
    "actives": 111,

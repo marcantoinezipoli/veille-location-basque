@@ -1309,12 +1309,12 @@
   "derniere_vue": "2026-09-16",
   "historique_prix": [
    {
-    "date": "2026-09-04",
+    "date": "2026-09-16",
     "prix": 2163
    }
   ],
   "position": "Biarritz (ville de l'agence)",
-  "premiere_vue": "2026-09-04",
+  "premiere_vue": "2026-09-16",
   "prix": 2163,
   "statut": "active",
   "surface": 149.0,
@@ -2160,7 +2160,7 @@
   "prix": 1567,
   "statut": "active",
   "surface": 45.0,
-  "titre": "Appartement 1 567 €/mois PARIS (75012) 45 m² • 2 pièces • 1 chambre 1 cave • 1 salle de bain • 1 salle d'eau • Meublé",
+  "titre": "Appartement 1 567 €/mois PARIS (75012) 45 m² • 2 pièces • 1 chambre 1 cave • 1 salle de…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
