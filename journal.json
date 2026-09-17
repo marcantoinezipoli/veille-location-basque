@@ -1393,7 +1393,7 @@
  },
  "https://www.century21.fr/projet-immobilier?localisation=27999&filtre=rent&type=appartement": {
   "agence": "Century 21 (Bayonne, toutes agences)",
-  "classement": "exclu",
+  "classement": "a_verifier",
   "derniere_vue": "2026-09-17",
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-17",
@@ -1532,7 +1532,7 @@
   "premiere_vue": "2026-09-17",
   "prix": 1257,
   "statut": "active",
-  "titre": "Exclusivité CIBOURE 64 1 257 € par mois charges comprises 62,1 m2 , appartement , 3 pcs",
+  "titre": "CIBOURE 64 1 257 € par mois charges comprises 62,1 m2 , appartement , 3 pcs",
   "type": "appartement",
   "ville_agence": "Bidart"
  },
@@ -1803,7 +1803,7 @@
   "premiere_vue": "2026-09-17",
   "prix": 1487,
   "statut": "active",
-  "titre": "Exclusivité USTARITZ 64 1 487 € par mois charges comprises 99,2 m2 , maison , 4 pcs",
+  "titre": "USTARITZ 64 1 487 € par mois charges comprises 99,2 m2 , maison , 4 pcs",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -2264,7 +2264,7 @@
   "prix": 519,
   "statut": "active",
   "surface": 36.0,
-  "titre": "Appartement 519 €/mois MERIGNAC (33700) 36 m² • 1 pièce Ascenseur • 1 salle de bain • Parking",
+  "titre": "Appartement 519 €/mois MERIGNAC (33700) 36 m² • 1 pièce Ascenseur • 1 salle de bain •…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -2285,8 +2285,29 @@
   "prix": 950,
   "statut": "active",
   "surface": 46.0,
-  "titre": "Appartement 950 €/mois YERRES (91330) 46 m² • 2 pièces • 1 chambre Ascenseur • 1 salle d'eau • Balcon • Meublé",
+  "titre": "Appartement 950 €/mois YERRES (91330) 46 m² • 2 pièces • 1 chambre Ascenseur • 1 salle…",
   "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/elne/louer/elne/maison-5-pieces-52931772": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 4,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-17",
+  "historique_prix": [
+   {
+    "date": "2026-09-17",
+    "prix": 1261
+   }
+  ],
+  "pieces": 5,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-17",
+  "prix": 1261,
+  "statut": "active",
+  "surface": 133.0,
+  "titre": "Maison 1 261 €/mois ELNE (66200) 133 m² • 5 pièces • 4 chambres Surf. terrain : 847 m² • 1 salle de bain • 2 salles d'eau • Meublé",
+  "type": "maison",
   "ville_agence": "Bayonne"
  },
  "https://www.laforet.com/agence-immobiliere/lisleadam/louer/l-isle-adam/appartement-2-pieces-52928591": {
@@ -2450,7 +2471,7 @@
   "prix": 2750,
   "statut": "active",
   "surface": 75.0,
-  "titre": "Appartement 2 750 €/mois PARIS (75015) 75 m² • 3 pièces • 2 chambres Accès handicapé • Ascenseur • 1 salle de bain • Parking",
+  "titre": "Appartement 2 750 €/mois PARIS (75015) 75 m² • 3 pièces • 2 chambres Accès handicapé •…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
