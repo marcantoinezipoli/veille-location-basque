@@ -1393,12 +1393,12 @@
  },
  "https://www.century21.fr/projet-immobilier?localisation=27999&filtre=rent&type=appartement": {
   "agence": "Century 21 (Bayonne, toutes agences)",
-  "classement": "a_verifier",
-  "derniere_vue": "2026-09-15",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-17",
   "position": "Bayonne (ville de l'agence)",
-  "premiere_vue": "2026-09-14",
+  "premiere_vue": "2026-09-17",
   "statut": "active",
-  "titre": "Votre projet immobilier avec CENTURY 21",
+  "titre": "Voir d'autres biens sur la carte",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -1515,6 +1515,24 @@
   "premiere_vue": "2026-09-04",
   "statut": "active",
   "titre": "ST JEAN DE LUZ 64 785 € par mois charges comprises 33,5 m2 , appartement ,…",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
+ "https://www.century21.fr/trouver_logement/detail/15852141764": {
+  "agence": "Century 21 (Bidart, toutes agences)",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-17",
+  "historique_prix": [
+   {
+    "date": "2026-09-17",
+    "prix": 1257
+   }
+  ],
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-17",
+  "prix": 1257,
+  "statut": "active",
+  "titre": "Exclusivité CIBOURE 64 1 257 € par mois charges comprises 62,1 m2 , appartement , 3 pcs",
   "type": "appartement",
   "ville_agence": "Bidart"
  },
@@ -1771,6 +1789,24 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.century21.fr/trouver_logement/detail/16958493703": {
+  "agence": "Century 21 (Bayonne, toutes agences)",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-17",
+  "historique_prix": [
+   {
+    "date": "2026-09-17",
+    "prix": 1487
+   }
+  ],
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-17",
+  "prix": 1487,
+  "statut": "active",
+  "titre": "Exclusivité USTARITZ 64 1 487 € par mois charges comprises 99,2 m2 , maison , 4 pcs",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
  "https://www.century21.fr/trouver_logement/detail/16964247076": {
   "agence": "Century 21 (Bidart, toutes agences)",
   "chambres": 3,
@@ -1788,7 +1824,7 @@
   "prix": 1745,
   "statut": "active",
   "surface": 109.0,
-  "titre": "Exclusivité ANGLET 64 1 745 € par mois charges comprises 109 m2 , maison , 4 pcs",
+  "titre": "ANGLET 64 1 745 € par mois charges comprises 109 m2 , maison , 4 pcs",
   "type": "maison",
   "ville_agence": "Anglet"
  },
@@ -2212,6 +2248,47 @@
   "type": "appartement",
   "ville_agence": "Biarritz"
  },
+ "https://www.laforet.com/agence-immobiliere/bordeauxcapucins/louer/merignac/appartement-1-piece-52931639": {
+  "agence": "Laforêt (64, maisons)",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-17",
+  "historique_prix": [
+   {
+    "date": "2026-09-17",
+    "prix": 519
+   }
+  ],
+  "pieces": 1,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-17",
+  "prix": 519,
+  "statut": "active",
+  "surface": 36.0,
+  "titre": "Appartement 519 €/mois MERIGNAC (33700) 36 m² • 1 pièce Ascenseur • 1 salle de bain • Parking",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/brunoy/louer/yerres/appartement-2-pieces-52931755": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-17",
+  "historique_prix": [
+   {
+    "date": "2026-09-17",
+    "prix": 950
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-17",
+  "prix": 950,
+  "statut": "active",
+  "surface": 46.0,
+  "titre": "Appartement 950 €/mois YERRES (91330) 46 m² • 2 pièces • 1 chambre Ascenseur • 1 salle d'eau • Balcon • Meublé",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/lisleadam/louer/l-isle-adam/appartement-2-pieces-52928591": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 1,
@@ -2353,6 +2430,27 @@
   "statut": "active",
   "surface": 45.0,
   "titre": "Appartement 1 567 €/mois PARIS (75012) 45 m² • 2 pièces • 1 chambre 1 cave • 1 salle de…",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/paris15lourmel/louer/paris-15/appartement-3-pieces-52931774": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-17",
+  "historique_prix": [
+   {
+    "date": "2026-09-17",
+    "prix": 2750
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-17",
+  "prix": 2750,
+  "statut": "active",
+  "surface": 75.0,
+  "titre": "Appartement 2 750 €/mois PARIS (75015) 75 m² • 3 pièces • 2 chambres Accès handicapé • Ascenseur • 1 salle de bain • Parking",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -2658,7 +2756,7 @@
   "agence": "Le Logis Basque",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-09-10",
+  "derniere_vue": "2026-09-17",
   "historique_prix": [
    {
     "date": "2026-09-04",
@@ -2669,7 +2767,7 @@
   "position": "Anglet (ville de l'agence)",
   "premiere_vue": "2026-09-04",
   "prix": 1890,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 120.56,
   "titre": "Coup de coeur Appartement 5 pièce(s) 4 chambre(s) 120.56 m² Arbonne (64210) 1 890 € CC*",
   "type": "appartement",
