@@ -2185,6 +2185,48 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/bayonne/louer/bayonne/appartement-2-pieces-52930695": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-18",
+  "historique_prix": [
+   {
+    "date": "2026-09-18",
+    "prix": 950
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-18",
+  "prix": 950,
+  "statut": "active",
+  "surface": 52.0,
+  "titre": "Appartement 950 €/mois BAYONNE (64100) 52 m² • 2 pièces • 1 chambre Ascenseur • 1 cave • Meublé",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/bayonne/louer/bayonne/appartement-3-pieces-52438010": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-18",
+  "historique_prix": [
+   {
+    "date": "2026-09-18",
+    "prix": 1250
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-18",
+  "prix": 1250,
+  "statut": "active",
+  "surface": 82.0,
+  "titre": "Appartement 1 250 €/mois BAYONNE (64100) 82 m² • 3 pièces • 2 chambres Ascenseur • 1 salle d'eau • Balcon • Meublé",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/bayonne/louer/bayonne/appartement-4-pieces-52875690": {
   "agence": "Laforêt (64, appartements)",
   "chambres": 3,
@@ -2329,6 +2371,27 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/cergylehaut/louer/cergy/appartement-3-pieces-52934211": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-18",
+  "historique_prix": [
+   {
+    "date": "2026-09-18",
+    "prix": 1200
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-18",
+  "prix": 1200,
+  "statut": "active",
+  "surface": 57.0,
+  "titre": "Appartement 1 200 €/mois CERGY (95800) 57 m² • 3 pièces • 2 chambres Ascenseur • 1 salle de bain • Balcon • Parking",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/courbevoie/louer/courbevoie/appartement-3-pieces-52934066": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 1,
@@ -2346,7 +2409,7 @@
   "prix": 1450,
   "statut": "active",
   "surface": 46.0,
-  "titre": "Appartement 1 450 €/mois COURBEVOIE (92400) 46 m² • 3 pièces • 1 chambre Ascenseur • Meublé",
+  "titre": "Appartement 1 450 €/mois COURBEVOIE (92400) 46 m² • 3 pièces • 1 chambre Ascenseur •…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -2432,6 +2495,48 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/nanterre/louer/nanterre/appartement-3-pieces-52934265": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-18",
+  "historique_prix": [
+   {
+    "date": "2026-09-18",
+    "prix": 1620
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-18",
+  "prix": 1620,
+  "statut": "active",
+  "surface": 64.0,
+  "titre": "Appartement 1 620 €/mois NANTERRE (92000) 64 m² • 3 pièces • 2 chambres Terrasse • Accès handicapé • Ascenseur • 1 salle de bain",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/nanterre/louer/nanterre/appartement-3-pieces-52934270": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-18",
+  "historique_prix": [
+   {
+    "date": "2026-09-18",
+    "prix": 1671
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-18",
+  "prix": 1671,
+  "statut": "active",
+  "surface": 77.0,
+  "titre": "Appartement 1 671 €/mois NANTERRE (92000) 77 m² • 3 pièces • 2 chambres Sous-sol • 1 cave • 1 salle d'eau • Balcon",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/neauphle/louer/plaisir/appartement-2-pieces-52933883": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 1,
@@ -2449,7 +2554,7 @@
   "prix": 949,
   "statut": "active",
   "surface": 44.0,
-  "titre": "Appartement 949 €/mois PLAISIR (78370) 44 m² • 2 pièces • 1 chambre 1 salle de bain • Meublé",
+  "titre": "Appartement 949 €/mois PLAISIR (78370) 44 m² • 2 pièces • 1 chambre 1 salle de bain •…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -2721,7 +2826,7 @@
   "prix": 919,
   "statut": "active",
   "surface": 60.0,
-  "titre": "Appartement 919 €/mois PAU (64000) 60 m² • 3 pièces • 2 chambres Terrasse • Ascenseur •…",
+  "titre": "Appartement 919 €/mois PAU (64000) 60 m² • 3 pièces • 2 chambres Terrasse • Ascenseur • Garage • 1 cave",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -2851,7 +2956,7 @@
   "prix": 1350,
   "statut": "active",
   "surface": 41.0,
-  "titre": "Appartement 1 350 €/mois SAINT GENIS POUILLY (01630) 41 m² • 2 pièces • 1 chambre 1 salle d'eau • Balcon • Parking",
+  "titre": "Appartement 1 350 €/mois SAINT GENIS POUILLY (01630) 41 m² • 2 pièces • 1 chambre 1…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
