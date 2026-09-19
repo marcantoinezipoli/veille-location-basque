@@ -1835,7 +1835,7 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-19",
   "statut": "active",
-  "titre": "Exclusivité HASPARREN 64 500 € par mois charges comprises 33,6 m2 , appartement , 2 pcs",
+  "titre": "HASPARREN 64 500 € par mois charges comprises 33,6 m2 , appartement , 2 pcs",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -2320,6 +2320,27 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/bezons/louer/argenteuil/appartement-2-pieces-52935132": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-19",
+  "historique_prix": [
+   {
+    "date": "2026-09-19",
+    "prix": 890
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-19",
+  "prix": 890,
+  "statut": "active",
+  "surface": 41.0,
+  "titre": "Appartement 890 €/mois ARGENTEUIL (95100) 41 m² • 2 pièces • 1 chambre 1 salle de bain",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/biarritz/louer/biarritz/appartement-4-pieces-52924306": {
   "agence": "Laforêt (64, appartements)",
   "chambres": 2,
@@ -2445,6 +2466,48 @@
   "type": "maison",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/issy-les-moulineaux-mairie/louer/issy-les-moulineaux/appartement-2-pieces-52935358": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-19",
+  "historique_prix": [
+   {
+    "date": "2026-09-19",
+    "prix": 1450
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-19",
+  "prix": 1450,
+  "statut": "active",
+  "surface": 47.0,
+  "titre": "Appartement 1 450 €/mois ISSY LES MOULINEAUX (92130) 47 m² • 2 pièces • 1 chambre Ascenseur • 1 salle de bain • Balcon",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/issy-les-moulineaux-mairie/louer/issy-les-moulineaux/appartement-3-pieces-52935335": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-19",
+  "historique_prix": [
+   {
+    "date": "2026-09-19",
+    "prix": 1770
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-19",
+  "prix": 1770,
+  "statut": "active",
+  "surface": 59.0,
+  "titre": "Appartement 1 770 €/mois ISSY LES MOULINEAUX (92130) 59 m² • 3 pièces • 2 chambres Ascenseur • 1 salle de bain • Balcon • Parking",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/limeil-brevannes/louer/limeil-brevannes/appartement-3-pieces-52934534": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 2,
@@ -2462,7 +2525,7 @@
   "prix": 1250,
   "statut": "active",
   "surface": 63.0,
-  "titre": "Appartement 1 250 €/mois LIMEIL BREVANNES (94450) 63 m² • 3 pièces • 2 chambres Ascenseur • 1 salle de bain • Balcon • Meublé",
+  "titre": "Appartement 1 250 €/mois LIMEIL BREVANNES (94450) 63 m² • 3 pièces • 2 chambres…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
