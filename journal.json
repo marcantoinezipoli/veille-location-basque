@@ -1887,7 +1887,7 @@
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-09-21",
   "statut": "active",
-  "titre": "Exclusivité ST JEAN DE LUZ 64 890,90 € par mois charges comprises 55,1 m2 , appartement , 3 pcs",
+  "titre": "ST JEAN DE LUZ 64 890,90 € par mois charges comprises 55,1 m2 , appartement , 3 pcs",
   "type": "appartement",
   "ville_agence": "Bidart"
  },
@@ -2512,7 +2512,7 @@
   "prix": 890,
   "statut": "active",
   "surface": 34.0,
-  "titre": "Maison 890 €/mois VENCE (06140) 34 m² • 2 pièces • 1 chambre Piscine • 1 salle de bain • Parking",
+  "titre": "Maison 890 €/mois VENCE (06140) 34 m² • 2 pièces • 1 chambre Piscine • 1 salle de bain…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -2554,7 +2554,7 @@
   "prix": 1220,
   "statut": "active",
   "surface": 110.0,
-  "titre": "Maison 1 220 €/mois CHARTRES (28000) 110 m² • 5 pièces • 3 chambres 1 salle de bain • 1 salle d'eau",
+  "titre": "Maison 1 220 €/mois CHARTRES (28000) 110 m² • 5 pièces • 3 chambres 1 salle de bain • 1…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -3160,7 +3160,7 @@
   "prix": 1300,
   "statut": "active",
   "surface": 76.0,
-  "titre": "Appartement 1 300 €/mois PAU (64000) 76 m² • 3 pièces • 2 chambres Terrasse • Ascenseur • Garage • 1 cave",
+  "titre": "Appartement 1 300 €/mois PAU (64000) 76 m² • 3 pièces • 2 chambres Terrasse • Ascenseur…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -3703,10 +3703,10 @@
  },
  "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html": {
   "agence": "Agence Olaizola",
-  "classement": "a_verifier",
+  "classement": "match",
   "derniere_vue": "2026-09-21",
   "pieces": 2,
-  "position": "Bidart (ville de l'agence)",
+  "position": "Biarritz (ville de l'agence)",
   "premiere_vue": "2026-09-21",
   "statut": "active",
   "surface": 228.0,

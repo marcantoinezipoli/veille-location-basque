@@ -4125,7 +4125,7 @@
    "score": 1,
    "statut": "active",
    "surface": null,
-   "titre": "Exclusivité ST JEAN DE LUZ 64 890,90 € par mois charges comprises 55,1 m2 , appartement , 3 pcs",
+   "titre": "ST JEAN DE LUZ 64 890,90 € par mois charges comprises 55,1 m2 , appartement , 3 pcs",
    "type": "appartement",
    "url": "https://www.century21.fr/trouver_logement/detail/16974624776/",
    "ville_agence": "Bidart"
@@ -5492,7 +5492,7 @@
    "score": 4,
    "statut": "active",
    "surface": 34.0,
-   "titre": "Maison 890 €/mois VENCE (06140) 34 m² • 2 pièces • 1 chambre Piscine • 1 salle de bain • Parking",
+   "titre": "Maison 890 €/mois VENCE (06140) 34 m² • 2 pièces • 1 chambre Piscine • 1 salle de bain…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/cagnes-sur-mer/louer/vence/maison-2-pieces-52939396",
    "ville_agence": "Bayonne"
@@ -5574,7 +5574,7 @@
    "score": 4,
    "statut": "active",
    "surface": 110.0,
-   "titre": "Maison 1 220 €/mois CHARTRES (28000) 110 m² • 5 pièces • 3 chambres 1 salle de bain • 1 salle d'eau",
+   "titre": "Maison 1 220 €/mois CHARTRES (28000) 110 m² • 5 pièces • 3 chambres 1 salle de bain • 1…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/chartres/louer/chartres/maison-5-pieces-52939403",
    "ville_agence": "Bayonne"
@@ -6749,7 +6749,7 @@
    "score": 12,
    "statut": "active",
    "surface": 76.0,
-   "titre": "Appartement 1 300 €/mois PAU (64000) 76 m² • 3 pièces • 2 chambres Terrasse • Ascenseur • Garage • 1 cave",
+   "titre": "Appartement 1 300 €/mois PAU (64000) 76 m² • 3 pièces • 2 chambres Terrasse • Ascenseur…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-3-pieces-52939319",
    "ville_agence": "Bayonne"
@@ -7934,32 +7934,46 @@
   },
   "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html": {
    "agence": "Agence Olaizola",
-   "atouts": [],
+   "atouts": [
+    "saint-jean",
+    "228 m²"
+   ],
    "chambres": null,
-   "classement": "a_verifier",
+   "classement": "match",
+   "contact_cherche": true,
    "contexte": "",
    "derniere_vue": "2026-09-21",
-   "fiche_lue": false,
-   "itineraire_pos": "43.437,-1.5915",
+   "description": "OLAIZOLA AGENCE OLAIZOLA Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact AGENCE OLAIZOLA + de critères Découvrez notre Agence AGENCE OLAIZOLA Agence Immobilière de Confiance sur la Côte Basque et dans les Landes Depuis plusieurs années, l’Agence OLAIZOLA, née de l’alliance de deux frères, incarne l’esprit familial et la proximité avec les propriétaires locaux. Notre équipe d’experts chevronnés, forte de plus de 15 collaborateurs passionnés, se tient à votre service pour vos projets d'achat, de vente, de location et de gestion de biens immobiliers sur la Côte Basque et dans les Landes : de Biarritz à Saint-Jean-de-Luz, en passant par Bidart. Chez OLAIZOLA, chaque bien bénéficie d’une visibilité optimale et d’un suivi rigoureux, reflétant notre engagement pour des transactions efficaces et une satisfaction totale de nos clients. Notre portefeuille varié saura répondre à vos envies, que vous soyez attiré par la côte ou l’intérieur du Pays Basque. Explorez un territoire u",
+   "dpe": null,
+   "fiche_lue": true,
+   "itineraire_pos": "43.4832,-1.5586",
    "itineraire_source": "route",
-   "km_hopital": 12.6,
-   "lat": 43.437,
-   "lon": -1.5915,
-   "min_velo": 50,
-   "min_voiture": 14,
+   "km_hopital": 8.2,
+   "lat": 43.4832,
+   "lon": -1.5586,
+   "meuble": false,
+   "min_velo": 33,
+   "min_voiture": 13,
+   "photo": "https://www.olaizola.immo/annonces/fiches/office8/agenceolaizola/catalog/images/background_5.jpg",
    "photo_cherchee": true,
+   "photos": [
+    "https://www.olaizola.immo/annonces/fiches/office8/agenceolaizola/catalog/images/background_5.jpg"
+   ],
    "photos_cherchees": true,
    "pieces": null,
-   "position": "Bidart (ville de l'agence)",
+   "position": "Biarritz (ville de l'agence)",
    "premiere_vue": "2026-09-21",
    "prix": null,
-   "reserves": [],
-   "score": 0,
+   "reserves": [
+    "passant",
+    "saint-jean-de-luz"
+   ],
+   "score": -9,
    "signaux": [],
    "statut": "active",
-   "surface": null,
+   "surface": 228.0,
    "titre": "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html",
-   "type": null,
+   "type": "maison",
    "url": "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html",
    "ville_agence": "Bidart"
   },
@@ -9691,6 +9705,12 @@
    "agences_ok": 19,
    "date": "2026-09-21",
    "nouveautes": 11
+  },
+  {
+   "actives": 119,
+   "agences_ok": 19,
+   "date": "2026-09-21",
+   "nouveautes": 2
   }
  ]
 }
