@@ -1353,7 +1353,7 @@
   "agence": "AJP Mateille Biarritz",
   "chambres": 5,
   "classement": "match",
-  "derniere_vue": "2026-09-21",
+  "derniere_vue": "2026-09-22",
   "historique_prix": [
    {
     "date": "2026-09-04",
@@ -1384,15 +1384,15 @@
  "https://www.ajp-immobilier.com/recherche?agency_id=367652&property=maison&listing_type=rent": {
   "agence": "AJP Mateille Biarritz",
   "classement": "match",
-  "derniere_vue": "2026-09-21",
+  "derniere_vue": "2026-09-22",
   "historique_prix": [
    {
-    "date": "2026-09-21",
+    "date": "2026-09-22",
     "prix": 2163
    }
   ],
   "position": "Biarritz (ville de l'agence)",
-  "premiere_vue": "2026-09-21",
+  "premiere_vue": "2026-09-22",
   "prix": 2163,
   "statut": "active",
   "surface": 149.0,
@@ -1789,6 +1789,17 @@
   "titre": "USTARITZ 64 1 967 € par mois charges comprises 148,3 m2 , maison , 6 pcs",
   "type": "maison",
   "ville_agence": "Bayonne"
+ },
+ "https://www.century21.fr/trouver_logement/detail/16938628860": {
+  "agence": "Century 21 (Bidart, toutes agences)",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-22",
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-09-22",
+  "statut": "active",
+  "titre": "Exclusivité GUETHARY 64 703 € par mois charges comprises 38,1 m2 , appartement , 2 pcs",
+  "type": "appartement",
+  "ville_agence": "Bidart"
  },
  "https://www.century21.fr/trouver_logement/detail/16953713569": {
   "agence": "Century 21 (Bayonne, toutes agences)",
@@ -2471,7 +2482,7 @@
   "prix": 1400,
   "statut": "active",
   "surface": 88.0,
-  "titre": "Maison 1 400 €/mois BLANQUEFORT (33290) 88 m² • 5 pièces • 3 chambres Surf. terrain : 333 m² • Terrasse",
+  "titre": "Maison 1 400 €/mois BLANQUEFORT (33290) 88 m² • 5 pièces • 3 chambres Surf. terrain :…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -2659,7 +2670,7 @@
   "prix": 730,
   "statut": "active",
   "surface": 15.0,
-  "titre": "Appartement 730 €/mois ISSY LES MOULINEAUX (92130) 15 m² • 1 pièce • 1 chambre Ascenseur • 1 salle d'eau • Meublé",
+  "titre": "Appartement 730 €/mois ISSY LES MOULINEAUX (92130) 15 m² • 1 pièce • 1 chambre…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -2747,6 +2758,27 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/martignas/louer/martignas-sur-jalle/appartement-4-pieces-52941327": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-22",
+  "historique_prix": [
+   {
+    "date": "2026-09-22",
+    "prix": 1650
+   }
+  ],
+  "pieces": 4,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-22",
+  "prix": 1650,
+  "statut": "active",
+  "surface": 100.0,
+  "titre": "Appartement 1 650 €/mois MARTIGNAS SUR JALLE (33127) 100 m² • 4 pièces • 3 chambres Surf. terrain : 300 m² • 2 salles d'eau • Parking",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/merignac/louer/merignac/appartement-2-pieces-52941052": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 1,
@@ -2764,7 +2796,7 @@
   "prix": 850,
   "statut": "active",
   "surface": 47.0,
-  "titre": "Appartement 850 €/mois MERIGNAC (33700) 47 m² • 2 pièces • 1 chambre Surface : 47.14 m² • 2 pièces • 1 chbre",
+  "titre": "Appartement 850 €/mois MERIGNAC (33700) 47 m² • 2 pièces • 1 chambre Surface : 47.14 m²…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -3397,6 +3429,27 @@
   "surface": 84.0,
   "titre": "Appartement 1 230 €/mois SALON DE PROVENCE (13300) 84 m² • 4 pièces • 3 chambres…",
   "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/voves/louer/les-villages-voveens/maison-3-pieces-52941328": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-22",
+  "historique_prix": [
+   {
+    "date": "2026-09-22",
+    "prix": 905
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-22",
+  "prix": 905,
+  "statut": "active",
+  "surface": 66.0,
+  "titre": "Maison 905 €/mois LES VILLAGES VOVEENS (28150) 66 m² • 3 pièces • 2 chambres Surf. terrain : 150 m² • 1 salle d'eau",
+  "type": "maison",
   "ville_agence": "Bayonne"
  },
  "https://www.lelogisbasque.fr/location/1-anglet/maison/2333-magnifique-maison-sur-3-niveaux-avec-studio-independant-a-anglet-montbrun": {
