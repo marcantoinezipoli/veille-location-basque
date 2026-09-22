@@ -2454,6 +2454,27 @@
   "type": "appartement",
   "ville_agence": "Biarritz"
  },
+ "https://www.laforet.com/agence-immobiliere/blanquefort/louer/blanquefort/maison-5-pieces-52940982": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-22",
+  "historique_prix": [
+   {
+    "date": "2026-09-22",
+    "prix": 1400
+   }
+  ],
+  "pieces": 5,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-22",
+  "prix": 1400,
+  "statut": "active",
+  "surface": 88.0,
+  "titre": "Maison 1 400 €/mois BLANQUEFORT (33290) 88 m² • 5 pièces • 3 chambres Surf. terrain : 333 m² • Terrasse",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/bordeauxcapucins/louer/merignac/appartement-1-piece-52931639": {
   "agence": "Laforêt (64, maisons)",
   "classement": "exclu",
@@ -2554,7 +2575,7 @@
   "prix": 1220,
   "statut": "active",
   "surface": 110.0,
-  "titre": "Maison 1 220 €/mois CHARTRES (28000) 110 m² • 5 pièces • 3 chambres 1 salle de bain • 1 salle d'eau",
+  "titre": "Maison 1 220 €/mois CHARTRES (28000) 110 m² • 5 pièces • 3 chambres 1 salle de bain • 1…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -2617,7 +2638,28 @@
   "prix": 770,
   "statut": "active",
   "surface": 45.0,
-  "titre": "Appartement 770 €/mois GRENOBLE (38000) 45 m² • 2 pièces • 1 chambre Ascenseur • 1 salle d'eau",
+  "titre": "Appartement 770 €/mois GRENOBLE (38000) 45 m² • 2 pièces • 1 chambre Ascenseur • 1…",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/issy-les-moulineaux-mairie/louer/issy-les-moulineaux/appartement-1-piece-52941018": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-22",
+  "historique_prix": [
+   {
+    "date": "2026-09-22",
+    "prix": 730
+   }
+  ],
+  "pieces": 1,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-22",
+  "prix": 730,
+  "statut": "active",
+  "surface": 15.0,
+  "titre": "Appartement 730 €/mois ISSY LES MOULINEAUX (92130) 15 m² • 1 pièce • 1 chambre Ascenseur • 1 salle d'eau • Meublé",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -2702,6 +2744,27 @@
   "statut": "disparu",
   "surface": 34.0,
   "titre": "Appartement 850 €/mois L ISLE ADAM (95290) 34 m² • 2 pièces • 1 chambre 1 salle d'eau •…",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/merignac/louer/merignac/appartement-2-pieces-52941052": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-22",
+  "historique_prix": [
+   {
+    "date": "2026-09-22",
+    "prix": 850
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-22",
+  "prix": 850,
+  "statut": "active",
+  "surface": 47.0,
+  "titre": "Appartement 850 €/mois MERIGNAC (33700) 47 m² • 2 pièces • 1 chambre Surface : 47.14 m² • 2 pièces • 1 chbre",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -2908,7 +2971,7 @@
   "prix": 3315,
   "statut": "active",
   "surface": 113.0,
-  "titre": "Appartement 3 315 €/mois PARIS (75010) 113 m² • 5 pièces • 3 chambres Cheminée • Ascenseur • 1 salle de bain • 1 salle d'eau",
+  "titre": "Appartement 3 315 €/mois PARIS (75010) 113 m² • 5 pièces • 3 chambres Cheminée •…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
