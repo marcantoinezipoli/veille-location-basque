@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="fr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Veille location Côte Basque — 22 sept.</title>
+<title>Veille location Côte Basque — 23 sept.</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
@@ -104,7 +104,7 @@ footer { font-size:.78rem; color:var(--texte2); margin-top:28px; line-height:1.5
 <body>
 <header>
   <h1>Côte Basque · locations</h1>
-  <p class="sous">22 sept. · 22 annonces en ligne · 19 agences lues · 1 chambres min · 2 200 € max · appartement ou maison · pas de RDC · à l’année</p>
+  <p class="sous">23 sept. · 22 annonces en ligne · 19 agences lues · 1 chambres min · 2 200 € max · appartement ou maison · pas de RDC · à l’année</p>
 </header>
 <nav class="onglets"><div class="onglets-int">
   <button data-onglet="nouveau">Nouveau<span class="n">2</span></button>
@@ -114,7 +114,7 @@ footer { font-size:.78rem; color:var(--texte2); margin-top:28px; line-height:1.5
   <button data-onglet="tout">Tout<span class="n">22</span></button>
   <button data-onglet="carte">Carte</button>
   <button data-onglet="marche">Marché</button>
-  <button data-onglet="ecartees">Écartées<span class="n">98</span></button>
+  <button data-onglet="ecartees">Écartées<span class="n">100</span></button>
 </div></nav>
 <div class="filtres-villes"><button data-ville="toutes" class="actif">Toutes</button><button data-ville="Anglet">Anglet</button><button data-ville="Biarritz">Biarritz</button><button data-ville="Bidart">Bidart</button><button data-ville="Bayonne">Bayonne</button></div>
 <main>
@@ -125,11 +125,11 @@ footer { font-size:.78rem; color:var(--texte2); margin-top:28px; line-height:1.5
   <h2>Le marché sur les agences suivies</h2>
   <p class="note">Données accumulées depuis le 4 sept. ; plus la veille tourne, plus les colonnes 30 et 90 jours deviennent parlantes. Annonces correspondant aux critères uniquement.</p>
   <div class="tableau"><table>
-    <tr><th></th><th>7 j</th><th>30 j</th><th>90 j</th></tr><tr><td>Annonces sorties</td><td>12</td><td>30</td><td>30</td></tr><tr><td>Annonces retirées</td><td>4</td><td>8</td><td>8</td></tr><tr><td>…dont parties en ≤ 3 jours</td><td>2</td><td>3</td><td>3</td></tr><tr><td>Durée médiane avant retrait</td><td>6 j</td><td>6 j</td><td>6 j</td></tr><tr><td>Baisses de loyer</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Loyer médian au m²</td><td>15.9 €</td><td>16.4 €</td><td>16.4 €</td></tr>
-    <tr><th colspan="4" class="sous-titre">Loyer médian des annonces sorties (nombre)</th></tr><tr><td>Anglet</td><td>250 € <small>(1)</small></td><td>1 360 € <small>(8)</small></td><td>1 360 € <small>(8)</small></td></tr><tr><td>Biarritz</td><td>1 530 € <small>(3)</small></td><td>1 515 € <small>(6)</small></td><td>1 515 € <small>(6)</small></td></tr><tr><td>Bidart</td><td>–</td><td>–</td><td>–</td></tr><tr><td>Bayonne</td><td>1 450 € <small>(3)</small></td><td>1 126 € <small>(8)</small></td><td>1 126 € <small>(8)</small></td></tr>
+    <tr><th></th><th>7 j</th><th>30 j</th><th>90 j</th></tr><tr><td>Annonces sorties</td><td>7</td><td>30</td><td>30</td></tr><tr><td>Annonces retirées</td><td>3</td><td>8</td><td>8</td></tr><tr><td>…dont parties en ≤ 3 jours</td><td>2</td><td>3</td><td>3</td></tr><tr><td>Durée médiane avant retrait</td><td>3 j</td><td>6 j</td><td>6 j</td></tr><tr><td>Baisses de loyer</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Loyer médian au m²</td><td>14.5 €</td><td>16.4 €</td><td>16.4 €</td></tr>
+    <tr><th colspan="4" class="sous-titre">Loyer médian des annonces sorties (nombre)</th></tr><tr><td>Anglet</td><td>250 € <small>(1)</small></td><td>1 360 € <small>(8)</small></td><td>1 360 € <small>(8)</small></td></tr><tr><td>Biarritz</td><td>1 656 € <small>(2)</small></td><td>1 515 € <small>(6)</small></td><td>1 515 € <small>(6)</small></td></tr><tr><td>Bidart</td><td>–</td><td>–</td><td>–</td></tr><tr><td>Bayonne</td><td>1 450 € <small>(1)</small></td><td>1 126 € <small>(8)</small></td><td>1 126 € <small>(8)</small></td></tr>
   </table></div>
   <h3>Par semaine : annonces sorties (barres) et loyer médian (points)</h3>
-  <div class="graphe"><svg viewBox="0 0 640 200" width="100%" xmlns="http://www.w3.org/2000/svg" style="display:block"><line x1="30" y1="170" x2="610" y2="170" stroke="#ebebeb"/><rect x="34" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="82" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="131" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="179" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="227" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="276" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="324" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="372" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="421" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="469" y="30" width="40" height="140" rx="4" fill="#d9e9e1"/><text x="489" y="25" text-anchor="middle" font-size="11" fill="#6a6a6a">17</text><rect x="517" y="121" width="40" height="49" rx="4" fill="#d9e9e1"/><text x="538" y="116" text-anchor="middle" font-size="11" fill="#6a6a6a">6</text><rect x="566" y="112" width="40" height="58" rx="4" fill="#d9e9e1"/><text x="586" y="107" text-anchor="middle" font-size="11" fill="#6a6a6a">7</text><circle cx="489" cy="122" r="4" fill="#008a5c"/><text x="489" y="114" text-anchor="middle" font-size="10" fill="#008a5c">1315</text><circle cx="538" cy="55" r="4" fill="#008a5c"/><text x="538" y="47" text-anchor="middle" font-size="10" fill="#008a5c">1514</text><circle cx="586" cy="127" r="4" fill="#008a5c"/><text x="586" y="119" text-anchor="middle" font-size="10" fill="#008a5c">1300</text><text x="54" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">1/7</text><text x="103" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">8/7</text><text x="151" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">15/7</text><text x="199" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">22/7</text><text x="248" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">29/7</text><text x="296" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">5/8</text><text x="344" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">12/8</text><text x="393" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">19/8</text><text x="441" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">26/8</text><text x="489" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">2/9</text><text x="538" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">9/9</text><text x="586" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">16/9</text></svg></div>
+  <div class="graphe"><svg viewBox="0 0 640 200" width="100%" xmlns="http://www.w3.org/2000/svg" style="display:block"><line x1="30" y1="170" x2="610" y2="170" stroke="#ebebeb"/><rect x="34" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="82" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="131" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="179" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="227" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="276" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="324" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="372" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="421" y="170" width="40" height="0" rx="4" fill="#d9e9e1"/><rect x="469" y="30" width="40" height="140" rx="4" fill="#d9e9e1"/><text x="489" y="25" text-anchor="middle" font-size="11" fill="#6a6a6a">18</text><rect x="517" y="116" width="40" height="54" rx="4" fill="#d9e9e1"/><text x="538" y="111" text-anchor="middle" font-size="11" fill="#6a6a6a">7</text><rect x="566" y="131" width="40" height="39" rx="4" fill="#d9e9e1"/><text x="586" y="126" text-anchor="middle" font-size="11" fill="#6a6a6a">5</text><circle cx="489" cy="92" r="4" fill="#008a5c"/><text x="489" y="84" text-anchor="middle" font-size="10" fill="#008a5c">1320</text><circle cx="538" cy="50" r="4" fill="#008a5c"/><text x="538" y="42" text-anchor="middle" font-size="10" fill="#008a5c">1474</text><circle cx="586" cy="139" r="4" fill="#008a5c"/><text x="586" y="131" text-anchor="middle" font-size="10" fill="#008a5c">1150</text><text x="54" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">2/7</text><text x="103" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">9/7</text><text x="151" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">16/7</text><text x="199" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">23/7</text><text x="248" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">30/7</text><text x="296" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">6/8</text><text x="344" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">13/8</text><text x="393" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">20/8</text><text x="441" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">27/8</text><text x="489" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">3/9</text><text x="538" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">10/9</text><text x="586" y="186" text-anchor="middle" font-size="10" fill="#6a6a6a">17/9</text></svg></div>
 </section>
   <div class="grille">
 <article class="carte match coeur" id="c-ayonne641002967067058901agencyag5cantons" data-id="ayonne641002967067058901agencyag5cantons" data-ville="Anglet" data-pieces="4" data-cl="match" data-coeur="1" data-nouveau="0">
@@ -143,7 +143,7 @@ footer { font-size:.78rem; color:var(--texte2); margin-top:28px; line-height:1.5
   <div class="corps">
     <a class="titre" href="https://www.orpi.com/annonce-location-appartement-t4-bayonne-64100-2967-067058-901/?agency=ag5cantons" target="_blank" rel="noopener">Location Appartement 4 pièces 80 m2 Bayonne - Saint-Léon</a>
     <p class="faits">Appartement · T4 · 3 ch. · 80 m² · Meublé</p>
-    <div class="pills"><span class="pill dpe-ab">DPE A</span><span class="pill prix-bon">13.1 €/m² · bon prix (-19 %)</span><span class="pill ">En ligne depuis 18 j</span></div>
+    <div class="pills"><span class="pill dpe-ab">DPE A</span><span class="pill prix-bon">13.1 €/m² · bon prix (-19 %)</span><span class="pill ">En ligne depuis 19 j</span></div>
     <p class="agence">Orpi Agence des 5 Cantons · Anglet · quartier Saint-Léon · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 16 min à vélo · 6 min en voiture · 4.0 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.483,-1.47&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.483,-1.47&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -180,7 +180,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.orpi.com/annonce-location-appartement-t4-anglet-64600-8c4df96b-7979-48c8-bf2a-b3b83106a08f/?agency=ag5cantons" target="_blank" rel="noopener">Location Appartement 4 pièces 82 m2 Anglet - Aritxague</a>
     <p class="faits">Appartement · T4 · 3 ch. · 82 m² · Meublé</p>
-    <div class="pills"><span class="pill dpe-ab">DPE A</span><span class="pill prix-ok">16.1 €/m² · dans le marché (0 %)</span><span class="pill ">En ligne depuis 15 j</span></div>
+    <div class="pills"><span class="pill dpe-ab">DPE A</span><span class="pill prix-ok">16.1 €/m² · dans le marché (0 %)</span><span class="pill ">En ligne depuis 16 j</span></div>
     <p class="agence">Orpi Agence des 5 Cantons · Anglet · Anglet (ville de l&#x27;agence) · vu le 7 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 20 min à vélo · 9 min en voiture · 4.9 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4855,-1.5185&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4855,-1.5185&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -254,7 +254,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.agence-benquet.com/appartement-maison/biarritz-hyper-centre-t4-2/" target="_blank" rel="noopener">BIARRITZ, Hyper Centre, T4</a>
     <p class="faits">Appartement · T4 · 102 m²</p>
-    <div class="pills"><span class="pill prix-ok">17.0 €/m² · dans le marché (-2 %)</span><span class="pill ">En ligne depuis 18 j</span></div>
+    <div class="pills"><span class="pill prix-ok">17.0 €/m² · dans le marché (-5 %)</span><span class="pill ">En ligne depuis 19 j</span></div>
     <p class="agence">Agence Benquet · Biarritz · quartier Hyper Centre · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -291,7 +291,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.manoirdefrance.fr/location,appartement-appartement-t3-de-64m2-bayonne-quartier-mousserolles,277-1031" target="_blank" rel="noopener">Appartement Bayonne</a>
     <p class="faits">Appartement · T3 · 64 m² · Meublé</p>
-    <div class="pills"><span class="pill dpe-d">DPE D</span><span class="pill prix-bon">12.9 €/m² · bon prix (-25 %)</span><span class="pill ">En ligne depuis 18 j</span></div>
+    <div class="pills"><span class="pill dpe-d">DPE D</span><span class="pill prix-bon">12.9 €/m² · bon prix (-25 %)</span><span class="pill ">En ligne depuis 19 j</span></div>
     <p class="agence">Manoir de France · Bayonne · quartier Mousserolles · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 15 min à vélo · 6 min en voiture · 3.7 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.488,-1.469&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.488,-1.469&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -328,7 +328,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.laforet.com/agence-immobiliere/biarritz/louer/biarritz/appartement-4-pieces-52924306" target="_blank" rel="noopener">Appartement 1 530 €/mois BIARRITZ (64200) 76 m² • 4 pièces • 2 chambres…</a>
     <p class="faits">Appartement · T4 · 2 ch. · 76 m² · Meublé</p>
-    <div class="pills"><span class="pill prix-haut">20.1 €/m² · au-dessus du marché (+16 %)</span><span class="pill signal">⚠ Rez-de-chaussée</span></div>
+    <div class="pills"><span class="pill prix-ok">20.1 €/m² · dans le marché (+12 %)</span><span class="pill signal">⚠ Rez-de-chaussée</span></div>
     <p class="agence">Laforêt (64, appartements) · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 15 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -365,7 +365,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.manoirdefrance.fr/location,appartement-biarritz-t3-vide-A-l-annAe-vue-ocAan-disponibilitA-immAd,B2476000" target="_blank" rel="noopener">Biarritz</a>
     <p class="faits">Appartement · T3 · 64 m² · Meublé</p>
-    <div class="pills"><span class="pill dpe-d">DPE D</span><span class="pill prix-ok">18.0 €/m² · dans le marché (+3 %)</span></div>
+    <div class="pills"><span class="pill dpe-d">DPE D</span><span class="pill prix-ok">18.0 €/m² · dans le marché (+1 %)</span></div>
     <p class="agence">Manoir de France · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 22 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -402,7 +402,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.agence-benquet.com/appartement-maison/biarritz-appartement-t3-meuble-avec-balcon-ascenseur-et-residence-securisee/" target="_blank" rel="noopener">Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée</a>
     <p class="faits">Appartement · T3 · 83 m² · Meublé</p>
-    <div class="pills"><span class="pill prix-ok">18.1 €/m² · dans le marché (+4 %)</span><span class="pill ">En ligne depuis 18 j</span></div>
+    <div class="pills"><span class="pill prix-ok">18.1 €/m² · dans le marché (+1 %)</span><span class="pill ">En ligne depuis 19 j</span></div>
     <p class="agence">Agence Benquet · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -439,7 +439,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.ajp-immobilier.com/annonces/locations/maison/anglet-64/58401720" target="_blank" rel="noopener">Location maison Anglet : 2 163 € - AJP Mateille Immobilier Biarritz</a>
     <p class="faits">Maison · T7 · 5 ch. · 149 m²</p>
-    <div class="pills"><span class="pill prix-ok">14.5 €/m² · dans le marché (-10 %)</span><span class="pill ">En ligne depuis 18 j</span></div>
+    <div class="pills"><span class="pill prix-ok">14.5 €/m² · dans le marché (-10 %)</span><span class="pill ">En ligne depuis 19 j</span></div>
     <p class="agence">AJP Mateille Biarritz · Anglet · Anglet (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 20 min à vélo · 9 min en voiture · 4.9 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4855,-1.5185&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4855,-1.5185&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -513,7 +513,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.manoirdefrance.fr/location,appartement-appartement-3-piAces-4514-m2-bail-meuble-a-l-annee,B2923000" target="_blank" rel="noopener">Appartement Bayonne</a>
     <p class="faits">Appartement · T3 · 2 ch. · 45 m² · Meublé</p>
-    <div class="pills"><span class="pill dpe-d">DPE D</span><span class="pill prix-ok">17.6 €/m² · dans le marché (+2 %)</span><span class="pill ">En ligne depuis 18 j</span></div>
+    <div class="pills"><span class="pill dpe-d">DPE D</span><span class="pill prix-ok">17.6 €/m² · dans le marché (+2 %)</span><span class="pill ">En ligne depuis 19 j</span></div>
     <p class="agence">Manoir de France · Bayonne · quartier Marracq · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 6 min à vélo · 3 min en voiture · 1.6 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4855,-1.4805&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4855,-1.4805&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -550,7 +550,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.agence-benquet.com/appartement-maison/anglet-appartement-t4-meuble-avec-terrasse-et-deux-stationnements/" target="_blank" rel="noopener">Anglet – Appartement T4 meublé avec terrasse, deux stationnements.</a>
     <p class="faits">Appartement · T4 · 92 m² · Meublé</p>
-    <div class="pills"><span class="pill prix-ok">17.4 €/m² · dans le marché (+8 %)</span></div>
+    <div class="pills"><span class="pill prix-ok">17.4 €/m² · dans le marché (+8 %)</span><span class="pill ">En ligne depuis 14 j</span></div>
     <p class="agence">Agence Benquet · Anglet · Anglet (ville de l&#x27;agence) · vu le 9 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 20 min à vélo · 9 min en voiture · 4.9 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4855,-1.5185&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4855,-1.5185&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -587,7 +587,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/anglet-64600" target="_blank" rel="noopener">Location appartement Anglet (64600) et alentours</a>
     <p class="faits">Appartement · Meublé</p>
-    <div class="pills"><span class="pill dpe-c">DPE C</span><span class="pill ">En ligne depuis 16 j</span></div>
+    <div class="pills"><span class="pill dpe-c">DPE C</span><span class="pill ">En ligne depuis 17 j</span></div>
     <p class="agence">Square Habitat Bidart · Anglet · Anglet (ville de l&#x27;agence) · vu le 6 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 20 min à vélo · 9 min en voiture · 4.9 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4855,-1.5185&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4855,-1.5185&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -624,8 +624,8 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.ajp-immobilier.com/recherche?agency_id=367652&amp;property=maison&amp;listing_type=rent" target="_blank" rel="noopener">Toutes nos annonces immobilières correspondant à votre recherche</a>
     <p class="faits">Maison · 149 m²</p>
-    <div class="pills"><span class="pill prix-bon">14.5 €/m² · bon prix (-17 %)</span></div>
-    <p class="agence">AJP Mateille Biarritz · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 22 sept.</p>
+    <div class="pills"><span class="pill prix-bon">14.5 €/m² · bon prix (-19 %)</span></div>
+    <p class="agence">AJP Mateille Biarritz · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 23 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
     <div class="chips"><span class="chip plus">neuf</span><span class="chip plus">parking</span><span class="chip plus">149 m²</span></div>
@@ -661,7 +661,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.immobilier-bayonne-aturri.com/location-appartement-t3-3-pieces-bayonne/bien-immobilier/2/ges23930006-410" target="_blank" rel="noopener">Location appartement T3 58m2BAYONNE886 C. € / moisA proximité de la place saint andré,…</a>
     <p class="faits">Appartement · T3 · 58 m²</p>
-    <div class="pills"><span class="pill ">En ligne depuis 18 j</span></div>
+    <div class="pills"><span class="pill ">En ligne depuis 19 j</span></div>
     <p class="agence">Aturri Immobilier · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 12 min à vélo · 5 min en voiture · 3.0 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -699,7 +699,7 @@ Marc-Antoine Zipoli et Léa Mathieux
     <a class="titre" href="https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html" target="_blank" rel="noopener">https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appa…</a>
     <p class="faits">Maison · 228 m²</p>
     
-    <p class="agence">Agence Olaizola · Bidart · Biarritz (ville de l&#x27;agence) · vu le 22 sept.</p>
+    <p class="agence">Agence Olaizola · Bidart · Biarritz (ville de l&#x27;agence) · vu le 23 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
     <div class="chips"><span class="chip plus">saint-jean</span><span class="chip plus">228 m²</span><span class="chip moins">passant</span><span class="chip moins">saint-jean-de-luz</span></div>
@@ -735,7 +735,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.manoirdefrance.fr/location,appartement-A-louer-A-l-annAe-t2-bis-plein-de-charme-au-coeur-de-biarri,2154-1688" target="_blank" rel="noopener">Biarritz</a>
     <p class="faits">Appartement · T2 · 1 ch. · 72 m²</p>
-    <div class="pills"><span class="pill dpe-d">DPE D</span><span class="pill prix-ok">18.2 €/m² · dans le marché (+6 %)</span><span class="pill ">En ligne depuis 18 j</span><span class="pill signal">⚠ 2 pièces</span></div>
+    <div class="pills"><span class="pill dpe-d">DPE D</span><span class="pill prix-ok">18.2 €/m² · dans le marché (+6 %)</span><span class="pill ">En ligne depuis 19 j</span><span class="pill signal">⚠ 2 pièces</span></div>
     <p class="agence">Manoir de France · Bayonne · quartier Halles · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 36 min à vélo · 13 min en voiture · 9.0 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.482,-1.559&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.482,-1.559&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -772,7 +772,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.manoirdefrance.fr/location,appartement-A-louer-A-l-annAe-t2-bis-meublA-biarritz-proximitA-cAte,B5262800" target="_blank" rel="noopener">Biarritz</a>
     <p class="faits">Appartement · T2 · 1 ch. · 65 m² · Meublé</p>
-    <div class="pills"><span class="pill dpe-d">DPE D</span><span class="pill prix-ok">18.5 €/m² · dans le marché (+7 %)</span><span class="pill ">En ligne depuis 18 j</span><span class="pill signal">⚠ 2 pièces</span></div>
+    <div class="pills"><span class="pill dpe-d">DPE D</span><span class="pill prix-ok">18.5 €/m² · dans le marché (+7 %)</span><span class="pill ">En ligne depuis 19 j</span><span class="pill signal">⚠ 2 pièces</span></div>
     <p class="agence">Manoir de France · Bayonne · quartier Côte Des Basques · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 42 min à vélo · 18 min en voiture · 10.4 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.479,-1.568&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.479,-1.568&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -1242,43 +1242,6 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
-<article class="carte exclu" id="c-elouernanterreappartement3pieces52934270" data-id="elouernanterreappartement3pieces52934270" data-ville="Bayonne" data-pieces="3" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <div class="visuel sans">
-    
-    <div class="badges"></div>
-    <span class="score pos">+9</span>
-    <div class="voile"></div>
-    <a class="prix-sur-photo" href="https://www.laforet.com/agence-immobiliere/nanterre/louer/nanterre/appartement-3-pieces-52934270" target="_blank" rel="noopener"><span class="prix">1 671 €</span><span class="par-mois">/ mois</span></a>
-  </div>
-  <div class="corps">
-    <a class="titre" href="https://www.laforet.com/agence-immobiliere/nanterre/louer/nanterre/appartement-3-pieces-52934270" target="_blank" rel="noopener">Appartement 1 671 €/mois NANTERRE (92000) 77 m² • 3 pièces • 2 chambres Sous-sol • 1…</a>
-    <p class="faits">Appartement · T3 · 2 ch. · 77 m²</p>
-    <div class="pills"><span class="pill prix-haut">21.7 €/m² · au-dessus du marché (+26 %)</span><span class="pill exclu">Écartée : hors zone (92000)</span></div>
-    <p class="agence">Laforêt (64, maisons) · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 18 sept.</p>
-    <p class="dist">🏥 CH Côte Basque : 12 min à vélo · 5 min en voiture · 3.0 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
-    
-    <div class="chips"><span class="chip plus">balcon</span><span class="chip plus">cave</span><span class="chip plus">sous-sol</span><span class="chip plus">77 m²</span><span class="chip plus">loyer 1671 €</span></div>
-    <div class="actions">
-      <a class="btn" href="https://www.laforet.com/agence-immobiliere/nanterre/louer/nanterre/appartement-3-pieces-52934270" target="_blank" rel="noopener">Voir l’annonce</a>
-      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20Appartement%201%20671%20%E2%82%AC/mois%20NANTERRE%20%2892000%29%2077%20m%C2%B2%20%E2%80%A2%203%20pi%C3%A8ces%20%E2%80%A2%202%20chambres%20Sous-sol%20%E2%80%A2%201%E2%80%A6&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20Appartement%201%20671%20%E2%82%AC/mois%20NANTERRE%20%2892000%29%2077%20m%C2%B2%20%E2%80%A2%203%20pi%C3%A8ces%20%E2%80%A2%202%20chambres%20Sous-sol%20%E2%80%A2%201%E2%80%A6%20%C2%BB%20%28https%3A//www.laforet.com/agence-immobiliere/nanterre/louer/nanterre/appartement-3-pieces-52934270%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
-
-Nous sommes très intéressés par votre annonce « Appartement 1 671 €/mois NANTERRE (92000) 77 m² • 3 pièces • 2 chambres Sous-sol • 1… » (https://www.laforet.com/agence-immobiliere/nanterre/louer/nanterre/appartement-3-pieces-52934270).
-
-Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
-
-Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
-
-Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
-
-Bien cordialement,
-Marc-Antoine Zipoli et Léa Mathieux
-[téléphone]"><span class="i">📋</span>Copier</button></div>
-      <div class="suivi" data-id="elouernanterreappartement3pieces52934270">
-        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
-      </div>
-    </div>
-  </div>
-</article>
 <article class="carte exclu" id="c-tury21frtrouverlogementdetail16960884937" data-id="tury21frtrouverlogementdetail16960884937" data-ville="Bayonne" data-pieces="4" data-cl="exclu" data-coeur="0" data-nouveau="0">
   <div class="visuel">
     <div class="galerie"><div class="diapo"><img src="https://www.century21.fr/imagesBien/s3/202/3419/c21_202_3419_5469_8_B248D70A-D589-48E1-B512-3CB2926B88B3.jpg" alt="" onerror="this.parentNode.remove()"></div></div>
@@ -1390,43 +1353,6 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
-<article class="carte exclu" id="c-elouernanterreappartement3pieces52934265" data-id="elouernanterreappartement3pieces52934265" data-ville="Bayonne" data-pieces="3" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <div class="visuel sans">
-    
-    <div class="badges"></div>
-    <span class="score pos">+6</span>
-    <div class="voile"></div>
-    <a class="prix-sur-photo" href="https://www.laforet.com/agence-immobiliere/nanterre/louer/nanterre/appartement-3-pieces-52934265" target="_blank" rel="noopener"><span class="prix">1 620 €</span><span class="par-mois">/ mois</span></a>
-  </div>
-  <div class="corps">
-    <a class="titre" href="https://www.laforet.com/agence-immobiliere/nanterre/louer/nanterre/appartement-3-pieces-52934265" target="_blank" rel="noopener">Appartement 1 620 €/mois NANTERRE (92000) 64 m² • 3 pièces • 2 chambres Terrasse •…</a>
-    <p class="faits">Appartement · T3 · 2 ch. · 64 m²</p>
-    <div class="pills"><span class="pill prix-haut">25.3 €/m² · au-dessus du marché (+47 %)</span><span class="pill exclu">Écartée : hors zone (92000)</span></div>
-    <p class="agence">Laforêt (64, maisons) · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 18 sept.</p>
-    <p class="dist">🏥 CH Côte Basque : 12 min à vélo · 5 min en voiture · 3.0 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
-    
-    <div class="chips"><span class="chip plus">terrasse</span><span class="chip plus">ascenseur</span><span class="chip plus">loyer 1620 €</span></div>
-    <div class="actions">
-      <a class="btn" href="https://www.laforet.com/agence-immobiliere/nanterre/louer/nanterre/appartement-3-pieces-52934265" target="_blank" rel="noopener">Voir l’annonce</a>
-      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20Appartement%201%20620%20%E2%82%AC/mois%20NANTERRE%20%2892000%29%2064%20m%C2%B2%20%E2%80%A2%203%20pi%C3%A8ces%20%E2%80%A2%202%20chambres%20Terrasse%20%E2%80%A2%E2%80%A6&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20Appartement%201%20620%20%E2%82%AC/mois%20NANTERRE%20%2892000%29%2064%20m%C2%B2%20%E2%80%A2%203%20pi%C3%A8ces%20%E2%80%A2%202%20chambres%20Terrasse%20%E2%80%A2%E2%80%A6%20%C2%BB%20%28https%3A//www.laforet.com/agence-immobiliere/nanterre/louer/nanterre/appartement-3-pieces-52934265%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
-
-Nous sommes très intéressés par votre annonce « Appartement 1 620 €/mois NANTERRE (92000) 64 m² • 3 pièces • 2 chambres Terrasse •… » (https://www.laforet.com/agence-immobiliere/nanterre/louer/nanterre/appartement-3-pieces-52934265).
-
-Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
-
-Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
-
-Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
-
-Bien cordialement,
-Marc-Antoine Zipoli et Léa Mathieux
-[téléphone]"><span class="i">📋</span>Copier</button></div>
-      <div class="suivi" data-id="elouernanterreappartement3pieces52934265">
-        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
-      </div>
-    </div>
-  </div>
-</article>
 <article class="carte exclu" id="c-ylesmoulineauxappartement3pieces52935335" data-id="ylesmoulineauxappartement3pieces52935335" data-ville="Bayonne" data-pieces="3" data-cl="exclu" data-coeur="0" data-nouveau="0">
   <div class="visuel sans">
     
@@ -1501,10 +1427,10 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
-<article class="carte exclu nouveau" id="c-tignassurjalleappartement4pieces52941327" data-id="tignassurjalleappartement4pieces52941327" data-ville="Bayonne" data-pieces="4" data-cl="exclu" data-coeur="0" data-nouveau="1">
+<article class="carte exclu" id="c-tignassurjalleappartement4pieces52941327" data-id="tignassurjalleappartement4pieces52941327" data-ville="Bayonne" data-pieces="4" data-cl="exclu" data-coeur="0" data-nouveau="0">
   <div class="visuel sans">
     
-    <div class="badges"><span class="badge nouveau">Nouveau</span></div>
+    <div class="badges"></div>
     <span class="score pos">+6</span>
     <div class="voile"></div>
     <a class="prix-sur-photo" href="https://www.laforet.com/agence-immobiliere/martignas/louer/martignas-sur-jalle/appartement-4-pieces-52941327" target="_blank" rel="noopener"><span class="prix">1 650 €</span><span class="par-mois">/ mois</span></a>
@@ -1538,6 +1464,43 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
+<article class="carte exclu nouveau" id="c-artementaastudioseptjuin2027biarritz2785" data-id="artementaastudioseptjuin2027biarritz2785" data-ville="Biarritz" data-pieces="1" data-cl="exclu" data-coeur="0" data-nouveau="1">
+  <div class="visuel">
+    <div class="galerie" data-n="7"><div class="diapo"><img src="http://static.immoone.fr/004435/1600/2785_1.jpg" alt=""  onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/2785_2.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/2785_3.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/2785_4.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/2785_5.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/2785_6.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/2785_7.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div></div><span class="compteur">1 / 7</span>
+    <div class="badges"><span class="badge nouveau">Nouveau</span></div>
+    <span class="score pos">+6</span>
+    <div class="voile"></div>
+    <a class="prix-sur-photo" href="https://www.manoirdefrance.fr/location,appartement-AAstudio-sept-juin-2027-biarritz-,2785" target="_blank" rel="noopener"><span class="prix">700 €</span><span class="par-mois">/ mois</span></a>
+  </div>
+  <div class="corps">
+    <a class="titre" href="https://www.manoirdefrance.fr/location,appartement-AAstudio-sept-juin-2027-biarritz-,2785" target="_blank" rel="noopener">Biarritz</a>
+    <p class="faits">Appartement · T1 · 28 m² · Meublé</p>
+    <div class="pills"><span class="pill prix-haut">25.0 €/m² · au-dessus du marché (+40 %)</span><span class="pill exclu">Écartée : étudiant</span></div>
+    <p class="agence">Manoir de France · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 23 sept.</p>
+    <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
+    
+    <div class="chips"><span class="chip plus">avec goût</span><span class="chip plus">ascenseur</span><span class="chip plus">pièce de vie</span><span class="chip plus">loyer 700 €</span></div>
+    <div class="actions">
+      <a class="btn" href="https://www.manoirdefrance.fr/location,appartement-AAstudio-sept-juin-2027-biarritz-,2785" target="_blank" rel="noopener">Voir l’annonce</a>
+      <div class="icos"><a class="ico" href="tel:+33559593830"><span class="i">📞</span>Appeler</a><a class="ico" href="mailto:ndesbieys@manoirdefrance.com?subject=Candidature%20location%20%E2%80%94%20Biarritz&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20Biarritz%20%C2%BB%20%28https%3A//www.manoirdefrance.fr/location%2Cappartement-AAstudio-sept-juin-2027-biarritz-%2C2785%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
+
+Nous sommes très intéressés par votre annonce « Biarritz » (https://www.manoirdefrance.fr/location,appartement-AAstudio-sept-juin-2027-biarritz-,2785).
+
+Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
+
+Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
+
+Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
+
+Bien cordialement,
+Marc-Antoine Zipoli et Léa Mathieux
+[téléphone]"><span class="i">📋</span>Copier</button></div>
+      <div class="suivi" data-id="artementaastudioseptjuin2027biarritz2785">
+        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
+      </div>
+    </div>
+  </div>
+</article>
 <article class="carte exclu" id="c-ca6846e2bba1ae5c1932a9f5agencyag5cantons" data-id="ca6846e2bba1ae5c1932a9f5agencyag5cantons" data-ville="Anglet" data-pieces="1" data-cl="exclu" data-coeur="0" data-nouveau="0">
   <div class="visuel sans">
     
@@ -1549,7 +1512,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.orpi.com/annonce-location-appartement-t1-anglet-64600-9058a702-ca68-46e2-bba1-ae5c1932a9f5/?agency=ag5cantons" target="_blank" rel="noopener">Location Appartement 1 pièce 26,56 m2 Anglet - Chambre d&#x27;Amour</a>
     <p class="faits">Appartement · T1</p>
-    <div class="pills"><span class="pill ">En ligne depuis 18 j</span><span class="pill exclu">Écartée : critères</span></div>
+    <div class="pills"><span class="pill ">En ligne depuis 19 j</span><span class="pill exclu">Écartée : critères</span></div>
     <p class="agence">Orpi Agence des 5 Cantons · Anglet · quartier Chambre D&#x27;Amour · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 36 min à vélo · 15 min en voiture · 9.1 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4948,-1.547&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4948,-1.547&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -1586,7 +1549,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.orpi.com/annonce-location-appartement-t3-anglet-64600-4fcaa5e4-2a6d-4bfb-bd72-4eb5c3f735bc/?agency=ag5cantons" target="_blank" rel="noopener">Appartement à louer 3 pièces • Anglet</a>
     <p class="faits">Appartement · T3 · 2 ch. · 70 m² · Meublé</p>
-    <div class="pills"><span class="pill prix-ok">17.3 €/m² · dans le marché (+7 %)</span><span class="pill ">En ligne depuis 18 j</span><span class="pill exclu">Écartée : étudiant</span></div>
+    <div class="pills"><span class="pill prix-ok">17.3 €/m² · dans le marché (+7 %)</span><span class="pill ">En ligne depuis 19 j</span><span class="pill exclu">Écartée : étudiant</span></div>
     <p class="agence">Orpi Agence des 5 Cantons · Anglet · quartier Montbrun · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 17 min à vélo · 9 min en voiture · 4.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4756,-1.5127&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4756,-1.5127&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -1612,43 +1575,6 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
-<article class="carte exclu" id="c-imeilbrevannesappartement3pieces52934534" data-id="imeilbrevannesappartement3pieces52934534" data-ville="Bayonne" data-pieces="3" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <div class="visuel sans">
-    
-    <div class="badges"></div>
-    <span class="score pos">+5</span>
-    <div class="voile"></div>
-    <a class="prix-sur-photo" href="https://www.laforet.com/agence-immobiliere/limeil-brevannes/louer/limeil-brevannes/appartement-3-pieces-52934534" target="_blank" rel="noopener"><span class="prix">1 250 €</span><span class="par-mois">/ mois</span></a>
-  </div>
-  <div class="corps">
-    <a class="titre" href="https://www.laforet.com/agence-immobiliere/limeil-brevannes/louer/limeil-brevannes/appartement-3-pieces-52934534" target="_blank" rel="noopener">Appartement 1 250 €/mois LIMEIL BREVANNES (94450) 63 m² • 3 pièces • 2 chambres…</a>
-    <p class="faits">Appartement · T3 · 2 ch. · 63 m²</p>
-    <div class="pills"><span class="pill prix-ok">19.8 €/m² · dans le marché (+15 %)</span><span class="pill exclu">Écartée : hors zone (94450)</span></div>
-    <p class="agence">Laforêt (64, maisons) · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 19 sept.</p>
-    <p class="dist">🏥 CH Côte Basque : 12 min à vélo · 5 min en voiture · 3.0 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
-    
-    <div class="chips"><span class="chip plus">balcon</span><span class="chip plus">ascenseur</span><span class="chip plus">loyer 1250 €</span></div>
-    <div class="actions">
-      <a class="btn" href="https://www.laforet.com/agence-immobiliere/limeil-brevannes/louer/limeil-brevannes/appartement-3-pieces-52934534" target="_blank" rel="noopener">Voir l’annonce</a>
-      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20Appartement%201%20250%20%E2%82%AC/mois%20LIMEIL%20BREVANNES%20%2894450%29%2063%20m%C2%B2%20%E2%80%A2%203%20pi%C3%A8ces%20%E2%80%A2%202%20chambres%E2%80%A6&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20Appartement%201%20250%20%E2%82%AC/mois%20LIMEIL%20BREVANNES%20%2894450%29%2063%20m%C2%B2%20%E2%80%A2%203%20pi%C3%A8ces%20%E2%80%A2%202%20chambres%E2%80%A6%20%C2%BB%20%28https%3A//www.laforet.com/agence-immobiliere/limeil-brevannes/louer/limeil-brevannes/appartement-3-pieces-52934534%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
-
-Nous sommes très intéressés par votre annonce « Appartement 1 250 €/mois LIMEIL BREVANNES (94450) 63 m² • 3 pièces • 2 chambres… » (https://www.laforet.com/agence-immobiliere/limeil-brevannes/louer/limeil-brevannes/appartement-3-pieces-52934534).
-
-Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
-
-Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
-
-Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
-
-Bien cordialement,
-Marc-Antoine Zipoli et Léa Mathieux
-[téléphone]"><span class="i">📋</span>Copier</button></div>
-      <div class="suivi" data-id="imeilbrevannesappartement3pieces52934534">
-        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
-      </div>
-    </div>
-  </div>
-</article>
 <article class="carte exclu" id="c-nmaisonmaisondeville7piaces207m2b2924000" data-id="nmaisonmaisondeville7piaces207m2b2924000" data-ville="Bayonne" data-pieces="0" data-cl="exclu" data-coeur="0" data-nouveau="0">
   <div class="visuel sans">
     
@@ -1660,7 +1586,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.manoirdefrance.fr/location,maison-maison-de-ville-7-piAces-207-m2,B2924000" target="_blank" rel="noopener">Maison Mouguerre</a>
     <p class="faits">Maison · 207 m²</p>
-    <div class="pills"><span class="pill prix-bon">8.2 €/m² · bon prix (-52 %)</span><span class="pill ">En ligne depuis 18 j</span><span class="pill exclu">Écartée : hors zone (64990)</span></div>
+    <div class="pills"><span class="pill prix-bon">8.2 €/m² · bon prix (-52 %)</span><span class="pill ">En ligne depuis 19 j</span><span class="pill exclu">Écartée : hors zone (64990)</span></div>
     <p class="agence">Manoir de France · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 12 min à vélo · 5 min en voiture · 3.0 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -1697,7 +1623,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.manoirdefrance.fr/location,maison-maison-t4-saubrigues,120138-166356" target="_blank" rel="noopener">Maison Saubrigues</a>
     <p class="faits">Maison · 106 m²</p>
-    <div class="pills"><span class="pill prix-bon">11.7 €/m² · bon prix (-32 %)</span><span class="pill ">En ligne depuis 18 j</span><span class="pill exclu">Écartée : hors zone (40230)</span></div>
+    <div class="pills"><span class="pill prix-bon">11.7 €/m² · bon prix (-32 %)</span><span class="pill ">En ligne depuis 19 j</span><span class="pill exclu">Écartée : hors zone (40230)</span></div>
     <p class="agence">Manoir de France · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 12 min à vélo · 5 min en voiture · 3.0 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -1734,7 +1660,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.manoirdefrance.fr/location,maison-maison-t4-urcuit,B3030000" target="_blank" rel="noopener">Maison Urcuit</a>
     <p class="faits">Maison · 87 m²</p>
-    <div class="pills"><span class="pill prix-bon">14.5 €/m² · bon prix (-16 %)</span><span class="pill ">En ligne depuis 18 j</span><span class="pill exclu">Écartée : hors zone (64990)</span></div>
+    <div class="pills"><span class="pill prix-bon">14.5 €/m² · bon prix (-16 %)</span><span class="pill ">En ligne depuis 19 j</span><span class="pill exclu">Écartée : hors zone (64990)</span></div>
     <p class="agence">Manoir de France · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 12 min à vélo · 5 min en voiture · 3.0 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -1945,6 +1871,43 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
+<article class="carte exclu nouveau" id="c-ellouerparis15appartement3pieces52942426" data-id="ellouerparis15appartement3pieces52942426" data-ville="Bayonne" data-pieces="3" data-cl="exclu" data-coeur="0" data-nouveau="1">
+  <div class="visuel sans">
+    
+    <div class="badges"><span class="badge nouveau">Nouveau</span></div>
+    <span class="score pos">+4</span>
+    <div class="voile"></div>
+    <a class="prix-sur-photo" href="https://www.laforet.com/agence-immobiliere/paris15lourmel/louer/paris-15/appartement-3-pieces-52942426" target="_blank" rel="noopener"><span class="prix">2 700 €</span><span class="par-mois">/ mois</span></a>
+  </div>
+  <div class="corps">
+    <a class="titre" href="https://www.laforet.com/agence-immobiliere/paris15lourmel/louer/paris-15/appartement-3-pieces-52942426" target="_blank" rel="noopener">Appartement 2 700 €/mois PARIS (75015) 75 m² • 3 pièces • 2 chambres Accès handicapé •…</a>
+    <p class="faits">Appartement · T3 · 2 ch. · 75 m²</p>
+    <div class="pills"><span class="pill prix-haut">36.0 €/m² · au-dessus du marché (+109 %)</span><span class="pill exclu">Écartée : hors zone (75015)</span></div>
+    <p class="agence">Laforêt (64, maisons) · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 23 sept.</p>
+    <p class="dist">🏥 CH Côte Basque : 12 min à vélo · 5 min en voiture · 3.0 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
+    
+    <div class="chips"><span class="chip plus">parking</span><span class="chip plus">ascenseur</span><span class="chip plus">75 m²</span></div>
+    <div class="actions">
+      <a class="btn" href="https://www.laforet.com/agence-immobiliere/paris15lourmel/louer/paris-15/appartement-3-pieces-52942426" target="_blank" rel="noopener">Voir l’annonce</a>
+      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20Appartement%202%20700%20%E2%82%AC/mois%20PARIS%20%2875015%29%2075%20m%C2%B2%20%E2%80%A2%203%20pi%C3%A8ces%20%E2%80%A2%202%20chambres%20Acc%C3%A8s%20handicap%C3%A9%20%E2%80%A2%E2%80%A6&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20Appartement%202%20700%20%E2%82%AC/mois%20PARIS%20%2875015%29%2075%20m%C2%B2%20%E2%80%A2%203%20pi%C3%A8ces%20%E2%80%A2%202%20chambres%20Acc%C3%A8s%20handicap%C3%A9%20%E2%80%A2%E2%80%A6%20%C2%BB%20%28https%3A//www.laforet.com/agence-immobiliere/paris15lourmel/louer/paris-15/appartement-3-pieces-52942426%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
+
+Nous sommes très intéressés par votre annonce « Appartement 2 700 €/mois PARIS (75015) 75 m² • 3 pièces • 2 chambres Accès handicapé •… » (https://www.laforet.com/agence-immobiliere/paris15lourmel/louer/paris-15/appartement-3-pieces-52942426).
+
+Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
+
+Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
+
+Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
+
+Bien cordialement,
+Marc-Antoine Zipoli et Léa Mathieux
+[téléphone]"><span class="i">📋</span>Copier</button></div>
+      <div class="suivi" data-id="ellouerparis15appartement3pieces52942426">
+        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
+      </div>
+    </div>
+  </div>
+</article>
 <article class="carte exclu" id="c-ierementrenoveavecjardinetstationnements" data-id="ierementrenoveavecjardinetstationnements" data-ville="Anglet" data-pieces="5" data-cl="exclu" data-coeur="0" data-nouveau="0">
   <div class="visuel sans">
     
@@ -1956,7 +1919,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.lelogisbasque.fr/location/101-arbonne/appartement/2327-superbe-appartement-t5-entierement-renove-avec-jardin-et-stationnements" target="_blank" rel="noopener">Coup de coeur Appartement 5 pièce(s) 4 chambre(s) 120.56 m² Arbonne (64210) 1 890 € CC*</a>
     <p class="faits">Appartement · T5 · 4 ch. · 120.56 m²</p>
-    <div class="pills"><span class="pill prix-ok">15.7 €/m² · dans le marché (-2 %)</span><span class="pill ">En ligne depuis 18 j</span><span class="pill exclu">Écartée : hors zone (arbonne)</span></div>
+    <div class="pills"><span class="pill prix-ok">15.7 €/m² · dans le marché (-2 %)</span><span class="pill ">En ligne depuis 19 j</span><span class="pill exclu">Écartée : hors zone (arbonne)</span></div>
     <p class="agence">Le Logis Basque · Anglet · Anglet (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 20 min à vélo · 9 min en voiture · 4.9 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4855,-1.5185&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4855,-1.5185&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -2104,7 +2067,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.agence-benquet.com/appartement-maison/arcangues-maison-familiale-avec-piscine-prestations-de-standing-et-cadre-verdoyant/" target="_blank" rel="noopener">Arcangues – Maison Familiale avec piscine, prestations de standing et cadre verdoyant</a>
     <p class="faits">Maison · 202 m²</p>
-    <div class="pills"><span class="pill prix-ok">15.8 €/m² · dans le marché (-9 %)</span><span class="pill exclu">Écartée : hors zone (arcangues)</span></div>
+    <div class="pills"><span class="pill prix-bon">15.8 €/m² · bon prix (-12 %)</span><span class="pill exclu">Écartée : hors zone (arcangues)</span></div>
     <p class="agence">Agence Benquet · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 16 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -2278,6 +2241,43 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
+<article class="carte exclu nouveau" id="c-uercagnessurmerappartement1piece52942683" data-id="uercagnessurmerappartement1piece52942683" data-ville="Bayonne" data-pieces="1" data-cl="exclu" data-coeur="0" data-nouveau="1">
+  <div class="visuel sans">
+    
+    <div class="badges"><span class="badge nouveau">Nouveau</span></div>
+    <span class="score pos">+3</span>
+    <div class="voile"></div>
+    <a class="prix-sur-photo" href="https://www.laforet.com/agence-immobiliere/cagnes-sur-mer/louer/cagnes-sur-mer/appartement-1-piece-52942683" target="_blank" rel="noopener"><span class="prix">720 €</span><span class="par-mois">/ mois</span></a>
+  </div>
+  <div class="corps">
+    <a class="titre" href="https://www.laforet.com/agence-immobiliere/cagnes-sur-mer/louer/cagnes-sur-mer/appartement-1-piece-52942683" target="_blank" rel="noopener">Appartement 720 €/mois CAGNES SUR MER (06800) 19 m² • 1 pièce Piscine • Ascenseur • 1…</a>
+    <p class="faits">Appartement · T1 · 19 m²</p>
+    <div class="pills"><span class="pill exclu">Écartée : hors zone (06800)</span></div>
+    <p class="agence">Laforêt (64, maisons) · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 23 sept.</p>
+    <p class="dist">🏥 CH Côte Basque : 12 min à vélo · 5 min en voiture · 3.0 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
+    
+    <div class="chips"><span class="chip plus">ascenseur</span><span class="chip plus">loyer 720 €</span></div>
+    <div class="actions">
+      <a class="btn" href="https://www.laforet.com/agence-immobiliere/cagnes-sur-mer/louer/cagnes-sur-mer/appartement-1-piece-52942683" target="_blank" rel="noopener">Voir l’annonce</a>
+      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20Appartement%20720%20%E2%82%AC/mois%20CAGNES%20SUR%20MER%20%2806800%29%2019%20m%C2%B2%20%E2%80%A2%201%20pi%C3%A8ce%20Piscine%20%E2%80%A2%20Ascenseur%20%E2%80%A2%201%E2%80%A6&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20Appartement%20720%20%E2%82%AC/mois%20CAGNES%20SUR%20MER%20%2806800%29%2019%20m%C2%B2%20%E2%80%A2%201%20pi%C3%A8ce%20Piscine%20%E2%80%A2%20Ascenseur%20%E2%80%A2%201%E2%80%A6%20%C2%BB%20%28https%3A//www.laforet.com/agence-immobiliere/cagnes-sur-mer/louer/cagnes-sur-mer/appartement-1-piece-52942683%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
+
+Nous sommes très intéressés par votre annonce « Appartement 720 €/mois CAGNES SUR MER (06800) 19 m² • 1 pièce Piscine • Ascenseur • 1… » (https://www.laforet.com/agence-immobiliere/cagnes-sur-mer/louer/cagnes-sur-mer/appartement-1-piece-52942683).
+
+Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
+
+Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
+
+Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
+
+Bien cordialement,
+Marc-Antoine Zipoli et Léa Mathieux
+[téléphone]"><span class="i">📋</span>Copier</button></div>
+      <div class="suivi" data-id="uercagnessurmerappartement1piece52942683">
+        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
+      </div>
+    </div>
+  </div>
+</article>
 <article class="carte exclu" id="c-appartementmaisonbiarritzkennedymaisont5" data-id="appartementmaisonbiarritzkennedymaisont5" data-ville="Biarritz" data-pieces="5" data-cl="exclu" data-coeur="0" data-nouveau="0">
   <div class="visuel sans">
     
@@ -2289,7 +2289,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.agence-benquet.com/appartement-maison/biarritz-kennedy-maison-t5/" target="_blank" rel="noopener">BIARRITZ, Kennedy, Maison T5 Meublée</a>
     <p class="faits">Maison · T5 · 161 m²</p>
-    <div class="pills"><span class="pill prix-ok">18.3 €/m² · dans le marché (+5 %)</span><span class="pill ">En ligne depuis 18 j</span><span class="pill exclu">Écartée : critères</span></div>
+    <div class="pills"><span class="pill prix-ok">18.3 €/m² · dans le marché (+2 %)</span><span class="pill ">En ligne depuis 19 j</span><span class="pill exclu">Écartée : critères</span></div>
     <p class="agence">Agence Benquet · Biarritz · quartier Kennedy · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 29 min à vélo · 11 min en voiture · 7.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.476,-1.541&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.476,-1.541&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -2326,7 +2326,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.ajp-immobilier.com/annonces/locations/local_professionnel/anglet-64/55329510" target="_blank" rel="noopener">Local commercial</a>
     
-    <div class="pills"><span class="pill ">En ligne depuis 18 j</span><span class="pill exclu">Écartée : local commercial</span></div>
+    <div class="pills"><span class="pill ">En ligne depuis 19 j</span><span class="pill exclu">Écartée : local commercial</span></div>
     <p class="agence">AJP Mateille Biarritz · Anglet · Anglet (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 20 min à vélo · 9 min en voiture · 4.9 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4855,-1.5185&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4855,-1.5185&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -2363,7 +2363,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.ajp-immobilier.com/annonces/locations/local_professionnel/saint-jean-de-luz-64/60372591" target="_blank" rel="noopener">Local commercial</a>
     
-    <div class="pills"><span class="pill ">En ligne depuis 18 j</span><span class="pill exclu">Écartée : local commercial</span></div>
+    <div class="pills"><span class="pill ">En ligne depuis 19 j</span><span class="pill exclu">Écartée : local commercial</span></div>
     <p class="agence">AJP Mateille Biarritz · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -2611,10 +2611,10 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
-<article class="carte exclu nouveau" id="c-rlesvillagesvoveensmaison3pieces52941328" data-id="rlesvillagesvoveensmaison3pieces52941328" data-ville="Bayonne" data-pieces="3" data-cl="exclu" data-coeur="0" data-nouveau="1">
+<article class="carte exclu" id="c-rlesvillagesvoveensmaison3pieces52941328" data-id="rlesvillagesvoveensmaison3pieces52941328" data-ville="Bayonne" data-pieces="3" data-cl="exclu" data-coeur="0" data-nouveau="0">
   <div class="visuel sans">
     
-    <div class="badges"><span class="badge nouveau">Nouveau</span></div>
+    <div class="badges"></div>
     <span class="score pos">+2</span>
     <div class="voile"></div>
     <a class="prix-sur-photo" href="https://www.laforet.com/agence-immobiliere/voves/louer/les-villages-voveens/maison-3-pieces-52941328" target="_blank" rel="noopener"><span class="prix">905 €</span><span class="par-mois">/ mois</span></a>
@@ -2648,6 +2648,43 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
+<article class="carte exclu nouveau" id="c-eublebourgeoisimmeubleaucentredebiarritz" data-id="eublebourgeoisimmeubleaucentredebiarritz" data-ville="Biarritz" data-pieces="1" data-cl="exclu" data-coeur="0" data-nouveau="1">
+  <div class="visuel sans">
+    
+    <div class="badges"><span class="badge nouveau">Nouveau</span></div>
+    <span class="score pos">+2</span>
+    <div class="voile"></div>
+    <a class="prix-sur-photo" href="https://www.lelogisbasque.fr/location/80-biarritz/appartement/2344-beau-studio-au-dernier-etage-d-un-immeuble-bourgeois-immeuble-au-centre-de-biarritz" target="_blank" rel="noopener"><span class="prix">623 €</span><span class="par-mois">/ mois</span></a>
+  </div>
+  <div class="corps">
+    <a class="titre" href="https://www.lelogisbasque.fr/location/80-biarritz/appartement/2344-beau-studio-au-dernier-etage-d-un-immeuble-bourgeois-immeuble-au-centre-de-biarritz" target="_blank" rel="noopener">Coup de coeur Appartement 1 pièce(s) 18.05 m² Biarritz (64200) 623 € CC*</a>
+    <p class="faits">Appartement · T1 · 18.05 m²</p>
+    <div class="pills"><span class="pill exclu">Écartée : critères</span></div>
+    <p class="agence">Le Logis Basque · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 23 sept.</p>
+    <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
+    
+    <div class="chips"><span class="chip plus">loyer 623 €</span></div>
+    <div class="actions">
+      <a class="btn" href="https://www.lelogisbasque.fr/location/80-biarritz/appartement/2344-beau-studio-au-dernier-etage-d-un-immeuble-bourgeois-immeuble-au-centre-de-biarritz" target="_blank" rel="noopener">Voir l’annonce</a>
+      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20Coup%20de%20coeur%20Appartement%201%20pi%C3%A8ce%28s%29%2018.05%20m%C2%B2%20Biarritz%20%2864200%29%20623%20%E2%82%AC%20CC%2A&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20Coup%20de%20coeur%20Appartement%201%20pi%C3%A8ce%28s%29%2018.05%20m%C2%B2%20Biarritz%20%2864200%29%20623%20%E2%82%AC%20CC%2A%20%C2%BB%20%28https%3A//www.lelogisbasque.fr/location/80-biarritz/appartement/2344-beau-studio-au-dernier-etage-d-un-immeuble-bourgeois-immeuble-au-centre-de-biarritz%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
+
+Nous sommes très intéressés par votre annonce « Coup de coeur Appartement 1 pièce(s) 18.05 m² Biarritz (64200) 623 € CC* » (https://www.lelogisbasque.fr/location/80-biarritz/appartement/2344-beau-studio-au-dernier-etage-d-un-immeuble-bourgeois-immeuble-au-centre-de-biarritz).
+
+Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
+
+Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
+
+Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
+
+Bien cordialement,
+Marc-Antoine Zipoli et Léa Mathieux
+[téléphone]"><span class="i">📋</span>Copier</button></div>
+      <div class="suivi" data-id="eublebourgeoisimmeubleaucentredebiarritz">
+        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
+      </div>
+    </div>
+  </div>
+</article>
 <article class="carte exclu" id="c-aisonarcanguesprochebourgmaisonmitoyenne" data-id="aisonarcanguesprochebourgmaisonmitoyenne" data-ville="Biarritz" data-pieces="0" data-cl="exclu" data-coeur="0" data-nouveau="0">
   <div class="visuel sans">
     
@@ -2659,7 +2696,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.agence-benquet.com/appartement-maison/arcangues-proche-bourg-maison-mitoyenne/" target="_blank" rel="noopener">ARCANGUES, Proche Bourg, Maison Mitoyenne</a>
     <p class="faits">Maison · 137 m²</p>
-    <div class="pills"><span class="pill prix-ok">15.7 €/m² · dans le marché (-10 %)</span><span class="pill ">En ligne depuis 18 j</span><span class="pill exclu">Écartée : hors zone (arcangues)</span></div>
+    <div class="pills"><span class="pill prix-bon">15.7 €/m² · bon prix (-12 %)</span><span class="pill ">En ligne depuis 19 j</span><span class="pill exclu">Écartée : hors zone (arcangues)</span></div>
     <p class="agence">Agence Benquet · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -2696,7 +2733,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.century21.fr/trouver_logement/detail/15761023161/" target="_blank" rel="noopener">ST JEAN DE LUZ 64 785 € par mois charges comprises 33,5 m2 , appartement ,…</a>
     <p class="faits">Appartement</p>
-    <div class="pills"><span class="pill ">En ligne depuis 18 j</span><span class="pill exclu">Écartée : hors zone (st jean de luz)</span></div>
+    <div class="pills"><span class="pill ">En ligne depuis 19 j</span><span class="pill exclu">Écartée : hors zone (st jean de luz)</span></div>
     <p class="agence">Century 21 (Bidart, toutes agences) · Bidart · Bidart (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 50 min à vélo · 14 min en voiture · 12.6 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -2733,7 +2770,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.century21.fr/trouver_logement/detail/15857771220/" target="_blank" rel="noopener">ST JEAN DE LUZ 64 690 € par mois charges comprises 29,5 m2 , appartement ,…</a>
     <p class="faits">Appartement</p>
-    <div class="pills"><span class="pill ">En ligne depuis 18 j</span><span class="pill exclu">Écartée : hors zone (st jean de luz)</span></div>
+    <div class="pills"><span class="pill ">En ligne depuis 19 j</span><span class="pill exclu">Écartée : hors zone (st jean de luz)</span></div>
     <p class="agence">Century 21 (Bidart, toutes agences) · Bidart · Bidart (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 50 min à vélo · 14 min en voiture · 12.6 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -2770,7 +2807,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.immobilier-bayonne-aturri.com/location-maison-5-pieces-st-martin-d-arrossa/bien-immobilier/2/lmai98230" target="_blank" rel="noopener">Location maison T5 130m 2 ST MARTIN D ARROSSA 1 000 C. € / mois Au cœur du pays basque…</a>
     <p class="faits">Maison · T5</p>
-    <div class="pills"><span class="pill ">En ligne depuis 18 j</span><span class="pill exclu">Écartée : hors zone (arrossa)</span></div>
+    <div class="pills"><span class="pill ">En ligne depuis 19 j</span><span class="pill exclu">Écartée : hors zone (arrossa)</span></div>
     <p class="agence">Aturri Immobilier · Bayonne · quartier St Martin · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 12 min en voiture · 8.3 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4778,-1.5505&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4778,-1.5505&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -2807,7 +2844,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.century21.fr/trouver_logement/detail/15664537175/" target="_blank" rel="noopener">ST JEAN DE LUZ 64 690 € par mois charges comprises 40,0 m2 , appartement ,…</a>
     <p class="faits">Appartement</p>
-    <div class="pills"><span class="pill ">En ligne depuis 15 j</span><span class="pill exclu">Écartée : hors zone (st jean de luz)</span></div>
+    <div class="pills"><span class="pill ">En ligne depuis 16 j</span><span class="pill exclu">Écartée : hors zone (st jean de luz)</span></div>
     <p class="agence">Century 21 (Bidart, toutes agences) · Bidart · Bidart (ville de l&#x27;agence) · vu le 7 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 50 min à vélo · 14 min en voiture · 12.6 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -2881,7 +2918,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.century21.fr/trouver_logement/detail/16619277475/" target="_blank" rel="noopener">ARCANGUES 64 724 € par mois charges comprises 34,5 m2 , appartement , 2 pcs</a>
     <p class="faits">Appartement</p>
-    <div class="pills"><span class="pill ">En ligne depuis 18 j</span><span class="pill exclu">Écartée : hors zone (arcangues)</span></div>
+    <div class="pills"><span class="pill ">En ligne depuis 19 j</span><span class="pill exclu">Écartée : hors zone (arcangues)</span></div>
     <p class="agence">Century 21 (Bidart, toutes agences) · Bidart · Bidart (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 50 min à vélo · 14 min en voiture · 12.6 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -2918,7 +2955,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.immobilier-bayonne-aturri.com/location-appartement-t1-1-pieces-biarritz/bien-immobilier/2/ges55390001-410" target="_blank" rel="noopener">Location appartement T1 24m 2 BIARRITZ 480 C. € / mois Biarritz, à deux pas de la…</a>
     <p class="faits">Appartement · T1</p>
-    <div class="pills"><span class="pill ">En ligne depuis 18 j</span><span class="pill exclu">Écartée : critères</span></div>
+    <div class="pills"><span class="pill ">En ligne depuis 19 j</span><span class="pill exclu">Écartée : critères</span></div>
     <p class="agence">Aturri Immobilier · Bayonne · quartier Grande Plage · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 34 min à vélo · 14 min en voiture · 8.5 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.485,-1.56&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.485,-1.56&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -2955,7 +2992,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.immobilier-bayonne-aturri.com/location-appartement-t1-1-pieces-biarritz/bien-immobilier/2/lapp98185" target="_blank" rel="noopener">Location appartement T1 19m2BIARRITZ424 C. € / moisPlein centre de biarritz, studio…</a>
     <p class="faits">Appartement · T1</p>
-    <div class="pills"><span class="pill ">En ligne depuis 18 j</span><span class="pill exclu">Écartée : critères</span></div>
+    <div class="pills"><span class="pill ">En ligne depuis 19 j</span><span class="pill exclu">Écartée : critères</span></div>
     <p class="agence">Aturri Immobilier · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -2992,7 +3029,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.manoirdefrance.fr/location,appartement-appartement-t3-castanet-tolosan-,B2736001" target="_blank" rel="noopener">Appartement Castanet-tolosan</a>
     <p class="faits">Appartement · 69 m²</p>
-    <div class="pills"><span class="pill ">En ligne depuis 18 j</span><span class="pill exclu">Écartée : hors zone (31320)</span></div>
+    <div class="pills"><span class="pill ">En ligne depuis 19 j</span><span class="pill exclu">Écartée : hors zone (31320)</span></div>
     <p class="agence">Manoir de France · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 12 min à vélo · 5 min en voiture · 3.0 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -3029,7 +3066,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.orpi.com/annonce-location-appartement-t4-biarritz-64200-56a045e4-b9a0-4554-a4a9-4a52cd9a4957/?agency=ag5cantons" target="_blank" rel="noopener">Location Appartement 4 pièces 127,55 m2 Biarritz - Milady - Colline - Beaurivage</a>
     <p class="faits">Appartement · T4</p>
-    <div class="pills"><span class="pill ">En ligne depuis 18 j</span><span class="pill exclu">Écartée : critères</span></div>
+    <div class="pills"><span class="pill ">En ligne depuis 19 j</span><span class="pill exclu">Écartée : critères</span></div>
     <p class="agence">Orpi Agence des 5 Cantons · Anglet · quartier Beaurivage · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 43 min à vélo · 20 min en voiture · 10.8 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.476,-1.569&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.476,-1.569&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -3066,7 +3103,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/ascain-64310" target="_blank" rel="noopener">Location appartement Ascain (64310)</a>
     <p class="faits">Appartement</p>
-    <div class="pills"><span class="pill ">En ligne depuis 16 j</span><span class="pill exclu">Écartée : hors zone (64310)</span></div>
+    <div class="pills"><span class="pill ">En ligne depuis 17 j</span><span class="pill exclu">Écartée : hors zone (64310)</span></div>
     <p class="agence">Square Habitat Bidart · Bidart · Bidart (ville de l&#x27;agence) · vu le 6 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 50 min à vélo · 14 min en voiture · 12.6 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -3103,7 +3140,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.immobilier-bayonne-aturri.com/location-appartement-t3-3-pieces-bordeaux/bien-immobilier/2/ges00300007-651" target="_blank" rel="noopener">Location appartement T3 79m 2 BORDEAUX 1 480 C. € / mois T3 meublé en centre ville -…</a>
     <p class="faits">Appartement · T3</p>
-    <div class="pills"><span class="pill exclu">Écartée : hors zone (bordeaux)</span></div>
+    <div class="pills"><span class="pill ">En ligne depuis 14 j</span><span class="pill exclu">Écartée : hors zone (bordeaux)</span></div>
     <p class="agence">Aturri Immobilier · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 9 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 12 min à vélo · 5 min en voiture · 3.0 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -3240,47 +3277,10 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
-<article class="carte exclu nouveau" id="c-tionetudiantestudiomeublecentrevillehtml" data-id="tionetudiantestudiomeublecentrevillehtml" data-ville="Biarritz" data-pieces="0" data-cl="exclu" data-coeur="0" data-nouveau="1">
+<article class="carte exclu" id="c-tury21frtrouverlogementdetail16938628860" data-id="tury21frtrouverlogementdetail16938628860" data-ville="Bidart" data-pieces="0" data-cl="exclu" data-coeur="0" data-nouveau="0">
   <div class="visuel sans">
     
-    <div class="badges"><span class="badge nouveau">Nouveau</span></div>
-    <span class="score ">+0</span>
-    <div class="voile"></div>
-    <a class="prix-sur-photo" href="https://www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-studio-meuble-centre-ville.html" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
-  </div>
-  <div class="corps">
-    <a class="titre" href="https://www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-studio-meuble-centre-ville.html" target="_blank" rel="noopener">https://www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-s…</a>
-    
-    <div class="pills"><span class="pill exclu">Écartée : studio</span></div>
-    <p class="agence">Agence Olaizola · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 22 sept.</p>
-    <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
-    
-    
-    <div class="actions">
-      <a class="btn" href="https://www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-studio-meuble-centre-ville.html" target="_blank" rel="noopener">Voir l’annonce</a>
-      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20https%3A//www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-s%E2%80%A6&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20https%3A//www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-s%E2%80%A6%20%C2%BB%20%28https%3A//www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-studio-meuble-centre-ville.html%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
-
-Nous sommes très intéressés par votre annonce « https://www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-s… » (https://www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-studio-meuble-centre-ville.html).
-
-Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
-
-Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
-
-Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
-
-Bien cordialement,
-Marc-Antoine Zipoli et Léa Mathieux
-[téléphone]"><span class="i">📋</span>Copier</button></div>
-      <div class="suivi" data-id="tionetudiantestudiomeublecentrevillehtml">
-        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
-      </div>
-    </div>
-  </div>
-</article>
-<article class="carte exclu nouveau" id="c-tury21frtrouverlogementdetail16938628860" data-id="tury21frtrouverlogementdetail16938628860" data-ville="Bidart" data-pieces="0" data-cl="exclu" data-coeur="0" data-nouveau="1">
-  <div class="visuel sans">
-    
-    <div class="badges"><span class="badge nouveau">Nouveau</span></div>
+    <div class="badges"></div>
     <span class="score ">+0</span>
     <div class="voile"></div>
     <a class="prix-sur-photo" href="https://www.century21.fr/trouver_logement/detail/16938628860/" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
@@ -3314,6 +3314,43 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
+<article class="carte exclu nouveau" id="c-tionetudiantestudiomeublecentrevillehtml" data-id="tionetudiantestudiomeublecentrevillehtml" data-ville="Biarritz" data-pieces="0" data-cl="exclu" data-coeur="0" data-nouveau="1">
+  <div class="visuel sans">
+    
+    <div class="badges"><span class="badge nouveau">Nouveau</span></div>
+    <span class="score ">+0</span>
+    <div class="voile"></div>
+    <a class="prix-sur-photo" href="https://www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-studio-meuble-centre-ville.html" target="_blank" rel="noopener"><span class="prix-inconnu">Loyer non lu</span></a>
+  </div>
+  <div class="corps">
+    <a class="titre" href="https://www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-studio-meuble-centre-ville.html" target="_blank" rel="noopener">https://www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-s…</a>
+    
+    <div class="pills"><span class="pill exclu">Écartée : studio</span></div>
+    <p class="agence">Agence Olaizola · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 23 sept.</p>
+    <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
+    
+    
+    <div class="actions">
+      <a class="btn" href="https://www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-studio-meuble-centre-ville.html" target="_blank" rel="noopener">Voir l’annonce</a>
+      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20https%3A//www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-s%E2%80%A6&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20https%3A//www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-s%E2%80%A6%20%C2%BB%20%28https%3A//www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-studio-meuble-centre-ville.html%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
+
+Nous sommes très intéressés par votre annonce « https://www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-s… » (https://www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-studio-meuble-centre-ville.html).
+
+Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
+
+Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
+
+Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
+
+Bien cordialement,
+Marc-Antoine Zipoli et Léa Mathieux
+[téléphone]"><span class="i">📋</span>Copier</button></div>
+      <div class="suivi" data-id="tionetudiantestudiomeublecentrevillehtml">
+        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
+      </div>
+    </div>
+  </div>
+</article>
 <article class="carte exclu" id="c-imatiseeavecpiscinedansquartiercalmehtml" data-id="imatiseeavecpiscinedansquartiercalmehtml" data-ville="Biarritz" data-pieces="4" data-cl="exclu" data-coeur="0" data-nouveau="0">
   <div class="visuel">
     <div class="galerie"><div class="diapo"><img src="https://www.olaizola.immo/office8/agenceolaizola/catalog/images/pr_web/6/0/1/1/8/2/7/6/60118276a.jpg.mid.jpg" alt="" onerror="this.parentNode.remove()"></div></div>
@@ -3325,7 +3362,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="http://www.immobiarritz.fr/fiches/4-40-26_60118276/biarritz-villa-de-plain-pied-climatisee-avec-piscine-dans-quartier-calme.html" target="_blank" rel="noopener">64200 Biarritz - Villa de plain-pied climatisée avec piscine dans quartier calme.</a>
     <p class="faits">Villa · T4 · 3 ch. · 180 m²</p>
-    <div class="pills"><span class="pill prix-bon">13.8 €/m² · bon prix (-21 %)</span><span class="pill ">En ligne depuis 15 j</span><span class="pill signal">⚠ Plain-pied</span><span class="pill exclu">Écartée : critères</span></div>
+    <div class="pills"><span class="pill prix-bon">13.8 €/m² · bon prix (-23 %)</span><span class="pill ">En ligne depuis 16 j</span><span class="pill signal">⚠ Plain-pied</span><span class="pill exclu">Écartée : critères</span></div>
     <p class="agence">Immobiarritz · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 7 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -3399,7 +3436,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-d535426d-0995-4292-93f9-2d63404b8f32/?agency=ag5cantons" target="_blank" rel="noopener">Location Appartement 2 pièces 42 m2 Anglet - Chambre d&#x27;Amour</a>
     <p class="faits">Appartement · T2 · 1 ch. · 42 m² · Meublé</p>
-    <div class="pills"><span class="pill dpe-ab">DPE A</span><span class="pill prix-ok">16.3 €/m² · dans le marché (+1 %)</span><span class="pill ">En ligne depuis 18 j</span><span class="pill signal">⚠ 2 pièces</span><span class="pill exclu">Écartée : étudiant</span></div>
+    <div class="pills"><span class="pill dpe-ab">DPE A</span><span class="pill prix-ok">16.3 €/m² · dans le marché (+1 %)</span><span class="pill ">En ligne depuis 19 j</span><span class="pill signal">⚠ 2 pièces</span><span class="pill exclu">Écartée : étudiant</span></div>
     <p class="agence">Orpi Agence des 5 Cantons · Anglet · quartier Chambre D&#x27;Amour · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 36 min à vélo · 15 min en voiture · 9.1 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4948,-1.547&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4948,-1.547&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -3436,7 +3473,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-fdaf9677-c4f3-4903-9e4f-160872608d4d/?agency=ag5cantons" target="_blank" rel="noopener">Location Appartement 2 pièces 46,41 m2 Anglet - Chambre d&#x27;Amour</a>
     <p class="faits">Appartement · T2 · 1 ch. · 46.41 m² · Meublé</p>
-    <div class="pills"><span class="pill dpe-ab">DPE A</span><span class="pill prix-bon">14.4 €/m² · bon prix (-11 %)</span><span class="pill ">En ligne depuis 18 j</span><span class="pill signal">⚠ 2 pièces</span><span class="pill exclu">Écartée : étudiant</span></div>
+    <div class="pills"><span class="pill dpe-ab">DPE A</span><span class="pill prix-bon">14.4 €/m² · bon prix (-11 %)</span><span class="pill ">En ligne depuis 19 j</span><span class="pill signal">⚠ 2 pièces</span><span class="pill exclu">Écartée : étudiant</span></div>
     <p class="agence">Orpi Agence des 5 Cantons · Anglet · quartier Chambre D&#x27;Amour · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 36 min à vélo · 15 min en voiture · 9.1 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4948,-1.547&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4948,-1.547&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -3473,7 +3510,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/biarritz/6277b969-5122-4ae8-90ac-bdd121fe6d7c" target="_blank" rel="noopener">Location appartement 2 pièces - 40.42m² à Biarritz (64200)</a>
     <p class="faits">Appartement · T2 · 40.42 m² · Meublé</p>
-    <div class="pills"><span class="pill dpe-c">DPE C</span><span class="pill prix-bon">13.1 €/m² · bon prix (-25 %)</span><span class="pill ">En ligne depuis 18 j</span><span class="pill signal">⚠ 2 pièces</span><span class="pill exclu">Écartée : étudiant</span></div>
+    <div class="pills"><span class="pill dpe-c">DPE C</span><span class="pill prix-bon">13.1 €/m² · bon prix (-27 %)</span><span class="pill ">En ligne depuis 19 j</span><span class="pill signal">⚠ 2 pièces</span><span class="pill exclu">Écartée : étudiant</span></div>
     <p class="agence">Square Habitat Bidart · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -3499,6 +3536,43 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
+<article class="carte exclu nouveau" id="c-0m2bayonnelogementetudiantuniquement2105" data-id="0m2bayonnelogementetudiantuniquement2105" data-ville="Bayonne" data-pieces="2" data-cl="exclu" data-coeur="0" data-nouveau="1">
+  <div class="visuel">
+    <div class="galerie" data-n="9"><div class="diapo"><img src="http://static.immoone.fr/004435/1600/2105_1.jpg" alt=""  onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/2105_2.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/2105_3.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/2105_4.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/2105_5.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/2105_6.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/2105_7.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/2105_8.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="http://static.immoone.fr/004435/1600/2105_9.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div></div><span class="compteur">1 / 9</span>
+    <div class="badges"><span class="badge nouveau">Nouveau</span></div>
+    <span class="score pos">+15</span>
+    <div class="voile"></div>
+    <a class="prix-sur-photo" href="https://www.manoirdefrance.fr/location,appartement-appartement-90m2-bayonne-logement-etudiant-uniquement-,2105" target="_blank" rel="noopener"><span class="prix">785 €</span><span class="par-mois">/ mois</span></a>
+  </div>
+  <div class="corps">
+    <a class="titre" href="https://www.manoirdefrance.fr/location,appartement-appartement-90m2-bayonne-logement-etudiant-uniquement-,2105" target="_blank" rel="noopener">Appartement Bayonne</a>
+    <p class="faits">Appartement · T2 · 90 m² · Meublé</p>
+    <div class="pills"><span class="pill prix-bon">8.7 €/m² · bon prix (-50 %)</span><span class="pill exclu">Écartée : etudiant</span></div>
+    <p class="agence">Manoir de France · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 23 sept.</p>
+    <p class="dist">🏥 CH Côte Basque : 12 min à vélo · 5 min en voiture · 3.0 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
+    
+    <div class="chips"><span class="chip plus">cachet</span><span class="chip plus">charme</span><span class="chip plus">box</span><span class="chip plus">calme</span><span class="chip plus">cave</span><span class="chip plus">dressing</span></div>
+    <div class="actions">
+      <a class="btn" href="https://www.manoirdefrance.fr/location,appartement-appartement-90m2-bayonne-logement-etudiant-uniquement-,2105" target="_blank" rel="noopener">Voir l’annonce</a>
+      <div class="icos"><a class="ico" href="tel:+33559596633"><span class="i">📞</span>Appeler</a><a class="ico" href="mailto:ndesbieys@manoirdefrance.com?subject=Candidature%20location%20%E2%80%94%20Appartement%20Bayonne&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20Appartement%20Bayonne%20%C2%BB%20%28https%3A//www.manoirdefrance.fr/location%2Cappartement-appartement-90m2-bayonne-logement-etudiant-uniquement-%2C2105%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
+
+Nous sommes très intéressés par votre annonce « Appartement Bayonne » (https://www.manoirdefrance.fr/location,appartement-appartement-90m2-bayonne-logement-etudiant-uniquement-,2105).
+
+Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
+
+Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
+
+Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
+
+Bien cordialement,
+Marc-Antoine Zipoli et Léa Mathieux
+[téléphone]"><span class="i">📋</span>Copier</button></div>
+      <div class="suivi" data-id="0m2bayonnelogementetudiantuniquement2105">
+        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
+      </div>
+    </div>
+  </div>
+</article>
 <article class="carte exclu" id="c-ationlanneaupaysbasque342appartementhtml" data-id="ationlanneaupaysbasque342appartementhtml" data-ville="Bidart" data-pieces="2" data-cl="exclu" data-coeur="0" data-nouveau="0">
   <div class="visuel">
     <div class="galerie" data-n="10"><div class="diapo"><img src="https://www.acotztarra.com/5930-large_default/appartement.jpg" alt=""  onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.acotztarra.com/5930-thickbox_default/appartement.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.acotztarra.com/5931-thickbox_default/appartement.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.acotztarra.com/5929-thickbox_default/appartement.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.acotztarra.com/5928-thickbox_default/appartement.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.acotztarra.com/5932-thickbox_default/appartement.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.acotztarra.com/2424-thickbox_default/appartement.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.acotztarra.com/2423-thickbox_default/appartement.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.acotztarra.com/5930-tm_home_default/appartement.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.acotztarra.com/5931-tm_home_default/appartement.jpg" alt="" loading=lazy onerror="this.parentNode.remove()"></div></div><span class="compteur">1 / 10</span>
@@ -3510,7 +3584,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.acotztarra.com/location-à-l-année-au-pays-basque/342-appartement.html" target="_blank" rel="noopener">Ref. 432 : APPARTEMENT</a>
     <p class="faits">Appartement · T2 · 55 m²</p>
-    <div class="pills"><span class="pill dpe-d">DPE D</span><span class="pill prix-ok">16.4 €/m² · dans le marché (-4 %)</span><span class="pill ">En ligne depuis 18 j</span><span class="pill signal">⚠ 2 pièces</span><span class="pill exclu">Écartée : saisonni</span></div>
+    <div class="pills"><span class="pill dpe-d">DPE D</span><span class="pill prix-ok">16.4 €/m² · dans le marché (-4 %)</span><span class="pill ">En ligne depuis 19 j</span><span class="pill signal">⚠ 2 pièces</span><span class="pill exclu">Écartée : saisonni</span></div>
     <p class="agence">Acotztarra · Bidart · Bidart (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 50 min à vélo · 14 min en voiture · 12.6 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -3547,7 +3621,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/biarritz/0b2c2099-4034-49c8-86a8-f942d3efb78c" target="_blank" rel="noopener">Location appartement 2 pièces - 35.64m² à Biarritz (64200)</a>
     <p class="faits">Appartement · T2 · 35.64 m² · Meublé</p>
-    <div class="pills"><span class="pill dpe-d">DPE D</span><span class="pill prix-bon">13.1 €/m² · bon prix (-25 %)</span><span class="pill ">En ligne depuis 18 j</span><span class="pill signal">⚠ 2 pièces</span><span class="pill exclu">Écartée : étudiant</span></div>
+    <div class="pills"><span class="pill dpe-d">DPE D</span><span class="pill prix-bon">13.1 €/m² · bon prix (-27 %)</span><span class="pill ">En ligne depuis 19 j</span><span class="pill signal">⚠ 2 pièces</span><span class="pill exclu">Écartée : étudiant</span></div>
     <p class="agence">Square Habitat Bidart · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -3584,7 +3658,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/biarritz-64200" target="_blank" rel="noopener">Location appartement Biarritz (64200) et alentours</a>
     <p class="faits">Appartement · T2 · Meublé</p>
-    <div class="pills"><span class="pill dpe-d">DPE D</span><span class="pill ">En ligne depuis 16 j</span><span class="pill exclu">Écartée : étudiant</span></div>
+    <div class="pills"><span class="pill dpe-d">DPE D</span><span class="pill ">En ligne depuis 17 j</span><span class="pill exclu">Écartée : étudiant</span></div>
     <p class="agence">Square Habitat Bidart · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 6 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -3621,7 +3695,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.century21agencenivadour-bayonne.com/trouver_logement/detail/16619277475/" target="_blank" rel="noopener">Appartement F2 Bis à louer 2 pièces - 34,54 m 2 ARCANGUES - 64</a>
     <p class="faits">Appartement · T2 · Meublé</p>
-    <div class="pills"><span class="pill ">En ligne depuis 18 j</span><span class="pill exclu">Écartée : etudiant</span></div>
+    <div class="pills"><span class="pill ">En ligne depuis 19 j</span><span class="pill exclu">Écartée : etudiant</span></div>
     <p class="agence">Century 21 Agence Nivadour · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 12 min à vélo · 5 min en voiture · 3.0 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -3658,7 +3732,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.agence-benquet.com/appartement-maison/biarritz-appartement-t2-meuble-avec-terrasse-stationnement-privatif-et-residence-securisee/" target="_blank" rel="noopener">Biarritz – Appartement T2 meublé avec terrasse, stationnement privatif et résidence…</a>
     <p class="faits">Appartement · T2 · 46.53 m²</p>
-    <div class="pills"><span class="pill prix-ok">19.1 €/m² · dans le marché (+10 %)</span><span class="pill ">En ligne depuis 15 j</span><span class="pill exclu">Écartée : T2 de 46 m², sous le seuil de 55 m²</span></div>
+    <div class="pills"><span class="pill prix-ok">19.1 €/m² · dans le marché (+7 %)</span><span class="pill ">En ligne depuis 16 j</span><span class="pill exclu">Écartée : T2 de 46 m², sous le seuil de 55 m²</span></div>
     <p class="agence">Agence Benquet · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 7 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -3695,7 +3769,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.agence-benquet.com/appartement-maison/biarritz-appartement-t2-meuble-avec-terrasse-residence-securisee-et-ascenseur/" target="_blank" rel="noopener">Biarritz – Appartement T2 meublé avec terrasse, résidence sécurisée et ascenseur</a>
     <p class="faits">Appartement · T2 · 45 m²</p>
-    <div class="pills"><span class="pill prix-ok">19.6 €/m² · dans le marché (+13 %)</span><span class="pill exclu">Écartée : T2 de 45 m², sous le seuil de 55 m²</span></div>
+    <div class="pills"><span class="pill prix-ok">19.6 €/m² · dans le marché (+9 %)</span><span class="pill exclu">Écartée : T2 de 45 m², sous le seuil de 55 m²</span></div>
     <p class="agence">Agence Benquet · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 21 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -3869,6 +3943,43 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
+<article class="carte exclu nouveau" id="c-dlouerbiarritzappartement2pieces52942389" data-id="dlouerbiarritzappartement2pieces52942389" data-ville="Biarritz" data-pieces="2" data-cl="exclu" data-coeur="0" data-nouveau="1">
+  <div class="visuel sans">
+    
+    <div class="badges"><span class="badge nouveau">Nouveau</span></div>
+    <span class="score pos">+5</span>
+    <div class="voile"></div>
+    <a class="prix-sur-photo" href="https://www.laforet.com/agence-immobiliere/boulogne-nord/louer/biarritz/appartement-2-pieces-52942389" target="_blank" rel="noopener"><span class="prix">899 €</span><span class="par-mois">/ mois</span></a>
+  </div>
+  <div class="corps">
+    <a class="titre" href="https://www.laforet.com/agence-immobiliere/boulogne-nord/louer/biarritz/appartement-2-pieces-52942389" target="_blank" rel="noopener">Appartement 899 €/mois BIARRITZ (64200) 43 m² • 2 pièces • 1 chambre Ascenseur • 1…</a>
+    <p class="faits">Appartement · T2 · 1 ch. · 43 m²</p>
+    <div class="pills"><span class="pill prix-haut">20.9 €/m² · au-dessus du marché (+17 %)</span><span class="pill exclu">Écartée : T2 de 43 m², sous le seuil de 55 m²</span></div>
+    <p class="agence">Laforêt (64, appartements) · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 23 sept.</p>
+    <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
+    
+    <div class="chips"><span class="chip plus">balcon</span><span class="chip plus">ascenseur</span><span class="chip plus">loyer 899 €</span></div>
+    <div class="actions">
+      <a class="btn" href="https://www.laforet.com/agence-immobiliere/boulogne-nord/louer/biarritz/appartement-2-pieces-52942389" target="_blank" rel="noopener">Voir l’annonce</a>
+      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20Appartement%20899%20%E2%82%AC/mois%20BIARRITZ%20%2864200%29%2043%20m%C2%B2%20%E2%80%A2%202%20pi%C3%A8ces%20%E2%80%A2%201%20chambre%20Ascenseur%20%E2%80%A2%201%E2%80%A6&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20Appartement%20899%20%E2%82%AC/mois%20BIARRITZ%20%2864200%29%2043%20m%C2%B2%20%E2%80%A2%202%20pi%C3%A8ces%20%E2%80%A2%201%20chambre%20Ascenseur%20%E2%80%A2%201%E2%80%A6%20%C2%BB%20%28https%3A//www.laforet.com/agence-immobiliere/boulogne-nord/louer/biarritz/appartement-2-pieces-52942389%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
+
+Nous sommes très intéressés par votre annonce « Appartement 899 €/mois BIARRITZ (64200) 43 m² • 2 pièces • 1 chambre Ascenseur • 1… » (https://www.laforet.com/agence-immobiliere/boulogne-nord/louer/biarritz/appartement-2-pieces-52942389).
+
+Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
+
+Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
+
+Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
+
+Bien cordialement,
+Marc-Antoine Zipoli et Léa Mathieux
+[téléphone]"><span class="i">📋</span>Copier</button></div>
+      <div class="suivi" data-id="dlouerbiarritzappartement2pieces52942389">
+        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
+      </div>
+    </div>
+  </div>
+</article>
 <article class="carte exclu" id="c-tbayonne3c6174ef50ea498ab7ffbd7d5792cea6" data-id="tbayonne3c6174ef50ea498ab7ffbd7d5792cea6" data-ville="Bayonne" data-pieces="2" data-cl="exclu" data-coeur="0" data-nouveau="0">
   <div class="visuel">
     <div class="galerie" data-n="7"><div class="diapo"><img src="https://www.squarehabitat.fr/medias/biens/m/4f005f2b-e038-429b-bfba-7732a67ef84a.webp" alt=""  onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.squarehabitat.fr/medias/biens/l/4f005f2b-e038-429b-bfba-7732a67ef84a.webp" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.squarehabitat.fr/medias/biens/m/e0298263-b106-44aa-b3ec-5c2001b4f9ae.webp" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.squarehabitat.fr/medias/biens/m/c5cfda99-042e-4ae9-a5de-9aff9f26c832.webp" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.squarehabitat.fr/medias/biens/m/832d8246-1f82-42f9-b888-88d38eb48f90.webp" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.squarehabitat.fr/medias/biens/m/999cca91-8347-40ce-8668-52b30dae3dbb.webp" alt="" loading=lazy onerror="this.parentNode.remove()"></div><div class="diapo"><img src="https://www.squarehabitat.fr/medias/biens/m/80aa4d5d-fdda-4d27-b157-8af16e089d4f.webp" alt="" loading=lazy onerror="this.parentNode.remove()"></div></div><span class="compteur">1 / 7</span>
@@ -3880,7 +3991,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/bayonne/3c6174ef-50ea-498a-b7ff-bd7d5792cea6" target="_blank" rel="noopener">Location appartement 2 pièces - 37.06m² à Bayonne (64100)</a>
     <p class="faits">Appartement · T2 · 37.06 m² · Meublé</p>
-    <div class="pills"><span class="pill dpe-c">DPE C</span><span class="pill prix-bon">13.1 €/m² · bon prix (-24 %)</span><span class="pill ">En ligne depuis 18 j</span><span class="pill signal">⚠ 2 pièces</span><span class="pill exclu">Écartée : étudiant</span></div>
+    <div class="pills"><span class="pill dpe-c">DPE C</span><span class="pill prix-bon">13.1 €/m² · bon prix (-24 %)</span><span class="pill ">En ligne depuis 19 j</span><span class="pill signal">⚠ 2 pièces</span><span class="pill exclu">Écartée : étudiant</span></div>
     <p class="agence">Square Habitat Bidart · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 12 min à vélo · 5 min en voiture · 3.0 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -3917,7 +4028,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/bayonne-64100" target="_blank" rel="noopener">Location appartement Bayonne (64100) et alentours</a>
     <p class="faits">Appartement · T2 · Meublé</p>
-    <div class="pills"><span class="pill dpe-c">DPE C</span><span class="pill ">En ligne depuis 16 j</span><span class="pill exclu">Écartée : étudiant</span></div>
+    <div class="pills"><span class="pill dpe-c">DPE C</span><span class="pill ">En ligne depuis 17 j</span><span class="pill exclu">Écartée : étudiant</span></div>
     <p class="agence">Square Habitat Bidart · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 6 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 12 min à vélo · 5 min en voiture · 3.0 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -3991,7 +4102,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.agence-benquet.com/appartement-maison/biarritz-appartement-t2-avec-cellier-independant/" target="_blank" rel="noopener">Biarritz – Appartement T2 avec cellier indépendant</a>
     <p class="faits">Appartement · T2 · 43 m²</p>
-    <div class="pills"><span class="pill prix-ok">18.1 €/m² · dans le marché (+4 %)</span><span class="pill exclu">Écartée : T2 de 43 m², sous le seuil de 55 m²</span></div>
+    <div class="pills"><span class="pill prix-ok">18.1 €/m² · dans le marché (+1 %)</span><span class="pill exclu">Écartée : T2 de 43 m², sous le seuil de 55 m²</span></div>
     <p class="agence">Agence Benquet · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 16 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -4139,7 +4250,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/biarritz/2c226213-0086-4164-ab59-227ec6b9d0f1" target="_blank" rel="noopener">Location appartement 2 pièces - 38.2m² à Biarritz (64200)</a>
     <p class="faits">Appartement · T2 · 38.2 m² · Meublé</p>
-    <div class="pills"><span class="pill dpe-d">DPE D</span><span class="pill prix-bon">13.1 €/m² · bon prix (-25 %)</span><span class="pill ">En ligne depuis 18 j</span><span class="pill signal">⚠ 2 pièces</span><span class="pill exclu">Écartée : étudiant</span></div>
+    <div class="pills"><span class="pill dpe-d">DPE D</span><span class="pill prix-bon">13.1 €/m² · bon prix (-27 %)</span><span class="pill ">En ligne depuis 19 j</span><span class="pill signal">⚠ 2 pièces</span><span class="pill exclu">Écartée : étudiant</span></div>
     <p class="agence">Square Habitat Bidart · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -4176,7 +4287,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.agence-benquet.com/appartement-maison/anglet-bois-belin-t2/" target="_blank" rel="noopener">ANGLET, Bois Belin, T2</a>
     <p class="faits">T2 · 47.12 m²</p>
-    <div class="pills"><span class="pill prix-ok">17.1 €/m² · dans le marché (+6 %)</span><span class="pill ">En ligne depuis 15 j</span><span class="pill exclu">Écartée : T2 de 47 m², sous le seuil de 55 m²</span></div>
+    <div class="pills"><span class="pill prix-ok">17.1 €/m² · dans le marché (+6 %)</span><span class="pill ">En ligne depuis 16 j</span><span class="pill exclu">Écartée : T2 de 47 m², sous le seuil de 55 m²</span></div>
     <p class="agence">Agence Benquet · Anglet · Anglet (ville de l&#x27;agence) · vu le 7 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 20 min à vélo · 9 min en voiture · 4.9 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4855,-1.5185&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4855,-1.5185&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -4213,7 +4324,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.lelogisbasque.fr/location/79-bayonne/appartement/2334-superbe-t2-bourgeois-de-55m-a-bayonne-chateau-de-saint-forcet" target="_blank" rel="noopener">Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 54.26 m² Bayonne (64100) 890 € CC*</a>
     <p class="faits">Appartement · T2 · 1 ch. · 54.26 m²</p>
-    <div class="pills"><span class="pill prix-ok">16.4 €/m² · dans le marché (-5 %)</span><span class="pill ">En ligne depuis 15 j</span><span class="pill exclu">Écartée : T2 de 54 m², sous le seuil de 55 m²</span></div>
+    <div class="pills"><span class="pill prix-ok">16.4 €/m² · dans le marché (-5 %)</span><span class="pill ">En ligne depuis 16 j</span><span class="pill exclu">Écartée : T2 de 54 m², sous le seuil de 55 m²</span></div>
     <p class="agence">Le Logis Basque · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 7 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 12 min à vélo · 5 min en voiture · 3.0 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -4387,43 +4498,6 @@ Marc-Antoine Zipoli et Léa Mathieux
     </div>
   </div>
 </article>
-<article class="carte exclu" id="c-ouerargenteuilappartement2pieces52935132" data-id="ouerargenteuilappartement2pieces52935132" data-ville="Bayonne" data-pieces="2" data-cl="exclu" data-coeur="0" data-nouveau="0">
-  <div class="visuel sans">
-    
-    <div class="badges"></div>
-    <span class="score pos">+2</span>
-    <div class="voile"></div>
-    <a class="prix-sur-photo" href="https://www.laforet.com/agence-immobiliere/bezons/louer/argenteuil/appartement-2-pieces-52935132" target="_blank" rel="noopener"><span class="prix">890 €</span><span class="par-mois">/ mois</span></a>
-  </div>
-  <div class="corps">
-    <a class="titre" href="https://www.laforet.com/agence-immobiliere/bezons/louer/argenteuil/appartement-2-pieces-52935132" target="_blank" rel="noopener">Appartement 890 €/mois ARGENTEUIL (95100) 41 m² • 2 pièces • 1 chambre 1 salle de bain</a>
-    <p class="faits">Appartement · T2 · 1 ch. · 41 m²</p>
-    <div class="pills"><span class="pill prix-haut">21.7 €/m² · au-dessus du marché (+26 %)</span><span class="pill exclu">Écartée : hors zone (95100)</span></div>
-    <p class="agence">Laforêt (64, maisons) · Bayonne · Bayonne (ville de l&#x27;agence) · vu le 19 sept.</p>
-    <p class="dist">🏥 CH Côte Basque : 12 min à vélo · 5 min en voiture · 3.0 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4929,-1.4748&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
-    
-    <div class="chips"><span class="chip plus">loyer 890 €</span></div>
-    <div class="actions">
-      <a class="btn" href="https://www.laforet.com/agence-immobiliere/bezons/louer/argenteuil/appartement-2-pieces-52935132" target="_blank" rel="noopener">Voir l’annonce</a>
-      <div class="icos"><span class="ico off"><span class="i">📞</span>N° sur la fiche</span><a class="ico" href="mailto:?subject=Candidature%20location%20%E2%80%94%20Appartement%20890%20%E2%82%AC/mois%20ARGENTEUIL%20%2895100%29%2041%20m%C2%B2%20%E2%80%A2%202%20pi%C3%A8ces%20%E2%80%A2%201%20chambre%201%20salle%20de%20bain&amp;body=Bonjour%2C%0A%0ANous%20sommes%20tr%C3%A8s%20int%C3%A9ress%C3%A9s%20par%20votre%20annonce%20%C2%AB%20Appartement%20890%20%E2%82%AC/mois%20ARGENTEUIL%20%2895100%29%2041%20m%C2%B2%20%E2%80%A2%202%20pi%C3%A8ces%20%E2%80%A2%201%20chambre%201%20salle%20de%20bain%20%C2%BB%20%28https%3A//www.laforet.com/agence-immobiliere/bezons/louer/argenteuil/appartement-2-pieces-52935132%29.%0A%0ANous%20sommes%20un%20couple%20de%20professionnels%20de%20sant%C3%A9%20qui%20s%27installe%20sur%20la%20c%C3%B4te%20basque%20%3A%20m%C3%A9decin%20radiologue%20au%20Centre%20Hospitalier%20de%20la%20C%C3%B4te%20Basque%20%C3%A0%20partir%20de%20novembre%202026%2C%20et%20chirurgien-dentiste%20en%20CDI.%20Nous%20recherchons%20une%20location%20%C3%A0%20l%27ann%C3%A9e%2C%20deux%20chambres%20minimum%2C%20pour%20une%20entr%C3%A9e%20en%20octobre-novembre.%0A%0ANotre%20dossier%20est%20complet%20%28contrats%2C%20bulletins%20de%20salaire%2C%20avis%20d%27imposition%2C%20pi%C3%A8ces%20d%27identit%C3%A9%2C%20garant%29%20et%20peut%20vous%20%C3%AAtre%20transmis%20imm%C3%A9diatement.%20Nous%20sommes%20disponibles%20pour%20une%20visite%20d%C3%A8s%20que%20possible%2C%20y%20compris%20en%20semaine.%0A%0APourriez-vous%20nous%20indiquer%20si%20le%20bien%20est%20toujours%20disponible%20et%20vos%20cr%C3%A9neaux%20de%20visite%20%3F%0A%0ABien%20cordialement%2C%0AMarc-Antoine%20Zipoli%20et%20L%C3%A9a%20Mathieux%0A%5Bt%C3%A9l%C3%A9phone%5D"><span class="i">✉️</span>E-mail</a><button class="ico copier" data-msg="Bonjour,
-
-Nous sommes très intéressés par votre annonce « Appartement 890 €/mois ARGENTEUIL (95100) 41 m² • 2 pièces • 1 chambre 1 salle de bain » (https://www.laforet.com/agence-immobiliere/bezons/louer/argenteuil/appartement-2-pieces-52935132).
-
-Nous sommes un couple de professionnels de santé qui s&#x27;installe sur la côte basque : médecin radiologue au Centre Hospitalier de la Côte Basque à partir de novembre 2026, et chirurgien-dentiste en CDI. Nous recherchons une location à l&#x27;année, deux chambres minimum, pour une entrée en octobre-novembre.
-
-Notre dossier est complet (contrats, bulletins de salaire, avis d&#x27;imposition, pièces d&#x27;identité, garant) et peut vous être transmis immédiatement. Nous sommes disponibles pour une visite dès que possible, y compris en semaine.
-
-Pourriez-vous nous indiquer si le bien est toujours disponible et vos créneaux de visite ?
-
-Bien cordialement,
-Marc-Antoine Zipoli et Léa Mathieux
-[téléphone]"><span class="i">📋</span>Copier</button></div>
-      <div class="suivi" data-id="ouerargenteuilappartement2pieces52935132">
-        <button data-etat="vu">Vu</button><button data-etat="contacte">Contacté</button><button data-etat="visite">Visite</button><button data-etat="non">Non</button>
-      </div>
-    </div>
-  </div>
-</article>
 <article class="carte exclu" id="c-clouermerignacappartement2pieces52941052" data-id="clouermerignacappartement2pieces52941052" data-ville="Bayonne" data-pieces="2" data-cl="exclu" data-coeur="0" data-nouveau="0">
   <div class="visuel sans">
     
@@ -4509,7 +4583,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="http://www.immobiarritz.fr/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-dans-une-residence-haut-de-gamme-recente.html" target="_blank" rel="noopener">http://www.immobiarritz.fr/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-…</a>
     <p class="faits">Appartement · T2 · 41 m² · Meublé</p>
-    <div class="pills"><span class="pill prix-ok">17.8 €/m² · dans le marché (+2 %)</span><span class="pill signal">⚠ Rez-de-chaussée</span><span class="pill exclu">Écartée : T2 de 41 m², sous le seuil de 55 m²</span></div>
+    <div class="pills"><span class="pill prix-ok">17.8 €/m² · dans le marché (-1 %)</span><span class="pill signal">⚠ Rez-de-chaussée</span><span class="pill exclu">Écartée : T2 de 41 m², sous le seuil de 55 m²</span></div>
     <p class="agence">Immobiarritz · Biarritz · Biarritz (ville de l&#x27;agence) · vu le 15 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 33 min à vélo · 13 min en voiture · 8.2 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.4832,-1.5586&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -4546,7 +4620,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   <div class="corps">
     <a class="titre" href="https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/hendaye/8c89bd3d-d98f-4978-9fee-97831d3a689a" target="_blank" rel="noopener">Appartement à louer - Hendaye, 2 pièces</a>
     <p class="faits">Appartement · T2</p>
-    <div class="pills"><span class="pill ">En ligne depuis 18 j</span><span class="pill exclu">Écartée : hors zone (hendaye)</span></div>
+    <div class="pills"><span class="pill ">En ligne depuis 19 j</span><span class="pill exclu">Écartée : hors zone (hendaye)</span></div>
     <p class="agence">Square Habitat Bidart · Bidart · Bidart (ville de l&#x27;agence) · vu le 4 sept.</p>
     <p class="dist">🏥 CH Côte Basque : 50 min à vélo · 14 min en voiture · 12.6 km (par la route) <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=bicycling" target="_blank" rel="noopener">🚲 Itinéraire</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=43.437,-1.5915&amp;destination=43.4787,-1.4803&amp;travelmode=driving" target="_blank" rel="noopener">🚗</a></p>
     
@@ -4573,7 +4647,7 @@ Marc-Antoine Zipoli et Léa Mathieux
   </div>
 </article></div>
   
-  <details class="bloc"><summary>État des 21 agences surveillées</summary><table><tr class="vide"><td>L&#x27;Agencerie Côte Basque</td><td>Anglet</td><td>Aucun lien d&#x27;annonce reconnu : site probablement en JavaScri</td><td><a href="https://cote-basque.lagencerie.fr/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Le Logis Basque</td><td>Anglet</td><td>3 annonce(s) détectée(s)</td><td><a href="https://www.lelogisbasque.fr/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Orpi Agence des 5 Cantons</td><td>Anglet</td><td>8 annonce(s) détectée(s)</td><td><a href="https://www.orpi.com/ag5cantons/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Agence Olaizola</td><td>Biarritz</td><td>2 annonce(s) détectée(s)</td><td><a href="https://www.olaizola.immo/annonces/transaction/location.html" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Agence Benquet</td><td>Biarritz</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.agence-benquet.com/location-appartement-maison-biarritz/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Immobiarritz</td><td>Biarritz</td><td>2 annonce(s) détectée(s)</td><td><a href="http://www.immobiarritz.fr/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>AJP Mateille Biarritz</td><td>Biarritz</td><td>3 annonce(s) détectée(s)</td><td><a href="https://www.ajp-immobilier.com/agence-immobiliere/biarritz-64200/ajp-mateille-immobilier-biarritz/000044.htm" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Biarritz, toutes agences)</td><td>Biarritz</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-biarritz/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Square Habitat Bidart</td><td>Bidart</td><td>8 annonce(s) détectée(s)</td><td><a href="https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/bidart-64210" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Nestenn (Bidart)</td><td>Bidart</td><td>2 annonce(s) détectée(s)</td><td><a href="https://nestenn.com/location/appartement/bidart-64210" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Acotztarra</td><td>Bidart</td><td>1 annonce(s) détectée(s)</td><td><a href="https://www.acotztarra.com/482-location-%C3%A0-l-ann%C3%A9e-saint-jean-de-luz" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Manoir de France</td><td>Bayonne</td><td>9 annonce(s) détectée(s)</td><td><a href="https://www.manoirdefrance.fr/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Aturri Immobilier</td><td>Bayonne</td><td>5 annonce(s) détectée(s)</td><td><a href="https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 Agence Nivadour</td><td>Bayonne</td><td>1 annonce(s) détectée(s)</td><td><a href="https://www.century21agencenivadour-bayonne.com/annonces/location/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Anglet, toutes agences)</td><td>Anglet</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-anglet/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Bayonne, toutes agences)</td><td>Bayonne</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-bayonne/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Bidart, toutes agences)</td><td>Bidart</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-bidart/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Laforêt (64, appartements)</td><td>Bayonne</td><td>15 annonce(s) détectée(s)</td><td><a href="https://www.laforet.com/departement/location-appartement-pyrenees-atlantiques" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Laforêt (64, maisons)</td><td>Bayonne</td><td>3 annonce(s) détectée(s)</td><td><a href="https://www.laforet.com/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Human Immobilier Anglet</td><td>Anglet</td><td>6 annonce(s) détectée(s)</td><td><a href="https://www.human-immobilier.fr/immobilier-agence-location-anglet" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="vide"><td>Adour Gestion Locative</td><td>Bayonne</td><td>Aucun lien d&#x27;annonce reconnu : site probablement en JavaScri</td><td><a href="https://adour-gestion.fr/a-louer/" target="_blank" rel="noopener">ouvrir</a></td></tr></table></details>
+  <details class="bloc"><summary>État des 21 agences surveillées</summary><table><tr class="vide"><td>L&#x27;Agencerie Côte Basque</td><td>Anglet</td><td>Aucun lien d&#x27;annonce reconnu : site probablement en JavaScri</td><td><a href="https://cote-basque.lagencerie.fr/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Le Logis Basque</td><td>Anglet</td><td>4 annonce(s) détectée(s)</td><td><a href="https://www.lelogisbasque.fr/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Orpi Agence des 5 Cantons</td><td>Anglet</td><td>8 annonce(s) détectée(s)</td><td><a href="https://www.orpi.com/ag5cantons/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Agence Olaizola</td><td>Biarritz</td><td>2 annonce(s) détectée(s)</td><td><a href="https://www.olaizola.immo/annonces/transaction/location.html" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Agence Benquet</td><td>Biarritz</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.agence-benquet.com/location-appartement-maison-biarritz/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Immobiarritz</td><td>Biarritz</td><td>2 annonce(s) détectée(s)</td><td><a href="http://www.immobiarritz.fr/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>AJP Mateille Biarritz</td><td>Biarritz</td><td>3 annonce(s) détectée(s)</td><td><a href="https://www.ajp-immobilier.com/agence-immobiliere/biarritz-64200/ajp-mateille-immobilier-biarritz/000044.htm" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Biarritz, toutes agences)</td><td>Biarritz</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-biarritz/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Square Habitat Bidart</td><td>Bidart</td><td>8 annonce(s) détectée(s)</td><td><a href="https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/bidart-64210" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Nestenn (Bidart)</td><td>Bidart</td><td>2 annonce(s) détectée(s)</td><td><a href="https://nestenn.com/location/appartement/bidart-64210" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Acotztarra</td><td>Bidart</td><td>1 annonce(s) détectée(s)</td><td><a href="https://www.acotztarra.com/482-location-%C3%A0-l-ann%C3%A9e-saint-jean-de-luz" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Manoir de France</td><td>Bayonne</td><td>9 annonce(s) détectée(s)</td><td><a href="https://www.manoirdefrance.fr/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Aturri Immobilier</td><td>Bayonne</td><td>5 annonce(s) détectée(s)</td><td><a href="https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 Agence Nivadour</td><td>Bayonne</td><td>1 annonce(s) détectée(s)</td><td><a href="https://www.century21agencenivadour-bayonne.com/annonces/location/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Anglet, toutes agences)</td><td>Anglet</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-anglet/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Bayonne, toutes agences)</td><td>Bayonne</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-bayonne/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Century 21 (Bidart, toutes agences)</td><td>Bidart</td><td>10 annonce(s) détectée(s)</td><td><a href="https://www.century21.fr/annonces/location-appartement/v-bidart/" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Laforêt (64, appartements)</td><td>Bayonne</td><td>16 annonce(s) détectée(s)</td><td><a href="https://www.laforet.com/departement/location-appartement-pyrenees-atlantiques" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Laforêt (64, maisons)</td><td>Bayonne</td><td>3 annonce(s) détectée(s)</td><td><a href="https://www.laforet.com/louer" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="ok"><td>Human Immobilier Anglet</td><td>Anglet</td><td>6 annonce(s) détectée(s)</td><td><a href="https://www.human-immobilier.fr/immobilier-agence-location-anglet" target="_blank" rel="noopener">ouvrir</a></td></tr><tr class="vide"><td>Adour Gestion Locative</td><td>Bayonne</td><td>Aucun lien d&#x27;annonce reconnu : site probablement en JavaScri</td><td><a href="https://adour-gestion.fr/a-louer/" target="_blank" rel="noopener">ouvrir</a></td></tr></table></details>
   <footer>Score = mots-clés positifs (vert) et négatifs (rouge) lus dans l’annonce + bonus surface / loyer / DPE ; ♥ à partir de 5.
   Positions sur la carte approximatives (quartier cité, sinon ville de l’agence). Temps vers l’hôpital calculés par la route depuis ce point (OpenStreetMap) ; « estimation » si le calcul n’a pas pu être fait.
   Les boutons Vu / Contacté / Visite / Non sont mémorisés sur cet appareil. Annonces retirées des sites depuis 3 jours supprimées.
