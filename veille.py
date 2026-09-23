@@ -87,6 +87,11 @@ TEXTES_NAVIGATION = re.compile(
     r"vendu|louer|location|locations|acheter|vendre|accueil|contact|en savoir|lire|suivant|précédent|"
     r"precedent|page|appartements?|maisons?|villas?|terrains?|bureaux?|locaux)\b.{0,45}$", re.I)
 
+# Titre qui ne d\u00e9signe rien : accroche de moteur de recherche, ou simple nom de commune.
+TEXTES_MOTEUR = re.compile(
+    r"^(acc[ée]dez|acceder|trouvez|recherchez|affinez|filtrer|affiner|s[ée]lectionnez|"
+    r"choisissez|consultez|parcourez|voir la carte|type de bien|r[ée]sultats?)\b", re.I)
+
 PARAMS_A_RETIRER = {"utm_source", "utm_medium", "utm_campaign", "utm_content",
                     "utm_term", "fbclid", "gclid", "ref", "origin"}
 
@@ -712,6 +717,15 @@ def enrichir_par_fiche(annonce, criteres, scoring):
     if annonce.get("fiche_lue") and not any(annonce.get(k) for k in ("prix", "surface", "pieces", "chambres")):
         annonce["classement"] = "exclu"
         annonce["motif_exclusion"] = "page d'agence, pas une annonce"
+    # le titre définitif peut venir de la fiche : on refait le contrôle anti-bruit ici
+    titre = texte_compact(annonce.get("titre", ""))
+    nu = re.sub(r"[^a-zà-ÿ ]", "", titre.lower()).strip()
+    communes = {"anglet", "biarritz", "bidart", "bayonne", "pays basque", "cote basque"}
+    if (TEXTES_COLLECTION.match(titre) or TEXTES_PUBLICITAIRES.match(titre)
+            or TEXTES_MOTEUR.match(titre) or titre.startswith("http")
+            or len(titre) < 8 or nu in communes):
+        annonce["classement"] = "exclu"
+        annonce["motif_exclusion"] = "lien de navigation, pas une annonce"
     annonce["score"], annonce["atouts"], annonce["reserves"] = scorer(annonce, scoring)
 
 
@@ -998,7 +1012,8 @@ def nettoyer_etat(etat):
         a["contexte"] = texte_compact(a.get("contexte", ""))
         a["titre"] = nettoyer_titre(a) if a.get("titre") else ""
         if (TEXTES_PUBLICITAIRES.match(a["titre"]) or TEXTES_COLLECTION.match(a["titre"])
-                or (a["titre"].startswith("http") and not a.get("prix"))):
+                or TEXTES_MOTEUR.match(a["titre"]) or a["titre"].startswith("http")
+                or a.get("motif_exclusion") == "lien de navigation, pas une annonce"):
             del etat["annonces"][url]
             retires += 1
             continue
@@ -1510,7 +1525,11 @@ JS_RAPPORT = """
 def generer_rapport(etat, nouveautes, rapports_agences, criteres, aujourdhui, chemin, scoring=None, contact=None, lieux=None, journal=None):
     seuil = (scoring or {}).get("coup_de_coeur_a_partir_de", 5)
     ordre_cl = {"match": 0, "a_verifier": 1, "exclu": 2}
+    # Le script tourne trois fois par jour : une annonce reste « nouvelle » toute la journée
+    # de sa découverte, sinon son badge disparaît au passage suivant.
     urls_nouv = {a["url"] for a in nouveautes}
+    urls_nouv |= {a["url"] for a in etat["annonces"].values()
+                  if a.get("premiere_vue") == aujourdhui and a.get("classement") != "exclu"}
     actives = [a for a in etat["annonces"].values() if a["statut"] == "active"]
     actives.sort(key=lambda a: (ordre_cl[a.get("classement", "a_verifier")],
                                 1 if (a.get("pieces") == 2) else 0,
