@@ -2361,7 +2361,7 @@
    "classement": "exclu",
    "contexte": "ARCANGUES, Proche Bourg, Maison Mitoyenne 137m² 2 146€",
    "derniere_vue": "2026-09-23",
-   "ecart_prix_pct": -12,
+   "ecart_prix_pct": -13,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -2485,7 +2485,7 @@
    "classement": "exclu",
    "contexte": "Biarritz – Appartement T2 meublé avec terrasse, stationnement privatif et résidence sécurisée 46.53m² 890€",
    "derniere_vue": "2026-09-23",
-   "ecart_prix_pct": 7,
+   "ecart_prix_pct": 6,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -2599,7 +2599,7 @@
    "derniere_vue": "2026-09-21",
    "description": "Appartement T4 vide de 102 m² avec terrasse – Hyper Centre de Biarritz À louer vide à l'année – Disponible immédiatement. Situé en plein cœur de Biarritz, dans le quartier Hyper Centre, découvrez ce spacieux appartement de type T4 de 102 m², situé au 5ᵉ étage d'une copropriété sécurisée avec… BIARRITZ, Hyper Centre, T4 Aller au contenu BIARRITZ, Hyper Centre, T4 Biarritz HYPER CENTRE 1 739 € 1 739 € HYPER CENTRE Descriptif du bien Appartement T4 vide de 102 m² avec terrasse – Hyper Centre de Biarritz À louer vide à l’année – Disponible immédiatement. Situé en plein cœur de Biarritz, dans le quartier Hyper Centre, découvrez ce spacieux appartement de type T4 de 102 m² , situé au 5ᵉ étage d’une copropriété sécurisée avec ascenseur. L’appartement se compose d’une entrée avec dégagement desservant une belle pièce de vie lumineuse comprenant un vaste salon-séjour avec accès direct à une agréable terrasse. La cuisine est indépendante, aménagée et entièrement équipée (hotte, plaque de cuisson, four et lave-vaisselle). L’espace nuit comprend trois grandes chambres, dont une bénéficiant de sa propre salle d’eau privative. Une salle de bains ainsi qu’un WC indépendant complètent l’ensemble. ",
    "dpe": null,
-   "ecart_prix_pct": -5,
+   "ecart_prix_pct": -6,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -2886,51 +2886,29 @@
   "https://www.ajp-immobilier.com/recherche?agency_id=367652&property=maison&listing_type=rent": {
    "agence": "AJP Mateille Biarritz",
    "atouts": [
-    "neuf",
-    "parking",
-    "149 m²"
+    "parking"
    ],
    "chambres": null,
    "classement": "exclu",
    "contexte": "LOCATION maison (1) parking (2)",
    "derniere_vue": "2026-09-23",
-   "description": "Plus de 5 000 annonces immobilières AJP est un groupe indépendant d’agences immobilières implantées à Paris et de la Bretagne jusqu’à la Nouvelle Aquitaine dans les départements 17, 33, 35, 40, 44, 49, 56, 64, 75 et 85. Toutes nos annonces immobilières correspondant à votre recherche ACHATS VENTES LOCATIONS GESTION LOCATIVE SYNDIC LMNP IMMOBILIER NEUF VACANCES ENTREPRISES DEVENIR FRANCHISÉ ACHATS VENTES LOCATIONS GESTION LOCATIVE SYNDIC LMNP IMMOBILIER NEUF LOCATIONS DE VACANCES ENTREPRISES DEVENIR FRANCHISÉ AJP Recrute AJP Actualités Service Qualité Clients Toutes nos annonces immobilières correspondant à votre recherche Résultats de votre recherche: 1 annonces en ligne. Trier par Trier par Prix, ordre croissant Prix, ordre décroissant Date, ordre croissant Date, ordre décroissant Previous Next EXCLUSIVITÉ Maison 2 163 € anglet 149 m² 7 5 2 REF297 - AJP Mateille Immobilier Biarritz voir la carte voir les annonces Nos derniers biens loués Loué par notre agence AJP Mateille Immobilier Biarritz maison ustaritz AJP Immobilier Plan du site Suivez-nous sur Politique de Protection des Données Politique de cookies Service Qualité clients Mentions légales Trouvez votre bien avec JipiGO! No",
-   "dpe": null,
-   "ecart_prix_pct": -19,
-   "etiquette_prix": "bon prix",
-   "fiche_lue": true,
-   "historique_prix": [
-    {
-     "date": "2026-09-23",
-     "prix": 2163
-    }
-   ],
    "itineraire_pos": "43.4832,-1.5586",
    "itineraire_source": "route",
    "km_hopital": 8.2,
    "lat": 43.4832,
    "lon": -1.5586,
-   "meuble": false,
    "min_velo": 33,
    "min_voiture": 13,
-   "motif_exclusion": "lien de navigation, pas une annonce",
-   "photo": "https://www.ajp-immobilier.com/images/logos/ajp-logo-search.png",
-   "photo_cherchee": true,
-   "photos": [
-    "https://www.ajp-immobilier.com/images/logos/ajp-logo-search.png"
-   ],
-   "photos_cherchees": true,
+   "motif_exclusion": "commune hors secteur",
    "pieces": null,
    "position": "Biarritz (ville de l'agence)",
    "premiere_vue": "2026-09-23",
-   "prix": 2163,
-   "prix_m2": 14.5,
+   "prix": null,
    "reserves": [],
-   "score": 6,
-   "signaux": [],
+   "score": 2,
    "statut": "active",
-   "surface": 149.0,
-   "titre": "Toutes nos annonces immobilières correspondant à votre recherche",
+   "surface": null,
+   "titre": "LOCATION maison (1) parking (2)",
    "type": "maison",
    "url": "https://www.ajp-immobilier.com/recherche?agency_id=367652&property=maison&listing_type=rent",
    "ville_agence": "Biarritz"
@@ -2947,7 +2925,7 @@
     "sous-sol"
    ],
    "chambres": null,
-   "classement": "a_verifier",
+   "classement": "exclu",
    "contact_cherche": true,
    "contexte": "Voir d'autres biens sur la carte",
    "derniere_vue": "2026-09-23",
@@ -2963,7 +2941,7 @@
    "meuble": true,
    "min_velo": 20,
    "min_voiture": 9,
-   "motif_exclusion": "page d'agence, pas une annonce",
+   "motif_exclusion": "commune hors secteur",
    "photo": "https://www.century21.fr/theme/v6/images/facebook/century21_facebook-share.png",
    "photo_cherchee": true,
    "photos": [
@@ -2996,7 +2974,7 @@
     "sous-sol"
    ],
    "chambres": null,
-   "classement": "a_verifier",
+   "classement": "exclu",
    "contact_cherche": true,
    "contexte": "Voir d'autres biens sur la carte",
    "derniere_vue": "2026-09-23",
@@ -3012,7 +2990,7 @@
    "meuble": true,
    "min_velo": 12,
    "min_voiture": 5,
-   "motif_exclusion": "page d'agence, pas une annonce",
+   "motif_exclusion": "commune hors secteur",
    "photo": "https://www.century21.fr/theme/v6/images/facebook/century21_facebook-share.png",
    "photo_cherchee": true,
    "photos": [
@@ -3045,7 +3023,7 @@
     "sous-sol"
    ],
    "chambres": null,
-   "classement": "a_verifier",
+   "classement": "exclu",
    "contact_cherche": true,
    "contexte": "Voir d'autres biens sur la carte",
    "derniere_vue": "2026-09-23",
@@ -3061,7 +3039,7 @@
    "meuble": true,
    "min_velo": 33,
    "min_voiture": 13,
-   "motif_exclusion": "page d'agence, pas une annonce",
+   "motif_exclusion": "commune hors secteur",
    "photo": "https://www.century21.fr/theme/v6/images/facebook/century21_facebook-share.png",
    "photo_cherchee": true,
    "photos": [
@@ -3094,7 +3072,7 @@
     "sous-sol"
    ],
    "chambres": null,
-   "classement": "a_verifier",
+   "classement": "exclu",
    "contact_cherche": true,
    "contexte": "Voir d'autres biens sur la carte",
    "derniere_vue": "2026-09-23",
@@ -3110,7 +3088,7 @@
    "meuble": true,
    "min_velo": 50,
    "min_voiture": 14,
-   "motif_exclusion": "page d'agence, pas une annonce",
+   "motif_exclusion": "commune hors secteur",
    "photo": "https://www.century21.fr/theme/v6/images/facebook/century21_facebook-share.png",
    "photo_cherchee": true,
    "photos": [
@@ -4941,7 +4919,7 @@
    "score": 4,
    "statut": "active",
    "surface": 134.0,
-   "titre": "Maison 568 €/mois AIRVAULT (79600) 134 m² • 3 pièces • 2 chambres Surface : 134.21 m² • 3 pièces • 2 chbres",
+   "titre": "Maison 568 €/mois AIRVAULT (79600) 134 m² • 3 pièces • 2 chambres Surface : 134.21 m² •…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/airvault/louer/airvault/maison-3-pieces-52749356#section-video",
    "ville_agence": "Bayonne"
@@ -5020,7 +4998,7 @@
    "score": 4,
    "statut": "active",
    "surface": 101.0,
-   "titre": "Maison 650 €/mois ASSAIS LES JUMEAUX (79600) 101 m² • 3 pièces • 2 chambres Surf. terrain : 100 m²",
+   "titre": "Maison 650 €/mois ASSAIS LES JUMEAUX (79600) 101 m² • 3 pièces • 2 chambres Surf.…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/airvault/louer/assais-les-jumeaux/maison-3-pieces-52765953#section-video",
    "ville_agence": "Bayonne"
@@ -5060,7 +5038,7 @@
    "score": 4,
    "statut": "active",
    "surface": 110.0,
-   "titre": "Maison 682 €/mois ASSAIS LES JUMEAUX (79600) 110 m² • 4 pièces • 3 chambres Surf. terrain : 500 m²",
+   "titre": "Maison 682 €/mois ASSAIS LES JUMEAUX (79600) 110 m² • 4 pièces • 3 chambres Surf.…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/airvault/louer/assais-les-jumeaux/maison-4-pieces-52820012",
    "ville_agence": "Bayonne"
@@ -5961,7 +5939,7 @@
    "score": 2,
    "statut": "active",
    "surface": 156.0,
-   "titre": "Maison 2 100 €/mois BLANQUEFORT (33290) 156 m² • 6 pièces • 4 chambres Surf. terrain : 680 m²",
+   "titre": "Maison 2 100 €/mois BLANQUEFORT (33290) 156 m² • 6 pièces • 4 chambres Surf. terrain :…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/blanquefort/louer/blanquefort/maison-6-pieces-52884873",
    "ville_agence": "Bayonne"
@@ -6001,7 +5979,7 @@
    "score": 4,
    "statut": "active",
    "surface": 94.0,
-   "titre": "Maison 853 €/mois CARS (33390) 94 m² • 4 pièces • 3 chambres Cheminée • Surf. terrain : 400 m²",
+   "titre": "Maison 853 €/mois CARS (33390) 94 m² • 4 pièces • 3 chambres Cheminée • Surf. terrain :…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/blaye/louer/cars/maison-4-pieces-21502559",
    "ville_agence": "Bayonne"
@@ -6041,7 +6019,7 @@
    "score": 4,
    "statut": "active",
    "surface": 85.0,
-   "titre": "Maison 940 €/mois SAINT CIERS SUR GIRONDE (33820) 85 m² • 4 pièces • 3 chambres Surf. terrain : 465 m²",
+   "titre": "Maison 940 €/mois SAINT CIERS SUR GIRONDE (33820) 85 m² • 4 pièces • 3 chambres Surf.…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/blaye/louer/saint-ciers-sur-gironde/maison-4-pieces-52740685",
    "ville_agence": "Bayonne"
@@ -6143,7 +6121,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 5 Appartement 870 €/mois BIARRITZ (64200) 43 m² • 2 pièces • 1 chambre Ascenseur • 1 salle d'eau • Balcon • Meublé Message Appeler",
    "derniere_vue": "2026-09-23",
-   "ecart_prix_pct": 13,
+   "ecart_prix_pct": 12,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -6211,7 +6189,7 @@
    "score": 2,
    "statut": "active",
    "surface": 31.0,
-   "titre": "Maison 635 €/mois BRESSUIRE (79300) 31 m² • 2 pièces • 1 chambre Surface : 31.1 m² • 2 pièces • 1 chbre",
+   "titre": "Maison 635 €/mois BRESSUIRE (79300) 31 m² • 2 pièces • 1 chambre Surface : 31.1 m² • 2…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/bressuire/louer/bressuire/maison-2-pieces-52806109",
    "ville_agence": "Bayonne"
@@ -6250,7 +6228,7 @@
    "score": 2,
    "statut": "active",
    "surface": 23.0,
-   "titre": "Maison 600 €/mois BRESSUIRE (79300) 23 m² • 2 pièces • 1 chambre Surface : 22.86 m² • 2 pièces • 1 chbre",
+   "titre": "Maison 600 €/mois BRESSUIRE (79300) 23 m² • 2 pièces • 1 chambre Surface : 22.86 m² • 2…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/bressuire/louer/bressuire/maison-2-pieces-52806342",
    "ville_agence": "Bayonne"
@@ -6291,7 +6269,7 @@
    "score": 7,
    "statut": "active",
    "surface": 97.0,
-   "titre": "Maison 630 €/mois FAYE L ABBESSE (79350) 97 m² • 4 pièces • 3 chambres Surf. terrain : 500 m² • Terrasse • 1 salle de bain",
+   "titre": "Maison 630 €/mois FAYE L ABBESSE (79350) 97 m² • 4 pièces • 3 chambres Surf. terrain :…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/bressuire/louer/faye-l-abbesse/maison-4-pieces-52835300",
    "ville_agence": "Bayonne"
@@ -6692,7 +6670,7 @@
    "score": 7,
    "statut": "active",
    "surface": 109.0,
-   "titre": "Maison 1 500 €/mois EYSINES (33320) 109 m² • 5 pièces • 3 chambres Cheminée • Surf. terrain : 970 m² • Terrasse • 1 salle de bain",
+   "titre": "Maison 1 500 €/mois EYSINES (33320) 109 m² • 5 pièces • 3 chambres Cheminée • Surf.…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/eysines/louer/eysines/maison-5-pieces-52726900",
    "ville_agence": "Bayonne"
@@ -6970,7 +6948,7 @@
    "score": 2,
    "statut": "active",
    "surface": 64.0,
-   "titre": "Maison 580 €/mois LA CHAPELLE SAINT LAURENT (79430) 64 m² • 3 pièces • 2 chambres Surf. terrain : 250 m²",
+   "titre": "Maison 580 €/mois LA CHAPELLE SAINT LAURENT (79430) 64 m² • 3 pièces • 2 chambres Surf.…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/la-chapelle-saint-laurent/louer/la-chapelle-saint-laurent/maison-3-pieces-52682692",
    "ville_agence": "Bayonne"
@@ -7088,7 +7066,7 @@
    "score": 3,
    "statut": "active",
    "surface": 78.0,
-   "titre": "Maison 1 500 €/mois LA ROCHELLE (17000) 78 m² • 4 pièces • 3 chambres Surf. terrain : 139 m²",
+   "titre": "Maison 1 500 €/mois LA ROCHELLE (17000) 78 m² • 4 pièces • 3 chambres Surf. terrain :…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/larochelle-vieux-port/louer/la-rochelle/maison-4-pieces-52759432",
    "ville_agence": "Bayonne"
@@ -7130,7 +7108,7 @@
    "score": 9,
    "statut": "active",
    "surface": 95.0,
-   "titre": "Maison 1 400 €/mois PUILBOREAU (17138) 95 m² • 4 pièces • 3 chambres Cheminée • Surf. terrain : 500 m² • Terrasse • Sous-sol",
+   "titre": "Maison 1 400 €/mois PUILBOREAU (17138) 95 m² • 4 pièces • 3 chambres Cheminée • Surf.…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/larochelle-vieux-port/louer/puilboreau/maison-4-pieces-52236328",
    "ville_agence": "Bayonne"
@@ -7291,7 +7269,7 @@
    "score": 7,
    "statut": "active",
    "surface": 144.0,
-   "titre": "Maison 1 100 €/mois LIMOGES (87000) 144 m² • 5 pièces • 3 chambres Surf. terrain : 406 m² • Garage • 2 salles d'eau",
+   "titre": "Maison 1 100 €/mois LIMOGES (87000) 144 m² • 5 pièces • 3 chambres Surf. terrain : 406…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/limoges/louer/limoges/maison-5-pieces-52486126",
    "ville_agence": "Bayonne"
@@ -7491,7 +7469,7 @@
    "score": 2,
    "statut": "active",
    "surface": 39.0,
-   "titre": "Maison 460 €/mois SAINT AMAND SUR SEVRE (79700) 39 m² • 2 pièces • 1 chambre Surface : 39.33 m² • 2 pièces • 1 chbre",
+   "titre": "Maison 460 €/mois SAINT AMAND SUR SEVRE (79700) 39 m² • 2 pièces • 1 chambre Surface :…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/mauleon/louer/saint-amand-sur-sevre/maison-2-pieces-52273640#section-video",
    "ville_agence": "Bayonne"
@@ -7654,7 +7632,7 @@
    "score": 10,
    "statut": "active",
    "surface": 160.0,
-   "titre": "Maison 1 090 €/mois CHAMOUILLAC (17130) 160 m² • 5 pièces • 4 chambres Surf. terrain : 450 m² • Terrasse • Piscine • Garage",
+   "titre": "Maison 1 090 €/mois CHAMOUILLAC (17130) 160 m² • 5 pièces • 4 chambres Surf. terrain :…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/montendre/louer/chamouillac/maison-5-pieces-52820179",
    "ville_agence": "Bayonne"
@@ -8502,7 +8480,7 @@
    "score": 2,
    "statut": "active",
    "surface": 59.0,
-   "titre": "Maison 430 €/mois PARTHENAY (79200) 59 m² • 2 pièces • 1 chambre Surface : 59 m² • 2 pièces • 1 chbre",
+   "titre": "Maison 430 €/mois PARTHENAY (79200) 59 m² • 2 pièces • 1 chambre Surface : 59 m² • 2…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/parthenay/louer/parthenay/maison-2-pieces-21921480#section-video",
    "ville_agence": "Bayonne"
@@ -8545,7 +8523,7 @@
    "score": 11,
    "statut": "active",
    "surface": 196.0,
-   "titre": "Maison 989 €/mois PARTHENAY (79200) 196 m² • 5 pièces • 3 chambres Surf. terrain : 555 m² • Terrasse • Sous-sol • 1 cave",
+   "titre": "Maison 989 €/mois PARTHENAY (79200) 196 m² • 5 pièces • 3 chambres Surf. terrain : 555…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/parthenay/louer/parthenay/maison-5-pieces-22020152#section-video",
    "ville_agence": "Bayonne"
@@ -9082,7 +9060,7 @@
    "score": 8,
    "statut": "active",
    "surface": 111.0,
-   "titre": "Maison 1 109 €/mois COULOUNIEIX CHAMIERS (24660) 111 m² • 7 pièces • 5 chambres Surf. terrain : 440 m² • Piscine • Sous-sol • 1 cave",
+   "titre": "Maison 1 109 €/mois COULOUNIEIX CHAMIERS (24660) 111 m² • 7 pièces • 5 chambres Surf.…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/perigueux/louer/coulounieix-chamiers/maison-7-pieces-22574168",
    "ville_agence": "Bayonne"
@@ -9243,7 +9221,7 @@
    "score": 4,
    "statut": "active",
    "surface": 116.0,
-   "titre": "Maison 840 €/mois BRIVES SUR CHARENTE (17800) 116 m² • 4 pièces • 3 chambres 1 salle de bain",
+   "titre": "Maison 840 €/mois BRIVES SUR CHARENTE (17800) 116 m² • 4 pièces • 3 chambres 1 salle de…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/saintes-centre/louer/brives-sur-charente/maison-4-pieces-52642774",
    "ville_agence": "Bayonne"
@@ -9284,7 +9262,7 @@
    "score": 7,
    "statut": "active",
    "surface": 87.0,
-   "titre": "Maison 794 €/mois COGNAC (16100) 87 m² • 3 pièces • 2 chambres Cheminée • Surf. terrain : 450 m² • Terrasse • 1 salle d'eau",
+   "titre": "Maison 794 €/mois COGNAC (16100) 87 m² • 3 pièces • 2 chambres Cheminée • Surf. terrain…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/saintes-centre/louer/cognac/maison-3-pieces-52859756",
    "ville_agence": "Bayonne"
@@ -9611,7 +9589,7 @@
    "score": 7,
    "statut": "active",
    "surface": 127.0,
-   "titre": "Maison 930 €/mois SAINT JEAN DE THOUARS (79100) 127 m² • 6 pièces • 5 chambres Surf. terrain : 1000 m² • Terrasse • 3 salles d'eau",
+   "titre": "Maison 930 €/mois SAINT JEAN DE THOUARS (79100) 127 m² • 6 pièces • 5 chambres Surf.…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/thouars/louer/saint-jean-de-thouars/maison-6-pieces-52765866#section-video",
    "ville_agence": "Bayonne"
@@ -9652,7 +9630,7 @@
    "score": 7,
    "statut": "active",
    "surface": 87.0,
-   "titre": "Maison 620 €/mois TERNAY (86120) 87 m² • 4 pièces • 3 chambres Surf. terrain : 1278 m² • Terrasse • 1 salle de bain",
+   "titre": "Maison 620 €/mois TERNAY (86120) 87 m² • 4 pièces • 3 chambres Surf. terrain : 1278 m²…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/thouars/louer/ternay/maison-4-pieces-21433940#section-video",
    "ville_agence": "Bayonne"
@@ -9732,7 +9710,7 @@
    "score": 7,
    "statut": "active",
    "surface": 84.0,
-   "titre": "Maison 710 €/mois THOUARS (79100) 84 m² • 3 pièces • 2 chambres Surf. terrain : 350 m² • Garage • 1 salle de bain",
+   "titre": "Maison 710 €/mois THOUARS (79100) 84 m² • 3 pièces • 2 chambres Surf. terrain : 350 m²…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/thouars/louer/thouars/maison-3-pieces-52217906",
    "ville_agence": "Bayonne"
@@ -9812,7 +9790,7 @@
    "score": 4,
    "statut": "active",
    "surface": 110.0,
-   "titre": "Maison 790 €/mois VAL EN VIGNES (79290) 110 m² • 4 pièces • 3 chambres Surf. terrain : 700 m²",
+   "titre": "Maison 790 €/mois VAL EN VIGNES (79290) 110 m² • 4 pièces • 3 chambres Surf. terrain :…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/thouars/louer/val-en-vignes/maison-4-pieces-22280822",
    "ville_agence": "Bayonne"
@@ -10661,7 +10639,7 @@
    "derniere_vue": "2026-09-23",
    "description": "Â Â STUDIO SEPT - JUIN 2027 - BIARRITZ Biarritz Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Biarritz 700 € Â Â STUDIO SEPT - JUIN 2027 - BIARRITZ à louer de 1 pièce(s) sur 28 m² Retour au listing Points clés... 1 pièce(s) , 28 m² 1 salle(s) de bains Ref. 2785 Descriptif du bien • Â Â STUDIO SEPT - JUIN 2027 - BIARRITZ A louer de septembre 2026 à juin 2027 en bail étudiant, joli studio meublé perspective cote des basques. Très bien agencé et meublé avec goût, il est à la fois fonctionnel et très agréable. Vue imprenable sur l\\'océan ! Au 1er étage avec ascenseur, l\\'entrée dessert un coin nuit, une pièce de vie avec coin cuisine, une salle d\\'eau et des WC séparés. A deux pas de l\\'océan et des commerces B2785000 BIARRITZ Appartement. Nombre de pièces : 1 Surface habitable : 28.14m2 Nombre de chambres : 1 LOYER CC / mois : 800.99EUR dont 100EUR de provision sur charges soumis à régularisation annuelle ZONE SOUMISE A ENCADREMENT DES LOYERS Loyer de base : 680.99EUR Loyer de référence majoré (loyer de base a ne pas dépasser): 680.99EUR Honoraires charge locataire : 365EUR dont 84EUR TTC pour état des lieux ",
    "dpe": null,
-   "ecart_prix_pct": 40,
+   "ecart_prix_pct": 39,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -11013,7 +10991,7 @@
    "derniere_vue": "2026-09-23",
    "description": "Biarritz -T3 vide Ã l'annÃ©e -Vue ocÃ©an - disponibilitÃ© immÃ©d Biarritz Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Biarritz 1150 € Biarritz -T3 vide Ã l'annÃ©e -Vue ocÃ©an - disponibilitÃ© immÃ©d à louer de 3 pièce(s) sur 64 m² Retour au listing Points clés... 3 pièce(s) , 64 m² 1 salle(s) de bains Ref. B2476000 Descriptif du bien • Biarritz -T3 vide Ã l'annÃ©e -Vue ocÃ©an - disponibilitÃ© immÃ©d Bel appartement de 64m2 situé au 5ème et dernier étage avec ascenseur situé près du quartier Saint Charles et des commerces de proximités. Vous serez séduit par sa vue exceptionnelle : Océan et Golf. L\\'appartement se compose d\\'une entrée avec placard, d\\'une cuisine indépendante moderne, entièrement meublée et équipée et donnant sur une loggia fermée, Le séjour de plus de 21m2 et une des chambres donnent sur des balcons sans vis-à-vis avec une vue imprenable, Les deux chambres sont équipées de placards, WC indépendants et d\\'une salle de bains avec baignoire. Du charme avec des parquets en bois massif. De plus vous disposerez d\\'une cave au sous-sol. Production d\\'eau chaude et de chauffage: individuelle ga",
    "dpe": "D",
-   "ecart_prix_pct": 1,
+   "ecart_prix_pct": 0,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -13079,6 +13057,12 @@
    "agences_ok": 18,
    "date": "2026-09-23",
    "nouveautes": 34
+  },
+  {
+   "actives": 189,
+   "agences_ok": 18,
+   "date": "2026-09-23",
+   "nouveautes": 4
   }
  ]
 }
