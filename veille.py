@@ -470,6 +470,13 @@ def classer(annonce, criteres):
         if v1 and v1 != "ok":
             annonce["motif_exclusion"] = v1
             return "exclu"
+        if v1 != "ok":
+            # aucune de nos quatre villes ni aucun de nos codes postaux : on écarte.
+            # Une annonce réelle nomme toujours sa commune quelque part.
+            codes = set(re.findall(r"\b(\d{5})\b", zone1 + " " + zone2))
+            if not (codes & codes_ok):
+                annonce["motif_exclusion"] = "commune hors secteur"
+                return "exclu"
     ok = True
     connu = False
     p, s, ch, pi = annonce.get("prix"), annonce.get("surface"), annonce.get("chambres"), annonce.get("pieces")
@@ -1536,7 +1543,8 @@ def generer_rapport(etat, nouveautes, rapports_agences, criteres, aujourdhui, ch
                                 -(a.get("score") or 0), a.get("premiere_vue", "")))
 
     cartes = "".join(carte_html(a, a["url"] in urls_nouv, seuil, contact, lieux) for a in actives)
-    n_nouv = sum(1 for a in nouveautes if a["classement"] != "exclu")
+    n_nouv = sum(1 for a in actives
+                 if a["url"] in urls_nouv and a.get("classement") != "exclu")
     n_coeur = sum(1 for a in actives if (a.get("score") or 0) >= seuil and a["classement"] != "exclu")
     n_tout = sum(1 for a in actives if a["classement"] != "exclu")
     n_t2 = sum(1 for a in actives if a["classement"] != "exclu" and a.get("pieces") == 2)
