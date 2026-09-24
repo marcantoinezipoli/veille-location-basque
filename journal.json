@@ -3057,6 +3057,27 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/chambery/louer/chambery/maison-2-pieces-52915688": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-24",
+  "historique_prix": [
+   {
+    "date": "2026-09-24",
+    "prix": 940
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-24",
+  "prix": 940,
+  "statut": "active",
+  "surface": 41.0,
+  "titre": "Maison 940 €/mois CHAMBERY (73000) 41 m² • 2 pièces • 1 chambre Cheminée • Surf. terrain : 100 m² • 1 salle d'eau • Meublé",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/chartres/louer/chartres/maison-5-pieces-52939403": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
@@ -3953,7 +3974,7 @@
   "prix": 1188,
   "statut": "active",
   "surface": 96.0,
-  "titre": "Maison 1 188 €/mois BAZEMONT (78580) 96 m² • 6 pièces • 4 chambres 2 caves • 1 salle de bain • 1 salle d'eau",
+  "titre": "Maison 1 188 €/mois BAZEMONT (78580) 96 m² • 6 pièces • 4 chambres 2 caves • 1 salle de…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
