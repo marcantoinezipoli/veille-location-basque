@@ -2661,6 +2661,27 @@
   "type": "maison",
   "ville_agence": "Bidart"
  },
+ "https://www.laforet.com/agence-immobiliere/bayonne/louer/boucau/appartement-2-pieces-52333854": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-25",
+  "historique_prix": [
+   {
+    "date": "2026-09-25",
+    "prix": 791
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-25",
+  "prix": 791,
+  "statut": "active",
+  "surface": 43.0,
+  "titre": "Appartement 791 €/mois BOUCAU (64340) 43 m² • 2 pièces • 1 chambre 1 cave • 1 salle d'eau • Balcon • Meublé",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/beziers/louer/beziers/appartement-1-piece-52931781": {
   "agence": "Laforêt (64, maisons)",
   "classement": "exclu",
@@ -3791,7 +3812,7 @@
   "prix": 795,
   "statut": "active",
   "surface": 92.0,
-  "titre": "Maison 795 €/mois MONCOUTANT SUR SEVRE (79320) 92 m² • 4 pièces • 3 chambres Surf. terrain : 889 m² • 1 salle de bain",
+  "titre": "Maison 795 €/mois MONCOUTANT SUR SEVRE (79320) 92 m² • 4 pièces • 3 chambres Surf.…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -4612,6 +4633,27 @@
   "statut": "active",
   "surface": 153.0,
   "titre": "Maison 1 950 €/mois RAMBOUILLET (78120) 153 m² • 6 pièces • 5 chambres Surf. terrain :…",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/reims-sud/louer/saint-martin-de-bossenay/maison-5-pieces-52949021": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-25",
+  "historique_prix": [
+   {
+    "date": "2026-09-25",
+    "prix": 830
+   }
+  ],
+  "pieces": 5,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-25",
+  "prix": 830,
+  "statut": "active",
+  "surface": 102.0,
+  "titre": "Maison 830 €/mois SAINT MARTIN DE BOSSENAY (10100) 102 m² • 5 pièces • 3 chambres Surf. terrain : 1807 m²",
   "type": "maison",
   "ville_agence": "Bayonne"
  },

@@ -5743,6 +5743,47 @@
    "url": "https://www.laforet.com/agence-immobiliere/bayonne/louer/bidart/maison-2-pieces-52875685",
    "ville_agence": "Bidart"
   },
+  "https://www.laforet.com/agence-immobiliere/bayonne/louer/boucau/appartement-2-pieces-52333854": {
+   "agence": "Laforêt (64, appartements)",
+   "atouts": [
+    "balcon",
+    "cave",
+    "loyer 791 €"
+   ],
+   "chambres": 1,
+   "classement": "exclu",
+   "contexte": "Nouveauté 1 / 7 Appartement 791 €/mois BOUCAU (64340) 43 m² • 2 pièces • 1 chambre 1 cave • 1 salle d'eau • Balcon • Meublé En savoir plus Appeler",
+   "derniere_vue": "2026-09-25",
+   "ecart_prix_pct": 43,
+   "etiquette_prix": "au-dessus du marché",
+   "historique_prix": [
+    {
+     "date": "2026-09-25",
+     "prix": 791
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "T2 de 43 m², sous le seuil de 55 m²",
+   "pieces": 2,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-25",
+   "prix": 791,
+   "prix_m2": 18.4,
+   "reserves": [],
+   "score": 6,
+   "statut": "active",
+   "surface": 43.0,
+   "titre": "Appartement 791 €/mois BOUCAU (64340) 43 m² • 2 pièces • 1 chambre 1 cave • 1 salle d'eau • Balcon • Meublé",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/bayonne/louer/boucau/appartement-2-pieces-52333854",
+   "ville_agence": "Bayonne"
+  },
   "https://www.laforet.com/agence-immobiliere/beziers/louer/beziers/appartement-1-piece-52931781": {
    "agence": "Laforêt (64, maisons)",
    "atouts": [
@@ -7926,7 +7967,7 @@
    "score": 4,
    "statut": "active",
    "surface": 92.0,
-   "titre": "Maison 795 €/mois MONCOUTANT SUR SEVRE (79320) 92 m² • 4 pièces • 3 chambres Surf. terrain : 889 m² • 1 salle de bain",
+   "titre": "Maison 795 €/mois MONCOUTANT SUR SEVRE (79320) 92 m² • 4 pièces • 3 chambres Surf.…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/moncoutant-sur-sevre/louer/moncoutant-sur-sevre/maison-4-pieces-52909678",
    "ville_agence": "Bayonne"
@@ -9521,6 +9562,46 @@
    "titre": "Maison 1 950 €/mois RAMBOUILLET (78120) 153 m² • 6 pièces • 5 chambres Surf. terrain :…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/rambouillet/louer/rambouillet/maison-6-pieces-52891900",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/reims-sud/louer/saint-martin-de-bossenay/maison-5-pieces-52949021": {
+   "agence": "Laforêt (64, maisons)",
+   "atouts": [
+    "102 m²",
+    "loyer 830 €"
+   ],
+   "chambres": 3,
+   "classement": "exclu",
+   "contexte": "Nouveauté 1 / 8 Maison 830 €/mois SAINT MARTIN DE BOSSENAY (10100) 102 m² • 5 pièces • 3 chambres Surf. terrain : 1807 m² En savoir plus Appeler",
+   "derniere_vue": "2026-09-25",
+   "ecart_prix_pct": -37,
+   "etiquette_prix": "bon prix",
+   "historique_prix": [
+    {
+     "date": "2026-09-25",
+     "prix": 830
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (10100)",
+   "pieces": 5,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-25",
+   "prix": 830,
+   "prix_m2": 8.1,
+   "reserves": [],
+   "score": 4,
+   "statut": "active",
+   "surface": 102.0,
+   "titre": "Maison 830 €/mois SAINT MARTIN DE BOSSENAY (10100) 102 m² • 5 pièces • 3 chambres Surf. terrain : 1807 m²",
+   "type": "maison",
+   "url": "https://www.laforet.com/agence-immobiliere/reims-sud/louer/saint-martin-de-bossenay/maison-5-pieces-52949021",
    "ville_agence": "Bayonne"
   },
   "https://www.laforet.com/agence-immobiliere/rennes/louer/rennes/maison-5-pieces-52893779": {
@@ -13653,6 +13734,12 @@
   },
   {
    "actives": 190,
+   "agences_ok": 19,
+   "date": "2026-09-25",
+   "nouveautes": 6
+  },
+  {
+   "actives": 192,
    "agences_ok": 19,
    "date": "2026-09-25",
    "nouveautes": 6
