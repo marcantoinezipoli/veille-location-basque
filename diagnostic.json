@@ -1,14 +1,27 @@
 {
  "Adour Gestion Locative": {
-  "exemples_liens": [],
-  "extrait_texte": "",
-  "liens": 0,
-  "liens_distincts": 0,
-  "liens_internes": 0,
+  "exemples_liens": [
+   "inclus-ok | https://adour-gestion.fr/a-louer",
+   "pas-de-motif-inclus | https://adour-gestion.fr/",
+   "pas-de-motif-inclus | https://adour-gestion.fr/nos-services",
+   "exclu:gestion-locative | https://adour-gestion.fr/gestion-locative",
+   "inclus-ok | https://adour-gestion.fr/vous-recherchez-un-bien-a-louer",
+   "pas-de-motif-inclus | https://adour-gestion.fr/notre-region",
+   "pas-de-motif-inclus | https://adour-gestion.fr/notre-region/pays-basque",
+   "pas-de-motif-inclus | https://adour-gestion.fr/notre-region/pays-basque/bayonne",
+   "pas-de-motif-inclus | https://adour-gestion.fr/notre-region/pays-basque/anglet",
+   "pas-de-motif-inclus | https://adour-gestion.fr/notre-region/pays-basque/biarritz",
+   "pas-de-motif-inclus | https://adour-gestion.fr/notre-region/pays-basque/hasparren",
+   "pas-de-motif-inclus | https://adour-gestion.fr/notre-region/sud-des-landes"
+  ],
+  "extrait_texte": "Nos biens en location - Adour Gestion Locative Aller au contenu Nos services Propriétaires Locataires Nos biens Notre région Pays Basque Bayonne Anglet Biarritz Hasparren Sud des Landes Blog Contact Nos services Propriétaires Locataires Nos biens Notre région Pays Basque Bayonne Anglet Biarritz Hasparren Sud des Landes Blog Contact Facebook Airbnb Phone Envelope Aucun résultat Ajustez votre recher",
+  "liens": 42,
+  "liens_distincts": 15,
+  "liens_internes": 37,
   "liens_probables": [],
-  "taille_html": 39,
-  "taille_texte": 0,
-  "titre": "",
+  "taille_html": 108312,
+  "taille_texte": 4496,
+  "titre": "Nos biens en location - Adour Gestion Locative",
   "url": "https://adour-gestion.fr/a-louer/"
  }
 }

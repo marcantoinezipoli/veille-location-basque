@@ -1,4 +1,27 @@
 {
+ "http://www.immobiarritz.fr/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-studio-meuble-centre-ville.html": {
+  "agence": "Immobiarritz",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-25",
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-09-25",
+  "statut": "active",
+  "titre": "http://www.immobiarritz.fr/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-studio-meuble-centre-ville.html",
+  "ville_agence": "Biarritz"
+ },
+ "http://www.immobiarritz.fr/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html": {
+  "agence": "Immobiarritz",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-25",
+  "pieces": 3,
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-09-25",
+  "statut": "active",
+  "surface": 48.41,
+  "titre": "http://www.immobiarritz.fr/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html",
+  "type": "duplex",
+  "ville_agence": "Bidart"
+ },
  "http://www.immobiarritz.fr/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-dans-une-residence-haut-de-gamme-recente.html": {
   "agence": "Immobiarritz",
   "classement": "exclu",
@@ -1596,7 +1619,7 @@
  "https://www.century21.fr/trouver_logement/detail/15761023161": {
   "agence": "Century 21 (Bidart, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-09-22",
+  "derniere_vue": "2026-09-25",
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-09-04",
   "statut": "active",
@@ -2716,7 +2739,7 @@
   "prix": 1200,
   "statut": "active",
   "surface": 45.0,
-  "titre": "Maison 1 200 €/mois ARGENTEUIL (95100) 45 m² • 2 pièces • 1 chambre Surf. terrain : 88 m² • 1 salle de bain • Meublé",
+  "titre": "Maison 1 200 €/mois ARGENTEUIL (95100) 45 m² • 2 pièces • 1 chambre Surf. terrain : 88…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -3432,7 +3455,7 @@
   "prix": 1507,
   "statut": "active",
   "surface": 114.0,
-  "titre": "Maison 1 507 €/mois LAGORD (17140) 114 m² • 5 pièces • 4 chambres Surf. terrain : 455 m² • Terrasse • 1 salle de bain • 1 salle d'eau",
+  "titre": "Maison 1 507 €/mois LAGORD (17140) 114 m² • 5 pièces • 4 chambres Surf. terrain : 455…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -3667,6 +3690,27 @@
   "type": "maison",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/mauleon/louer/cerizay/maison-3-pieces-52894773": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-25",
+  "historique_prix": [
+   {
+    "date": "2026-09-25",
+    "prix": 550
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-25",
+  "prix": 550,
+  "statut": "active",
+  "surface": 89.0,
+  "titre": "Maison 550 €/mois CERIZAY (79140) 89 m² • 3 pièces • 2 chambres Cheminée",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/mauleon/louer/saint-amand-sur-sevre/maison-2-pieces-52273640": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 1,
@@ -3727,6 +3771,27 @@
   "statut": "active",
   "surface": 117.0,
   "titre": "Maison 1 500 €/mois BERSEE (59235) 117 m² • 5 pièces • 3 chambres Sous-sol • 1 salle de…",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/moncoutant-sur-sevre/louer/moncoutant-sur-sevre/maison-4-pieces-52909678": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-25",
+  "historique_prix": [
+   {
+    "date": "2026-09-25",
+    "prix": 795
+   }
+  ],
+  "pieces": 4,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-25",
+  "prix": 795,
+  "statut": "active",
+  "surface": 92.0,
+  "titre": "Maison 795 €/mois MONCOUTANT SUR SEVRE (79320) 92 m² • 4 pièces • 3 chambres Surf. terrain : 889 m² • 1 salle de bain",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -5611,13 +5676,13 @@
   "classement": "exclu",
   "derniere_vue": "2026-09-25",
   "dpe": "A",
-  "pieces": 4,
+  "pieces": 3,
   "position": "Biarritz (ville de l'agence)",
   "premiere_vue": "2026-09-25",
   "statut": "active",
-  "surface": 110.0,
+  "surface": 48.41,
   "titre": "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html",
-  "type": "appartement",
+  "type": "duplex",
   "ville_agence": "Bidart"
  },
  "https://www.orpi.com/annonce-location-appartement-t1-anglet-64600-4fd3d2b7-8bde-463d-b085-830b7a46aa78?agency=ag5cantons": {
