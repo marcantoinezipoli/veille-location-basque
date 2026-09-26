@@ -25,16 +25,16 @@
  "http://www.immobiarritz.fr/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-dans-une-residence-haut-de-gamme-recente.html": {
   "agence": "Immobiarritz",
   "classement": "exclu",
-  "derniere_vue": "2026-09-25",
+  "derniere_vue": "2026-09-26",
   "historique_prix": [
    {
-    "date": "2026-09-25",
+    "date": "2026-09-26",
     "prix": 729
    }
   ],
   "pieces": 2,
   "position": "Biarritz (ville de l'agence)",
-  "premiere_vue": "2026-09-25",
+  "premiere_vue": "2026-09-26",
   "prix": 729,
   "statut": "active",
   "surface": 41.0,
@@ -68,7 +68,7 @@
   "agence": "Immobiarritz",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-09-25",
+  "derniere_vue": "2026-09-26",
   "historique_prix": [
    {
     "date": "2026-09-07",
@@ -5628,7 +5628,7 @@
   "prix": 571,
   "statut": "active",
   "surface": 36.0,
-  "titre": "Appartement Bayonne Appartement Bayonne Bayonne | 64100 571 € | 36 m² | Réf B4680400",
+  "titre": "Appartement Bayonne",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -5739,14 +5739,14 @@
   "chambres": 4,
   "classement": "exclu",
   "derniere_vue": "2026-09-26",
-  "dpe": "A",
+  "dpe": "C",
   "pieces": 3,
   "position": "Biarritz (ville de l'agence)",
   "premiere_vue": "2026-09-26",
   "statut": "active",
-  "surface": 48.41,
+  "surface": 58.68,
   "titre": "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html",
-  "type": "duplex",
+  "type": "appartement",
   "ville_agence": "Bidart"
  },
  "https://www.orpi.com/annonce-location-appartement-t1-anglet-64600-4fd3d2b7-8bde-463d-b085-830b7a46aa78?agency=ag5cantons": {
