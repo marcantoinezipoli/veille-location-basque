@@ -3421,7 +3421,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 5,
   "classement": "exclu",
-  "derniere_vue": "2026-09-24",
+  "derniere_vue": "2026-09-26",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -6014,10 +6014,10 @@
  "https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/landes/tarnos-40220": {
   "agence": "Square Habitat Bidart",
   "classement": "exclu",
-  "derniere_vue": "2026-09-16",
+  "derniere_vue": "2026-09-26",
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-09-06",
-  "statut": "disparu",
+  "statut": "active",
   "titre": "Location appartement Tarnos (40220)",
   "type": "appartement",
   "ville_agence": "Bidart"
@@ -6118,12 +6118,12 @@
  "https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/anglet/028f767a-64c6-4627-8705-4d43c0578c1a": {
   "agence": "Square Habitat Bidart",
   "classement": "exclu",
-  "derniere_vue": "2026-09-06",
+  "derniere_vue": "2026-09-26",
   "position": "Anglet (ville de l'agence)",
   "premiere_vue": "2026-09-04",
-  "statut": "disparu",
+  "statut": "active",
   "titre": "Studio à louer - ANGLET",
-  "ville_agence": "Bidart"
+  "ville_agence": "Anglet"
  },
  "https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/bayonne/3c6174ef-50ea-498a-b7ff-bd7d5792cea6": {
   "agence": "Square Habitat Bidart",

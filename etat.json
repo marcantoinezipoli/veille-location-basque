@@ -7198,7 +7198,7 @@
    "chambres": 5,
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 7 Maison 2 500 €/mois BERRE L ETANG (13130) 230 m² • 7 pièces • 5 chambres Surf. terrain : 900 m² • Piscine • 1 salle de bain • 1 salle d'eau Contacter l'agence Appeler",
-   "derniere_vue": "2026-09-24",
+   "derniere_vue": "2026-09-26",
    "ecart_prix_pct": -15,
    "etiquette_prix": "bon prix",
    "historique_prix": [
@@ -12635,7 +12635,7 @@
    "chambres": null,
    "classement": "exclu",
    "contexte": "Location appartement Tarnos (40220)",
-   "derniere_vue": "2026-09-16",
+   "derniere_vue": "2026-09-26",
    "itineraire_pos": "43.437,-1.5915",
    "itineraire_source": "route",
    "km_hopital": 12.6,
@@ -12650,7 +12650,7 @@
    "prix": null,
    "reserves": [],
    "score": 0,
-   "statut": "disparu",
+   "statut": "active",
    "surface": null,
    "titre": "Location appartement Tarnos (40220)",
    "type": "appartement",
@@ -12911,7 +12911,7 @@
    "chambres": null,
    "classement": "exclu",
    "contexte": "Studio à louer - ANGLET",
-   "derniere_vue": "2026-09-06",
+   "derniere_vue": "2026-09-26",
    "itineraire_pos": "43.4855,-1.5185",
    "itineraire_source": "route",
    "km_hopital": 4.9,
@@ -12919,18 +12919,19 @@
    "lon": -1.5185,
    "min_velo": 20,
    "min_voiture": 9,
+   "motif_exclusion": "studio",
    "pieces": null,
    "position": "Anglet (ville de l'agence)",
    "premiere_vue": "2026-09-04",
    "prix": null,
    "reserves": [],
    "score": 0,
-   "statut": "disparu",
+   "statut": "active",
    "surface": null,
    "titre": "Studio à louer - ANGLET",
    "type": null,
    "url": "https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/anglet/028f767a-64c6-4627-8705-4d43c0578c1a",
-   "ville_agence": "Bidart"
+   "ville_agence": "Anglet"
   },
   "https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/bayonne/3c6174ef-50ea-498a-b7ff-bd7d5792cea6": {
    "agence": "Square Habitat Bidart",
@@ -13798,6 +13799,12 @@
   {
    "actives": 183,
    "agences_ok": 19,
+   "date": "2026-09-26",
+   "nouveautes": 3
+  },
+  {
+   "actives": 185,
+   "agences_ok": 18,
    "date": "2026-09-26",
    "nouveautes": 3
   }
