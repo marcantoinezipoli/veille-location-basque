@@ -1672,7 +1672,7 @@
   "premiere_vue": "2026-09-28",
   "prix": 1500,
   "statut": "active",
-  "titre": "Exclusivité ANGLET 64 1 500 € par mois charges comprises 84,3 m2 , appartement , 4 pcs",
+  "titre": "ANGLET 64 1 500 € par mois charges comprises 84,3 m2 , appartement , 4 pcs",
   "type": "appartement",
   "ville_agence": "Anglet"
  },
@@ -3131,6 +3131,27 @@
   "surface": 46.0,
   "titre": "Appartement 950 €/mois YERRES (91330) 46 m² • 2 pièces • 1 chambre Ascenseur • 1 salle…",
   "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/caen/louer/ifs/maison-4-pieces-52928401": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-28",
+  "historique_prix": [
+   {
+    "date": "2026-09-28",
+    "prix": 1084
+   }
+  ],
+  "pieces": 4,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-28",
+  "prix": 1084,
+  "statut": "active",
+  "surface": 80.0,
+  "titre": "Maison 1 084 €/mois IFS (14123) 80 m² • 4 pièces • 3 chambres Surface : 79.84 m² • 4 pièces • 3 chbres",
+  "type": "maison",
   "ville_agence": "Bayonne"
  },
  "https://www.laforet.com/agence-immobiliere/cagnes-sur-mer/louer/cagnes-sur-mer/appartement-1-piece-52942683": {
@@ -5380,7 +5401,7 @@
   "prix": 2830,
   "statut": "active",
   "surface": 183.0,
-  "titre": "Nouveauté Maison 6 pièce(s) 5 chambre(s) 183 m² Ustaritz (64480) 2 830 € CC*",
+  "titre": "Maison 6 pièce(s) 5 chambre(s) 183 m² Ustaritz (64480) 2 830 € CC*",
   "type": "maison",
   "ville_agence": "Anglet"
  },
