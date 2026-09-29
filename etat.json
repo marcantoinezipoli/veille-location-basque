@@ -4314,6 +4314,36 @@
    "url": "https://www.century21.fr/trouver_logement/detail/16964247076/",
    "ville_agence": "Anglet"
   },
+  "https://www.century21.fr/trouver_logement/detail/16965744304": {
+   "agence": "Century 21 (Bayonne, toutes agences)",
+   "atouts": [
+    "st martin"
+   ],
+   "chambres": null,
+   "classement": "exclu",
+   "contexte": "Exclusivité ST MARTIN DE SEIGNANX 40 950 € par mois charges comprises 64,8 m 2 , appartement , 3 pcs",
+   "derniere_vue": "2026-09-29",
+   "itineraire_pos": "43.4778,-1.5505",
+   "itineraire_source": "route",
+   "km_hopital": 8.3,
+   "lat": 43.4778,
+   "lon": -1.5505,
+   "min_velo": 33,
+   "min_voiture": 12,
+   "motif_exclusion": "hors zone (st martin de seignanx)",
+   "pieces": null,
+   "position": "quartier St Martin",
+   "premiere_vue": "2026-09-29",
+   "prix": null,
+   "reserves": [],
+   "score": 1,
+   "statut": "active",
+   "surface": null,
+   "titre": "Exclusivité ST MARTIN DE SEIGNANX 40 950 € par mois charges comprises 64,8 m2 , appartement , 3 pcs",
+   "type": "appartement",
+   "url": "https://www.century21.fr/trouver_logement/detail/16965744304/",
+   "ville_agence": "Bayonne"
+  },
   "https://www.century21.fr/trouver_logement/detail/16969774332": {
    "agence": "Century 21 (Bayonne, toutes agences)",
    "atouts": [],
@@ -5296,6 +5326,46 @@
    "titre": "Maison 682 €/mois ASSAIS LES JUMEAUX (79600) 110 m² • 4 pièces • 3 chambres Surf.…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/airvault/louer/assais-les-jumeaux/maison-4-pieces-52820012",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/airvault/louer/gourge/maison-4-pieces-52919717": {
+   "agence": "Laforêt (64, maisons)",
+   "atouts": [
+    "137 m²",
+    "loyer 750 €"
+   ],
+   "chambres": 3,
+   "classement": "exclu",
+   "contexte": "Nouveauté 1 / 22 Maison 750 €/mois GOURGE (79200) 137 m² • 4 pièces • 3 chambres Surf. terrain : 300 m² En savoir plus Appeler",
+   "derniere_vue": "2026-09-29",
+   "ecart_prix_pct": -60,
+   "etiquette_prix": "bon prix",
+   "historique_prix": [
+    {
+     "date": "2026-09-29",
+     "prix": 750
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (79200)",
+   "pieces": 4,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-29",
+   "prix": 750,
+   "prix_m2": 5.5,
+   "reserves": [],
+   "score": 4,
+   "statut": "active",
+   "surface": 137.0,
+   "titre": "Maison 750 €/mois GOURGE (79200) 137 m² • 4 pièces • 3 chambres Surf. terrain : 300 m²",
+   "type": "maison",
+   "url": "https://www.laforet.com/agence-immobiliere/airvault/louer/gourge/maison-4-pieces-52919717",
    "ville_agence": "Bayonne"
   },
   "https://www.laforet.com/agence-immobiliere/airvault/louer/saint-loup-lamaire/maison-4-pieces-52930696": {
@@ -6399,6 +6469,48 @@
    "url": "https://www.laforet.com/agence-immobiliere/blaye/louer/teuillac/maison-4-pieces-22411916",
    "ville_agence": "Bayonne"
   },
+  "https://www.laforet.com/agence-immobiliere/bompas/louer/estagel/maison-4-pieces-52945763": {
+   "agence": "Laforêt (64, maisons)",
+   "atouts": [
+    "terrasse",
+    "garage",
+    "101 m²",
+    "loyer 880 €"
+   ],
+   "chambres": 3,
+   "classement": "exclu",
+   "contexte": "Nouveauté 0 / 0 Maison 880 €/mois ESTAGEL (66310) 101 m² • 4 pièces • 3 chambres Terrasse • Garage • 1 salle de bain • 1 salle d'eau En savoir plus Appeler",
+   "derniere_vue": "2026-09-29",
+   "ecart_prix_pct": -36,
+   "etiquette_prix": "bon prix",
+   "historique_prix": [
+    {
+     "date": "2026-09-29",
+     "prix": 880
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (66310)",
+   "pieces": 4,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-09-29",
+   "prix": 880,
+   "prix_m2": 8.7,
+   "reserves": [],
+   "score": 10,
+   "statut": "active",
+   "surface": 101.0,
+   "titre": "Maison 880 €/mois ESTAGEL (66310) 101 m² • 4 pièces • 3 chambres Terrasse • Garage • 1 salle de bain • 1 salle d'eau",
+   "type": "maison",
+   "url": "https://www.laforet.com/agence-immobiliere/bompas/louer/estagel/maison-4-pieces-52945763",
+   "ville_agence": "Bayonne"
+  },
   "https://www.laforet.com/agence-immobiliere/bordeauxcapucins/louer/merignac/appartement-1-piece-52931639": {
    "agence": "Laforêt (64, maisons)",
    "atouts": [
@@ -7204,7 +7316,7 @@
    "score": 6,
    "statut": "active",
    "surface": 90.0,
-   "titre": "Maison 1 300 €/mois GOUSSAINVILLE (95190) 90 m² • 4 pièces • 2 chambres 1 salle de bain • Meublé • Parking",
+   "titre": "Maison 1 300 €/mois GOUSSAINVILLE (95190) 90 m² • 4 pièces • 2 chambres 1 salle de bain…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/goussainville/louer/goussainville/maison-4-pieces-52954424",
    "ville_agence": "Bayonne"
@@ -11223,8 +11335,8 @@
    "chambres": 1,
    "classement": "exclu",
    "contexte": "Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 54.26 m² Bayonne (64100) 890 € CC*",
-   "derniere_vue": "2026-09-23",
-   "ecart_prix_pct": 28,
+   "derniere_vue": "2026-09-29",
+   "ecart_prix_pct": 21,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -11248,7 +11360,7 @@
    "reserves": [],
    "score": 2,
    "signaux": [],
-   "statut": "disparu",
+   "statut": "active",
    "surface": 54.26,
    "titre": "Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 54.26 m² Bayonne (64100) 890 € CC*",
    "type": "appartement",
@@ -12311,7 +12423,6 @@
     "charme",
     "terrasse",
     "extérieur",
-    "parking",
     "ascenseur",
     "saint-jean",
     "à pied",
@@ -12322,17 +12433,17 @@
    "classement": "exclu",
    "contexte": "",
    "derniere_vue": "2026-09-29",
-   "description": "OLAIZOLA Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact + de critères Modifier la rechercher Masquer la recherche Accueil Immobilier Créer une alerte 1 2 3 4 5 ... 9 Suivante Trier par : Date Prix -/+ Prix +/- Visite virtuelle BIARRITZ - Charmant 3 pièces avec terrasse et parking à deux pas de l'océan Au coeur de Biarritz, à seulement 250 mètres de l'océan et à proximité immédiate de toutes les adresses qui font le charme de l'hyper-centre, découvrez cet appartement de 58,68 m² offrant un cadre de vie privilégié où tout se fait à pied. Situé au 5ème étage avec ascenseur d'une résidence bien entretenue, cet appartement rénové en 2017 séduit par son excellent état et son atmosphère soignée. Il propose une agréable pièce de vie avec cuisine ouverte aménagée et équipée, deux chambres, une salle d'eau et un WC. Aucun travaux n'est à prévoir. Véritable atout en plein centre de Biarritz, sa terrasse permet de profiter d'un précieux espace extérieur tout en bénéficiant d'une",
+   "description": "OLAIZOLA Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact + de critères Modifier la rechercher Masquer la recherche Accueil Immobilier Créer une alerte 1 2 3 4 5 ... 9 Suivante Trier par : Date Prix -/+ Prix +/- Visite virtuelle BIARRITZ / QUARTIER IMPERIAL - Charmant appartement à 200m de la plage Au coeur de Biarritz, à seulement 200 mètres de la grande plage et à proximité immédiate de toutes les adresses qui font le charme de l'hyper-centre, découvrez ce superbe appartement offrant un cadre de vie privilégié où tout se fait à pied. Situé au 5ème étage avec ascenseur d'une résidence bien entretenue, cet appartement rénové en 2017 séduit par son excellent état et son atmosphère soignée. Il propose une agréable pièce de vie avec cuisine ouverte aménagée et équipée, deux chambres, une salle d'eau et un WC. Véritable atout en plein centre de Biarritz, sa terrasse permet de profiter d'un précieux espace extérieur tout en bénéficiant d'une situation urbaine particulièreme",
    "dpe": "C",
    "fiche_lue": true,
-   "itineraire_pos": "43.4832,-1.5586",
+   "itineraire_pos": "43.485,-1.56",
    "itineraire_source": "route",
-   "km_hopital": 8.2,
-   "lat": 43.4832,
-   "lon": -1.5586,
+   "km_hopital": 8.5,
+   "lat": 43.485,
+   "lon": -1.56,
    "meuble": true,
-   "min_velo": 33,
-   "min_voiture": 13,
+   "min_velo": 34,
+   "min_voiture": 14,
    "motif_exclusion": "lien de navigation, pas une annonce",
    "photo": "https://www.olaizola.immo/annonces/fiches/office8/agenceolaizola/catalog/images/background_5.jpg",
    "photo_cherchee": true,
@@ -12341,21 +12452,20 @@
    ],
    "photos_cherchees": true,
    "pieces": 3,
-   "position": "Biarritz (ville de l'agence)",
+   "position": "quartier Grande Plage",
    "premiere_vue": "2026-09-29",
    "prix": null,
    "reserves": [
-    "travaux",
     "saint-jean-de-luz"
    ],
-   "score": 3,
+   "score": 4,
    "signaux": [],
    "statut": "active",
-   "surface": 58.68,
+   "surface": 48.41,
    "titre": "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html",
    "type": "appartement",
    "url": "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html",
-   "ville_agence": "Bidart"
+   "ville_agence": "Biarritz"
   },
   "https://www.orpi.com/annonce-location-appartement-t1-anglet-64600-29cacaad-0fa0-4dfa-a211-044d9b5e5787?agency=ag5cantons": {
    "agence": "Orpi Agence des 5 Cantons",
@@ -14273,6 +14383,12 @@
    "agences_ok": 19,
    "date": "2026-09-29",
    "nouveautes": 5
+  },
+  {
+   "actives": 147,
+   "agences_ok": 19,
+   "date": "2026-09-29",
+   "nouveautes": 6
   }
  ]
 }
