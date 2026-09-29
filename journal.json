@@ -2007,7 +2007,7 @@
   "position": "quartier St Martin",
   "premiere_vue": "2026-09-29",
   "statut": "active",
-  "titre": "Exclusivité ST MARTIN DE SEIGNANX 40 950 € par mois charges comprises 64,8 m2 , appartement , 3 pcs",
+  "titre": "ST MARTIN DE SEIGNANX 40 950 € par mois charges comprises 64,8 m2 , appartement , 3 pcs",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -2391,7 +2391,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -2402,9 +2402,9 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 568,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 134.0,
-  "titre": "Maison 568 €/mois AIRVAULT (79600) 134 m² • 3 pièces • 2 chambres Surface : 134.21 m² •…",
+  "titre": "Maison 568 €/mois AIRVAULT (79600) 134 m² • 3 pièces • 2 chambres Surface : 134.21 m² • 3 pièces • 2 chbres",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -2433,7 +2433,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -2444,9 +2444,9 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 650,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 101.0,
-  "titre": "Maison 650 €/mois ASSAIS LES JUMEAUX (79600) 101 m² • 3 pièces • 2 chambres Surf.…",
+  "titre": "Maison 650 €/mois ASSAIS LES JUMEAUX (79600) 101 m² • 3 pièces • 2 chambres Surf. terrain : 100 m²",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -2454,7 +2454,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -2465,9 +2465,9 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 682,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 110.0,
-  "titre": "Maison 682 €/mois ASSAIS LES JUMEAUX (79600) 110 m² • 4 pièces • 3 chambres Surf.…",
+  "titre": "Maison 682 €/mois ASSAIS LES JUMEAUX (79600) 110 m² • 4 pièces • 3 chambres Surf. terrain : 500 m²",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -2935,7 +2935,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -2946,9 +2946,9 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 2100,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 156.0,
-  "titre": "Maison 2 100 €/mois BLANQUEFORT (33290) 156 m² • 6 pièces • 4 chambres Surf. terrain :…",
+  "titre": "Maison 2 100 €/mois BLANQUEFORT (33290) 156 m² • 6 pièces • 4 chambres Surf. terrain : 680 m²",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -2977,7 +2977,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -2988,9 +2988,9 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 940,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 85.0,
-  "titre": "Maison 940 €/mois SAINT CIERS SUR GIRONDE (33820) 85 m² • 4 pièces • 3 chambres Surf.…",
+  "titre": "Maison 940 €/mois SAINT CIERS SUR GIRONDE (33820) 85 m² • 4 pièces • 3 chambres Surf. terrain : 465 m²",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -2998,7 +2998,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -3009,9 +3009,30 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 818,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 100.0,
   "titre": "Maison 818 €/mois TEUILLAC (33710) 100 m² • 4 pièces • 3 chambres Surf. terrain : 40 m²",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/blaye/louer/val-de-livenne/maison-2-pieces-52779441": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-29",
+  "historique_prix": [
+   {
+    "date": "2026-09-29",
+    "prix": 565
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-29",
+  "prix": 565,
+  "statut": "active",
+  "surface": 48.0,
+  "titre": "Maison 565 €/mois VAL DE LIVENNE (33860) 48 m² • 2 pièces • 1 chambre Surf. terrain : 500 m² • Parking",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -3032,7 +3053,7 @@
   "prix": 880,
   "statut": "active",
   "surface": 101.0,
-  "titre": "Maison 880 €/mois ESTAGEL (66310) 101 m² • 4 pièces • 3 chambres Terrasse • Garage • 1 salle de bain • 1 salle d'eau",
+  "titre": "Maison 880 €/mois ESTAGEL (66310) 101 m² • 4 pièces • 3 chambres Terrasse • Garage • 1…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -3085,7 +3106,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -3096,9 +3117,9 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 635,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 31.0,
-  "titre": "Maison 635 €/mois BRESSUIRE (79300) 31 m² • 2 pièces • 1 chambre Surface : 31.1 m² • 2…",
+  "titre": "Maison 635 €/mois BRESSUIRE (79300) 31 m² • 2 pièces • 1 chambre Surface : 31.1 m² • 2 pièces • 1 chbre",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -3106,7 +3127,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -3117,9 +3138,9 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 600,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 23.0,
-  "titre": "Maison 600 €/mois BRESSUIRE (79300) 23 m² • 2 pièces • 1 chambre Surface : 22.86 m² • 2…",
+  "titre": "Maison 600 €/mois BRESSUIRE (79300) 23 m² • 2 pièces • 1 chambre Surface : 22.86 m² • 2 pièces • 1 chbre",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -3399,7 +3420,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -3410,9 +3431,9 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 1500,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 109.0,
-  "titre": "Maison 1 500 €/mois EYSINES (33320) 109 m² • 5 pièces • 3 chambres Cheminée • Surf.…",
+  "titre": "Maison 1 500 €/mois EYSINES (33320) 109 m² • 5 pièces • 3 chambres Cheminée • Surf. terrain : 970 m² • Terrasse • 1 salle de bain",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -3477,6 +3498,27 @@
   "surface": 45.0,
   "titre": "Appartement 770 €/mois GRENOBLE (38000) 45 m² • 2 pièces • 1 chambre Ascenseur • 1…",
   "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/gujan/louer/gujan-mestras/maison-3-pieces-22561524": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-29",
+  "historique_prix": [
+   {
+    "date": "2026-09-29",
+    "prix": 960
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-29",
+  "prix": 960,
+  "statut": "active",
+  "surface": 47.0,
+  "titre": "Maison 960 €/mois GUJAN MESTRAS (33470) 47 m² • 3 pièces • 2 chambres Surf. terrain : 242 m² • 1 salle de bain • 1 salle d'eau • Meublé",
+  "type": "maison",
   "ville_agence": "Bayonne"
  },
  "https://www.laforet.com/agence-immobiliere/issy-les-moulineaux-mairie/louer/issy-les-moulineaux/appartement-1-piece-52941018": {
@@ -3546,7 +3588,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 5,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -3557,7 +3599,7 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 1550,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 215.0,
   "titre": "Maison 1 550 €/mois CHICHE (79350) 215 m² • 7 pièces • 5 chambres Surf. terrain : 2000 m²",
   "type": "maison",
@@ -3567,7 +3609,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -3578,9 +3620,9 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 580,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 64.0,
-  "titre": "Maison 580 €/mois LA CHAPELLE SAINT LAURENT (79430) 64 m² • 3 pièces • 2 chambres Surf.…",
+  "titre": "Maison 580 €/mois LA CHAPELLE SAINT LAURENT (79430) 64 m² • 3 pièces • 2 chambres Surf. terrain : 250 m²",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -3651,7 +3693,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -3662,9 +3704,9 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 1500,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 78.0,
-  "titre": "Maison 1 500 €/mois LA ROCHELLE (17000) 78 m² • 4 pièces • 3 chambres Surf. terrain :…",
+  "titre": "Maison 1 500 €/mois LA ROCHELLE (17000) 78 m² • 4 pièces • 3 chambres Surf. terrain : 139 m²",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -3693,7 +3735,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -3704,9 +3746,9 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 1400,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 95.0,
-  "titre": "Maison 1 400 €/mois PUILBOREAU (17138) 95 m² • 4 pièces • 3 chambres Cheminée • Surf.…",
+  "titre": "Maison 1 400 €/mois PUILBOREAU (17138) 95 m² • 4 pièces • 3 chambres Cheminée • Surf. terrain : 500 m² • Terrasse • Sous-sol",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -3777,7 +3819,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -3788,9 +3830,9 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 1100,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 144.0,
-  "titre": "Maison 1 100 €/mois LIMOGES (87000) 144 m² • 5 pièces • 3 chambres Surf. terrain : 406…",
+  "titre": "Maison 1 100 €/mois LIMOGES (87000) 144 m² • 5 pièces • 3 chambres Surf. terrain : 406 m² • Garage • 2 salles d'eau",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -3903,7 +3945,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -3914,9 +3956,9 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 460,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 39.0,
-  "titre": "Maison 460 €/mois SAINT AMAND SUR SEVRE (79700) 39 m² • 2 pièces • 1 chambre Surface :…",
+  "titre": "Maison 460 €/mois SAINT AMAND SUR SEVRE (79700) 39 m² • 2 pièces • 1 chambre Surface : 39.33 m² • 2 pièces • 1 chbre",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -4012,20 +4054,45 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
     "prix": 1090
+   },
+   {
+    "date": "2026-09-29",
+    "prix": 995
    }
   ],
   "pieces": 5,
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
-  "prix": 1090,
-  "statut": "disparu",
+  "prix": 995,
+  "statut": "active",
   "surface": 160.0,
-  "titre": "Maison 1 090 €/mois CHAMOUILLAC (17130) 160 m² • 5 pièces • 4 chambres Surf. terrain :…",
+  "titre": "Maison 995 €/mois CHAMOUILLAC (17130) 160 m² • 5 pièces • 4 chambres Surf. terrain : 450 m² • Terrasse • Piscine • Garage",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/montendre/louer/montendre/maison-3-pieces-52551226": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-29",
+  "historique_prix": [
+   {
+    "date": "2026-09-29",
+    "prix": 620
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-29",
+  "prix": 620,
+  "statut": "active",
+  "surface": 80.0,
+  "titre": "Maison 620 €/mois MONTENDRE (17130) 80 m² • 3 pièces • 2 chambres 1 salle de bain • Meublé",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -4471,7 +4538,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -4482,7 +4549,7 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 710,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 92.0,
   "titre": "Maison 710 €/mois LE TALLUD (79200) 92 m² • 4 pièces • 3 chambres Surf. terrain : 781 m²",
   "type": "maison",
@@ -4810,7 +4877,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 5,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -4821,9 +4888,9 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 1109,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 111.0,
-  "titre": "Maison 1 109 €/mois COULOUNIEIX CHAMIERS (24660) 111 m² • 7 pièces • 5 chambres Surf.…",
+  "titre": "Maison 1 109 €/mois COULOUNIEIX CHAMIERS (24660) 111 m² • 7 pièces • 5 chambres Surf. terrain : 440 m² • Piscine • Sous-sol • 1 cave",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -4915,7 +4982,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -4926,9 +4993,9 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 840,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 116.0,
-  "titre": "Maison 840 €/mois BRIVES SUR CHARENTE (17800) 116 m² • 4 pièces • 3 chambres 1 salle de…",
+  "titre": "Maison 840 €/mois BRIVES SUR CHARENTE (17800) 116 m² • 4 pièces • 3 chambres 1 salle de bain",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -4936,7 +5003,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -4947,9 +5014,9 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 794,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 87.0,
-  "titre": "Maison 794 €/mois COGNAC (16100) 87 m² • 3 pièces • 2 chambres Cheminée • Surf. terrain…",
+  "titre": "Maison 794 €/mois COGNAC (16100) 87 m² • 3 pièces • 2 chambres Cheminée • Surf. terrain : 450 m² • Terrasse • 1 salle d'eau",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -4957,7 +5024,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -4968,7 +5035,7 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 975,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 148.0,
   "titre": "Maison 975 €/mois COGNAC (16100) 148 m² • 6 pièces • 3 chambres 1 salle d'eau",
   "type": "maison",
@@ -4978,7 +5045,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-09-28",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -5083,7 +5150,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-09-28",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -5104,7 +5171,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 5,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -5115,9 +5182,9 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 930,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 127.0,
-  "titre": "Maison 930 €/mois SAINT JEAN DE THOUARS (79100) 127 m² • 6 pièces • 5 chambres Surf.…",
+  "titre": "Maison 915 €/mois SAINT JEAN DE THOUARS (79100) 127 m² • 6 pièces • 5 chambres Surf. terrain : 1000 m² • Terrasse • 3 salles d'eau",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -5146,7 +5213,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -5157,7 +5224,7 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 370,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 35.0,
   "titre": "Maison 370 €/mois THOUARS (79100) 35 m² • 2 pièces • 1 chambre Surf. terrain : 3 m²",
   "type": "maison",
@@ -5167,7 +5234,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-09-23",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -5178,9 +5245,9 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 710,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 84.0,
-  "titre": "Maison 710 €/mois THOUARS (79100) 84 m² • 3 pièces • 2 chambres Surf. terrain : 350 m²…",
+  "titre": "Maison 710 €/mois THOUARS (79100) 84 m² • 3 pièces • 2 chambres Surf. terrain : 350 m² • Garage • 1 salle de bain",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -5188,7 +5255,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-09-24",
+  "derniere_vue": "2026-09-29",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -5199,7 +5266,7 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-23",
   "prix": 760,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 88.0,
   "titre": "Maison 760 €/mois THOUARS (79100) 88 m² • 4 pièces • 2 chambres Surf. terrain : 109 m²",
   "type": "maison",
@@ -5973,14 +6040,21 @@
   "classement": "exclu",
   "derniere_vue": "2026-09-29",
   "dpe": "C",
+  "historique_prix": [
+   {
+    "date": "2026-09-29",
+    "prix": 5000
+   }
+  ],
   "pieces": 3,
-  "position": "quartier Grande Plage",
+  "position": "Biarritz (ville de l'agence)",
   "premiere_vue": "2026-09-29",
+  "prix": 5000,
   "statut": "active",
-  "surface": 48.41,
+  "surface": 70.05,
   "titre": "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html",
   "type": "appartement",
-  "ville_agence": "Biarritz"
+  "ville_agence": "Bidart"
  },
  "https://www.orpi.com/annonce-location-appartement-t1-anglet-64600-29cacaad-0fa0-4dfa-a211-044d9b5e5787?agency=ag5cantons": {
   "agence": "Orpi Agence des 5 Cantons",
