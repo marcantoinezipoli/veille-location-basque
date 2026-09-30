@@ -2036,7 +2036,7 @@
   "premiere_vue": "2026-09-30",
   "prix": 550,
   "statut": "active",
-  "titre": "Exclusivité BIARRITZ 64 575 € par mois charges comprises 21,7 m2 , appartement , 1 pc",
+  "titre": "BIARRITZ 64 575 € par mois charges comprises 21,7 m2 , appartement , 1 pc",
   "type": "appartement",
   "ville_agence": "Biarritz"
  },
@@ -3514,7 +3514,7 @@
   "prix": 1300,
   "statut": "active",
   "surface": 90.0,
-  "titre": "Maison 1 300 €/mois GOUSSAINVILLE (95190) 90 m² • 4 pièces • 2 chambres 1 salle de bain • Meublé • Parking",
+  "titre": "Maison 1 300 €/mois GOUSSAINVILLE (95190) 90 m² • 4 pièces • 2 chambres 1 salle de bain…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -3791,6 +3791,26 @@
   "type": "maison",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/larochesuryon/louer/la-roche-sur-yon/maison-1-piece-52942253": {
+  "agence": "Laforêt (64, maisons)",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-30",
+  "historique_prix": [
+   {
+    "date": "2026-09-30",
+    "prix": 550
+   }
+  ],
+  "pieces": 1,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-30",
+  "prix": 550,
+  "statut": "active",
+  "surface": 20.0,
+  "titre": "Maison 550 €/mois LA ROCHE SUR YON (85000) 20 m² • 1 pièce Terrasse • 1 salle d'eau • Meublé • Parking",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/latourdupin/louer/bourgoin-jallieu/maison-5-pieces-52909194": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
@@ -3829,7 +3849,7 @@
   "prix": 850,
   "statut": "active",
   "surface": 130.0,
-  "titre": "Maison 850 €/mois BANYULS DELS ASPRES (66300) 130 m² • 5 pièces • 4 chambres 2 salles d'eau",
+  "titre": "Maison 850 €/mois BANYULS DELS ASPRES (66300) 130 m² • 5 pièces • 4 chambres 2 salles…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -3935,6 +3955,27 @@
   "statut": "active",
   "surface": 83.0,
   "titre": "Maison 1 650 €/mois L ISLE ADAM (95290) 83 m² • 6 pièces • 4 chambres Surf. terrain :…",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/magnyenvexin/louer/magny-en-vexin/maison-4-pieces-52955196": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-30",
+  "historique_prix": [
+   {
+    "date": "2026-09-30",
+    "prix": 1260
+   }
+  ],
+  "pieces": 4,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-30",
+  "prix": 1260,
+  "statut": "active",
+  "surface": 109.0,
+  "titre": "Maison 1 260 €/mois MAGNY EN VEXIN (95420) 109 m² • 4 pièces • 3 chambres Terrasse • Garage • 1 salle de bain • 1 salle d'eau",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -4235,6 +4276,27 @@
   "statut": "active",
   "surface": 50.0,
   "titre": "Maison 1 150 €/mois MORSANG SUR ORGE (91390) 50 m² • 3 pièces • 1 chambre 1 salle d'eau",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/muret/louer/labastidette/maison-4-pieces-52957839": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-09-30",
+  "historique_prix": [
+   {
+    "date": "2026-09-30",
+    "prix": 1100
+   }
+  ],
+  "pieces": 4,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-09-30",
+  "prix": 1100,
+  "statut": "active",
+  "surface": 98.0,
+  "titre": "Maison 1 100 €/mois LABASTIDETTE (31600) 98 m² • 4 pièces • 3 chambres Surf. terrain : 800 m²",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -4695,7 +4757,7 @@
   "prix": 735,
   "statut": "active",
   "surface": 68.0,
-  "titre": "Appartement 735 €/mois BILLERE (64140) 68 m² • 3 pièces • 2 chambres Surface : 67.63 m² • 3 pièces • 2 chbres",
+  "titre": "Appartement 735 €/mois BILLERE (64140) 68 m² • 3 pièces • 2 chambres Surface : 67.63 m²…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -5748,6 +5810,26 @@
   "type": "appartement",
   "ville_agence": "Anglet"
  },
+ "https://www.lelogisbasque.fr/location/80-biarritz/appartement/2342-emplacement-exceptionnel": {
+  "agence": "Le Logis Basque",
+  "classement": "exclu",
+  "derniere_vue": "2026-09-30",
+  "historique_prix": [
+   {
+    "date": "2026-09-30",
+    "prix": 563
+   }
+  ],
+  "pieces": 1,
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-09-30",
+  "prix": 563,
+  "statut": "active",
+  "surface": 19.77,
+  "titre": "Exclusivité Coup de coeur Appartement 1 pièce(s) 19.77 m² Biarritz (64200) 563 € CC*",
+  "type": "appartement",
+  "ville_agence": "Biarritz"
+ },
  "https://www.lelogisbasque.fr/location/80-biarritz/appartement/2344-beau-studio-au-dernier-etage-d-un-immeuble-bourgeois-immeuble-au-centre-de-biarritz": {
   "agence": "Le Logis Basque",
   "classement": "exclu",
@@ -5891,7 +5973,7 @@
   "prix": 768,
   "statut": "active",
   "surface": 43.0,
-  "titre": "Appartement Anglet Appartement Anglet Anglet | 64600 768 € | 43 m² | Réf B2928000",
+  "titre": "Appartement Anglet",
   "type": "appartement",
   "ville_agence": "Anglet"
  },
@@ -6149,7 +6231,7 @@
     "prix": 5000
    }
   ],
-  "pieces": 3,
+  "pieces": 2,
   "position": "Biarritz (ville de l'agence)",
   "premiere_vue": "2026-09-30",
   "prix": 5000,
