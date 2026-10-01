@@ -10480,7 +10480,7 @@
    "score": 4,
    "statut": "active",
    "surface": 100.0,
-   "titre": "Maison 1 650 €/mois PONTAULT COMBAULT (77340) 100 m² • 5 pièces • 4 chambres 1 salle de bain • 2 salles d'eau",
+   "titre": "Maison 1 650 €/mois PONTAULT COMBAULT (77340) 100 m² • 5 pièces • 4 chambres 1 salle de…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/pontaultcombault/louer/pontault-combault/maison-5-pieces-52959235",
    "ville_agence": "Bayonne"
@@ -15115,6 +15115,12 @@
    "agences_ok": 19,
    "date": "2026-10-01",
    "nouveautes": 5
+  },
+  {
+   "actives": 184,
+   "agences_ok": 19,
+   "date": "2026-10-01",
+   "nouveautes": 3
   }
  ]
 }
