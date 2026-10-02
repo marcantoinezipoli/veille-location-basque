@@ -25,7 +25,7 @@
  "http://www.immobiarritz.fr/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-dans-une-residence-haut-de-gamme-recente.html": {
   "agence": "Immobiarritz",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-10-01",
@@ -34,7 +34,7 @@
   ],
   "pieces": 2,
   "position": "Biarritz (ville de l'agence)",
-  "premiere_vue": "2026-10-01",
+  "premiere_vue": "2026-10-02",
   "prix": 729,
   "statut": "active",
   "surface": 41.0,
@@ -68,7 +68,7 @@
   "agence": "Immobiarritz",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-07",
@@ -818,7 +818,7 @@
   "agence": "Nestenn (Bidart)",
   "chambres": 2,
   "classement": "match",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "dpe": "D",
   "historique_prix": [
    {
@@ -840,7 +840,7 @@
   "agence": "Nestenn (Bidart)",
   "chambres": 2,
   "classement": "match",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "dpe": "A",
   "historique_prix": [
    {
@@ -862,7 +862,7 @@
   "agence": "Nestenn (Bidart)",
   "chambres": 2,
   "classement": "match",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-08",
@@ -1150,7 +1150,7 @@
  "https://www.acotztarra.com/location-à-l-année-au-pays-basque/342-appartement.html": {
   "agence": "Acotztarra",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "dpe": "D",
   "historique_prix": [
    {
@@ -1171,7 +1171,7 @@
  "https://www.agence-benquet.com/appartement-maison/216968": {
   "agence": "Agence Benquet",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-16",
@@ -1229,7 +1229,7 @@
  "https://www.agence-benquet.com/appartement-maison/arcangues-maison-familiale-avec-piscine-prestations-de-standing-et-cadre-verdoyant": {
   "agence": "Agence Benquet",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-16",
@@ -1248,7 +1248,7 @@
  "https://www.agence-benquet.com/appartement-maison/arcangues-proche-bourg-maison-mitoyenne": {
   "agence": "Agence Benquet",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-04",
@@ -1267,7 +1267,7 @@
  "https://www.agence-benquet.com/appartement-maison/biarritz-appartement-t2-avec-cellier-independant": {
   "agence": "Agence Benquet",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-16",
@@ -1327,7 +1327,7 @@
  "https://www.agence-benquet.com/appartement-maison/biarritz-appartement-t3-meuble-avec-balcon-ascenseur-et-residence-securisee": {
   "agence": "Agence Benquet",
   "classement": "match",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-04",
@@ -1342,6 +1342,25 @@
   "surface": 83.0,
   "titre": "Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée",
   "type": "appartement",
+  "ville_agence": "Biarritz"
+ },
+ "https://www.agence-benquet.com/appartement-maison/biarritz-hyper-centre-t2-meuble-6": {
+  "agence": "Agence Benquet",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-02",
+  "historique_prix": [
+   {
+    "date": "2026-10-02",
+    "prix": 890
+   }
+  ],
+  "pieces": 2,
+  "position": "quartier Hyper Centre",
+  "premiere_vue": "2026-10-02",
+  "prix": 890,
+  "statut": "active",
+  "surface": 50.59,
+  "titre": "BIARRITZ, Hyper Centre, T2 meublé",
   "ville_agence": "Biarritz"
  },
  "https://www.agence-benquet.com/appartement-maison/biarritz-hyper-centre-t4-2": {
@@ -1384,6 +1403,26 @@
   "type": "maison",
   "ville_agence": "Biarritz"
  },
+ "https://www.agence-benquet.com/appartement-maison/biarritz-quartier-pitoys-maison-t4": {
+  "agence": "Agence Benquet",
+  "classement": "match",
+  "derniere_vue": "2026-10-02",
+  "historique_prix": [
+   {
+    "date": "2026-10-02",
+    "prix": 1469
+   }
+  ],
+  "pieces": 4,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-10-02",
+  "prix": 1469,
+  "statut": "active",
+  "surface": 91.0,
+  "titre": "Anglet – Maison 4 pièces avec jardin et garage – Secteur Pitoys (Rue d’Urubeyti)",
+  "type": "maison",
+  "ville_agence": "Anglet"
+ },
  "https://www.agence-benquet.com/appartement-maison/ustaritz-appartement-t2-meuble-avec-terrasse-et-stationnement": {
   "agence": "Agence Benquet",
   "classement": "exclu",
@@ -1424,7 +1463,7 @@
  "https://www.ajp-immobilier.com/annonces/locations/local_professionnel/saint-jean-de-luz-64/60372591": {
   "agence": "AJP Mateille Biarritz",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-04",
@@ -1442,7 +1481,7 @@
   "agence": "AJP Mateille Biarritz",
   "chambres": 5,
   "classement": "match",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-04",
@@ -1473,7 +1512,7 @@
  "https://www.ajp-immobilier.com/recherche?agency_id=367652&property=maison&listing_type=rent": {
   "agence": "AJP Mateille Biarritz",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -1495,7 +1534,7 @@
   "derniere_vue": "2026-09-28",
   "position": "Anglet (ville de l'agence)",
   "premiere_vue": "2026-09-15",
-  "statut": "active",
+  "statut": "disparu",
   "titre": "Voir d'autres biens sur la carte",
   "type": "maison",
   "ville_agence": "Anglet"
@@ -1514,7 +1553,7 @@
  "https://www.century21.fr/projet-immobilier?localisation=28020&filtre=rent&type=appartement": {
   "agence": "Century 21 (Biarritz, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "position": "Biarritz (ville de l'agence)",
   "premiere_vue": "2026-09-16",
   "statut": "active",
@@ -1525,7 +1564,7 @@
  "https://www.century21.fr/projet-immobilier?localisation=28023&filtre=rent&type=appartement": {
   "agence": "Century 21 (Bidart, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-09-15",
   "statut": "active",
@@ -1536,7 +1575,7 @@
  "https://www.century21.fr/trouver_logement/detail/15274644556": {
   "agence": "Century 21 (Biarritz, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-11",
@@ -1572,7 +1611,7 @@
  "https://www.century21.fr/trouver_logement/detail/15664537175": {
   "agence": "Century 21 (Bidart, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-09-07",
   "statut": "active",
@@ -1583,7 +1622,7 @@
  "https://www.century21.fr/trouver_logement/detail/15674714757": {
   "agence": "Century 21 (Biarritz, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-14",
@@ -1619,7 +1658,7 @@
  "https://www.century21.fr/trouver_logement/detail/15761023161": {
   "agence": "Century 21 (Bidart, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-09-04",
   "statut": "active",
@@ -1648,7 +1687,7 @@
  "https://www.century21.fr/trouver_logement/detail/15857771220": {
   "agence": "Century 21 (Bidart, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-09-04",
   "statut": "active",
@@ -1660,7 +1699,7 @@
   "agence": "Century 21 (Bidart, toutes agences)",
   "chambres": 3,
   "classement": "match",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-28",
@@ -1759,7 +1798,7 @@
   "derniere_vue": "2026-09-28",
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-28",
-  "statut": "active",
+  "statut": "disparu",
   "titre": "TARNOS 40 820 € par mois charges comprises 67 m2 , appartement , 3 pcs",
   "type": "appartement",
   "ville_agence": "Bayonne"
@@ -1785,7 +1824,7 @@
  "https://www.century21.fr/trouver_logement/detail/16619277475": {
   "agence": "Century 21 (Bidart, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-09-04",
   "statut": "active",
@@ -1895,7 +1934,7 @@
  "https://www.century21.fr/trouver_logement/detail/16937861793": {
   "agence": "Century 21 (Bayonne, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-15",
@@ -1913,7 +1952,7 @@
  "https://www.century21.fr/trouver_logement/detail/16938628860": {
   "agence": "Century 21 (Bidart, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-09-22",
   "statut": "active",
@@ -1924,7 +1963,7 @@
  "https://www.century21.fr/trouver_logement/detail/16944828232": {
   "agence": "Century 21 (Bayonne, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-30",
   "statut": "active",
@@ -1953,7 +1992,7 @@
  "https://www.century21.fr/trouver_logement/detail/16958493703": {
   "agence": "Century 21 (Bayonne, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-17",
@@ -1993,7 +2032,7 @@
   "agence": "Century 21 (Bidart, toutes agences)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-17",
@@ -2013,7 +2052,7 @@
  "https://www.century21.fr/trouver_logement/detail/16965744304": {
   "agence": "Century 21 (Bayonne, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "position": "quartier St Martin",
   "premiere_vue": "2026-09-29",
   "statut": "active",
@@ -2043,7 +2082,7 @@
  "https://www.century21.fr/trouver_logement/detail/16969774332": {
   "agence": "Century 21 (Bayonne, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-19",
   "statut": "active",
@@ -2054,7 +2093,7 @@
  "https://www.century21.fr/trouver_logement/detail/16974624776": {
   "agence": "Century 21 (Bidart, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-09-21",
   "statut": "active",
@@ -2065,7 +2104,7 @@
  "https://www.century21.fr/trouver_logement/detail/16994235849": {
   "agence": "Century 21 (Bayonne, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-28",
   "statut": "active",
@@ -2100,14 +2139,14 @@
   "derniere_vue": "2026-09-28",
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-28",
-  "statut": "active",
+  "statut": "disparu",
   "titre": "Voir le détail du bien",
   "ville_agence": "Bayonne"
  },
  "https://www.century21agencenivadour-bayonne.com/trouver_logement/detail/16619277475": {
   "agence": "Century 21 Agence Nivadour",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-04",
@@ -2126,7 +2165,7 @@
  "https://www.century21agencenivadour-bayonne.com/trouver_logement/detail/16944828232": {
   "agence": "Century 21 Agence Nivadour",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-30",
   "statut": "active",
@@ -2136,7 +2175,7 @@
  "https://www.human-immobilier.fr/annonce-location-appartement-bayonne_20-639": {
   "agence": "Human Immobilier Anglet",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-15",
@@ -2196,7 +2235,7 @@
  "https://www.human-immobilier.fr/annonce-location-appartement-soustons_20-281": {
   "agence": "Human Immobilier Anglet",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-15",
@@ -2216,7 +2255,7 @@
  "https://www.human-immobilier.fr/annonce-location-appartement-st-jean-de-luz_20-556": {
   "agence": "Human Immobilier Anglet",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-21",
@@ -2276,7 +2315,7 @@
  "https://www.human-immobilier.fr/annonce-location-appartement-vieux-boucau-les-bains_20-576": {
   "agence": "Human Immobilier Anglet",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-10-01",
@@ -2296,7 +2335,7 @@
  "https://www.human-immobilier.fr/annonce-location-appartement-vieux-boucau-les-bains_20-628": {
   "agence": "Human Immobilier Anglet",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-15",
@@ -2327,7 +2366,7 @@
   "position": "Anglet (ville de l'agence)",
   "premiere_vue": "2026-09-15",
   "prix": 800,
-  "statut": "active",
+  "statut": "disparu",
   "surface": 61.0,
   "titre": "Maison 3 pièces - 61 m² CASTETS (40260) 800 € / mois",
   "type": "maison",
@@ -2376,7 +2415,7 @@
  "https://www.immobilier-bayonne-aturri.com/location-appartement-t1-1-pieces-biarritz/bien-immobilier/2/ges55390001-410": {
   "agence": "Aturri Immobilier",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "pieces": 1,
   "position": "quartier Grande Plage",
   "premiere_vue": "2026-09-04",
@@ -2388,7 +2427,7 @@
  "https://www.immobilier-bayonne-aturri.com/location-appartement-t1-1-pieces-biarritz/bien-immobilier/2/lapp98185": {
   "agence": "Aturri Immobilier",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "pieces": 1,
   "position": "Biarritz (ville de l'agence)",
   "premiere_vue": "2026-09-04",
@@ -2400,7 +2439,7 @@
  "https://www.immobilier-bayonne-aturri.com/location-appartement-t3-3-pieces-bayonne/bien-immobilier/2/ges23930006-410": {
   "agence": "Aturri Immobilier",
   "classement": "match",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "pieces": 3,
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-04",
@@ -2413,7 +2452,7 @@
  "https://www.immobilier-bayonne-aturri.com/location-appartement-t3-3-pieces-bordeaux/bien-immobilier/2/ges00300007-651": {
   "agence": "Aturri Immobilier",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "pieces": 3,
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-09",
@@ -2437,7 +2476,7 @@
  "https://www.immobilier-bayonne-aturri.com/location-maison-5-pieces-st-martin-d-arrossa/bien-immobilier/2/lmai98230": {
   "agence": "Aturri Immobilier",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "pieces": 5,
   "position": "quartier St Martin",
   "premiere_vue": "2026-09-04",
@@ -2534,7 +2573,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-29",
@@ -2555,7 +2594,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -2576,7 +2615,7 @@
   "agence": "Laforêt (64, appartements)",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-15",
@@ -2597,7 +2636,7 @@
   "agence": "Laforêt (64, appartements)",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-15",
@@ -2618,7 +2657,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -2681,7 +2720,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -2723,7 +2762,7 @@
   "agence": "Laforêt (64, appartements)",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-18",
@@ -2744,7 +2783,7 @@
   "agence": "Laforêt (64, appartements)",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-18",
@@ -2807,7 +2846,7 @@
   "agence": "Laforêt (64, appartements)",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-25",
@@ -3099,7 +3138,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-29",
@@ -3140,7 +3179,7 @@
   "agence": "Laforêt (64, appartements)",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -3311,7 +3350,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-21",
@@ -3353,7 +3392,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-24",
@@ -3374,7 +3413,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-21",
@@ -3416,7 +3455,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -3458,7 +3497,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-28",
@@ -3500,7 +3539,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -3521,7 +3560,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-29",
@@ -3731,7 +3770,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-25",
@@ -3814,7 +3853,7 @@
  "https://www.laforet.com/agence-immobiliere/larochesuryon/louer/la-roche-sur-yon/maison-1-piece-52942253": {
   "agence": "Laforêt (64, maisons)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-30",
@@ -3835,7 +3874,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -3856,7 +3895,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-30",
@@ -3891,6 +3930,27 @@
   "statut": "disparu",
   "surface": 37.0,
   "titre": "Maison 550 €/mois CERET (66400) 37 m² • 2 pièces • 1 chambre Surf. terrain : 200 m²",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/levesinet/louer/le-vesinet/maison-6-pieces-52942331": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 4,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-02",
+  "historique_prix": [
+   {
+    "date": "2026-10-02",
+    "prix": 3300
+   }
+  ],
+  "pieces": 6,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-02",
+  "prix": 3300,
+  "statut": "active",
+  "surface": 156.0,
+  "titre": "Maison 3 300 €/mois LE VESINET (78110) 156 m² • 6 pièces • 4 chambres Surf. terrain : 570 m² • Sous-sol • 1 salle de bain • 1 salle d'eau",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -3961,7 +4021,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -3982,7 +4042,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-30",
@@ -4024,7 +4084,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -4056,7 +4116,7 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-25",
   "prix": 550,
-  "statut": "active",
+  "statut": "disparu",
   "surface": 89.0,
   "titre": "Maison 550 €/mois CERIZAY (79140) 89 m² • 3 pièces • 2 chambres Cheminée",
   "type": "maison",
@@ -4108,7 +4168,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -4133,7 +4193,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-25",
@@ -4154,7 +4214,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -4241,7 +4301,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -4282,7 +4342,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -4303,7 +4363,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-30",
@@ -4387,7 +4447,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 5,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -4449,7 +4509,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -4470,7 +4530,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-16",
@@ -4659,7 +4719,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-28",
@@ -4743,7 +4803,7 @@
   "agence": "Laforêt (64, appartements)",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-15",
@@ -4764,7 +4824,7 @@
   "agence": "Laforêt (64, appartements)",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-30",
@@ -4805,7 +4865,7 @@
  "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-1-piece-21985510": {
   "agence": "Laforêt (64, appartements)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-29",
@@ -4822,11 +4882,31 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-1-piece-52833230": {
+  "agence": "Laforêt (64, appartements)",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-02",
+  "historique_prix": [
+   {
+    "date": "2026-10-02",
+    "prix": 590
+   }
+  ],
+  "pieces": 1,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-02",
+  "prix": 590,
+  "statut": "active",
+  "surface": 25.0,
+  "titre": "Appartement 590 €/mois PAU (64000) 25 m² • 1 pièce Ascenseur • 1 salle d'eau • Balcon • Meublé",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-2-pieces-21594199": {
   "agence": "Laforêt (64, appartements)",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-15",
@@ -4868,7 +4948,7 @@
   "agence": "Laforêt (64, appartements)",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-15",
@@ -4952,7 +5032,7 @@
   "agence": "Laforêt (64, appartements)",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-15",
@@ -4973,7 +5053,7 @@
   "agence": "Laforêt (64, appartements)",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-21",
@@ -4990,11 +5070,32 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-4-pieces-22134562": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-02",
+  "historique_prix": [
+   {
+    "date": "2026-10-02",
+    "prix": 1100
+   }
+  ],
+  "pieces": 4,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-02",
+  "prix": 1100,
+  "statut": "active",
+  "surface": 110.0,
+  "titre": "Appartement 1 100 €/mois PAU (64000) 110 m² • 4 pièces • 3 chambres Sous-sol • 1 cave • 1 salle de bain • Meublé",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-4-pieces-52271103": {
   "agence": "Laforêt (64, appartements)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-15",
@@ -5015,7 +5116,7 @@
   "agence": "Laforêt (64, appartements)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-15",
@@ -5061,7 +5162,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-10-01",
@@ -5103,7 +5204,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-25",
@@ -5250,7 +5351,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -5502,7 +5603,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-25",
@@ -5544,7 +5645,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-24",
@@ -5565,7 +5666,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -5586,7 +5687,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -5607,7 +5708,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -5628,7 +5729,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-22",
@@ -5649,7 +5750,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -5670,7 +5771,7 @@
   "agence": "Le Logis Basque",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-25",
@@ -5733,7 +5834,7 @@
   "agence": "Le Logis Basque",
   "chambres": 5,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-28",
@@ -5754,7 +5855,7 @@
   "agence": "Le Logis Basque",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-10",
@@ -5775,7 +5876,7 @@
   "agence": "Le Logis Basque",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-07",
@@ -5874,7 +5975,7 @@
  "https://www.lelogisbasque.fr/location/80-biarritz/appartement/2344-beau-studio-au-dernier-etage-d-un-immeuble-bourgeois-immeuble-au-centre-de-biarritz": {
   "agence": "Le Logis Basque",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -5894,7 +5995,7 @@
  "https://www.lelogisbasque.fr/location/80-biarritz/studio/2332-adorable-studio-a-louer-a-l-annee-residence-pavillon-d-angleterre-face-a-l-hotel-du-palais-a-biarritz": {
   "agence": "Le Logis Basque",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-04",
@@ -5936,7 +6037,7 @@
   "agence": "Manoir de France",
   "chambres": 1,
   "classement": "match",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "dpe": "D",
   "historique_prix": [
    {
@@ -6000,7 +6101,7 @@
   "agence": "Manoir de France",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "dpe": "C",
   "historique_prix": [
    {
@@ -6043,7 +6144,7 @@
  "https://www.manoirdefrance.fr/location,appartement-appartement-90m2-bayonne-logement-etudiant-uniquement-,2105": {
   "agence": "Manoir de France",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -6075,7 +6176,7 @@
  "https://www.manoirdefrance.fr/location,appartement-appartement-t3-de-64m2-bayonne-quartier-mousserolles,277-1031": {
   "agence": "Manoir de France",
   "classement": "match",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "dpe": "D",
   "historique_prix": [
    {
@@ -6152,7 +6253,7 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-26",
   "prix": 571,
-  "statut": "active",
+  "statut": "disparu",
   "surface": 36.0,
   "titre": "Appartement Bayonne",
   "type": "appartement",
@@ -6161,7 +6262,7 @@
  "https://www.manoirdefrance.fr/location,appartement-t4-de-82-m2-avec-grande-terrasse-quartier-beyris,1999_1": {
   "agence": "Manoir de France",
   "classement": "match",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "dpe": "C",
   "historique_prix": [
    {
@@ -6182,7 +6283,7 @@
  "https://www.manoirdefrance.fr/location,maison-maison-de-ville-7-piAces-207-m2,B2924000": {
   "agence": "Manoir de France",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-04",
@@ -6201,7 +6302,7 @@
  "https://www.manoirdefrance.fr/location,maison-maison-t4-saubrigues,120138-166356": {
   "agence": "Manoir de France",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-04",
@@ -6220,7 +6321,7 @@
  "https://www.manoirdefrance.fr/location,maison-maison-t4-urcuit,B3030000": {
   "agence": "Manoir de France",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-04",
@@ -6271,10 +6372,10 @@
  "https://www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-studio-meuble-centre-ville.html": {
   "agence": "Agence Olaizola",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "pieces": 2,
   "position": "Biarritz (ville de l'agence)",
-  "premiere_vue": "2026-10-01",
+  "premiere_vue": "2026-10-02",
   "statut": "active",
   "surface": 180.0,
   "titre": "https://www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-studio-meuble-centre-ville.html",
@@ -6285,7 +6386,7 @@
   "agence": "Agence Olaizola",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "dpe": "C",
   "historique_prix": [
    {
@@ -6295,10 +6396,10 @@
   ],
   "pieces": 2,
   "position": "Biarritz (ville de l'agence)",
-  "premiere_vue": "2026-10-01",
+  "premiere_vue": "2026-10-02",
   "prix": 5000,
   "statut": "active",
-  "surface": 158.0,
+  "surface": 45.0,
   "titre": "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html",
   "type": "maison",
   "ville_agence": "Bidart"
@@ -6317,7 +6418,7 @@
   "position": "quartier Cinq Cantons",
   "premiere_vue": "2026-09-28",
   "prix": 675,
-  "statut": "active",
+  "statut": "disparu",
   "titre": "Location Appartement 1 pièce 30,89 m2 Anglet - Cinq Cantons",
   "type": "appartement",
   "ville_agence": "Anglet"
@@ -6344,7 +6445,7 @@
  "https://www.orpi.com/annonce-location-appartement-t1-anglet-64600-9058a702-ca68-46e2-bba1-ae5c1932a9f5?agency=ag5cantons": {
   "agence": "Orpi Agence des 5 Cantons",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-04",
@@ -6363,7 +6464,7 @@
  "https://www.orpi.com/annonce-location-appartement-t1-anglet-64600-9b670c0f-8fe1-4faf-89bb-4aab6f7bff08?agency=ag5cantons": {
   "agence": "Orpi Agence des 5 Cantons",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-08",
@@ -6402,7 +6503,7 @@
   "agence": "Orpi Agence des 5 Cantons",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "dpe": "A",
   "historique_prix": [
    {
@@ -6424,7 +6525,7 @@
   "agence": "Orpi Agence des 5 Cantons",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "dpe": "A",
   "historique_prix": [
    {
@@ -6487,7 +6588,7 @@
   "agence": "Orpi Agence des 5 Cantons",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-04",
@@ -6508,7 +6609,7 @@
   "agence": "Orpi Agence des 5 Cantons",
   "chambres": 3,
   "classement": "match",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "dpe": "A",
   "historique_prix": [
    {
@@ -6551,7 +6652,7 @@
  "https://www.orpi.com/annonce-location-appartement-t4-biarritz-64200-56a045e4-b9a0-4554-a4a9-4a52cd9a4957?agency=ag5cantons": {
   "agence": "Orpi Agence des 5 Cantons",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-04",
@@ -6570,7 +6671,7 @@
  "https://www.orpi.com/annonce-location-stationnement-anglet-64600-84540c8b-5db7-4ef1-ab4c-ad0ec400a0b1?agency=ag5cantons": {
   "agence": "Orpi Agence des 5 Cantons",
   "classement": "match",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
     "date": "2026-09-18",
@@ -6587,7 +6688,7 @@
  "https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/landes/tarnos-40220": {
   "agence": "Square Habitat Bidart",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-09-06",
   "statut": "active",
@@ -6598,7 +6699,7 @@
  "https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/anglet-64600": {
   "agence": "Square Habitat Bidart",
   "classement": "match",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "dpe": "C",
   "historique_prix": [
    {
@@ -6628,7 +6729,7 @@
  "https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/ascain-64310": {
   "agence": "Square Habitat Bidart",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-09-06",
   "statut": "active",
@@ -6639,7 +6740,7 @@
  "https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/bayonne-64100": {
   "agence": "Square Habitat Bidart",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "dpe": "C",
   "historique_prix": [
    {
@@ -6659,7 +6760,7 @@
  "https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/biarritz-64200": {
   "agence": "Square Habitat Bidart",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "dpe": "D",
   "historique_prix": [
    {
@@ -6691,7 +6792,7 @@
  "https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/anglet/028f767a-64c6-4627-8705-4d43c0578c1a": {
   "agence": "Square Habitat Bidart",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "position": "Anglet (ville de l'agence)",
   "premiere_vue": "2026-09-04",
   "statut": "active",
@@ -6722,7 +6823,7 @@
  "https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/biarritz/0b2c2099-4034-49c8-86a8-f942d3efb78c": {
   "agence": "Square Habitat Bidart",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-02",
   "dpe": "D",
   "historique_prix": [
    {
