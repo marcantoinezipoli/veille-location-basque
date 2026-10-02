@@ -28,7 +28,7 @@
   "derniere_vue": "2026-10-02",
   "historique_prix": [
    {
-    "date": "2026-10-01",
+    "date": "2026-10-02",
     "prix": 729
    }
   ],
@@ -2111,6 +2111,26 @@
   "titre": "Voir le détail du bien",
   "ville_agence": "Bayonne"
  },
+ "https://www.century21.fr/trouver_logement/detail/17010857036": {
+  "agence": "Century 21 (Bidart, toutes agences)",
+  "classement": "match",
+  "derniere_vue": "2026-10-02",
+  "historique_prix": [
+   {
+    "date": "2026-10-02",
+    "prix": 1560
+   }
+  ],
+  "pieces": 2,
+  "position": "quartier Halles",
+  "premiere_vue": "2026-10-02",
+  "prix": 1560,
+  "statut": "active",
+  "surface": 66.0,
+  "titre": "Exclusivité BIARRITZ 64 1 560 € par mois charges comprises 66,3 m2 , appartement , 2 pcs",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
  "https://www.century21agencenivadour-bayonne.com/trouver_logement/detail/15635506173": {
   "agence": "Century 21 Agence Nivadour",
   "chambres": 2,
@@ -2653,6 +2673,48 @@
   "type": "appartement",
   "ville_agence": "Anglet"
  },
+ "https://www.laforet.com/agence-immobiliere/anglet/louer/anglet/appartement-3-pieces-52960957": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-02",
+  "historique_prix": [
+   {
+    "date": "2026-10-02",
+    "prix": 783
+   }
+  ],
+  "pieces": 3,
+  "position": "quartier Chambre D'Amour",
+  "premiere_vue": "2026-10-02",
+  "prix": 783,
+  "statut": "active",
+  "surface": 48.0,
+  "titre": "Appartement 783 €/mois ANGLET (64600) 48 m² • 3 pièces • 2 chambres Garage • 1 salle d'eau",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/aucamville/louer/toulouse/maison-5-pieces-52960742": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 4,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-02",
+  "historique_prix": [
+   {
+    "date": "2026-10-02",
+    "prix": 1839
+   }
+  ],
+  "pieces": 5,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-02",
+  "prix": 1839,
+  "statut": "active",
+  "surface": 145.0,
+  "titre": "Maison 1 839 €/mois TOULOUSE (31200) 145 m² • 5 pièces • 4 chambres Cheminée • Surf. terrain : 130 m² • Terrasse • 2 salles d'eau",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/audincourt/louer/audincourt/maison-7-pieces-52930803": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
@@ -2944,6 +3006,27 @@
   "titre": "Maison 1 200 €/mois ARGENTEUIL (95100) 45 m² • 2 pièces • 1 chambre Surf. terrain : 88…",
   "type": "maison",
   "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/biarritz/louer/bayonne/appartement-3-pieces-21058957": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 2,
+  "classement": "match",
+  "derniere_vue": "2026-10-02",
+  "historique_prix": [
+   {
+    "date": "2026-10-02",
+    "prix": 768
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-02",
+  "prix": 768,
+  "statut": "active",
+  "surface": 58.0,
+  "titre": "Appartement 768 €/mois BAYONNE (64100) 58 m² • 3 pièces • 2 chambres 1 salle de bain • Meublé",
+  "type": "appartement",
+  "ville_agence": "Biarritz"
  },
  "https://www.laforet.com/agence-immobiliere/biarritz/louer/biarritz/appartement-4-pieces-52924306": {
   "agence": "Laforêt (64, appartements)",
@@ -3950,7 +4033,7 @@
   "prix": 3300,
   "statut": "active",
   "surface": 156.0,
-  "titre": "Maison 3 300 €/mois LE VESINET (78110) 156 m² • 6 pièces • 4 chambres Surf. terrain : 570 m² • Sous-sol • 1 salle de bain • 1 salle d'eau",
+  "titre": "Maison 3 300 €/mois LE VESINET (78110) 156 m² • 6 pièces • 4 chambres Surf. terrain :…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -4898,7 +4981,7 @@
   "prix": 590,
   "statut": "active",
   "surface": 25.0,
-  "titre": "Appartement 590 €/mois PAU (64000) 25 m² • 1 pièce Ascenseur • 1 salle d'eau • Balcon • Meublé",
+  "titre": "Appartement 590 €/mois PAU (64000) 25 m² • 1 pièce Ascenseur • 1 salle d'eau • Balcon •…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -5087,7 +5170,7 @@
   "prix": 1100,
   "statut": "active",
   "surface": 110.0,
-  "titre": "Appartement 1 100 €/mois PAU (64000) 110 m² • 4 pièces • 3 chambres Sous-sol • 1 cave • 1 salle de bain • Meublé",
+  "titre": "Appartement 1 100 €/mois PAU (64000) 110 m² • 4 pièces • 3 chambres Sous-sol • 1 cave •…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -5578,6 +5661,27 @@
   "type": "maison",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/thuir/louer/ille-sur-tet/maison-3-pieces-52919326": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-02",
+  "historique_prix": [
+   {
+    "date": "2026-10-02",
+    "prix": 640
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-02",
+  "prix": 640,
+  "statut": "active",
+  "surface": 70.0,
+  "titre": "Maison 640 €/mois ILLE SUR TET (66130) 70 m² • 3 pièces • 2 chambres Surface : 70 m² • 3 pièces • 2 chbres",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/valbonne/louer/opio/maison-4-pieces-52897499": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
@@ -5870,6 +5974,47 @@
   "surface": 120.36,
   "titre": "Maison 6 pièce(s) 4 chambre(s) 120.36 m² Lahonce (64990) 1 570 € CC*",
   "type": "maison",
+  "ville_agence": "Anglet"
+ },
+ "https://www.lelogisbasque.fr/location/3-mouguerre/duplex/2351-superbe-t6-expose-sud-a-louer-a-mouguerre-aguerria": {
+  "agence": "Le Logis Basque",
+  "chambres": 5,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-02",
+  "historique_prix": [
+   {
+    "date": "2026-10-02",
+    "prix": 1237
+   }
+  ],
+  "pieces": 6,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-10-02",
+  "prix": 1237,
+  "statut": "active",
+  "surface": 113.96,
+  "titre": "Duplex 6 pièce(s) 5 chambre(s) 113.96 m²",
+  "type": "duplex",
+  "ville_agence": "Anglet"
+ },
+ "https://www.lelogisbasque.fr/location/49-boucau/rez-de-jardin/2348-au-calme-de-boucau-agreable-t3-en-rez-de-jardin": {
+  "agence": "Le Logis Basque",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-02",
+  "historique_prix": [
+   {
+    "date": "2026-10-02",
+    "prix": 780
+   }
+  ],
+  "pieces": 3,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-10-02",
+  "prix": 780,
+  "statut": "active",
+  "surface": 43.94,
+  "titre": "Rez de jardin 3 pièce(s) 2 chambre(s) 43.94 m²",
   "ville_agence": "Anglet"
  },
  "https://www.lelogisbasque.fr/location/79-bayonne/appartement/2334-superbe-t2-bourgeois-de-55m-a-bayonne-chateau-de-saint-forcet": {
@@ -6450,12 +6595,16 @@
    {
     "date": "2026-09-04",
     "prix": 650
+   },
+   {
+    "date": "2026-10-02",
+    "prix": 600
    }
   ],
   "pieces": 1,
   "position": "quartier Chambre D'Amour",
   "premiere_vue": "2026-09-04",
-  "prix": 650,
+  "prix": 600,
   "statut": "active",
   "titre": "Location Appartement 1 pièce 26,56 m2 Anglet - Chambre d'Amour",
   "type": "appartement",
@@ -6615,12 +6764,16 @@
    {
     "date": "2026-09-07",
     "prix": 1320
+   },
+   {
+    "date": "2026-10-02",
+    "prix": 1190
    }
   ],
   "pieces": 4,
   "position": "Anglet (ville de l'agence)",
   "premiere_vue": "2026-09-07",
-  "prix": 1320,
+  "prix": 1190,
   "statut": "active",
   "surface": 82.0,
   "titre": "Location Appartement 4 pièces 82 m2 Anglet - Aritxague",
