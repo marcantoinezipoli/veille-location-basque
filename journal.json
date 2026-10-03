@@ -2,9 +2,9 @@
  "http://www.immobiarritz.fr/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-studio-meuble-centre-ville.html": {
   "agence": "Immobiarritz",
   "classement": "exclu",
-  "derniere_vue": "2026-09-26",
+  "derniere_vue": "2026-10-03",
   "position": "Biarritz (ville de l'agence)",
-  "premiere_vue": "2026-09-26",
+  "premiere_vue": "2026-10-03",
   "statut": "active",
   "titre": "http://www.immobiarritz.fr/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-studio-meuble-centre-ville.html",
   "ville_agence": "Biarritz"
@@ -12,14 +12,14 @@
  "http://www.immobiarritz.fr/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html": {
   "agence": "Immobiarritz",
   "classement": "exclu",
-  "derniere_vue": "2026-09-26",
+  "derniere_vue": "2026-10-03",
   "pieces": 3,
   "position": "Biarritz (ville de l'agence)",
-  "premiere_vue": "2026-09-26",
+  "premiere_vue": "2026-10-03",
   "statut": "active",
-  "surface": 48.41,
+  "surface": 219.93,
   "titre": "http://www.immobiarritz.fr/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html",
-  "type": "duplex",
+  "type": "villa",
   "ville_agence": "Bidart"
  },
  "http://www.immobiarritz.fr/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-dans-une-residence-haut-de-gamme-recente.html": {
@@ -5169,7 +5169,7 @@
   "prix": 1300,
   "statut": "active",
   "surface": 76.0,
-  "titre": "Appartement 1 300 €/mois PAU (64000) 76 m² • 3 pièces • 2 chambres Terrasse • Ascenseur…",
+  "titre": "Appartement 1 300 €/mois PAU (64000) 76 m² • 3 pièces • 2 chambres Terrasse • Ascenseur • Garage • 1 salle d'eau",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -5258,6 +5258,27 @@
   "statut": "active",
   "surface": 111.0,
   "titre": "Maison 1 109 €/mois COULOUNIEIX CHAMIERS (24660) 111 m² • 7 pièces • 5 chambres Surf.…",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/pontaultcombault/louer/dammartin-sur-tigeaux/maison-3-pieces-52962250": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-03",
+  "historique_prix": [
+   {
+    "date": "2026-10-03",
+    "prix": 1100
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-03",
+  "prix": 1100,
+  "statut": "active",
+  "surface": 70.0,
+  "titre": "Maison 1 100 €/mois DAMMARTIN SUR TIGEAUX (77163) 70 m² • 3 pièces • 2 chambres Surface : 70 m² • 3 pièces • 2 chbres",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -6589,9 +6610,9 @@
   "premiere_vue": "2026-10-03",
   "prix": 5000,
   "statut": "active",
-  "surface": 45.0,
+  "surface": 219.93,
   "titre": "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html",
-  "type": "maison",
+  "type": "villa",
   "ville_agence": "Bidart"
  },
  "https://www.orpi.com/annonce-location-appartement-t1-anglet-64600-29cacaad-0fa0-4dfa-a211-044d9b5e5787?agency=ag5cantons": {
