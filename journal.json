@@ -11,13 +11,14 @@
  },
  "http://www.immobiarritz.fr/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html": {
   "agence": "Immobiarritz",
+  "chambres": 9,
   "classement": "exclu",
   "derniere_vue": "2026-10-04",
   "pieces": 3,
   "position": "Biarritz (ville de l'agence)",
   "premiere_vue": "2026-10-04",
   "statut": "active",
-  "surface": 219.93,
+  "surface": 350.0,
   "titre": "http://www.immobiarritz.fr/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html",
   "type": "villa",
   "ville_agence": "Bidart"
@@ -6637,7 +6638,7 @@
  },
  "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html": {
   "agence": "Agence Olaizola",
-  "chambres": 4,
+  "chambres": 9,
   "classement": "exclu",
   "derniere_vue": "2026-10-04",
   "dpe": "C",
@@ -6652,7 +6653,7 @@
   "premiere_vue": "2026-10-04",
   "prix": 5000,
   "statut": "active",
-  "surface": 219.93,
+  "surface": 350.0,
   "titre": "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html",
   "type": "villa",
   "ville_agence": "Bidart"
