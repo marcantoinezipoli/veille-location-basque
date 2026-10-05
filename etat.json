@@ -4643,7 +4643,7 @@
    "statut": "active",
    "surface": null,
    "tel": "0559246520",
-   "titre": "Exclusivité BIARRITZ 64 1 260 € par mois charges comprises 81,3 m2 , appartement , 4 pcs",
+   "titre": "BIARRITZ 64 1 260 € par mois charges comprises 81,3 m2 , appartement , 4 pcs",
    "type": "appartement",
    "url": "https://www.century21.fr/trouver_logement/detail/17016487910/",
    "ville_agence": "Biarritz"
@@ -11208,7 +11208,7 @@
    "score": 8,
    "statut": "active",
    "surface": 142.0,
-   "titre": "Maison 1 340 €/mois BOURGOGNE FRESNE (51110) 142 m² • 5 pièces • 3 chambres Surf. terrain : 651 m² • Accès handicapé • Sous-sol • 1 cave",
+   "titre": "Maison 1 340 €/mois BOURGOGNE FRESNE (51110) 142 m² • 5 pièces • 3 chambres Surf.…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/reims-sud/louer/bourgogne-fresne/maison-5-pieces-52924340",
    "ville_agence": "Bayonne"
@@ -16139,6 +16139,12 @@
    "agences_ok": 19,
    "date": "2026-10-05",
    "nouveautes": 6
+  },
+  {
+   "actives": 187,
+   "agences_ok": 19,
+   "date": "2026-10-05",
+   "nouveautes": 4
   }
  ]
 }
