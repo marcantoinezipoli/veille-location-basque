@@ -15,7 +15,7 @@
   "classement": "exclu",
   "derniere_vue": "2026-10-06",
   "pieces": 3,
-  "position": "Bidart (ville de l'agence)",
+  "position": "Biarritz (ville de l'agence)",
   "premiere_vue": "2026-10-06",
   "statut": "active",
   "surface": 350.0,
@@ -4321,7 +4321,7 @@
   "prix": 1390,
   "statut": "active",
   "surface": 85.0,
-  "titre": "Maison 1 390 €/mois MARTIGNAS SUR JALLE (33127) 85 m² • 4 pièces • 3 chambres Surf. terrain : 150 m² • 1 salle de bain • Parking",
+  "titre": "Maison 1 390 €/mois MARTIGNAS SUR JALLE (33127) 85 m² • 4 pièces • 3 chambres Surf.…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -4601,6 +4601,27 @@
   "statut": "active",
   "surface": 50.0,
   "titre": "Maison 1 150 €/mois MORSANG SUR ORGE (91390) 50 m² • 3 pièces • 1 chambre 1 salle d'eau",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/mulhouse/louer/munchhouse/maison-5-pieces-52968260": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-06",
+  "historique_prix": [
+   {
+    "date": "2026-10-06",
+    "prix": 1200
+   }
+  ],
+  "pieces": 5,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-06",
+  "prix": 1200,
+  "statut": "active",
+  "surface": 85.0,
+  "titre": "Maison 1 200 €/mois MUNCHHOUSE (68740) 85 m² • 5 pièces • 3 chambres Surf. terrain : 111 m² • 1 salle de bain",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -5482,7 +5503,7 @@
   "prix": 745,
   "statut": "active",
   "surface": 80.0,
-  "titre": "Maison 745 €/mois PONT L ABBE (29120) 80 m² • 4 pièces • 3 chambres 1 salle d'eau • Meublé • Parking",
+  "titre": "Maison 745 €/mois PONT L ABBE (29120) 80 m² • 4 pièces • 3 chambres 1 salle d'eau •…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
