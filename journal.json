@@ -15,7 +15,7 @@
   "classement": "exclu",
   "derniere_vue": "2026-10-06",
   "pieces": 3,
-  "position": "Biarritz (ville de l'agence)",
+  "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-10-06",
   "statut": "active",
   "surface": 350.0,
@@ -1345,6 +1345,24 @@
   "type": "appartement",
   "ville_agence": "Biarritz"
  },
+ "https://www.agence-benquet.com/appartement-maison/biarritz-cote-des-basques-studio-meuble": {
+  "agence": "Agence Benquet",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-06",
+  "historique_prix": [
+   {
+    "date": "2026-10-06",
+    "prix": 755
+   }
+  ],
+  "position": "quartier Côte Des Basques",
+  "premiere_vue": "2026-10-06",
+  "prix": 755,
+  "statut": "active",
+  "surface": 33.0,
+  "titre": "BIARRITZ, Côte des Basques, Studio Meublé",
+  "ville_agence": "Biarritz"
+ },
  "https://www.agence-benquet.com/appartement-maison/biarritz-hyper-centre-t2-meuble-6": {
   "agence": "Agence Benquet",
   "classement": "exclu",
@@ -2159,7 +2177,7 @@
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-10-06",
   "statut": "active",
-  "titre": "Exclusivité ST JEAN DE LUZ 64 850 € par mois charges comprises 59,6 m2 , appartement , 2 pcs",
+  "titre": "ST JEAN DE LUZ 64 850 € par mois charges comprises 59,6 m2 , appartement , 2 pcs",
   "type": "appartement",
   "ville_agence": "Bidart"
  },
@@ -2755,7 +2773,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-10-02",
@@ -2776,7 +2794,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -3298,7 +3316,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-29",
@@ -3510,7 +3528,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-21",
@@ -3552,7 +3570,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-24",
@@ -3657,7 +3675,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-28",
@@ -3699,7 +3717,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -3720,7 +3738,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-29",
@@ -3796,7 +3814,7 @@
   "prix": 1744,
   "statut": "active",
   "surface": 130.0,
-  "titre": "Maison 1 744 €/mois LE TEICH (33470) 130 m² • 5 pièces • 4 chambres Surf. terrain : 425 m² • Terrasse • Accès handicapé • Garage",
+  "titre": "Maison 1 744 €/mois LE TEICH (33470) 130 m² • 5 pièces • 4 chambres Surf. terrain : 425…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -3817,7 +3835,7 @@
   "prix": 1650,
   "statut": "active",
   "surface": 105.0,
-  "titre": "Maison 1 650 €/mois MIOS (33380) 105 m² • 4 pièces • 3 chambres Surf. terrain : 1324 m² • Terrasse • Piscine • Garage",
+  "titre": "Maison 1 650 €/mois MIOS (33380) 105 m² • 4 pièces • 3 chambres Surf. terrain : 1324 m²…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -4055,7 +4073,7 @@
  "https://www.laforet.com/agence-immobiliere/larochesuryon/louer/la-roche-sur-yon/maison-1-piece-52942253": {
   "agence": "Laforêt (64, maisons)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-30",
@@ -4076,7 +4094,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -4097,7 +4115,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-30",
@@ -4139,7 +4157,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-10-02",
@@ -4248,7 +4266,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-30",
@@ -4284,6 +4302,27 @@
   "surface": 100.0,
   "titre": "Appartement 1 650 €/mois MARTIGNAS SUR JALLE (33127) 100 m² • 4 pièces • 3 chambres…",
   "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/martignas/louer/martignas-sur-jalle/maison-4-pieces-52967577": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-06",
+  "historique_prix": [
+   {
+    "date": "2026-10-06",
+    "prix": 1390
+   }
+  ],
+  "pieces": 4,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-06",
+  "prix": 1390,
+  "statut": "active",
+  "surface": 85.0,
+  "titre": "Maison 1 390 €/mois MARTIGNAS SUR JALLE (33127) 85 m² • 4 pièces • 3 chambres Surf. terrain : 150 m² • 1 salle de bain • Parking",
+  "type": "maison",
   "ville_agence": "Bayonne"
  },
  "https://www.laforet.com/agence-immobiliere/martignas/louer/sainte-helene/maison-5-pieces-52923820": {
@@ -4374,7 +4413,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -4420,7 +4459,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -4569,7 +4608,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-30",
@@ -4715,7 +4754,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -4736,7 +4775,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-16",
@@ -5388,7 +5427,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-10-03",
@@ -5430,7 +5469,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-10-05",
@@ -5443,7 +5482,7 @@
   "prix": 745,
   "statut": "active",
   "surface": 80.0,
-  "titre": "Maison 745 €/mois PONT L ABBE (29120) 80 m² • 4 pièces • 3 chambres 1 salle d'eau •…",
+  "titre": "Maison 745 €/mois PONT L ABBE (29120) 80 m² • 4 pièces • 3 chambres 1 salle d'eau • Meublé • Parking",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -5472,7 +5511,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-10-05",
@@ -5493,7 +5532,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-25",
@@ -5644,7 +5683,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -5728,7 +5767,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-10-03",
@@ -5917,7 +5956,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-10-02",
@@ -5959,7 +5998,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-25",
@@ -6001,7 +6040,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-24",
@@ -6022,7 +6061,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -6064,7 +6103,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-10-05",
@@ -6085,7 +6124,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -6106,7 +6145,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-22",
@@ -6127,7 +6166,7 @@
   "agence": "Laforêt (64, maisons)",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-06",
   "historique_prix": [
    {
     "date": "2026-09-23",
@@ -6939,6 +6978,28 @@
   "prix": 700,
   "statut": "disparu",
   "titre": "Location Appartement 2 pièces 42,78 m2 Anglet - Chambre d'Amour",
+  "type": "appartement",
+  "ville_agence": "Anglet"
+ },
+ "https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-5ca0b2f9-bc05-44dc-9d44-4ca7a0f1f18a?agency=ag5cantons": {
+  "agence": "Orpi Agence des 5 Cantons",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-06",
+  "dpe": "A",
+  "historique_prix": [
+   {
+    "date": "2026-10-06",
+    "prix": 950
+   }
+  ],
+  "pieces": 2,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-10-06",
+  "prix": 950,
+  "statut": "active",
+  "surface": 46.14,
+  "titre": "Location Appartement 2 pièces 46,14 m2 Anglet - Centre-ville",
   "type": "appartement",
   "ville_agence": "Anglet"
  },

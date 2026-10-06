@@ -30,48 +30,31 @@
   },
   "http://www.immobiarritz.fr/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html": {
    "agence": "Immobiarritz",
-   "atouts": [
-    "charme",
-    "terrasse",
-    "extérieur",
-    "calme",
-    "saint-jean",
-    "sous-sol",
-    "350 m²"
-   ],
-   "chambres": 9,
+   "atouts": [],
+   "chambres": null,
    "classement": "exclu",
    "contexte": "",
    "derniere_vue": "2026-10-06",
-   "description": "OLAIZOLA Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact + de critères Modifier la rechercher Masquer la recherche Accueil Immobilier Créer une alerte 1 2 3 4 5 ... 9 Suivante Trier par : Date Prix -/+ Prix +/- Exclusif BIARRITZ : Vente des murs et du fonds de commerce d'un hôtel 3 étoiles avec licence IV BIARRITZ : Hôtel 3 étoiles de charme avec licence IV et terrasse Situé dans un secteur calme et recherché de Biarritz, à proximité immédiate du centre-ville, des commerces, des plages, des transports et des équipements touristiques, cet hôtel de charme classé 3 étoiles bénéficie d'un emplacement privilégié et d'une excellente visibilité. Exploité dans un bâtiment de caractère, l'établissement développe environ 350 m², complétés par un sous-sol entièrement aménagé d'environ 30 m². Il comprend 9 chambres climatisées, des espaces d'accueil, un salon-bar lounge, des espaces communs fonctionnels ainsi qu'une terrasse extérieure entièrement aménagée. Son identité visuelle ",
-   "dpe": null,
-   "fiche_lue": true,
-   "itineraire_pos": "43.4832,-1.5586",
+   "fiche_lue": false,
+   "itineraire_pos": "43.437,-1.5915",
    "itineraire_source": "route",
-   "km_hopital": 8.2,
-   "lat": 43.4832,
-   "lon": -1.5586,
-   "meuble": false,
-   "min_velo": 33,
-   "min_voiture": 13,
+   "km_hopital": 12.6,
+   "lat": 43.437,
+   "lon": -1.5915,
+   "min_velo": 50,
+   "min_voiture": 14,
    "motif_exclusion": "lien de navigation, pas une annonce",
-   "photo": "http://www.immobiarritz.fr/annonces/fiches/office8/agenceolaizola/catalog/images/background_5.jpg",
    "photo_cherchee": true,
-   "photos": [
-    "http://www.immobiarritz.fr/annonces/fiches/office8/agenceolaizola/catalog/images/background_5.jpg"
-   ],
    "photos_cherchees": true,
    "pieces": null,
-   "position": "Biarritz (ville de l'agence)",
+   "position": "Bidart (ville de l'agence)",
    "premiere_vue": "2026-10-06",
    "prix": null,
-   "reserves": [
-    "saint-jean-de-luz"
-   ],
-   "score": 2,
+   "reserves": [],
+   "score": 0,
    "signaux": [],
    "statut": "active",
-   "surface": 350.0,
+   "surface": null,
    "titre": "http://www.immobiarritz.fr/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html",
    "type": null,
    "url": "http://www.immobiarritz.fr/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html",
@@ -1944,7 +1927,7 @@
    "classement": "exclu",
    "contexte": "Anglet – Maison de caractère avec piscine, prestations de qualité et emplacement recherché 160m² 3 200€",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 24,
+   "ecart_prix_pct": 23,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -2346,6 +2329,45 @@
    "url": "https://www.agence-benquet.com/appartement-maison/biarritz-appartement-t3-meuble-avec-balcon-ascenseur-et-residence-securisee/",
    "ville_agence": "Biarritz"
   },
+  "https://www.agence-benquet.com/appartement-maison/biarritz-cote-des-basques-studio-meuble": {
+   "agence": "Agence Benquet",
+   "atouts": [
+    "loyer 755 €"
+   ],
+   "chambres": null,
+   "classement": "exclu",
+   "contexte": "BIARRITZ, Côte des Basques, Studio Meublé 33m² 755€",
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": 37,
+   "etiquette_prix": "au-dessus du marché",
+   "historique_prix": [
+    {
+     "date": "2026-10-06",
+     "prix": 755
+    }
+   ],
+   "itineraire_pos": "43.479,-1.568",
+   "itineraire_source": "route",
+   "km_hopital": 10.4,
+   "lat": 43.479,
+   "lon": -1.568,
+   "min_velo": 42,
+   "min_voiture": 18,
+   "motif_exclusion": "studio",
+   "pieces": null,
+   "position": "quartier Côte Des Basques",
+   "premiere_vue": "2026-10-06",
+   "prix": 755,
+   "prix_m2": 22.9,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 33.0,
+   "titre": "BIARRITZ, Côte des Basques, Studio Meublé",
+   "type": null,
+   "url": "https://www.agence-benquet.com/appartement-maison/biarritz-cote-des-basques-studio-meuble/",
+   "ville_agence": "Biarritz"
+  },
   "https://www.agence-benquet.com/appartement-maison/biarritz-hyper-centre-t2-meuble-6": {
    "agence": "Agence Benquet",
    "atouts": [
@@ -2511,7 +2533,7 @@
    "derniere_vue": "2026-10-06",
    "description": "Anglet – Maison 4 pièces avec jardin et garage – Secteur Pitoys (Rue d’Urubeyti) Située à Anglet, dans le secteur recherché de Pitoys, à proximité de l’aéroport de Biarritz, cette maison d’habitation d’environ 91,14 m², proposée à la location vide à l’année, offre une distribution fonctionnelle et des espaces agréables… Anglet – Maison 4 pièces avec jardin et garage – Secteur Pitoys (Rue d’Urubeyti) Aller au contenu Anglet – Maison 4 pièces avec jardin et garage – Secteur Pitoys (Rue d’Urubeyti) Anglet JARDIN 1 469 € 1 469 € JARDIN Descriptif du bien Anglet – Maison 4 pièces avec jardin et garage – Secteur Pitoys (Rue d’Urubeyti) Située à Anglet, dans le secteur recherché de Pitoys, à proximité de l’aéroport de Biarritz, cette maison d’habitation d’environ 91,14 m², proposée à la location vide à l’année, offre une distribution fonctionnelle et des espaces agréables à vivre. La maison se compose d’une entrée donnant sur un dégagement avec rangements. La pièce de vie, lumineuse et agréable, bénéficie d’un accès direct à une terrasse exposée plein sud, offrant une belle ouverture sur le jardin. Une grande cuisine aménagée complète l’espace de vie. La partie nuit se compose de trois ch",
    "dpe": null,
-   "ecart_prix_pct": 0,
+   "ecart_prix_pct": -1,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -2688,7 +2710,7 @@
    "description": "Tous les renseignements sur cette maison en location à Anglet avec un descriptif détaillé et des photos de présentation - 7 pièces, 149m² avec 5 chambre(s) à 2 163€ - Notre conseiller dans l'agence AJP Mateille Immobilier Biarritzest à votre disposition pour vous faire visiter cette maison en location à Anglet Location maison Anglet : 2 163 € - AJP Mateille Immobilier Biarritz ACHATS VENTES LOCATIONS GESTION LOCATIVE SYNDIC LMNP IMMOBILIER NEUF VACANCES ENTREPRISES DEVENIR FRANCHISÉ ACHATS VENTES LOCATIONS GESTION LOCATIVE SYNDIC LMNP IMMOBILIER NEUF LOCATIONS DE VACANCES ENTREPRISES DEVENIR FRANCHISÉ AJP Recrute AJP Actualités Service Qualité Clients Location maison Anglet : 2 163 € - AJP Mateille Immobilier Biarritz <<< Retour à la liste des annonces Précédente Suivante 149 m² 493 m² 7 5 2 149 m² 493 m² 7 5 2 Ref297 présentée par AJP Mateille Immobilier Biarritz Afficher le numéro Contact pour infos et visite 2 163 € CC Consulter notre barème d'honoraires Description de ce bien CONTACTS UNIQUEMENT VIA LA MESSAGERIE DU SITE SVPSituée dans un lotissement recherché, au calme, cette très belle maison lumineuse offre un cadre de vie privilégié, à proximité immédiate des commerces, des",
    "dpe": null,
    "ecart_prix_pct": -10,
-   "etiquette_prix": "dans le marché",
+   "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
     {
@@ -4403,7 +4425,7 @@
    "score": 1,
    "statut": "active",
    "surface": null,
-   "titre": "Exclusivité ST JEAN DE LUZ 64 850 € par mois charges comprises 59,6 m2 , appartement , 2 pcs",
+   "titre": "ST JEAN DE LUZ 64 850 € par mois charges comprises 59,6 m2 , appartement , 2 pcs",
    "type": "appartement",
    "url": "https://www.century21.fr/trouver_logement/detail/17019616819/",
    "ville_agence": "Bidart"
@@ -4568,7 +4590,7 @@
    "classement": "exclu",
    "contexte": "Appartement 2 pièces - 40 m² BAYONNE (64100) 820 € / mois",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 72,
+   "ecart_prix_pct": 71,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -4724,7 +4746,7 @@
    "classement": "exclu",
    "contexte": "Appartement 2 pièces - 46 m² ST JEAN DE LUZ (64500) 840 € / mois",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 14,
+   "ecart_prix_pct": 13,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -4842,7 +4864,7 @@
    "classement": "exclu",
    "contexte": "Appartement 2 pièces - 45 m² VIEUX BOUCAU LES BAINS (40480) 750 € / mois",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 4,
+   "ecart_prix_pct": 3,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -5272,7 +5294,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 615 €/mois AIRVAULT (79600) 69 m² • 3 pièces • 2 chambres Surf. terrain : 50 m² Contacter l'agence Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": -25,
+   "ecart_prix_pct": -26,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -5312,7 +5334,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Maison 650 €/mois ASSAIS LES JUMEAUX (79600) 101 m² • 3 pièces • 2 chambres Surf. terrain : 100 m² En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": -46,
+   "ecart_prix_pct": -47,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -5478,7 +5500,7 @@
    "derniere_vue": "2026-10-06",
    "description": "16/09/2026 - ✅ À louer, 3 chambres dans une maison entièrement rénovée, située à Chiberta, dans un environnement calme et privilégié. La maison ... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T1 ANGLET à louer 580 €/mois Charges comprises 30 m² • 1 pièce • 1 chambre Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 1 pièce Surface : 30 m² 1 chbre Autres Ann. const. : 1976 Description À louer, 3 chambres dans une maison entièrement rénovée, située à Chiberta, dans un environnement calme et privilégié. La maison dispose d'une piscine, d'un garage et de beaux espaces de vie. La location est réservée aux étudiants pour la période du 1er septembre au 31 mai. Les charges comprennent l'eau, l'électricité, le chauffage et l'accès à Internet. Pour tout renseignement complémentaire ou pour organiser une visite, n'hésitez pas à nous contacter. Loyer hors charges 480,00 € par mois, provision charges 100,00 € par mois, loyer charges comprises 580,00 € par mois Dépôt de garantie : 480,00 € Honoraires TTC charge locataire : 390,00 € TTC**, dont 90,00 € au titre de la réalisation de l'état des lieux 580,00 € CC par mois* Mentions légales e",
    "dpe": null,
-   "ecart_prix_pct": 20,
+   "ecart_prix_pct": 19,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -5536,7 +5558,7 @@
    "derniere_vue": "2026-10-06",
    "description": "16/09/2026 - ✅ À louer, 1 chambres restant à l'étage d'une maison entièrement rénovée, située à Chiberta, dans un environnement calme et privil�... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T1 ANGLET à louer 500 €/mois Charges comprises 28 m² • 1 pièce • 1 chambre Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 1 pièce Surface : 28 m² 1 chbre Description À louer, 1 chambres restant à l'étage d'une maison entièrement rénovée, située à Chiberta, dans un environnement calme et privilégié. La maison dispose d'une piscine, d'un garage et de beaux espaces de vie. La location est réservée aux étudiants pour la période du 1er septembre au 31 mai. Les charges comprennent l'eau, l'électricité, le chauffage et l'accès à Internet. Pour tout renseignement complémentaire ou pour organiser une visite, n'hésitez pas à nous contacter. Bien proposé par Pascal BOUQUET (RSAC n° 938252459) - Agent Commercial Loyer hors charges 400,00 € par mois, provision charges 100,00 € par mois, loyer charges comprises 500,00 € par mois Dépôt de garantie : 480,00 € Honoraires TTC charge locataire : 364,00 € TTC**, dont 84,00 € au titre de la réalisation ",
    "dpe": null,
-   "ecart_prix_pct": 11,
+   "ecart_prix_pct": 10,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -5597,7 +5619,7 @@
    "derniere_vue": "2026-10-06",
    "description": "02/10/2026 - ✅ Location statut étudiant (9 mois) Chambre d'Amour Appartement T3 avec deux chambres, au 1er et dernier étage d'une résidence 2022,... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T3 ANGLET à louer 783 €/mois Charges comprises 48 m² • 3 pièces • 2 chambres Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 3 pièces Surface : 48.15 m² 2 chbres 1 salle d'eau Intérieur Cuisine Indépendante Chauffage Électrique Garage Extérieur SousSol, GarageFerme Autres Ann. const. : 2022 Soumis à la copropriété Nb lots copro : 63 Description Location statut étudiant (9 mois) Chambre d'Amour Appartement T3 avec deux chambres, au 1er et dernier étage d'une résidence 2022, avec grande terrasse Sud-Ouest. Lumineux, au calme, à 300 m de la plage des Sables d'Or. Un bien rare, complet, et idéalement placé. Loyer hors charges 755,95 € par mois, provision charges 27,00 € par mois, loyer charges comprises 782,95 € par mois Dépôt de garantie : 1 512,00 € Montant moyen des charges annuelles : 1 068,00 € Honoraires TTC charge locataire : 625,95 € TTC**, dont 144,45 € au titre de la réalisation de l'état des lieux 782,95 € CC par mois* Mentio",
    "dpe": null,
-   "ecart_prix_pct": 37,
+   "ecart_prix_pct": 36,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -5661,7 +5683,7 @@
    "derniere_vue": "2026-10-06",
    "description": "04/10/2026 - ✅ À louer à Anglet, dans une résidence proche de toutes les commodités, agréable T4 de 85 m² situé au 7e étage avec ascenseur. Loc... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T4 ANGLET à louer 1 298 €/mois Charges comprises 85 m² • 4 pièces • 2 chambres Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 4 pièces Surface : 85 m² 2 chbres 1 salle de bain Intérieur Cuisine Indépendante Chauffage Gaz Ascenseur Balcon Terrasse 1 cave Extérieur Aerien Autres Ann. const. : 1975 Soumis à la copropriété Description À louer à Anglet, dans une résidence proche de toutes les commodités, agréable T4 de 85 m² situé au 7e étage avec ascenseur. Location proposée en bail mobilité d'octobre 2026 à juin 2027, sous réserve de remplir les conditions. Il se compose d'un double séjour de plus de 27 m² ouvrant sur une grande terrasse de plus de 15 m² exposée Sud, de 2 chambres avec balcon, d'une cuisine séparée aménagée et équipée, d'une salle de bains et de WC séparés. Places de stationnement dans la résidence. Contactez-nous pour plus d'informations ou organiser une visite. Bien proposé par Pascal BOUQUET (RSAC n° 938252459) - Age",
    "dpe": null,
-   "ecart_prix_pct": -5,
+   "ecart_prix_pct": -6,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -5713,8 +5735,8 @@
    "chambres": 4,
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 8 Maison 1 839 €/mois TOULOUSE (31200) 145 m² • 5 pièces • 4 chambres Cheminée • Surf. terrain : 130 m² • Terrasse • 2 salles d'eau En savoir plus Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": 7,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": 6,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -5756,7 +5778,7 @@
    "chambres": 4,
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 1 250 €/mois AUDINCOURT (25400) 97 m² • 7 pièces • 4 chambres Surf. terrain : 574 m² • Terrasse • Sous-sol • Garage Contacter l'agence Appeler",
-   "derniere_vue": "2026-10-05",
+   "derniere_vue": "2026-10-06",
    "ecart_prix_pct": 8,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
@@ -5879,7 +5901,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 7 Maison 1 280 €/mois AYTRE (17440) 57 m² • 3 pièces • 2 chambres Surface : 57 m² • 3 pièces • 2 chbres Contacter l'agence Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 89,
+   "ecart_prix_pct": 88,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -5998,7 +6020,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 5 Appartement 950 €/mois BAYONNE (64100) 52 m² • 2 pièces • 1 chambre Ascenseur • 1 cave • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 54,
+   "ecart_prix_pct": 52,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -6044,7 +6066,7 @@
    "derniere_vue": "2026-10-06",
    "description": "18/09/2026 - ✅ LOUÉ MEUBLÉ SEPT. A JUIN BAIL ÉTUDIANT ou MOBILITÉ COLOCATION ACCEPTÉE Idéalement situé et à proximité des commodités, cet a... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T3 BAYONNE à louer 1 250 €/mois Charges comprises 82 m² • 3 pièces • 2 chambres Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 3 pièces Surface : 82.35 m² 2 chbres 1 salle d'eau Intérieur Ascenseur Balcon Meublé Description LOUÉ MEUBLÉ SEPT. A JUIN BAIL ÉTUDIANT ou MOBILITÉ COLOCATION ACCEPTÉE Idéalement situé et à proximité des commodités, cet appartement de type 3, composé d'un grand séjour avec cuisine ouverte entièrement équipée, deux chambres. Une salle de bain et un WC séparés. Un balcon complète ce bien. LOYER CC : 1250 € (CH 200€ : eau froide et chaude, chauffage, électricité, internet, entretien parties communes et espaces verts) HONORAIRES D'AGENCES : 1079 € Loyer hors charges 1 050,00 € par mois, provision charges 200,00 € par mois, loyer charges comprises 1 250,00 € par mois Dépôt de garantie : 2 100,00 € Honoraires TTC charge locataire : 1 070,00 € TTC**, dont 247,00 € au titre de la réalisation de l'état des lieux 1 250,00 ",
    "dpe": null,
-   "ecart_prix_pct": 28,
+   "ecart_prix_pct": 27,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -6199,7 +6221,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 7 Appartement 791 €/mois BOUCAU (64340) 43 m² • 2 pièces • 1 chambre 1 cave • 1 salle d'eau • Balcon • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 55,
+   "ecart_prix_pct": 53,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -6554,7 +6576,7 @@
    "classement": "exclu",
    "contexte": "1 / 9 Maison 1 300 €/mois BLANQUEFORT (33290) 91 m² • 5 pièces • 3 chambres Surf. terrain : 468 m² Contacter l'agence Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 20,
+   "ecart_prix_pct": 19,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -6595,7 +6617,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 8 Maison 1 400 €/mois BLANQUEFORT (33290) 88 m² • 5 pièces • 3 chambres Surf. terrain : 333 m² • Terrasse Contacter l'agence Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 34,
+   "ecart_prix_pct": 32,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -6634,7 +6656,7 @@
    "classement": "exclu",
    "contexte": "1 / 12 Maison 2 100 €/mois BLANQUEFORT (33290) 156 m² • 6 pièces • 4 chambres Surf. terrain : 680 m² En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 13,
+   "ecart_prix_pct": 12,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -6754,7 +6776,7 @@
    "classement": "exclu",
    "contexte": "1 / 7 Maison 818 €/mois TEUILLAC (33710) 100 m² • 4 pièces • 3 chambres Surf. terrain : 40 m² En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": -31,
+   "ecart_prix_pct": -32,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -6794,7 +6816,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 565 €/mois VAL DE LIVENNE (33860) 48 m² • 2 pièces • 1 chambre Surf. terrain : 500 m² • Parking En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": -1,
+   "ecart_prix_pct": -2,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -6835,8 +6857,8 @@
    "chambres": 3,
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 18 Maison 880 €/mois ESTAGEL (66310) 101 m² • 4 pièces • 3 chambres Terrasse • Garage • 1 salle de bain • 1 salle d'eau En savoir plus Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": -27,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": -28,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -7005,7 +7027,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Maison 600 €/mois BRESSUIRE (79300) 23 m² • 2 pièces • 1 chambre Surface : 22.86 m² • 2 pièces • 1 chbre En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 119,
+   "ecart_prix_pct": 118,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7244,8 +7266,8 @@
    "chambres": 1,
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 890 €/mois VENCE (06140) 34 m² • 2 pièces • 1 chambre Piscine • 1 salle de bain • Parking Contacter l'agence Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": 120,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": 118,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7325,8 +7347,8 @@
    "chambres": 1,
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 7 Maison 940 €/mois CHAMBERY (73000) 41 m² • 2 pièces • 1 chambre Cheminée • Surf. terrain : 100 m² • 1 salle d'eau • Meublé En savoir plus Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": 92,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": 91,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7366,7 +7388,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 1 220 €/mois CHARTRES (28000) 110 m² • 5 pièces • 3 chambres 1 salle de bain • 1 salle d'eau Contacter l'agence Appeler",
    "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": -7,
+   "ecart_prix_pct": -8,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -7445,7 +7467,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 8 Maison 910 €/mois SAINT AUBIN SUR MER (14750) 45 m² • 3 pièces • 2 chambres Surface : 45.43 m² • 3 pièces • 2 chbres Contacter l'agence Appeler",
    "derniere_vue": "2026-10-03",
-   "ecart_prix_pct": 70,
+   "ecart_prix_pct": 68,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7524,8 +7546,8 @@
    "chambres": 3,
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 12 Maison 930 €/mois EPINAL (88000) 92 m² • 4 pièces • 3 chambres Surface : 91.5 m² • 4 pièces • 3 chbres En savoir plus Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": -15,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": -16,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -7566,7 +7588,7 @@
    "classement": "exclu",
    "contexte": "1 / 11 Maison 1 500 €/mois EYSINES (33320) 109 m² • 5 pièces • 3 chambres Cheminée • Surf. terrain : 970 m² • Terrasse • 1 salle de bain En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 16,
+   "ecart_prix_pct": 15,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7604,8 +7626,8 @@
    "chambres": 3,
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 1 950 €/mois LE PLESSIS BOUCHARD (95130) 103 m² • 4 pièces • 3 chambres Surface : 103 m² • 4 pièces • 3 chbres Contacter l'agence Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": 59,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": 57,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7645,8 +7667,8 @@
    "chambres": 2,
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 7 Maison 1 300 €/mois GOUSSAINVILLE (95190) 90 m² • 4 pièces • 2 chambres 1 salle de bain • Meublé • Parking En savoir plus Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": 21,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": 20,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7725,7 +7747,7 @@
    "classement": "exclu",
    "contexte": "1 / 8 Maison 960 €/mois GUJAN MESTRAS (33470) 47 m² • 3 pièces • 2 chambres Surf. terrain : 242 m² • 1 salle de bain • 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 71,
+   "ecart_prix_pct": 70,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7767,7 +7789,7 @@
    "classement": "exclu",
    "contexte": "1 / 11 Maison 1 744 €/mois LE TEICH (33470) 130 m² • 5 pièces • 4 chambres Surf. terrain : 425 m² • Terrasse • Accès handicapé • Garage En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 13,
+   "ecart_prix_pct": 12,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -7792,7 +7814,7 @@
    "score": 9,
    "statut": "active",
    "surface": 130.0,
-   "titre": "Maison 1 744 €/mois LE TEICH (33470) 130 m² • 5 pièces • 4 chambres Surf. terrain : 425 m² • Terrasse • Accès handicapé • Garage",
+   "titre": "Maison 1 744 €/mois LE TEICH (33470) 130 m² • 5 pièces • 4 chambres Surf. terrain : 425…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/gujan/louer/le-teich/maison-5-pieces-22082042",
    "ville_agence": "Bayonne"
@@ -7809,7 +7831,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Maison 1 650 €/mois MIOS (33380) 105 m² • 4 pièces • 3 chambres Surf. terrain : 1324 m² • Terrasse • Piscine • Garage En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 32,
+   "ecart_prix_pct": 31,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7834,7 +7856,7 @@
    "score": 10,
    "statut": "active",
    "surface": 105.0,
-   "titre": "Maison 1 650 €/mois MIOS (33380) 105 m² • 4 pièces • 3 chambres Surf. terrain : 1324 m² • Terrasse • Piscine • Garage",
+   "titre": "Maison 1 650 €/mois MIOS (33380) 105 m² • 4 pièces • 3 chambres Surf. terrain : 1324 m²…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/gujan/louer/mios/maison-4-pieces-52759823",
    "ville_agence": "Bayonne"
@@ -7969,7 +7991,7 @@
    "classement": "exclu",
    "contexte": "1 / 8 Maison 1 550 €/mois CHICHE (79350) 215 m² • 7 pièces • 5 chambres Surf. terrain : 2000 m² En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": -39,
+   "ecart_prix_pct": -40,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -8127,7 +8149,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 11 Maison 1 507 €/mois LAGORD (17140) 114 m² • 5 pièces • 4 chambres Surf. terrain : 455 m² • Terrasse • 1 salle de bain • 1 salle d'eau En savoir plus Appeler",
    "derniere_vue": "2026-10-04",
-   "ecart_prix_pct": 11,
+   "ecart_prix_pct": 10,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -8167,7 +8189,7 @@
    "classement": "exclu",
    "contexte": "1 / 14 Maison 1 500 €/mois LA ROCHELLE (17000) 78 m² • 4 pièces • 3 chambres Surf. terrain : 139 m² En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 61,
+   "ecart_prix_pct": 60,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -8290,8 +8312,8 @@
    "chambres": null,
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 550 €/mois LA ROCHE SUR YON (85000) 20 m² • 1 pièce Terrasse • 1 salle d'eau • Meublé • Parking En savoir plus Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": 131,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": 129,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -8330,8 +8352,8 @@
    "chambres": 4,
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 1 500 €/mois BOURGOIN JALLIEU (38300) 104 m² • 5 pièces • 4 chambres Surf. terrain : 370 m² • 1 salle d'eau Contacter l'agence Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": 21,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": 20,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -8370,8 +8392,8 @@
    "chambres": 4,
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 10 Maison 850 €/mois BANYULS DELS ASPRES (66300) 130 m² • 5 pièces • 4 chambres 2 salles d'eau En savoir plus Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": -45,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": -46,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -8449,8 +8471,8 @@
    "chambres": 4,
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 18 Maison 3 300 €/mois LE VESINET (78110) 156 m² • 6 pièces • 4 chambres Surf. terrain : 570 m² • Sous-sol • 1 salle de bain • 1 salle d'eau En savoir plus Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": 78,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": 77,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -8621,7 +8643,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 1 650 €/mois L ISLE ADAM (95290) 83 m² • 6 pièces • 4 chambres Surf. terrain : 481 m² • 1 salle de bain Contacter l'agence Appeler",
    "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": 67,
+   "ecart_prix_pct": 66,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -8662,7 +8684,7 @@
    "chambres": 3,
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 1 260 €/mois MAGNY EN VEXIN (95420) 109 m² • 4 pièces • 3 chambres Terrasse • Garage • 1 salle de bain • 1 salle d'eau En savoir plus Appeler",
-   "derniere_vue": "2026-10-05",
+   "derniere_vue": "2026-10-06",
    "ecart_prix_pct": -3,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
@@ -8734,6 +8756,47 @@
    "url": "https://www.laforet.com/agence-immobiliere/martignas/louer/martignas-sur-jalle/appartement-4-pieces-52941327",
    "ville_agence": "Bayonne"
   },
+  "https://www.laforet.com/agence-immobiliere/martignas/louer/martignas-sur-jalle/maison-4-pieces-52967577": {
+   "agence": "Laforêt (64, maisons)",
+   "atouts": [
+    "parking",
+    "85 m²",
+    "loyer 1390 €"
+   ],
+   "chambres": 3,
+   "classement": "exclu",
+   "contexte": "1 / 13 Maison 1 390 €/mois MARTIGNAS SUR JALLE (33127) 85 m² • 4 pièces • 3 chambres Surf. terrain : 150 m² • 1 salle de bain • Parking En savoir plus Appeler",
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": 37,
+   "etiquette_prix": "au-dessus du marché",
+   "historique_prix": [
+    {
+     "date": "2026-10-06",
+     "prix": 1390
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (33127)",
+   "pieces": 4,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-10-06",
+   "prix": 1390,
+   "prix_m2": 16.4,
+   "reserves": [],
+   "score": 6,
+   "statut": "active",
+   "surface": 85.0,
+   "titre": "Maison 1 390 €/mois MARTIGNAS SUR JALLE (33127) 85 m² • 4 pièces • 3 chambres Surf. terrain : 150 m² • 1 salle de bain • Parking",
+   "type": "maison",
+   "url": "https://www.laforet.com/agence-immobiliere/martignas/louer/martignas-sur-jalle/maison-4-pieces-52967577",
+   "ville_agence": "Bayonne"
+  },
   "https://www.laforet.com/agence-immobiliere/martignas/louer/sainte-helene/maison-5-pieces-52923820": {
    "agence": "Laforêt (64, maisons)",
    "atouts": [
@@ -8745,7 +8808,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 10 Maison 1 328 €/mois STE HELENE (33480) 92 m² • 5 pièces • 3 chambres Surf. terrain : 483 m² • 1 salle d'eau • Parking Contacter l'agence Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 21,
+   "ecart_prix_pct": 20,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -8824,7 +8887,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Maison 460 €/mois SAINT AMAND SUR SEVRE (79700) 39 m² • 2 pièces • 1 chambre Surface : 39.33 m² • 2 pièces • 1 chbre En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": -1,
+   "ecart_prix_pct": -2,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -8908,8 +8971,8 @@
    "chambres": 3,
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 1 500 €/mois BERSEE (59235) 117 m² • 5 pièces • 3 chambres Sous-sol • 1 salle de bain • 1 salle d'eau Contacter l'agence Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": 1,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": 0,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -8993,7 +9056,7 @@
    "chambres": 3,
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 1 045 €/mois MONTAIN (82100) 144 m² • 4 pièces • 3 chambres Surf. terrain : 5000 m² • Terrasse Contacter l'agence Appeler",
-   "derniere_vue": "2026-10-05",
+   "derniere_vue": "2026-10-06",
    "ecart_prix_pct": -39,
    "etiquette_prix": "bon prix",
    "historique_prix": [
@@ -9242,7 +9305,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 1 150 €/mois MORSANG SUR ORGE (91390) 50 m² • 3 pièces • 1 chambre 1 salle d'eau Contacter l'agence Appeler",
    "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": 93,
+   "ecart_prix_pct": 92,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -9281,8 +9344,8 @@
    "chambres": 3,
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 6 Maison 1 100 €/mois LABASTIDETTE (31600) 98 m² • 4 pièces • 3 chambres Surf. terrain : 800 m² En savoir plus Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": -6,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": -7,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -9446,7 +9509,7 @@
    "classement": "exclu",
    "contexte": "1 / 16 Maison 2 000 €/mois CHAMPS SUR MARNE (77420) 171 m² • 6 pièces • 5 chambres Surf. terrain : 274.64 m² • Terrasse • Sous-sol • 1 salle de bain Contacter l'agence Appeler",
    "derniere_vue": "2026-10-03",
-   "ecart_prix_pct": -2,
+   "ecart_prix_pct": -3,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -9567,8 +9630,8 @@
    "chambres": 3,
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 1 900 €/mois NOISY LE GRAND (93160) 112 m² • 4 pièces • 3 chambres Terrasse • 1 salle de bain • 1 salle d'eau Contacter l'agence Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": 43,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": 42,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -9610,8 +9673,8 @@
    "chambres": 3,
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 1 800 €/mois NOISY LE GRAND (93160) 78 m² • 4 pièces • 3 chambres Terrasse • Sous-sol • Garage • 1 salle de bain Contacter l'agence Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": 94,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": 93,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -9975,7 +10038,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 8 Maison 680 €/mois LE TALLUD (79200) 78 m² • 3 pièces • 2 chambres Surf. terrain : 573 m² En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": -27,
+   "ecart_prix_pct": -28,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -10015,7 +10078,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Maison 710 €/mois LE TALLUD (79200) 92 m² • 4 pièces • 3 chambres Surf. terrain : 781 m² En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": -35,
+   "ecart_prix_pct": -36,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -10136,7 +10199,7 @@
    "classement": "exclu",
    "contexte": "1 / 12 Appartement 445 €/mois BILLERE (64140) 21 m² • 1 pièce • 1 chambre 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 78,
+   "ecart_prix_pct": 77,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -10175,7 +10238,7 @@
    "classement": "exclu",
    "contexte": "1 / 7 Appartement 735 €/mois BILLERE (64140) 68 m² • 3 pièces • 2 chambres Surface : 67.63 m² • 3 pièces • 2 chbres En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": -9,
+   "ecart_prix_pct": -10,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -10295,7 +10358,7 @@
    "classement": "exclu",
    "contexte": "1 / 5 Appartement 595 €/mois PAU (64000) 34 m² • 1 pièce Terrasse • Ascenseur • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 47,
+   "ecart_prix_pct": 46,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -10336,7 +10399,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Appartement 590 €/mois PAU (64000) 25 m² • 1 pièce Ascenseur • 1 salle d'eau • Balcon • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 98,
+   "ecart_prix_pct": 97,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -10375,7 +10438,7 @@
    "classement": "exclu",
    "contexte": "1 / 5 Appartement 570 €/mois PAU (64000) 32 m² • 2 pièces • 1 chambre 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 50,
+   "ecart_prix_pct": 48,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -10456,7 +10519,7 @@
    "classement": "exclu",
    "contexte": "1 / 7 Appartement 700 €/mois PAU (64000) 36 m² • 2 pièces • 1 chambre Ascenseur • 1 salle de bain • Balcon • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": 63,
+   "ecart_prix_pct": 62,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -10620,7 +10683,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 750 €/mois PAU (64000) 55 m² • 3 pièces • 2 chambres 1 cave • 1 salle d'eau • Balcon • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 14,
+   "ecart_prix_pct": 13,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -10663,7 +10726,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 16 Appartement 1 300 €/mois PAU (64000) 76 m² • 3 pièces • 2 chambres Terrasse • Ascenseur • Garage • 1 salle d'eau En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 44,
+   "ecart_prix_pct": 43,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -10705,7 +10768,7 @@
    "classement": "exclu",
    "contexte": "1 / 8 Appartement 1 100 €/mois PAU (64000) 110 m² • 4 pièces • 3 chambres Sous-sol • 1 cave • 1 salle de bain • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": -16,
+   "ecart_prix_pct": -17,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -10744,7 +10807,7 @@
    "classement": "exclu",
    "contexte": "1 / 9 Appartement 800 €/mois PAU (64000) 68 m² • 4 pièces • 3 chambres 1 salle de bain • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": -1,
+   "ecart_prix_pct": -2,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -10788,7 +10851,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 9 Appartement 850 €/mois PAU (64000) 68 m² • 4 pièces • 3 chambres 1 salle de bain Message Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": -1,
+   "ecart_prix_pct": -2,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -10834,7 +10897,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Maison 1 109 €/mois COULOUNIEIX CHAMIERS (24660) 111 m² • 7 pièces • 5 chambres Surf. terrain : 440 m² • Piscine • Sous-sol • 1 cave En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": -16,
+   "ecart_prix_pct": -17,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -10873,8 +10936,8 @@
    "chambres": 2,
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 6 Maison 1 100 €/mois DAMMARTIN SUR TIGEAUX (77163) 70 m² • 3 pièces • 2 chambres Surface : 70 m² • 3 pièces • 2 chbres En savoir plus Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": 32,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": 31,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -10953,8 +11016,8 @@
    ],
    "chambres": 3,
    "classement": "exclu",
-   "contexte": "0 / 0 Maison 745 €/mois PONT L ABBE (29120) 80 m² • 4 pièces • 3 chambres 1 salle d'eau • Meublé • Parking En savoir plus Appeler",
-   "derniere_vue": "2026-10-05",
+   "contexte": "Nouveauté 0 / 0 Maison 745 €/mois PONT L ABBE (29120) 80 m² • 4 pièces • 3 chambres 1 salle d'eau • Meublé • Parking En savoir plus Appeler",
+   "derniere_vue": "2026-10-06",
    "ecart_prix_pct": -22,
    "etiquette_prix": "bon prix",
    "historique_prix": [
@@ -10980,7 +11043,7 @@
    "score": 6,
    "statut": "active",
    "surface": 80.0,
-   "titre": "Maison 745 €/mois PONT L ABBE (29120) 80 m² • 4 pièces • 3 chambres 1 salle d'eau •…",
+   "titre": "Maison 745 €/mois PONT L ABBE (29120) 80 m² • 4 pièces • 3 chambres 1 salle d'eau • Meublé • Parking",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/pontlabbe/louer/pont-l-abbe/maison-4-pieces-52946876",
    "ville_agence": "Bayonne"
@@ -11036,8 +11099,8 @@
    "chambres": 3,
    "classement": "exclu",
    "contexte": "1 / 17 Maison 1 340 €/mois BOURGOGNE FRESNE (51110) 142 m² • 5 pièces • 3 chambres Surf. terrain : 651 m² • Accès handicapé • Sous-sol • 1 cave En savoir plus Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": -21,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": -22,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -11076,7 +11139,7 @@
    "chambres": 3,
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 8 Maison 830 €/mois SAINT MARTIN DE BOSSENAY (10100) 102 m² • 5 pièces • 3 chambres Surf. terrain : 1807 m² En savoir plus Appeler",
-   "derniere_vue": "2026-10-05",
+   "derniere_vue": "2026-10-06",
    "ecart_prix_pct": -32,
    "etiquette_prix": "bon prix",
    "historique_prix": [
@@ -11198,7 +11261,7 @@
    "classement": "exclu",
    "contexte": "1 / 14 Maison 840 €/mois BRIVES SUR CHARENTE (17800) 116 m² • 4 pièces • 3 chambres 1 salle de bain En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": -39,
+   "ecart_prix_pct": -40,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -11370,8 +11433,8 @@
    "chambres": 3,
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 12 Maison 1 800 €/mois LEAZ (01200) 98 m² • 5 pièces • 3 chambres Terrasse • 1 cave • 1 salle de bain Contacter l'agence Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": 55,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": 53,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -11534,8 +11597,8 @@
    "chambres": 3,
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 9 Maison 1 800 €/mois VILLENEUVE LE COMTE (77174) 81 m² • 4 pièces • 3 chambres Surf. terrain : 200 m² • Terrasse • Garage • 1 salle de bain En savoir plus Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": 87,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": 85,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -11576,7 +11639,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 692 €/mois BRION PRES THOUET (79290) 84 m² • 3 pièces • 2 chambres Surf. terrain : 100 m² • Garage • 1 salle d'eau Contacter l'agence Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": -31,
+   "ecart_prix_pct": -32,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -11698,7 +11761,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 8 Maison 615 €/mois THOUARS (79100) 60 m² • 2 pièces • 1 chambre 1 cave • 1 salle d'eau En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": -14,
+   "ecart_prix_pct": -15,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -11737,7 +11800,7 @@
    "classement": "exclu",
    "contexte": "1 / 7 Maison 370 €/mois THOUARS (79100) 35 m² • 2 pièces • 1 chambre Surf. terrain : 3 m² En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": -11,
+   "ecart_prix_pct": -12,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -11858,7 +11921,7 @@
    "classement": "exclu",
    "contexte": "1 / 14 Maison 790 €/mois VAL EN VIGNES (79290) 110 m² • 4 pièces • 3 chambres Surf. terrain : 700 m² En savoir plus Appeler",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": -39,
+   "ecart_prix_pct": -40,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -11897,7 +11960,7 @@
    "chambres": 2,
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 640 €/mois ILLE SUR TET (66130) 70 m² • 3 pièces • 2 chambres Surface : 70 m² • 3 pièces • 2 chbres En savoir plus Appeler",
-   "derniere_vue": "2026-10-05",
+   "derniere_vue": "2026-10-06",
    "ecart_prix_pct": -24,
    "etiquette_prix": "bon prix",
    "historique_prix": [
@@ -11978,8 +12041,8 @@
    "chambres": 3,
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 17 Maison 970 €/mois VALENCIENNES (59300) 97 m² • 5 pièces • 3 chambres 1 salle de bain En savoir plus Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": -16,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": -17,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -12057,8 +12120,8 @@
    "chambres": 3,
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 1 317 €/mois BULLY (14320) 83 m² • 4 pièces • 3 chambres 1 salle d'eau • Meublé En savoir plus Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": 34,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": 32,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -12097,8 +12160,8 @@
    "chambres": 4,
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 8 Maison 1 204 €/mois FONTAINE ETOUPEFOUR (14790) 113 m² • 5 pièces • 4 chambres Surf. terrain : 700 m² • 1 salle de bain • 1 salle d'eau Contacter l'agence Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": -10,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": -11,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -12178,8 +12241,8 @@
    "chambres": 1,
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 6 Maison 507 €/mois PARENT (63270) 43 m² • 2 pièces • 1 chambre 1 cave • 1 salle d'eau En savoir plus Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": -1,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": -2,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -12218,8 +12281,8 @@
    "chambres": 4,
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 9 Maison 870 €/mois FRESNAY L EVEQUE (28310) 163 m² • 5 pièces • 4 chambres Cheminée • Surf. terrain : 268 m² • 1 salle de bain • 1 salle d'eau Contacter l'agence Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": -55,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": -56,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -12257,9 +12320,9 @@
    "chambres": 2,
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 7 Maison 905 €/mois LES VILLAGES VOVEENS (28150) 66 m² • 3 pièces • 2 chambres Surf. terrain : 150 m² • 1 salle d'eau Contacter l'agence Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": 15,
-   "etiquette_prix": "au-dessus du marché",
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": 14,
+   "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
      "date": "2026-09-22",
@@ -12296,8 +12359,8 @@
    "chambres": 1,
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 665 €/mois PRE SAINT MARTIN (28800) 50 m² • 2 pièces • 1 chambre Surf. terrain : 300 m² • 1 salle d'eau Contacter l'agence Appeler",
-   "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": 12,
+   "derniere_vue": "2026-10-06",
+   "ecart_prix_pct": 11,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -12530,7 +12593,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté Maison 6 pièce(s) 4 chambre(s) 120.36 m² Lahonce (64990) 1 570 € CC*",
    "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": -19,
+   "ecart_prix_pct": -20,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -12570,7 +12633,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté Duplex 6 pièce(s) 5 chambre(s) 113.96 m² Mouguerre (64990) 1 237 € CC*",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": -32,
+   "ecart_prix_pct": -33,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -12610,7 +12673,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Nouveauté Rez de jardin 3 pièce(s) 2 chambre(s) 43.94 m² Boucau (64340) 780 € CC*",
    "derniere_vue": "2026-10-04",
-   "ecart_prix_pct": 11,
+   "ecart_prix_pct": 10,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -12649,7 +12712,7 @@
    "classement": "exclu",
    "contexte": "Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 54.26 m² Bayonne (64100) 890 € CC*",
    "derniere_vue": "2026-10-05",
-   "ecart_prix_pct": 38,
+   "ecart_prix_pct": 37,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -12700,7 +12763,7 @@
    "derniere_vue": "2026-10-06",
    "description": "Location Bayonne : Bel appartement T4 rénové, lumineux et ensoleillé à BAYONNE. Appartement 4 pièce(s) 3 chambre(s) 72.17 m² Agence immobilière à Anglet Location Bayonne Appartement Laurence VISCARRET Négociatrice Appeler l'agent Contacter l'agent Contacter l'agent Retour aux résultats Télécharger la fiche Partager ce bien Exclusivité Nouveauté Afficher toutes les photos Appartement 4 pièce(s) 3 chambre(s) 72.17 m² Bayonne (64100) 939 € CC* * Charges comprises Référence 2251 A propos de ce bien Administrateurs de biens immobiliers, nous proposons à la location un appartement de 75 m² environ à BAYONNE, disponible le 31 octobre. Cet appartement de type 4 est situé au 1er étage surelevé d’une résidence entourée de verdure au cœur du quartier Caradoc, au calme, tout en bénéficiant de commerces de quartier comme des transports en commun. Il se compose d'une entrée sur dégagement desservant un séjour sur balcon, une cuisine indépendante aménagée, une salle de bains, un wc séparé et trois chambres dont 2 avec placards aménagés. L'appartement bénéficie d'un box privatif et d'une cave privative. Le chauffage est au gaz et les menuiseries sont en double vitrage. Les frais d’état des lieux s",
    "dpe": null,
-   "ecart_prix_pct": 9,
+   "ecart_prix_pct": 8,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -13038,7 +13101,7 @@
    "derniere_vue": "2026-10-06",
    "description": "Ã? louer Ã l'annÃ©e T2 Bis plein de charme au coeur de Biarri Biarritz Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Biarritz 1310 € Ã? louer Ã l'annÃ©e T2 Bis plein de charme au coeur de Biarri à louer de 2 pièce(s) sur 72 m² Retour au listing Points clés... 2 pièce(s) , 72 m² 1 chambre(s) 1 salle(s) de bains Ref. 2154-1688 Descriptif du bien • Ã? louer Ã l'annÃ©e T2 Bis plein de charme au coeur de Biarri À louer à l\\'année T2 Bis plein de charme au coeur de Biarritz À seulement quelques pas des Halles, cet appartement de 70 m2 séduit par son cachet authentique et son emplacement idéal. Son parquet ancien, ses cheminées décoratives et sa belle hauteur sous plafond lui confèrent une atmosphère chaleureuse et élégante. L\\'espace de vie est agréable et lumineux, avec un séjour convivial qui s\\'ouvre sur un bureau pouvant également servir de second coin nuit. La chambre principale offre un espace confortable et intimiste. La cuisine rénovée et semi-équipée (plaques et hotte) allie modernité et praticité, tandis que la salle d\\'eau, récemment refaite à neuf, apporte une touche contemporaine et fonctionnelle. U",
    "dpe": "D",
-   "ecart_prix_pct": 53,
+   "ecart_prix_pct": 52,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -13358,7 +13421,7 @@
    "derniere_vue": "2026-10-06",
    "description": "Appartement 90m2 BAYONNE - LOGEMENT ETUDIANT UNIQUEMENT Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 785 € Appartement 90m2 BAYONNE - LOGEMENT ETUDIANT UNIQUEMENT à louer de 2 pièce(s) sur 90 m² Retour au listing Points clés... 2 pièce(s) , 90 m² 1 salle(s) de bains Ref. 2105 Descriptif du bien • Appartement 90m2 BAYONNE - LOGEMENT ETUDIANT UNIQUEMENT LOGEMENT ETUDIANT DE SEPTEMBRE 2026 A JUIN 2027 Beaucoup de charme et de cachet pour ce grand T2 Bis meublé sis rue des basques en plein coeur du centre ville de Bayonne. A 2 pas des halles, des bords de Nive, ce logement de 90 m2 offre un très beau volume : Vaste séjour, cuisine ouverte meublée et équipée. Une salle d\\'eau équipée d\\'une grande douche, WC séparés. Une chambre et une pièce attenante, un grand dressing au calme coté escalier; Une cave compléte cette location. No2105000 BAYONNE Disponible SEPTEMBRE 2026 à JUIN 2027 Manoir de France: 05.59.59.66.33 Appartement. Nombre de pièces : T2 bis Surface habitable :90.00M2 LOYER CC / mois : 785.28EUR dont 39EUR de provision sur charges soumis à régularisation annuelle et 27EUR de Box Inte",
    "dpe": null,
-   "ecart_prix_pct": -27,
+   "ecart_prix_pct": -28,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -13711,7 +13774,7 @@
    "derniere_vue": "2026-10-06",
    "description": "T4 de 82 m2 avec grande terrasse Quartier Beyris Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 1076 € T4 de 82 m2 avec grande terrasse Quartier Beyris à louer de 4 pièce(s) sur 82 m² Retour au listing Points clés... 4 pièce(s) , 82 m² 1 salle(s) de bains Ref. 1999_1 Descriptif du bien • T4 de 82 m2 avec grande terrasse Quartier Beyris Dans le quartier recherché de Beyris, découvrez ce bel appartement T4 de 82 m2, idéalement situé à proximité de toutes les commodités : pharmacie, boulangerie, écoles et lycées, centres commerciaux ainsi que les transports en commun. Situé au 1er étage d\\'une résidence calme, arborée et bien entretenue avec ascenseur, cet appartement lumineux offre des espaces agréables et fonctionnels. Il se compose d\\'une entrée spacieuse de 11 m2, d\\'une cuisine de 12 m2 ouvrant sur une belle terrasse de 20 m2 exposée Ouest, ainsi que d\\'un séjour de 19 m2, très lumineux, avec parquet et donnant également accès à la terrasse, exposée Sud. L\\'espace nuit comprend trois chambres avec parquet de 11, 11 et 10 m2, dont deux disposent d\\'un placard. L\\'appartement dispose égaleme",
    "dpe": "C",
-   "ecart_prix_pct": 10,
+   "ecart_prix_pct": 9,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -13770,7 +13833,7 @@
    "classement": "exclu",
    "contexte": "Maison Mouguerre Maison Mouguerre Mouguerre | 64990 1700 € | 207 m² | Réf B2924000",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": -31,
+   "ecart_prix_pct": -32,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -13810,7 +13873,7 @@
    "classement": "exclu",
    "contexte": "Maison Saubrigues Maison Saubrigues Saubrigues | 40230 1235 € | 106 m² | Réf 120138-166356",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": -2,
+   "ecart_prix_pct": -3,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -13850,7 +13913,7 @@
    "classement": "exclu",
    "contexte": "Maison Urcuit Maison Urcuit Urcuit | 64990 1260 € | 87 m² | Réf B3030000",
    "derniere_vue": "2026-10-06",
-   "ecart_prix_pct": 22,
+   "ecart_prix_pct": 21,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -14197,6 +14260,76 @@
    "url": "https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-264d4594-2f22-4918-b8e6-d7f79f2be7eb/?agency=ag5cantons",
    "ville_agence": "Anglet"
   },
+  "https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-5ca0b2f9-bc05-44dc-9d44-4ca7a0f1f18a?agency=ag5cantons": {
+   "agence": "Orpi Agence des 5 Cantons",
+   "atouts": [
+    "lumineux",
+    "terrasse",
+    "balcon",
+    "extérieur",
+    "parking",
+    "cuisine équipée",
+    "à l'année",
+    "loyer 950 €",
+    "DPE A"
+   ],
+   "chambres": 1,
+   "classement": "exclu",
+   "contexte": "950 € par mois Location Location Appartement 2 pièces 46,14 m 2 Anglet - Centre-ville Favoris Message",
+   "derniere_vue": "2026-10-06",
+   "description": "Appartement, m² T-2 à louer à Anglet pour 950 € avec Orpi Appartement à louer 2 pièces • Anglet Déposer un dossier Message Écrire à l'agence Partager Partager via e-mail Partager via facebook Partager via whatsapp Partager via SMS Favoris 9 Photos Carte Appartement à louer 2 pièces • Anglet Bon état 950 € par mois Charges comprises Loyer de base : 925 € Dépôt de garantie : 1 850 € Honoraires TTC à la charge du locataire : 611 € dont 138 € d'honoraires d'état des lieux Provisions pour charges : 25 € Réf. Orpi : 5ca0b2f9-bc05-44dc-9d44-4ca7a0f1f18a L'essentiel 2 pièces Surface 46,14 m² 1 chambre 1 salle de bain/eau Séjour 19,17 m² Extérieur Terrasse Place de parking Afficher plus de détails Afficher moins de détails L'avis de l'agent Anglet - Appartement T2 à louer meublé à l'année. Appartement T2 de 46 m² à louer meublé à l'année à ANGLET. Ce bien lumineux au 1er étage dispose d'un séjour, d'une cuisine équipée, d'une chambre, d'une salle de bain et d'un WC. Un balcon de plus de 11 m² complete vous permettra de profiter des beaux jours. *Comment postuler ?* Il vous suffit de répondre directement à l’annonce Vous recevrez ensuite un e-mail vous guidant pas à pas pour compléter votre ",
+   "dpe": "A",
+   "ecart_prix_pct": 27,
+   "etiquette_prix": "au-dessus du marché",
+   "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-10-06",
+     "prix": 950
+    }
+   ],
+   "itineraire_pos": "43.4855,-1.5185",
+   "itineraire_source": "route",
+   "km_hopital": 4.9,
+   "lat": 43.4855,
+   "lon": -1.5185,
+   "meuble": true,
+   "min_velo": 20,
+   "min_voiture": 9,
+   "motif_exclusion": "T2 de 46 m², sous le seuil de 55 m²",
+   "photo": "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/5ca0b2f9-bc05-44dc-9d44-4ca7a0f1f18a--bddf1f69-96c1-4e38-b833-0b3626aa6b46.jpg?p=estate-v2&ci_url_encoded=1&ci_sign=69d09cd5bb6234e8136e02e75d7f2fbcf3affd9e",
+   "photo_cherchee": true,
+   "photos": [
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/5ca0b2f9-bc05-44dc-9d44-4ca7a0f1f18a--bddf1f69-96c1-4e38-b833-0b3626aa6b46.jpg?p=estate-v2&ci_url_encoded=1&ci_sign=69d09cd5bb6234e8136e02e75d7f2fbcf3affd9e",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/5ca0b2f9-bc05-44dc-9d44-4ca7a0f1f18a--bddf1f69-96c1-4e38-b833-0b3626aa6b46.jpg?p=default&ci_url_encoded=1&ci_sign=a158aa307ddbf4d5c2fe105dd0f77d960cd8a083",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/5ca0b2f9-bc05-44dc-9d44-4ca7a0f1f18a--8ee06197-4de2-4f08-b2ea-dab2b853e7bd.jpg?p=default&ci_url_encoded=1&ci_sign=7020ccebdf6fc660caf35131bab321b1d35d7a16",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/5ca0b2f9-bc05-44dc-9d44-4ca7a0f1f18a--9e106a82-d22d-4083-92d2-779ee7bfa8ea.jpg?p=default&ci_url_encoded=1&ci_sign=1418cbeba994346ba71986e248fc4e8ec118d108",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/5ca0b2f9-bc05-44dc-9d44-4ca7a0f1f18a--9601ea31-8be7-46fb-a2ca-c0040860ff24.jpg?p=default&ci_url_encoded=1&ci_sign=a03c0cbe6622a4e9b141f3ceb215c80100babe1e",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/5ca0b2f9-bc05-44dc-9d44-4ca7a0f1f18a--751e6790-82e6-459e-a137-bf2e8fb93c04.jpg?p=default&ci_url_encoded=1&ci_sign=ee41119cf3d2479e7920b47123be1be61acedd4d",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/5ca0b2f9-bc05-44dc-9d44-4ca7a0f1f18a--025d7cbc-864a-4b4a-900a-d5129b7c2486.jpg?p=default&ci_url_encoded=1&ci_sign=c82e460d4f41cec735dea8be776d46daae180ba8",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/5ca0b2f9-bc05-44dc-9d44-4ca7a0f1f18a--8efe1685-1bc2-450d-af59-aea5bca4b748.jpg?p=default&ci_url_encoded=1&ci_sign=afe5e09551ada640db43f165149db506207872ce",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/5ca0b2f9-bc05-44dc-9d44-4ca7a0f1f18a--9514cbac-d983-45c3-90d2-7e554c564f21.jpg?p=default&ci_url_encoded=1&ci_sign=a8fff34f5197a5ea27ebd851a266a96e3e045601",
+    "https://cutjhqvjma.cloudimg.io/_prod_/sweepbright-s3/5ca0b2f9-bc05-44dc-9d44-4ca7a0f1f18a--138594d1-4940-4aa4-b6f2-0881f95210fe.jpg?p=default&ci_url_encoded=1&ci_sign=d1d389f3af968ce2016a1a71ac73f6435e0b3079"
+   ],
+   "photos_cherchees": true,
+   "pieces": 2,
+   "position": "Anglet (ville de l'agence)",
+   "premiere_vue": "2026-10-06",
+   "prix": 950,
+   "prix_m2": 20.6,
+   "reserves": [],
+   "score": 17,
+   "signaux": [
+    "2 pièces"
+   ],
+   "statut": "active",
+   "surface": 46.14,
+   "tel": "0559030434",
+   "titre": "Location Appartement 2 pièces 46,14 m2 Anglet - Centre-ville",
+   "type": "appartement",
+   "url": "https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-5ca0b2f9-bc05-44dc-9d44-4ca7a0f1f18a/?agency=ag5cantons",
+   "ville_agence": "Anglet"
+  },
   "https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-d535426d-0995-4292-93f9-2d63404b8f32?agency=ag5cantons": {
    "agence": "Orpi Agence des 5 Cantons",
    "atouts": [
@@ -14514,7 +14647,7 @@
    "description": "Appartement, 82 m² T-4 à louer à Anglet pour 1 320 € avec Orpi Appartement à louer 4 pièces • 82 m 2 Anglet Déposer un dossier Message Écrire à l'agence Partager Partager via e-mail Partager via facebook Partager via whatsapp Partager via SMS Favoris 8 Photos Carte Appartement à louer 4 pièces • 82 m 2 Anglet Bon état 1 320 € par mois Charges comprises Loyer de base : 1 270 € Dépôt de garantie : 1 270 € Honoraires TTC à la charge du locataire : 1 066 € dont 246 € d'honoraires d'état des lieux Provisions pour charges : 50 € Location meublée Réf. Orpi : 8c4df96b-7979-48c8-bf2a-b3b83106a08f L'essentiel 4 pièces Surface 82 m² 3 chambres 1 salle de bain/eau Séjour 27,18 m² Intérieur Ascenseur Chauffage central Meublé Extérieur Balcon Cave Place de parking Afficher plus de détails Afficher moins de détails L'avis de l'agent Location meublée à l'année - ANGLET CENTRE. ANGLET - Maignon Location meublée à l'année. Bel appartement meublé comprenant une entrée, un séjour donnant sur un balcon, une cuisine équipée, 3 chambres et une salle de bain. Disponible dès maintenant. Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques georisques.gouv.fr M",
    "dpe": "A",
    "ecart_prix_pct": -10,
-   "etiquette_prix": "dans le marché",
+   "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
     {
@@ -16064,6 +16197,12 @@
    "agences_ok": 19,
    "date": "2026-10-06",
    "nouveautes": 9
+  },
+  {
+   "actives": 183,
+   "agences_ok": 18,
+   "date": "2026-10-06",
+   "nouveautes": 7
   }
  ]
 }
