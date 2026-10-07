@@ -3134,7 +3134,7 @@
    "chambres": null,
    "classement": "exclu",
    "contexte": "Exclusivité ST JEAN DE LUZ 64 690 € par mois charges comprises 40,0 m 2 , appartement , 2 pcs",
-   "derniere_vue": "2026-10-02",
+   "derniere_vue": "2026-10-07",
    "itineraire_pos": "43.437,-1.5915",
    "itineraire_source": "route",
    "km_hopital": 12.6,
@@ -3149,7 +3149,7 @@
    "prix": null,
    "reserves": [],
    "score": 1,
-   "statut": "disparu",
+   "statut": "active",
    "surface": null,
    "titre": "ST JEAN DE LUZ 64 690 € par mois charges comprises 40,0 m2 , appartement ,…",
    "type": "appartement",
@@ -3202,7 +3202,7 @@
    "chambres": null,
    "classement": "exclu",
    "contexte": "Exclusivité ST JEAN DE LUZ 64 1 300 € par mois charges comprises 69,6 m 2 , appartement , 3 pcs",
-   "derniere_vue": "2026-09-29",
+   "derniere_vue": "2026-10-07",
    "historique_prix": [
     {
      "date": "2026-09-14",
@@ -3223,7 +3223,7 @@
    "prix": 1300,
    "reserves": [],
    "score": 3,
-   "statut": "disparu",
+   "statut": "active",
    "surface": null,
    "titre": "ST JEAN DE LUZ 64 1 300 € par mois charges comprises 69,6 m2 , appartement…",
    "type": "appartement",
@@ -6749,7 +6749,7 @@
    "score": 2,
    "statut": "active",
    "surface": 30.0,
-   "titre": "Appartement 550 €/mois BRAUD ET SAINT LOUIS (33820) 30 m² • 1 pièce Surf. terrain : 40 m² • 1 salle d'eau • Meublé",
+   "titre": "Appartement 550 €/mois BRAUD ET SAINT LOUIS (33820) 30 m² • 1 pièce Surf. terrain : 40…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/blaye/louer/braud-et-saint-louis/appartement-1-piece-52971118",
    "ville_agence": "Bayonne"
@@ -7443,7 +7443,7 @@
    "score": 5,
    "statut": "active",
    "surface": 60.0,
-   "titre": "Appartement 1 150 €/mois CERGY (95800) 60 m² • 3 pièces • 2 chambres Ascenseur • 1 salle de bain • Parking",
+   "titre": "Appartement 1 150 €/mois CERGY (95800) 60 m² • 3 pièces • 2 chambres Ascenseur • 1…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/cergylehaut/louer/cergy/appartement-3-pieces-52970949",
    "ville_agence": "Bayonne"
@@ -7604,7 +7604,7 @@
    "score": 6,
    "statut": "active",
    "surface": 63.0,
-   "titre": "Appartement 1 850 €/mois COURBEVOIE (92400) 63 m² • 3 pièces • 2 chambres Ascenseur • 1 cave • Balcon • Meublé",
+   "titre": "Appartement 1 850 €/mois COURBEVOIE (92400) 63 m² • 3 pièces • 2 chambres Ascenseur • 1…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/courbevoie/louer/courbevoie/appartement-3-pieces-52971013",
    "ville_agence": "Bayonne"
@@ -12808,7 +12808,7 @@
    "score": 2,
    "statut": "active",
    "surface": 41.62,
-   "titre": "Exclusivité Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 41.62 m² Ustaritz (64480) 607 € CC*",
+   "titre": "Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 41.62 m² Ustaritz (64480) 607 € CC*",
    "type": "appartement",
    "url": "https://www.lelogisbasque.fr/location/109-ustaritz/appartement/2349-superbe-t2-recent-avec-magnifique-vue-degagee-au-bourg-d-ustaritz",
    "ville_agence": "Anglet"
@@ -16462,6 +16462,12 @@
    "agences_ok": 19,
    "date": "2026-10-07",
    "nouveautes": 8
+  },
+  {
+   "actives": 190,
+   "agences_ok": 19,
+   "date": "2026-10-07",
+   "nouveautes": 4
   }
  ]
 }

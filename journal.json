@@ -1669,10 +1669,10 @@
  "https://www.century21.fr/trouver_logement/detail/15664537175": {
   "agence": "Century 21 (Bidart, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-02",
+  "derniere_vue": "2026-10-07",
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-09-07",
-  "statut": "disparu",
+  "statut": "active",
   "titre": "ST JEAN DE LUZ 64 690 € par mois charges comprises 40,0 m2 , appartement ,…",
   "type": "appartement",
   "ville_agence": "Bidart"
@@ -1698,7 +1698,7 @@
  "https://www.century21.fr/trouver_logement/detail/15717590057": {
   "agence": "Century 21 (Biarritz, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-09-29",
+  "derniere_vue": "2026-10-07",
   "historique_prix": [
    {
     "date": "2026-09-14",
@@ -1708,7 +1708,7 @@
   "position": "Biarritz (ville de l'agence)",
   "premiere_vue": "2026-09-14",
   "prix": 1300,
-  "statut": "disparu",
+  "statut": "active",
   "titre": "ST JEAN DE LUZ 64 1 300 € par mois charges comprises 69,6 m2 , appartement…",
   "type": "appartement",
   "ville_agence": "Biarritz"
@@ -3287,7 +3287,7 @@
   "prix": 550,
   "statut": "active",
   "surface": 30.0,
-  "titre": "Appartement 550 €/mois BRAUD ET SAINT LOUIS (33820) 30 m² • 1 pièce Surf. terrain : 40 m² • 1 salle d'eau • Meublé",
+  "titre": "Appartement 550 €/mois BRAUD ET SAINT LOUIS (33820) 30 m² • 1 pièce Surf. terrain : 40…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -3646,7 +3646,7 @@
   "prix": 1150,
   "statut": "active",
   "surface": 60.0,
-  "titre": "Appartement 1 150 €/mois CERGY (95800) 60 m² • 3 pièces • 2 chambres Ascenseur • 1 salle de bain • Parking",
+  "titre": "Appartement 1 150 €/mois CERGY (95800) 60 m² • 3 pièces • 2 chambres Ascenseur • 1…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -3730,7 +3730,7 @@
   "prix": 1850,
   "statut": "active",
   "surface": 63.0,
-  "titre": "Appartement 1 850 €/mois COURBEVOIE (92400) 63 m² • 3 pièces • 2 chambres Ascenseur • 1 cave • Balcon • Meublé",
+  "titre": "Appartement 1 850 €/mois COURBEVOIE (92400) 63 m² • 3 pièces • 2 chambres Ascenseur • 1…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -6410,7 +6410,7 @@
   "prix": 607,
   "statut": "active",
   "surface": 41.62,
-  "titre": "Exclusivité Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 41.62 m² Ustaritz (64480) 607 € CC*",
+  "titre": "Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 41.62 m² Ustaritz (64480) 607 € CC*",
   "type": "appartement",
   "ville_agence": "Anglet"
  },
