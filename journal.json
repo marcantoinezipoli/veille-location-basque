@@ -1716,7 +1716,7 @@
  "https://www.century21.fr/trouver_logement/detail/15761023161": {
   "agence": "Century 21 (Bidart, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-10-07",
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-09-04",
   "statut": "active",
@@ -3271,6 +3271,26 @@
   "type": "maison",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/blaye/louer/braud-et-saint-louis/appartement-1-piece-52971118": {
+  "agence": "Laforêt (64, maisons)",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-07",
+  "historique_prix": [
+   {
+    "date": "2026-10-07",
+    "prix": 550
+   }
+  ],
+  "pieces": 1,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-07",
+  "prix": 550,
+  "statut": "active",
+  "surface": 30.0,
+  "titre": "Appartement 550 €/mois BRAUD ET SAINT LOUIS (33820) 30 m² • 1 pièce Surf. terrain : 40 m² • 1 salle d'eau • Meublé",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/blaye/louer/cars/maison-4-pieces-21502559": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
@@ -3609,6 +3629,27 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/cergylehaut/louer/cergy/appartement-3-pieces-52970949": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-07",
+  "historique_prix": [
+   {
+    "date": "2026-10-07",
+    "prix": 1150
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-07",
+  "prix": 1150,
+  "statut": "active",
+  "surface": 60.0,
+  "titre": "Appartement 1 150 €/mois CERGY (95800) 60 m² • 3 pièces • 2 chambres Ascenseur • 1 salle de bain • Parking",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/chambery/louer/chambery/maison-2-pieces-52915688": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 1,
@@ -3669,6 +3710,27 @@
   "statut": "disparu",
   "surface": 46.0,
   "titre": "Appartement 1 450 €/mois COURBEVOIE (92400) 46 m² • 3 pièces • 1 chambre Ascenseur •…",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/courbevoie/louer/courbevoie/appartement-3-pieces-52971013": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-07",
+  "historique_prix": [
+   {
+    "date": "2026-10-07",
+    "prix": 1850
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-07",
+  "prix": 1850,
+  "statut": "active",
+  "surface": 63.0,
+  "titre": "Appartement 1 850 €/mois COURBEVOIE (92400) 63 m² • 3 pièces • 2 chambres Ascenseur • 1 cave • Balcon • Meublé",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -4364,7 +4426,7 @@
   "prix": 1390,
   "statut": "active",
   "surface": 85.0,
-  "titre": "Maison 1 390 €/mois MARTIGNAS SUR JALLE (33127) 85 m² • 4 pièces • 3 chambres Surf. terrain : 150 m² • 1 salle de bain • Parking",
+  "titre": "Maison 1 390 €/mois MARTIGNAS SUR JALLE (33127) 85 m² • 4 pièces • 3 chambres Surf.…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -6328,6 +6390,27 @@
   "statut": "disparu",
   "surface": 120.56,
   "titre": "Coup de coeur Appartement 5 pièce(s) 4 chambre(s) 120.56 m² Arbonne (64210) 1 890 € CC*",
+  "type": "appartement",
+  "ville_agence": "Anglet"
+ },
+ "https://www.lelogisbasque.fr/location/109-ustaritz/appartement/2349-superbe-t2-recent-avec-magnifique-vue-degagee-au-bourg-d-ustaritz": {
+  "agence": "Le Logis Basque",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-07",
+  "historique_prix": [
+   {
+    "date": "2026-10-07",
+    "prix": 607
+   }
+  ],
+  "pieces": 2,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-10-07",
+  "prix": 607,
+  "statut": "active",
+  "surface": 41.62,
+  "titre": "Exclusivité Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 41.62 m² Ustaritz (64480) 607 € CC*",
   "type": "appartement",
   "ville_agence": "Anglet"
  },
