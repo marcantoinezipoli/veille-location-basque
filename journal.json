@@ -11,17 +11,17 @@
  },
  "http://www.immobiarritz.fr/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html": {
   "agence": "Immobiarritz",
-  "chambres": 9,
+  "chambres": 4,
   "classement": "exclu",
   "derniere_vue": "2026-10-08",
-  "pieces": 3,
-  "position": "Biarritz (ville de l'agence)",
+  "pieces": 5,
+  "position": "quartier Cinq Cantons",
   "premiere_vue": "2026-10-08",
   "statut": "active",
   "surface": 350.0,
   "titre": "http://www.immobiarritz.fr/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html",
-  "type": "villa",
-  "ville_agence": "Bidart"
+  "type": "maison",
+  "ville_agence": "Biarritz"
  },
  "http://www.immobiarritz.fr/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-dans-une-residence-haut-de-gamme-recente.html": {
   "agence": "Immobiarritz",
@@ -2159,6 +2159,17 @@
   "type": "appartement",
   "ville_agence": "Bidart"
  },
+ "https://www.century21.fr/trouver_logement/detail/16975944963": {
+  "agence": "Century 21 (Bidart, toutes agences)",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-08",
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-10-08",
+  "statut": "active",
+  "titre": "Exclusivité ST JEAN DE LUZ 64 890 € par mois charges comprises 37,2 m2 , appartement , 3 pcs",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
  "https://www.century21.fr/trouver_logement/detail/16994235849": {
   "agence": "Century 21 (Bayonne, toutes agences)",
   "classement": "exclu",
@@ -2829,7 +2840,7 @@
   "prix": 625,
   "statut": "active",
   "surface": 43.0,
-  "titre": "Appartement 625 €/mois ARGELES SUR MER (66700) 43 m² • 2 pièces • 1 chambre Surf. terrain : 2 m² • 1 salle d'eau • Balcon",
+  "titre": "Appartement 625 €/mois ARGELES SUR MER (66700) 43 m² • 2 pièces • 1 chambre Surf.…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -3646,7 +3657,7 @@
   "prix": 1200,
   "statut": "active",
   "surface": 61.0,
-  "titre": "Appartement 1 200 €/mois RILLIEUX LA PAPE (69140) 61 m² • 3 pièces • 2 chambres Surface : 61.44 m² • 3 pièces • 2 chbres",
+  "titre": "Appartement 1 200 €/mois RILLIEUX LA PAPE (69140) 61 m² • 3 pièces • 2 chambres Surface…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -3732,6 +3743,27 @@
   "surface": 110.0,
   "titre": "Maison 1 220 €/mois CHARTRES (28000) 110 m² • 5 pièces • 3 chambres 1 salle de bain • 1…",
   "type": "maison",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/corbeil-essonnes/louer/corbeil-essonnes/appartement-2-pieces-52972914": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-08",
+  "historique_prix": [
+   {
+    "date": "2026-10-08",
+    "prix": 810
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-08",
+  "prix": 810,
+  "statut": "active",
+  "surface": 43.0,
+  "titre": "Appartement 810 €/mois CORBEIL ESSONNES (91100) 43 m² • 2 pièces • 1 chambre Terrasse • 1 salle de bain • Parking",
+  "type": "appartement",
   "ville_agence": "Bayonne"
  },
  "https://www.laforet.com/agence-immobiliere/courbevoie/louer/courbevoie/appartement-3-pieces-52934066": {
@@ -4810,7 +4842,7 @@
   "prix": 1100,
   "statut": "active",
   "surface": 98.0,
-  "titre": "Maison 1 100 €/mois LABASTIDETTE (31600) 98 m² • 4 pièces • 3 chambres Surf. terrain : 800 m²",
+  "titre": "Maison 1 100 €/mois LABASTIDETTE (31600) 98 m² • 4 pièces • 3 chambres Surf. terrain :…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -5020,6 +5052,27 @@
   "statut": "disparu",
   "surface": 55.0,
   "titre": "Appartement 1 150 €/mois NANTERRE (92000) 55 m² • 3 pièces • 2 chambres 220 caves • 1…",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/paris-09-martyrs-gestion/louer/paris-16/appartement-4-pieces-52973074": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-08",
+  "historique_prix": [
+   {
+    "date": "2026-10-08",
+    "prix": 3488
+   }
+  ],
+  "pieces": 4,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-08",
+  "prix": 3488,
+  "statut": "active",
+  "surface": 109.0,
+  "titre": "Appartement 3 488 €/mois PARIS (75016) 109 m² • 4 pièces • 3 chambres Ascenseur • 1 cave • 1 salle de bain • 1 salle d'eau",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -6330,6 +6383,27 @@
   "type": "maison",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/villeurbanne-republique/louer/villeurbanne/appartement-3-pieces-52973056": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-08",
+  "historique_prix": [
+   {
+    "date": "2026-10-08",
+    "prix": 1166
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-08",
+  "prix": 1166,
+  "statut": "active",
+  "surface": 76.0,
+  "titre": "Appartement 1 166 €/mois VILLEURBANNE (69100) 76 m² • 3 pièces • 2 chambres Ascenseur • Sous-sol • Garage • 1 salle d'eau",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/voves/louer/fresnay-l-eveque/maison-5-pieces-52943151": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
@@ -6494,7 +6568,7 @@
   "prix": 690,
   "statut": "active",
   "surface": 46.36,
-  "titre": "Exclusivité Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 46.36 m² Ustaritz (64480) 690 € CC*",
+  "titre": "Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 46.36 m² Ustaritz (64480) 690 € CC*",
   "type": "appartement",
   "ville_agence": "Anglet"
  },
@@ -6598,8 +6672,29 @@
   "prix": 1350,
   "statut": "active",
   "surface": 99.34,
-  "titre": "Exclusivité Coup de coeur Maison 3 pièce(s) 2 chambre(s) 99.34 m² Urcuit (64990) 1 350 € CC*",
+  "titre": "Coup de coeur Maison 3 pièce(s) 2 chambre(s) 99.34 m² Urcuit (64990) 1 350 € CC*",
   "type": "maison",
+  "ville_agence": "Anglet"
+ },
+ "https://www.lelogisbasque.fr/location/75-cambo-les-bains/appartement/2355-superbe-t2-recent-avec-magnifique-vue-degagee-a-cambo-les-bains": {
+  "agence": "Le Logis Basque",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-08",
+  "historique_prix": [
+   {
+    "date": "2026-10-08",
+    "prix": 690
+   }
+  ],
+  "pieces": 2,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-10-08",
+  "prix": 690,
+  "statut": "active",
+  "surface": 46.36,
+  "titre": "Exclusivité Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 46.36 m² Cambo-les-Bains (64250) 690 € CC*",
+  "type": "appartement",
   "ville_agence": "Anglet"
  },
  "https://www.lelogisbasque.fr/location/79-bayonne/appartement/2334-superbe-t2-bourgeois-de-55m-a-bayonne-chateau-de-saint-forcet": {
@@ -6743,6 +6838,46 @@
   "type": "appartement",
   "ville_agence": "Biarritz"
  },
+ "https://www.lelogisbasque.fr/location/80-biarritz/appartement/2356-adorable-studio-meuble-a-l-annee-chauffage-et-eau-compris-a-biarritz-saint-charles": {
+  "agence": "Le Logis Basque",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-08",
+  "historique_prix": [
+   {
+    "date": "2026-10-08",
+    "prix": 679
+   }
+  ],
+  "pieces": 1,
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-10-08",
+  "prix": 679,
+  "statut": "active",
+  "surface": 25.92,
+  "titre": "Coup de coeur Appartement 1 pièce(s) 25.92 m² Biarritz (64200) 679 € CC*",
+  "type": "appartement",
+  "ville_agence": "Biarritz"
+ },
+ "https://www.lelogisbasque.fr/location/80-biarritz/appartement/2357-bel-appartement-t1-au-rez-de-chaussee-d-une-maison-quartier-kennedy-a-biarritz": {
+  "agence": "Le Logis Basque",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-08",
+  "historique_prix": [
+   {
+    "date": "2026-10-08",
+    "prix": 706
+   }
+  ],
+  "pieces": 1,
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-10-08",
+  "prix": 706,
+  "statut": "active",
+  "surface": 26.47,
+  "titre": "Exclusivité Nouveauté Appartement 1 pièce(s) 26.47 m² Biarritz (64200) 706 € CC*",
+  "type": "appartement",
+  "ville_agence": "Biarritz"
+ },
  "https://www.lelogisbasque.fr/location/80-biarritz/studio/2332-adorable-studio-a-louer-a-l-annee-residence-pavillon-d-angleterre-face-a-l-hotel-du-palais-a-biarritz": {
   "agence": "Le Logis Basque",
   "classement": "exclu",
@@ -6779,7 +6914,7 @@
   "prix": 821,
   "statut": "active",
   "surface": 78.0,
-  "titre": "Appartement Bayonne Appartement Bayonne Bayonne | 64100 821 € | 78 m² | Réf 226005401",
+  "titre": "Appartement Bayonne",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -7124,7 +7259,7 @@
   "prix": 1700,
   "statut": "active",
   "surface": 189.0,
-  "titre": "Maison Saint-pierre-d'irube Maison Saint-pierre-d'irube Saint-Pierre-d'Irube | 64990 1700 € | 189 m² | Réf 3041000",
+  "titre": "Maison Saint-pierre-d'irube Maison Saint-pierre-d'irube",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -7175,7 +7310,7 @@
  },
  "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html": {
   "agence": "Agence Olaizola",
-  "chambres": 9,
+  "chambres": 4,
   "classement": "exclu",
   "derniere_vue": "2026-10-08",
   "dpe": "C",
@@ -7185,15 +7320,15 @@
     "prix": 5000
    }
   ],
-  "pieces": 2,
-  "position": "Biarritz (ville de l'agence)",
+  "pieces": 5,
+  "position": "quartier Cinq Cantons",
   "premiere_vue": "2026-10-08",
   "prix": 5000,
   "statut": "active",
   "surface": 350.0,
   "titre": "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html",
-  "type": "villa",
-  "ville_agence": "Bidart"
+  "type": "maison",
+  "ville_agence": "Biarritz"
  },
  "https://www.orpi.com/annonce-location-appartement-t1-anglet-64600-29cacaad-0fa0-4dfa-a211-044d9b5e5787?agency=ag5cantons": {
   "agence": "Orpi Agence des 5 Cantons",
