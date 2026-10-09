@@ -107,6 +107,16 @@
   "type": "villa",
   "ville_agence": "Biarritz"
  },
+ "http://www.immobiarritz.fr/fiches/4-40-26_61584932/arcangues-villa-elegante-sejour-cathedrale-et-piscine-chauffee.html": {
+  "agence": "Immobiarritz",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-09",
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-10-09",
+  "statut": "active",
+  "titre": "http://www.immobiarritz.fr/fiches/4-40-26_61584932/arcangues-villa-elegante-sejour-cathedrale-et-piscine-chauffee.html",
+  "ville_agence": "Biarritz"
+ },
  "https://cote-basque.lagencerie.fr/immobilier/grand-t2-anglet-blancpignon": {
   "agence": "L'Agencerie Côte Basque",
   "classement": "exclu",
@@ -1529,7 +1539,7 @@
  "https://www.ajp-immobilier.com/annonces/locations/local_professionnel/anglet-64/55329510": {
   "agence": "AJP Mateille Biarritz",
   "classement": "exclu",
-  "derniere_vue": "2026-09-22",
+  "derniere_vue": "2026-10-09",
   "historique_prix": [
    {
     "date": "2026-09-04",
@@ -1539,7 +1549,7 @@
   "position": "Anglet (ville de l'agence)",
   "premiere_vue": "2026-09-04",
   "prix": 675,
-  "statut": "disparu",
+  "statut": "active",
   "titre": "Local commercial",
   "ville_agence": "Anglet"
  },
@@ -3806,7 +3816,7 @@
   "prix": 570,
   "statut": "active",
   "surface": 28.0,
-  "titre": "Appartement 570 €/mois CORBEIL ESSONNES (91100) 28 m² • 1 pièce Terrasse • Ascenseur • 1 salle d'eau • Parking",
+  "titre": "Appartement 570 €/mois CORBEIL ESSONNES (91100) 28 m² • 1 pièce Terrasse • Ascenseur •…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -4016,7 +4026,7 @@
   "prix": 728,
   "statut": "active",
   "surface": 37.0,
-  "titre": "Appartement 728 €/mois BORDEAUX (33800) 37 m² • 2 pièces • 1 chambre Sous-sol • 1 salle d'eau • Parking",
+  "titre": "Appartement 728 €/mois BORDEAUX (33800) 37 m² • 2 pièces • 1 chambre Sous-sol • 1 salle…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -4527,6 +4537,27 @@
   "type": "maison",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/luzarches/louer/nogent-sur-oise/maison-3-pieces-52975237": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-09",
+  "historique_prix": [
+   {
+    "date": "2026-10-09",
+    "prix": 790
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-09",
+  "prix": 790,
+  "statut": "active",
+  "surface": 55.0,
+  "titre": "Maison 790 €/mois NOGENT SUR OISE (60180) 55 m² • 3 pièces • 2 chambres 1 salle d'eau",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/magnyenvexin/louer/magny-en-vexin/maison-4-pieces-52955196": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
@@ -4971,6 +5002,27 @@
   "statut": "disparu",
   "surface": 77.0,
   "titre": "Appartement 1 671 €/mois NANTERRE (92000) 77 m² • 3 pièces • 2 chambres Sous-sol • 1…",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/nanterre/louer/nanterre/appartement-3-pieces-52975127": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-09",
+  "historique_prix": [
+   {
+    "date": "2026-10-09",
+    "prix": 1375
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-09",
+  "prix": 1375,
+  "statut": "active",
+  "surface": 63.0,
+  "titre": "Appartement 1 375 €/mois NANTERRE (92000) 63 m² • 3 pièces • 2 chambres Accès handicapé • Ascenseur • Sous-sol • Balcon",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -6112,6 +6164,26 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/serris-val-deurope/louer/serris/appartement-1-piece-52974882": {
+  "agence": "Laforêt (64, maisons)",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-09",
+  "historique_prix": [
+   {
+    "date": "2026-10-09",
+    "prix": 795
+   }
+  ],
+  "pieces": 1,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-09",
+  "prix": 795,
+  "statut": "active",
+  "surface": 22.0,
+  "titre": "Appartement 795 €/mois SERRIS (77700) 22 m² • 1 pièce 1 salle d'eau • Meublé • Parking",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/serris-val-deurope/louer/villeneuve-le-comte/maison-4-pieces-52962603": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
@@ -6612,7 +6684,7 @@
   "prix": 1010,
   "statut": "active",
   "surface": 30.06,
-  "titre": "Exclusivité Nouveauté Appartement 2 pièce(s) 1 chambre(s) 30.06 m² Anglet (64600) 1 010 € CC*",
+  "titre": "Nouveauté Appartement 2 pièce(s) 1 chambre(s) 30.06 m² Anglet (64600) 1 010 € CC*",
   "type": "appartement",
   "ville_agence": "Anglet"
  },
@@ -6867,6 +6939,27 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.lelogisbasque.fr/location/79-bayonne/appartement/2359-emplacement-ideal-au-coeur-du-bab-pour-ce-beau-t3-dans-residence-de-2014-a-bayonne-arenes": {
+  "agence": "Le Logis Basque",
+  "chambres": 2,
+  "classement": "match",
+  "derniere_vue": "2026-10-09",
+  "historique_prix": [
+   {
+    "date": "2026-10-09",
+    "prix": 849
+   }
+  ],
+  "pieces": 3,
+  "position": "quartier Arènes",
+  "premiere_vue": "2026-10-09",
+  "prix": 849,
+  "statut": "active",
+  "surface": 63.0,
+  "titre": "Appartement 3 pièce(s) 2 chambre(s) 63 m²",
+  "type": "appartement",
+  "ville_agence": "Anglet"
+ },
  "https://www.lelogisbasque.fr/location/79-bayonne/appartement/2359-emplacement-ideal-au-coeur-du-bab-pour-ce-beau-t3-recent-a-bayonne-arenes": {
   "agence": "Le Logis Basque",
   "chambres": 2,
@@ -7003,7 +7096,7 @@
   "prix": 679,
   "statut": "active",
   "surface": 25.92,
-  "titre": "Exclusivité Coup de coeur Appartement 1 pièce(s) 25.92 m² Biarritz (64200) 693 € CC*",
+  "titre": "Coup de coeur Appartement 1 pièce(s) 25.92 m² Biarritz (64200) 693 € CC*",
   "type": "appartement",
   "ville_agence": "Biarritz"
  },
@@ -7484,6 +7577,16 @@
   "premiere_vue": "2026-10-09",
   "statut": "active",
   "titre": "https://www.olaizola.immo/annonces/annonces/fiches/4-40-26_61584932/arcangues-villa-de-caractere-sejour-cathedrale-et-piscine-chauffee.html",
+  "ville_agence": "Biarritz"
+ },
+ "https://www.olaizola.immo/annonces/annonces/fiches/4-40-26_61584932/arcangues-villa-elegante-sejour-cathedrale-et-piscine-chauffee.html": {
+  "agence": "Agence Olaizola",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-09",
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-10-09",
+  "statut": "active",
+  "titre": "https://www.olaizola.immo/annonces/annonces/fiches/4-40-26_61584932/arcangues-villa-elegante-sejour-cathedrale-et-piscine-chauffee.html",
   "ville_agence": "Biarritz"
  },
  "https://www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-studio-meuble-centre-ville.html": {

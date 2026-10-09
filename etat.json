@@ -16,7 +16,7 @@
    "derniere_vue": "2026-10-09",
    "description": "GUÉTHARY - Appartement 2 pièces meublé dans une résidence haut de gamme récente - Situé à Guéthary, au sein de la Villa UHAINA, cet appartement de 2 pièces prend place... 64210 GUETHARY GUÉTHARY - Appartement 2 pièces meublé dans une résidence haut de gamme récente Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Appartements A vendre 2 pièces Ref. : OLAVAD1608 64210 GUETHARY GUÉTHARY - Appartement 2 pièces meublé dans une résidence haut de gamme récente 475 000 € ** Situé à Guéthary, au sein de la Villa UHAINA, cet appartement de 2 pièces prend place dans une résidence haut de gamme construite en 2021, offrant ainsi un cadre récent, soigné et particulièrement qualitatif. Installé en rez-de-chaussée d'une résidence de deux étages, ce bien séduit par la qualité de ses prestations, l'élégance de son environnement et le standing de l'ensemble immobilier. L'appartement est vendu meublé, avec un mobilier choisi avec soin et en parfaite harmonie avec l'esprit contemp",
    "dpe": null,
-   "ecart_prix_pct": 11,
+   "ecart_prix_pct": 6,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -180,61 +180,36 @@
    "url": "http://www.immobiarritz.fr/fiches/4-40-26_60118276/biarritz-villa-de-plain-pied-climatisee-avec-piscine-dans-quartier-calme.html",
    "ville_agence": "Biarritz"
   },
-  "http://www.immobiarritz.fr/fiches/4-40-26_61584932/arcangues-villa-de-caractere-sejour-cathedrale-et-piscine-chauffee.html": {
+  "http://www.immobiarritz.fr/fiches/4-40-26_61584932/arcangues-villa-elegante-sejour-cathedrale-et-piscine-chauffee.html": {
    "agence": "Immobiarritz",
-   "atouts": [
-    "belle hauteur sous plafond",
-    "terrasse",
-    "saint-jean",
-    "219 m²"
-   ],
-   "chambres": 5,
+   "atouts": [],
+   "chambres": null,
    "classement": "exclu",
    "contexte": "",
    "derniere_vue": "2026-10-09",
-   "description": "ARCANGUES - Villa de caractère, séjour cathédrale et piscine chauffée - À vendre à Arcangues, cette villa de 219,93 m² (surface de référence du DPE) s'inscrit dans un... 64200 ARCANGUES ARCANGUES - Villa de caractère, séjour cathédrale et piscine chauffée Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Maisons A vendre Maison Ref. : OLAMOJV1626 64200 ARCANGUES ARCANGUES - Villa de caractère, séjour cathédrale et piscine chauffée 1 550 000 € ** À vendre à Arcangues, cette villa de 219,93 m² (surface de référence du DPE) s'inscrit dans un écrin arboré de 3 260 m². L'ampleur de ses volumes, ses terrasses et sa piscine chauffée composent un cadre de vie où l'art de recevoir trouve toute sa place. Pièce maîtresse de la maison, le séjour cathédrale déploie une belle hauteur sous plafond, soulignée par les poutres apparentes. La cheminée avec insert et la mezzanine ouverte, aménagée en bureau, donnent à cet espace une véritable personnalité. La cuisine ouverte, aména",
-   "dpe": null,
-   "ecart_prix_pct": -19,
-   "etiquette_prix": "bon prix",
-   "fiche_lue": true,
-   "historique_prix": [
-    {
-     "date": "2026-10-09",
-     "prix": 2870
-    }
-   ],
+   "fiche_lue": false,
    "itineraire_pos": "43.4832,-1.5586",
    "itineraire_source": "route",
    "km_hopital": 8.2,
    "lat": 43.4832,
    "lon": -1.5586,
-   "mail": "jone.velasco@olaizola.immo",
-   "meuble": false,
    "min_velo": 33,
    "min_voiture": 13,
    "motif_exclusion": "lien de navigation, pas une annonce",
-   "photo": "https://www.olaizola.immo/office8/agenceolaizola/catalog/images/pr_web/6/1/5/8/4/9/3/2/61584932a.jpg.mid.jpg",
    "photo_cherchee": true,
-   "photos": [
-    "https://www.olaizola.immo/office8/agenceolaizola/catalog/images/pr_web/6/1/5/8/4/9/3/2/61584932a.jpg.mid.jpg"
-   ],
    "photos_cherchees": true,
-   "pieces": 6,
+   "pieces": null,
    "position": "Biarritz (ville de l'agence)",
    "premiere_vue": "2026-10-09",
-   "prix": 2870,
-   "prix_m2": 13.0,
-   "reserves": [
-    "saint-jean-de-luz"
-   ],
-   "score": -3,
+   "prix": null,
+   "reserves": [],
+   "score": 0,
    "signaux": [],
    "statut": "active",
-   "surface": 219.93,
-   "tel": "0670137676",
-   "titre": "http://www.immobiarritz.fr/fiches/4-40-26_61584932/arcangues-villa-de-caractere-sejour-cathedrale-et-piscine-chauffee.html",
-   "type": "villa",
-   "url": "http://www.immobiarritz.fr/fiches/4-40-26_61584932/arcangues-villa-de-caractere-sejour-cathedrale-et-piscine-chauffee.html",
+   "surface": null,
+   "titre": "http://www.immobiarritz.fr/fiches/4-40-26_61584932/arcangues-villa-elegante-sejour-cathedrale-et-piscine-chauffee.html",
+   "type": null,
+   "url": "http://www.immobiarritz.fr/fiches/4-40-26_61584932/arcangues-villa-elegante-sejour-cathedrale-et-piscine-chauffee.html",
    "ville_agence": "Biarritz"
   },
   "https://cote-basque.lagencerie.fr/immobilier/grand-t2-anglet-blancpignon": {
@@ -1474,7 +1449,7 @@
    "classement": "exclu",
    "contexte": "Anglet – Maison de caractère avec piscine, prestations de qualité et emplacement recherché 160m² 3 200€",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": 27,
+   "ecart_prix_pct": 29,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -1513,7 +1488,7 @@
    "classement": "exclu",
    "contexte": "BIARRITZ – Avenue Reine VICTORIA – T2 Bis 45.34m² 725€",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": 0,
+   "ecart_prix_pct": -5,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -1665,7 +1640,7 @@
    "derniere_vue": "2026-10-09",
    "description": "ANGLET – PROCHE QUINTAOU – T3 MEUBLÉ EN DUPLEX À LOUER À L’ANNÉE – APPARTEMENT RECENT MEUBLÉ À proximité immédiate de Quintaou, découvrez ce bel appartement T3 meublé en duplex de 64,54 m², situé au 1er étage d’une résidence neuve, sécurisée et avec ascenseur. L’appartement se compose, au rez-de-chaussée, d’une… ANGLET, Proche Quintaou, T3 Meublé duplex Aller au contenu ANGLET, Proche Quintaou, T3 Meublé duplex Anglet RECENT 1 364 € 1 364 € RECENT Descriptif du bien ANGLET – PROCHE QUINTAOU – T3 MEUBLÉ EN DUPLEX À LOUER À L’ANNÉE – APPARTEMENT RECENT MEUBLÉ À proximité immédiate de Quintaou, découvrez ce bel appartement T3 meublé en duplex de 64,54 m², situé au 1er étage d’une résidence neuve, sécurisée et avec ascenseur. L’appartement se compose, au rez-de-chaussée, d’une entrée avec dégagement et rangements desservant : Une belle pièce de vie avec cuisine ouverte, aménagée et équipée ; Un salon / salle à manger lumineux donnant accès à une terrasse couverte ; Une première chambre confortable avec rangements ; Une salle d’eau avec WC, rangements et espace buanderie ; Une climatisation. À l’étage : Une seconde chambre avec rangements ; Une salle d’eau avec WC ; Un espace de stockag",
    "dpe": null,
-   "ecart_prix_pct": 34,
+   "ecart_prix_pct": 36,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -1728,7 +1703,7 @@
    "classement": "exclu",
    "contexte": "Arcangues – Maison Familiale avec piscine, prestations de standing et cadre verdoyant 202m² 3 200€",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": -1,
+   "ecart_prix_pct": -6,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -1767,7 +1742,7 @@
    "classement": "exclu",
    "contexte": "ARCANGUES, Proche Bourg, Maison Mitoyenne 137m² 2 146€",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": -2,
+   "ecart_prix_pct": -7,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -1943,9 +1918,8 @@
    "derniere_vue": "2026-10-09",
    "description": "Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée Situé au sein de la résidence ETCHE CHURRIA, dans un environnement agréable à Biarritz, cet appartement meublé de type T3, d'une superficie de 83,09 m², situé au 2ᵉ étage d'une copropriété sécurisée avec ascenseur, offre un cadre de vie… Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée Aller au contenu Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée Biarritz PROCHE CENTRE 1 500 € 1 500 € PROCHE CENTRE Descriptif du bien Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée Situé au sein de la résidence ETCHE CHURRIA, dans un environnement agréable à Biarritz, cet appartement meublé de type T3, d’une superficie de 83,09 m² , situé au 2ᵉ étage d’une copropriété sécurisée avec ascenseur, offre un cadre de vie confortable et fonctionnel. Ce bien se compose d’une entrée avec dégagement desservant les différents espaces de vie. Il propose un séjour lumineux, une cuisine ouverte aménagée et équipée, deux chambres confortables avec rangements, une salle d’eau, un WC indépendant ainsi qu’un cellier offrant un espace de rangement",
    "dpe": null,
-   "ecart_prix_pct": -2,
+   "ecart_prix_pct": -7,
    "etiquette_prix": "dans le marché",
-   "evenement": "baisse",
    "fiche_lue": true,
    "historique_prix": [
     {
@@ -2006,7 +1980,7 @@
    "classement": "exclu",
    "contexte": "BIARRITZ, Côte des Basques, Studio Meublé 33m² 755€",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": 43,
+   "ecart_prix_pct": 36,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -2045,7 +2019,7 @@
    "classement": "exclu",
    "contexte": "BIARRITZ, Hyper Centre, T2 meublé 50.59m² 890€",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": 10,
+   "ecart_prix_pct": 5,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -2201,7 +2175,7 @@
    "derniere_vue": "2026-10-09",
    "description": "Anglet – Maison 4 pièces avec jardin et garage – Secteur Pitoys (Rue d’Urubeyti) Située à Anglet, dans le secteur recherché de Pitoys, à proximité de l’aéroport de Biarritz, cette maison d’habitation d’environ 91,14 m², proposée à la location vide à l’année, offre une distribution fonctionnelle et des espaces agréables… Anglet – Maison 4 pièces avec jardin et garage – Secteur Pitoys (Rue d’Urubeyti) Aller au contenu Anglet – Maison 4 pièces avec jardin et garage – Secteur Pitoys (Rue d’Urubeyti) Anglet JARDIN 1 469 € 1 469 € JARDIN Descriptif du bien Anglet – Maison 4 pièces avec jardin et garage – Secteur Pitoys (Rue d’Urubeyti) Située à Anglet, dans le secteur recherché de Pitoys, à proximité de l’aéroport de Biarritz, cette maison d’habitation d’environ 91,14 m², proposée à la location vide à l’année, offre une distribution fonctionnelle et des espaces agréables à vivre. La maison se compose d’une entrée donnant sur un dégagement avec rangements. La pièce de vie, lumineuse et agréable, bénéficie d’un accès direct à une terrasse exposée plein sud, offrant une belle ouverture sur le jardin. Une grande cuisine aménagée complète l’espace de vie. La partie nuit se compose de trois ch",
    "dpe": null,
-   "ecart_prix_pct": 2,
+   "ecart_prix_pct": 4,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -2258,7 +2232,7 @@
    "chambres": null,
    "classement": "exclu",
    "contexte": "Local commercial 675 €",
-   "derniere_vue": "2026-09-22",
+   "derniere_vue": "2026-10-09",
    "historique_prix": [
     {
      "date": "2026-09-04",
@@ -2279,7 +2253,7 @@
    "prix": 675,
    "reserves": [],
    "score": 2,
-   "statut": "disparu",
+   "statut": "active",
    "surface": null,
    "titre": "Local commercial",
    "type": null,
@@ -2337,7 +2311,7 @@
    "derniere_vue": "2026-10-09",
    "description": "Tous les renseignements sur cette maison en location à Anglet avec un descriptif détaillé et des photos de présentation - 7 pièces, 149m² avec 5 chambre(s) à 2 163€ - Notre conseiller dans l'agence AJP Mateille Immobilier Biarritzest à votre disposition pour vous faire visiter cette maison en location à Anglet Location maison Anglet : 2 163 € - AJP Mateille Immobilier Biarritz ACHATS VENTES LOCATIONS GESTION LOCATIVE SYNDIC LMNP IMMOBILIER NEUF VACANCES ENTREPRISES DEVENIR FRANCHISÉ ACHATS VENTES LOCATIONS GESTION LOCATIVE SYNDIC LMNP IMMOBILIER NEUF LOCATIONS DE VACANCES ENTREPRISES DEVENIR FRANCHISÉ AJP Recrute AJP Actualités Service Qualité Clients Location maison Anglet : 2 163 € - AJP Mateille Immobilier Biarritz <<< Retour à la liste des annonces Précédente Suivante 149 m² 493 m² 7 5 2 149 m² 493 m² 7 5 2 Ref297 présentée par AJP Mateille Immobilier Biarritz Afficher le numéro Contact pour infos et visite 2 163 € CC Consulter notre barème d'honoraires Description de ce bien CONTACTS UNIQUEMENT VIA LA MESSAGERIE DU SITE SVPSituée dans un lotissement recherché, au calme, cette très belle maison lumineuse offre un cadre de vie privilégié, à proximité immédiate des commerces, des",
    "dpe": null,
-   "ecart_prix_pct": -8,
+   "ecart_prix_pct": -6,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -3592,7 +3566,7 @@
    "derniere_vue": "2026-10-09",
    "description": "MAISON MEUBLEE - BAIL MOBILITE Location réservée aux personnes pouvant justifier d'une situation ouvrant droit au bail mobilité : formation professionnelle, apprentissage, mutation professionnelle, mission temporaire ou service civique.Durée du bail : de septembre à fin juin maximum, sans renouvellement.Un justificatif de la situation devra être fourni lors de la constitution du dossier.Idéalement située à Anglet, à deux pas des plages, cette agréable maison meublée de 109 m² offre un cadre de vie privilégié.Elle se compose d'un séjour, d'une cuisine, de 3 chambres, de 2 salles de bains et d'un WC, offrant de beaux espaces de vie et un confort idéal pour une famille.À proximité immédiate des commerces, des transports et des commodités, vous profiterez d'un emplacement agréable pour une vie quotidienne confortable, tout en bénéficiant de la proximité des plages.La maison dispose également d'un jardin et d'un garageL'eau est incluse dans les charges. Maison à louer 4 pièces - 109 m 2 ANGLET - 64 Retour aux résultats Créer une alerte Modifier la recherche Accueil Location Location Maison Location Maison Pyrenees-Atlantiques (64) Location Maison ANGLET (64600) Maison à louer 4 pièces -",
    "dpe": null,
-   "ecart_prix_pct": 2,
+   "ecart_prix_pct": 3,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -4198,7 +4172,7 @@
    "classement": "exclu",
    "contexte": "Appartement 3 pièces - 57 m² SOUSTONS (40140) 884 € / mois",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": -2,
+   "ecart_prix_pct": 0,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -4238,7 +4212,7 @@
    "classement": "exclu",
    "contexte": "Appartement 2 pièces - 46 m² ST JEAN DE LUZ (64500) 840 € / mois",
    "derniere_vue": "2026-10-08",
-   "ecart_prix_pct": 16,
+   "ecart_prix_pct": 18,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -4356,7 +4330,7 @@
    "classement": "exclu",
    "contexte": "Appartement 2 pièces - 45 m² VIEUX BOUCAU LES BAINS (40480) 750 € / mois",
    "derniere_vue": "2026-10-08",
-   "ecart_prix_pct": 6,
+   "ecart_prix_pct": 8,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -4400,7 +4374,7 @@
    "classement": "exclu",
    "contexte": "Appartement 2 pièces - 40 m² VIEUX BOUCAU LES BAINS (40480) 800 € / mois",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": 22,
+   "ecart_prix_pct": 24,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -5007,7 +4981,7 @@
    "derniere_vue": "2026-10-09",
    "description": "16/09/2026 - ✅ À louer, 3 chambres dans une maison entièrement rénovée, située à Chiberta, dans un environnement calme et privilégié. La maison ... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T1 ANGLET à louer 580 €/mois Charges comprises 30 m² • 1 pièce • 1 chambre Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 1 pièce Surface : 30 m² 1 chbre Autres Ann. const. : 1976 Description À louer, 3 chambres dans une maison entièrement rénovée, située à Chiberta, dans un environnement calme et privilégié. La maison dispose d'une piscine, d'un garage et de beaux espaces de vie. La location est réservée aux étudiants pour la période du 1er septembre au 31 mai. Les charges comprennent l'eau, l'électricité, le chauffage et l'accès à Internet. Pour tout renseignement complémentaire ou pour organiser une visite, n'hésitez pas à nous contacter. Loyer hors charges 480,00 € par mois, provision charges 100,00 € par mois, loyer charges comprises 580,00 € par mois Dépôt de garantie : 480,00 € Honoraires TTC charge locataire : 390,00 € TTC**, dont 90,00 € au titre de la réalisation de l'état des lieux 580,00 € CC par mois* Mentions légales e",
    "dpe": null,
-   "ecart_prix_pct": 23,
+   "ecart_prix_pct": 25,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -5065,8 +5039,8 @@
    "derniere_vue": "2026-10-09",
    "description": "16/09/2026 - ✅ À louer, 1 chambres restant à l'étage d'une maison entièrement rénovée, située à Chiberta, dans un environnement calme et privil�... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T1 ANGLET à louer 500 €/mois Charges comprises 28 m² • 1 pièce • 1 chambre Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 1 pièce Surface : 28 m² 1 chbre Description À louer, 1 chambres restant à l'étage d'une maison entièrement rénovée, située à Chiberta, dans un environnement calme et privilégié. La maison dispose d'une piscine, d'un garage et de beaux espaces de vie. La location est réservée aux étudiants pour la période du 1er septembre au 31 mai. Les charges comprennent l'eau, l'électricité, le chauffage et l'accès à Internet. Pour tout renseignement complémentaire ou pour organiser une visite, n'hésitez pas à nous contacter. Bien proposé par Pascal BOUQUET (RSAC n° 938252459) - Agent Commercial Loyer hors charges 400,00 € par mois, provision charges 100,00 € par mois, loyer charges comprises 500,00 € par mois Dépôt de garantie : 480,00 € Honoraires TTC charge locataire : 364,00 € TTC**, dont 84,00 € au titre de la réalisation ",
    "dpe": null,
-   "ecart_prix_pct": 14,
-   "etiquette_prix": "dans le marché",
+   "ecart_prix_pct": 15,
+   "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
     {
@@ -5190,7 +5164,7 @@
    "derniere_vue": "2026-10-09",
    "description": "04/10/2026 - ✅ À louer à Anglet, dans une résidence proche de toutes les commodités, agréable T4 de 85 m² situé au 7e étage avec ascenseur. Loc... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T4 ANGLET à louer 1 298 €/mois Charges comprises 85 m² • 4 pièces • 2 chambres Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 4 pièces Surface : 85 m² 2 chbres 1 salle de bain Intérieur Cuisine Indépendante Chauffage Gaz Ascenseur Balcon Terrasse 1 cave Extérieur Aerien Autres Ann. const. : 1975 Soumis à la copropriété Description À louer à Anglet, dans une résidence proche de toutes les commodités, agréable T4 de 85 m² situé au 7e étage avec ascenseur. Location proposée en bail mobilité d'octobre 2026 à juin 2027, sous réserve de remplir les conditions. Il se compose d'un double séjour de plus de 27 m² ouvrant sur une grande terrasse de plus de 15 m² exposée Sud, de 2 chambres avec balcon, d'une cuisine séparée aménagée et équipée, d'une salle de bains et de WC séparés. Places de stationnement dans la résidence. Contactez-nous pour plus d'informations ou organiser une visite. Bien proposé par Pascal BOUQUET (RSAC n° 938252459) - Age",
    "dpe": null,
-   "ecart_prix_pct": -3,
+   "ecart_prix_pct": -1,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -5960,7 +5934,7 @@
    "derniere_vue": "2026-10-09",
    "description": "02/10/2026 - ✅ Appartement de type 3 meublé en duplex, situé à proximité de la gare de Bayonne, comprenant au rez-de-chaussée un séjour avec cuisi... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T3 BAYONNE à louer 768 €/mois Charges comprises 58 m² • 3 pièces • 2 chambres Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 3 pièces Surface : 57.82 m² Surf. séj : 17.5 m² 2 chbres 1 salle de bain Intérieur Cuisine Equipée Chauffage Électrique Meublé Autres Soumis à la copropriété Description Appartement de type 3 meublé en duplex, situé à proximité de la gare de Bayonne, comprenant au rez-de-chaussée un séjour avec cuisine ouverte équipée. A l'étage deux chambres, une salle de bains et WC. Vous disposerez d'un local vélo commun. Zone soumise à encadrement des loyers bail meublé : Loyer de référence : 607.11€ Loyer majoré : 728€ Charges forfaitaires : 40€ (Les charges comprennent l'eau froide, le ménage des parties communes, l'électricité des parties communes, la taxe d'enlèvements d'ordures ménagères) Honoraires agence à la charge du locataire : 578.20€ TTC dont 173.46€ pour l'état des lieux. Dépôt de garantie : 1456€ Merci d'ad",
    "dpe": null,
-   "ecart_prix_pct": -18,
+   "ecart_prix_pct": -21,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -7121,7 +7095,7 @@
    "score": 8,
    "statut": "active",
    "surface": 28.0,
-   "titre": "Appartement 570 €/mois CORBEIL ESSONNES (91100) 28 m² • 1 pièce Terrasse • Ascenseur • 1 salle d'eau • Parking",
+   "titre": "Appartement 570 €/mois CORBEIL ESSONNES (91100) 28 m² • 1 pièce Terrasse • Ascenseur •…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/corbeil-essonnes/louer/corbeil-essonnes/appartement-1-piece-52974504",
    "ville_agence": "Bayonne"
@@ -7525,7 +7499,7 @@
    "score": 6,
    "statut": "active",
    "surface": 37.0,
-   "titre": "Appartement 728 €/mois BORDEAUX (33800) 37 m² • 2 pièces • 1 chambre Sous-sol • 1 salle d'eau • Parking",
+   "titre": "Appartement 728 €/mois BORDEAUX (33800) 37 m² • 2 pièces • 1 chambre Sous-sol • 1 salle…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/gradignan/louer/bordeaux/appartement-2-pieces-52974273",
    "ville_agence": "Bayonne"
@@ -8504,6 +8478,45 @@
    "url": "https://www.laforet.com/agence-immobiliere/lisleadam/louer/l-isle-adam/maison-6-pieces-52917490",
    "ville_agence": "Bayonne"
   },
+  "https://www.laforet.com/agence-immobiliere/luzarches/louer/nogent-sur-oise/maison-3-pieces-52975237": {
+   "agence": "Laforêt (64, maisons)",
+   "atouts": [
+    "loyer 790 €"
+   ],
+   "chambres": 2,
+   "classement": "exclu",
+   "contexte": "Nouveauté 0 / 0 Maison 790 €/mois NOGENT SUR OISE (60180) 55 m² • 3 pièces • 2 chambres 1 salle d'eau En savoir plus Appeler",
+   "derniere_vue": "2026-10-09",
+   "ecart_prix_pct": 12,
+   "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-10-09",
+     "prix": 790
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (60180)",
+   "pieces": 3,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-10-09",
+   "prix": 790,
+   "prix_m2": 14.4,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 55.0,
+   "titre": "Maison 790 €/mois NOGENT SUR OISE (60180) 55 m² • 3 pièces • 2 chambres 1 salle d'eau",
+   "type": "maison",
+   "url": "https://www.laforet.com/agence-immobiliere/luzarches/louer/nogent-sur-oise/maison-3-pieces-52975237",
+   "ville_agence": "Bayonne"
+  },
   "https://www.laforet.com/agence-immobiliere/magnyenvexin/louer/magny-en-vexin/maison-4-pieces-52955196": {
    "agence": "Laforêt (64, maisons)",
    "atouts": [
@@ -9368,6 +9381,48 @@
    "titre": "Appartement 1 671 €/mois NANTERRE (92000) 77 m² • 3 pièces • 2 chambres Sous-sol • 1…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/nanterre/louer/nanterre/appartement-3-pieces-52934270",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/nanterre/louer/nanterre/appartement-3-pieces-52975127": {
+   "agence": "Laforêt (64, maisons)",
+   "atouts": [
+    "balcon",
+    "ascenseur",
+    "sous-sol",
+    "loyer 1375 €"
+   ],
+   "chambres": 2,
+   "classement": "exclu",
+   "contexte": "Nouveauté 0 / 0 Appartement 1 375 €/mois NANTERRE (92000) 63 m² • 3 pièces • 2 chambres Accès handicapé • Ascenseur • Sous-sol • Balcon En savoir plus Appeler",
+   "derniere_vue": "2026-10-09",
+   "ecart_prix_pct": 69,
+   "etiquette_prix": "au-dessus du marché",
+   "historique_prix": [
+    {
+     "date": "2026-10-09",
+     "prix": 1375
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (92000)",
+   "pieces": 3,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-10-09",
+   "prix": 1375,
+   "prix_m2": 21.8,
+   "reserves": [],
+   "score": 7,
+   "statut": "active",
+   "surface": 63.0,
+   "titre": "Appartement 1 375 €/mois NANTERRE (92000) 63 m² • 3 pièces • 2 chambres Accès handicapé • Ascenseur • Sous-sol • Balcon",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/nanterre/louer/nanterre/appartement-3-pieces-52975127",
    "ville_agence": "Bayonne"
   },
   "https://www.laforet.com/agence-immobiliere/neauphle/louer/plaisir/appartement-2-pieces-52933883": {
@@ -11578,6 +11633,46 @@
    "url": "https://www.laforet.com/agence-immobiliere/salonprovence/louer/salon-de-provence/appartement-4-pieces-52939022",
    "ville_agence": "Bayonne"
   },
+  "https://www.laforet.com/agence-immobiliere/serris-val-deurope/louer/serris/appartement-1-piece-52974882": {
+   "agence": "Laforêt (64, maisons)",
+   "atouts": [
+    "parking",
+    "loyer 795 €"
+   ],
+   "chambres": null,
+   "classement": "exclu",
+   "contexte": "Nouveauté 0 / 0 Appartement 795 €/mois SERRIS (77700) 22 m² • 1 pièce 1 salle d'eau • Meublé • Parking En savoir plus Appeler",
+   "derniere_vue": "2026-10-09",
+   "ecart_prix_pct": 180,
+   "etiquette_prix": "au-dessus du marché",
+   "historique_prix": [
+    {
+     "date": "2026-10-09",
+     "prix": 795
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (77700)",
+   "pieces": 1,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-10-09",
+   "prix": 795,
+   "prix_m2": 36.1,
+   "reserves": [],
+   "score": 4,
+   "statut": "active",
+   "surface": 22.0,
+   "titre": "Appartement 795 €/mois SERRIS (77700) 22 m² • 1 pièce 1 salle d'eau • Meublé • Parking",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/serris-val-deurope/louer/serris/appartement-1-piece-52974882",
+   "ville_agence": "Bayonne"
+  },
   "https://www.laforet.com/agence-immobiliere/serris-val-deurope/louer/villeneuve-le-comte/maison-4-pieces-52962603": {
    "agence": "Laforêt (64, maisons)",
    "atouts": [
@@ -12535,7 +12630,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Nouveauté Appartement 2 pièce(s) 1 chambre(s) 30.06 m² Anglet (64600) 1 010 € CC*",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": 113,
+   "ecart_prix_pct": 117,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -12560,7 +12655,7 @@
    "score": 2,
    "statut": "active",
    "surface": 30.06,
-   "titre": "Exclusivité Nouveauté Appartement 2 pièce(s) 1 chambre(s) 30.06 m² Anglet (64600) 1 010 € CC*",
+   "titre": "Nouveauté Appartement 2 pièce(s) 1 chambre(s) 30.06 m² Anglet (64600) 1 010 € CC*",
    "type": "appartement",
    "url": "https://www.lelogisbasque.fr/location/1-anglet/appartement/2360-adorable-t2-meuble-a-anglet-toutes-consommations-et-internet-inclus",
    "ville_agence": "Anglet"
@@ -12669,7 +12764,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 41.62 m² Ustaritz (64480) 607 € CC*",
    "derniere_vue": "2026-10-08",
-   "ecart_prix_pct": -7,
+   "ecart_prix_pct": -6,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -12708,7 +12803,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 46.36 m² Ustaritz (64480) 690 € CC*",
    "derniere_vue": "2026-10-08",
-   "ecart_prix_pct": -5,
+   "ecart_prix_pct": -4,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -12747,7 +12842,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Nouveauté Maison 6 pièce(s) 5 chambre(s) 183 m² Ustaritz (64480) 2 830 € CC*",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -2,
+   "ecart_prix_pct": 0,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -12787,7 +12882,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté Maison 6 pièce(s) 4 chambre(s) 120.36 m² Lahonce (64990) 1 570 € CC*",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -17,
+   "ecart_prix_pct": -16,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -12827,7 +12922,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté Duplex 6 pièce(s) 5 chambre(s) 113.96 m² Mouguerre (64990) 1 237 € CC*",
    "derniere_vue": "2026-10-08",
-   "ecart_prix_pct": -31,
+   "ecart_prix_pct": -30,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -12907,7 +13002,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Coup de coeur Maison 3 pièce(s) 2 chambre(s) 99.34 m² Urcuit (64990) 1 350 € CC*",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": -14,
+   "ecart_prix_pct": -12,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -12946,7 +13041,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 46.36 m² Cambo-les-Bains (64250) 690 € CC*",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": -5,
+   "ecart_prix_pct": -4,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -13076,6 +13171,61 @@
    "url": "https://www.lelogisbasque.fr/location/79-bayonne/appartement/2353-bel-appartement-t4-renove-lumineux-et-ensoleille-a-bayonne",
    "ville_agence": "Bayonne"
   },
+  "https://www.lelogisbasque.fr/location/79-bayonne/appartement/2359-emplacement-ideal-au-coeur-du-bab-pour-ce-beau-t3-dans-residence-de-2014-a-bayonne-arenes": {
+   "agence": "Le Logis Basque",
+   "atouts": [
+    "balcon",
+    "parking",
+    "cellier",
+    "cuisine aménagée",
+    "loyer 849 €"
+   ],
+   "chambres": 2,
+   "classement": "match",
+   "contexte": "Exclusivité Nouveauté Appartement 3 pièce(s) 2 chambre(s) 63 m² Bayonne (64100) 849 € CC*",
+   "derniere_vue": "2026-10-09",
+   "description": "Location Bayonne : Emplacement idéal au coeur du BAB pour ce beau T3 dans résidence de 2014 à BAYONNE Arènes. Appartement 3 pièce(s) 2 chambre(s) 63 m² Agence immobilière à Anglet Location Bayonne Appartement Isabelle LAVIELLE Négociatrice Appeler l'agent Contacter l'agent Contacter l'agent Retour aux résultats Télécharger la fiche Partager ce bien Exclusivité Nouveauté Afficher toutes les photos Appartement 3 pièce(s) 2 chambre(s) 63 m² Bayonne (64100) 849 € CC* * Charges comprises Référence 1088 A propos de ce bien Administrateurs de biens immobiliers, nous proposons à la location un appartement de 63 m² environ à BAYONNE, disponible de suite. Ce bel appartement de type 3 est situé à quelques minutes à ppied du centre de BAYONNE tout en étant à la limite d'ANGLET et à proximité immédiate des commodités et des transports en communs. Situé au 2 ème étage d’une résidence datant de 2014, il se compose d'une entrée sur dégagement avec placard desservant un séjour avec cuisine aménagée et équipée d'une plaque de cuisson et d'une hotte donnant sur un balcon, de deux chambres, d'une salle de bains, d'un WC séparé et d'un cellier. L'appartement bénéficie de deux emplacements de parking pr",
+   "dpe": null,
+   "ecart_prix_pct": -13,
+   "etiquette_prix": "bon prix",
+   "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-10-09",
+     "prix": 849
+    }
+   ],
+   "itineraire_pos": "43.489,-1.479",
+   "itineraire_source": "route",
+   "km_hopital": 2.3,
+   "lat": 43.489,
+   "lon": -1.479,
+   "mail": "isabelle@lelogisbasque.fr",
+   "meuble": false,
+   "min_velo": 9,
+   "min_voiture": 3,
+   "photo": "https://logis-basque.staticlbi.com/1200xauto/images/biens/1/7609502559233b8cd8af603a01e37ed8/original/71c55a544fe0415c909d53396da0e74b.jpg",
+   "photo_cherchee": true,
+   "photos": [
+    "https://logis-basque.staticlbi.com/1200xauto/images/biens/1/7609502559233b8cd8af603a01e37ed8/original/71c55a544fe0415c909d53396da0e74b.jpg"
+   ],
+   "photos_cherchees": true,
+   "pieces": 3,
+   "position": "quartier Arènes",
+   "premiere_vue": "2026-10-09",
+   "prix": 849,
+   "prix_m2": 13.5,
+   "reserves": [],
+   "score": 9,
+   "signaux": [],
+   "statut": "active",
+   "surface": 63.0,
+   "tel": "0559590954",
+   "titre": "Appartement 3 pièce(s) 2 chambre(s) 63 m²",
+   "type": "appartement",
+   "url": "https://www.lelogisbasque.fr/location/79-bayonne/appartement/2359-emplacement-ideal-au-coeur-du-bab-pour-ce-beau-t3-dans-residence-de-2014-a-bayonne-arenes",
+   "ville_agence": "Anglet"
+  },
   "https://www.lelogisbasque.fr/location/79-bayonne/appartement/2359-emplacement-ideal-au-coeur-du-bab-pour-ce-beau-t3-recent-a-bayonne-arenes": {
    "agence": "Le Logis Basque",
    "atouts": [
@@ -13092,7 +13242,7 @@
    "derniere_vue": "2026-10-09",
    "description": "Location Bayonne : Emplacement idéal au coeur du BAB pour ce beau T3 récent à BAYONNE Arènes. Appartement 3 pièce(s) 2 chambre(s) 63 m² Agence immobilière à Anglet Location Bayonne Appartement Isabelle LAVIELLE Négociatrice Appeler l'agent Contacter l'agent Contacter l'agent Retour aux résultats Télécharger la fiche Partager ce bien Exclusivité Nouveauté Afficher toutes les photos Appartement 3 pièce(s) 2 chambre(s) 63 m² Bayonne (64100) 849 € CC* * Charges comprises Référence 1088 A propos de ce bien Administrateurs de biens immobiliers, nous proposons à la location un appartement de 63 m² environ à BAYONNE, disponible de suite. Ce bel appartement de type 3 est situé à quelques minutes à ppied du centre de BAYONNE tout en étant à la limite d'ANGLET et à proximité immédiate des commodités et des transports en communs. Situé au 2 ème étage d’une résidence récente, il se compose d'une entrée sur dégagement avec placard desservant un séjour avec cuisine aménagée et équipée d'une plaque de cuisson et d'une hotte donnant sur un balcon, de deux chambres, d'une salle de bains, d'un WC séparé et d'un cellier. L'appartement bénéficie de deux emplacements de parking privatifs et le chauffage",
    "dpe": null,
-   "ecart_prix_pct": -14,
+   "ecart_prix_pct": -13,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -13287,7 +13437,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Coup de coeur Appartement 1 pièce(s) 25.92 m² Biarritz (64200) 693 € CC*",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": 64,
+   "ecart_prix_pct": 56,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -13312,7 +13462,7 @@
    "signaux": [],
    "statut": "active",
    "surface": 25.92,
-   "titre": "Exclusivité Coup de coeur Appartement 1 pièce(s) 25.92 m² Biarritz (64200) 693 € CC*",
+   "titre": "Coup de coeur Appartement 1 pièce(s) 25.92 m² Biarritz (64200) 693 € CC*",
    "type": "appartement",
    "url": "https://www.lelogisbasque.fr/location/80-biarritz/appartement/2356-adorable-studio-meuble-a-l-annee-chauffage-et-eau-compris-a-biarritz-saint-charles",
    "ville_agence": "Biarritz"
@@ -13326,7 +13476,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Nouveauté Appartement 1 pièce(s) 26.47 m² Biarritz (64200) 706 € CC*",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": 67,
+   "ecart_prix_pct": 59,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -14079,7 +14229,7 @@
    "derniere_vue": "2026-10-09",
    "description": "Biarritz -T3 vide Ã l'annÃ©e -Vue ocÃ©an - disponibilitÃ© immÃ©d Biarritz Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Biarritz 1150 € Biarritz -T3 vide Ã l'annÃ©e -Vue ocÃ©an - disponibilitÃ© immÃ©d à louer de 3 pièce(s) sur 64 m² Retour au listing Points clés... 3 pièce(s) , 64 m² 1 salle(s) de bains Ref. B2476000 Descriptif du bien • Biarritz -T3 vide Ã l'annÃ©e -Vue ocÃ©an - disponibilitÃ© immÃ©d Bel appartement de 64m2 situé au 5ème et dernier étage avec ascenseur situé près du quartier Saint Charles et des commerces de proximités. Vous serez séduit par sa vue exceptionnelle : Océan et Golf. L\\'appartement se compose d\\'une entrée avec placard, d\\'une cuisine indépendante moderne, entièrement meublée et équipée et donnant sur une loggia fermée, Le séjour de plus de 21m2 et une des chambres donnent sur des balcons sans vis-à-vis avec une vue imprenable, Les deux chambres sont équipées de placards, WC indépendants et d\\'une salle de bains avec baignoire. Du charme avec des parquets en bois massif. De plus vous disposerez d\\'une cave au sous-sol. Production d\\'eau chaude et de chauffage: individuelle ga",
    "dpe": "D",
-   "ecart_prix_pct": 12,
+   "ecart_prix_pct": 7,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -14619,7 +14769,7 @@
    "url": "https://www.olaizola.immo/annonces/annonces/fiches/4-40-26_60947843/anglet-cinq-cantons-maison-entierement-renovee-avec-piscine.html",
    "ville_agence": "Anglet"
   },
-  "https://www.olaizola.immo/annonces/annonces/fiches/4-40-26_61584932/arcangues-villa-de-caractere-sejour-cathedrale-et-piscine-chauffee.html": {
+  "https://www.olaizola.immo/annonces/annonces/fiches/4-40-26_61584932/arcangues-villa-elegante-sejour-cathedrale-et-piscine-chauffee.html": {
    "agence": "Agence Olaizola",
    "atouts": [],
    "chambres": null,
@@ -14642,9 +14792,9 @@
    "score": 0,
    "statut": "active",
    "surface": null,
-   "titre": "https://www.olaizola.immo/annonces/annonces/fiches/4-40-26_61584932/arcangues-villa-de-caractere-sejour-cathedrale-et-piscine-chauffee.html",
+   "titre": "https://www.olaizola.immo/annonces/annonces/fiches/4-40-26_61584932/arcangues-villa-elegante-sejour-cathedrale-et-piscine-chauffee.html",
    "type": null,
-   "url": "https://www.olaizola.immo/annonces/annonces/fiches/4-40-26_61584932/arcangues-villa-de-caractere-sejour-cathedrale-et-piscine-chauffee.html",
+   "url": "https://www.olaizola.immo/annonces/annonces/fiches/4-40-26_61584932/arcangues-villa-elegante-sejour-cathedrale-et-piscine-chauffee.html",
    "ville_agence": "Biarritz"
   },
   "https://www.orpi.com/annonce-location-appartement-t1-anglet-64600-29cacaad-0fa0-4dfa-a211-044d9b5e5787?agency=ag5cantons": {
@@ -14859,7 +15009,7 @@
    "derniere_vue": "2026-10-09",
    "description": "Appartement, m² T-2 à louer à Anglet pour 950 € avec Orpi Appartement à louer 2 pièces • Anglet Déposer un dossier Message Écrire à l'agence Partager Partager via e-mail Partager via facebook Partager via whatsapp Partager via SMS Favoris 9 Photos Carte Appartement à louer 2 pièces • Anglet Bon état 950 € par mois Charges comprises Loyer de base : 925 € Dépôt de garantie : 1 850 € Honoraires TTC à la charge du locataire : 611 € dont 138 € d'honoraires d'état des lieux Provisions pour charges : 25 € Réf. Orpi : 5ca0b2f9-bc05-44dc-9d44-4ca7a0f1f18a L'essentiel 2 pièces Surface 46,14 m² 1 chambre 1 salle de bain/eau Séjour 19,17 m² Extérieur Terrasse Place de parking Afficher plus de détails Afficher moins de détails L'avis de l'agent Anglet - Appartement T2 à louer meublé à l'année. Appartement T2 de 46 m² à louer meublé à l'année à ANGLET. Ce bien lumineux au 1er étage dispose d'un séjour, d'une cuisine équipée, d'une chambre, d'une salle de bain et d'un WC. Un balcon de plus de 11 m² complete vous permettra de profiter des beaux jours. *Comment postuler ?* Il vous suffit de répondre directement à l’annonce Vous recevrez ensuite un e-mail vous guidant pas à pas pour compléter votre ",
    "dpe": "A",
-   "ecart_prix_pct": 31,
+   "ecart_prix_pct": 33,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -14930,7 +15080,7 @@
    "derniere_vue": "2026-10-09",
    "description": "Appartement, m² T-2 à louer à Anglet pour 685 € avec Orpi Appartement à louer 2 pièces • Anglet Déposer un dossier Message Écrire à l'agence Partager Partager via e-mail Partager via facebook Partager via whatsapp Partager via SMS Exclusivité Favoris Vidéo 6 Photos Carte Appartement à louer 2 pièces • Anglet Bon état 685 € par mois Charges comprises Loyer de base : 655 € Dépôt de garantie : 1 310 € Honoraires TTC à la charge du locataire : 546 € dont 126 € d'honoraires d'état des lieux Provisions pour charges : 30 € Location meublée Loyer de référence majoré (loyer de base à ne pas dépasser) : 705 € Réf. Orpi : d535426d-0995-4292-93f9-2d63404b8f32 L'essentiel 2 pièces Surface 42 m² 1 chambre 1 salle de bain/eau Intérieur Chauffage individuel Meublé Extérieur Balcon Place de parking Autre Étage 2 Afficher plus de détails Afficher moins de détails L'avis de l'agent Location Étudiante ou mobilité-Septembre à Juin. Location étudiante ou mobilité de septembre 2026 à juin 2027- ANGLET Plage Lumineux T2 de 42 m² comprenant une pièce de vie donnant sur un balcon et un jardin au calme, une kitchenette, une chambre, une salle de bain et wc. Une place de parking exterieure. Afin de mieux orga",
    "dpe": "A",
-   "ecart_prix_pct": 3,
+   "ecart_prix_pct": 5,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -15000,7 +15150,7 @@
    "derniere_vue": "2026-10-09",
    "description": "Appartement, m² T-2 à louer à Anglet pour 667 € avec Orpi Appartement à louer 2 pièces • Anglet Déposer un dossier Message Écrire à l'agence Partager Partager via e-mail Partager via facebook Partager via whatsapp Partager via SMS Favoris Vidéo 7 Photos Carte Appartement à louer 2 pièces • Anglet Bon état 667 € par mois Charges comprises Loyer de base : 604 € Dépôt de garantie : 1 208 € Honoraires TTC à la charge du locataire : 556 € dont 139 € d'honoraires d'état des lieux Provisions pour charges : 63 € Location meublée Zone soumise à l’encadrement des loyers Réf. Orpi : fdaf9677-c4f3-4903-9e4f-160872608d4d L'essentiel 2 pièces Surface 46,41 m² 1 chambre 1 salle de bain/eau Séjour 19,33 m² Intérieur Chauffage individuel Électricité Double vitrage Meublé Extérieur Terrasse Autre Étage 1 Afficher plus de détails Afficher moins de détails L'avis de l'agent Location Étudiant ou mobilité Septembre 2026 à Juin 2027. ANGLET Chambre d'Amour - Location étudiant ou mobilité de 3 septembre 2026 à juin 2027. Lumineux T2 de 46 m² comprenant une pièce de vie donnant sur une terrasse vue mer, une cuisine indépendante, une chambre, une salle de bain et des wc indépendants. Attention pour bénéfici",
    "dpe": "A",
-   "ecart_prix_pct": -9,
+   "ecart_prix_pct": -7,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -15167,7 +15317,7 @@
    "derniere_vue": "2026-10-09",
    "description": "Appartement, m² T-3 à louer à Anglet pour 1 210 € avec Orpi Appartement à louer 3 pièces • Anglet Déposer un dossier Message Écrire à l'agence Partager Partager via e-mail Partager via facebook Partager via whatsapp Partager via SMS Favoris 9 Photos Carte Appartement à louer 3 pièces • Anglet Bon état 1 210 € par mois Charges comprises Loyer de base : 990 € Dépôt de garantie : 1 980 € Honoraires TTC à la charge du locataire : 910 € dont 210 € d'honoraires d'état des lieux Provisions pour charges : 220 € Location meublée Réf. Orpi : 4fcaa5e4-2a6d-4bfb-bd72-4eb5c3f735bc L'essentiel 3 pièces Surface 70 m² 2 chambres 1 salle de bain/eau Intérieur Meublé Extérieur Avec jardin privatif Afficher plus de détails Afficher moins de détails L'avis de l'agent Location étudiante de Septembre 2026 à Juin 2027. ANGLET Maharin À louer, agréable appartement situé en rez-de-chaussée d’une maison, offrant un cadre de vie confortable et un accès à un jardin. Le logement comprend deux chambres, ainsi qu’un troisième coin nuit offrant un espace supplémentaire selon les besoins. Il dispose également d’une salle d’eau et de WC indépendants. Loyer TOUTES CHARGES COMPRISES : Eau, électricité, chauffage, int",
    "dpe": null,
-   "ecart_prix_pct": 10,
+   "ecart_prix_pct": 12,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -15226,7 +15376,7 @@
    "derniere_vue": "2026-10-09",
    "description": "Appartement, 82 m² T-4 à louer à Anglet pour 1 320 € avec Orpi Appartement à louer 4 pièces • 82 m 2 Anglet Déposer un dossier Message Écrire à l'agence Partager Partager via e-mail Partager via facebook Partager via whatsapp Partager via SMS Favoris 8 Photos Carte Appartement à louer 4 pièces • 82 m 2 Anglet Bon état 1 320 € par mois Charges comprises Loyer de base : 1 270 € Dépôt de garantie : 1 270 € Honoraires TTC à la charge du locataire : 1 066 € dont 246 € d'honoraires d'état des lieux Provisions pour charges : 50 € Location meublée Réf. Orpi : 8c4df96b-7979-48c8-bf2a-b3b83106a08f L'essentiel 4 pièces Surface 82 m² 3 chambres 1 salle de bain/eau Séjour 27,18 m² Intérieur Ascenseur Chauffage central Meublé Extérieur Balcon Cave Place de parking Afficher plus de détails Afficher moins de détails L'avis de l'agent Location meublée à l'année - ANGLET CENTRE. ANGLET - Maignon Location meublée à l'année. Bel appartement meublé comprenant une entrée, un séjour donnant sur un balcon, une cuisine équipée, 3 chambres et une salle de bain. Disponible dès maintenant. Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques georisques.gouv.fr M",
    "dpe": "A",
-   "ecart_prix_pct": -8,
+   "ecart_prix_pct": -6,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -15780,7 +15930,7 @@
    "derniere_vue": "2026-10-09",
    "description": "À LOUER – APPARTEMENT T2BIS MEUBLÉ ÉTUDIANT (BAIL DE 9 MOIS)Venez découvrir cet appartement T2bis meublé situé au 1er étage d'une charmante ré Location appartement 2 pièces - 35.64m² à Biarritz (64200) Location appartement 2 pièces - 35.64m² à Biarritz (64200) À LOUER – APPARTEMENT T2BIS MEUBLÉ ÉTUDIANT (BAIL DE 9 MOIS) Venez découvrir cet appartement T2bis meublé situé au 1er étage d'une charmante résidence, il bénéficie d'une agréable vue sur l'océan. L'appartement se compose d'une entrée, d'un séjour lumineux avec une cuisine ouverte, d'une chambre, d'une pièce d'appoint, d'une salle de bain ainsi que d'un WC séparé. Vous profiterez également d'une terrasse et d'une place de parking privative. Location meublée étudiante – Bail de 9 mois Honoraires de 468 € TTC à la charge du locataire comprenant 108 € TTC pour l'état des lieux. Zone soumise à encadrement des loyers. Loyer de référence majoré (loyer de base à ne pas dépasser) 634.39 €/mois. Loyer de base 608 €/mois. Provision sur charges 70 €/mois, régularisation annuelle. Dépôt de garantie 1 269 €. Classe énergie D, Classe climat B Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 790.00 € et 1100.00",
    "dpe": "D",
-   "ecart_prix_pct": -18,
+   "ecart_prix_pct": -22,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -16803,6 +16953,12 @@
    "agences_ok": 19,
    "date": "2026-10-09",
    "nouveautes": 13
+  },
+  {
+   "actives": 205,
+   "agences_ok": 19,
+   "date": "2026-10-09",
+   "nouveautes": 11
   }
  ]
 }
