@@ -16,7 +16,7 @@
    "derniere_vue": "2026-10-09",
    "description": "GUÉTHARY - Appartement 2 pièces meublé dans une résidence haut de gamme récente - Situé à Guéthary, au sein de la Villa UHAINA, cet appartement de 2 pièces prend place... 64210 GUETHARY GUÉTHARY - Appartement 2 pièces meublé dans une résidence haut de gamme récente Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Appartements A vendre 2 pièces Ref. : OLAVAD1608 64210 GUETHARY GUÉTHARY - Appartement 2 pièces meublé dans une résidence haut de gamme récente 475 000 € ** Situé à Guéthary, au sein de la Villa UHAINA, cet appartement de 2 pièces prend place dans une résidence haut de gamme construite en 2021, offrant ainsi un cadre récent, soigné et particulièrement qualitatif. Installé en rez-de-chaussée d'une résidence de deux étages, ce bien séduit par la qualité de ses prestations, l'élégance de son environnement et le standing de l'ensemble immobilier. L'appartement est vendu meublé, avec un mobilier choisi avec soin et en parfaite harmonie avec l'esprit contemp",
    "dpe": null,
-   "ecart_prix_pct": 6,
+   "ecart_prix_pct": 11,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -182,33 +182,59 @@
   },
   "http://www.immobiarritz.fr/fiches/4-40-26_61584932/arcangues-villa-elegante-sejour-cathedrale-et-piscine-chauffee.html": {
    "agence": "Immobiarritz",
-   "atouts": [],
-   "chambres": null,
+   "atouts": [
+    "rénovation",
+    "récent",
+    "calme",
+    "saint-jean",
+    "220 m²"
+   ],
+   "chambres": 5,
    "classement": "exclu",
    "contexte": "",
    "derniere_vue": "2026-10-09",
-   "fiche_lue": false,
+   "description": "ARCANGUES - Villa élégante, séjour cathédrale et piscine chauffée - À vendre à Arcangues, nichée au fond d'une impasse privilégiée, cette villa d'environ 220 m² (surface... 64200 ARCANGUES ARCANGUES - Villa élégante, séjour cathédrale et piscine chauffée Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Maisons A vendre Maison Ref. : OLAMOJV1626 64200 ARCANGUES ARCANGUES - Villa élégante, séjour cathédrale et piscine chauffée 1 550 000 € ** À vendre à Arcangues, nichée au fond d'une impasse privilégiée, cette villa d'environ 220 m² (surface de référence du DPE) déploie ses volumes généreux au cur d'un terrain arboré de 3 260 m². Véritable ode à la nature, la propriété offre un cadre de vie au calme absolu, où biches et animaux sauvages sont des visiteurs réguliers. Une rénovation contemporaine récente souligne l'élégance des lieux. Le séjour cathédrale, magnifié par ses poutres apparentes, sa cheminée avec insert et sa mezzanine ouverte aménagée en bureau, comp",
+   "dpe": null,
+   "ecart_prix_pct": -19,
+   "etiquette_prix": "bon prix",
+   "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-10-09",
+     "prix": 2870
+    }
+   ],
    "itineraire_pos": "43.4832,-1.5586",
    "itineraire_source": "route",
    "km_hopital": 8.2,
    "lat": 43.4832,
    "lon": -1.5586,
+   "mail": "jone.velasco@olaizola.immo",
+   "meuble": false,
    "min_velo": 33,
    "min_voiture": 13,
    "motif_exclusion": "lien de navigation, pas une annonce",
+   "photo": "https://www.olaizola.immo/office8/agenceolaizola/catalog/images/pr_web/6/1/5/8/4/9/3/2/61584932a.jpg.mid.jpg",
    "photo_cherchee": true,
+   "photos": [
+    "https://www.olaizola.immo/office8/agenceolaizola/catalog/images/pr_web/6/1/5/8/4/9/3/2/61584932a.jpg.mid.jpg"
+   ],
    "photos_cherchees": true,
-   "pieces": null,
+   "pieces": 6,
    "position": "Biarritz (ville de l'agence)",
    "premiere_vue": "2026-10-09",
-   "prix": null,
-   "reserves": [],
-   "score": 0,
+   "prix": 2870,
+   "prix_m2": 13.0,
+   "reserves": [
+    "saint-jean-de-luz"
+   ],
+   "score": 1,
    "signaux": [],
    "statut": "active",
-   "surface": null,
+   "surface": 220.0,
+   "tel": "0670137676",
    "titre": "http://www.immobiarritz.fr/fiches/4-40-26_61584932/arcangues-villa-elegante-sejour-cathedrale-et-piscine-chauffee.html",
-   "type": null,
+   "type": "villa",
    "url": "http://www.immobiarritz.fr/fiches/4-40-26_61584932/arcangues-villa-elegante-sejour-cathedrale-et-piscine-chauffee.html",
    "ville_agence": "Biarritz"
   },
@@ -1488,7 +1514,7 @@
    "classement": "exclu",
    "contexte": "BIARRITZ – Avenue Reine VICTORIA – T2 Bis 45.34m² 725€",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": -5,
+   "ecart_prix_pct": 0,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -1703,7 +1729,7 @@
    "classement": "exclu",
    "contexte": "Arcangues – Maison Familiale avec piscine, prestations de standing et cadre verdoyant 202m² 3 200€",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": -6,
+   "ecart_prix_pct": -1,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -1742,7 +1768,7 @@
    "classement": "exclu",
    "contexte": "ARCANGUES, Proche Bourg, Maison Mitoyenne 137m² 2 146€",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": -7,
+   "ecart_prix_pct": -2,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -1918,7 +1944,7 @@
    "derniere_vue": "2026-10-09",
    "description": "Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée Situé au sein de la résidence ETCHE CHURRIA, dans un environnement agréable à Biarritz, cet appartement meublé de type T3, d'une superficie de 83,09 m², situé au 2ᵉ étage d'une copropriété sécurisée avec ascenseur, offre un cadre de vie… Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée Aller au contenu Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée Biarritz PROCHE CENTRE 1 500 € 1 500 € PROCHE CENTRE Descriptif du bien Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée Situé au sein de la résidence ETCHE CHURRIA, dans un environnement agréable à Biarritz, cet appartement meublé de type T3, d’une superficie de 83,09 m² , situé au 2ᵉ étage d’une copropriété sécurisée avec ascenseur, offre un cadre de vie confortable et fonctionnel. Ce bien se compose d’une entrée avec dégagement desservant les différents espaces de vie. Il propose un séjour lumineux, une cuisine ouverte aménagée et équipée, deux chambres confortables avec rangements, une salle d’eau, un WC indépendant ainsi qu’un cellier offrant un espace de rangement",
    "dpe": null,
-   "ecart_prix_pct": -7,
+   "ecart_prix_pct": -2,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -1980,7 +2006,7 @@
    "classement": "exclu",
    "contexte": "BIARRITZ, Côte des Basques, Studio Meublé 33m² 755€",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": 36,
+   "ecart_prix_pct": 43,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -2019,7 +2045,7 @@
    "classement": "exclu",
    "contexte": "BIARRITZ, Hyper Centre, T2 meublé 50.59m² 890€",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": 5,
+   "ecart_prix_pct": 10,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -5934,7 +5960,7 @@
    "derniere_vue": "2026-10-09",
    "description": "02/10/2026 - ✅ Appartement de type 3 meublé en duplex, situé à proximité de la gare de Bayonne, comprenant au rez-de-chaussée un séjour avec cuisi... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T3 BAYONNE à louer 768 €/mois Charges comprises 58 m² • 3 pièces • 2 chambres Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 3 pièces Surface : 57.82 m² Surf. séj : 17.5 m² 2 chbres 1 salle de bain Intérieur Cuisine Equipée Chauffage Électrique Meublé Autres Soumis à la copropriété Description Appartement de type 3 meublé en duplex, situé à proximité de la gare de Bayonne, comprenant au rez-de-chaussée un séjour avec cuisine ouverte équipée. A l'étage deux chambres, une salle de bains et WC. Vous disposerez d'un local vélo commun. Zone soumise à encadrement des loyers bail meublé : Loyer de référence : 607.11€ Loyer majoré : 728€ Charges forfaitaires : 40€ (Les charges comprennent l'eau froide, le ménage des parties communes, l'électricité des parties communes, la taxe d'enlèvements d'ordures ménagères) Honoraires agence à la charge du locataire : 578.20€ TTC dont 173.46€ pour l'état des lieux. Dépôt de garantie : 1456€ Merci d'ad",
    "dpe": null,
-   "ecart_prix_pct": -21,
+   "ecart_prix_pct": -18,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -9420,7 +9446,7 @@
    "score": 7,
    "statut": "active",
    "surface": 63.0,
-   "titre": "Appartement 1 375 €/mois NANTERRE (92000) 63 m² • 3 pièces • 2 chambres Accès handicapé • Ascenseur • Sous-sol • Balcon",
+   "titre": "Appartement 1 375 €/mois NANTERRE (92000) 63 m² • 3 pièces • 2 chambres Accès handicapé…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/nanterre/louer/nanterre/appartement-3-pieces-52975127",
    "ville_agence": "Bayonne"
@@ -12655,7 +12681,7 @@
    "score": 2,
    "statut": "active",
    "surface": 30.06,
-   "titre": "Nouveauté Appartement 2 pièce(s) 1 chambre(s) 30.06 m² Anglet (64600) 1 010 € CC*",
+   "titre": "Appartement 2 pièce(s) 1 chambre(s) 30.06 m² Anglet (64600) 1 010 € CC*",
    "type": "appartement",
    "url": "https://www.lelogisbasque.fr/location/1-anglet/appartement/2360-adorable-t2-meuble-a-anglet-toutes-consommations-et-internet-inclus",
    "ville_agence": "Anglet"
@@ -13437,7 +13463,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Coup de coeur Appartement 1 pièce(s) 25.92 m² Biarritz (64200) 693 € CC*",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": 56,
+   "ecart_prix_pct": 64,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -13476,7 +13502,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Nouveauté Appartement 1 pièce(s) 26.47 m² Biarritz (64200) 706 € CC*",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": 59,
+   "ecart_prix_pct": 67,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -14229,7 +14255,7 @@
    "derniere_vue": "2026-10-09",
    "description": "Biarritz -T3 vide Ã l'annÃ©e -Vue ocÃ©an - disponibilitÃ© immÃ©d Biarritz Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Biarritz 1150 € Biarritz -T3 vide Ã l'annÃ©e -Vue ocÃ©an - disponibilitÃ© immÃ©d à louer de 3 pièce(s) sur 64 m² Retour au listing Points clés... 3 pièce(s) , 64 m² 1 salle(s) de bains Ref. B2476000 Descriptif du bien • Biarritz -T3 vide Ã l'annÃ©e -Vue ocÃ©an - disponibilitÃ© immÃ©d Bel appartement de 64m2 situé au 5ème et dernier étage avec ascenseur situé près du quartier Saint Charles et des commerces de proximités. Vous serez séduit par sa vue exceptionnelle : Océan et Golf. L\\'appartement se compose d\\'une entrée avec placard, d\\'une cuisine indépendante moderne, entièrement meublée et équipée et donnant sur une loggia fermée, Le séjour de plus de 21m2 et une des chambres donnent sur des balcons sans vis-à-vis avec une vue imprenable, Les deux chambres sont équipées de placards, WC indépendants et d\\'une salle de bains avec baignoire. Du charme avec des parquets en bois massif. De plus vous disposerez d\\'une cave au sous-sol. Production d\\'eau chaude et de chauffage: individuelle ga",
    "dpe": "D",
-   "ecart_prix_pct": 7,
+   "ecart_prix_pct": 12,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -14639,7 +14665,7 @@
    "classement": "exclu",
    "contexte": "",
    "derniere_vue": "2026-10-09",
-   "description": "OLAIZOLA Plan du site Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Plan du site Plan du site Appartements A vendre A louer Maisons A vendre A louer Marina Terrains constructibles à bâtir non constructibles industriel et artisanal A louer commercial de loisirs Lotissement Programmes neufs Les programmes Les Lots Immeubles Lofts Professionnels Bureaux Entrepôts Locaux commerciaux Murs Local d'activités Fonds de commerce Parking / Box Box Garage Parking Cave Locations meublées Appartements Maison Viager Bien(s) par ville immobilier biarritz immobilier saint jean de luz immobilier bidart immobilier anglet immobilier saint pee sur nivelle immobilier immobilier urrugne immobilier messanges Pages de contenu Agence immobilière à Bidart Notre équipe Agence immobilière à Biarritz Agence immobilière à Saint-Jean-de-Luz Nos agences Vendre Blog Nos vidéos Faire Gerer Estimation Mentions légales Politique de confidentialité Conditions générales de vente Nos biens vendus ",
+   "description": "OLAIZOLA Plan du site Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Plan du site Plan du site Appartements A vendre A louer Maisons A vendre A louer Marina Terrains constructibles à bâtir non constructibles industriel et artisanal A louer commercial de loisirs Lotissement Programmes neufs Les programmes Les Lots Immeubles Lofts Professionnels Bureaux Entrepôts Locaux commerciaux Murs Local d'activités Fonds de commerce Parking / Box Box Garage Parking Cave Locations meublées Appartements Maison Viager Bien(s) par ville immobilier biarritz immobilier saint jean de luz immobilier bidart immobilier anglet immobilier saint pee sur nivelle immobilier immobilier urrugne immobilier cambo les bains Pages de contenu Agence immobilière à Bidart Notre équipe Agence immobilière à Biarritz Agence immobilière à Saint-Jean-de-Luz Nos agences Vendre Blog Nos vidéos Faire Gerer Estimation Mentions légales Politique de confidentialité Conditions générales de vente Nos biens v",
    "dpe": null,
    "fiche_lue": true,
    "itineraire_pos": "43.4832,-1.5586",
@@ -14723,49 +14749,34 @@
   "https://www.olaizola.immo/annonces/annonces/fiches/4-40-26_60947843/anglet-cinq-cantons-maison-entierement-renovee-avec-piscine.html": {
    "agence": "Agence Olaizola",
    "atouts": [
-    "renove",
-    "neuf",
-    "parking",
-    "garage",
-    "box",
-    "cave",
-    "saint-jean"
+    "renove"
    ],
    "chambres": null,
    "classement": "exclu",
    "contexte": "",
    "derniere_vue": "2026-10-09",
-   "description": "OLAIZOLA Plan du site Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Plan du site Plan du site Appartements A vendre A louer Maisons A vendre A louer Marina Terrains constructibles à bâtir non constructibles industriel et artisanal A louer commercial de loisirs Lotissement Programmes neufs Les programmes Les Lots Immeubles Lofts Professionnels Bureaux Entrepôts Locaux commerciaux Murs Local d'activités Fonds de commerce Parking / Box Box Garage Parking Cave Locations meublées Appartements Maison Viager Bien(s) par ville immobilier biarritz immobilier saint jean de luz immobilier bidart immobilier anglet immobilier saint pee sur nivelle immobilier immobilier urrugne immobilier messanges Pages de contenu Agence immobilière à Bidart Notre équipe Agence immobilière à Biarritz Agence immobilière à Saint-Jean-de-Luz Nos agences Vendre Blog Nos vidéos Faire Gerer Estimation Mentions légales Politique de confidentialité Conditions générales de vente Nos biens vendus ",
-   "dpe": null,
-   "fiche_lue": true,
+   "fiche_lue": false,
    "itineraire_pos": "43.4855,-1.5185",
    "itineraire_source": "route",
    "km_hopital": 4.9,
    "lat": 43.4855,
    "lon": -1.5185,
-   "meuble": true,
    "min_velo": 20,
    "min_voiture": 9,
    "motif_exclusion": "lien de navigation, pas une annonce",
-   "photo": "https://www.olaizola.immo/annonces/annonces/fiches/office8/agenceolaizola/catalog/images/background_5.jpg",
    "photo_cherchee": true,
-   "photos": [
-    "https://www.olaizola.immo/annonces/annonces/fiches/office8/agenceolaizola/catalog/images/background_5.jpg"
-   ],
    "photos_cherchees": true,
    "pieces": null,
    "position": "Anglet (ville de l'agence)",
    "premiere_vue": "2026-10-09",
    "prix": null,
-   "reserves": [
-    "saint-jean-de-luz"
-   ],
-   "score": 4,
+   "reserves": [],
+   "score": 3,
    "signaux": [],
    "statut": "active",
    "surface": null,
    "titre": "https://www.olaizola.immo/annonces/annonces/fiches/4-40-26_60947843/anglet-cinq-cantons-maison-entierement-renovee-avec-piscine.html",
-   "type": "maison",
+   "type": null,
    "url": "https://www.olaizola.immo/annonces/annonces/fiches/4-40-26_60947843/anglet-cinq-cantons-maison-entierement-renovee-avec-piscine.html",
    "ville_agence": "Anglet"
   },
@@ -15930,7 +15941,7 @@
    "derniere_vue": "2026-10-09",
    "description": "À LOUER – APPARTEMENT T2BIS MEUBLÉ ÉTUDIANT (BAIL DE 9 MOIS)Venez découvrir cet appartement T2bis meublé situé au 1er étage d'une charmante ré Location appartement 2 pièces - 35.64m² à Biarritz (64200) Location appartement 2 pièces - 35.64m² à Biarritz (64200) À LOUER – APPARTEMENT T2BIS MEUBLÉ ÉTUDIANT (BAIL DE 9 MOIS) Venez découvrir cet appartement T2bis meublé situé au 1er étage d'une charmante résidence, il bénéficie d'une agréable vue sur l'océan. L'appartement se compose d'une entrée, d'un séjour lumineux avec une cuisine ouverte, d'une chambre, d'une pièce d'appoint, d'une salle de bain ainsi que d'un WC séparé. Vous profiterez également d'une terrasse et d'une place de parking privative. Location meublée étudiante – Bail de 9 mois Honoraires de 468 € TTC à la charge du locataire comprenant 108 € TTC pour l'état des lieux. Zone soumise à encadrement des loyers. Loyer de référence majoré (loyer de base à ne pas dépasser) 634.39 €/mois. Loyer de base 608 €/mois. Provision sur charges 70 €/mois, régularisation annuelle. Dépôt de garantie 1 269 €. Classe énergie D, Classe climat B Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 790.00 € et 1100.00",
    "dpe": "D",
-   "ecart_prix_pct": -22,
+   "ecart_prix_pct": -18,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -16959,6 +16970,12 @@
    "agences_ok": 19,
    "date": "2026-10-09",
    "nouveautes": 11
+  },
+  {
+   "actives": 205,
+   "agences_ok": 19,
+   "date": "2026-10-09",
+   "nouveautes": 7
   }
  ]
 }
