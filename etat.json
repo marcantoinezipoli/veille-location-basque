@@ -3,60 +3,34 @@
   "http://www.immobiarritz.fr/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-dans-une-residence-haut-de-gamme-recente.html": {
    "agence": "Immobiarritz",
    "atouts": [
-    "récent",
-    "recent",
-    "haut de gamme",
-    "standing",
-    "saint-jean",
-    "loyer 729 €"
+    "recent"
    ],
    "chambres": null,
    "classement": "exclu",
    "contexte": "",
    "derniere_vue": "2026-10-10",
-   "description": "GUÉTHARY - Appartement 2 pièces meublé dans une résidence haut de gamme récente - Situé à Guéthary, au sein de la Villa UHAINA, cet appartement de 2 pièces prend place... 64210 GUETHARY GUÉTHARY - Appartement 2 pièces meublé dans une résidence haut de gamme récente Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Appartements A vendre 2 pièces Ref. : OLAVAD1608 64210 GUETHARY GUÉTHARY - Appartement 2 pièces meublé dans une résidence haut de gamme récente 475 000 € ** Situé à Guéthary, au sein de la Villa UHAINA, cet appartement de 2 pièces prend place dans une résidence haut de gamme construite en 2021, offrant ainsi un cadre récent, soigné et particulièrement qualitatif. Installé en rez-de-chaussée d'une résidence de deux étages, ce bien séduit par la qualité de ses prestations, l'élégance de son environnement et le standing de l'ensemble immobilier. L'appartement est vendu meublé, avec un mobilier choisi avec soin et en parfaite harmonie avec l'esprit contemp",
-   "dpe": null,
-   "ecart_prix_pct": 11,
-   "etiquette_prix": "dans le marché",
-   "fiche_lue": true,
-   "historique_prix": [
-    {
-     "date": "2026-10-10",
-     "prix": 729
-    }
-   ],
+   "fiche_lue": false,
    "itineraire_pos": "43.4832,-1.5586",
    "itineraire_source": "route",
    "km_hopital": 8.2,
    "lat": 43.4832,
    "lon": -1.5586,
-   "mail": "amandine.duhalde@olaizola.immo",
-   "meuble": true,
    "min_velo": 33,
    "min_voiture": 13,
    "motif_exclusion": "lien de navigation, pas une annonce",
-   "photo": "https://www.olaizola.immo/office8/agenceolaizola/catalog/images/pr_web/6/1/3/5/4/2/0/0/61354200a.jpg.mid.jpg",
    "photo_cherchee": true,
-   "photos": [
-    "https://www.olaizola.immo/office8/agenceolaizola/catalog/images/pr_web/6/1/3/5/4/2/0/0/61354200a.jpg.mid.jpg"
-   ],
    "photos_cherchees": true,
-   "pieces": 2,
+   "pieces": null,
    "position": "Biarritz (ville de l'agence)",
    "premiere_vue": "2026-10-10",
-   "prix": 729,
-   "prix_m2": 17.8,
-   "reserves": [
-    "saint-jean-de-luz",
-    "rez-de-chaussée"
-   ],
-   "score": -3,
+   "prix": null,
+   "reserves": [],
+   "score": 2,
    "signaux": [],
    "statut": "active",
-   "surface": 41.0,
-   "tel": "0669608582",
+   "surface": null,
    "titre": "http://www.immobiarritz.fr/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-dans-une-residence-haut-de-gamme-recente.html",
-   "type": "appartement",
+   "type": null,
    "url": "http://www.immobiarritz.fr/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-dans-une-residence-haut-de-gamme-recente.html",
    "ville_agence": "Biarritz"
   },
@@ -195,7 +169,7 @@
    "derniere_vue": "2026-10-10",
    "description": "ARCANGUES - Villa élégante, séjour cathédrale et piscine chauffée - À vendre à Arcangues, nichée au fond d'une impasse privilégiée, cette villa d'environ 220 m² (surface... 64200 ARCANGUES ARCANGUES - Villa élégante, séjour cathédrale et piscine chauffée Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Maisons A vendre Maison Ref. : OLAMOJV1626 64200 ARCANGUES ARCANGUES - Villa élégante, séjour cathédrale et piscine chauffée 1 550 000 € ** À vendre à Arcangues, nichée au fond d'une impasse privilégiée, cette villa d'environ 220 m² (surface de référence du DPE) déploie ses volumes généreux au cur d'un terrain arboré de 3 260 m². Véritable ode à la nature, la propriété offre un cadre de vie au calme absolu, où biches et animaux sauvages sont des visiteurs réguliers. Une rénovation contemporaine récente souligne l'élégance des lieux. Le séjour cathédrale, magnifié par ses poutres apparentes, sa cheminée avec insert et sa mezzanine ouverte aménagée en bureau, comp",
    "dpe": null,
-   "ecart_prix_pct": -19,
+   "ecart_prix_pct": -18,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -1201,7 +1175,7 @@
    "classement": "exclu",
    "contexte": "BIARRITZ – Avenue Reine VICTORIA – T2 Bis 45.34m² 725€",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 0,
+   "ecart_prix_pct": 1,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -1455,7 +1429,7 @@
    "classement": "exclu",
    "contexte": "ARCANGUES, Proche Bourg, Maison Mitoyenne 137m² 2 146€",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": -2,
+   "ecart_prix_pct": -1,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -1631,7 +1605,7 @@
    "derniere_vue": "2026-10-10",
    "description": "Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée Situé au sein de la résidence ETCHE CHURRIA, dans un environnement agréable à Biarritz, cet appartement meublé de type T3, d'une superficie de 83,09 m², situé au 2ᵉ étage d'une copropriété sécurisée avec ascenseur, offre un cadre de vie… Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée Aller au contenu Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée Biarritz PROCHE CENTRE 1 500 € 1 500 € PROCHE CENTRE Descriptif du bien Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée Situé au sein de la résidence ETCHE CHURRIA, dans un environnement agréable à Biarritz, cet appartement meublé de type T3, d’une superficie de 83,09 m² , situé au 2ᵉ étage d’une copropriété sécurisée avec ascenseur, offre un cadre de vie confortable et fonctionnel. Ce bien se compose d’une entrée avec dégagement desservant les différents espaces de vie. Il propose un séjour lumineux, une cuisine ouverte aménagée et équipée, deux chambres confortables avec rangements, une salle d’eau, un WC indépendant ainsi qu’un cellier offrant un espace de rangement",
    "dpe": null,
-   "ecart_prix_pct": -2,
+   "ecart_prix_pct": -1,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -1693,7 +1667,7 @@
    "classement": "exclu",
    "contexte": "BIARRITZ, Côte des Basques, Studio Meublé 33m² 755€",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 43,
+   "ecart_prix_pct": 44,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -1732,7 +1706,7 @@
    "classement": "exclu",
    "contexte": "BIARRITZ, Hyper Centre, T2 meublé 50.59m² 890€",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 10,
+   "ecart_prix_pct": 11,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -3726,7 +3700,7 @@
    "classement": "exclu",
    "contexte": "Appartement 2 pièces - 40 m² BAYONNE (64100) 820 € / mois",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 58,
+   "ecart_prix_pct": 52,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -4360,7 +4334,7 @@
    "classement": "exclu",
    "contexte": "1 / 10 Maison 568 €/mois AIRVAULT (79600) 134 m² • 3 pièces • 2 chambres Surface : 134.21 m² • 3 pièces • 2 chbres En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -68,
+   "ecart_prix_pct": -69,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -4404,7 +4378,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 615 €/mois AIRVAULT (79600) 69 m² • 3 pièces • 2 chambres Surf. terrain : 50 m² Contacter l'agence Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -37,
+   "ecart_prix_pct": -39,
    "etiquette_prix": "bon prix",
    "evenement": "baisse",
    "historique_prix": [
@@ -4449,7 +4423,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Maison 650 €/mois ASSAIS LES JUMEAUX (79600) 101 m² • 3 pièces • 2 chambres Surf. terrain : 100 m² En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -51,
+   "ecart_prix_pct": -52,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -4529,7 +4503,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 22 Maison 750 €/mois GOURGE (79200) 137 m² • 4 pièces • 3 chambres Surf. terrain : 300 m² En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -58,
+   "ecart_prix_pct": -59,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -4569,7 +4543,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 950 €/mois SAINT LOUP LAMAIRE (79600) 104 m² • 4 pièces • 3 chambres Surf. terrain : 995 m² Contacter l'agence Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -30,
+   "ecart_prix_pct": -32,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -4770,7 +4744,7 @@
    "derniere_vue": "2026-10-10",
    "description": "02/10/2026 - ✅ Location statut étudiant (9 mois) Chambre d'Amour Appartement T3 avec deux chambres, au 1er et dernier étage d'une résidence 2022,... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T3 ANGLET à louer 783 €/mois Charges comprises 48 m² • 3 pièces • 2 chambres Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 3 pièces Surface : 48.15 m² 2 chbres 1 salle d'eau Intérieur Cuisine Indépendante Chauffage Électrique Garage Extérieur SousSol, GarageFerme Autres Ann. const. : 2022 Soumis à la copropriété Nb lots copro : 63 Description Location statut étudiant (9 mois) Chambre d'Amour Appartement T3 avec deux chambres, au 1er et dernier étage d'une résidence 2022, avec grande terrasse Sud-Ouest. Lumineux, au calme, à 300 m de la plage des Sables d'Or. Un bien rare, complet, et idéalement placé. Loyer hors charges 755,95 € par mois, provision charges 27,00 € par mois, loyer charges comprises 782,95 € par mois Dépôt de garantie : 1 512,00 € Montant moyen des charges annuelles : 1 068,00 € Honoraires TTC charge locataire : 625,95 € TTC**, dont 144,45 € au titre de la réalisation de l'état des lieux 782,95 € CC par mois* Mentio",
    "dpe": null,
-   "ecart_prix_pct": 26,
+   "ecart_prix_pct": 21,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -4886,7 +4860,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 625 €/mois ARGELES SUR MER (66700) 43 m² • 2 pièces • 1 chambre Surf. terrain : 2 m² • 1 salle d'eau • Balcon En savoir plus Appeler",
    "derniere_vue": "2026-10-08",
-   "ecart_prix_pct": 12,
+   "ecart_prix_pct": 8,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -5092,7 +5066,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 7 Maison 1 280 €/mois AYTRE (17440) 57 m² • 3 pièces • 2 chambres Surface : 57 m² • 3 pièces • 2 chbres Contacter l'agence Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": 74,
+   "ecart_prix_pct": 67,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -5211,7 +5185,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 5 Appartement 950 €/mois BAYONNE (64100) 52 m² • 2 pièces • 1 chambre Ascenseur • 1 cave • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 41,
+   "ecart_prix_pct": 36,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -5257,8 +5231,8 @@
    "derniere_vue": "2026-10-10",
    "description": "18/09/2026 - ✅ LOUÉ MEUBLÉ SEPT. A JUIN BAIL ÉTUDIANT ou MOBILITÉ COLOCATION ACCEPTÉE Idéalement situé et à proximité des commodités, cet a... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T3 BAYONNE à louer 1 250 €/mois Charges comprises 82 m² • 3 pièces • 2 chambres Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 3 pièces Surface : 82.35 m² 2 chbres 1 salle d'eau Intérieur Ascenseur Balcon Meublé Description LOUÉ MEUBLÉ SEPT. A JUIN BAIL ÉTUDIANT ou MOBILITÉ COLOCATION ACCEPTÉE Idéalement situé et à proximité des commodités, cet appartement de type 3, composé d'un grand séjour avec cuisine ouverte entièrement équipée, deux chambres. Une salle de bain et un WC séparés. Un balcon complète ce bien. LOYER CC : 1250 € (CH 200€ : eau froide et chaude, chauffage, électricité, internet, entretien parties communes et espaces verts) HONORAIRES D'AGENCES : 1079 € Loyer hors charges 1 050,00 € par mois, provision charges 200,00 € par mois, loyer charges comprises 1 250,00 € par mois Dépôt de garantie : 2 100,00 € Honoraires TTC charge locataire : 1 070,00 € TTC**, dont 247,00 € au titre de la réalisation de l'état des lieux 1 250,00 ",
    "dpe": null,
-   "ecart_prix_pct": 17,
-   "etiquette_prix": "au-dessus du marché",
+   "ecart_prix_pct": 13,
+   "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
     {
@@ -5412,7 +5386,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 7 Appartement 791 €/mois BOUCAU (64340) 43 m² • 2 pièces • 1 chambre 1 cave • 1 salle d'eau • Balcon • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 42,
+   "ecart_prix_pct": 37,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -5604,7 +5578,7 @@
    "derniere_vue": "2026-10-10",
    "description": "02/10/2026 - ✅ Appartement de type 3 meublé en duplex, situé à proximité de la gare de Bayonne, comprenant au rez-de-chaussée un séjour avec cuisi... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T3 BAYONNE à louer 768 €/mois Charges comprises 58 m² • 3 pièces • 2 chambres Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 3 pièces Surface : 57.82 m² Surf. séj : 17.5 m² 2 chbres 1 salle de bain Intérieur Cuisine Equipée Chauffage Électrique Meublé Autres Soumis à la copropriété Description Appartement de type 3 meublé en duplex, situé à proximité de la gare de Bayonne, comprenant au rez-de-chaussée un séjour avec cuisine ouverte équipée. A l'étage deux chambres, une salle de bains et WC. Vous disposerez d'un local vélo commun. Zone soumise à encadrement des loyers bail meublé : Loyer de référence : 607.11€ Loyer majoré : 728€ Charges forfaitaires : 40€ (Les charges comprennent l'eau froide, le ménage des parties communes, l'électricité des parties communes, la taxe d'enlèvements d'ordures ménagères) Honoraires agence à la charge du locataire : 578.20€ TTC dont 173.46€ pour l'état des lieux. Dépôt de garantie : 1456€ Merci d'ad",
    "dpe": null,
-   "ecart_prix_pct": -18,
+   "ecart_prix_pct": -17,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -5767,7 +5741,7 @@
    "classement": "exclu",
    "contexte": "1 / 9 Maison 1 300 €/mois BLANQUEFORT (33290) 91 m² • 5 pièces • 3 chambres Surf. terrain : 468 m² Contacter l'agence Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": 10,
+   "ecart_prix_pct": 6,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -5808,7 +5782,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 8 Maison 1 400 €/mois BLANQUEFORT (33290) 88 m² • 5 pièces • 3 chambres Surf. terrain : 333 m² • Terrasse Contacter l'agence Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": 23,
+   "ecart_prix_pct": 18,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -5847,7 +5821,7 @@
    "classement": "exclu",
    "contexte": "1 / 12 Maison 2 100 €/mois BLANQUEFORT (33290) 156 m² • 6 pièces • 4 chambres Surf. terrain : 680 m² En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": 4,
+   "ecart_prix_pct": 0,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -5886,7 +5860,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 550 €/mois BRAUD ET SAINT LOUIS (33820) 30 m² • 1 pièce Surf. terrain : 40 m² • 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": 41,
+   "ecart_prix_pct": 36,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -6006,7 +5980,7 @@
    "classement": "exclu",
    "contexte": "1 / 7 Maison 818 €/mois TEUILLAC (33710) 100 m² • 4 pièces • 3 chambres Surf. terrain : 40 m² En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -37,
+   "ecart_prix_pct": -39,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -6046,8 +6020,8 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 565 €/mois VAL DE LIVENNE (33860) 48 m² • 2 pièces • 1 chambre Surf. terrain : 500 m² • Parking En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -9,
-   "etiquette_prix": "dans le marché",
+   "ecart_prix_pct": -12,
+   "etiquette_prix": "bon prix",
    "historique_prix": [
     {
      "date": "2026-09-29",
@@ -6257,7 +6231,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Maison 600 €/mois BRESSUIRE (79300) 23 m² • 2 pièces • 1 chambre Surface : 22.86 m² • 2 pièces • 1 chbre En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": 102,
+   "ecart_prix_pct": 94,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -6536,7 +6510,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Appartement 1 200 €/mois RILLIEUX LA PAPE (69140) 61 m² • 3 pièces • 2 chambres Surface : 61.44 m² • 3 pièces • 2 chbres En savoir plus Appeler",
    "derniere_vue": "2026-10-08",
-   "ecart_prix_pct": 52,
+   "ecart_prix_pct": 46,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -6619,7 +6593,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Appartement 1 150 €/mois CERGY (95800) 60 m² • 3 pièces • 2 chambres Ascenseur • 1 salle de bain • Parking En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": 48,
+   "ecart_prix_pct": 43,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -6740,7 +6714,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 570 €/mois CORBEIL ESSONNES (91100) 28 m² • 1 pièce Terrasse • Ascenseur • 1 salle d'eau • Parking En savoir plus Appeler",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": 58,
+   "ecart_prix_pct": 52,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -6781,7 +6755,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 810 €/mois CORBEIL ESSONNES (91100) 43 m² • 2 pièces • 1 chambre Terrasse • 1 salle de bain • Parking En savoir plus Appeler",
    "derniere_vue": "2026-10-08",
-   "ecart_prix_pct": 45,
+   "ecart_prix_pct": 40,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -6863,7 +6837,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 1 850 €/mois COURBEVOIE (92400) 63 m² • 3 pièces • 2 chambres Ascenseur • 1 cave • Balcon • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": 127,
+   "ecart_prix_pct": 119,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7023,7 +6997,7 @@
    "classement": "exclu",
    "contexte": "1 / 11 Maison 1 500 €/mois EYSINES (33320) 109 m² • 5 pièces • 3 chambres Cheminée • Surf. terrain : 970 m² • Terrasse • 1 salle de bain En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": 7,
+   "ecart_prix_pct": 3,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -7144,7 +7118,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Appartement 728 €/mois BORDEAUX (33800) 37 m² • 2 pièces • 1 chambre Sous-sol • 1 salle d'eau • Parking En savoir plus Appeler",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": 52,
+   "ecart_prix_pct": 46,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7223,7 +7197,7 @@
    "classement": "exclu",
    "contexte": "1 / 8 Maison 960 €/mois GUJAN MESTRAS (33470) 47 m² • 3 pièces • 2 chambres Surf. terrain : 242 m² • 1 salle de bain • 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": 58,
+   "ecart_prix_pct": 52,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7265,7 +7239,7 @@
    "classement": "exclu",
    "contexte": "1 / 11 Maison 1 744 €/mois LE TEICH (33470) 130 m² • 5 pièces • 4 chambres Surf. terrain : 425 m² • Terrasse • Accès handicapé • Garage En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": 3,
+   "ecart_prix_pct": 0,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -7307,7 +7281,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Maison 1 650 €/mois MIOS (33380) 105 m² • 4 pièces • 3 chambres Surf. terrain : 1324 m² • Terrasse • Piscine • Garage En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": 21,
+   "ecart_prix_pct": 17,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7467,7 +7441,7 @@
    "classement": "exclu",
    "contexte": "1 / 8 Maison 1 550 €/mois CHICHE (79350) 215 m² • 7 pièces • 5 chambres Surf. terrain : 2000 m² En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -44,
+   "ecart_prix_pct": -46,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -7506,7 +7480,7 @@
    "classement": "exclu",
    "contexte": "1 / 9 Maison 580 €/mois LA CHAPELLE SAINT LAURENT (79430) 64 m² • 3 pièces • 2 chambres Surf. terrain : 250 m² En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -30,
+   "ecart_prix_pct": -32,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -7665,7 +7639,7 @@
    "classement": "exclu",
    "contexte": "1 / 14 Maison 1 500 €/mois LA ROCHELLE (17000) 78 m² • 4 pièces • 3 chambres Surf. terrain : 139 m² En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": 48,
+   "ecart_prix_pct": 43,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -8035,7 +8009,7 @@
    "classement": "exclu",
    "contexte": "1 / 18 Maison 1 100 €/mois LIMOGES (87000) 144 m² • 5 pièces • 3 chambres Surf. terrain : 406 m² • Garage • 2 salles d'eau En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -47,
+   "ecart_prix_pct": -49,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -8157,7 +8131,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 790 €/mois NOGENT SUR OISE (60180) 55 m² • 3 pièces • 2 chambres 1 salle d'eau En savoir plus Appeler",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 11,
+   "ecart_prix_pct": 7,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -8281,7 +8255,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 13 Maison 1 390 €/mois MARTIGNAS SUR JALLE (33127) 85 m² • 4 pièces • 3 chambres Surf. terrain : 150 m² • 1 salle de bain • Parking En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": 27,
+   "ecart_prix_pct": 22,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -8322,7 +8296,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 10 Maison 1 328 €/mois STE HELENE (33480) 92 m² • 5 pièces • 3 chambres Surf. terrain : 483 m² • 1 salle d'eau • Parking Contacter l'agence Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": 11,
+   "ecart_prix_pct": 7,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -8401,8 +8375,8 @@
    "classement": "exclu",
    "contexte": "0 / 0 Maison 460 €/mois SAINT AMAND SUR SEVRE (79700) 39 m² • 2 pièces • 1 chambre Surface : 39.33 m² • 2 pièces • 1 chbre En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -9,
-   "etiquette_prix": "dans le marché",
+   "ecart_prix_pct": -12,
+   "etiquette_prix": "bon prix",
    "historique_prix": [
     {
      "date": "2026-09-23",
@@ -8530,7 +8504,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 16 Maison 795 €/mois MONCOUTANT SUR SEVRE (79320) 92 m² • 4 pièces • 3 chambres Surf. terrain : 889 m² • 1 salle de bain En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -34,
+   "ecart_prix_pct": -36,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -8618,7 +8592,7 @@
    "classement": "exclu",
    "contexte": "1 / 14 Maison 995 €/mois CHAMOUILLAC (17130) 160 m² • 5 pièces • 4 chambres Surf. terrain : 450 m² • Terrasse • Piscine • Garage En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -52,
+   "ecart_prix_pct": -54,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -8939,7 +8913,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 1 100 €/mois LABASTIDETTE (31600) 98 m² • 4 pièces • 3 chambres Surf. terrain : 800 m² En savoir plus Appeler",
    "derniere_vue": "2026-10-08",
-   "ecart_prix_pct": -14,
+   "ecart_prix_pct": -17,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -9065,7 +9039,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 1 375 €/mois NANTERRE (92000) 63 m² • 3 pièces • 2 chambres Accès handicapé • Ascenseur • Sous-sol • Balcon En savoir plus Appeler",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 68,
+   "ecart_prix_pct": 62,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -9212,6 +9186,47 @@
    "titre": "Appartement 674 €/mois NOISY LE GRAND (93160) 34 m² • 1 pièce 1 salle de bain",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/noisylegrand-gestion/louer/noisy-le-grand/appartement-1-piece-52930732",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.laforet.com/agence-immobiliere/noisylegrand-gestion/louer/noisy-le-grand/appartement-2-pieces-52975662": {
+   "agence": "Laforêt (64, maisons)",
+   "atouts": [
+    "balcon",
+    "garage",
+    "loyer 1050 €"
+   ],
+   "chambres": 1,
+   "classement": "exclu",
+   "contexte": "0 / 0 Appartement 1 050 €/mois NOISY LE GRAND (93160) 50 m² • 2 pièces • 1 chambre Garage • 1 salle d'eau • Balcon En savoir plus Appeler",
+   "derniere_vue": "2026-10-10",
+   "ecart_prix_pct": 56,
+   "etiquette_prix": "au-dessus du marché",
+   "historique_prix": [
+    {
+     "date": "2026-10-10",
+     "prix": 1050
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (93160)",
+   "pieces": 2,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-10-10",
+   "prix": 1050,
+   "prix_m2": 21.0,
+   "reserves": [],
+   "score": 7,
+   "statut": "active",
+   "surface": 50.0,
+   "titre": "Appartement 1 050 €/mois NOISY LE GRAND (93160) 50 m² • 2 pièces • 1 chambre Garage • 1 salle d'eau • Balcon",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/noisylegrand-gestion/louer/noisy-le-grand/appartement-2-pieces-52975662",
    "ville_agence": "Bayonne"
   },
   "https://www.laforet.com/agence-immobiliere/noisylegrand-gestion/louer/noisy-le-grand/appartement-3-pieces-52928702": {
@@ -9433,7 +9448,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 3 488 €/mois PARIS (75016) 109 m² • 4 pièces • 3 chambres Ascenseur • 1 cave • 1 salle de bain • 1 salle d'eau En savoir plus Appeler",
    "derniere_vue": "2026-10-08",
-   "ecart_prix_pct": 147,
+   "ecart_prix_pct": 138,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -9715,7 +9730,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 8 Maison 680 €/mois LE TALLUD (79200) 78 m² • 3 pièces • 2 chambres Surf. terrain : 573 m² En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -33,
+   "ecart_prix_pct": -35,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -9755,7 +9770,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Maison 710 €/mois LE TALLUD (79200) 92 m² • 4 pièces • 3 chambres Surf. terrain : 781 m² En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -41,
+   "ecart_prix_pct": -43,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -9837,7 +9852,7 @@
    "classement": "exclu",
    "contexte": "1 / 16 Maison 989 €/mois PARTHENAY (79200) 196 m² • 5 pièces • 3 chambres Surf. terrain : 555 m² • Terrasse • Sous-sol • 1 cave En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -61,
+   "ecart_prix_pct": -63,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -9876,7 +9891,7 @@
    "classement": "exclu",
    "contexte": "1 / 12 Appartement 445 €/mois BILLERE (64140) 21 m² • 1 pièce • 1 chambre 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 64,
+   "ecart_prix_pct": 58,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -9915,7 +9930,7 @@
    "classement": "exclu",
    "contexte": "1 / 7 Appartement 735 €/mois BILLERE (64140) 68 m² • 3 pièces • 2 chambres Surface : 67.63 m² • 3 pièces • 2 chbres En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -17,
+   "ecart_prix_pct": -20,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -10035,7 +10050,7 @@
    "classement": "exclu",
    "contexte": "1 / 5 Appartement 595 €/mois PAU (64000) 34 m² • 1 pièce Terrasse • Ascenseur • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 35,
+   "ecart_prix_pct": 30,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -10076,7 +10091,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Appartement 590 €/mois PAU (64000) 25 m² • 1 pièce Ascenseur • 1 salle d'eau • Balcon • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 82,
+   "ecart_prix_pct": 75,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -10115,7 +10130,7 @@
    "classement": "exclu",
    "contexte": "1 / 5 Appartement 570 €/mois PAU (64000) 32 m² • 2 pièces • 1 chambre 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-08",
-   "ecart_prix_pct": 37,
+   "ecart_prix_pct": 32,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -10360,7 +10375,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 750 €/mois PAU (64000) 55 m² • 3 pièces • 2 chambres 1 cave • 1 salle d'eau • Balcon • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 5,
+   "ecart_prix_pct": 1,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -10403,7 +10418,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 16 Appartement 1 300 €/mois PAU (64000) 76 m² • 3 pièces • 2 chambres Terrasse • Ascenseur • Garage • 1 salle d'eau En savoir plus Appeler",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 32,
+   "ecart_prix_pct": 27,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -10445,7 +10460,7 @@
    "classement": "exclu",
    "contexte": "1 / 8 Appartement 1 100 €/mois PAU (64000) 110 m² • 4 pièces • 3 chambres Sous-sol • 1 cave • 1 salle de bain • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": -23,
+   "ecart_prix_pct": -26,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -10484,8 +10499,8 @@
    "classement": "exclu",
    "contexte": "1 / 9 Appartement 800 €/mois PAU (64000) 68 m² • 4 pièces • 3 chambres 1 salle de bain • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": -9,
-   "etiquette_prix": "dans le marché",
+   "ecart_prix_pct": -12,
+   "etiquette_prix": "bon prix",
    "historique_prix": [
     {
      "date": "2026-09-15",
@@ -10528,8 +10543,8 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 9 Appartement 850 €/mois PAU (64000) 68 m² • 4 pièces • 3 chambres 1 salle de bain Message Appeler",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": -9,
-   "etiquette_prix": "dans le marché",
+   "ecart_prix_pct": -12,
+   "etiquette_prix": "bon prix",
    "historique_prix": [
     {
      "date": "2026-09-15",
@@ -10574,7 +10589,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Maison 1 109 €/mois COULOUNIEIX CHAMIERS (24660) 111 m² • 7 pièces • 5 chambres Surf. terrain : 440 m² • Piscine • Sous-sol • 1 cave En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -23,
+   "ecart_prix_pct": -26,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -10938,7 +10953,7 @@
    "classement": "exclu",
    "contexte": "1 / 14 Maison 840 €/mois BRIVES SUR CHARENTE (17800) 116 m² • 4 pièces • 3 chambres 1 salle de bain En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -44,
+   "ecart_prix_pct": -46,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -10978,7 +10993,7 @@
    "classement": "exclu",
    "contexte": "1 / 4 Maison 500 €/mois BURIE (17770) 86 m² • 3 pièces • 2 chambres 1 salle d'eau En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -55,
+   "ecart_prix_pct": -57,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -11059,7 +11074,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Maison 975 €/mois COGNAC (16100) 148 m² • 6 pièces • 3 chambres 1 salle d'eau En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -49,
+   "ecart_prix_pct": -51,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -11105,7 +11120,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Maison 1 242 €/mois PONS (17800) 149 m² • 6 pièces • 4 chambres Cheminée • Surf. terrain : 2024 m² • Terrasse • 1 salle de bain Contacter l'agence Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -37,
+   "ecart_prix_pct": -40,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -11303,6 +11318,47 @@
    "url": "https://www.laforet.com/agence-immobiliere/salonprovence/louer/salon-de-provence/appartement-4-pieces-52939022",
    "ville_agence": "Bayonne"
   },
+  "https://www.laforet.com/agence-immobiliere/serris-val-deurope/louer/pontault-combault/appartement-4-pieces-52975627": {
+   "agence": "Laforêt (64, maisons)",
+   "atouts": [
+    "balcon",
+    "93 m²",
+    "loyer 1495 €"
+   ],
+   "chambres": 3,
+   "classement": "exclu",
+   "contexte": "Nouveauté 0 / 0 Appartement 1 495 €/mois PONTAULT COMBAULT (77340) 93 m² • 4 pièces • 3 chambres 1 salle de bain • Balcon En savoir plus Appeler",
+   "derniere_vue": "2026-10-10",
+   "ecart_prix_pct": 20,
+   "etiquette_prix": "au-dessus du marché",
+   "historique_prix": [
+    {
+     "date": "2026-10-10",
+     "prix": 1495
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (77340)",
+   "pieces": 4,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-10-10",
+   "prix": 1495,
+   "prix_m2": 16.1,
+   "reserves": [],
+   "score": 6,
+   "statut": "active",
+   "surface": 93.0,
+   "titre": "Appartement 1 495 €/mois PONTAULT COMBAULT (77340) 93 m² • 4 pièces • 3 chambres 1 salle de bain • Balcon",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/serris-val-deurope/louer/pontault-combault/appartement-4-pieces-52975627",
+   "ville_agence": "Bayonne"
+  },
   "https://www.laforet.com/agence-immobiliere/serris-val-deurope/louer/serris/appartement-1-piece-52974882": {
    "agence": "Laforêt (64, maisons)",
    "atouts": [
@@ -11313,7 +11369,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 795 €/mois SERRIS (77700) 22 m² • 1 pièce 1 salle d'eau • Meublé • Parking En savoir plus Appeler",
    "derniere_vue": "2026-10-09",
-   "ecart_prix_pct": 179,
+   "ecart_prix_pct": 168,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -11397,7 +11453,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Appartement 2 000 €/mois SEVRES (92310) 87 m² • 4 pièces • 3 chambres 1 cave • 1 salle d'eau • Balcon • Parking En savoir plus Appeler",
    "derniere_vue": "2026-10-08",
-   "ecart_prix_pct": 78,
+   "ecart_prix_pct": 71,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -11438,7 +11494,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 692 €/mois BRION PRES THOUET (79290) 84 m² • 3 pièces • 2 chambres Surf. terrain : 100 m² • Garage • 1 salle d'eau Contacter l'agence Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -37,
+   "ecart_prix_pct": -39,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -11479,7 +11535,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Maison 915 €/mois SAINT JEAN DE THOUARS (79100) 127 m² • 6 pièces • 5 chambres Surf. terrain : 1000 m² • Terrasse • 3 salles d'eau En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -44,
+   "ecart_prix_pct": -46,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -11560,7 +11616,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 8 Maison 615 €/mois THOUARS (79100) 60 m² • 2 pièces • 1 chambre 1 cave • 1 salle d'eau En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -21,
+   "ecart_prix_pct": -24,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -11599,7 +11655,7 @@
    "classement": "exclu",
    "contexte": "1 / 7 Maison 370 €/mois THOUARS (79100) 35 m² • 2 pièces • 1 chambre Surf. terrain : 3 m² En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -18,
+   "ecart_prix_pct": -21,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -11640,7 +11696,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Maison 710 €/mois THOUARS (79100) 84 m² • 3 pièces • 2 chambres Surf. terrain : 350 m² • Garage • 1 salle de bain En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -34,
+   "ecart_prix_pct": -37,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -11680,7 +11736,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 12 Maison 760 €/mois THOUARS (79100) 88 m² • 4 pièces • 2 chambres Surf. terrain : 109 m² Contacter l'agence Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -34,
+   "ecart_prix_pct": -36,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -11720,7 +11776,7 @@
    "classement": "exclu",
    "contexte": "1 / 14 Maison 790 €/mois VAL EN VIGNES (79290) 110 m² • 4 pièces • 3 chambres Surf. terrain : 700 m² En savoir plus Appeler",
    "derniere_vue": "2026-10-07",
-   "ecart_prix_pct": -44,
+   "ecart_prix_pct": -46,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -12084,8 +12140,8 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 1 166 €/mois VILLEURBANNE (69100) 76 m² • 3 pièces • 2 chambres Ascenseur • Sous-sol • Garage • 1 salle d'eau En savoir plus Appeler",
    "derniere_vue": "2026-10-08",
-   "ecart_prix_pct": 18,
-   "etiquette_prix": "au-dessus du marché",
+   "ecart_prix_pct": 14,
+   "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
      "date": "2026-10-08",
@@ -12125,7 +12181,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 1 503 €/mois VIROFLAY (78220) 60 m² • 3 pièces • 1 chambre Terrasse • Ascenseur • 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 94,
+   "ecart_prix_pct": 87,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -12150,7 +12206,7 @@
    "score": 6,
    "statut": "active",
    "surface": 60.0,
-   "titre": "Appartement 1 503 €/mois VIROFLAY (78220) 60 m² • 3 pièces • 1 chambre Terrasse • Ascenseur • 1 salle d'eau • Meublé",
+   "titre": "Appartement 1 503 €/mois VIROFLAY (78220) 60 m² • 3 pièces • 1 chambre Terrasse •…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/viroflay/louer/viroflay/appartement-3-pieces-52975357",
    "ville_agence": "Bayonne"
@@ -13110,7 +13166,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Coup de coeur Appartement 1 pièce(s) 25.92 m² Biarritz (64200) 693 € CC*",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 64,
+   "ecart_prix_pct": 65,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -13149,7 +13205,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Nouveauté Appartement 1 pièce(s) 26.47 m² Biarritz (64200) 706 € CC*",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 67,
+   "ecart_prix_pct": 68,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -13229,7 +13285,7 @@
    "derniere_vue": "2026-10-10",
    "description": "Ã? dÃ©couvrir ! T4 duplex de 78 m2 Rue Pannecau Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 821 € Ã? dÃ©couvrir ! T4 duplex de 78 m2 Rue Pannecau à louer de 4 pièce(s) sur 78 m² Retour au listing Points clés... 4 pièce(s) , 78 m² 3 salle(s) de bains Ref. 226005401 Descriptif du bien • Ã? dÃ©couvrir ! T4 duplex de 78 m2 Rue Pannecau Situé au coeur du Petit Bayonne, rue Pannecau, découvrez ce charmant appartement T4 en duplex de 78 m2, situé au 3€ étage d\\'un immeuble sans ascenseur. L\\'appartement se compose, au premier niveau, d\\'une entrée desservant trois chambres, chacune disposant de sa propre salle d\\'eau, offrant confort et intimité. À l\\'étage, vous profiterez d\\'une belle pièce de vie lumineuse avec une cuisine meublée et équipée, idéale pour partager des moments conviviaux. Un second WC complète ce niveau. Situé dans le quartier recherché du Petit Bayonne, à proximité immédiate des commerces, restaurants et commodités, cet appartement bénéficie d\\'un emplacement privilégié au coeur de la ville. DISPONIBLE IMMEDIATEMENT Manoir de France : 05.59.59.66.33 NoB8701200V BAYONNE Apparte",
    "dpe": "D",
-   "ecart_prix_pct": -19,
+   "ecart_prix_pct": -22,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -13358,7 +13414,7 @@
    "derniere_vue": "2026-10-10",
    "description": "Ã? louer Ã l'annÃ©e T2 Bis plein de charme au coeur de Biarri Biarritz Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Biarritz 1310 € Ã? louer Ã l'annÃ©e T2 Bis plein de charme au coeur de Biarri à louer de 2 pièce(s) sur 72 m² Retour au listing Points clés... 2 pièce(s) , 72 m² 1 chambre(s) 1 salle(s) de bains Ref. 2154-1688 Descriptif du bien • Ã? louer Ã l'annÃ©e T2 Bis plein de charme au coeur de Biarri À louer à l\\'année T2 Bis plein de charme au coeur de Biarritz À seulement quelques pas des Halles, cet appartement de 70 m2 séduit par son cachet authentique et son emplacement idéal. Son parquet ancien, ses cheminées décoratives et sa belle hauteur sous plafond lui confèrent une atmosphère chaleureuse et élégante. L\\'espace de vie est agréable et lumineux, avec un séjour convivial qui s\\'ouvre sur un bureau pouvant également servir de second coin nuit. La chambre principale offre un espace confortable et intimiste. La cuisine rénovée et semi-équipée (plaques et hotte) allie modernité et praticité, tandis que la salle d\\'eau, récemment refaite à neuf, apporte une touche contemporaine et fonctionnelle. U",
    "dpe": "D",
-   "ecart_prix_pct": 41,
+   "ecart_prix_pct": 35,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -13678,7 +13734,7 @@
    "derniere_vue": "2026-10-07",
    "description": "Appartement 90m2 BAYONNE - LOGEMENT ETUDIANT UNIQUEMENT Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 785 € Appartement 90m2 BAYONNE - LOGEMENT ETUDIANT UNIQUEMENT à louer de 2 pièce(s) sur 90 m² Retour au listing Points clés... 2 pièce(s) , 90 m² 1 salle(s) de bains Ref. 2105 Descriptif du bien • Appartement 90m2 BAYONNE - LOGEMENT ETUDIANT UNIQUEMENT LOGEMENT ETUDIANT DE SEPTEMBRE 2026 A JUIN 2027 Beaucoup de charme et de cachet pour ce grand T2 Bis meublé sis rue des basques en plein coeur du centre ville de Bayonne. A 2 pas des halles, des bords de Nive, ce logement de 90 m2 offre un très beau volume : Vaste séjour, cuisine ouverte meublée et équipée. Une salle d\\'eau équipée d\\'une grande douche, WC séparés. Une chambre et une pièce attenante, un grand dressing au calme coté escalier; Une cave compléte cette location. No2105000 BAYONNE Disponible SEPTEMBRE 2026 à JUIN 2027 Manoir de France: 05.59.59.66.33 Appartement. Nombre de pièces : T2 bis Surface habitable :90.00M2 LOYER CC / mois : 785.28EUR dont 39EUR de provision sur charges soumis à régularisation annuelle et 27EUR de Box Inte",
    "dpe": null,
-   "ecart_prix_pct": -33,
+   "ecart_prix_pct": -35,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -13773,7 +13829,7 @@
    "derniere_vue": "2026-10-07",
    "description": "Appartement T3 de 64m2, Bayonne quartier Mousserolles Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 827 € Appartement T3 de 64m2, Bayonne quartier Mousserolles à louer de 3 pièce(s) sur 64 m² Retour au listing Points clés... 3 pièce(s) , 64 m² 1 salle(s) de bains Ref. 277-1031 Descriptif du bien • Appartement T3 de 64m2, Bayonne quartier Mousserolles A louer dans un petit chateau récemment réhabilité avec goût, ce beau T3 rénové de 64m2 sous les combles. Dans une résidence avec un grand parc arboré venez découvrir ce charmant T3 au 2ème et dernier étage, qui comprend une pièce à vivre très agréable avec ces poutres apparentes et son plancher, une cuisine équipée, meublée et semi-ouverte sur la pièce à vivre, deux chambres, d\\'une salle d\\'eau ainsi qu\\'un WC. L\\'appartement dispose d\\'une place de parking privative DISPONIBLE DEBUT SEPTEMBRE 2026 Manoir de France: 05.59.59.66.33 NoB27700C BAYONNE Appartement Nombre de pièces : 3 Surface habitable : 64.01m2 DPE : D ZONE SOUMISE A ENCADREMENT DES LOYERS LOYER CC / mois : 827.82EUR par mois charges comprises Loyer de base : 729.71EUR Loyer de ",
    "dpe": "D",
-   "ecart_prix_pct": 0,
+   "ecart_prix_pct": -4,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -13902,7 +13958,7 @@
    "derniere_vue": "2026-10-10",
    "description": "Biarritz -T3 vide Ã l'annÃ©e -Vue ocÃ©an - disponibilitÃ© immÃ©d Biarritz Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Biarritz 1150 € Biarritz -T3 vide Ã l'annÃ©e -Vue ocÃ©an - disponibilitÃ© immÃ©d à louer de 3 pièce(s) sur 64 m² Retour au listing Points clés... 3 pièce(s) , 64 m² 1 salle(s) de bains Ref. B2476000 Descriptif du bien • Biarritz -T3 vide Ã l'annÃ©e -Vue ocÃ©an - disponibilitÃ© immÃ©d Bel appartement de 64m2 situé au 5ème et dernier étage avec ascenseur situé près du quartier Saint Charles et des commerces de proximités. Vous serez séduit par sa vue exceptionnelle : Océan et Golf. L\\'appartement se compose d\\'une entrée avec placard, d\\'une cuisine indépendante moderne, entièrement meublée et équipée et donnant sur une loggia fermée, Le séjour de plus de 21m2 et une des chambres donnent sur des balcons sans vis-à-vis avec une vue imprenable, Les deux chambres sont équipées de placards, WC indépendants et d\\'une salle de bains avec baignoire. Du charme avec des parquets en bois massif. De plus vous disposerez d\\'une cave au sous-sol. Production d\\'eau chaude et de chauffage: individuelle ga",
    "dpe": "D",
-   "ecart_prix_pct": 12,
+   "ecart_prix_pct": 13,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -14031,7 +14087,7 @@
    "derniere_vue": "2026-10-10",
    "description": "T4 de 82 m2 avec grande terrasse Quartier Beyris Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 1076 € T4 de 82 m2 avec grande terrasse Quartier Beyris à louer de 4 pièce(s) sur 82 m² Retour au listing Points clés... 4 pièce(s) , 82 m² 1 salle(s) de bains Ref. 1999_1 Descriptif du bien • T4 de 82 m2 avec grande terrasse Quartier Beyris Dans le quartier recherché de Beyris, découvrez ce bel appartement T4 de 82 m2, idéalement situé à proximité de toutes les commodités : pharmacie, boulangerie, écoles et lycées, centres commerciaux ainsi que les transports en commun. Situé au 1er étage d\\'une résidence calme, arborée et bien entretenue avec ascenseur, cet appartement lumineux offre des espaces agréables et fonctionnels. Il se compose d\\'une entrée spacieuse de 11 m2, d\\'une cuisine de 12 m2 ouvrant sur une belle terrasse de 20 m2 exposée Ouest, ainsi que d\\'un séjour de 19 m2, très lumineux, avec parquet et donnant également accès à la terrasse, exposée Sud. L\\'espace nuit comprend trois chambres avec parquet de 11, 11 et 10 m2, dont deux disposent d\\'un placard. L\\'appartement dispose égaleme",
    "dpe": "C",
-   "ecart_prix_pct": 1,
+   "ecart_prix_pct": -3,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -14090,7 +14146,7 @@
    "classement": "exclu",
    "contexte": "Maison Mouguerre Maison Mouguerre Mouguerre | 64990 1700 € | 207 m² | Réf B2924000",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": -37,
+   "ecart_prix_pct": -39,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -14130,8 +14186,8 @@
    "classement": "exclu",
    "contexte": "Maison Saubrigues Maison Saubrigues Saubrigues | 40230 1235 € | 106 m² | Réf 120138-166356",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": -10,
-   "etiquette_prix": "dans le marché",
+   "ecart_prix_pct": -13,
+   "etiquette_prix": "bon prix",
    "historique_prix": [
     {
      "date": "2026-09-04",
@@ -14170,7 +14226,7 @@
    "classement": "exclu",
    "contexte": "Maison Urcuit Maison Urcuit Urcuit | 64990 1260 € | 87 m² | Réf B3030000",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 12,
+   "ecart_prix_pct": 8,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -14210,7 +14266,7 @@
    "classement": "exclu",
    "contexte": "Maison Saint-pierre-d'irube Maison Saint-pierre-d'irube Saint-Pierre-d'Irube | 64990 1700 € | 189 m² | Réf 3041000",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": -31,
+   "ecart_prix_pct": -33,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -14312,7 +14368,7 @@
    "classement": "exclu",
    "contexte": "",
    "derniere_vue": "2026-10-10",
-   "description": "OLAIZOLA Plan du site Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Plan du site Plan du site Appartements A vendre A louer Maisons A vendre A louer Marina Terrains constructibles à bâtir non constructibles industriel et artisanal A louer commercial de loisirs Lotissement Programmes neufs Les programmes Les Lots Immeubles Lofts Professionnels Bureaux Entrepôts Locaux commerciaux Murs Local d'activités Fonds de commerce Parking / Box Box Garage Parking Cave Locations meublées Appartements Maison Viager Bien(s) par ville immobilier biarritz immobilier saint jean de luz immobilier bidart immobilier anglet immobilier immobilier saint pee sur nivelle immobilier urrugne immobilier lourdes Pages de contenu Agence immobilière à Bidart Notre équipe Agence immobilière à Biarritz Agence immobilière à Saint-Jean-de-Luz Nos agences Vendre Blog Nos vidéos Faire Gerer Estimation Mentions légales Politique de confidentialité Conditions générales de vente Nos biens vendus No",
+   "description": "OLAIZOLA Plan du site Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Plan du site Plan du site Appartements A vendre A louer Maisons A vendre A louer Marina Terrains constructibles à bâtir non constructibles industriel et artisanal A louer commercial de loisirs Lotissement Programmes neufs Les programmes Les Lots Immeubles Lofts Professionnels Bureaux Entrepôts Locaux commerciaux Murs Local d'activités Fonds de commerce Parking / Box Box Garage Parking Cave Locations meublées Appartements Maison Viager Bien(s) par ville immobilier biarritz immobilier saint jean de luz immobilier bidart immobilier anglet immobilier saint pee sur nivelle immobilier immobilier urrugne immobilier messanges Pages de contenu Agence immobilière à Bidart Notre équipe Agence immobilière à Biarritz Agence immobilière à Saint-Jean-de-Luz Nos agences Vendre Blog Nos vidéos Faire Gerer Estimation Mentions légales Politique de confidentialité Conditions générales de vente Nos biens vendus ",
    "dpe": null,
    "fiche_lue": true,
    "itineraire_pos": "43.4832,-1.5586",
@@ -16561,6 +16617,12 @@
    "agences_ok": 19,
    "date": "2026-10-10",
    "nouveautes": 8
+  },
+  {
+   "actives": 170,
+   "agences_ok": 19,
+   "date": "2026-10-10",
+   "nouveautes": 9
   }
  ]
 }

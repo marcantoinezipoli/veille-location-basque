@@ -5099,6 +5099,27 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/noisylegrand-gestion/louer/noisy-le-grand/appartement-2-pieces-52975662": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-10",
+  "historique_prix": [
+   {
+    "date": "2026-10-10",
+    "prix": 1050
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-10",
+  "prix": 1050,
+  "statut": "active",
+  "surface": 50.0,
+  "titre": "Appartement 1 050 €/mois NOISY LE GRAND (93160) 50 m² • 2 pièces • 1 chambre Garage • 1 salle d'eau • Balcon",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/noisylegrand-gestion/louer/noisy-le-grand/appartement-3-pieces-52928702": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 2,
@@ -6175,6 +6196,27 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/serris-val-deurope/louer/pontault-combault/appartement-4-pieces-52975627": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-10",
+  "historique_prix": [
+   {
+    "date": "2026-10-10",
+    "prix": 1495
+   }
+  ],
+  "pieces": 4,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-10",
+  "prix": 1495,
+  "statut": "active",
+  "surface": 93.0,
+  "titre": "Appartement 1 495 €/mois PONTAULT COMBAULT (77340) 93 m² • 4 pièces • 3 chambres 1 salle de bain • Balcon",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/serris-val-deurope/louer/serris/appartement-1-piece-52974882": {
   "agence": "Laforêt (64, maisons)",
   "classement": "exclu",
@@ -6611,7 +6653,7 @@
   "prix": 1503,
   "statut": "active",
   "surface": 60.0,
-  "titre": "Appartement 1 503 €/mois VIROFLAY (78220) 60 m² • 3 pièces • 1 chambre Terrasse • Ascenseur • 1 salle d'eau • Meublé",
+  "titre": "Appartement 1 503 €/mois VIROFLAY (78220) 60 m² • 3 pièces • 1 chambre Terrasse •…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
