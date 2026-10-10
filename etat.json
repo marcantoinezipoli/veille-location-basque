@@ -3,34 +3,60 @@
   "http://www.immobiarritz.fr/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-dans-une-residence-haut-de-gamme-recente.html": {
    "agence": "Immobiarritz",
    "atouts": [
-    "recent"
+    "récent",
+    "recent",
+    "haut de gamme",
+    "standing",
+    "saint-jean",
+    "loyer 729 €"
    ],
    "chambres": null,
    "classement": "exclu",
    "contexte": "",
    "derniere_vue": "2026-10-10",
-   "fiche_lue": false,
+   "description": "GUÉTHARY - Appartement 2 pièces meublé dans une résidence haut de gamme récente - Situé à Guéthary, au sein de la Villa UHAINA, cet appartement de 2 pièces prend place... 64210 GUETHARY GUÉTHARY - Appartement 2 pièces meublé dans une résidence haut de gamme récente Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Appartements A vendre 2 pièces Ref. : OLAVAD1608 64210 GUETHARY GUÉTHARY - Appartement 2 pièces meublé dans une résidence haut de gamme récente 475 000 € ** Situé à Guéthary, au sein de la Villa UHAINA, cet appartement de 2 pièces prend place dans une résidence haut de gamme construite en 2021, offrant ainsi un cadre récent, soigné et particulièrement qualitatif. Installé en rez-de-chaussée d'une résidence de deux étages, ce bien séduit par la qualité de ses prestations, l'élégance de son environnement et le standing de l'ensemble immobilier. L'appartement est vendu meublé, avec un mobilier choisi avec soin et en parfaite harmonie avec l'esprit contemp",
+   "dpe": null,
+   "ecart_prix_pct": 11,
+   "etiquette_prix": "dans le marché",
+   "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-10-10",
+     "prix": 729
+    }
+   ],
    "itineraire_pos": "43.4832,-1.5586",
    "itineraire_source": "route",
    "km_hopital": 8.2,
    "lat": 43.4832,
    "lon": -1.5586,
+   "mail": "amandine.duhalde@olaizola.immo",
+   "meuble": true,
    "min_velo": 33,
    "min_voiture": 13,
    "motif_exclusion": "lien de navigation, pas une annonce",
+   "photo": "https://www.olaizola.immo/office8/agenceolaizola/catalog/images/pr_web/6/1/3/5/4/2/0/0/61354200a.jpg.mid.jpg",
    "photo_cherchee": true,
+   "photos": [
+    "https://www.olaizola.immo/office8/agenceolaizola/catalog/images/pr_web/6/1/3/5/4/2/0/0/61354200a.jpg.mid.jpg"
+   ],
    "photos_cherchees": true,
-   "pieces": null,
+   "pieces": 2,
    "position": "Biarritz (ville de l'agence)",
    "premiere_vue": "2026-10-10",
-   "prix": null,
-   "reserves": [],
-   "score": 2,
+   "prix": 729,
+   "prix_m2": 17.8,
+   "reserves": [
+    "saint-jean-de-luz",
+    "rez-de-chaussée"
+   ],
+   "score": -3,
    "signaux": [],
    "statut": "active",
-   "surface": null,
+   "surface": 41.0,
+   "tel": "0669608582",
    "titre": "http://www.immobiarritz.fr/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-dans-une-residence-haut-de-gamme-recente.html",
-   "type": null,
+   "type": "appartement",
    "url": "http://www.immobiarritz.fr/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-dans-une-residence-haut-de-gamme-recente.html",
    "ville_agence": "Biarritz"
   },
@@ -169,7 +195,7 @@
    "derniere_vue": "2026-10-10",
    "description": "ARCANGUES - Villa élégante, séjour cathédrale et piscine chauffée - À vendre à Arcangues, nichée au fond d'une impasse privilégiée, cette villa d'environ 220 m² (surface... 64200 ARCANGUES ARCANGUES - Villa élégante, séjour cathédrale et piscine chauffée Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Maisons A vendre Maison Ref. : OLAMOJV1626 64200 ARCANGUES ARCANGUES - Villa élégante, séjour cathédrale et piscine chauffée 1 550 000 € ** À vendre à Arcangues, nichée au fond d'une impasse privilégiée, cette villa d'environ 220 m² (surface de référence du DPE) déploie ses volumes généreux au cur d'un terrain arboré de 3 260 m². Véritable ode à la nature, la propriété offre un cadre de vie au calme absolu, où biches et animaux sauvages sont des visiteurs réguliers. Une rénovation contemporaine récente souligne l'élégance des lieux. Le séjour cathédrale, magnifié par ses poutres apparentes, sa cheminée avec insert et sa mezzanine ouverte aménagée en bureau, comp",
    "dpe": null,
-   "ecart_prix_pct": -18,
+   "ecart_prix_pct": -19,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -1175,7 +1201,7 @@
    "classement": "exclu",
    "contexte": "BIARRITZ – Avenue Reine VICTORIA – T2 Bis 45.34m² 725€",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 1,
+   "ecart_prix_pct": 0,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -1429,7 +1455,7 @@
    "classement": "exclu",
    "contexte": "ARCANGUES, Proche Bourg, Maison Mitoyenne 137m² 2 146€",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": -1,
+   "ecart_prix_pct": -2,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -1605,7 +1631,7 @@
    "derniere_vue": "2026-10-10",
    "description": "Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée Situé au sein de la résidence ETCHE CHURRIA, dans un environnement agréable à Biarritz, cet appartement meublé de type T3, d'une superficie de 83,09 m², situé au 2ᵉ étage d'une copropriété sécurisée avec ascenseur, offre un cadre de vie… Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée Aller au contenu Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée Biarritz PROCHE CENTRE 1 500 € 1 500 € PROCHE CENTRE Descriptif du bien Biarritz – Appartement T3 meublé avec balcon, ascenseur et résidence sécurisée Situé au sein de la résidence ETCHE CHURRIA, dans un environnement agréable à Biarritz, cet appartement meublé de type T3, d’une superficie de 83,09 m² , situé au 2ᵉ étage d’une copropriété sécurisée avec ascenseur, offre un cadre de vie confortable et fonctionnel. Ce bien se compose d’une entrée avec dégagement desservant les différents espaces de vie. Il propose un séjour lumineux, une cuisine ouverte aménagée et équipée, deux chambres confortables avec rangements, une salle d’eau, un WC indépendant ainsi qu’un cellier offrant un espace de rangement",
    "dpe": null,
-   "ecart_prix_pct": -1,
+   "ecart_prix_pct": -2,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -1667,7 +1693,7 @@
    "classement": "exclu",
    "contexte": "BIARRITZ, Côte des Basques, Studio Meublé 33m² 755€",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 44,
+   "ecart_prix_pct": 43,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -1706,7 +1732,7 @@
    "classement": "exclu",
    "contexte": "BIARRITZ, Hyper Centre, T2 meublé 50.59m² 890€",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 11,
+   "ecart_prix_pct": 10,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -5578,7 +5604,7 @@
    "derniere_vue": "2026-10-10",
    "description": "02/10/2026 - ✅ Appartement de type 3 meublé en duplex, situé à proximité de la gare de Bayonne, comprenant au rez-de-chaussée un séjour avec cuisi... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T3 BAYONNE à louer 768 €/mois Charges comprises 58 m² • 3 pièces • 2 chambres Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 3 pièces Surface : 57.82 m² Surf. séj : 17.5 m² 2 chbres 1 salle de bain Intérieur Cuisine Equipée Chauffage Électrique Meublé Autres Soumis à la copropriété Description Appartement de type 3 meublé en duplex, situé à proximité de la gare de Bayonne, comprenant au rez-de-chaussée un séjour avec cuisine ouverte équipée. A l'étage deux chambres, une salle de bains et WC. Vous disposerez d'un local vélo commun. Zone soumise à encadrement des loyers bail meublé : Loyer de référence : 607.11€ Loyer majoré : 728€ Charges forfaitaires : 40€ (Les charges comprennent l'eau froide, le ménage des parties communes, l'électricité des parties communes, la taxe d'enlèvements d'ordures ménagères) Honoraires agence à la charge du locataire : 578.20€ TTC dont 173.46€ pour l'état des lieux. Dépôt de garantie : 1456€ Merci d'ad",
    "dpe": null,
-   "ecart_prix_pct": -17,
+   "ecart_prix_pct": -18,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -9224,7 +9250,7 @@
    "score": 7,
    "statut": "active",
    "surface": 50.0,
-   "titre": "Appartement 1 050 €/mois NOISY LE GRAND (93160) 50 m² • 2 pièces • 1 chambre Garage • 1 salle d'eau • Balcon",
+   "titre": "Appartement 1 050 €/mois NOISY LE GRAND (93160) 50 m² • 2 pièces • 1 chambre Garage • 1…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/noisylegrand-gestion/louer/noisy-le-grand/appartement-2-pieces-52975662",
    "ville_agence": "Bayonne"
@@ -11354,7 +11380,7 @@
    "score": 6,
    "statut": "active",
    "surface": 93.0,
-   "titre": "Appartement 1 495 €/mois PONTAULT COMBAULT (77340) 93 m² • 4 pièces • 3 chambres 1 salle de bain • Balcon",
+   "titre": "Appartement 1 495 €/mois PONTAULT COMBAULT (77340) 93 m² • 4 pièces • 3 chambres 1…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/serris-val-deurope/louer/pontault-combault/appartement-4-pieces-52975627",
    "ville_agence": "Bayonne"
@@ -13166,7 +13192,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Coup de coeur Appartement 1 pièce(s) 25.92 m² Biarritz (64200) 693 € CC*",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 65,
+   "ecart_prix_pct": 64,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -13205,7 +13231,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Nouveauté Appartement 1 pièce(s) 26.47 m² Biarritz (64200) 706 € CC*",
    "derniere_vue": "2026-10-10",
-   "ecart_prix_pct": 68,
+   "ecart_prix_pct": 67,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -13958,7 +13984,7 @@
    "derniere_vue": "2026-10-10",
    "description": "Biarritz -T3 vide Ã l'annÃ©e -Vue ocÃ©an - disponibilitÃ© immÃ©d Biarritz Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Biarritz 1150 € Biarritz -T3 vide Ã l'annÃ©e -Vue ocÃ©an - disponibilitÃ© immÃ©d à louer de 3 pièce(s) sur 64 m² Retour au listing Points clés... 3 pièce(s) , 64 m² 1 salle(s) de bains Ref. B2476000 Descriptif du bien • Biarritz -T3 vide Ã l'annÃ©e -Vue ocÃ©an - disponibilitÃ© immÃ©d Bel appartement de 64m2 situé au 5ème et dernier étage avec ascenseur situé près du quartier Saint Charles et des commerces de proximités. Vous serez séduit par sa vue exceptionnelle : Océan et Golf. L\\'appartement se compose d\\'une entrée avec placard, d\\'une cuisine indépendante moderne, entièrement meublée et équipée et donnant sur une loggia fermée, Le séjour de plus de 21m2 et une des chambres donnent sur des balcons sans vis-à-vis avec une vue imprenable, Les deux chambres sont équipées de placards, WC indépendants et d\\'une salle de bains avec baignoire. Du charme avec des parquets en bois massif. De plus vous disposerez d\\'une cave au sous-sol. Production d\\'eau chaude et de chauffage: individuelle ga",
    "dpe": "D",
-   "ecart_prix_pct": 13,
+   "ecart_prix_pct": 12,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -16623,6 +16649,12 @@
    "agences_ok": 19,
    "date": "2026-10-10",
    "nouveautes": 9
+  },
+  {
+   "actives": 170,
+   "agences_ok": 19,
+   "date": "2026-10-10",
+   "nouveautes": 7
   }
  ]
 }
