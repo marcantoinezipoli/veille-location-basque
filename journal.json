@@ -5116,7 +5116,7 @@
   "prix": 1050,
   "statut": "active",
   "surface": 50.0,
-  "titre": "Appartement 1 050 €/mois NOISY LE GRAND (93160) 50 m² • 2 pièces • 1 chambre Garage • 1 salle d'eau • Balcon",
+  "titre": "Appartement 1 050 €/mois NOISY LE GRAND (93160) 50 m² • 2 pièces • 1 chambre Garage • 1…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -7599,6 +7599,16 @@
   "titre": "https://www.olaizola.immo/annonces/annonces/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-dans-une-residence-haut-de-gamme-recente.html",
   "ville_agence": "Biarritz"
  },
+ "https://www.olaizola.immo/annonces/annonces/fiches/3-33-29_55415163/ciboure-golf-de-la-nivelle-elegant-appartement-parfaitement-renove.html": {
+  "agence": "Agence Olaizola",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-11",
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-10-11",
+  "statut": "active",
+  "titre": "https://www.olaizola.immo/annonces/annonces/fiches/3-33-29_55415163/ciboure-golf-de-la-nivelle-elegant-appartement-parfaitement-renove.html",
+  "ville_agence": "Biarritz"
+ },
  "https://www.olaizola.immo/annonces/annonces/fiches/3-33-29_61546659/biarritz-quartier-imperial-charmant-appartement-a-200m-de-la-plage.html": {
   "agence": "Agence Olaizola",
   "classement": "exclu",
@@ -8113,6 +8123,18 @@
   "type": "appartement",
   "ville_agence": "Bidart"
  },
+ "https://www.squarehabitat.fr/square-habitat-aquitaine/annonces/biens/location/appartement/soustons/56597f4e-1e50-4872-b93f-c7f7689f4c1b": {
+  "agence": "Square Habitat Bidart",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-11",
+  "pieces": 3,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-10-11",
+  "statut": "active",
+  "titre": "Appartement à louer - SOUSTONS, 3 pièces",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
  "https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/anglet/028f767a-64c6-4627-8705-4d43c0578c1a": {
   "agence": "Square Habitat Bidart",
   "classement": "exclu",
@@ -8222,11 +8244,11 @@
  "https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/ondres/99cffb9d-1e23-4e61-aaef-4664ad5679c5": {
   "agence": "Square Habitat Bidart",
   "classement": "exclu",
-  "derniere_vue": "2026-10-01",
+  "derniere_vue": "2026-10-11",
   "pieces": 2,
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-09-21",
-  "statut": "disparu",
+  "statut": "active",
   "titre": "Appartement à louer - ONDRES, 2 pièces",
   "type": "appartement",
   "ville_agence": "Bidart"
