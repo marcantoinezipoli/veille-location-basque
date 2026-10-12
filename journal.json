@@ -3511,7 +3511,7 @@
   "prix": 450,
   "statut": "active",
   "surface": 50.0,
-  "titre": "Appartement 450 €/mois TAUTAVEL (66720) 50 m² • 3 pièces • 2 chambres Surface : 50 m² • 3 pièces • 2 chbres",
+  "titre": "Appartement 450 €/mois TAUTAVEL (66720) 50 m² • 3 pièces • 2 chambres Surface : 50 m² •…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -4205,7 +4205,7 @@
   "prix": 1500,
   "statut": "active",
   "surface": 40.0,
-  "titre": "Appartement 1 500 €/mois ISSY LES MOULINEAUX (92130) 40 m² • 2 pièces • 1 chambre Ascenseur • Parking",
+  "titre": "Appartement 1 500 €/mois ISSY LES MOULINEAUX (92130) 40 m² • 2 pièces • 1 chambre…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -6234,7 +6234,7 @@
   "prix": 1500,
   "statut": "active",
   "surface": 118.0,
-  "titre": "Maison 1 500 €/mois LANCON PROVENCE (13680) 118 m² • 5 pièces • 4 chambres Surface : 118 m² • 5 pièces • 4 chbres",
+  "titre": "Maison 1 500 €/mois LANCON PROVENCE (13680) 118 m² • 5 pièces • 4 chambres Surface :…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },

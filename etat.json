@@ -5626,7 +5626,7 @@
    "score": 2,
    "statut": "active",
    "surface": 50.0,
-   "titre": "Appartement 450 €/mois TAUTAVEL (66720) 50 m² • 3 pièces • 2 chambres Surface : 50 m² • 3 pièces • 2 chbres",
+   "titre": "Appartement 450 €/mois TAUTAVEL (66720) 50 m² • 3 pièces • 2 chambres Surface : 50 m² •…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/bompas/louer/tautavel/appartement-3-pieces-52977082",
    "ville_agence": "Bayonne"
@@ -6964,7 +6964,7 @@
    "score": 5,
    "statut": "active",
    "surface": 40.0,
-   "titre": "Appartement 1 500 €/mois ISSY LES MOULINEAUX (92130) 40 m² • 2 pièces • 1 chambre Ascenseur • Parking",
+   "titre": "Appartement 1 500 €/mois ISSY LES MOULINEAUX (92130) 40 m² • 2 pièces • 1 chambre…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/issy-les-moulineaux-mairie/louer/issy-les-moulineaux/appartement-2-pieces-52977081",
    "ville_agence": "Bayonne"
@@ -10893,7 +10893,7 @@
    "score": 4,
    "statut": "active",
    "surface": 118.0,
-   "titre": "Maison 1 500 €/mois LANCON PROVENCE (13680) 118 m² • 5 pièces • 4 chambres Surface : 118 m² • 5 pièces • 4 chbres",
+   "titre": "Maison 1 500 €/mois LANCON PROVENCE (13680) 118 m² • 5 pièces • 4 chambres Surface :…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/salonprovence/louer/lancon-provence/maison-5-pieces-52976891",
    "ville_agence": "Bayonne"
@@ -14069,7 +14069,7 @@
    "classement": "exclu",
    "contexte": "",
    "derniere_vue": "2026-10-12",
-   "description": "OLAIZOLA Plan du site Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Plan du site Plan du site Appartements A vendre A louer Maisons A vendre A louer Marina Terrains constructibles à bâtir non constructibles industriel et artisanal A louer commercial de loisirs Lotissement Programmes neufs Les programmes Les Lots Immeubles Lofts Professionnels Bureaux Entrepôts Locaux commerciaux Murs Local d'activités Fonds de commerce Parking / Box Box Garage Parking Cave Locations meublées Appartements Maison Viager Bien(s) par ville immobilier biarritz immobilier saint jean de luz immobilier bidart immobilier anglet immobilier saint pee sur nivelle immobilier immobilier urrugne immobilier arbonne Pages de contenu Agence immobilière à Bidart Notre équipe Agence immobilière à Biarritz Agence immobilière à Saint-Jean-de-Luz Nos agences Vendre Blog Nos vidéos Faire Gerer Estimation Mentions légales Politique de confidentialité Conditions générales de vente Nos biens vendus No",
+   "description": "OLAIZOLA Plan du site Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Plan du site Plan du site Appartements A vendre A louer Maisons A vendre A louer Marina Terrains constructibles à bâtir non constructibles industriel et artisanal A louer commercial de loisirs Lotissement Programmes neufs Les programmes Les Lots Immeubles Lofts Professionnels Bureaux Entrepôts Locaux commerciaux Murs Local d'activités Fonds de commerce Parking / Box Box Garage Parking Cave Locations meublées Appartements Maison Viager Bien(s) par ville immobilier biarritz immobilier saint jean de luz immobilier bidart immobilier anglet immobilier saint pee sur nivelle immobilier immobilier urrugne immobilier cambo les bains Pages de contenu Agence immobilière à Bidart Notre équipe Agence immobilière à Biarritz Agence immobilière à Saint-Jean-de-Luz Nos agences Vendre Blog Nos vidéos Faire Gerer Estimation Mentions légales Politique de confidentialité Conditions générales de vente Nos biens v",
    "dpe": null,
    "fiche_lue": true,
    "itineraire_pos": "43.4855,-1.5185",
@@ -16406,6 +16406,12 @@
    "agences_ok": 19,
    "date": "2026-10-12",
    "nouveautes": 11
+  },
+  {
+   "actives": 113,
+   "agences_ok": 18,
+   "date": "2026-10-12",
+   "nouveautes": 8
   }
  ]
 }
