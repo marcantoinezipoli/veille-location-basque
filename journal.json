@@ -3494,6 +3494,27 @@
   "type": "maison",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/bompas/louer/tautavel/appartement-3-pieces-52977082": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-12",
+  "historique_prix": [
+   {
+    "date": "2026-10-12",
+    "prix": 450
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-12",
+  "prix": 450,
+  "statut": "active",
+  "surface": 50.0,
+  "titre": "Appartement 450 €/mois TAUTAVEL (66720) 50 m² • 3 pièces • 2 chambres Surface : 50 m² • 3 pièces • 2 chbres",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/bordeauxcapucins/louer/merignac/appartement-1-piece-52931639": {
   "agence": "Laforêt (64, maisons)",
   "classement": "exclu",
@@ -4164,6 +4185,27 @@
   "statut": "disparu",
   "surface": 47.0,
   "titre": "Appartement 1 450 €/mois ISSY LES MOULINEAUX (92130) 47 m² • 2 pièces • 1 chambre…",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/issy-les-moulineaux-mairie/louer/issy-les-moulineaux/appartement-2-pieces-52977081": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-12",
+  "historique_prix": [
+   {
+    "date": "2026-10-12",
+    "prix": 1500
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-12",
+  "prix": 1500,
+  "statut": "active",
+  "surface": 40.0,
+  "titre": "Appartement 1 500 €/mois ISSY LES MOULINEAUX (92130) 40 m² • 2 pièces • 1 chambre Ascenseur • Parking",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -6173,6 +6215,27 @@
   "surface": 41.0,
   "titre": "Appartement 1 350 €/mois SAINT GENIS POUILLY (01630) 41 m² • 2 pièces • 1 chambre 1…",
   "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/salonprovence/louer/lancon-provence/maison-5-pieces-52976891": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 4,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-12",
+  "historique_prix": [
+   {
+    "date": "2026-10-12",
+    "prix": 1500
+   }
+  ],
+  "pieces": 5,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-12",
+  "prix": 1500,
+  "statut": "active",
+  "surface": 118.0,
+  "titre": "Maison 1 500 €/mois LANCON PROVENCE (13680) 118 m² • 5 pièces • 4 chambres Surface : 118 m² • 5 pièces • 4 chbres",
+  "type": "maison",
   "ville_agence": "Bayonne"
  },
  "https://www.laforet.com/agence-immobiliere/salonprovence/louer/salon-de-provence/appartement-4-pieces-52939022": {
