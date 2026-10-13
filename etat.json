@@ -3154,7 +3154,7 @@
    "statut": "active",
    "surface": null,
    "tel": "0559246520",
-   "titre": "Exclusivité BIARRITZ 64 1 230 € par mois charges comprises 81,3 m2 , appartement , 4 pcs",
+   "titre": "BIARRITZ 64 1 230 € par mois charges comprises 81,3 m2 , appartement , 4 pcs",
    "type": "appartement",
    "url": "https://www.century21.fr/trouver_logement/detail/17043490860/",
    "ville_agence": "Biarritz"
@@ -3891,6 +3891,102 @@
    "url": "https://www.immobilier-bayonne-aturri.com/location-maison-5-pieces-st-martin-d-arrossa/bien-immobilier/2/lmai98230",
    "ville_agence": "Bayonne"
   },
+  "https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1/prix": {
+   "agence": "Aturri Immobilier",
+   "atouts": [
+    "parking",
+    "box",
+    "sous-sol"
+   ],
+   "chambres": null,
+   "classement": "exclu",
+   "contexte": "Trier par : Ville Biens Prix Location parking BORDEAUX 90 C.C. € / mois Box fermé - 17 rue saint jean - bordeaux - box fermé (n°2) au sous-sol ...",
+   "derniere_vue": "2026-10-13",
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "parking",
+   "pieces": null,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-10-13",
+   "prix": null,
+   "reserves": [],
+   "score": 8,
+   "statut": "active",
+   "surface": null,
+   "titre": "Trier par : Ville Biens Prix Location parking BORDEAUX 90 C.C. € / mois Box fermé - 17 rue saint jean - bordeaux - box fermé (n°2) au sous-s",
+   "type": null,
+   "url": "https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1/prix",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1/types_biens": {
+   "agence": "Aturri Immobilier",
+   "atouts": [
+    "parking",
+    "box",
+    "sous-sol"
+   ],
+   "chambres": null,
+   "classement": "exclu",
+   "contexte": "Trier par : Ville Biens Prix Location parking BORDEAUX 90 C.C. € / mois Box fermé - 17 rue saint jean - bordeaux - box fermé (n°2) au sous-sol ...",
+   "derniere_vue": "2026-10-13",
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "parking",
+   "pieces": null,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-10-13",
+   "prix": null,
+   "reserves": [],
+   "score": 8,
+   "statut": "active",
+   "surface": null,
+   "titre": "Trier par : Ville Biens Prix Location parking BORDEAUX 90 C.C. € / mois Box fermé - 17 rue saint jean - bordeaux - box fermé (n°2) au sous-s",
+   "type": null,
+   "url": "https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1/types_biens",
+   "ville_agence": "Bayonne"
+  },
+  "https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1/ville": {
+   "agence": "Aturri Immobilier",
+   "atouts": [
+    "parking",
+    "box",
+    "sous-sol"
+   ],
+   "chambres": null,
+   "classement": "exclu",
+   "contexte": "Trier par : Ville Biens Prix Location parking BORDEAUX 90 C.C. € / mois Box fermé - 17 rue saint jean - bordeaux - box fermé (n°2) au sous-sol ...",
+   "derniere_vue": "2026-10-13",
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "parking",
+   "pieces": null,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-10-13",
+   "prix": null,
+   "reserves": [],
+   "score": 8,
+   "statut": "active",
+   "surface": null,
+   "titre": "Trier par : Ville Biens Prix Location parking BORDEAUX 90 C.C. € / mois Box fermé - 17 rue saint jean - bordeaux - box fermé (n°2) au sous-s",
+   "type": null,
+   "url": "https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1/ville",
+   "ville_agence": "Bayonne"
+  },
   "https://www.laforet.com/agence-immobiliere/airvault/louer/airvault/maison-3-pieces-52749356": {
    "agence": "Laforêt (64, maisons)",
    "atouts": [
@@ -4491,7 +4587,7 @@
    "score": 2,
    "statut": "active",
    "surface": 28.0,
-   "titre": "Appartement 550 €/mois BEAUCAIRE (30300) 28 m² • 2 pièces • 1 chambre 1 salle d'eau • Meublé",
+   "titre": "Appartement 550 €/mois BEAUCAIRE (30300) 28 m² • 2 pièces • 1 chambre 1 salle d'eau •…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/arles/louer/beaucaire/appartement-2-pieces-52978239",
    "ville_agence": "Bayonne"
@@ -5773,7 +5869,7 @@
    "score": 6,
    "statut": "active",
    "surface": 63.0,
-   "titre": "Appartement 1 300 €/mois BORDEAUX (33300) 63 m² • 3 pièces • 2 chambres Terrasse • Ascenseur • 1 salle de bain • Meublé",
+   "titre": "Appartement 1 300 €/mois BORDEAUX (33300) 63 m² • 3 pièces • 2 chambres Terrasse •…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/bordeauxcapucins/louer/bordeaux/appartement-3-pieces-52978445",
    "ville_agence": "Bayonne"
@@ -12720,7 +12816,7 @@
    "score": 2,
    "statut": "active",
    "surface": 37.08,
-   "titre": "Nouveauté Appartement 2 pièce(s) 1 chambre(s) 37.08 m² Hasparren (64240) 570 € CC*",
+   "titre": "Appartement 2 pièce(s) 1 chambre(s) 37.08 m² Hasparren (64240) 570 € CC*",
    "type": "appartement",
    "url": "https://www.lelogisbasque.fr/location/71-hasparren/appartement/2361-beau-t2-renove-avec-cave-et-stationnement-au-centre-d-hasparren-au-calme",
    "ville_agence": "Anglet"
@@ -14237,7 +14333,7 @@
    "classement": "exclu",
    "contexte": "",
    "derniere_vue": "2026-10-13",
-   "description": "OLAIZOLA Plan du site Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Plan du site Plan du site Appartements A vendre A louer Maisons A vendre A louer Marina Terrains constructibles à bâtir non constructibles industriel et artisanal A louer commercial de loisirs Lotissement Programmes neufs Les programmes Les Lots Immeubles Lofts Professionnels Bureaux Entrepôts Locaux commerciaux Murs Local d'activités Fonds de commerce Parking / Box Box Garage Parking Cave Locations meublées Appartements Maison Viager Bien(s) par ville immobilier biarritz immobilier saint jean de luz immobilier bidart immobilier anglet immobilier saint pee sur nivelle immobilier immobilier urrugne immobilier bassussarry Pages de contenu Agence immobilière à Bidart Notre équipe Agence immobilière à Biarritz Agence immobilière à Saint-Jean-de-Luz Nos agences Vendre Blog Nos vidéos Faire Gerer Estimation Mentions légales Politique de confidentialité Conditions générales de vente Nos biens vendu",
+   "description": "OLAIZOLA Plan du site Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Plan du site Plan du site Appartements A vendre A louer Maisons A vendre A louer Marina Terrains constructibles à bâtir non constructibles industriel et artisanal A louer commercial de loisirs Lotissement Programmes neufs Les programmes Les Lots Immeubles Lofts Professionnels Bureaux Entrepôts Locaux commerciaux Murs Local d'activités Fonds de commerce Parking / Box Box Garage Parking Cave Locations meublées Appartements Maison Viager Bien(s) par ville immobilier biarritz immobilier saint jean de luz immobilier bidart immobilier anglet immobilier saint pee sur nivelle immobilier immobilier urrugne immobilier arbonne Pages de contenu Agence immobilière à Bidart Notre équipe Agence immobilière à Biarritz Agence immobilière à Saint-Jean-de-Luz Nos agences Vendre Blog Nos vidéos Faire Gerer Estimation Mentions légales Politique de confidentialité Conditions générales de vente Nos biens vendus No",
    "dpe": null,
    "fiche_lue": true,
    "itineraire_pos": "43.4855,-1.5185",
@@ -16703,6 +16799,12 @@
    "agences_ok": 19,
    "date": "2026-10-13",
    "nouveautes": 11
+  },
+  {
+   "actives": 118,
+   "agences_ok": 19,
+   "date": "2026-10-13",
+   "nouveautes": 10
   }
  ]
 }

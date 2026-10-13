@@ -2312,7 +2312,7 @@
   "premiere_vue": "2026-10-13",
   "prix": 1230,
   "statut": "active",
-  "titre": "Exclusivité BIARRITZ 64 1 230 € par mois charges comprises 81,3 m2 , appartement , 4 pcs",
+  "titre": "BIARRITZ 64 1 230 € par mois charges comprises 81,3 m2 , appartement , 4 pcs",
   "type": "appartement",
   "ville_agence": "Biarritz"
  },
@@ -2694,6 +2694,36 @@
   "type": "maison",
   "ville_agence": "Bayonne"
  },
+ "https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1/prix": {
+  "agence": "Aturri Immobilier",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-13",
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-13",
+  "statut": "active",
+  "titre": "Trier par : Ville Biens Prix Location parking BORDEAUX 90 C.C. € / mois Box fermé - 17 rue saint jean - bordeaux - box fermé (n°2) au sous-s",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1/types_biens": {
+  "agence": "Aturri Immobilier",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-13",
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-13",
+  "statut": "active",
+  "titre": "Trier par : Ville Biens Prix Location parking BORDEAUX 90 C.C. € / mois Box fermé - 17 rue saint jean - bordeaux - box fermé (n°2) au sous-s",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1/ville": {
+  "agence": "Aturri Immobilier",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-13",
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-13",
+  "statut": "active",
+  "titre": "Trier par : Ville Biens Prix Location parking BORDEAUX 90 C.C. € / mois Box fermé - 17 rue saint jean - bordeaux - box fermé (n°2) au sous-s",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/airvault/louer/airvault/maison-3-pieces-52749356": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 2,
@@ -2966,7 +2996,7 @@
   "prix": 550,
   "statut": "active",
   "surface": 28.0,
-  "titre": "Appartement 550 €/mois BEAUCAIRE (30300) 28 m² • 2 pièces • 1 chambre 1 salle d'eau • Meublé",
+  "titre": "Appartement 550 €/mois BEAUCAIRE (30300) 28 m² • 2 pièces • 1 chambre 1 salle d'eau •…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -3592,7 +3622,7 @@
   "prix": 1300,
   "statut": "active",
   "surface": 63.0,
-  "titre": "Appartement 1 300 €/mois BORDEAUX (33300) 63 m² • 3 pièces • 2 chambres Terrasse • Ascenseur • 1 salle de bain • Meublé",
+  "titre": "Appartement 1 300 €/mois BORDEAUX (33300) 63 m² • 3 pièces • 2 chambres Terrasse •…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -7174,7 +7204,7 @@
   "prix": 570,
   "statut": "active",
   "surface": 37.08,
-  "titre": "Nouveauté Appartement 2 pièce(s) 1 chambre(s) 37.08 m² Hasparren (64240) 570 € CC*",
+  "titre": "Appartement 2 pièce(s) 1 chambre(s) 37.08 m² Hasparren (64240) 570 € CC*",
   "type": "appartement",
   "ville_agence": "Anglet"
  },
