@@ -2220,7 +2220,7 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-10-13",
   "statut": "active",
-  "titre": "Exclusivité USTARITZ 64 456 € par mois charges comprises 40,4 m2 , appartement , 2 pcs",
+  "titre": "USTARITZ 64 456 € par mois charges comprises 40,4 m2 , appartement , 2 pcs",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -2295,6 +2295,26 @@
   "titre": "ST JEAN DE LUZ 64 850 € par mois charges comprises 59,6 m2 , appartement , 2 pcs",
   "type": "appartement",
   "ville_agence": "Bidart"
+ },
+ "https://www.century21.fr/trouver_logement/detail/17043490860": {
+  "agence": "Century 21 (Bidart, toutes agences)",
+  "chambres": 3,
+  "classement": "match",
+  "derniere_vue": "2026-10-13",
+  "historique_prix": [
+   {
+    "date": "2026-10-13",
+    "prix": 1230
+   }
+  ],
+  "pieces": 4,
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-10-13",
+  "prix": 1230,
+  "statut": "active",
+  "titre": "Exclusivité BIARRITZ 64 1 230 € par mois charges comprises 81,3 m2 , appartement , 4 pcs",
+  "type": "appartement",
+  "ville_agence": "Biarritz"
  },
  "https://www.century21agencenivadour-bayonne.com/trouver_logement/detail/15635506173": {
   "agence": "Century 21 Agence Nivadour",
@@ -2929,6 +2949,27 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/arles/louer/beaucaire/appartement-2-pieces-52978239": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-13",
+  "historique_prix": [
+   {
+    "date": "2026-10-13",
+    "prix": 550
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-13",
+  "prix": 550,
+  "statut": "active",
+  "surface": 28.0,
+  "titre": "Appartement 550 €/mois BEAUCAIRE (30300) 28 m² • 2 pièces • 1 chambre 1 salle d'eau • Meublé",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/aucamville/louer/toulouse/maison-5-pieces-52960742": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
@@ -3530,7 +3571,28 @@
   "prix": 450,
   "statut": "active",
   "surface": 50.0,
-  "titre": "Appartement 450 €/mois TAUTAVEL (66720) 50 m² • 3 pièces • 2 chambres Surface : 50 m² • 3 pièces • 2 chbres",
+  "titre": "Appartement 450 €/mois TAUTAVEL (66720) 50 m² • 3 pièces • 2 chambres Surface : 50 m² •…",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/bordeauxcapucins/louer/bordeaux/appartement-3-pieces-52978445": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-13",
+  "historique_prix": [
+   {
+    "date": "2026-10-13",
+    "prix": 1300
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-13",
+  "prix": 1300,
+  "statut": "active",
+  "surface": 63.0,
+  "titre": "Appartement 1 300 €/mois BORDEAUX (33300) 63 m² • 3 pièces • 2 chambres Terrasse • Ascenseur • 1 salle de bain • Meublé",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -4224,7 +4286,7 @@
   "prix": 1500,
   "statut": "active",
   "surface": 40.0,
-  "titre": "Appartement 1 500 €/mois ISSY LES MOULINEAUX (92130) 40 m² • 2 pièces • 1 chambre Ascenseur • Parking",
+  "titre": "Appartement 1 500 €/mois ISSY LES MOULINEAUX (92130) 40 m² • 2 pièces • 1 chambre…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -4434,7 +4496,7 @@
   "prix": 540,
   "statut": "active",
   "surface": 45.0,
-  "titre": "Appartement 540 €/mois LA ROCHE SUR YON (85000) 45 m² • 2 pièces • 1 chambre 1 salle de bain • Meublé • Parking",
+  "titre": "Appartement 540 €/mois LA ROCHE SUR YON (85000) 45 m² • 2 pièces • 1 chambre 1 salle de…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -5012,6 +5074,27 @@
   "surface": 85.0,
   "titre": "Maison 1 200 €/mois MUNCHHOUSE (68740) 85 m² • 5 pièces • 3 chambres Surf. terrain :…",
   "type": "maison",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/muret/louer/colomiers/appartement-2-pieces-52978390": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-13",
+  "historique_prix": [
+   {
+    "date": "2026-10-13",
+    "prix": 690
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-13",
+  "prix": 690,
+  "statut": "active",
+  "surface": 46.0,
+  "titre": "Appartement 690 €/mois COLOMIERS (31770) 46 m² • 2 pièces • 1 chambre Meublé",
+  "type": "appartement",
   "ville_agence": "Bayonne"
  },
  "https://www.laforet.com/agence-immobiliere/muret/louer/labastidette/maison-4-pieces-52957839": {
@@ -5762,7 +5845,7 @@
   "prix": 798,
   "statut": "active",
   "surface": 45.0,
-  "titre": "Appartement 798 €/mois PAU (64000) 45 m² • 2 pièces • 1 chambre Terrasse • Ascenseur • 1 salle d'eau • Meublé",
+  "titre": "Appartement 798 €/mois PAU (64000) 45 m² • 2 pièces • 1 chambre Terrasse • Ascenseur •…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -7091,7 +7174,7 @@
   "prix": 570,
   "statut": "active",
   "surface": 37.08,
-  "titre": "Exclusivité Nouveauté Appartement 2 pièce(s) 1 chambre(s) 37.08 m² Hasparren (64240) 570 € CC*",
+  "titre": "Nouveauté Appartement 2 pièce(s) 1 chambre(s) 37.08 m² Hasparren (64240) 570 € CC*",
   "type": "appartement",
   "ville_agence": "Anglet"
  },
@@ -7733,6 +7816,17 @@
   "statut": "active",
   "titre": "https://www.olaizola.immo/annonces/annonces/fiches/24-206-13_61569494/cession-de-droit-au-bail-bidart-emplacement-premium-bidart-plateau-emplacement-a-forte-visibilite.html",
   "ville_agence": "Bidart"
+ },
+ "https://www.olaizola.immo/annonces/annonces/fiches/3-33-28_60904999/anglet-appartement-t2-avec-terrasse-cave-et-piscine-a-proximite-des-plages.html": {
+  "agence": "Agence Olaizola",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-13",
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-10-13",
+  "statut": "active",
+  "titre": "https://www.olaizola.immo/annonces/annonces/fiches/3-33-28_60904999/anglet-appartement-t2-avec-terrasse-cave-et-piscine-a-proximite-des-plages.html",
+  "type": "maison",
+  "ville_agence": "Anglet"
  },
  "https://www.olaizola.immo/annonces/annonces/fiches/3-33-28_61354200/guethary-appartement-2-pieces-meuble-dans-une-residence-haut-de-gamme-recente.html": {
   "agence": "Agence Olaizola",
