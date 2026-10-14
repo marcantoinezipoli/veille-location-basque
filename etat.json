@@ -4379,7 +4379,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Appartement 550 €/mois BEAUCAIRE (30300) 28 m² • 2 pièces • 1 chambre 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-13",
-   "ecart_prix_pct": 21,
+   "ecart_prix_pct": 22,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -4704,7 +4704,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 5 Appartement 950 €/mois BAYONNE (64100) 52 m² • 2 pièces • 1 chambre Ascenseur • 1 cave • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-14",
-   "ecart_prix_pct": 13,
+   "ecart_prix_pct": 14,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -5661,7 +5661,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 1 300 €/mois BORDEAUX (33300) 63 m² • 3 pièces • 2 chambres Terrasse • Ascenseur • 1 salle de bain • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-13",
-   "ecart_prix_pct": 27,
+   "ecart_prix_pct": 28,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -6310,7 +6310,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Maison 1 385 €/mois CHAVILLE (92370) 47 m² • 3 pièces • 2 chambres Surface : 47 m² • 3 pièces • 2 chbres En savoir plus Appeler",
    "derniere_vue": "2026-10-14",
-   "ecart_prix_pct": 82,
+   "ecart_prix_pct": 83,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -6960,7 +6960,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 2 300 €/mois BOULOGNE BILLANCOURT (92100) 87 m² • 4 pièces • 3 chambres Ascenseur • Parking En savoir plus Appeler",
    "derniere_vue": "2026-10-14",
-   "ecart_prix_pct": 63,
+   "ecart_prix_pct": 64,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -6985,7 +6985,7 @@
    "score": 5,
    "statut": "active",
    "surface": 87.0,
-   "titre": "Appartement 2 300 €/mois BOULOGNE BILLANCOURT (92100) 87 m² • 4 pièces • 3 chambres Ascenseur • Parking",
+   "titre": "Appartement 2 300 €/mois BOULOGNE BILLANCOURT (92100) 87 m² • 4 pièces • 3 chambres…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/issy-les-moulineaux-mairie/louer/boulogne-billancourt/appartement-4-pieces-52979262",
    "ville_agence": "Bayonne"
@@ -7079,7 +7079,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 1 500 €/mois ISSY LES MOULINEAUX (92130) 40 m² • 2 pièces • 1 chambre Ascenseur • Parking En savoir plus Appeler",
    "derniere_vue": "2026-10-13",
-   "ecart_prix_pct": 131,
+   "ecart_prix_pct": 133,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7482,7 +7482,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Appartement 540 €/mois LA ROCHE SUR YON (85000) 45 m² • 2 pièces • 1 chambre 1 salle de bain • Meublé • Parking En savoir plus Appeler",
    "derniere_vue": "2026-10-13",
-   "ecart_prix_pct": -26,
+   "ecart_prix_pct": -25,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -7524,7 +7524,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 795 €/mois LA ROCHE SUR YON (85000) 81 m² • 3 pièces • 2 chambres Ascenseur • 1 cave • 1 salle d'eau En savoir plus Appeler",
    "derniere_vue": "2026-10-14",
-   "ecart_prix_pct": -40,
+   "ecart_prix_pct": -39,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -7549,7 +7549,7 @@
    "score": 7,
    "statut": "active",
    "surface": 81.0,
-   "titre": "Appartement 795 €/mois LA ROCHE SUR YON (85000) 81 m² • 3 pièces • 2 chambres Ascenseur • 1 cave • 1 salle d'eau",
+   "titre": "Appartement 795 €/mois LA ROCHE SUR YON (85000) 81 m² • 3 pièces • 2 chambres Ascenseur…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/larochesuryon/louer/la-roche-sur-yon/appartement-3-pieces-52979321",
    "ville_agence": "Bayonne"
@@ -9772,7 +9772,7 @@
    "classement": "exclu",
    "contexte": "1 / 12 Appartement 445 €/mois BILLERE (64140) 21 m² • 1 pièce • 1 chambre 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-14",
-   "ecart_prix_pct": 31,
+   "ecart_prix_pct": 32,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -9931,7 +9931,7 @@
    "classement": "exclu",
    "contexte": "1 / 5 Appartement 595 €/mois PAU (64000) 34 m² • 1 pièce Terrasse • Ascenseur • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-14",
-   "ecart_prix_pct": 8,
+   "ecart_prix_pct": 9,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -9972,7 +9972,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Appartement 590 €/mois PAU (64000) 25 m² • 1 pièce Ascenseur • 1 salle d'eau • Balcon • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-14",
-   "ecart_prix_pct": 46,
+   "ecart_prix_pct": 47,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -10174,7 +10174,7 @@
    "classement": "exclu",
    "contexte": "1 / 8 Appartement 798 €/mois PAU (64000) 45 m² • 2 pièces • 1 chambre Terrasse • Ascenseur • 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-14",
-   "ecart_prix_pct": 9,
+   "ecart_prix_pct": 10,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -10877,7 +10877,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 1 767 €/mois SAINT MAUR DES FOSSES (94100) 60 m² • 3 pièces • 2 chambres Terrasse • Ascenseur • Garage • 1 salle de bain En savoir plus Appeler",
    "derniere_vue": "2026-10-14",
-   "ecart_prix_pct": 81,
+   "ecart_prix_pct": 83,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -10919,7 +10919,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Appartement 1 380 €/mois L ILE SAINT DENIS (93450) 65 m² • 3 pièces • 2 chambres Terrasse • Ascenseur • 1 salle de bain • Parking En savoir plus Appeler",
    "derniere_vue": "2026-10-14",
-   "ecart_prix_pct": 31,
+   "ecart_prix_pct": 32,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -11294,7 +11294,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 1 500 €/mois LANCON PROVENCE (13680) 118 m² • 5 pièces • 4 chambres Surface : 118 m² • 5 pièces • 4 chbres En savoir plus Appeler",
    "derniere_vue": "2026-10-12",
-   "ecart_prix_pct": -22,
+   "ecart_prix_pct": -21,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -11375,7 +11375,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 1 495 €/mois PONTAULT COMBAULT (77340) 93 m² • 4 pièces • 3 chambres 1 salle de bain • Balcon En savoir plus Appeler",
    "derniere_vue": "2026-10-12",
-   "ecart_prix_pct": -1,
+   "ecart_prix_pct": 0,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -12092,6 +12092,45 @@
    "url": "https://www.laforet.com/agence-immobiliere/verson/louer/fontaine-etoupefour/maison-5-pieces-52924320",
    "ville_agence": "Bayonne"
   },
+  "https://www.laforet.com/agence-immobiliere/vesoul/louer/vesoul/appartement-1-piece-52979214": {
+   "agence": "Laforêt (64, maisons)",
+   "atouts": [
+    "loyer 430 €"
+   ],
+   "chambres": 1,
+   "classement": "exclu",
+   "contexte": "Nouveauté 0 / 0 Appartement 430 €/mois VESOUL (70000) 28 m² • 1 pièce • 1 chambre 1 salle d'eau • Meublé En savoir plus Appeler",
+   "derniere_vue": "2026-10-14",
+   "ecart_prix_pct": -4,
+   "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-10-14",
+     "prix": 430
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (70000)",
+   "pieces": 1,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-10-14",
+   "prix": 430,
+   "prix_m2": 15.4,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 28.0,
+   "titre": "Appartement 430 €/mois VESOUL (70000) 28 m² • 1 pièce • 1 chambre 1 salle d'eau • Meublé",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/vesoul/louer/vesoul/appartement-1-piece-52979214",
+   "ville_agence": "Bayonne"
+  },
   "https://www.laforet.com/agence-immobiliere/vic-le-comte/louer/la-roche-blanche/maison-4-pieces-52915068": {
    "agence": "Laforêt (64, maisons)",
    "atouts": [
@@ -12227,7 +12266,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 1 503 €/mois VIROFLAY (78220) 60 m² • 3 pièces • 1 chambre Terrasse • Ascenseur • 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-12",
-   "ecart_prix_pct": 55,
+   "ecart_prix_pct": 56,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -13444,7 +13483,7 @@
    "derniere_vue": "2026-10-14",
    "description": "Ã? louer Ã l'annÃ©e T2 Bis plein de charme au coeur de Biarri Biarritz Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Biarritz 1310 € Ã? louer Ã l'annÃ©e T2 Bis plein de charme au coeur de Biarri à louer de 2 pièce(s) sur 72 m² Retour au listing Points clés... 2 pièce(s) , 72 m² 1 chambre(s) 1 salle(s) de bains Ref. 2154-1688 Descriptif du bien • Ã? louer Ã l'annÃ©e T2 Bis plein de charme au coeur de Biarri À louer à l\\'année T2 Bis plein de charme au coeur de Biarritz À seulement quelques pas des Halles, cet appartement de 70 m2 séduit par son cachet authentique et son emplacement idéal. Son parquet ancien, ses cheminées décoratives et sa belle hauteur sous plafond lui confèrent une atmosphère chaleureuse et élégante. L\\'espace de vie est agréable et lumineux, avec un séjour convivial qui s\\'ouvre sur un bureau pouvant également servir de second coin nuit. La chambre principale offre un espace confortable et intimiste. La cuisine rénovée et semi-équipée (plaques et hotte) allie modernité et praticité, tandis que la salle d\\'eau, récemment refaite à neuf, apporte une touche contemporaine et fonctionnelle. U",
    "dpe": "D",
-   "ecart_prix_pct": 12,
+   "ecart_prix_pct": 13,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -14216,7 +14255,7 @@
    "classement": "exclu",
    "contexte": "Maison Saubrigues Maison Saubrigues Saubrigues | 40230 1235 € | 106 m² | Réf 120138-166356",
    "derniere_vue": "2026-10-14",
-   "ecart_prix_pct": -28,
+   "ecart_prix_pct": -27,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -14257,7 +14296,7 @@
    "contexte": "Maison Urcuit Maison Urcuit Urcuit | 64990 1260 € | 87 m² | Réf B3030000",
    "derniere_vue": "2026-10-14",
    "ecart_prix_pct": -10,
-   "etiquette_prix": "bon prix",
+   "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
      "date": "2026-09-04",
@@ -16697,6 +16736,12 @@
    "agences_ok": 19,
    "date": "2026-10-14",
    "nouveautes": 7
+  },
+  {
+   "actives": 119,
+   "agences_ok": 19,
+   "date": "2026-10-14",
+   "nouveautes": 5
   }
  ]
 }
