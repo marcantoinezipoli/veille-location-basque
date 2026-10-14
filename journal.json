@@ -1748,7 +1748,7 @@
  "https://www.century21.fr/trouver_logement/detail/15717590057": {
   "agence": "Century 21 (Biarritz, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-13",
+  "derniere_vue": "2026-10-14",
   "historique_prix": [
    {
     "date": "2026-09-14",
@@ -3960,7 +3960,7 @@
   "prix": 1385,
   "statut": "active",
   "surface": 47.0,
-  "titre": "Maison 1 385 €/mois CHAVILLE (92370) 47 m² • 3 pièces • 2 chambres Surface : 47 m² • 3 pièces • 2 chbres",
+  "titre": "Maison 1 385 €/mois CHAVILLE (92370) 47 m² • 3 pièces • 2 chambres Surface : 47 m² • 3…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -4278,6 +4278,27 @@
   "type": "maison",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/issy-les-moulineaux-mairie/louer/boulogne-billancourt/appartement-4-pieces-52979262": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-14",
+  "historique_prix": [
+   {
+    "date": "2026-10-14",
+    "prix": 2300
+   }
+  ],
+  "pieces": 4,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-14",
+  "prix": 2300,
+  "statut": "active",
+  "surface": 87.0,
+  "titre": "Appartement 2 300 €/mois BOULOGNE BILLANCOURT (92100) 87 m² • 4 pièces • 3 chambres Ascenseur • Parking",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/issy-les-moulineaux-mairie/louer/issy-les-moulineaux/appartement-1-piece-52941018": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 1,
@@ -4548,6 +4569,27 @@
   "statut": "active",
   "surface": 45.0,
   "titre": "Appartement 540 €/mois LA ROCHE SUR YON (85000) 45 m² • 2 pièces • 1 chambre 1 salle de…",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/larochesuryon/louer/la-roche-sur-yon/appartement-3-pieces-52979321": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-14",
+  "historique_prix": [
+   {
+    "date": "2026-10-14",
+    "prix": 795
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-14",
+  "prix": 795,
+  "statut": "active",
+  "surface": 81.0,
+  "titre": "Appartement 795 €/mois LA ROCHE SUR YON (85000) 81 m² • 3 pièces • 2 chambres Ascenseur • 1 cave • 1 salle d'eau",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -4954,6 +4996,27 @@
   "statut": "disparu",
   "surface": 92.0,
   "titre": "Maison 795 €/mois MONCOUTANT SUR SEVRE (79320) 92 m² • 4 pièces • 3 chambres Surf.…",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/montauban/louer/albias/maison-4-pieces-52979246": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-14",
+  "historique_prix": [
+   {
+    "date": "2026-10-14",
+    "prix": 980
+   }
+  ],
+  "pieces": 4,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-14",
+  "prix": 980,
+  "statut": "active",
+  "surface": 104.0,
+  "titre": "Maison 980 €/mois ALBIAS (82350) 104 m² • 4 pièces • 3 chambres 1 salle de bain",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -6257,7 +6320,7 @@
   "prix": 1767,
   "statut": "active",
   "surface": 60.0,
-  "titre": "Appartement 1 767 €/mois SAINT MAUR DES FOSSES (94100) 60 m² • 3 pièces • 2 chambres Terrasse • Ascenseur • Garage • 1 salle de bain",
+  "titre": "Appartement 1 767 €/mois SAINT MAUR DES FOSSES (94100) 60 m² • 3 pièces • 2 chambres…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -6278,7 +6341,7 @@
   "prix": 1380,
   "statut": "active",
   "surface": 65.0,
-  "titre": "Appartement 1 380 €/mois L ILE SAINT DENIS (93450) 65 m² • 3 pièces • 2 chambres Terrasse • Ascenseur • 1 salle de bain • Parking",
+  "titre": "Appartement 1 380 €/mois L ILE SAINT DENIS (93450) 65 m² • 3 pièces • 2 chambres…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -8005,13 +8068,23 @@
   "titre": "https://www.olaizola.immo/annonces/annonces/fiches/4-40-26_61584932/arcangues-villa-elegante-sejour-cathedrale-et-piscine-chauffee.html",
   "ville_agence": "Biarritz"
  },
+ "https://www.olaizola.immo/annonces/fiches/3-32-34_60725882/saint-jean-de-luz-studio-meuble-a-louer-a-l-annee.html": {
+  "agence": "Agence Olaizola",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-14",
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-10-14",
+  "statut": "active",
+  "titre": "https://www.olaizola.immo/annonces/fiches/3-32-34_60725882/saint-jean-de-luz-studio-meuble-a-louer-a-l-annee.html",
+  "ville_agence": "Biarritz"
+ },
  "https://www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-studio-meuble-centre-ville.html": {
   "agence": "Agence Olaizola",
   "classement": "exclu",
-  "derniere_vue": "2026-10-08",
+  "derniere_vue": "2026-10-14",
   "pieces": 2,
   "position": "Biarritz (ville de l'agence)",
-  "premiere_vue": "2026-10-08",
+  "premiere_vue": "2026-10-14",
   "statut": "active",
   "surface": 180.0,
   "titre": "https://www.olaizola.immo/annonces/fiches/3-32-34_61479059/biarritz-location-etudiante-studio-meuble-centre-ville.html",
