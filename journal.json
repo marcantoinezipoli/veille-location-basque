@@ -857,6 +857,27 @@
   "type": "appartement",
   "ville_agence": "Bidart"
  },
+ "https://nestenn.com/location/appartement/appartement-a-louer-dax-proche-centre-ville-t2-meuble-balcon-parking-ref-39777734": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-15",
+  "historique_prix": [
+   {
+    "date": "2026-10-15",
+    "prix": 720
+   }
+  ],
+  "pieces": 2,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-10-15",
+  "prix": 720,
+  "statut": "active",
+  "surface": 46.0,
+  "titre": "EXCLU À 52 km de 64210 Bidart Appartement à louer 46m² 2 pièces 1 chambre 720 € CC/Mois",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
  "https://nestenn.com/location/appartement/appartement-a-louer-t3-vide-en-duplex-narrosse-dax-terrasse-garage-cuisine-moderne-ref-39750660": {
   "agence": "Nestenn (Bidart)",
   "chambres": 2,
@@ -2331,7 +2352,7 @@
   "premiere_vue": "2026-10-15",
   "prix": 540,
   "statut": "active",
-  "titre": "Exclusivité BIARRITZ 64 690 € par mois charges comprises 25 m2 , appartement , 1 pc",
+  "titre": "BIARRITZ 64 690 € par mois charges comprises 25 m2 , appartement , 1 pc",
   "type": "appartement",
   "ville_agence": "Bidart"
  },
@@ -3620,7 +3641,7 @@
   "prix": 850,
   "statut": "active",
   "surface": 79.0,
-  "titre": "Appartement 850 €/mois PERPIGNAN (66000) 79 m² • 3 pièces • 2 chambres Ascenseur • Garage • 1 salle de bain • Parking",
+  "titre": "Appartement 850 €/mois PERPIGNAN (66000) 79 m² • 3 pièces • 2 chambres Ascenseur •…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -3876,6 +3897,27 @@
   "surface": 34.0,
   "titre": "Maison 890 €/mois VENCE (06140) 34 m² • 2 pièces • 1 chambre Piscine • 1 salle de bain…",
   "type": "maison",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/caluire/louer/lyon/appartement-2-pieces-52980082": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-15",
+  "historique_prix": [
+   {
+    "date": "2026-10-15",
+    "prix": 986
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-15",
+  "prix": 986,
+  "statut": "active",
+  "surface": 46.0,
+  "titre": "Appartement 986 €/mois LYON (69006) 46 m² • 2 pièces • 1 chambre Ascenseur • 1 salle d'eau • Balcon",
+  "type": "appartement",
   "ville_agence": "Bayonne"
  },
  "https://www.laforet.com/agence-immobiliere/caluire/louer/rillieux-la-pape/appartement-3-pieces-52972338": {
@@ -4188,7 +4230,7 @@
   "prix": 1150,
   "statut": "active",
   "surface": 130.0,
-  "titre": "Appartement 1 150 €/mois GODERVILLE (76110) 130 m² • 7 pièces • 4 chambres Cheminée • Terrasse • 1 cave • 1 salle de bain",
+  "titre": "Appartement 1 150 €/mois GODERVILLE (76110) 130 m² • 7 pièces • 4 chambres Cheminée •…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -4671,6 +4713,27 @@
   "statut": "disparu",
   "surface": 20.0,
   "titre": "Maison 550 €/mois LA ROCHE SUR YON (85000) 20 m² • 1 pièce Terrasse • 1 salle d'eau •…",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/larochesuryon/louer/la-roche-sur-yon/maison-5-pieces-52980183": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 4,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-15",
+  "historique_prix": [
+   {
+    "date": "2026-10-15",
+    "prix": 1100
+   }
+  ],
+  "pieces": 5,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-15",
+  "prix": 1100,
+  "statut": "active",
+  "surface": 104.0,
+  "titre": "Maison 1 100 €/mois LA ROCHE SUR YON (85000) 104 m² • 5 pièces • 4 chambres Surf. terrain : 162 m² • Terrasse • Garage • 1 salle d'eau",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -5374,6 +5437,27 @@
   "statut": "disparu",
   "surface": 63.0,
   "titre": "Appartement 1 375 €/mois NANTERRE (92000) 63 m² • 3 pièces • 2 chambres Accès handicapé…",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/neauphle/louer/elancourt/appartement-2-pieces-52980046": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-15",
+  "historique_prix": [
+   {
+    "date": "2026-10-15",
+    "prix": 900
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-15",
+  "prix": 900,
+  "statut": "active",
+  "surface": 38.0,
+  "titre": "Appartement 900 €/mois ELANCOURT (78990) 38 m² • 2 pièces • 1 chambre Surface : 38.4 m² • 2 pièces • 1 chbre",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
