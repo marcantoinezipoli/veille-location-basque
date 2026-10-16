@@ -4523,7 +4523,7 @@
   "prix": 2500,
   "statut": "active",
   "surface": 160.0,
-  "titre": "Maison 2 500 €/mois LA CELLE SAINT CLOUD (78170) 160 m² • 5 pièces • 3 chambres Surf. terrain : 60 m²",
+  "titre": "Maison 2 500 €/mois LA CELLE SAINT CLOUD (78170) 160 m² • 5 pièces • 3 chambres Surf.…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -5011,6 +5011,27 @@
   "surface": 109.0,
   "titre": "Maison 1 260 €/mois MAGNY EN VEXIN (95420) 109 m² • 4 pièces • 3 chambres Terrasse •…",
   "type": "maison",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/marseille6/louer/marseille/appartement-2-pieces-52981121": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-16",
+  "historique_prix": [
+   {
+    "date": "2026-10-16",
+    "prix": 620
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-16",
+  "prix": 620,
+  "statut": "active",
+  "surface": 20.0,
+  "titre": "Appartement 620 €/mois MARSEILLE (13009) 20 m² • 2 pièces • 1 chambre 1 salle d'eau",
+  "type": "appartement",
   "ville_agence": "Bayonne"
  },
  "https://www.laforet.com/agence-immobiliere/martignas/louer/martignas-sur-jalle/appartement-4-pieces-52941327": {
@@ -5582,6 +5603,27 @@
   "statut": "disparu",
   "surface": 34.0,
   "titre": "Appartement 674 €/mois NOISY LE GRAND (93160) 34 m² • 1 pièce 1 salle de bain",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/noisylegrand-gestion/louer/noisy-le-grand/appartement-1-piece-52981048": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-16",
+  "historique_prix": [
+   {
+    "date": "2026-10-16",
+    "prix": 955
+   }
+  ],
+  "pieces": 1,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-16",
+  "prix": 955,
+  "statut": "active",
+  "surface": 40.0,
+  "titre": "Appartement 955 €/mois NOISY LE GRAND (93160) 40 m² • 1 pièce • 1 chambre Ascenseur • Garage • 1 salle de bain",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -6887,7 +6929,7 @@
   "prix": 1805,
   "statut": "active",
   "surface": 84.0,
-  "titre": "Appartement 1 805 €/mois CHAVILLE (92370) 84 m² • 4 pièces • 3 chambres Cheminée • 1 salle de bain • Meublé • Parking",
+  "titre": "Appartement 1 805 €/mois CHAVILLE (92370) 84 m² • 4 pièces • 3 chambres Cheminée • 1…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
