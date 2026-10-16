@@ -4506,6 +4506,27 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/la-celle-saint-cloud/louer/la-celle-saint-cloud/maison-5-pieces-52981000": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-16",
+  "historique_prix": [
+   {
+    "date": "2026-10-16",
+    "prix": 2500
+   }
+  ],
+  "pieces": 5,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-16",
+  "prix": 2500,
+  "statut": "active",
+  "surface": 160.0,
+  "titre": "Maison 2 500 €/mois LA CELLE SAINT CLOUD (78170) 160 m² • 5 pièces • 3 chambres Surf. terrain : 60 m²",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/la-chapelle-saint-laurent/louer/chiche/maison-7-pieces-22318451": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 5,
@@ -4858,7 +4879,7 @@
   "prix": 1000,
   "statut": "active",
   "surface": 46.0,
-  "titre": "Appartement 1 000 €/mois MARCQ EN BAROEUL (59700) 46 m² • 2 pièces • 1 chambre Ascenseur • 1 salle d'eau • Meublé • Parking",
+  "titre": "Appartement 1 000 €/mois MARCQ EN BAROEUL (59700) 46 m² • 2 pièces • 1 chambre…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -6506,7 +6527,7 @@
   "prix": 980,
   "statut": "active",
   "surface": 152.0,
-  "titre": "Maison 980 €/mois SAINT DIZIER (52100) 152 m² • 4 pièces • 3 chambres Terrasse • 1 cave • 2 salles d'eau",
+  "titre": "Maison 980 €/mois SAINT DIZIER (52100) 152 m² • 4 pièces • 3 chambres Terrasse • 1 cave…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -6847,6 +6868,27 @@
   "surface": 81.0,
   "titre": "Maison 1 800 €/mois VILLENEUVE LE COMTE (77174) 81 m² • 4 pièces • 3 chambres Surf.…",
   "type": "maison",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/sevres/louer/chaville/appartement-4-pieces-52980830": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-16",
+  "historique_prix": [
+   {
+    "date": "2026-10-16",
+    "prix": 1805
+   }
+  ],
+  "pieces": 4,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-16",
+  "prix": 1805,
+  "statut": "active",
+  "surface": 84.0,
+  "titre": "Appartement 1 805 €/mois CHAVILLE (92370) 84 m² • 4 pièces • 3 chambres Cheminée • 1 salle de bain • Meublé • Parking",
+  "type": "appartement",
   "ville_agence": "Bayonne"
  },
  "https://www.laforet.com/agence-immobiliere/sevres/louer/sevres/appartement-4-pieces-52973354": {
@@ -8208,7 +8250,7 @@
   "prix": 1390,
   "statut": "active",
   "surface": 123.0,
-  "titre": "Maison Mouguerre Maison Mouguerre Mouguerre | 64990 1390 € | 123 m² | Réf B297500SO",
+  "titre": "Maison Mouguerre",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
