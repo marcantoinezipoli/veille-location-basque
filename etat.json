@@ -4008,7 +4008,7 @@
    "signaux": [],
    "statut": "active",
    "surface": 149.0,
-   "titre": "Maison 2 240 €/mois ANGLET (64600) 149 m² • 6 pièces • 5 chambres Cheminée • Surf. terrain : 510 m² • Terrasse • Garage",
+   "titre": "Maison 2 240 €/mois ANGLET (64600) 149 m² • 6 pièces • 5 chambres Cheminée • Surf.…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/anglet/louer/anglet/maison-6-pieces-52978970",
    "ville_agence": "Anglet"
@@ -10385,7 +10385,7 @@
    "score": 7,
    "statut": "active",
    "surface": 136.0,
-   "titre": "Maison 1 250 €/mois PAU (64000) 136 m² • 6 pièces • 4 chambres Garage • 1 salle de bain • 1 salle d'eau",
+   "titre": "Maison 1 250 €/mois PAU (64000) 136 m² • 6 pièces • 4 chambres Garage • 1 salle de bain…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/pau/louer/pau/maison-6-pieces-52917174",
    "ville_agence": "Bayonne"
@@ -16647,6 +16647,12 @@
    "agences_ok": 19,
    "date": "2026-10-17",
    "nouveautes": 7
+  },
+  {
+   "actives": 118,
+   "agences_ok": 19,
+   "date": "2026-10-17",
+   "nouveautes": 4
   }
  ]
 }
