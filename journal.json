@@ -1270,6 +1270,26 @@
   "titre": "BIARRITZ – Avenue Reine VICTORIA – T2 Bis",
   "ville_agence": "Biarritz"
  },
+ "https://www.agence-benquet.com/appartement-maison/217134": {
+  "agence": "Agence Benquet",
+  "classement": "match",
+  "derniere_vue": "2026-10-20",
+  "historique_prix": [
+   {
+    "date": "2026-10-20",
+    "prix": 973
+   }
+  ],
+  "pieces": 3,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-10-20",
+  "prix": 973,
+  "statut": "active",
+  "surface": 53.0,
+  "titre": "Anglet – Appartement T3 avec grande terrasse de 53 m²",
+  "type": "appartement",
+  "ville_agence": "Anglet"
+ },
  "https://www.agence-benquet.com/appartement-maison/anglet-appartement-t4-meuble-avec-terrasse-et-deux-stationnements": {
   "agence": "Agence Benquet",
   "classement": "match",
@@ -7705,7 +7725,7 @@
   "prix": 1500,
   "statut": "active",
   "surface": 99.34,
-  "titre": "Exclusivité Coup de coeur Maison 3 pièce(s) 2 chambre(s) 99.34 m² Urcuit (64990) 1 500 € CC*",
+  "titre": "Coup de coeur Maison 3 pièce(s) 2 chambre(s) 99.34 m² Urcuit (64990) 1 500 € CC*",
   "type": "maison",
   "ville_agence": "Anglet"
  },
