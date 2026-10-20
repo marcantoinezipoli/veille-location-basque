@@ -7688,6 +7688,27 @@
   "type": "maison",
   "ville_agence": "Anglet"
  },
+ "https://www.lelogisbasque.fr/location/50-urcuit/maison/2362-tres-belle-maison-individuelle-a-louer-a-l-annee-a-urcuit": {
+  "agence": "Le Logis Basque",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-20",
+  "historique_prix": [
+   {
+    "date": "2026-10-20",
+    "prix": 1500
+   }
+  ],
+  "pieces": 3,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-10-20",
+  "prix": 1500,
+  "statut": "active",
+  "surface": 99.34,
+  "titre": "Exclusivité Coup de coeur Maison 3 pièce(s) 2 chambre(s) 99.34 m² Urcuit (64990) 1 500 € CC*",
+  "type": "maison",
+  "ville_agence": "Anglet"
+ },
  "https://www.lelogisbasque.fr/location/71-hasparren/appartement/2361-beau-t2-renove-avec-cave-et-stationnement-au-centre-d-hasparren-au-calme": {
   "agence": "Le Logis Basque",
   "chambres": 1,
