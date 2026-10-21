@@ -2402,7 +2402,7 @@
   "premiere_vue": "2026-10-21",
   "prix": 1131,
   "statut": "active",
-  "titre": "Exclusivité BIARRITZ 64 1 301,50 € par mois charges comprises 59,2 m2 , appartement , 2 pcs",
+  "titre": "BIARRITZ 64 1 301,50 € par mois charges comprises 59,2 m2 , appartement , 2 pcs",
   "type": "appartement",
   "ville_agence": "Biarritz"
  },
@@ -4278,7 +4278,7 @@
   "prix": 1195,
   "statut": "active",
   "surface": 45.0,
-  "titre": "Appartement 1 195 €/mois CRETEIL (94000) 45 m² • 2 pièces • 1 chambre Ascenseur • Sous-sol • 1 cave • 1 salle de bain",
+  "titre": "Appartement 1 195 €/mois CRETEIL (94000) 45 m² • 2 pièces • 1 chambre Ascenseur •…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -5907,6 +5907,27 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/paris10saintmartin/louer/paris-10/appartement-2-pieces-52988641": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-21",
+  "historique_prix": [
+   {
+    "date": "2026-10-21",
+    "prix": 1142
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-21",
+  "prix": 1142,
+  "statut": "active",
+  "surface": 32.0,
+  "titre": "Appartement 1 142 €/mois PARIS (75010) 32 m² • 2 pièces • 1 chambre Surface : 31.95 m² • 2 pièces • 1 chbre",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/paris10saintmartin/louer/paris-10/appartement-5-pieces-52940758": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
@@ -6050,7 +6071,7 @@
   "prix": 1480,
   "statut": "active",
   "surface": 49.0,
-  "titre": "Appartement 1 480 €/mois PARIS (75020) 49 m² • 2 pièces • 1 chambre Ascenseur • 1 cave • 1 salle d'eau • Balcon",
+  "titre": "Appartement 1 480 €/mois PARIS (75020) 49 m² • 2 pièces • 1 chambre Ascenseur • 1 cave…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -7947,6 +7968,27 @@
   "type": "appartement",
   "ville_agence": "Anglet"
  },
+ "https://www.lelogisbasque.fr/location/79-bayonne/appartement/2363-magnifique-t4-duplex-avec-jardin-et-2-terrasses-a-bayonne": {
+  "agence": "Le Logis Basque",
+  "chambres": 3,
+  "classement": "match",
+  "derniere_vue": "2026-10-21",
+  "historique_prix": [
+   {
+    "date": "2026-10-21",
+    "prix": 1188
+   }
+  ],
+  "pieces": 4,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-10-21",
+  "prix": 1188,
+  "statut": "active",
+  "surface": 76.88,
+  "titre": "Appartement 4 pièce(s) 3 chambre(s) 76.88 m²",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.lelogisbasque.fr/location/79-bayonne/studio/2338-adorable-studio-climatise-a-louer-a-l-annee-a-bayonne-proche-halles": {
   "agence": "Le Logis Basque",
   "classement": "exclu",
@@ -8594,6 +8636,16 @@
   "statut": "disparu",
   "titre": "Plan du site",
   "type": "maison",
+  "ville_agence": "Biarritz"
+ },
+ "https://www.olaizola.immo/annonces/annonces/fiches/4-40-26_60839465/arbonne-maison-ecoresponsable-de-plain-pied-avec-studio-independant-et-vue-campagne.html": {
+  "agence": "Agence Olaizola",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-21",
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-10-21",
+  "statut": "active",
+  "titre": "https://www.olaizola.immo/annonces/annonces/fiches/4-40-26_60839465/arbonne-maison-ecoresponsable-de-plain-pied-avec-studio-independant-et-vue-campagne.html",
   "ville_agence": "Biarritz"
  },
  "https://www.olaizola.immo/annonces/annonces/fiches/4-40-26_60947843/anglet-cinq-cantons-maison-entierement-renovee-avec-piscine.html": {
