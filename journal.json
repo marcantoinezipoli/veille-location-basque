@@ -5592,6 +5592,27 @@
   "type": "maison",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/muret/louer/muret/maison-4-pieces-52992144": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-22",
+  "historique_prix": [
+   {
+    "date": "2026-10-22",
+    "prix": 880
+   }
+  ],
+  "pieces": 4,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-22",
+  "prix": 880,
+  "statut": "active",
+  "surface": 70.0,
+  "titre": "Maison 880 €/mois MURET (31600) 70 m² • 4 pièces • 3 chambres Surf. terrain : 320 m² • Terrasse • Ascenseur • Garage",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/nanterre/louer/nanterre/appartement-3-pieces-52934265": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 2,
@@ -6445,7 +6466,7 @@
   "prix": 650,
   "statut": "active",
   "surface": 51.0,
-  "titre": "Appartement 650 €/mois PAU (64000) 51 m² • 2 pièces • 1 chambre Terrasse • 1 salle d'eau • Balcon",
+  "titre": "Appartement 650 €/mois PAU (64000) 51 m² • 2 pièces • 1 chambre Terrasse • 1 salle…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -6684,6 +6705,27 @@
   "type": "maison",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/pringy/louer/seynod/appartement-3-pieces-52992403": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-22",
+  "historique_prix": [
+   {
+    "date": "2026-10-22",
+    "prix": 1142
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-22",
+  "prix": 1142,
+  "statut": "active",
+  "surface": 71.0,
+  "titre": "Appartement 1 142 €/mois SEYNOD (74600) 71 m² • 3 pièces • 2 chambres Ascenseur • Garage • 1 cave • 1 salle d'eau",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/puteaux/louer/puteaux/appartement-2-pieces-52991772": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 1,
@@ -6701,7 +6743,7 @@
   "prix": 1200,
   "statut": "active",
   "surface": 53.0,
-  "titre": "Appartement 1 200 €/mois PUTEAUX (92800) 53 m² • 2 pièces • 1 chambre Ascenseur • Sous-sol • 1 salle de bain",
+  "titre": "Appartement 1 200 €/mois PUTEAUX (92800) 53 m² • 2 pièces • 1 chambre Ascenseur •…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -7104,6 +7146,27 @@
   "statut": "disparu",
   "surface": 84.0,
   "titre": "Appartement 1 230 €/mois SALON DE PROVENCE (13300) 84 m² • 4 pièces • 3 chambres…",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/savigny-sur-orge/louer/saint-michel-sur-orge/appartement-2-pieces-52991950": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-22",
+  "historique_prix": [
+   {
+    "date": "2026-10-22",
+    "prix": 1150
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-22",
+  "prix": 1150,
+  "statut": "active",
+  "surface": 47.0,
+  "titre": "Appartement 1 150 €/mois SAINT MICHEL SUR ORGE (91240) 47 m² • 2 pièces • 1 chambre Terrasse • Ascenseur • Sous-sol • 1 salle de bain",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -8353,7 +8416,7 @@
   "prix": 705,
   "statut": "active",
   "surface": 47.0,
-  "titre": "Appartement Bayonne Appartement Bayonne Bayonne | 64100 705 € | 47 m² | Réf 2671000",
+  "titre": "Appartement Bayonne",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -8793,12 +8856,22 @@
   "titre": "https://www.olaizola.immo/annonces/annonces/fiches/4-40-26_61584932/arcangues-villa-elegante-sejour-cathedrale-et-piscine-chauffee.html",
   "ville_agence": "Biarritz"
  },
+ "https://www.olaizola.immo/annonces/fiches/3-32-34_59176809/biarritz-studio-meuble-bail-etudiant.html": {
+  "agence": "Agence Olaizola",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-22",
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-10-22",
+  "statut": "active",
+  "titre": "https://www.olaizola.immo/annonces/fiches/3-32-34_59176809/biarritz-studio-meuble-bail-etudiant.html",
+  "ville_agence": "Biarritz"
+ },
  "https://www.olaizola.immo/annonces/fiches/3-32-34_60725882/saint-jean-de-luz-studio-meuble-a-louer-a-l-annee.html": {
   "agence": "Agence Olaizola",
   "classement": "exclu",
-  "derniere_vue": "2026-10-18",
+  "derniere_vue": "2026-10-22",
   "position": "Biarritz (ville de l'agence)",
-  "premiere_vue": "2026-10-18",
+  "premiere_vue": "2026-10-22",
   "statut": "active",
   "titre": "https://www.olaizola.immo/annonces/fiches/3-32-34_60725882/saint-jean-de-luz-studio-meuble-a-louer-a-l-annee.html",
   "ville_agence": "Biarritz"
