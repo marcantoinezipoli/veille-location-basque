@@ -1623,6 +1623,23 @@
   "titre": "Local commercial",
   "ville_agence": "Anglet"
  },
+ "https://www.ajp-immobilier.com/annonces/locations/local_professionnel/biarritz-64/55328998": {
+  "agence": "AJP Mateille Biarritz",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-23",
+  "historique_prix": [
+   {
+    "date": "2026-10-23",
+    "prix": 2865
+   }
+  ],
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-10-23",
+  "prix": 2865,
+  "statut": "active",
+  "titre": "Local commercial",
+  "ville_agence": "Biarritz"
+ },
  "https://www.ajp-immobilier.com/annonces/locations/local_professionnel/saint-jean-de-luz-64/60372591": {
   "agence": "AJP Mateille Biarritz",
   "classement": "exclu",
@@ -2366,7 +2383,7 @@
   "premiere_vue": "2026-10-23",
   "prix": 2350,
   "statut": "active",
-  "titre": "Exclusivité BIARRITZ 64 2 438,35 € par mois charges comprises 52,5 m2 , appartement , 2 pcs",
+  "titre": "BIARRITZ 64 2 438,35 € par mois charges comprises 52,5 m2 , appartement , 2 pcs",
   "type": "appartement",
   "ville_agence": "Bidart"
  },
@@ -2454,7 +2471,7 @@
   "premiere_vue": "2026-10-23",
   "prix": 2350,
   "statut": "active",
-  "titre": "Exclusivité BIARRITZ 64 2 438,35 € par mois charges comprises 52,5 m2 , appartement , 2 pcs",
+  "titre": "BIARRITZ 64 2 438,35 € par mois charges comprises 52,5 m2 , appartement , 2 pcs",
   "type": "appartement",
   "ville_agence": "Bidart"
  },
@@ -3078,6 +3095,27 @@
   "type": "appartement",
   "ville_agence": "Anglet"
  },
+ "https://www.laforet.com/agence-immobiliere/anglet/louer/anglet/appartement-2-pieces-22285780": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-23",
+  "historique_prix": [
+   {
+    "date": "2026-10-23",
+    "prix": 746
+   }
+  ],
+  "pieces": 2,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-10-23",
+  "prix": 746,
+  "statut": "active",
+  "surface": 41.0,
+  "titre": "Appartement 746 €/mois ANGLET (64600) 41 m² • 2 pièces • 1 chambre Surface : 40.94 m² • 2 pièces • 1 chbre",
+  "type": "appartement",
+  "ville_agence": "Anglet"
+ },
  "https://www.laforet.com/agence-immobiliere/anglet/louer/anglet/appartement-3-pieces-52960957": {
   "agence": "Laforêt (64, appartements)",
   "chambres": 2,
@@ -3244,6 +3282,27 @@
   "surface": 110.0,
   "titre": "Maison 1 340 €/mois SELONCOURT (25230) 110 m² • 6 pièces • 4 chambres Surf. terrain :…",
   "type": "maison",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/aurillac/louer/aurillac/appartement-3-pieces-52994721": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-23",
+  "historique_prix": [
+   {
+    "date": "2026-10-23",
+    "prix": 650
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-23",
+  "prix": 650,
+  "statut": "active",
+  "surface": 67.0,
+  "titre": "Appartement 650 €/mois AURILLAC (15000) 67 m² • 3 pièces • 2 chambres 1 cave • 1 salle d'eau • Balcon • Parking",
+  "type": "appartement",
   "ville_agence": "Bayonne"
  },
  "https://www.laforet.com/agence-immobiliere/auxerre/louer/auxerre/maison-3-pieces-52890198": {
@@ -5214,7 +5273,7 @@
   "prix": 1180,
   "statut": "active",
   "surface": 58.0,
-  "titre": "Appartement 1 180 €/mois MARSEILLE (13005) 58 m² • 3 pièces • 2 chambres Ascenseur • 1 salle de bain • Balcon • Meublé",
+  "titre": "Appartement 1 180 €/mois MARSEILLE (13005) 58 m² • 3 pièces • 2 chambres Ascenseur • 1…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -6819,6 +6878,48 @@
   "type": "maison",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/pringy/louer/annecy/appartement-2-pieces-52994834": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-23",
+  "historique_prix": [
+   {
+    "date": "2026-10-23",
+    "prix": 1100
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-23",
+  "prix": 1100,
+  "statut": "active",
+  "surface": 44.0,
+  "titre": "Appartement 1 100 €/mois ANNECY (74940) 44 m² • 2 pièces • 1 chambre Terrasse • 1 salle de bain • Meublé",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/pringy/louer/annecy/appartement-3-pieces-52994848": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-23",
+  "historique_prix": [
+   {
+    "date": "2026-10-23",
+    "prix": 1300
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-23",
+  "prix": 1300,
+  "statut": "active",
+  "surface": 50.0,
+  "titre": "Appartement 1 300 €/mois ANNECY (74000) 50 m² • 3 pièces • 2 chambres 1 cave • Meublé",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/pringy/louer/seynod/appartement-3-pieces-52992403": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 2,
@@ -8269,6 +8370,27 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.lelogisbasque.fr/location/79-bayonne/appartement/2367-magnifique-t3-de-standing-a-bayonne-paulmy-proche-prefecture-et-centre-ville": {
+  "agence": "Le Logis Basque",
+  "chambres": 2,
+  "classement": "match",
+  "derniere_vue": "2026-10-23",
+  "historique_prix": [
+   {
+    "date": "2026-10-23",
+    "prix": 1121
+   }
+  ],
+  "pieces": 3,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-10-23",
+  "prix": 1121,
+  "statut": "active",
+  "surface": 72.36,
+  "titre": "Appartement 3 pièce(s) 2 chambre(s) 72.36 m²",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.lelogisbasque.fr/location/79-bayonne/studio/2338-adorable-studio-climatise-a-louer-a-l-annee-a-bayonne-proche-halles": {
   "agence": "Le Logis Basque",
   "classement": "exclu",
@@ -8426,6 +8548,27 @@
   "surface": 13.76,
   "titre": "Studio 1 pièce(s) 13.76 m²",
   "ville_agence": "Biarritz"
+ },
+ "https://www.lelogisbasque.fr/location/99-bidart/maison/2366-beaucoup-de-charme-pour-cette-maison-au-calme-d-une-impasse-a-bidart": {
+  "agence": "Le Logis Basque",
+  "chambres": 3,
+  "classement": "match",
+  "derniere_vue": "2026-10-23",
+  "historique_prix": [
+   {
+    "date": "2026-10-23",
+    "prix": 1880
+   }
+  ],
+  "pieces": 4,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-10-23",
+  "prix": 1880,
+  "statut": "active",
+  "surface": 94.41,
+  "titre": "Maison 4 pièce(s) 3 chambre(s) 94.41 m²",
+  "type": "maison",
+  "ville_agence": "Bidart"
  },
  "https://www.manoirdefrance.fr/location,appartement-A-dAcouvrir-t4-duplex-de-78-m2-rue-pannecau,226005401": {
   "agence": "Manoir de France",
@@ -9044,6 +9187,16 @@
   "surface": 350.0,
   "titre": "https://www.olaizola.immo/annonces/fiches/3-32-36_58885748/bidart-a-louer-a-l-annee-appartement-t3-bis-meuble.html",
   "type": "maison",
+  "ville_agence": "Biarritz"
+ },
+ "https://www.olaizola.immo/annonces/fiches/4-39_61654198/.html": {
+  "agence": "Agence Olaizola",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-23",
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-10-23",
+  "statut": "active",
+  "titre": "https://www.olaizola.immo/annonces/fiches/4-39_61654198/.html",
   "ville_agence": "Biarritz"
  },
  "https://www.orpi.com/annonce-location-appartement-t1-anglet-64600-29cacaad-0fa0-4dfa-a211-044d9b5e5787?agency=ag5cantons": {
