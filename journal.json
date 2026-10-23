@@ -1820,7 +1820,7 @@
  "https://www.century21.fr/trouver_logement/detail/15717590057": {
   "agence": "Century 21 (Biarritz, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-10-22",
+  "derniere_vue": "2026-10-23",
   "historique_prix": [
    {
     "date": "2026-09-14",
@@ -2475,6 +2475,24 @@
   "type": "appartement",
   "ville_agence": "Bidart"
  },
+ "https://www.century21.fr/trouver_logement/detail/17074364116": {
+  "agence": "Century 21 (Bayonne, toutes agences)",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-23",
+  "historique_prix": [
+   {
+    "date": "2026-10-23",
+    "prix": 1999
+   }
+  ],
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-23",
+  "prix": 1999,
+  "statut": "active",
+  "titre": "Exclusivité USTARITZ 64 1 999 € par mois charges comprises 145 m2 , maison , 7 pcs",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
  "https://www.century21agencenivadour-bayonne.com/trouver_logement/detail/15635506173": {
   "agence": "Century 21 Agence Nivadour",
   "chambres": 2,
@@ -3112,7 +3130,7 @@
   "prix": 746,
   "statut": "active",
   "surface": 41.0,
-  "titre": "Appartement 746 €/mois ANGLET (64600) 41 m² • 2 pièces • 1 chambre Surface : 40.94 m² • 2 pièces • 1 chbre",
+  "titre": "Appartement 746 €/mois ANGLET (64600) 41 m² • 2 pièces • 1 chambre Surface : 40.94 m² •…",
   "type": "appartement",
   "ville_agence": "Anglet"
  },
@@ -3301,7 +3319,7 @@
   "prix": 650,
   "statut": "active",
   "surface": 67.0,
-  "titre": "Appartement 650 €/mois AURILLAC (15000) 67 m² • 3 pièces • 2 chambres 1 cave • 1 salle d'eau • Balcon • Parking",
+  "titre": "Appartement 650 €/mois AURILLAC (15000) 67 m² • 3 pièces • 2 chambres 1 cave • 1 salle…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -6895,7 +6913,28 @@
   "prix": 1100,
   "statut": "active",
   "surface": 44.0,
-  "titre": "Appartement 1 100 €/mois ANNECY (74940) 44 m² • 2 pièces • 1 chambre Terrasse • 1 salle de bain • Meublé",
+  "titre": "Appartement 1 100 €/mois ANNECY (74940) 44 m² • 2 pièces • 1 chambre Terrasse • 1 salle…",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/pringy/louer/annecy/appartement-2-pieces-52994857": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-23",
+  "historique_prix": [
+   {
+    "date": "2026-10-23",
+    "prix": 1000
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-23",
+  "prix": 1000,
+  "statut": "active",
+  "surface": 51.0,
+  "titre": "Appartement 1 000 €/mois ANNECY (74000) 51 m² • 2 pièces • 1 chambre Ascenseur • 1 cave • 1 salle de bain • Balcon",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -6917,6 +6956,27 @@
   "statut": "active",
   "surface": 50.0,
   "titre": "Appartement 1 300 €/mois ANNECY (74000) 50 m² • 3 pièces • 2 chambres 1 cave • Meublé",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/pringy/louer/annecy/appartement-3-pieces-52994855": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-23",
+  "historique_prix": [
+   {
+    "date": "2026-10-23",
+    "prix": 1500
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-23",
+  "prix": 1500,
+  "statut": "active",
+  "surface": 73.0,
+  "titre": "Appartement 1 500 €/mois ANNECY (74000) 73 m² • 3 pièces • 2 chambres Meublé",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
