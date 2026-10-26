@@ -121,6 +121,27 @@
   "type": "villa",
   "ville_agence": "Biarritz"
  },
+ "http://www.immobiarritz.fr/fiches/4-40-26_61584932/arcangues-villa-elegante-sejour-cathedrale-et-piscine-chauffee-au-calme-absolue.html": {
+  "agence": "Immobiarritz",
+  "chambres": 5,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-26",
+  "historique_prix": [
+   {
+    "date": "2026-10-26",
+    "prix": 2870
+   }
+  ],
+  "pieces": 6,
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-10-26",
+  "prix": 2870,
+  "statut": "active",
+  "surface": 220.0,
+  "titre": "http://www.immobiarritz.fr/fiches/4-40-26_61584932/arcangues-villa-elegante-sejour-cathedrale-et-piscine-chauffee-au-calme-absolue.html",
+  "type": "villa",
+  "ville_agence": "Biarritz"
+ },
  "http://www.immobiarritz.fr/fiches/4-40-26_61584932/arcangues-villa-elegante-sejour-cathedrale-et-piscine-chauffee.html": {
   "agence": "Immobiarritz",
   "chambres": 5,
@@ -1879,7 +1900,7 @@
   "agence": "Century 21 (Bidart, toutes agences)",
   "chambres": 3,
   "classement": "match",
-  "derniere_vue": "2026-10-19",
+  "derniere_vue": "2026-10-26",
   "historique_prix": [
    {
     "date": "2026-09-28",
@@ -1894,7 +1915,7 @@
   "position": "Anglet (ville de l'agence)",
   "premiere_vue": "2026-09-28",
   "prix": 1295,
-  "statut": "disparu",
+  "statut": "active",
   "titre": "ANGLET 64 1 500 € par mois charges comprises 84,3 m2 , appartement , 4 pcs",
   "type": "appartement",
   "ville_agence": "Anglet"
@@ -2490,7 +2511,7 @@
   "premiere_vue": "2026-10-26",
   "prix": 2000,
   "statut": "active",
-  "titre": "Exclusivité BIARRITZ 64 2 105,83 € par mois charges comprises 52,5 m2 , appartement , 2 pcs",
+  "titre": "BIARRITZ 64 2 105,83 € par mois charges comprises 52,5 m2 , appartement , 2 pcs",
   "type": "appartement",
   "ville_agence": "Bidart"
  },
@@ -8600,12 +8621,16 @@
    {
     "date": "2026-10-20",
     "prix": 1500
+   },
+   {
+    "date": "2026-10-26",
+    "prix": 1350
    }
   ],
   "pieces": 3,
   "position": "Anglet (ville de l'agence)",
   "premiere_vue": "2026-10-20",
-  "prix": 1500,
+  "prix": 1350,
   "statut": "active",
   "surface": 99.34,
   "titre": "Coup de coeur Maison 3 pièce(s) 2 chambre(s) 99.34 m² Urcuit (64990) 1 500 € CC*",
@@ -8777,6 +8802,27 @@
   "statut": "active",
   "surface": 72.36,
   "titre": "Appartement 3 pièce(s) 2 chambre(s) 72.36 m²",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.lelogisbasque.fr/location/79-bayonne/appartement/2368-grand-et-magnifique-t2-neuf-55-m-a-bayonne": {
+  "agence": "Le Logis Basque",
+  "chambres": 1,
+  "classement": "match",
+  "derniere_vue": "2026-10-26",
+  "historique_prix": [
+   {
+    "date": "2026-10-26",
+    "prix": 935
+   }
+  ],
+  "pieces": 2,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-10-26",
+  "prix": 935,
+  "statut": "active",
+  "surface": 55.45,
+  "titre": "Appartement 2 pièce(s) 1 chambre(s) 55.45 m²",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
