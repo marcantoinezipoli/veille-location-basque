@@ -2338,6 +2338,17 @@
   "titre": "Voir le détail du bien",
   "ville_agence": "Bayonne"
  },
+ "https://www.century21.fr/trouver_logement/detail/16999359138": {
+  "agence": "Century 21 (Bayonne, toutes agences)",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-27",
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-27",
+  "statut": "active",
+  "titre": "Exclusivité ONDRES 40 773 € par mois charges comprises 60,1 m2 , appartement , 3 pcs",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.century21.fr/trouver_logement/detail/17010857036": {
   "agence": "Century 21 (Bidart, toutes agences)",
   "classement": "match",
@@ -2978,7 +2989,7 @@
   "prix": 800,
   "statut": "active",
   "surface": 64.0,
-  "titre": "Maison 800 €/mois Agen (47000) 64 m² • 3 pièces • 2 chambres Surf. terrain : 1400 m² • Sous-sol • 1 salle d'eau",
+  "titre": "Maison 800 €/mois Agen (47000) 64 m² • 3 pièces • 2 chambres Surf. terrain : 1400 m² •…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -6397,6 +6408,27 @@
   "type": "maison",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/nueil-les-aubiers/louer/nueil-les-aubiers/maison-6-pieces-21990434": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 4,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-27",
+  "historique_prix": [
+   {
+    "date": "2026-10-27",
+    "prix": 700
+   }
+  ],
+  "pieces": 6,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-27",
+  "prix": 700,
+  "statut": "active",
+  "surface": 126.0,
+  "titre": "Maison 700 €/mois NUEIL LES AUBIERS (79250) 126 m² • 6 pièces • 4 chambres Cheminée • 1 cave • 2 salles d'eau",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/orgeval/louer/bazemont/maison-6-pieces-52934323": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
@@ -8788,7 +8820,7 @@
   "agence": "Le Logis Basque",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-26",
+  "derniere_vue": "2026-10-27",
   "historique_prix": [
    {
     "date": "2026-10-13",
@@ -8969,7 +9001,7 @@
   "prix": 935,
   "statut": "active",
   "surface": 55.45,
-  "titre": "Exclusivité Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 55.45 m² Bayonne (64100) 935 € CC*",
+  "titre": "Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 55.45 m² Bayonne (64100) 935 € CC*",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -10157,10 +10189,10 @@
  "https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/landes/tarnos-40220": {
   "agence": "Square Habitat Bidart",
   "classement": "exclu",
-  "derniere_vue": "2026-10-16",
+  "derniere_vue": "2026-10-27",
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-09-06",
-  "statut": "disparu",
+  "statut": "active",
   "titre": "Location appartement Tarnos (40220)",
   "type": "appartement",
   "ville_agence": "Bidart"
@@ -10168,7 +10200,7 @@
  "https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/anglet-64600": {
   "agence": "Square Habitat Bidart",
   "classement": "match",
-  "derniere_vue": "2026-10-21",
+  "derniere_vue": "2026-10-27",
   "dpe": "C",
   "historique_prix": [
    {
@@ -10179,7 +10211,7 @@
   "position": "Anglet (ville de l'agence)",
   "premiere_vue": "2026-09-06",
   "prix": 425,
-  "statut": "disparu",
+  "statut": "active",
   "titre": "Location appartement Anglet (64600) et alentours",
   "type": "appartement",
   "ville_agence": "Anglet"
@@ -10198,10 +10230,10 @@
  "https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/ascain-64310": {
   "agence": "Square Habitat Bidart",
   "classement": "exclu",
-  "derniere_vue": "2026-10-21",
+  "derniere_vue": "2026-10-27",
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-09-06",
-  "statut": "disparu",
+  "statut": "active",
   "titre": "Location appartement Ascain (64310)",
   "type": "appartement",
   "ville_agence": "Bidart"
@@ -10209,7 +10241,7 @@
  "https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/bayonne-64100": {
   "agence": "Square Habitat Bidart",
   "classement": "exclu",
-  "derniere_vue": "2026-10-21",
+  "derniere_vue": "2026-10-27",
   "dpe": "C",
   "historique_prix": [
    {
@@ -10221,7 +10253,7 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-06",
   "prix": 550,
-  "statut": "disparu",
+  "statut": "active",
   "titre": "Location appartement Bayonne (64100) et alentours",
   "type": "appartement",
   "ville_agence": "Bayonne"
@@ -10229,7 +10261,7 @@
  "https://www.squarehabitat.fr/annonces/location/bien/appartement/immobilier/nouvelle-aquitaine/pyrenees-atlantiques/biarritz-64200": {
   "agence": "Square Habitat Bidart",
   "classement": "exclu",
-  "derniere_vue": "2026-10-21",
+  "derniere_vue": "2026-10-27",
   "dpe": "D",
   "historique_prix": [
    {
@@ -10241,10 +10273,22 @@
   "position": "Biarritz (ville de l'agence)",
   "premiere_vue": "2026-09-06",
   "prix": 678,
-  "statut": "disparu",
+  "statut": "active",
   "titre": "Location appartement Biarritz (64200) et alentours",
   "type": "appartement",
   "ville_agence": "Biarritz"
+ },
+ "https://www.squarehabitat.fr/square-habitat-aquitaine/annonces/biens/location/appartement/ondres/f8a87535-f234-43aa-9852-dc36679eab25": {
+  "agence": "Square Habitat Bidart",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-27",
+  "pieces": 3,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-10-27",
+  "statut": "active",
+  "titre": "Appartement à louer - ONDRES, 3 pièces",
+  "type": "appartement",
+  "ville_agence": "Bidart"
  },
  "https://www.squarehabitat.fr/square-habitat-aquitaine/annonces/biens/location/appartement/saint-vincent-de-tyrosse/3d3fa139-ecd4-4f1e-8614-d12e1aa55ca3": {
   "agence": "Square Habitat Bidart",
@@ -10276,6 +10320,16 @@
   "derniere_vue": "2026-10-27",
   "position": "Anglet (ville de l'agence)",
   "premiere_vue": "2026-09-04",
+  "statut": "active",
+  "titre": "Studio à louer - ANGLET",
+  "ville_agence": "Anglet"
+ },
+ "https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/anglet/d6c797e2-8455-47c7-8ce2-ed763d5928d3": {
+  "agence": "Square Habitat Bidart",
+  "classement": "exclu",
+  "derniere_vue": "2026-10-27",
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-10-27",
   "statut": "active",
   "titre": "Studio à louer - ANGLET",
   "ville_agence": "Anglet"
