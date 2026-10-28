@@ -6567,7 +6567,6 @@
    "derniere_vue": "2026-10-28",
    "ecart_prix_pct": 89,
    "etiquette_prix": "au-dessus du marché",
-   "evenement": "baisse",
    "historique_prix": [
     {
      "date": "2026-09-29",
@@ -14280,33 +14279,35 @@
    "url": "https://www.olaizola.immo/annonces/fiches/3-32-34_60725882/saint-jean-de-luz-studio-meuble-a-louer-a-l-annee.html",
    "ville_agence": "Biarritz"
   },
-  "https://www.olaizola.immo/annonces/fiches/4-39_61654198/.html": {
+  "https://www.olaizola.immo/annonces/fiches/4-39_61654198/bidart-colocation-etudiante-en-maison-neuve-grande-terrasse-et-piscine-500-cc-chambre.html": {
    "agence": "Agence Olaizola",
-   "atouts": [],
+   "atouts": [
+    "terrasse"
+   ],
    "chambres": null,
    "classement": "exclu",
    "contexte": "",
    "derniere_vue": "2026-10-28",
-   "itineraire_pos": "43.4832,-1.5586",
+   "itineraire_pos": "43.437,-1.5915",
    "itineraire_source": "route",
-   "km_hopital": 8.2,
-   "lat": 43.4832,
-   "lon": -1.5586,
-   "min_velo": 33,
-   "min_voiture": 13,
-   "motif_exclusion": "commune hors secteur",
+   "km_hopital": 12.6,
+   "lat": 43.437,
+   "lon": -1.5915,
+   "min_velo": 50,
+   "min_voiture": 14,
+   "motif_exclusion": "etudiant",
    "pieces": null,
-   "position": "Biarritz (ville de l'agence)",
+   "position": "Bidart (ville de l'agence)",
    "premiere_vue": "2026-10-28",
    "prix": null,
    "reserves": [],
-   "score": 0,
+   "score": 3,
    "statut": "active",
    "surface": null,
-   "titre": "https://www.olaizola.immo/annonces/fiches/4-39_61654198/.html",
+   "titre": "https://www.olaizola.immo/annonces/fiches/4-39_61654198/bidart-colocation-etudiante-en-maison-neuve-grande-terrasse-et-piscine-500-cc-chambre.html",
    "type": null,
-   "url": "https://www.olaizola.immo/annonces/fiches/4-39_61654198/.html",
-   "ville_agence": "Biarritz"
+   "url": "https://www.olaizola.immo/annonces/fiches/4-39_61654198/bidart-colocation-etudiante-en-maison-neuve-grande-terrasse-et-piscine-500-cc-chambre.html",
+   "ville_agence": "Bidart"
   },
   "https://www.orpi.com/annonce-location-appartement-t1-anglet-64600-29cacaad-0fa0-4dfa-a211-044d9b5e5787?agency=ag5cantons": {
    "agence": "Orpi Agence des 5 Cantons",
@@ -16571,6 +16572,12 @@
    "agences_ok": 19,
    "date": "2026-10-28",
    "nouveautes": 7
+  },
+  {
+   "actives": 142,
+   "agences_ok": 19,
+   "date": "2026-10-28",
+   "nouveautes": 6
   }
  ]
 }
