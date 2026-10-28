@@ -6554,18 +6554,28 @@
   "https://www.laforet.com/agence-immobiliere/gujan/louer/gujan-mestras/maison-3-pieces-22561524": {
    "agence": "Laforêt (64, maisons)",
    "atouts": [
-    "loyer 960 €"
+    "loyer 900 €"
    ],
+   "baisse": {
+    "ancien": 960,
+    "date": "2026-10-28",
+    "nouveau": 900
+   },
    "chambres": 2,
    "classement": "exclu",
    "contexte": "1 / 8 Maison 960 €/mois GUJAN MESTRAS (33470) 47 m² • 3 pièces • 2 chambres Surf. terrain : 242 m² • 1 salle de bain • 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-10-28",
-   "ecart_prix_pct": 102,
+   "ecart_prix_pct": 89,
    "etiquette_prix": "au-dessus du marché",
+   "evenement": "baisse",
    "historique_prix": [
     {
      "date": "2026-09-29",
      "prix": 960
+    },
+    {
+     "date": "2026-10-28",
+     "prix": 900
     }
    ],
    "itineraire_pos": "43.4929,-1.4748",
@@ -6579,8 +6589,8 @@
    "pieces": 3,
    "position": "Bayonne (ville de l'agence)",
    "premiere_vue": "2026-09-29",
-   "prix": 960,
-   "prix_m2": 20.4,
+   "prix": 900,
+   "prix_m2": 19.1,
    "reserves": [],
    "score": 2,
    "statut": "active",
@@ -16549,6 +16559,12 @@
    "agences_ok": 19,
    "date": "2026-10-27",
    "nouveautes": 6
+  },
+  {
+   "actives": 142,
+   "agences_ok": 19,
+   "date": "2026-10-28",
+   "nouveautes": 7
   },
   {
    "actives": 142,
