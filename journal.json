@@ -935,6 +935,21 @@
   "type": "appartement",
   "ville_agence": "Bidart"
  },
+ "https://nestenn.com/location/appartement/belle-maison-de-plain-pied-bayonne-175-m2-ref-39504141": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 4,
+  "classement": "match",
+  "derniere_vue": "2026-10-30",
+  "dpe": "C",
+  "pieces": 5,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-10-30",
+  "statut": "active",
+  "surface": 180.0,
+  "titre": "Belle maison de plain pied Bayonne 175 m2",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
  "https://nestenn.com/location/appartement/t3-recent-au-centre-de-guidel-75m-ref-39739037": {
   "agence": "Nestenn (Bidart)",
   "chambres": 2,
@@ -7165,6 +7180,27 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-3-pieces-53002490": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-10-30",
+  "historique_prix": [
+   {
+    "date": "2026-10-30",
+    "prix": 795
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-10-30",
+  "prix": 795,
+  "statut": "active",
+  "surface": 64.0,
+  "titre": "Appartement 795 €/mois PAU (64000) 64 m² • 3 pièces • 2 chambres Ascenseur • Garage • 1 salle d'eau • Balcon",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-4-pieces-22134562": {
   "agence": "Laforêt (64, appartements)",
   "chambres": 3,
@@ -9318,7 +9354,7 @@
   "prix": 742,
   "statut": "active",
   "surface": 51.0,
-  "titre": "Appartement Bayonne Appartement Bayonne Bayonne | 64100 742 € | 51 m² | Réf B767002",
+  "titre": "Appartement Bayonne",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
