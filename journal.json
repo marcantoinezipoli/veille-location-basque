@@ -2199,11 +2199,15 @@
    {
     "date": "2026-09-15",
     "prix": 1967
+   },
+   {
+    "date": "2026-11-04",
+    "prix": 1897
    }
   ],
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-15",
-  "prix": 1967,
+  "prix": 1897,
   "statut": "active",
   "titre": "USTARITZ 64 1 967 € par mois charges comprises 148,3 m2 , maison , 6 pcs",
   "type": "maison",
@@ -2751,6 +2755,26 @@
   "type": "appartement",
   "ville_agence": "Anglet"
  },
+ "https://www.human-immobilier.fr/annonce-location-appartement-saubusse_20-618": {
+  "agence": "Human Immobilier Anglet",
+  "classement": "exclu",
+  "derniere_vue": "2026-11-04",
+  "historique_prix": [
+   {
+    "date": "2026-11-04",
+    "prix": 900
+   }
+  ],
+  "pieces": 3,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-11-04",
+  "prix": 900,
+  "statut": "active",
+  "surface": 58.0,
+  "titre": "Appartement 3 pièces - 58 m² SAUBUSSE (40180) 900 € / mois",
+  "type": "appartement",
+  "ville_agence": "Anglet"
+ },
  "https://www.human-immobilier.fr/annonce-location-appartement-soustons_20-281": {
   "agence": "Human Immobilier Anglet",
   "classement": "exclu",
@@ -2808,6 +2832,26 @@
   "statut": "disparu",
   "surface": 87.0,
   "titre": "Appartement 4 pièces - 87 m² ST PAUL LES DAX (40990) 796 € / mois",
+  "type": "appartement",
+  "ville_agence": "Anglet"
+ },
+ "https://www.human-immobilier.fr/annonce-location-appartement-st-vincent-de-tyrosse_20-553": {
+  "agence": "Human Immobilier Anglet",
+  "classement": "exclu",
+  "derniere_vue": "2026-11-04",
+  "historique_prix": [
+   {
+    "date": "2026-11-04",
+    "prix": 592
+   }
+  ],
+  "pieces": 1,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-11-04",
+  "prix": 592,
+  "statut": "active",
+  "surface": 34.0,
+  "titre": "Appartement 1 pièce - 34 m² ST VINCENT DE TYROSSE (40230) 592 € / mois",
   "type": "appartement",
   "ville_agence": "Anglet"
  },
@@ -5760,7 +5804,7 @@
   "prix": 1350,
   "statut": "active",
   "surface": 77.0,
-  "titre": "Maison 1 350 €/mois MARTIGNAS SUR JALLE (33127) 77 m² • 4 pièces • 3 chambres Surf. terrain : 57 m² • 1 salle de bain • Meublé",
+  "titre": "Maison 1 350 €/mois MARTIGNAS SUR JALLE (33127) 77 m² • 4 pièces • 3 chambres Surf.…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -7340,7 +7384,7 @@
   "prix": 1100,
   "statut": "active",
   "surface": 110.0,
-  "titre": "Appartement 1 100 €/mois PAU (64000) 110 m² • 4 pièces • 3 chambres Sous-sol • 1 cave • 1 salle de bain • Meublé",
+  "titre": "Appartement 1 100 €/mois PAU (64000) 110 m² • 4 pièces • 3 chambres Sous-sol • 1 cave •…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -9671,7 +9715,7 @@
   "prix": 1293,
   "statut": "active",
   "surface": 112.0,
-  "titre": "Appartement Bayonne Appartement Bayonne Bayonne | 64100 1293 € | 112 m² | Réf B2798002",
+  "titre": "Appartement Bayonne",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },

@@ -26,14 +26,14 @@
     }
    ],
    "itineraire_pos": "43.4832,-1.5586",
-   "itineraire_source": "estimation",
+   "itineraire_source": "route",
    "km_hopital": 8.2,
    "lat": 43.4832,
    "lon": -1.5586,
    "mail": "amandine.duhalde@olaizola.immo",
    "meuble": true,
    "min_velo": 33,
-   "min_voiture": 18,
+   "min_voiture": 13,
    "motif_exclusion": "lien de navigation, pas une annonce",
    "photo": "https://www.olaizola.immo/office8/agenceolaizola/catalog/images/pr_web/6/1/3/5/4/2/0/0/61354200a.jpg.mid.jpg",
    "photo_cherchee": true,
@@ -78,14 +78,14 @@
    "dpe": null,
    "fiche_lue": true,
    "itineraire_pos": "43.4832,-1.5586",
-   "itineraire_source": "estimation",
+   "itineraire_source": "route",
    "km_hopital": 8.2,
    "lat": 43.4832,
    "lon": -1.5586,
    "mail": "jone.velasco@olaizola.immo",
    "meuble": false,
    "min_velo": 33,
-   "min_voiture": 18,
+   "min_voiture": 13,
    "motif_exclusion": "lien de navigation, pas une annonce",
    "photo": "https://www.olaizola.immo/office8/agenceolaizola/catalog/images/pr_web/5/9/8/3/6/7/6/3/59836763a.jpg.mid.jpg",
    "photo_cherchee": true,
@@ -137,14 +137,14 @@
     }
    ],
    "itineraire_pos": "43.4832,-1.5586",
-   "itineraire_source": "estimation",
+   "itineraire_source": "route",
    "km_hopital": 8.2,
    "lat": 43.4832,
    "lon": -1.5586,
    "mail": "jone.velasco@olaizola.immo",
    "meuble": false,
    "min_velo": 33,
-   "min_voiture": 18,
+   "min_voiture": 13,
    "motif_exclusion": "lien de navigation, pas une annonce",
    "photo": "https://www.olaizola.immo/office8/agenceolaizola/catalog/images/pr_web/6/1/5/8/4/9/3/2/61584932a.jpg.mid.jpg",
    "photo_cherchee": true,
@@ -1760,15 +1760,27 @@
   },
   "https://www.century21.fr/trouver_logement/detail/16937861793": {
    "agence": "Century 21 (Bayonne, toutes agences)",
-   "atouts": [],
+   "atouts": [
+    "loyer 1897 €"
+   ],
+   "baisse": {
+    "ancien": 1967,
+    "date": "2026-11-04",
+    "nouveau": 1897
+   },
    "chambres": null,
    "classement": "exclu",
    "contexte": "Exclusivité USTARITZ 64 1 967 € par mois charges comprises 148,3 m 2 , maison , 6 pcs",
    "derniere_vue": "2026-11-04",
+   "evenement": "baisse",
    "historique_prix": [
     {
      "date": "2026-09-15",
      "prix": 1967
+    },
+    {
+     "date": "2026-11-04",
+     "prix": 1897
     }
    ],
    "itineraire_pos": "43.4929,-1.4748",
@@ -1782,9 +1794,9 @@
    "pieces": null,
    "position": "Bayonne (ville de l'agence)",
    "premiere_vue": "2026-09-15",
-   "prix": 1967,
+   "prix": 1897,
    "reserves": [],
-   "score": 0,
+   "score": 1,
    "statut": "active",
    "surface": null,
    "titre": "USTARITZ 64 1 967 € par mois charges comprises 148,3 m2 , maison , 6 pcs",
@@ -2877,6 +2889,45 @@
    "url": "https://www.human-immobilier.fr/annonce-location-appartement-bidache_21-704",
    "ville_agence": "Anglet"
   },
+  "https://www.human-immobilier.fr/annonce-location-appartement-saubusse_20-618": {
+   "agence": "Human Immobilier Anglet",
+   "atouts": [
+    "loyer 900 €"
+   ],
+   "chambres": null,
+   "classement": "exclu",
+   "contexte": "Appartement 3 pièces - 58 m² SAUBUSSE (40180) 900 € / mois",
+   "derniere_vue": "2026-11-04",
+   "ecart_prix_pct": 0,
+   "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-11-04",
+     "prix": 900
+    }
+   ],
+   "itineraire_pos": "43.4855,-1.5185",
+   "itineraire_source": "route",
+   "km_hopital": 4.9,
+   "lat": 43.4855,
+   "lon": -1.5185,
+   "min_velo": 20,
+   "min_voiture": 9,
+   "motif_exclusion": "hors zone (40180)",
+   "pieces": 3,
+   "position": "Anglet (ville de l'agence)",
+   "premiere_vue": "2026-11-04",
+   "prix": 900,
+   "prix_m2": 15.5,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 58.0,
+   "titre": "Appartement 3 pièces - 58 m² SAUBUSSE (40180) 900 € / mois",
+   "type": "appartement",
+   "url": "https://www.human-immobilier.fr/annonce-location-appartement-saubusse_20-618",
+   "ville_agence": "Anglet"
+  },
   "https://www.human-immobilier.fr/annonce-location-appartement-soustons_20-281": {
    "agence": "Human Immobilier Anglet",
    "atouts": [
@@ -2954,6 +3005,45 @@
    "titre": "Appartement 2 pièces - 46 m² ST JEAN DE LUZ (64500) 840 € / mois",
    "type": "appartement",
    "url": "https://www.human-immobilier.fr/annonce-location-appartement-st-jean-de-luz_20-556",
+   "ville_agence": "Anglet"
+  },
+  "https://www.human-immobilier.fr/annonce-location-appartement-st-vincent-de-tyrosse_20-553": {
+   "agence": "Human Immobilier Anglet",
+   "atouts": [
+    "loyer 592 €"
+   ],
+   "chambres": null,
+   "classement": "exclu",
+   "contexte": "Appartement 1 pièce - 34 m² ST VINCENT DE TYROSSE (40230) 592 € / mois",
+   "derniere_vue": "2026-11-04",
+   "ecart_prix_pct": 12,
+   "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-11-04",
+     "prix": 592
+    }
+   ],
+   "itineraire_pos": "43.4855,-1.5185",
+   "itineraire_source": "route",
+   "km_hopital": 4.9,
+   "lat": 43.4855,
+   "lon": -1.5185,
+   "min_velo": 20,
+   "min_voiture": 9,
+   "motif_exclusion": "hors zone (40230)",
+   "pieces": 1,
+   "position": "Anglet (ville de l'agence)",
+   "premiere_vue": "2026-11-04",
+   "prix": 592,
+   "prix_m2": 17.4,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 34.0,
+   "titre": "Appartement 1 pièce - 34 m² ST VINCENT DE TYROSSE (40230) 592 € / mois",
+   "type": "appartement",
+   "url": "https://www.human-immobilier.fr/annonce-location-appartement-st-vincent-de-tyrosse_20-553",
    "ville_agence": "Anglet"
   },
   "https://www.human-immobilier.fr/annonce-location-appartement-vieux-boucau-les-bains_20-576": {
@@ -7161,7 +7251,7 @@
    "score": 3,
    "statut": "active",
    "surface": 77.0,
-   "titre": "Maison 1 350 €/mois MARTIGNAS SUR JALLE (33127) 77 m² • 4 pièces • 3 chambres Surf. terrain : 57 m² • 1 salle de bain • Meublé",
+   "titre": "Maison 1 350 €/mois MARTIGNAS SUR JALLE (33127) 77 m² • 4 pièces • 3 chambres Surf.…",
    "type": "maison",
    "url": "https://www.laforet.com/agence-immobiliere/martignas/louer/martignas-sur-jalle/maison-4-pieces-52949259",
    "ville_agence": "Bayonne"
@@ -9167,7 +9257,7 @@
    "score": 8,
    "statut": "active",
    "surface": 110.0,
-   "titre": "Appartement 1 100 €/mois PAU (64000) 110 m² • 4 pièces • 3 chambres Sous-sol • 1 cave • 1 salle de bain • Meublé",
+   "titre": "Appartement 1 100 €/mois PAU (64000) 110 m² • 4 pièces • 3 chambres Sous-sol • 1 cave •…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-4-pieces-22134562#section-video",
    "ville_agence": "Bayonne"
@@ -10673,7 +10763,6 @@
    "derniere_vue": "2026-11-04",
    "ecart_prix_pct": -31,
    "etiquette_prix": "bon prix",
-   "evenement": "baisse",
    "historique_prix": [
     {
      "date": "2026-09-23",
@@ -13045,7 +13134,7 @@
    "statut": "active",
    "surface": 112.0,
    "tel": "0559596633",
-   "titre": "Appartement Bayonne Appartement Bayonne Bayonne | 64100 1293 € | 112 m² | Réf B2798002",
+   "titre": "Appartement Bayonne",
    "type": "appartement",
    "url": "https://www.manoirdefrance.fr/location,appartement-appartement-4-piAces-rue-thiers-bayonne,B2798002",
    "ville_agence": "Bayonne"
@@ -13524,12 +13613,12 @@
    "contexte": "",
    "derniere_vue": "2026-11-04",
    "itineraire_pos": "43.4832,-1.5586",
-   "itineraire_source": "estimation",
+   "itineraire_source": "route",
    "km_hopital": 8.2,
    "lat": 43.4832,
    "lon": -1.5586,
    "min_velo": 33,
-   "min_voiture": 18,
+   "min_voiture": 13,
    "motif_exclusion": "studio",
    "pieces": null,
    "position": "Biarritz (ville de l'agence)",
@@ -13552,12 +13641,12 @@
    "contexte": "",
    "derniere_vue": "2026-11-04",
    "itineraire_pos": "43.4832,-1.5586",
-   "itineraire_source": "estimation",
+   "itineraire_source": "route",
    "km_hopital": 8.2,
    "lat": 43.4832,
    "lon": -1.5586,
    "min_velo": 33,
-   "min_voiture": 18,
+   "min_voiture": 13,
    "motif_exclusion": "studio",
    "pieces": null,
    "position": "Biarritz (ville de l'agence)",
@@ -13582,12 +13671,12 @@
    "contexte": "",
    "derniere_vue": "2026-11-04",
    "itineraire_pos": "43.4832,-1.5586",
-   "itineraire_source": "estimation",
+   "itineraire_source": "route",
    "km_hopital": 8.2,
    "lat": 43.4832,
    "lon": -1.5586,
    "min_velo": 33,
-   "min_voiture": 18,
+   "min_voiture": 13,
    "motif_exclusion": "studio",
    "pieces": null,
    "position": "Biarritz (ville de l'agence)",
@@ -16215,6 +16304,12 @@
    "agences_ok": 18,
    "date": "2026-11-04",
    "nouveautes": 9
+  },
+  {
+   "actives": 135,
+   "agences_ok": 18,
+   "date": "2026-11-04",
+   "nouveautes": 10
   }
  ]
 }
