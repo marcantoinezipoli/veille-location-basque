@@ -6012,7 +6012,7 @@
   "prix": 1100,
   "statut": "active",
   "surface": 150.0,
-  "titre": "Maison 1 100 €/mois GOGNIES CHAUSSEE (59600) 150 m² • 7 pièces • 3 chambres Surf. terrain : 1691 m²",
+  "titre": "Maison 1 100 €/mois GOGNIES CHAUSSEE (59600) 150 m² • 7 pièces • 3 chambres Surf.…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -6902,6 +6902,27 @@
   "type": "maison",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/paris-09-martyrs-gestion/louer/paris-14/appartement-2-pieces-53015855": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-11-06",
+  "historique_prix": [
+   {
+    "date": "2026-11-06",
+    "prix": 1016
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-11-06",
+  "prix": 1016,
+  "statut": "active",
+  "surface": 27.0,
+  "titre": "Appartement 1 016 €/mois PARIS (75014) 27 m² • 2 pièces • 1 chambre 1 salle d'eau • Meublé",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/paris-09-martyrs-gestion/louer/paris-16/appartement-4-pieces-52973074": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 3,
@@ -7066,7 +7087,7 @@
   "prix": 1020,
   "statut": "active",
   "surface": 24.0,
-  "titre": "Appartement 1 020 €/mois PARIS (75012) 24 m² • 1 pièce • 1 chambre Surface : 24.49 m² • 1 pièce • 1 chbre",
+  "titre": "Appartement 1 020 €/mois PARIS (75012) 24 m² • 1 pièce • 1 chambre Surface : 24.49 m² •…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -8831,7 +8852,7 @@
   "prix": 640,
   "statut": "active",
   "surface": 70.0,
-  "titre": "Maison 640 €/mois ILLE SUR TET (66130) 70 m² • 3 pièces • 2 chambres 1 salle d'eau • Meublé",
+  "titre": "Maison 640 €/mois ILLE SUR TET (66130) 70 m² • 3 pièces • 2 chambres 1 salle d'eau •…",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
