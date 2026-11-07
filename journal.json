@@ -5038,7 +5038,7 @@
   "prix": 884,
   "statut": "active",
   "surface": 25.0,
-  "titre": "Appartement 884 €/mois ORLY (94310) 25 m² • 1 pièce • 1 chambre Surface : 25 m² • 1 pièce • 1 chbre",
+  "titre": "Appartement 884 €/mois ORLY (94310) 25 m² • 1 pièce • 1 chambre Surface : 25 m² • 1…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -6814,6 +6814,27 @@
   "statut": "disparu",
   "surface": 50.0,
   "titre": "Appartement 1 050 €/mois NOISY LE GRAND (93160) 50 m² • 2 pièces • 1 chambre Garage • 1…",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.laforet.com/agence-immobiliere/noisylegrand-gestion/louer/noisy-le-grand/appartement-2-pieces-53017959": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-11-07",
+  "historique_prix": [
+   {
+    "date": "2026-11-07",
+    "prix": 850
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-11-07",
+  "prix": 850,
+  "statut": "active",
+  "surface": 31.0,
+  "titre": "Appartement 850 €/mois NOISY LE GRAND (93160) 31 m² • 2 pièces • 1 chambre Ascenseur • 1 salle d'eau • Meublé • Parking",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
