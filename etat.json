@@ -2783,7 +2783,7 @@
    "classement": "exclu",
    "contexte": "Appartement 2 pièces - 40 m² BAYONNE (64100) 820 € / mois",
    "derniere_vue": "2026-11-08",
-   "ecart_prix_pct": 81,
+   "ecart_prix_pct": 21,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -3769,7 +3769,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 1 239 €/mois CLAMART (92140) 42 m² • 2 pièces • 1 chambre Ascenseur • 1 cave • 1 salle de bain • Balcon En savoir plus Appeler",
    "derniere_vue": "2026-11-05",
-   "ecart_prix_pct": 161,
+   "ecart_prix_pct": 75,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -3810,7 +3810,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 1 427 €/mois ARGELES SUR MER (66700) 156 m² • 5 pièces • 3 chambres Surf. terrain : 118 m² • Terrasse • 1 salle de bain • 1 salle d'eau En savoir plus Appeler",
    "derniere_vue": "2026-11-06",
-   "ecart_prix_pct": -19,
+   "ecart_prix_pct": -46,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -3849,7 +3849,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 1 300 €/mois ARGENTEUIL (95100) 65 m² • 3 pièces • 2 chambres Surface : 65 m² • 3 pièces • 2 chbres En savoir plus Appeler",
    "derniere_vue": "2026-11-07",
-   "ecart_prix_pct": 77,
+   "ecart_prix_pct": 18,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -4629,7 +4629,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Appartement 1 990 €/mois BORDEAUX (33800) 76 m² • 5 pièces • 4 chambres 4 salles d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-05",
-   "ecart_prix_pct": 132,
+   "ecart_prix_pct": 55,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -4954,7 +4954,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 1 160 €/mois CANNES (06400) 55 m² • 2 pièces • 1 chambre Accès handicapé • Ascenseur • 1 cave • 1 salle d'eau En savoir plus Appeler",
    "derniere_vue": "2026-11-06",
-   "ecart_prix_pct": 87,
+   "ecart_prix_pct": 25,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -5267,7 +5267,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 884 €/mois ORLY (94310) 25 m² • 1 pièce • 1 chambre Surface : 25 m² • 1 pièce • 1 chbre En savoir plus Appeler",
    "derniere_vue": "2026-11-08",
-   "ecart_prix_pct": 213,
+   "ecart_prix_pct": 109,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -5292,7 +5292,7 @@
    "score": 2,
    "statut": "active",
    "surface": 25.0,
-   "titre": "Appartement 884 €/mois ORLY (94310) 25 m² • 1 pièce • 1 chambre Surface : 25 m² • 1 pièce • 1 chbre",
+   "titre": "Appartement 884 €/mois ORLY (94310) 25 m² • 1 pièce • 1 chambre Surface : 25 m² • 1…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/creteil/louer/orly/appartement-1-piece-53017910",
    "ville_agence": "Bayonne"
@@ -6297,7 +6297,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 1 100 €/mois GOGNIES CHAUSSEE (59600) 150 m² • 7 pièces • 3 chambres Surf. terrain : 1691 m² En savoir plus Appeler",
    "derniere_vue": "2026-11-06",
-   "ecart_prix_pct": -35,
+   "ecart_prix_pct": -57,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -6338,7 +6338,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Appartement 690 €/mois MAUBEUGE (59600) 70 m² • 4 pièces • 2 chambres 1 cave • 1 salle de bain En savoir plus Appeler",
    "derniere_vue": "2026-11-06",
-   "ecart_prix_pct": -12,
+   "ecart_prix_pct": -41,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -6536,8 +6536,8 @@
    "classement": "exclu",
    "contexte": "0 / 0 Appartement 425 €/mois MONTAUBAN (82000) 27 m² • 2 pièces • 1 chambre Ascenseur • 1 salle d'eau En savoir plus Appeler",
    "derniere_vue": "2026-11-05",
-   "ecart_prix_pct": 39,
-   "etiquette_prix": "au-dessus du marché",
+   "ecart_prix_pct": -7,
+   "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
      "date": "2026-11-05",
@@ -6617,7 +6617,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Appartement 1 056 €/mois THIAIS (94320) 52 m² • 3 pièces • 1 chambre 1 cave • 1 salle d'eau • Parking En savoir plus Appeler",
    "derniere_vue": "2026-11-05",
-   "ecart_prix_pct": 80,
+   "ecart_prix_pct": 20,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -6979,7 +6979,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 850 €/mois NOISY LE GRAND (93160) 31 m² • 2 pièces • 1 chambre Ascenseur • 1 salle d'eau • Meublé • Parking En savoir plus Appeler",
    "derniere_vue": "2026-11-08",
-   "ecart_prix_pct": 142,
+   "ecart_prix_pct": 62,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7004,7 +7004,7 @@
    "score": 5,
    "statut": "active",
    "surface": 31.0,
-   "titre": "Appartement 850 €/mois NOISY LE GRAND (93160) 31 m² • 2 pièces • 1 chambre Ascenseur • 1 salle d'eau • Meublé • Parking",
+   "titre": "Appartement 850 €/mois NOISY LE GRAND (93160) 31 m² • 2 pièces • 1 chambre Ascenseur •…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/noisylegrand-gestion/louer/noisy-le-grand/appartement-2-pieces-53017959",
    "ville_agence": "Bayonne"
@@ -7100,7 +7100,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 1 016 €/mois PARIS (75014) 27 m² • 2 pièces • 1 chambre 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-06",
-   "ecart_prix_pct": 233,
+   "ecart_prix_pct": 122,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7254,7 +7254,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 1 020 €/mois PARIS (75012) 24 m² • 1 pièce • 1 chambre Surface : 24.49 m² • 1 pièce • 1 chbre En savoir plus Appeler",
    "derniere_vue": "2026-11-06",
-   "ecart_prix_pct": 276,
+   "ecart_prix_pct": 151,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7294,7 +7294,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Maison 1 830 €/mois PARIS (75013) 57 m² • 4 pièces • 2 chambres 1 cave • 1 salle de bain • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-07",
-   "ecart_prix_pct": 184,
+   "ecart_prix_pct": 90,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7458,7 +7458,7 @@
    "classement": "exclu",
    "contexte": "1 / 12 Appartement 445 €/mois BILLERE (64140) 21 m² • 1 pièce • 1 chambre 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-08",
-   "ecart_prix_pct": 88,
+   "ecart_prix_pct": 25,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7537,8 +7537,8 @@
    "classement": "exclu",
    "contexte": "1 / 5 Appartement 595 €/mois PAU (64000) 34 m² • 1 pièce Terrasse • Ascenseur • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-08",
-   "ecart_prix_pct": 55,
-   "etiquette_prix": "au-dessus du marché",
+   "ecart_prix_pct": 4,
+   "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
      "date": "2026-09-29",
@@ -7583,7 +7583,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Appartement 590 €/mois PAU (64000) 25 m² • 1 pièce Ascenseur • 1 salle d'eau • Balcon • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-08",
-   "ecart_prix_pct": 98,
+   "ecart_prix_pct": 33,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7628,8 +7628,8 @@
    "classement": "exclu",
    "contexte": "1 / 8 Appartement 798 €/mois PAU (64000) 45 m² • 2 pièces • 1 chambre Terrasse • Ascenseur • 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-08",
-   "ecart_prix_pct": 57,
-   "etiquette_prix": "au-dessus du marché",
+   "ecart_prix_pct": 5,
+   "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
      "date": "2026-10-13",
@@ -7669,8 +7669,8 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 15 Appartement 650 €/mois PAU (64000) 51 m² • 2 pièces • 1 chambre Terrasse • 1 salle d'eau • Balcon En savoir plus Appeler",
    "derniere_vue": "2026-11-08",
-   "ecart_prix_pct": 12,
-   "etiquette_prix": "dans le marché",
+   "ecart_prix_pct": -25,
+   "etiquette_prix": "bon prix",
    "historique_prix": [
     {
      "date": "2026-10-22",
@@ -7710,8 +7710,8 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 750 €/mois PAU (64000) 55 m² • 3 pièces • 2 chambres 1 cave • 1 salle d'eau • Balcon • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-08",
-   "ecart_prix_pct": 20,
-   "etiquette_prix": "au-dessus du marché",
+   "ecart_prix_pct": -20,
+   "etiquette_prix": "bon prix",
    "historique_prix": [
     {
      "date": "2026-09-15",
@@ -7753,8 +7753,8 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 16 Appartement 1 300 €/mois PAU (64000) 76 m² • 3 pièces • 2 chambres Terrasse • Ascenseur • Garage • 1 salle d'eau En savoir plus Appeler",
    "derniere_vue": "2026-11-08",
-   "ecart_prix_pct": 51,
-   "etiquette_prix": "au-dessus du marché",
+   "ecart_prix_pct": 1,
+   "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
      "date": "2026-09-21",
@@ -7795,8 +7795,8 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 10 Appartement 795 €/mois PAU (64000) 64 m² • 3 pièces • 2 chambres Ascenseur • Garage • 1 salle d'eau • Balcon En savoir plus Appeler",
    "derniere_vue": "2026-11-08",
-   "ecart_prix_pct": 10,
-   "etiquette_prix": "dans le marché",
+   "ecart_prix_pct": -27,
+   "etiquette_prix": "bon prix",
    "historique_prix": [
     {
      "date": "2026-10-30",
@@ -7837,7 +7837,7 @@
    "classement": "exclu",
    "contexte": "1 / 10 Appartement 1 100 €/mois PAU (64000) 110 m² • 4 pièces • 3 chambres Sous-sol • 1 cave • 1 salle de bain • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-08",
-   "ecart_prix_pct": -12,
+   "ecart_prix_pct": -41,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -8292,8 +8292,8 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 650 €/mois EPERNAY (51200) 42 m² • 2 pièces • 1 chambre 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-07",
-   "ecart_prix_pct": 37,
-   "etiquette_prix": "au-dessus du marché",
+   "ecart_prix_pct": -8,
+   "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
      "date": "2026-11-07",
@@ -8331,8 +8331,8 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 500 €/mois EPERNAY (51200) 40 m² • 2 pièces • 1 chambre 1 salle de bain En savoir plus Appeler",
    "derniere_vue": "2026-11-08",
-   "ecart_prix_pct": 11,
-   "etiquette_prix": "dans le marché",
+   "ecart_prix_pct": -26,
+   "etiquette_prix": "bon prix",
    "historique_prix": [
     {
      "date": "2026-11-07",
@@ -8487,7 +8487,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 826 €/mois SAINT MAUR DES FOSSES (94210) 34 m² • 1 pièce • 1 chambre 1 salle d'eau • Parking En savoir plus Appeler",
    "derniere_vue": "2026-11-05",
-   "ecart_prix_pct": 115,
+   "ecart_prix_pct": 44,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -9465,7 +9465,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Maison 640 €/mois ILLE SUR TET (66130) 70 m² • 3 pièces • 2 chambres 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-06",
-   "ecart_prix_pct": -19,
+   "ecart_prix_pct": -46,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -10110,8 +10110,8 @@
    "derniere_vue": "2026-11-05",
    "description": "Location Bayonne : Grand et magnifique T2 neuf 55 m² à BAYONNE. Appartement 2 pièce(s) 1 chambre(s) 55.45 m² Agence immobilière à Anglet Location Bayonne Appartement Isabelle LAVIELLE Négociatrice Appeler l'agent Contacter l'agent Contacter l'agent Retour aux résultats Télécharger la fiche Partager ce bien Coup de coeur Afficher toutes les photos Appartement 2 pièce(s) 1 chambre(s) 55.45 m² Bayonne (64100) 935 € CC* * Charges comprises Référence 2381 A propos de ce bien Administrateurs de biens immobiliers, nous proposons à la location un très bel appartement T2 de 54.45 m² au 4ème étage d'une résidence neuve ouvrant sur belle terrasse disponible mi-novembre 2026. Cette résidence est idéalement située à l'entrée de BAYONNE accessible à pied ou en transports, à quelques minutes seulement de l'accès autoroute sis au centre commercial AMETZONDO / IKEA, les commerces de SAINT PIERRE D'IRUBE étant accessibles à pied. Il se compose d'une entrée sur dégagement avec placard desservant un séjour avec cuisine aménagée, d'une chambre avec placard, d'un cellier, d'une salle d'eau et d'un wc séparé. L'appartement bénéficie d'un emplacement de parking privatif dans le sous-sol sécurisé de la rés",
    "dpe": null,
-   "ecart_prix_pct": 50,
-   "etiquette_prix": "au-dessus du marché",
+   "ecart_prix_pct": 0,
+   "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
     {
@@ -10413,8 +10413,8 @@
    "derniere_vue": "2026-11-05",
    "description": "Ã? louer Ã l'annÃ©e T2 Bis plein de charme au coeur de Biarri Biarritz Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Biarritz 1310 € Ã? louer Ã l'annÃ©e T2 Bis plein de charme au coeur de Biarri à louer de 2 pièce(s) sur 72 m² Retour au listing Points clés... 2 pièce(s) , 72 m² 1 chambre(s) 1 salle(s) de bains Ref. 2154-1688 Descriptif du bien • Ã? louer Ã l'annÃ©e T2 Bis plein de charme au coeur de Biarri À louer à l\\'année T2 Bis plein de charme au coeur de Biarritz À seulement quelques pas des Halles, cet appartement de 70 m2 séduit par son cachet authentique et son emplacement idéal. Son parquet ancien, ses cheminées décoratives et sa belle hauteur sous plafond lui confèrent une atmosphère chaleureuse et élégante. L\\'espace de vie est agréable et lumineux, avec un séjour convivial qui s\\'ouvre sur un bureau pouvant également servir de second coin nuit. La chambre principale offre un espace confortable et intimiste. La cuisine rénovée et semi-équipée (plaques et hotte) allie modernité et praticité, tandis que la salle d\\'eau, récemment refaite à neuf, apporte une touche contemporaine et fonctionnelle. U",
    "dpe": "D",
-   "ecart_prix_pct": 61,
-   "etiquette_prix": "au-dessus du marché",
+   "ecart_prix_pct": 8,
+   "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
     {
@@ -10790,8 +10790,8 @@
    "derniere_vue": "2026-11-08",
    "description": "Appartement 4 piÃ¨ces RUE THIERS BAYONNE Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 1293 € Appartement 4 piÃ¨ces RUE THIERS BAYONNE à louer de 4 pièce(s) sur 112 m² Retour au listing Points clés... 4 pièce(s) , 112 m² 3 chambre(s) 1 salle(s) de bains Ref. B2798002 Descriptif du bien • Appartement 4 piÃ¨ces RUE THIERS BAYONNE Venez découvrir ce charmant T4 de 112.41m2 en plein coeur de ville. Situé rue Thiers au 2ème étage avec ascenseur. Cet appartement comprend, une entrée avec grand placard, une cuisine séparée aménagée avec plaques, hotte et évier. Trois chambres, un w.c séparé, une salle de bain avec w.c. Le bien dispose d\\'un beau séjour lumineux offrant une vue dégagée sur la places Jacques Portes à BAYONNE. Vous serez séduits par les parquets d\\'origine et les belles ouvertures du séjour. A proximité: la mairie, les écoles, tous commerces et transports. Manoir de France: 05.59.59.66.33 NoB2798002 BAYONNE Appartement Nombre de pièces : 4 Surface habitable : 112.41m2 DPE : C ZONE SOUMISE A ENCADREMENT DES LOYERS LOYER CC / mois : 1293.79EUR par mois charges comprises Loyer de base :",
    "dpe": "C",
-   "ecart_prix_pct": 2,
-   "etiquette_prix": "dans le marché",
+   "ecart_prix_pct": -32,
+   "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
     {
@@ -10856,7 +10856,7 @@
    "derniere_vue": "2026-11-08",
    "description": "Appartement 90m2 BAYONNE - LOGEMENT ETUDIANT UNIQUEMENT Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 785 € Appartement 90m2 BAYONNE - LOGEMENT ETUDIANT UNIQUEMENT à louer de 2 pièce(s) sur 90 m² Retour au listing Points clés... 2 pièce(s) , 90 m² 1 salle(s) de bains Ref. 2105 Descriptif du bien • Appartement 90m2 BAYONNE - LOGEMENT ETUDIANT UNIQUEMENT LOGEMENT ETUDIANT DE SEPTEMBRE 2026 A JUIN 2027 Beaucoup de charme et de cachet pour ce grand T2 Bis meublé sis rue des basques en plein coeur du centre ville de Bayonne. A 2 pas des halles, des bords de Nive, ce logement de 90 m2 offre un très beau volume : Vaste séjour, cuisine ouverte meublée et équipée. Une salle d\\'eau équipée d\\'une grande douche, WC séparés. Une chambre et une pièce attenante, un grand dressing au calme coté escalier; Une cave compléte cette location. No2105000 BAYONNE Disponible SEPTEMBRE 2026 à JUIN 2027 Manoir de France: 05.59.59.66.33 Appartement. Nombre de pièces : T2 bis Surface habitable :90.00M2 LOYER CC / mois : 785.28EUR dont 39EUR de provision sur charges soumis à régularisation annuelle et 27EUR de Box Inte",
    "dpe": null,
-   "ecart_prix_pct": -23,
+   "ecart_prix_pct": -49,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -10922,8 +10922,8 @@
    "derniere_vue": "2026-11-08",
    "description": "BAYONNE QUARTIER DES ARENES - T4 A LOUER VIDE Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 1167 € BAYONNE QUARTIER DES ARENES - T4 A LOUER VIDE à louer de 4 pièce(s) sur 108 m² Retour au listing Points clés... 4 pièce(s) , 108 m² 3 chambre(s) 1 salle(s) de bains Ref. B1156030 Descriptif du bien • BAYONNE QUARTIER DES ARENES - T4 A LOUER VIDE Idéalement situé Avenue Foch, dans le quartier prisé des Arènes à Bayonne, ce T4 de 108,58 m2 séduit dès l\\'entrée par son cachet et sa luminosité exceptionnelle. Les volumes généreux, la hauteur sous plafond et les détails d\\'époque confèrent à cet appartement une atmosphère unique. Il offre un double séjour accueillant, une cuisine séparée, trois chambres confortables, un dressing, une salle de bain et des toilettes séparés. Côté extérieur, un balcon longe tout l\\'appartement et permet de profiter d\\'un ensoleillement optimal. DISPONIBILITE IMMEDIATE Manoir de France: 05.59.59.66.33 NoB1156030 BAYONNE Appartement Nombre de pièces : 4 Surface habitable : 108.58 m2 DPE : E ZONE SOUMISE A ENCADREMENT DES LOYERS LOYER CC / mois : 1167.62 EUR par mois don",
    "dpe": "E",
-   "ecart_prix_pct": -4,
-   "etiquette_prix": "dans le marché",
+   "ecart_prix_pct": -36,
+   "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
     {
@@ -11120,7 +11120,7 @@
    "classement": "exclu",
    "contexte": "Maison Mouguerre Maison Mouguerre Mouguerre | 64990 1700 € | 207 m² | Réf B2924000",
    "derniere_vue": "2026-11-08",
-   "ecart_prix_pct": -32,
+   "ecart_prix_pct": -54,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -11204,8 +11204,8 @@
    "classement": "exclu",
    "contexte": "Maison Urcuit Maison Urcuit Urcuit | 64990 1260 € | 87 m² | Réf B3030000",
    "derniere_vue": "2026-11-08",
-   "ecart_prix_pct": 28,
-   "etiquette_prix": "au-dessus du marché",
+   "ecart_prix_pct": -14,
+   "etiquette_prix": "bon prix",
    "historique_prix": [
     {
      "date": "2026-09-04",
@@ -11244,8 +11244,8 @@
    "classement": "exclu",
    "contexte": "Maison Mouguerre Maison Mouguerre Mouguerre | 64990 1390 € | 123 m² | Réf B297500SO",
    "derniere_vue": "2026-11-08",
-   "ecart_prix_pct": 0,
-   "etiquette_prix": "dans le marché",
+   "ecart_prix_pct": -33,
+   "etiquette_prix": "bon prix",
    "historique_prix": [
     {
      "date": "2026-10-16",
@@ -11284,7 +11284,7 @@
    "classement": "exclu",
    "contexte": "Maison Saint-pierre-d'irube Maison Saint-pierre-d'irube Saint-Pierre-d'Irube | 64990 1700 € | 189 m² | Réf 3041000",
    "derniere_vue": "2026-11-08",
-   "ecart_prix_pct": -20,
+   "ecart_prix_pct": -47,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -14078,6 +14078,12 @@
    "agences_ok": 18,
    "date": "2026-11-07",
    "nouveautes": 8
+  },
+  {
+   "actives": 102,
+   "agences_ok": 18,
+   "date": "2026-11-08",
+   "nouveautes": 7
   },
   {
    "actives": 102,
