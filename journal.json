@@ -2645,6 +2645,17 @@
   "type": "appartement",
   "ville_agence": "Biarritz"
  },
+ "https://www.century21.fr/trouver_logement/detail/17082493697": {
+  "agence": "Century 21 (Bayonne, toutes agences)",
+  "classement": "exclu",
+  "derniere_vue": "2026-11-10",
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-11-10",
+  "statut": "active",
+  "titre": "Exclusivité BENESSE MAREMNE 40 985 € par mois charges comprises 85,8 m2 , maison , 4 pcs",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
  "https://www.century21.fr/trouver_logement/detail/17114047743": {
   "agence": "Century 21 (Bidart, toutes agences)",
   "chambres": 3,
@@ -7908,6 +7919,27 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.laforet.com/agence-immobiliere/pau/louer/pau/maison-4-pieces-52239903": {
+  "agence": "Laforêt (64, maisons)",
+  "chambres": 3,
+  "classement": "exclu",
+  "derniere_vue": "2026-11-10",
+  "historique_prix": [
+   {
+    "date": "2026-11-10",
+    "prix": 1375
+   }
+  ],
+  "pieces": 4,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-11-10",
+  "prix": 1375,
+  "statut": "active",
+  "surface": 82.0,
+  "titre": "Maison 1 375 €/mois PAU (64000) 82 m² • 4 pièces • 3 chambres Terrasse • Garage • 2 salles d'eau",
+  "type": "maison",
+  "ville_agence": "Bayonne"
+ },
  "https://www.laforet.com/agence-immobiliere/pau/louer/pau/maison-6-pieces-52917174": {
   "agence": "Laforêt (64, maisons)",
   "chambres": 4,
@@ -10434,6 +10466,27 @@
   "statut": "active",
   "surface": 108.0,
   "titre": "Appartement Bayonne",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.manoirdefrance.fr/location,appartement-bel-appartement-t3-bayonne-marAchal-soult,290": {
+  "agence": "Manoir de France",
+  "classement": "exclu",
+  "derniere_vue": "2026-11-10",
+  "dpe": "F",
+  "historique_prix": [
+   {
+    "date": "2026-11-10",
+    "prix": 916
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-11-10",
+  "prix": 916,
+  "statut": "active",
+  "surface": 68.0,
+  "titre": "Appartement Bayonne Appartement Bayonne Bayonne | 64100 916 € | 68 m² | Réf 290",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
