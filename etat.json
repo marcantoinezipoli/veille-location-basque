@@ -9928,7 +9928,7 @@
    "score": 2,
    "statut": "active",
    "surface": 32.24,
-   "titre": "Exclusivité Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 32.24 m² Bayonne (64100) 657 € CC*",
+   "titre": "Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 32.24 m² Bayonne (64100) 657 € CC*",
    "type": "appartement",
    "url": "https://www.lelogisbasque.fr/location/79-bayonne/appartement/2374-superbe-t2-renove-dans-une-magnifique-maison-basque-divisee-en-appartements",
    "ville_agence": "Bayonne"
@@ -14095,6 +14095,12 @@
    "agences_ok": 18,
    "date": "2026-11-12",
    "nouveautes": 14
+  },
+  {
+   "actives": 99,
+   "agences_ok": 18,
+   "date": "2026-11-12",
+   "nouveautes": 8
   }
  ]
 }
