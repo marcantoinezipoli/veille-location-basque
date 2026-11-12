@@ -892,6 +892,28 @@
   "type": "appartement",
   "ville_agence": "Bidart"
  },
+ "https://nestenn.com/location/appartement/a-louer-saint-vincent-de-tyrosse-appartement-rdc-2-chambres-jardinet-gararge-ref-39808775": {
+  "agence": "Nestenn (Bidart)",
+  "chambres": 2,
+  "classement": "match",
+  "derniere_vue": "2026-11-12",
+  "dpe": "C",
+  "historique_prix": [
+   {
+    "date": "2026-11-12",
+    "prix": 880
+   }
+  ],
+  "pieces": 3,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-11-12",
+  "prix": 880,
+  "statut": "active",
+  "surface": 70.0,
+  "titre": "A louer, Saint-Vincent-de-Tyrosse, Appartement RDC, 2 chambres, jardinet , gararge",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
  "https://nestenn.com/location/appartement/appartement-a-louer-dax-proche-centre-ville-t2-meuble-balcon-parking-ref-39777734": {
   "agence": "Nestenn (Bidart)",
   "chambres": 1,
@@ -1710,11 +1732,15 @@
    {
     "date": "2026-09-04",
     "prix": 675
+   },
+   {
+    "date": "2026-11-12",
+    "prix": 755
    }
   ],
   "position": "Anglet (ville de l'agence)",
   "premiere_vue": "2026-09-04",
-  "prix": 675,
+  "prix": 755,
   "statut": "active",
   "titre": "Local commercial",
   "ville_agence": "Anglet"
@@ -9567,7 +9593,7 @@
   "prix": 701,
   "statut": "active",
   "surface": 42.5,
-  "titre": "Nouveauté Appartement 2 pièce(s) 1 chambre(s) 42.5 m² Ciboure (64500) 701 € CC*",
+  "titre": "Appartement 2 pièce(s) 1 chambre(s) 42.5 m² Ciboure (64500) 701 € CC*",
   "type": "appartement",
   "ville_agence": "Anglet"
  },
@@ -9949,6 +9975,27 @@
   "statut": "disparu",
   "surface": 55.45,
   "titre": "Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 55.45 m² Bayonne (64100) 935 € CC*",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.lelogisbasque.fr/location/79-bayonne/appartement/2374-superbe-t2-renove-dans-une-magnifique-maison-basque-divisee-en-appartements": {
+  "agence": "Le Logis Basque",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-11-12",
+  "historique_prix": [
+   {
+    "date": "2026-11-12",
+    "prix": 657
+   }
+  ],
+  "pieces": 2,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-11-12",
+  "prix": 657,
+  "statut": "active",
+  "surface": 32.24,
+  "titre": "Exclusivité Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 32.24 m² Bayonne (64100) 657 € CC*",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -10994,6 +11041,25 @@
   "type": "appartement",
   "ville_agence": "Anglet"
  },
+ "https://www.orpi.com/annonce-location-appartement-t1-anglet-64600-9058a702-ca68-46e2-bba1-ae5c1932a9f5": {
+  "agence": "Orpi Agence des 5 Cantons",
+  "classement": "exclu",
+  "derniere_vue": "2026-11-12",
+  "historique_prix": [
+   {
+    "date": "2026-11-12",
+    "prix": 600
+   }
+  ],
+  "pieces": 1,
+  "position": "quartier Chambre D'Amour",
+  "premiere_vue": "2026-11-12",
+  "prix": 600,
+  "statut": "active",
+  "titre": "Location Appartement 1 pièce 26,56 m2 Anglet - Chambre d'Amour",
+  "type": "appartement",
+  "ville_agence": "Anglet"
+ },
  "https://www.orpi.com/annonce-location-appartement-t1-anglet-64600-9058a702-ca68-46e2-bba1-ae5c1932a9f5?agency=ag5cantons": {
   "agence": "Orpi Agence des 5 Cantons",
   "classement": "exclu",
@@ -11117,6 +11183,28 @@
   "type": "appartement",
   "ville_agence": "Anglet"
  },
+ "https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-d535426d-0995-4292-93f9-2d63404b8f32": {
+  "agence": "Orpi Agence des 5 Cantons",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-11-12",
+  "dpe": "A",
+  "historique_prix": [
+   {
+    "date": "2026-11-12",
+    "prix": 685
+   }
+  ],
+  "pieces": 2,
+  "position": "quartier Chambre D'Amour",
+  "premiere_vue": "2026-11-12",
+  "prix": 685,
+  "statut": "active",
+  "surface": 42.0,
+  "titre": "Location Appartement 2 pièces 42 m2 Anglet - Chambre d'Amour",
+  "type": "appartement",
+  "ville_agence": "Anglet"
+ },
  "https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-d535426d-0995-4292-93f9-2d63404b8f32?agency=ag5cantons": {
   "agence": "Orpi Agence des 5 Cantons",
   "chambres": 1,
@@ -11136,6 +11224,28 @@
   "statut": "active",
   "surface": 42.0,
   "titre": "Location Appartement 2 pièces 42 m2 Anglet - Chambre d'Amour",
+  "type": "appartement",
+  "ville_agence": "Anglet"
+ },
+ "https://www.orpi.com/annonce-location-appartement-t2-anglet-64600-fdaf9677-c4f3-4903-9e4f-160872608d4d": {
+  "agence": "Orpi Agence des 5 Cantons",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-11-12",
+  "dpe": "A",
+  "historique_prix": [
+   {
+    "date": "2026-11-12",
+    "prix": 667
+   }
+  ],
+  "pieces": 2,
+  "position": "quartier Chambre D'Amour",
+  "premiere_vue": "2026-11-12",
+  "prix": 667,
+  "statut": "active",
+  "surface": 46.41,
+  "titre": "Location Appartement 2 pièces 46,41 m2 Anglet - Chambre d'Amour",
   "type": "appartement",
   "ville_agence": "Anglet"
  },
@@ -11199,6 +11309,27 @@
   "statut": "disparu",
   "surface": 85.28,
   "titre": "Location Appartement 3 pièces 85,28 m2 Anglet - Hardoy",
+  "type": "appartement",
+  "ville_agence": "Anglet"
+ },
+ "https://www.orpi.com/annonce-location-appartement-t3-anglet-64600-4fcaa5e4-2a6d-4bfb-bd72-4eb5c3f735bc": {
+  "agence": "Orpi Agence des 5 Cantons",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-11-12",
+  "historique_prix": [
+   {
+    "date": "2026-11-12",
+    "prix": 1210
+   }
+  ],
+  "pieces": 3,
+  "position": "quartier Montbrun",
+  "premiere_vue": "2026-11-12",
+  "prix": 1210,
+  "statut": "active",
+  "surface": 70.0,
+  "titre": "Appartement à louer 3 pièces • Anglet",
   "type": "appartement",
   "ville_agence": "Anglet"
  },
