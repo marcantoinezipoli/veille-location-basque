@@ -2692,7 +2692,7 @@
  "https://www.century21.fr/trouver_logement/detail/17081241430": {
   "agence": "Century 21 (Biarritz, toutes agences)",
   "classement": "exclu",
-  "derniere_vue": "2026-11-10",
+  "derniere_vue": "2026-11-13",
   "position": "Biarritz (ville de l'agence)",
   "premiere_vue": "2026-11-09",
   "statut": "active",
@@ -11709,6 +11709,18 @@
   "titre": "Studio à louer - ANGLET",
   "ville_agence": "Anglet"
  },
+ "https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/bassussarry/169033cf-6603-44f0-b0b9-ef54ad5c9790": {
+  "agence": "Square Habitat Bidart",
+  "classement": "exclu",
+  "derniere_vue": "2026-11-13",
+  "pieces": 3,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-11-13",
+  "statut": "active",
+  "titre": "Appartement à louer - BASSUSSARRY, 3 pièces",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
  "https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/bayonne/3c6174ef-50ea-498a-b7ff-bd7d5792cea6": {
   "agence": "Square Habitat Bidart",
   "classement": "exclu",
@@ -11821,6 +11833,27 @@
   "statut": "active",
   "surface": 57.36,
   "titre": "Location appartement 3 pièces - 57.36m² à Biarritz (64200)",
+  "type": "appartement",
+  "ville_agence": "Biarritz"
+ },
+ "https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/biarritz/dd362ce1-df38-4eca-8405-d4f4eb6780f7": {
+  "agence": "Square Habitat Bidart",
+  "classement": "match",
+  "derniere_vue": "2026-11-13",
+  "dpe": "C",
+  "historique_prix": [
+   {
+    "date": "2026-11-13",
+    "prix": 300
+   }
+  ],
+  "pieces": 3,
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-11-13",
+  "prix": 300,
+  "statut": "active",
+  "surface": 88.9,
+  "titre": "Location appartement 3 pièces - 88.9m² à Biarritz (64200)",
   "type": "appartement",
   "ville_agence": "Biarritz"
  },
