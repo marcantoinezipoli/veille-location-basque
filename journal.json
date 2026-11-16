@@ -2722,6 +2722,27 @@
   "type": "maison",
   "ville_agence": "Bayonne"
  },
+ "https://www.century21.fr/trouver_logement/detail/17103977358": {
+  "agence": "Century 21 (Bidart, toutes agences)",
+  "chambres": 3,
+  "classement": "match",
+  "derniere_vue": "2026-11-16",
+  "historique_prix": [
+   {
+    "date": "2026-11-16",
+    "prix": 1814
+   }
+  ],
+  "pieces": 4,
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-11-16",
+  "prix": 1814,
+  "statut": "active",
+  "surface": 124.0,
+  "titre": "Exclusivité BIARRITZ 64 1 814 € par mois charges comprises 124,1 m2 , appartement , 4 pcs",
+  "type": "appartement",
+  "ville_agence": "Biarritz"
+ },
  "https://www.century21.fr/trouver_logement/detail/17114047743": {
   "agence": "Century 21 (Bidart, toutes agences)",
   "chambres": 3,
@@ -2742,6 +2763,17 @@
   "titre": "ANGLET 64 1 600 € par mois charges comprises 109 m2 , maison , 4 pcs",
   "type": "maison",
   "ville_agence": "Anglet"
+ },
+ "https://www.century21.fr/trouver_logement/detail/17140426525": {
+  "agence": "Century 21 (Bayonne, toutes agences)",
+  "classement": "exclu",
+  "derniere_vue": "2026-11-16",
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-11-16",
+  "statut": "active",
+  "titre": "Exclusivité CAMBO LES BAINS 64 836 € par mois charges comprises 66,2 m2 , appartement , 3 pcs",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
  },
  "https://www.century21agencenivadour-bayonne.com/trouver_logement/detail/15635506173": {
   "agence": "Century 21 Agence Nivadour",
@@ -9568,7 +9600,7 @@
   "agence": "Le Logis Basque",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-11-08",
+  "derniere_vue": "2026-11-16",
   "historique_prix": [
    {
     "date": "2026-10-09",
@@ -9579,7 +9611,7 @@
   "position": "Anglet (ville de l'agence)",
   "premiere_vue": "2026-10-09",
   "prix": 1010,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 30.06,
   "titre": "Appartement 2 pièce(s) 1 chambre(s) 30.06 m² Anglet (64600) 1 010 € CC*",
   "type": "appartement",
