@@ -2743,6 +2743,24 @@
   "type": "appartement",
   "ville_agence": "Biarritz"
  },
+ "https://www.century21.fr/trouver_logement/detail/17114045854": {
+  "agence": "Century 21 (Biarritz, toutes agences)",
+  "classement": "exclu",
+  "derniere_vue": "2026-11-17",
+  "historique_prix": [
+   {
+    "date": "2026-11-17",
+    "prix": 1200
+   }
+  ],
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-11-17",
+  "prix": 1200,
+  "statut": "active",
+  "titre": "Exclusivité URRUGNE 64 1 200 € par mois charges comprises 88,8 m2 , appartement , 6 pcs",
+  "type": "appartement",
+  "ville_agence": "Biarritz"
+ },
  "https://www.century21.fr/trouver_logement/detail/17114047743": {
   "agence": "Century 21 (Bidart, toutes agences)",
   "chambres": 3,
@@ -3007,7 +3025,7 @@
  "https://www.human-immobilier.fr/annonce-location-appartement-st-vincent-de-tyrosse_20-553": {
   "agence": "Human Immobilier Anglet",
   "classement": "exclu",
-  "derniere_vue": "2026-11-11",
+  "derniere_vue": "2026-11-17",
   "historique_prix": [
    {
     "date": "2026-11-04",
@@ -3018,7 +3036,7 @@
   "position": "Anglet (ville de l'agence)",
   "premiere_vue": "2026-11-04",
   "prix": 592,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 34.0,
   "titre": "Appartement 1 pièce - 34 m² ST VINCENT DE TYROSSE (40230) 592 € / mois",
   "type": "appartement",
@@ -3224,7 +3242,7 @@
  "https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1/prix": {
   "agence": "Aturri Immobilier",
   "classement": "exclu",
-  "derniere_vue": "2026-11-16",
+  "derniere_vue": "2026-11-17",
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-10-13",
   "statut": "active",
@@ -3234,7 +3252,7 @@
  "https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1/types_biens": {
   "agence": "Aturri Immobilier",
   "classement": "exclu",
-  "derniere_vue": "2026-11-16",
+  "derniere_vue": "2026-11-17",
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-10-13",
   "statut": "active",
@@ -3244,7 +3262,7 @@
  "https://www.immobilier-bayonne-aturri.com/location-pays-basque-64/21/1/ville": {
   "agence": "Aturri Immobilier",
   "classement": "exclu",
-  "derniere_vue": "2026-11-16",
+  "derniere_vue": "2026-11-17",
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-10-13",
   "statut": "active",
@@ -3503,6 +3521,27 @@
   "statut": "disparu",
   "surface": 41.0,
   "titre": "Appartement 746 €/mois ANGLET (64600) 41 m² • 2 pièces • 1 chambre Surface : 40.94 m² •…",
+  "type": "appartement",
+  "ville_agence": "Anglet"
+ },
+ "https://www.laforet.com/agence-immobiliere/anglet/louer/anglet/appartement-2-pieces-53012454": {
+  "agence": "Laforêt (64, appartements)",
+  "chambres": 1,
+  "classement": "match",
+  "derniere_vue": "2026-11-17",
+  "historique_prix": [
+   {
+    "date": "2026-11-17",
+    "prix": 873
+   }
+  ],
+  "pieces": 2,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-11-17",
+  "prix": 873,
+  "statut": "active",
+  "surface": 59.0,
+  "titre": "Appartement 873 €/mois ANGLET (64600) 59 m² • 2 pièces • 1 chambre Terrasse • Ascenseur • 1 salle de bain • Parking",
   "type": "appartement",
   "ville_agence": "Anglet"
  },
