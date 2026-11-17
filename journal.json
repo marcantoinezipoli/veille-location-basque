@@ -1447,6 +1447,26 @@
   "type": "duplex",
   "ville_agence": "Anglet"
  },
+ "https://www.agence-benquet.com/appartement-maison/anglet-quartier-larochefoucauld-t2": {
+  "agence": "Agence Benquet",
+  "classement": "exclu",
+  "derniere_vue": "2026-11-17",
+  "historique_prix": [
+   {
+    "date": "2026-11-17",
+    "prix": 915
+   }
+  ],
+  "pieces": 2,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-11-17",
+  "prix": 915,
+  "statut": "active",
+  "surface": 46.1,
+  "titre": "ANGLET – QUARTIER LAROCHEFOUCAULD – APPARTEMENT T2 MEUBLÉ AVEC TERRASSE, PARKING ET CAVE",
+  "type": "appartement",
+  "ville_agence": "Anglet"
+ },
  "https://www.agence-benquet.com/appartement-maison/arcangues-maison-familiale-avec-piscine-prestations-de-standing-et-cadre-verdoyant": {
   "agence": "Agence Benquet",
   "classement": "exclu",
@@ -1623,6 +1643,26 @@
   "statut": "disparu",
   "surface": 50.59,
   "titre": "BIARRITZ, Hyper Centre, T2 meublé",
+  "ville_agence": "Biarritz"
+ },
+ "https://www.agence-benquet.com/appartement-maison/biarritz-hyper-centre-t3-5": {
+  "agence": "Agence Benquet",
+  "classement": "match",
+  "derniere_vue": "2026-11-17",
+  "historique_prix": [
+   {
+    "date": "2026-11-17",
+    "prix": 1417
+   }
+  ],
+  "pieces": 3,
+  "position": "quartier Hyper Centre",
+  "premiere_vue": "2026-11-17",
+  "prix": 1417,
+  "statut": "active",
+  "surface": 75.68,
+  "titre": "BIARRITZ – HYPER CENTRE – APPARTEMENT T3 AVEC PARKING PRIVATIF",
+  "type": "appartement",
   "ville_agence": "Biarritz"
  },
  "https://www.agence-benquet.com/appartement-maison/biarritz-hyper-centre-t4-2": {
@@ -2757,7 +2797,7 @@
   "premiere_vue": "2026-11-17",
   "prix": 1200,
   "statut": "active",
-  "titre": "Exclusivité URRUGNE 64 1 200 € par mois charges comprises 88,8 m2 , appartement , 6 pcs",
+  "titre": "URRUGNE 64 1 200 € par mois charges comprises 88,8 m2 , appartement , 6 pcs",
   "type": "appartement",
   "ville_agence": "Biarritz"
  },
@@ -3541,7 +3581,7 @@
   "prix": 873,
   "statut": "active",
   "surface": 59.0,
-  "titre": "Appartement 873 €/mois ANGLET (64600) 59 m² • 2 pièces • 1 chambre Terrasse • Ascenseur • 1 salle de bain • Parking",
+  "titre": "Appartement 873 €/mois ANGLET (64600) 59 m² • 2 pièces • 1 chambre Terrasse • Ascenseur…",
   "type": "appartement",
   "ville_agence": "Anglet"
  },
@@ -8001,7 +8041,7 @@
   "agence": "Laforêt (64, appartements)",
   "chambres": 3,
   "classement": "exclu",
-  "derniere_vue": "2026-11-12",
+  "derniere_vue": "2026-11-17",
   "historique_prix": [
    {
     "date": "2026-10-02",
@@ -8012,7 +8052,7 @@
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-10-02",
   "prix": 1100,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 110.0,
   "titre": "Appartement 1 100 €/mois PAU (64000) 110 m² • 4 pièces • 3 chambres Sous-sol • 1 cave •…",
   "type": "appartement",

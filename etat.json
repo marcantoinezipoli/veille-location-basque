@@ -16,7 +16,7 @@
    "derniere_vue": "2026-11-17",
    "description": "GUÉTHARY - Appartement 2 pièces meublé dans une résidence haut de gamme récente - Situé à Guéthary, au sein de la Villa UHAINA, cet appartement de 2 pièces prend place... 64210 GUETHARY GUÉTHARY - Appartement 2 pièces meublé dans une résidence haut de gamme récente Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Appartements A vendre 2 pièces Ref. :OLAVAD1608 64210 GUETHARY GUÉTHARY - Appartement 2 pièces meublé dans une résidence haut de gamme récente 475 000 € ** Situé à Guéthary, au sein de la Villa UHAINA, cet appartement de 2 pièces prend place dans une résidence haut de gamme construite en 2021, offrant ainsi un cadre récent, soigné et particulièrement qualitatif. Installé en rez-de-chaussée d'une résidence de deux étages, ce bien séduit par la qualité de ses prestations, l'élégance de son environnement et le standing de l'ensemble immobilier. L'appartement est vendu meublé, avec un mobilier choisi avec soin et en parfaite harmonie avec l'esprit contempo",
    "dpe": null,
-   "ecart_prix_pct": 22,
+   "ecart_prix_pct": 21,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -127,7 +127,7 @@
    "derniere_vue": "2026-11-17",
    "description": "ARCANGUES - Villa élégante, séjour cathédrale et piscine chauffée au calme absolue - À vendre à Arcangues, nichée au fond d'une impasse privilégiée, cette villa... 64200 ARCANGUES ARCANGUES - Villa élégante, séjour cathédrale et piscine chauffée au calme absolue Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Maisons A vendre Maison Ref. :OLAMOJV1626 64200 ARCANGUES ARCANGUES - Villa élégante, séjour cathédrale et piscine chauffée au calme absolue 1 450 000 € ** À vendre à Arcangues, nichée au fond d'une impasse privilégiée, cette villa d'environ 220 m² (surface de référence du DPE) déploie ses volumes généreux au coeur d'un terrain arboré de 3 260 m². Véritable ode à la nature, la propriété offre un cadre de vie au calme absolu. Une rénovation contemporaine récente souligne l'élégance des lieux. Le séjour cathédrale, magnifié par ses poutres apparentes, sa cheminée avec insert et sa mezzanine ouverte aménagée en bureau, compose un espace de réception remarqua",
    "dpe": null,
-   "ecart_prix_pct": -11,
+   "ecart_prix_pct": -12,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -620,8 +620,8 @@
    "derniere_vue": "2026-11-17",
    "description": "Anglet – Appartement T3 avec grande terrasse de 53 m² Situé à Anglet, au sein du Hameau Ilgora, dans une copropriété calme, cet appartement de type T3 d’environ 57 m², situé en rez-de-chaussée, offre un cadre de vie agréable et fonctionnel, avec un bel espace extérieur privatif. L’appartement se compose… Anglet – Appartement T3 avec grande terrasse de 53 m² Aller au contenu Anglet – Appartement T3 avec grande terrasse de 53 m² Anglet GRANDE TERRASSE 973 € 973 € GRANDE TERRASSE Descriptif du bien Anglet – Appartement T3 avec grande terrasse de 53 m² Situé à Anglet, au sein du Hameau Ilgora, dans une copropriété calme, cet appartement de type T3 d’environ 57 m², situé en rez-de-chaussée, offre un cadre de vie agréable et fonctionnel, avec un bel espace extérieur privatif. L’appartement se compose d’une entrée sur dégagement avec rangements, desservant les différents espaces de vie. Il propose un grand salon-salle à manger, offrant un espace convivial, ainsi qu’une cuisine aménagée et semi-équipée comprenant une hotte et des plaques de cuisson. L’espace nuit comprend deux chambres confortables avec rangements, une salle de bains ainsi qu’un WC indépendant. À l’extérieur, le bien bénéf",
    "dpe": null,
-   "ecart_prix_pct": 16,
-   "etiquette_prix": "au-dessus du marché",
+   "ecart_prix_pct": 13,
+   "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
     {
@@ -747,6 +747,48 @@
    "titre": "ANGLET, Proche Quintaou, T3 Meublé duplex",
    "type": "duplex",
    "url": "https://www.agence-benquet.com/appartement-maison/anglet-proche-quintaou-t3-meuble-duplex/",
+   "ville_agence": "Anglet"
+  },
+  "https://www.agence-benquet.com/appartement-maison/anglet-quartier-larochefoucauld-t2": {
+   "agence": "Agence Benquet",
+   "atouts": [
+    "terrasse",
+    "parking",
+    "cave",
+    "loyer 915 €"
+   ],
+   "chambres": null,
+   "classement": "exclu",
+   "contexte": "ANGLET – QUARTIER LAROCHEFOUCAULD – APPARTEMENT T2 MEUBLÉ AVEC TERRASSE, PARKING ET CAVE 46.10m² 915€",
+   "derniere_vue": "2026-11-17",
+   "ecart_prix_pct": 21,
+   "etiquette_prix": "au-dessus du marché",
+   "historique_prix": [
+    {
+     "date": "2026-11-17",
+     "prix": 915
+    }
+   ],
+   "itineraire_pos": "43.4855,-1.5185",
+   "itineraire_source": "route",
+   "km_hopital": 4.9,
+   "lat": 43.4855,
+   "lon": -1.5185,
+   "min_velo": 20,
+   "min_voiture": 9,
+   "motif_exclusion": "T2 de 46 m², sous le seuil de 55 m²",
+   "pieces": 2,
+   "position": "Anglet (ville de l'agence)",
+   "premiere_vue": "2026-11-17",
+   "prix": 915,
+   "prix_m2": 19.8,
+   "reserves": [],
+   "score": 9,
+   "statut": "active",
+   "surface": 46.1,
+   "titre": "ANGLET – QUARTIER LAROCHEFOUCAULD – APPARTEMENT T2 MEUBLÉ AVEC TERRASSE, PARKING ET CAVE",
+   "type": "appartement",
+   "url": "https://www.agence-benquet.com/appartement-maison/anglet-quartier-larochefoucauld-t2/",
    "ville_agence": "Anglet"
   },
   "https://www.agence-benquet.com/appartement-maison/arcangues-maison-familiale-avec-piscine-prestations-de-standing-et-cadre-verdoyant": {
@@ -1023,6 +1065,72 @@
    "titre": "BIARRITZ, Hyper Centre, T2 meublé",
    "type": null,
    "url": "https://www.agence-benquet.com/appartement-maison/biarritz-hyper-centre-t2-meuble-6/",
+   "ville_agence": "Biarritz"
+  },
+  "https://www.agence-benquet.com/appartement-maison/biarritz-hyper-centre-t3-5": {
+   "agence": "Agence Benquet",
+   "atouts": [
+    "parking",
+    "à l'année",
+    "75 m²",
+    "loyer 1417 €"
+   ],
+   "chambres": null,
+   "classement": "match",
+   "contexte": "BIARRITZ – HYPER CENTRE – APPARTEMENT T3 AVEC PARKING PRIVATIF 75.68m² 1 417€",
+   "derniere_vue": "2026-11-17",
+   "description": "BIARRITZ – HYPER CENTRE – APPARTEMENT T3 AVEC PARKING PRIVATIF À louer vide à l’année – Au cœur de Biarritz, entre les Halles et la Poste Idéalement situé en hyper centre de Biarritz, entre les Halles et la Poste, cet appartement de type T3 bénéficie d’un emplacement privilégié, à proximité… BIARRITZ – HYPER CENTRE – APPARTEMENT T3 AVEC PARKING PRIVATIF Aller au contenu BIARRITZ – HYPER CENTRE – APPARTEMENT T3 AVEC PARKING PRIVATIF Biarritz HYPER CENTRE 1 417 € 1 417 € HYPER CENTRE Descriptif du bien BIARRITZ – HYPER CENTRE – APPARTEMENT T3 AVEC PARKING PRIVATIF À louer vide à l’année – Au cœur de Biarritz, entre les Halles et la Poste Idéalement situé en hyper centre de Biarritz, entre les Halles et la Poste, cet appartement de type T3 bénéficie d’un emplacement privilégié, à proximité immédiate des commerces, des commodités et de la vie animée du centre-ville. D’une superficie Loi Carrez d’environ 75,68 m², ce bien situé au 3ème étage d’une copropriété sans ascenseur offre une distribution fonctionnelle et des espaces de vie confortables. Dès l’entrée, un dégagement dessert harmonieusement les différentes pièces de l’appartement. L’espace de vie se compose d’un agréable séjour / ",
+   "dpe": null,
+   "ecart_prix_pct": 27,
+   "etiquette_prix": "au-dessus du marché",
+   "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-11-17",
+     "prix": 1417
+    }
+   ],
+   "itineraire_pos": "43.4832,-1.5586",
+   "itineraire_source": "route",
+   "km_hopital": 8.2,
+   "lat": 43.4832,
+   "lon": -1.5586,
+   "mail": "contact@agence-benquet.com",
+   "meuble": false,
+   "min_velo": 33,
+   "min_voiture": 13,
+   "photo": "https://www.agence-benquet.com/wp-content/uploads/2021/11/IMG_0924-scaled.jpg",
+   "photo_cherchee": true,
+   "photos": [
+    "https://www.agence-benquet.com/wp-content/uploads/2021/11/IMG_0924-scaled.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2021/11/IMG_0924.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2021/11/IMG-20211104-WA0003.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2021/11/IMG-20211104-WA0013.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2021/11/IMG_0922.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2021/11/IMG_0914.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2021/11/IMG_0915.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2021/11/IMG-20211104-WA0000.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2021/11/IMG-20211104-WA0005.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2021/11/IMG-20211104-WA0001.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2021/11/IMG-20211104-WA0014.jpg"
+   ],
+   "photos_cherchees": true,
+   "pieces": 3,
+   "position": "quartier Hyper Centre",
+   "premiere_vue": "2026-11-17",
+   "prix": 1417,
+   "prix_m2": 18.7,
+   "reserves": [
+    "sans ascenseur"
+   ],
+   "score": 5,
+   "signaux": [],
+   "statut": "active",
+   "surface": 75.68,
+   "tel": "0784951791",
+   "titre": "BIARRITZ – HYPER CENTRE – APPARTEMENT T3 AVEC PARKING PRIVATIF",
+   "type": "appartement",
+   "url": "https://www.agence-benquet.com/appartement-maison/biarritz-hyper-centre-t3-5/",
    "ville_agence": "Biarritz"
   },
   "https://www.agence-benquet.com/appartement-maison/biarritz-quartier-imperial-appartement-t3-de-7746-m%c2%b2-a-une-rue-de-la-plage-du-miramar-avec-cellier-privatif": {
@@ -2560,7 +2668,7 @@
    "derniere_vue": "2026-11-17",
    "description": "Situé à BIARRITZ, dans une résidence calme, en location non meublée, T4 de 124m² en duplex avec garage privatif.Il se compose :- Au rez-de chaussée : 3 chambres dont une avec dressing, une salle de bain avec WC, un garage privatif avec accès direct à l'appartement et un cellier- À l'étage : le séjour, la cuisine et une salle d'eau avec WCIl possède aussi une terrasse sur chaque niveau.Disponible de suite !Les charges comprennent la taxe d'ordures ménagères, l'entretien annuel de la chaudière gaz et les charges de copropriété. Appartement Duplex à louer 4 pièces - 124,06 m 2 BIARRITZ - 64 Retour aux résultats Créer une alerte Modifier la recherche Accueil Location Location Appartement Location Appartement Pyrenees-Atlantiques (64) Location Appartement BIARRITZ (64200) Appartement Duplex à louer 4 pièces - 124,06 m 2 BIARRITZ - 64 Ref : 16358 1 814 € par mois charges comprises Voir sur la carte 1/8 2/8 3/8 4/8 5/8 6/8 + 2 7/8 8/8 Exclusivité Envoyer un message Message Téléphoner à l'agence Téléphoner Planifier une visite et déposer un dossier Envoyer ce bien à un ami Description Situé à BIARRITZ, dans une résidence calme, en location non meublée, T4 de 124m² en duplex avec garage pri",
    "dpe": null,
-   "ecart_prix_pct": 0,
+   "ecart_prix_pct": -1,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -2630,7 +2738,7 @@
    "score": 2,
    "statut": "active",
    "surface": null,
-   "titre": "Exclusivité URRUGNE 64 1 200 € par mois charges comprises 88,8 m2 , appartement , 6 pcs",
+   "titre": "URRUGNE 64 1 200 € par mois charges comprises 88,8 m2 , appartement , 6 pcs",
    "type": "appartement",
    "url": "https://www.century21.fr/trouver_logement/detail/17114045854/",
    "ville_agence": "Biarritz"
@@ -2649,7 +2757,7 @@
    "derniere_vue": "2026-11-17",
    "description": "MAISON MEUBLEE - BAIL MOBILITE Location réservée aux personnes pouvant justifier d'une situation ouvrant droit au bail mobilité : formation professionnelle, apprentissage, mutation professionnelle, mission temporaire ou service civique.Idéalement située à Anglet, à deux pas des plages, cette agréable maison meublée de 109 m² offre un cadre de vie privilégié.Elle se compose d'un séjour, d'une cuisine, de 3 chambres, de 2 salles de bains et d'un WC, offrant de beaux espaces de vie et un confort idéal pour une famille.À proximité immédiate des commerces, des transports et des commodités, vous profiterez d'un emplacement agréable pour une vie quotidienne confortable, tout en bénéficiant de la proximité des plages.La maison dispose également d'un jardin et d'un garageL'eau est incluse dans les charges. Maison à louer 4 pièces - 109 m 2 ANGLET - 64 Retour aux résultats Créer une alerte Modifier la recherche Accueil Location Location Maison Location Maison Pyrenees-Atlantiques (64) Location Maison ANGLET (64600) Maison à louer 4 pièces - 109 m 2 ANGLET - 64 Ref : 5554 1 600 € par mois charges comprises Voir sur la carte 1/9 2/9 3/9 4/9 5/9 6/9 + 3 7/9 8/9 9/9 Exclusivité Envoyer un messag",
    "dpe": null,
-   "ecart_prix_pct": -8,
+   "ecart_prix_pct": -10,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -2754,7 +2862,7 @@
    "classement": "exclu",
    "contexte": "Appartement 2 pièces - 40 m² BAYONNE (64100) 820 € / mois",
    "derniere_vue": "2026-11-17",
-   "ecart_prix_pct": 51,
+   "ecart_prix_pct": 52,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -2799,7 +2907,7 @@
    "classement": "exclu",
    "contexte": "Appartement 3 pièces - 58 m² BIDACHE (64520) 890 € / mois",
    "derniere_vue": "2026-11-17",
-   "ecart_prix_pct": -8,
+   "ecart_prix_pct": -10,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -2842,7 +2950,7 @@
    "classement": "exclu",
    "contexte": "Appartement 3 pièces - 58 m² SAUBUSSE (40180) 900 € / mois",
    "derniere_vue": "2026-11-17",
-   "ecart_prix_pct": -3,
+   "ecart_prix_pct": -5,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -2886,8 +2994,8 @@
    "classement": "exclu",
    "contexte": "Appartement 3 pièces - 57 m² SOUSTONS (40140) 884 € / mois",
    "derniere_vue": "2026-11-17",
-   "ecart_prix_pct": -8,
-   "etiquette_prix": "dans le marché",
+   "ecart_prix_pct": -10,
+   "etiquette_prix": "bon prix",
    "historique_prix": [
     {
      "date": "2026-09-15",
@@ -2929,7 +3037,7 @@
    "classement": "exclu",
    "contexte": "Appartement 1 pièce - 34 m² ST VINCENT DE TYROSSE (40230) 592 € / mois",
    "derniere_vue": "2026-11-17",
-   "ecart_prix_pct": 9,
+   "ecart_prix_pct": 7,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -2973,7 +3081,7 @@
    "classement": "exclu",
    "contexte": "Appartement 2 pièces - 40 m² VIEUX BOUCAU LES BAINS (40480) 800 € / mois",
    "derniere_vue": "2026-11-17",
-   "ecart_prix_pct": 21,
+   "ecart_prix_pct": 18,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -3279,7 +3387,7 @@
    "derniere_vue": "2026-11-17",
    "description": "16/09/2026 - ✅ À louer, 3 chambres dans une maison entièrement rénovée, située à Chiberta, dans un environnement calme et privilégié. La maison ... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T1 ANGLET à louer 580 €/mois Charges comprises 30 m² • 1 pièce • 1 chambre Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 1 pièce Surface : 30 m² 1 chbre Autres Ann. const. : 1976 Description À louer, 3 chambres dans une maison entièrement rénovée, située à Chiberta, dans un environnement calme et privilégié. La maison dispose d'une piscine, d'un garage et de beaux espaces de vie. La location est réservée aux étudiants pour la période du 1er septembre au 31 mai. Les charges comprennent l'eau, l'électricité, le chauffage et l'accès à Internet. Pour tout renseignement complémentaire ou pour organiser une visite, n'hésitez pas à nous contacter. Loyer hors charges 480,00 € par mois, provision charges 100,00 € par mois, loyer charges comprises 580,00 € par mois Dépôt de garantie : 480,00 € Honoraires TTC charge locataire : 390,00 € TTC**, dont 90,00 € au titre de la réalisation de l'état des lieux 580,00 € CC par mois* Mentions légales e",
    "dpe": null,
-   "ecart_prix_pct": 21,
+   "ecart_prix_pct": 18,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -3337,7 +3445,7 @@
    "derniere_vue": "2026-11-17",
    "description": "16/09/2026 - ✅ À louer, 1 chambres restant à l'étage d'une maison entièrement rénovée, située à Chiberta, dans un environnement calme et privil�... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T1 ANGLET à louer 500 €/mois Charges comprises 28 m² • 1 pièce • 1 chambre Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 1 pièce Surface : 28 m² 1 chbre Description À louer, 1 chambres restant à l'étage d'une maison entièrement rénovée, située à Chiberta, dans un environnement calme et privilégié. La maison dispose d'une piscine, d'un garage et de beaux espaces de vie. La location est réservée aux étudiants pour la période du 1er septembre au 31 mai. Les charges comprennent l'eau, l'électricité, le chauffage et l'accès à Internet. Pour tout renseignement complémentaire ou pour organiser une visite, n'hésitez pas à nous contacter. Bien proposé par Pascal BOUQUET (RSAC n° 938252459) - Agent Commercial Loyer hors charges 400,00 € par mois, provision charges 100,00 € par mois, loyer charges comprises 500,00 € par mois Dépôt de garantie : 480,00 € Honoraires TTC charge locataire : 364,00 € TTC**, dont 84,00 € au titre de la réalisation ",
    "dpe": null,
-   "ecart_prix_pct": 13,
+   "ecart_prix_pct": 10,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -3437,7 +3545,7 @@
    "derniere_vue": "2026-11-17",
    "description": "17/11/2026 - ✅ Appartement dans un quartier recherché, un T2 non meublé en rez-de-chaussée surélevé, bail de 3 ans renouvelable. Une chambre et un... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 35 ans. Appartement T2 ANGLET à louer 873 €/mois Charges comprises 59 m² • 2 pièces • 1 chambre Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 2 pièces Surface : 59 m² 1 chbre 1 salle de bain Intérieur Cuisine Indépendante Chauffage Gaz de ville Ascenseur Terrasse Extérieur Parking Extérieur Autres Ann. const. : 1982 Soumis à la copropriété Charges mensuelles copro : 42 € Description Appartement dans un quartier recherché, un T2 non meublé en rez-de-chaussée surélevé, bail de 3 ans renouvelable. Une chambre et une cuisine séparée, fenêtres PVC double vitrage récemment changées, chauffage individuel au gaz, interphone et espace vert devant le balcon. Place de parking extérieure incluse. Commerces et transports à proximité. Un bien rare sur Anglet, à saisir rapidement. Un dossier de candidature complet sera exigé avant toute visite. Nous consulter au préalable. Délégation de mandat: Informations sur les honoraires disponibles en agence. Bien proposé pa",
    "dpe": null,
-   "ecart_prix_pct": -7,
+   "ecart_prix_pct": -9,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -3478,7 +3586,7 @@
    "statut": "active",
    "surface": 59.0,
    "tel": "0559442098",
-   "titre": "Appartement 873 €/mois ANGLET (64600) 59 m² • 2 pièces • 1 chambre Terrasse • Ascenseur • 1 salle de bain • Parking",
+   "titre": "Appartement 873 €/mois ANGLET (64600) 59 m² • 2 pièces • 1 chambre Terrasse • Ascenseur…",
    "type": "appartement",
    "url": "https://www.laforet.com/agence-immobiliere/anglet/louer/anglet/appartement-2-pieces-53012454",
    "ville_agence": "Anglet"
@@ -3566,7 +3674,7 @@
    "derniere_vue": "2026-11-17",
    "description": "04/10/2026 - ✅ À louer à Anglet, dans une résidence proche de toutes les commodités, agréable T4 de 85 m² situé au 7e étage avec ascenseur. Loc... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T4 ANGLET à louer 1 298 €/mois Charges comprises 85 m² • 4 pièces • 2 chambres Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 4 pièces Surface : 85 m² 2 chbres 1 salle de bain Intérieur Cuisine Indépendante Chauffage Gaz Ascenseur Balcon Terrasse 1 cave Extérieur Aerien Autres Ann. const. : 1975 Soumis à la copropriété Description À louer à Anglet, dans une résidence proche de toutes les commodités, agréable T4 de 85 m² situé au 7e étage avec ascenseur. Location proposée en bail mobilité d'octobre 2026 à juin 2027, sous réserve de remplir les conditions. Il se compose d'un double séjour de plus de 27 m² ouvrant sur une grande terrasse de plus de 15 m² exposée Sud, de 2 chambres avec balcon, d'une cuisine séparée aménagée et équipée, d'une salle de bains et de WC séparés. Places de stationnement dans la résidence. Contactez-nous pour plus d'informations ou organiser une visite. Bien proposé par Pascal BOUQUET (RSAC n° 938252459) - Age",
    "dpe": null,
-   "ecart_prix_pct": -4,
+   "ecart_prix_pct": -6,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -6416,7 +6524,7 @@
    "classement": "exclu",
    "contexte": "1 / 12 Appartement 445 €/mois BILLERE (64140) 21 m² • 1 pièce • 1 chambre 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-17",
-   "ecart_prix_pct": 56,
+   "ecart_prix_pct": 57,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -6550,7 +6658,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Appartement 590 €/mois PAU (64000) 25 m² • 1 pièce Ascenseur • 1 salle d'eau • Balcon • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-17",
-   "ecart_prix_pct": 65,
+   "ecart_prix_pct": 66,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -6677,7 +6785,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 750 €/mois PAU (64000) 55 m² • 3 pièces • 2 chambres 1 cave • 1 salle d'eau • Balcon • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-17",
-   "ecart_prix_pct": 0,
+   "ecart_prix_pct": 1,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -6720,7 +6828,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 16 Appartement 1 300 €/mois PAU (64000) 76 m² • 3 pièces • 2 chambres Terrasse • Ascenseur • Garage • 1 salle d'eau En savoir plus Appeler",
    "derniere_vue": "2026-11-17",
-   "ecart_prix_pct": 26,
+   "ecart_prix_pct": 27,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -6803,7 +6911,7 @@
    "chambres": 3,
    "classement": "exclu",
    "contexte": "1 / 10 Appartement 1 100 €/mois PAU (64000) 110 m² • 4 pièces • 3 chambres Sous-sol • 1 cave • 1 salle de bain • Meublé En savoir plus Appeler",
-   "derniere_vue": "2026-11-12",
+   "derniere_vue": "2026-11-17",
    "ecart_prix_pct": -26,
    "etiquette_prix": "bon prix",
    "historique_prix": [
@@ -6827,7 +6935,7 @@
    "prix_m2": 10.0,
    "reserves": [],
    "score": 8,
-   "statut": "disparu",
+   "statut": "active",
    "surface": 110.0,
    "titre": "Appartement 1 100 €/mois PAU (64000) 110 m² • 4 pièces • 3 chambres Sous-sol • 1 cave •…",
    "type": "appartement",
@@ -8343,7 +8451,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Nouveauté Appartement 2 pièce(s) 1 chambre(s) 30.06 m² Anglet (64600) 1 010 € CC*",
    "derniere_vue": "2026-11-17",
-   "ecart_prix_pct": 111,
+   "ecart_prix_pct": 106,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -8382,7 +8490,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté Appartement 2 pièce(s) 1 chambre(s) 42.5 m² Ciboure (64500) 701 € CC*",
    "derniere_vue": "2026-11-17",
-   "ecart_prix_pct": 4,
+   "ecart_prix_pct": 1,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -8509,7 +8617,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Coup de coeur Maison 3 pièce(s) 2 chambre(s) 99.34 m² Urcuit (64990) 1 500 € CC*",
    "derniere_vue": "2026-11-17",
-   "ecart_prix_pct": -14,
+   "ecart_prix_pct": -17,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -8552,7 +8660,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Nouveauté Appartement 2 pièce(s) 1 chambre(s) 37.08 m² Hasparren (64240) 570 € CC*",
    "derniere_vue": "2026-11-17",
-   "ecart_prix_pct": -3,
+   "ecart_prix_pct": -6,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -8850,7 +8958,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 24.59 m² Biarritz (64200) 590 € CC*",
    "derniere_vue": "2026-11-17",
-   "ecart_prix_pct": 64,
+   "ecart_prix_pct": 63,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -9778,7 +9886,7 @@
    "classement": "exclu",
    "contexte": "Maison Mouguerre Maison Mouguerre Mouguerre | 64990 1390 € | 123 m² | Réf B297500SO",
    "derniere_vue": "2026-11-17",
-   "ecart_prix_pct": -17,
+   "ecart_prix_pct": -16,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -9818,7 +9926,7 @@
    "classement": "exclu",
    "contexte": "Maison Saint-pierre-d'irube Maison Saint-pierre-d'irube Saint-Pierre-d'Irube | 64990 1700 € | 189 m² | Réf 3041000",
    "derniere_vue": "2026-11-17",
-   "ecart_prix_pct": -34,
+   "ecart_prix_pct": -33,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -10200,7 +10308,7 @@
    "derniere_vue": "2026-11-17",
    "description": "Appartement, m² T-2 à louer à Anglet pour 685 € avec Orpi Appartement à louer 2 pièces • Anglet Déposer un dossier Message Écrire à l'agence Partager Partager via e-mail Partager via facebook Partager via whatsapp Partager via SMS Exclusivité Favoris Vidéo 6 Photos Carte Appartement à louer 2 pièces • Anglet Bon état 685 € par mois Charges comprises Loyer de base : 655 € Dépôt de garantie : 1 310 € Honoraires TTC à la charge du locataire : 546 € dont 126 € d'honoraires d'état des lieux Provisions pour charges : 30 € Location meublée Loyer de référence majoré (loyer de base à ne pas dépasser) : 705 € Réf. Orpi : d535426d-0995-4292-93f9-2d63404b8f32 L'essentiel 2 pièces Surface 42 m² 1 chambre 1 salle de bain/eau Intérieur Chauffage individuel Meublé Extérieur Balcon Place de parking Autre Étage 2 Afficher plus de détails Afficher moins de détails L'avis de l'agent Location Étudiante ou mobilité-Septembre à Juin. Location étudiante ou mobilité de septembre 2026 à juin 2027- ANGLET Plage Lumineux T2 de 42 m² comprenant une pièce de vie donnant sur un balcon et un jardin au calme, une kitchenette, une chambre, une salle de bain et wc. Une place de parking exterieure. Afin de mieux orga",
    "dpe": "A",
-   "ecart_prix_pct": 3,
+   "ecart_prix_pct": 0,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -10474,7 +10582,7 @@
    "derniere_vue": "2026-11-17",
    "description": "Appartement, m² T-3 à louer à Anglet pour 1 210 € avec Orpi Appartement à louer 3 pièces • Anglet Déposer un dossier Message Écrire à l'agence Partager Partager via e-mail Partager via facebook Partager via whatsapp Partager via SMS Favoris 9 Photos Carte Appartement à louer 3 pièces • Anglet Bon état 1 210 € par mois Charges comprises Loyer de base : 990 € Dépôt de garantie : 1 980 € Honoraires TTC à la charge du locataire : 910 € dont 210 € d'honoraires d'état des lieux Provisions pour charges : 220 € Location meublée Réf. Orpi : 4fcaa5e4-2a6d-4bfb-bd72-4eb5c3f735bc L'essentiel 3 pièces Surface 70 m² 2 chambres 1 salle de bain/eau Intérieur Meublé Extérieur Avec jardin privatif Afficher plus de détails Afficher moins de détails L'avis de l'agent Location étudiante de Septembre 2026 à Juin 2027. ANGLET Maharin - Location étudiant ou mobilité À louer, agréable appartement situé en rez-de-chaussée d’une maison, offrant un cadre de vie confortable et un accès à un jardin. Le logement comprend deux chambres, ainsi qu’un troisième coin nuit offrant un espace supplémentaire selon les besoins. Il dispose également d’une salle d’eau et de WC indépendants. Loyer TOUTES CHARGES COMPRISES : ",
    "dpe": null,
-   "ecart_prix_pct": 9,
+   "ecart_prix_pct": 6,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -11221,7 +11329,7 @@
    "derniere_vue": "2026-11-17",
    "description": "À LOUER – APPARTEMENT T2 MEUBLÉ – ANGLET – RÉSIDENCE RÉCENTEVenez découvrir cet appartement T2 meublé, situé au sein d'une résidence récente e Location appartement 2 pièces - 42.52m² à Anglet (64600) Location appartement 2 pièces - 42.52m² à Anglet (64600) À LOUER – APPARTEMENT T2 MEUBLÉ – ANGLET – RÉSIDENCE RÉCENTE Venez découvrir cet appartement T2 meublé, situé au sein d'une résidence récente et calme à Anglet. Situé au 3? étage avec ascenseur, cet appartement se compose d'une entrée, d'une cuisine ouverte sur le séjour, d'une chambre indépendante entièrement meublée, ainsi que d'une salle d'eau et de WC séparés. Ce bien dispose également d'une loggia et d'une place de stationnement privative en sous-sol. Appartement disponible à partir du 1er novembre. Idéalement situé, l'appartement bénéficie de la proximité des transports en commun et des commerces. Honoraires de 558 € TTC à la charge du locataire comprenant 129 € TTC pour l'état des lieux. Zone soumise à encadrement des loyers. Loyer de référence majoré (loyer de base à ne pas dépasser) 718.58 €/mois. Loyer de base 719 €/mois. Provision sur charges 50 €/mois, régularisation annuelle. Dépôt de garantie 719 €. Classe énergie C",
    "dpe": "C",
-   "ecart_prix_pct": -18,
+   "ecart_prix_pct": -20,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -13068,6 +13176,12 @@
   },
   {
    "actives": 87,
+   "agences_ok": 18,
+   "date": "2026-11-17",
+   "nouveautes": 11
+  },
+  {
+   "actives": 90,
    "agences_ok": 18,
    "date": "2026-11-17",
    "nouveautes": 11
