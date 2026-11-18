@@ -2804,7 +2804,7 @@
    "statut": "active",
    "surface": null,
    "tel": "0559155785",
-   "titre": "Exclusivité BAYONNE 64 710 € par mois charges comprises 49,3 m2 , appartement , 2 pcs",
+   "titre": "BAYONNE 64 710 € par mois charges comprises 49,3 m2 , appartement , 2 pcs",
    "type": "appartement",
    "url": "https://www.century21.fr/trouver_logement/detail/17147376937/",
    "ville_agence": "Bidart"
@@ -13319,6 +13319,12 @@
    "agences_ok": 18,
    "date": "2026-11-18",
    "nouveautes": 12
+  },
+  {
+   "actives": 95,
+   "agences_ok": 18,
+   "date": "2026-11-18",
+   "nouveautes": 9
   }
  ]
 }
