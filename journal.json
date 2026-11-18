@@ -2833,6 +2833,25 @@
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
+ "https://www.century21.fr/trouver_logement/detail/17147376937": {
+  "agence": "Century 21 (Bidart, toutes agences)",
+  "classement": "exclu",
+  "derniere_vue": "2026-11-18",
+  "historique_prix": [
+   {
+    "date": "2026-11-18",
+    "prix": 773
+   }
+  ],
+  "pieces": 2,
+  "position": "quartier St Esprit",
+  "premiere_vue": "2026-11-18",
+  "prix": 773,
+  "statut": "active",
+  "titre": "Exclusivité BAYONNE 64 710 € par mois charges comprises 49,3 m2 , appartement , 2 pcs",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
  "https://www.century21agencenivadour-bayonne.com/trouver_logement/detail/15635506173": {
   "agence": "Century 21 Agence Nivadour",
   "chambres": 2,
@@ -10916,7 +10935,7 @@
   "prix": 1650,
   "statut": "active",
   "surface": 189.0,
-  "titre": "Maison Saint-pierre-d'irube Maison Saint-pierre-d'irube Saint-Pierre-d'Irube | 64990 1650 € | 189 m² | Réf 3041000",
+  "titre": "Maison Saint-pierre-d'irube Maison Saint-pierre-d'irube",
   "type": "maison",
   "ville_agence": "Bayonne"
  },
@@ -11879,6 +11898,37 @@
   "statut": "disparu",
   "surface": 37.06,
   "titre": "Location appartement 2 pièces - 37.06m² à Bayonne (64100)",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/bayonne/59826594-e0d5-46ea-a296-12b0d73ec029": {
+  "agence": "Square Habitat Bidart",
+  "classement": "exclu",
+  "derniere_vue": "2026-11-18",
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-11-18",
+  "statut": "active",
+  "titre": "Studio à louer - BAYONNE",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/bayonne/b778e2e7-9e6e-4295-886c-81b2ac02f716": {
+  "agence": "Square Habitat Bidart",
+  "classement": "match",
+  "derniere_vue": "2026-11-18",
+  "dpe": "C",
+  "historique_prix": [
+   {
+    "date": "2026-11-18",
+    "prix": 1109
+   }
+  ],
+  "pieces": 4,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-11-18",
+  "prix": 1109,
+  "statut": "active",
+  "surface": 84.5,
+  "titre": "Location appartement 4 pièces - 84.5m² à Bayonne (64100)",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
