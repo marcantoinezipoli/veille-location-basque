@@ -9412,7 +9412,7 @@
    "signaux": [],
    "statut": "active",
    "surface": 48.0,
-   "titre": "Appartement Anglet Appartement Anglet Anglet | 64600 820 € | 48 m² | Réf NG 4682000",
+   "titre": "Appartement Anglet",
    "type": "appartement",
    "url": "https://www.manoirdefrance.fr/location,appartement-appartement-t2-avec-terrasse-et-jardin-privatif-secteur-an,NG 4682000",
    "ville_agence": "Anglet"
@@ -13192,6 +13192,12 @@
    "agences_ok": 18,
    "date": "2026-11-20",
    "nouveautes": 11
+  },
+  {
+   "actives": 98,
+   "agences_ok": 18,
+   "date": "2026-11-20",
+   "nouveautes": 8
   }
  ]
 }
