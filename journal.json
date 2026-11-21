@@ -9794,6 +9794,26 @@
   "type": "appartement",
   "ville_agence": "Anglet"
  },
+ "https://www.lelogisbasque.fr/location/1-anglet/appartement/2378-adorable-t1-bis-avec-alcove-a-usage-de-chambre-balcon-et-stationnement-a-anglet": {
+  "agence": "Le Logis Basque",
+  "classement": "exclu",
+  "derniere_vue": "2026-11-21",
+  "historique_prix": [
+   {
+    "date": "2026-11-21",
+    "prix": 720
+   }
+  ],
+  "pieces": 1,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-11-21",
+  "prix": 720,
+  "statut": "active",
+  "surface": 29.41,
+  "titre": "Exclusivité Coup de coeur Appartement 1 pièce(s) 29.41 m² Anglet (64600) 720 € CC*",
+  "type": "appartement",
+  "ville_agence": "Anglet"
+ },
  "https://www.lelogisbasque.fr/location/1-anglet/maison/2333-magnifique-maison-sur-3-niveaux-avec-studio-independant-a-anglet-montbrun": {
   "agence": "Le Logis Basque",
   "chambres": 3,
@@ -9896,6 +9916,27 @@
   "statut": "disparu",
   "surface": 46.36,
   "titre": "Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 46.36 m² Ustaritz (64480) 690 € CC*",
+  "type": "appartement",
+  "ville_agence": "Anglet"
+ },
+ "https://www.lelogisbasque.fr/location/109-ustaritz/appartement/2379-beau-t2-recent-meuble-au-centre-d-ustaritz": {
+  "agence": "Le Logis Basque",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-11-21",
+  "historique_prix": [
+   {
+    "date": "2026-11-21",
+    "prix": 725
+   }
+  ],
+  "pieces": 2,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-11-21",
+  "prix": 725,
+  "statut": "active",
+  "surface": 40.91,
+  "titre": "Exclusivité Nouveauté Appartement 2 pièce(s) 1 chambre(s) 40.91 m² Ustaritz (64480) 725 € CC*",
   "type": "appartement",
   "ville_agence": "Anglet"
  },
