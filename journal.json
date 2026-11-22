@@ -9802,12 +9802,16 @@
    {
     "date": "2026-11-21",
     "prix": 720
+   },
+   {
+    "date": "2026-11-22",
+    "prix": 820
    }
   ],
   "pieces": 1,
   "position": "Anglet (ville de l'agence)",
   "premiere_vue": "2026-11-21",
-  "prix": 720,
+  "prix": 820,
   "statut": "active",
   "surface": 29.41,
   "titre": "Coup de coeur Appartement 1 pièce(s) 29.41 m² Anglet (64600) 720 € CC*",
@@ -9936,7 +9940,7 @@
   "prix": 725,
   "statut": "active",
   "surface": 40.91,
-  "titre": "Nouveauté Appartement 2 pièce(s) 1 chambre(s) 40.91 m² Ustaritz (64480) 725 € CC*",
+  "titre": "Appartement 2 pièce(s) 1 chambre(s) 40.91 m² Ustaritz (64480) 725 € CC*",
   "type": "appartement",
   "ville_agence": "Anglet"
  },
