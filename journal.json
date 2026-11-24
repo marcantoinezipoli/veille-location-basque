@@ -1789,6 +1789,26 @@
   "type": "maison",
   "ville_agence": "Anglet"
  },
+ "https://www.agence-benquet.com/appartement-maison/biarritz-verdun-t5": {
+  "agence": "Agence Benquet",
+  "classement": "match",
+  "derniere_vue": "2026-11-24",
+  "historique_prix": [
+   {
+    "date": "2026-11-24",
+    "prix": 1872
+   }
+  ],
+  "pieces": 5,
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-11-24",
+  "prix": 1872,
+  "statut": "active",
+  "surface": 90.67,
+  "titre": "BIARRITZ – HAUT DE VERDUN – APPARTEMENT DUPLEX T5 MEUBLÉ AVEC BALCON ET PARKING",
+  "type": "appartement",
+  "ville_agence": "Biarritz"
+ },
  "https://www.agence-benquet.com/appartement-maison/ustaritz-appartement-t2-meuble-avec-terrasse-et-stationnement": {
   "agence": "Agence Benquet",
   "classement": "exclu",
@@ -9818,6 +9838,48 @@
   "type": "appartement",
   "ville_agence": "Anglet"
  },
+ "https://www.lelogisbasque.fr/location/1-anglet/appartement/2380-beau-t4-avec-loggia-vitree-et-stationnement-privatif-idealement-place-a-anglet-bab2": {
+  "agence": "Le Logis Basque",
+  "chambres": 3,
+  "classement": "match",
+  "derniere_vue": "2026-11-24",
+  "historique_prix": [
+   {
+    "date": "2026-11-24",
+    "prix": 1180
+   }
+  ],
+  "pieces": 4,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-11-24",
+  "prix": 1180,
+  "statut": "active",
+  "surface": 81.0,
+  "titre": "Appartement 4 pièce(s) 3 chambre(s) 81 m²",
+  "type": "appartement",
+  "ville_agence": "Anglet"
+ },
+ "https://www.lelogisbasque.fr/location/1-anglet/appartement/2381-superbe-t2-neuf-au-calme-au-coeur-d-anglet": {
+  "agence": "Le Logis Basque",
+  "chambres": 1,
+  "classement": "exclu",
+  "derniere_vue": "2026-11-24",
+  "historique_prix": [
+   {
+    "date": "2026-11-24",
+    "prix": 804
+   }
+  ],
+  "pieces": 2,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-11-24",
+  "prix": 804,
+  "statut": "active",
+  "surface": 47.79,
+  "titre": "Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 47.79 m² Anglet (64600) 804 € CC*",
+  "type": "appartement",
+  "ville_agence": "Anglet"
+ },
  "https://www.lelogisbasque.fr/location/1-anglet/appartement/2382-beau-t3-r2cent-a-anglet-proche-bab2": {
   "agence": "Le Logis Basque",
   "chambres": 2,
@@ -12014,6 +12076,18 @@
   "premiere_vue": "2026-09-04",
   "statut": "disparu",
   "titre": "Appartement à louer - SAINT-VINCENT-DE-TYROSSE, 5 pièces",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
+ "https://www.squarehabitat.fr/square-habitat-aquitaine/annonces/biens/location/appartement/saint-vincent-de-tyrosse/a391f881-7856-4678-bc14-fb670779c073": {
+  "agence": "Square Habitat Bidart",
+  "classement": "exclu",
+  "derniere_vue": "2026-11-24",
+  "pieces": 3,
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-11-24",
+  "statut": "active",
+  "titre": "Appartement à louer - SAINT-VINCENT-DE-TYROSSE, 3 pièces",
   "type": "appartement",
   "ville_agence": "Bidart"
  },

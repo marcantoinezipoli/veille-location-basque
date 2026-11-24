@@ -16,7 +16,7 @@
    "derniere_vue": "2026-11-24",
    "description": "GUÉTHARY - Appartement 2 pièces meublé dans une résidence haut de gamme récente - Situé à Guéthary, au sein de la Villa UHAINA, cet appartement de 2 pièces prend place... 64210 GUETHARY GUÉTHARY - Appartement 2 pièces meublé dans une résidence haut de gamme récente Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Appartements A vendre 2 pièces Ref. :OLAVAD1608 64210 GUETHARY GUÉTHARY - Appartement 2 pièces meublé dans une résidence haut de gamme récente 475 000 € ** Situé à Guéthary, au sein de la Villa UHAINA, cet appartement de 2 pièces prend place dans une résidence haut de gamme construite en 2021, offrant ainsi un cadre récent, soigné et particulièrement qualitatif. Installé en rez-de-chaussée d'une résidence de deux étages, ce bien séduit par la qualité de ses prestations, l'élégance de son environnement et le standing de l'ensemble immobilier. L'appartement est vendu meublé, avec un mobilier choisi avec soin et en parfaite harmonie avec l'esprit contempo",
    "dpe": null,
-   "ecart_prix_pct": 22,
+   "ecart_prix_pct": 17,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -127,7 +127,7 @@
    "derniere_vue": "2026-11-24",
    "description": "ARCANGUES - Villa élégante, séjour cathédrale et piscine chauffée au calme absolue - À vendre à Arcangues, nichée au fond d'une impasse privilégiée, cette villa... 64200 ARCANGUES ARCANGUES - Villa élégante, séjour cathédrale et piscine chauffée au calme absolue Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Vendre Acheter Louer Estimer Faire gérer Vacances Nos agences Bidart Biarritz Saint-Jean-de-Luz Notre équipe Nos vidéos Blog Contact Accueil Maisons A vendre Maison Ref. :OLAMOJV1626 64200 ARCANGUES ARCANGUES - Villa élégante, séjour cathédrale et piscine chauffée au calme absolue 1 450 000 € ** À vendre à Arcangues, nichée au fond d'une impasse privilégiée, cette villa d'environ 220 m² (surface de référence du DPE) déploie ses volumes généreux au coeur d'un terrain arboré de 3 260 m². Véritable ode à la nature, la propriété offre un cadre de vie au calme absolu. Une rénovation contemporaine récente souligne l'élégance des lieux. Le séjour cathédrale, magnifié par ses poutres apparentes, sa cheminée avec insert et sa mezzanine ouverte aménagée en bureau, compose un espace de réception remarqua",
    "dpe": null,
-   "ecart_prix_pct": -11,
+   "ecart_prix_pct": -14,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -888,7 +888,7 @@
    "classement": "exclu",
    "contexte": "Ancienne bergerie rénovée avec goût – Maison de caractère aux prestations haut de gamme 161m² 2 529€",
    "derniere_vue": "2026-11-24",
-   "ecart_prix_pct": 7,
+   "ecart_prix_pct": 3,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -971,7 +971,7 @@
    "derniere_vue": "2026-11-24",
    "description": "BIARRITZ – HYPER CENTRE – APPARTEMENT T3 AVEC PARKING PRIVATIF À louer vide à l’année – Au cœur de Biarritz, entre les Halles et la Poste Idéalement situé en hyper centre de Biarritz, entre les Halles et la Poste, cet appartement de type T3 bénéficie d’un emplacement privilégié, à proximité… BIARRITZ – HYPER CENTRE – APPARTEMENT T3 AVEC PARKING PRIVATIF Aller au contenu BIARRITZ – HYPER CENTRE – APPARTEMENT T3 AVEC PARKING PRIVATIF Biarritz HYPER CENTRE 1 417 € 1 417 € HYPER CENTRE Descriptif du bien BIARRITZ – HYPER CENTRE – APPARTEMENT T3 AVEC PARKING PRIVATIF À louer vide à l’année – Au cœur de Biarritz, entre les Halles et la Poste Idéalement situé en hyper centre de Biarritz, entre les Halles et la Poste, cet appartement de type T3 bénéficie d’un emplacement privilégié, à proximité immédiate des commerces, des commodités et de la vie animée du centre-ville. D’une superficie Loi Carrez d’environ 75,68 m², ce bien situé au 3ème étage d’une copropriété sans ascenseur offre une distribution fonctionnelle et des espaces de vie confortables. Dès l’entrée, un dégagement dessert harmonieusement les différentes pièces de l’appartement. L’espace de vie se compose d’un agréable séjour / ",
    "dpe": null,
-   "ecart_prix_pct": 28,
+   "ecart_prix_pct": 23,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -1089,6 +1089,74 @@
    "titre": "Biarritz – Quartier Impérial – Appartement T3 de 77,46 m² à une rue de la plage du…",
    "type": "appartement",
    "url": "https://www.agence-benquet.com/appartement-maison/biarritz-quartier-imperial-appartement-t3-de-7746-m%c2%b2-a-une-rue-de-la-plage-du-miramar-avec-cellier-privatif/",
+   "ville_agence": "Biarritz"
+  },
+  "https://www.agence-benquet.com/appartement-maison/biarritz-verdun-t5": {
+   "agence": "Agence Benquet",
+   "atouts": [
+    "lumineux",
+    "balcon",
+    "parking",
+    "ascenseur",
+    "dernier étage",
+    "location à l'année",
+    "90 m²",
+    "loyer 1872 €"
+   ],
+   "chambres": null,
+   "classement": "match",
+   "contexte": "BIARRITZ – HAUT DE VERDUN – APPARTEMENT DUPLEX T5 MEUBLÉ AVEC BALCON ET PARKING 90.67m² 1 872€",
+   "derniere_vue": "2026-11-24",
+   "description": "BIARRITZ – HAUT DE VERDUN – APPARTEMENT DUPLEX T5 MEUBLÉ AVEC BALCON ET PARKING À louer meublé à l’année – Situé rue de Folin, dans le quartier du Haut de Verdun à Biarritz, à proximité du centre-ville. Situé rue de Folin à Biarritz, au sein d’une copropriété, cet appartement meublé… BIARRITZ – HAUT DE VERDUN – APPARTEMENT DUPLEX T5 MEUBLÉ AVEC BALCON ET PARKING Aller au contenu BIARRITZ – HAUT DE VERDUN – APPARTEMENT DUPLEX T5 MEUBLÉ AVEC BALCON ET PARKING Biarritz LUMINEUX 1 872 € 1 872 € LUMINEUX Descriptif du bien BIARRITZ – HAUT DE VERDUN – APPARTEMENT DUPLEX T5 MEUBLÉ AVEC BALCON ET PARKING À louer meublé à l’année – Situé rue de Folin, dans le quartier du Haut de Verdun à Biarritz, à proximité du centre-ville. Situé rue de Folin à Biarritz, au sein d’une copropriété, cet appartement meublé de type T5 en duplex offre un cadre de vie agréable, à proximité du centre-ville et de ses commodités. D’une superficie habitable de 90,67 m², ce logement situé au 2e et dernier étage du bâtiment A bénéficie d’une distribution fonctionnelle sur deux niveaux et de beaux volumes, idéals pour une location à l’année. La résidence ne dispose pas d’ascenseur. Dès l’entrée, un dégagement agrément",
+   "dpe": null,
+   "ecart_prix_pct": 36,
+   "etiquette_prix": "au-dessus du marché",
+   "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-11-24",
+     "prix": 1872
+    }
+   ],
+   "itineraire_pos": "43.4832,-1.5586",
+   "itineraire_source": "route",
+   "km_hopital": 8.2,
+   "lat": 43.4832,
+   "lon": -1.5586,
+   "mail": "contact@agence-benquet.com",
+   "meuble": true,
+   "min_velo": 33,
+   "min_voiture": 13,
+   "photo": "https://www.agence-benquet.com/wp-content/uploads/2025/10/Balcon-lumineux-avec-vue-residentielle-1024x768.png",
+   "photo_cherchee": true,
+   "photos": [
+    "https://www.agence-benquet.com/wp-content/uploads/2025/10/Balcon-lumineux-avec-vue-residentielle-1024x768.png",
+    "https://www.agence-benquet.com/wp-content/uploads/2025/10/Balcon-lumineux-avec-vue-residentielle.png",
+    "https://www.agence-benquet.com/wp-content/uploads/2025/10/IMG_0876-scaled.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2025/10/IMG_0844-scaled.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2025/10/IMG_0846-scaled.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2025/10/IMG_0854-scaled.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2025/10/IMG_0853-scaled.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2025/10/IMG_0855-scaled.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2025/10/IMG_0857-scaled.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2025/10/IMG_0861-scaled.jpg",
+    "https://www.agence-benquet.com/wp-content/uploads/2025/10/IMG_0865-scaled.jpg"
+   ],
+   "photos_cherchees": true,
+   "pieces": 5,
+   "position": "Biarritz (ville de l'agence)",
+   "premiere_vue": "2026-11-24",
+   "prix": 1872,
+   "prix_m2": 20.6,
+   "reserves": [],
+   "score": 15,
+   "signaux": [],
+   "statut": "active",
+   "surface": 90.67,
+   "tel": "0784951791",
+   "titre": "BIARRITZ – HAUT DE VERDUN – APPARTEMENT DUPLEX T5 MEUBLÉ AVEC BALCON ET PARKING",
+   "type": "appartement",
+   "url": "https://www.agence-benquet.com/appartement-maison/biarritz-verdun-t5/",
    "ville_agence": "Biarritz"
   },
   "https://www.ajp-immobilier.com/annonces/locations/appartement/anglet-64/55329688": {
@@ -2440,7 +2508,7 @@
    "derniere_vue": "2026-11-24",
    "description": "Situé à BIARRITZ, dans une résidence calme, en location non meublée, T4 de 124m² en duplex avec garage privatif.Il se compose :- Au rez-de chaussée : 3 chambres dont une avec dressing, une salle de bain avec WC, un garage privatif avec accès direct à l'appartement et un cellier- À l'étage : le séjour, la cuisine et une salle d'eau avec WCIl possède aussi une terrasse sur chaque niveau.Disponible de suite !Les charges comprennent la taxe d'ordures ménagères, l'entretien annuel de la chaudière gaz et les charges de copropriété. Appartement Duplex à louer 4 pièces - 124,06 m 2 BIARRITZ - 64 Retour aux résultats Créer une alerte Modifier la recherche Accueil Location Location Appartement Location Appartement Pyrenees-Atlantiques (64) Location Appartement BIARRITZ (64200) Appartement Duplex à louer 4 pièces - 124,06 m 2 BIARRITZ - 64 Ref : 16358 1 814 € par mois charges comprises Voir sur la carte 1/8 2/8 3/8 4/8 5/8 6/8 + 2 7/8 8/8 Exclusivité Envoyer un message Message Téléphoner à l'agence Téléphoner Planifier une visite et déposer un dossier Envoyer ce bien à un ami Description Situé à BIARRITZ, dans une résidence calme, en location non meublée, T4 de 124m² en duplex avec garage pri",
    "dpe": null,
-   "ecart_prix_pct": 0,
+   "ecart_prix_pct": -4,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -5884,7 +5952,7 @@
    "classement": "exclu",
    "contexte": "1 / 5 Appartement 595 €/mois PAU (64000) 34 m² • 1 pièce Terrasse • Ascenseur • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-24",
-   "ecart_prix_pct": 25,
+   "ecart_prix_pct": 24,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -5979,7 +6047,7 @@
    "classement": "exclu",
    "contexte": "1 / 8 Appartement 798 €/mois PAU (64000) 45 m² • 2 pièces • 1 chambre Terrasse • Ascenseur • 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-24",
-   "ecart_prix_pct": 31,
+   "ecart_prix_pct": 30,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -6020,7 +6088,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 15 Appartement 650 €/mois PAU (64000) 51 m² • 2 pièces • 1 chambre Terrasse • 1 salle d'eau • Balcon En savoir plus Appeler",
    "derniere_vue": "2026-11-24",
-   "ecart_prix_pct": -6,
+   "ecart_prix_pct": -7,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -6146,7 +6214,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 10 Appartement 795 €/mois PAU (64000) 64 m² • 3 pièces • 2 chambres Ascenseur • Garage • 1 salle d'eau • Balcon En savoir plus Appeler",
    "derniere_vue": "2026-11-24",
-   "ecart_prix_pct": -8,
+   "ecart_prix_pct": -9,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -7309,6 +7377,104 @@
    "url": "https://www.lelogisbasque.fr/location/1-anglet/appartement/2378-adorable-t1-bis-avec-alcove-a-usage-de-chambre-balcon-et-stationnement-a-anglet",
    "ville_agence": "Anglet"
   },
+  "https://www.lelogisbasque.fr/location/1-anglet/appartement/2380-beau-t4-avec-loggia-vitree-et-stationnement-privatif-idealement-place-a-anglet-bab2": {
+   "agence": "Le Logis Basque",
+   "atouts": [
+    "loggia",
+    "parking",
+    "stationnement",
+    "calme",
+    "dressing",
+    "cuisine aménagée",
+    "à pied",
+    "81 m²",
+    "loyer 1180 €"
+   ],
+   "chambres": 3,
+   "classement": "match",
+   "contexte": "Exclusivité Nouveauté Appartement 4 pièce(s) 3 chambre(s) 81 m² Anglet (64600) 1 180 € CC*",
+   "derniere_vue": "2026-11-24",
+   "description": "Location Anglet : Beau T4 avec loggia vitrée et stationnement privatif idéalement placé à ANGLET BAB2. Appartement 4 pièce(s) 3 chambre(s) 81 m² Agence immobilière à Anglet Location Anglet Appartement Isabelle LAVIELLE Négociatrice Appeler l'agent Contacter l'agent Contacter l'agent Retour aux résultats Télécharger la fiche Partager ce bien Exclusivité Nouveauté Afficher toutes les photos Appartement 4 pièce(s) 3 chambre(s) 81 m² Anglet (64600) 1 180 € CC* * Charges comprises Référence 2316 A propos de ce bien Administrateurs de biens immobiliers, nous proposons à la location un appartement de 81 m² environ à ANGLET, disponible le 21 décembre 2026. Cet appartement de type 4 est situé au 2 ème étage d’une résidence érigée au calme d'une résidence elle-même située au coeur de l'activité commerciale d'ANGLET, centre commercial BAB2 accessible immédiatement à pied. Il se compose d'une entrée sur dégagement avec rangements desservant un séjour avec cuisine aménagée et entièrement équipée donnant sur loggia entièrement vitrée. Le coin nuit dessert trois belles chambres, une salle d'eau, un wc séparé et un grand dressing. L'appartement bénéficie d'un emplacement de parking privatif dans l",
+   "dpe": null,
+   "ecart_prix_pct": -6,
+   "etiquette_prix": "dans le marché",
+   "fiche_lue": true,
+   "historique_prix": [
+    {
+     "date": "2026-11-24",
+     "prix": 1180
+    }
+   ],
+   "itineraire_pos": "43.4855,-1.5185",
+   "itineraire_source": "route",
+   "km_hopital": 4.9,
+   "lat": 43.4855,
+   "lon": -1.5185,
+   "mail": "isabelle@lelogisbasque.fr",
+   "meuble": false,
+   "min_velo": 20,
+   "min_voiture": 9,
+   "photo": "https://logis-basque.staticlbi.com/1200xauto/images/biens/1/251fac1cd8aa24788c97e7aa0b127f4a/photo_ca46ebd5d4a027a410b8d7ffdd9676bc.jpg",
+   "photo_cherchee": true,
+   "photos": [
+    "https://logis-basque.staticlbi.com/1200xauto/images/biens/1/251fac1cd8aa24788c97e7aa0b127f4a/photo_ca46ebd5d4a027a410b8d7ffdd9676bc.jpg"
+   ],
+   "photos_cherchees": true,
+   "pieces": 4,
+   "position": "Anglet (ville de l'agence)",
+   "premiere_vue": "2026-11-24",
+   "prix": 1180,
+   "prix_m2": 14.6,
+   "reserves": [],
+   "score": 15,
+   "signaux": [],
+   "statut": "active",
+   "surface": 81.0,
+   "tel": "0559590954",
+   "titre": "Appartement 4 pièce(s) 3 chambre(s) 81 m²",
+   "type": "appartement",
+   "url": "https://www.lelogisbasque.fr/location/1-anglet/appartement/2380-beau-t4-avec-loggia-vitree-et-stationnement-privatif-idealement-place-a-anglet-bab2",
+   "ville_agence": "Anglet"
+  },
+  "https://www.lelogisbasque.fr/location/1-anglet/appartement/2381-superbe-t2-neuf-au-calme-au-coeur-d-anglet": {
+   "agence": "Le Logis Basque",
+   "atouts": [
+    "loyer 804 €"
+   ],
+   "chambres": 1,
+   "classement": "exclu",
+   "contexte": "Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 47.79 m² Anglet (64600) 804 € CC*",
+   "derniere_vue": "2026-11-24",
+   "ecart_prix_pct": 8,
+   "etiquette_prix": "dans le marché",
+   "historique_prix": [
+    {
+     "date": "2026-11-24",
+     "prix": 804
+    }
+   ],
+   "itineraire_pos": "43.4855,-1.5185",
+   "itineraire_source": "route",
+   "km_hopital": 4.9,
+   "lat": 43.4855,
+   "lon": -1.5185,
+   "min_velo": 20,
+   "min_voiture": 9,
+   "motif_exclusion": "T2 de 47 m², sous le seuil de 55 m²",
+   "pieces": 2,
+   "position": "Anglet (ville de l'agence)",
+   "premiere_vue": "2026-11-24",
+   "prix": 804,
+   "prix_m2": 16.8,
+   "reserves": [],
+   "score": 2,
+   "statut": "active",
+   "surface": 47.79,
+   "titre": "Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 47.79 m² Anglet (64600) 804 € CC*",
+   "type": "appartement",
+   "url": "https://www.lelogisbasque.fr/location/1-anglet/appartement/2381-superbe-t2-neuf-au-calme-au-coeur-d-anglet",
+   "ville_agence": "Anglet"
+  },
   "https://www.lelogisbasque.fr/location/1-anglet/appartement/2382-beau-t3-r2cent-a-anglet-proche-bab2": {
    "agence": "Le Logis Basque",
    "atouts": [
@@ -7726,7 +7892,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 32.24 m² Bayonne (64100) 657 € CC*",
    "derniere_vue": "2026-11-24",
-   "ecart_prix_pct": 51,
+   "ecart_prix_pct": 50,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7765,7 +7931,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 24.59 m² Biarritz (64200) 590 € CC*",
    "derniere_vue": "2026-11-22",
-   "ecart_prix_pct": 64,
+   "ecart_prix_pct": 58,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7804,8 +7970,8 @@
    "classement": "exclu",
    "contexte": "Exclusivité Nouveauté Appartement 2 pièce(s) 1 chambre(s) 51.61 m² Biarritz (64200) 690 € CC*",
    "derniere_vue": "2026-11-24",
-   "ecart_prix_pct": -9,
-   "etiquette_prix": "dans le marché",
+   "ecart_prix_pct": -12,
+   "etiquette_prix": "bon prix",
    "historique_prix": [
     {
      "date": "2026-11-09",
@@ -8393,7 +8559,7 @@
    "derniere_vue": "2026-11-24",
    "description": "Appartement T3 58.72m2 BIARRITZ Biarritz Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Biarritz 884 € Appartement T3 58.72m2 BIARRITZ à louer de 3 pièce(s) sur 60 m² Retour au listing Points clés... 3 pièce(s) , 60 m² Ref. 388-1093 Descriptif du bien • Appartement T3 58.72m2 BIARRITZ Venez découvrir cet appartement de type 3 de 60m2, situé au rez-de-chaussée d\\'un petit immeuble sans ascenseu, situé quartier Floquet à Biarritz. Cet appartement se compose d\\'un séjour, d\\'une cuisine ouverte, aménagée et équipée d\\'une plaque et d\\'une hotte, d\\'un four et d\\'un réfrigérateur, de deux chambres de 15m2 et 11m2 et d\\'une salle d\\'eau avec w.c séparés. Vous serez séduits par la clarté de cet appartement et sa localisation. DISPONIBLE IMMEDIATEMENT Manoir de France: 05.59.59.66.33 NoB3880100 BAYONNE Appartement Nombre de pièces : 3 Surface habitable : 58.72m2 DPE : D ZONE SOUMISE A ENCADREMENT DES LOYERS LOYER CC / mois : 884.44EUR par mois dont 33.00EUR de charges comprises Loyer de base : 851.44EUR Loyer de référence majoré (loyer de base a ne pas dépasser): 851.44 EUR Complément : / 33.00 EUR de charges loca",
    "dpe": "D",
-   "ecart_prix_pct": 0,
+   "ecart_prix_pct": -3,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -8459,7 +8625,7 @@
    "derniere_vue": "2026-11-24",
    "description": "BAYONNE QUARTIER DES ARENES - T4 A LOUER VIDE Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 1167 € BAYONNE QUARTIER DES ARENES - T4 A LOUER VIDE à louer de 4 pièce(s) sur 108 m² Retour au listing Points clés... 4 pièce(s) , 108 m² 3 chambre(s) 1 salle(s) de bains Ref. B1156030 Descriptif du bien • BAYONNE QUARTIER DES ARENES - T4 A LOUER VIDE Idéalement situé Avenue Foch, dans le quartier prisé des Arènes à Bayonne, ce T4 de 108,58 m2 séduit dès l\\'entrée par son cachet et sa luminosité exceptionnelle. Les volumes généreux, la hauteur sous plafond et les détails d\\'époque confèrent à cet appartement une atmosphère unique. Il offre un double séjour accueillant, une cuisine séparée, trois chambres confortables, un dressing, une salle de bain et des toilettes séparés. Côté extérieur, un balcon longe tout l\\'appartement et permet de profiter d\\'un ensoleillement optimal. DISPONIBILITE IMMEDIATE Manoir de France: 05.59.59.66.33 NoB1156030 BAYONNE Appartement Nombre de pièces : 4 Surface habitable : 108.58 m2 DPE : E ZONE SOUMISE A ENCADREMENT DES LOYERS LOYER CC / mois : 1167.62 EUR par mois don",
    "dpe": "E",
-   "ecart_prix_pct": -20,
+   "ecart_prix_pct": -21,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -8522,7 +8688,7 @@
    "derniere_vue": "2026-11-24",
    "description": "Bel appartement T3 - Bayonne marÃ©chal soult Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 916 € Bel appartement T3 - Bayonne marÃ©chal soult à louer de 3 pièce(s) sur 68 m² Retour au listing Points clés... 3 pièce(s) , 68 m² 1 salle(s) de bains Ref. 290 Descriptif du bien • Bel appartement T3 - Bayonne marÃ©chal soult A découvrir rapidement ! Bel appartement de type 3, idéalement situé avenue maréchal Soult à Bayonne. Vous découvrirez une belle pièce de vie lumineuse avec une cuisine équipée d\\'une plaque de cuisson, d\\'une hotte aspirante et de nombreux rangements. Deux belles chambres de 12m2 et 14m2, une salle d\\'eau, et les WC séparés. Possibilité de place de parking à 60 euros / mois en sus ! Vous trouverez les commerces et les transports au pied de l\\'appartement. DISPONIBLE LE 25 NOVEMBRE 2026 Manoir de France: 05.59.59.66.33 NoB2900500 BAYONNE Appartement Nombre de pièces : 3 Surface habitable : 68.51 m2 DPE : F ZONE SOUMISE A ENCADREMENT DES LOYERS LOYER CC / mois : 916.82EUR par mois charges comprises Loyer de base : 835.82EUR Loyer de référence majoré (loyer de base a ne pas dép",
    "dpe": "F",
-   "ecart_prix_pct": 0,
+   "ecart_prix_pct": -1,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -10048,6 +10214,34 @@
    "url": "https://www.squarehabitat.fr/square-habitat-aquitaine/annonces/biens/location/appartement/ondres/f8a87535-f234-43aa-9852-dc36679eab25",
    "ville_agence": "Bidart"
   },
+  "https://www.squarehabitat.fr/square-habitat-aquitaine/annonces/biens/location/appartement/saint-vincent-de-tyrosse/a391f881-7856-4678-bc14-fb670779c073": {
+   "agence": "Square Habitat Bidart",
+   "atouts": [],
+   "chambres": null,
+   "classement": "exclu",
+   "contexte": "Appartement à louer - SAINT-VINCENT-DE-TYROSSE, 3 pièces",
+   "derniere_vue": "2026-11-24",
+   "itineraire_pos": "43.437,-1.5915",
+   "itineraire_source": "route",
+   "km_hopital": 12.6,
+   "lat": 43.437,
+   "lon": -1.5915,
+   "min_velo": 50,
+   "min_voiture": 14,
+   "motif_exclusion": "hors zone (tyrosse)",
+   "pieces": 3,
+   "position": "Bidart (ville de l'agence)",
+   "premiere_vue": "2026-11-24",
+   "prix": null,
+   "reserves": [],
+   "score": 0,
+   "statut": "active",
+   "surface": null,
+   "titre": "Appartement à louer - SAINT-VINCENT-DE-TYROSSE, 3 pièces",
+   "type": "appartement",
+   "url": "https://www.squarehabitat.fr/square-habitat-aquitaine/annonces/biens/location/appartement/saint-vincent-de-tyrosse/a391f881-7856-4678-bc14-fb670779c073",
+   "ville_agence": "Bidart"
+  },
   "https://www.squarehabitat.fr/square-habitat-aquitaine/annonces/biens/location/appartement/soustons/56597f4e-1e50-4872-b93f-c7f7689f4c1b": {
    "agence": "Square Habitat Bidart",
    "atouts": [],
@@ -10434,7 +10628,7 @@
    "derniere_vue": "2026-11-24",
    "description": "A LOUER - APARTEMENT T3 VIDEVenez découvrir ce magnifique appartement T3 non meublé, entièrement rénové, situé au sein d'une résidence calme e Location appartement 3 pièces - 88.9m² à Biarritz (64200) Location appartement 3 pièces - 88.9m² à Biarritz (64200) A LOUER - APARTEMENT T3 VIDE Venez découvrir ce magnifique appartement T3 non meublé, entièrement rénové, situé au sein d'une résidence calme et agréable. L'appartement se compose d'une entrée avec placard de rangement, d'un double séjour lumineux, d'une cuisine indépendante équipée, d'une salle de bains ainsi que d'un WC séparé. L'espace nuit comprend deux chambres disposant chacune de rangements. Pour compléter ce bien, vous bénéficierez également d'une loggia, d'un balcon, d'une cave ainsi que d'une place de stationnement extérieure. Idéalement situé, l'appartement se trouve à proximité des transports en commun et de la clinique Aguiléra. Cette appartement vous propose une magnifique vue. APPARTEMENT SOUMIS A UNE GARANTIE LOYER IMPAYES Appartement disponible à partir du 16 novembre. Honoraires de 1 071,23 € TTC à la charge du locataire comprenant 247,39 € TTC pour l'état des lieux. Zone soumise à encadrement des loyers. Loye",
    "dpe": "C",
-   "ecart_prix_pct": -77,
+   "ecart_prix_pct": -78,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -12096,6 +12290,12 @@
    "agences_ok": 18,
    "date": "2026-11-24",
    "nouveautes": 10
+  },
+  {
+   "actives": 92,
+   "agences_ok": 18,
+   "date": "2026-11-24",
+   "nouveautes": 14
   }
  ]
 }
