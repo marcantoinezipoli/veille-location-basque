@@ -2410,11 +2410,15 @@
    {
     "date": "2026-11-04",
     "prix": 1897
+   },
+   {
+    "date": "2026-11-25",
+    "prix": 1797
    }
   ],
   "position": "Bayonne (ville de l'agence)",
   "premiere_vue": "2026-09-15",
-  "prix": 1897,
+  "prix": 1797,
   "statut": "active",
   "titre": "USTARITZ 64 1 967 € par mois charges comprises 148,3 m2 , maison , 6 pcs",
   "type": "maison",
@@ -3093,6 +3097,26 @@
   "statut": "active",
   "surface": 58.0,
   "titre": "Appartement 3 pièces - 58 m² BIDACHE (64520) 890 € / mois",
+  "type": "appartement",
+  "ville_agence": "Anglet"
+ },
+ "https://www.human-immobilier.fr/annonce-location-appartement-castets_20-643": {
+  "agence": "Human Immobilier Anglet",
+  "classement": "exclu",
+  "derniere_vue": "2026-11-25",
+  "historique_prix": [
+   {
+    "date": "2026-11-25",
+    "prix": 640
+   }
+  ],
+  "pieces": 2,
+  "position": "Anglet (ville de l'agence)",
+  "premiere_vue": "2026-11-25",
+  "prix": 640,
+  "statut": "active",
+  "surface": 45.0,
+  "titre": "Appartement 2 pièces - 45 m² CASTETS (40260) 640 € / mois",
   "type": "appartement",
   "ville_agence": "Anglet"
  },
@@ -10530,7 +10554,7 @@
   "agence": "Le Logis Basque",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-11-24",
+  "derniere_vue": "2026-11-25",
   "historique_prix": [
    {
     "date": "2026-11-09",
