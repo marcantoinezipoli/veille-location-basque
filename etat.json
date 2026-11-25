@@ -1799,7 +1799,6 @@
    "classement": "exclu",
    "contexte": "Exclusivité USTARITZ 64 1 967 € par mois charges comprises 148,3 m 2 , maison , 6 pcs",
    "derniere_vue": "2026-11-25",
-   "evenement": "baisse",
    "historique_prix": [
     {
      "date": "2026-09-15",
@@ -12168,6 +12167,12 @@
    "agences_ok": 18,
    "date": "2026-11-25",
    "nouveautes": 12
+  },
+  {
+   "actives": 91,
+   "agences_ok": 17,
+   "date": "2026-11-25",
+   "nouveautes": 10
   }
  ]
 }
