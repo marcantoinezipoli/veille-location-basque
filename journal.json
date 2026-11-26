@@ -100,6 +100,27 @@
   "type": "villa",
   "ville_agence": "Biarritz"
  },
+ "http://www.immobiarritz.fr/fiches/4-40-26_61566328/arbonne-maison-de-plain-pied-avec-quatre-chambres-et-piscine-chauffee.html": {
+  "agence": "Immobiarritz",
+  "chambres": 4,
+  "classement": "exclu",
+  "derniere_vue": "2026-11-26",
+  "historique_prix": [
+   {
+    "date": "2026-11-26",
+    "prix": 2070
+   }
+  ],
+  "pieces": 7,
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-11-26",
+  "prix": 2070,
+  "statut": "active",
+  "surface": 212.0,
+  "titre": "http://www.immobiarritz.fr/fiches/4-40-26_61566328/arbonne-maison-de-plain-pied-avec-quatre-chambres-et-piscine-chauffee.html",
+  "type": "maison",
+  "ville_agence": "Biarritz"
+ },
  "http://www.immobiarritz.fr/fiches/4-40-26_61584932/arcangues-villa-de-caractere-sejour-cathedrale-et-piscine-chauffee.html": {
   "agence": "Immobiarritz",
   "chambres": 5,
@@ -2970,7 +2991,7 @@
   "premiere_vue": "2026-11-26",
   "prix": 562,
   "statut": "active",
-  "titre": "Exclusivité BIARRITZ 64 700 € par mois charges comprises 32,7 m2 , appartement , 2 pcs",
+  "titre": "BIARRITZ 64 700 € par mois charges comprises 32,7 m2 , appartement , 2 pcs",
   "type": "appartement",
   "ville_agence": "Bidart"
  },
@@ -2989,7 +3010,7 @@
   "premiere_vue": "2026-11-26",
   "prix": 540,
   "statut": "active",
-  "titre": "Exclusivité BIARRITZ 64 700 € par mois charges comprises 25 m2 , appartement , 1 pc",
+  "titre": "BIARRITZ 64 700 € par mois charges comprises 25 m2 , appartement , 1 pc",
   "type": "appartement",
   "ville_agence": "Bidart"
  },
