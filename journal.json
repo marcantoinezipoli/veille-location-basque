@@ -3021,7 +3021,27 @@
   "position": "Bidart (ville de l'agence)",
   "premiere_vue": "2026-11-27",
   "statut": "active",
-  "titre": "Exclusivité URRUGNE 64 984,81 € par mois charges comprises 67,4 m2 , appartement , 3 pcs",
+  "titre": "URRUGNE 64 984,81 € par mois charges comprises 67,4 m2 , appartement , 3 pcs",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
+ "https://www.century21.fr/trouver_logement/detail/17176438370": {
+  "agence": "Century 21 (Bidart, toutes agences)",
+  "classement": "match",
+  "derniere_vue": "2026-11-27",
+  "historique_prix": [
+   {
+    "date": "2026-11-27",
+    "prix": 1000
+   }
+  ],
+  "pieces": 3,
+  "position": "quartier Saint-Jean",
+  "premiere_vue": "2026-11-27",
+  "prix": 1000,
+  "statut": "active",
+  "surface": 57.0,
+  "titre": "Exclusivité ANGLET 64 1 000 € par mois charges comprises 57 m2 , appartement , 3 pcs",
   "type": "appartement",
   "ville_agence": "Bidart"
  },
@@ -8102,7 +8122,7 @@
   "prix": 700,
   "statut": "active",
   "surface": 36.0,
-  "titre": "Appartement 700 €/mois PAU (64000) 36 m² • 2 pièces • 1 chambre Ascenseur • 1 salle de bain • Balcon • Meublé",
+  "titre": "Appartement 700 €/mois PAU (64000) 36 m² • 2 pièces • 1 chambre Ascenseur • 1 salle de…",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
