@@ -808,7 +808,7 @@
    "classement": "exclu",
    "contexte": "ANGLET – QUARTIER LAROCHEFOUCAULD – APPARTEMENT T2 MEUBLÉ AVEC TERRASSE, PARKING ET CAVE 46.10m² 915€",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": 25,
+   "ecart_prix_pct": 21,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -2571,6 +2571,34 @@
    "url": "https://www.century21.fr/trouver_logement/detail/17172501629/",
    "ville_agence": "Bidart"
   },
+  "https://www.century21.fr/trouver_logement/detail/17176087151": {
+   "agence": "Century 21 (Bidart, toutes agences)",
+   "atouts": [],
+   "chambres": null,
+   "classement": "exclu",
+   "contexte": "Exclusivité URRUGNE 64 984,81 € par mois charges comprises 67,4 m 2 , appartement , 3 pcs",
+   "derniere_vue": "2026-11-27",
+   "itineraire_pos": "43.437,-1.5915",
+   "itineraire_source": "route",
+   "km_hopital": 12.6,
+   "lat": 43.437,
+   "lon": -1.5915,
+   "min_velo": 50,
+   "min_voiture": 14,
+   "motif_exclusion": "hors zone (urrugne)",
+   "pieces": null,
+   "position": "Bidart (ville de l'agence)",
+   "premiere_vue": "2026-11-27",
+   "prix": null,
+   "reserves": [],
+   "score": 0,
+   "statut": "active",
+   "surface": null,
+   "titre": "Exclusivité URRUGNE 64 984,81 € par mois charges comprises 67,4 m2 , appartement , 3 pcs",
+   "type": "appartement",
+   "url": "https://www.century21.fr/trouver_logement/detail/17176087151/",
+   "ville_agence": "Bidart"
+  },
   "https://www.century21agencenivadour-bayonne.com/trouver_logement/detail/16944828232": {
    "agence": "Century 21 Agence Nivadour",
    "atouts": [],
@@ -2608,7 +2636,7 @@
    "classement": "exclu",
    "contexte": "Appartement 2 pièces - 40 m² BAYONNE (64100) 820 € / mois",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": 54,
+   "ecart_prix_pct": 52,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -2653,7 +2681,7 @@
    "classement": "exclu",
    "contexte": "Appartement 3 pièces - 58 m² BIDACHE (64520) 890 € / mois",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": -8,
+   "ecart_prix_pct": -10,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -2696,7 +2724,7 @@
    "classement": "exclu",
    "contexte": "Appartement 2 pièces - 45 m² CASTETS (40260) 640 € / mois",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": -11,
+   "ecart_prix_pct": -13,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -2729,18 +2757,28 @@
   "https://www.human-immobilier.fr/annonce-location-appartement-saubusse_20-618": {
    "agence": "Human Immobilier Anglet",
    "atouts": [
-    "loyer 900 €"
+    "loyer 850 €"
    ],
+   "baisse": {
+    "ancien": 900,
+    "date": "2026-11-27",
+    "nouveau": 850
+   },
    "chambres": null,
    "classement": "exclu",
    "contexte": "Appartement 3 pièces - 58 m² SAUBUSSE (40180) 900 € / mois",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": -3,
+   "ecart_prix_pct": -10,
    "etiquette_prix": "dans le marché",
+   "evenement": "baisse",
    "historique_prix": [
     {
      "date": "2026-11-04",
      "prix": 900
+    },
+    {
+     "date": "2026-11-27",
+     "prix": 850
     }
    ],
    "itineraire_pos": "43.4855,-1.5185",
@@ -2754,8 +2792,8 @@
    "pieces": 3,
    "position": "Anglet (ville de l'agence)",
    "premiere_vue": "2026-11-04",
-   "prix": 900,
-   "prix_m2": 15.5,
+   "prix": 850,
+   "prix_m2": 14.7,
    "reserves": [],
    "score": 2,
    "statut": "active",
@@ -2779,8 +2817,8 @@
    "classement": "exclu",
    "contexte": "Appartement 3 pièces - 57 m² SOUSTONS (40140) 884 € / mois",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": -8,
-   "etiquette_prix": "dans le marché",
+   "ecart_prix_pct": -10,
+   "etiquette_prix": "bon prix",
    "historique_prix": [
     {
      "date": "2026-09-15",
@@ -3172,7 +3210,7 @@
    "derniere_vue": "2026-11-27",
    "description": "16/09/2026 - ✅ À louer, 3 chambres dans une maison entièrement rénovée, située à Chiberta, dans un environnement calme et privilégié. La maison ... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T1 ANGLET à louer 580 €/mois Charges comprises 30 m² • 1 pièce • 1 chambre Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 1 pièce Surface : 30 m² 1 chbre Autres Ann. const. : 1976 Description À louer, 3 chambres dans une maison entièrement rénovée, située à Chiberta, dans un environnement calme et privilégié. La maison dispose d'une piscine, d'un garage et de beaux espaces de vie. La location est réservée aux étudiants pour la période du 1er septembre au 31 mai. Les charges comprennent l'eau, l'électricité, le chauffage et l'accès à Internet. Pour tout renseignement complémentaire ou pour organiser une visite, n'hésitez pas à nous contacter. Loyer hors charges 480,00 € par mois, provision charges 100,00 € par mois, loyer charges comprises 580,00 € par mois Dépôt de garantie : 480,00 € Honoraires TTC charge locataire : 390,00 € TTC**, dont 90,00 € au titre de la réalisation de l'état des lieux 580,00 € CC par mois* Mentions légales e",
    "dpe": null,
-   "ecart_prix_pct": 21,
+   "ecart_prix_pct": 18,
    "etiquette_prix": "au-dessus du marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -3230,7 +3268,7 @@
    "derniere_vue": "2026-11-27",
    "description": "16/09/2026 - ✅ À louer, 1 chambres restant à l'étage d'une maison entièrement rénovée, située à Chiberta, dans un environnement calme et privil�... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T1 ANGLET à louer 500 €/mois Charges comprises 28 m² • 1 pièce • 1 chambre Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 1 pièce Surface : 28 m² 1 chbre Description À louer, 1 chambres restant à l'étage d'une maison entièrement rénovée, située à Chiberta, dans un environnement calme et privilégié. La maison dispose d'une piscine, d'un garage et de beaux espaces de vie. La location est réservée aux étudiants pour la période du 1er septembre au 31 mai. Les charges comprennent l'eau, l'électricité, le chauffage et l'accès à Internet. Pour tout renseignement complémentaire ou pour organiser une visite, n'hésitez pas à nous contacter. Bien proposé par Pascal BOUQUET (RSAC n° 938252459) - Agent Commercial Loyer hors charges 400,00 € par mois, provision charges 100,00 € par mois, loyer charges comprises 500,00 € par mois Dépôt de garantie : 480,00 € Honoraires TTC charge locataire : 364,00 € TTC**, dont 84,00 € au titre de la réalisation ",
    "dpe": null,
-   "ecart_prix_pct": 13,
+   "ecart_prix_pct": 10,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -3291,7 +3329,7 @@
    "derniere_vue": "2026-11-26",
    "description": "17/11/2026 - ✅ Appartement dans un quartier recherché, un T2 non meublé en rez-de-chaussée surélevé, bail de 3 ans renouvelable. Une chambre et un... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 35 ans. Appartement T2 ANGLET à louer 873 €/mois Charges comprises 59 m² • 2 pièces • 1 chambre Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 2 pièces Surface : 59 m² 1 chbre 1 salle de bain Intérieur Cuisine Indépendante Chauffage Gaz de ville Ascenseur Terrasse Extérieur Parking Extérieur Autres Ann. const. : 1982 Soumis à la copropriété Charges mensuelles copro : 42 € Description Appartement dans un quartier recherché, un T2 non meublé en rez-de-chaussée surélevé, bail de 3 ans renouvelable. Une chambre et une cuisine séparée, fenêtres PVC double vitrage récemment changées, chauffage individuel au gaz, interphone et espace vert devant le balcon. Place de parking extérieure incluse. Commerces et transports à proximité. Un bien rare sur Anglet, à saisir rapidement. Un dossier de candidature complet sera exigé avant toute visite. Nous consulter au préalable. Délégation de mandat: Informations sur les honoraires disponibles en agence. Bien proposé pa",
    "dpe": null,
-   "ecart_prix_pct": -7,
+   "ecart_prix_pct": -9,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -3357,7 +3395,7 @@
    "derniere_vue": "2026-11-27",
    "description": "04/10/2026 - ✅ À louer à Anglet, dans une résidence proche de toutes les commodités, agréable T4 de 85 m² situé au 7e étage avec ascenseur. Loc... ➽ Laforêt immobilier, expert immobilier ★ ★ ★ depuis 34 ans. Appartement T4 ANGLET à louer 1 298 €/mois Charges comprises 85 m² • 4 pièces • 2 chambres Partager Partager par SMS Enregistrer Caractéristiques Surface et espace de vie 4 pièces Surface : 85 m² 2 chbres 1 salle de bain Intérieur Cuisine Indépendante Chauffage Gaz Ascenseur Balcon Terrasse 1 cave Extérieur Aerien Autres Ann. const. : 1975 Soumis à la copropriété Description À louer à Anglet, dans une résidence proche de toutes les commodités, agréable T4 de 85 m² situé au 7e étage avec ascenseur. Location proposée en bail mobilité d'octobre 2026 à juin 2027, sous réserve de remplir les conditions. Il se compose d'un double séjour de plus de 27 m² ouvrant sur une grande terrasse de plus de 15 m² exposée Sud, de 2 chambres avec balcon, d'une cuisine séparée aménagée et équipée, d'une salle de bains et de WC séparés. Places de stationnement dans la résidence. Contactez-nous pour plus d'informations ou organiser une visite. Bien proposé par Pascal BOUQUET (RSAC n° 938252459) - Age",
    "dpe": null,
-   "ecart_prix_pct": -4,
+   "ecart_prix_pct": -6,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -3642,7 +3680,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 12 Appartement 2 405 €/mois BAYONNE (64100) 183 m² • 7 pièces • 4 chambres Ascenseur • Garage • 1 salle de bain • 1 salle d'eau En savoir plus Appeler",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": -2,
+   "ecart_prix_pct": -3,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -5430,7 +5468,7 @@
    "classement": "exclu",
    "contexte": "1 / 12 Appartement 445 €/mois BILLERE (64140) 21 m² • 1 pièce • 1 chambre 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": 59,
+   "ecart_prix_pct": 57,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -5514,7 +5552,7 @@
    "classement": "exclu",
    "contexte": "1 / 5 Appartement 595 €/mois PAU (64000) 34 m² • 1 pièce Terrasse • Ascenseur • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": 27,
+   "ecart_prix_pct": 25,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -5564,7 +5602,7 @@
    "classement": "exclu",
    "contexte": "0 / 0 Appartement 590 €/mois PAU (64000) 25 m² • 1 pièce Ascenseur • 1 salle d'eau • Balcon • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": 68,
+   "ecart_prix_pct": 66,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -5598,6 +5636,47 @@
    "url": "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-1-piece-52833230",
    "ville_agence": "Bayonne"
   },
+  "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-2-pieces-22528572": {
+   "agence": "Laforêt (64, appartements)",
+   "atouts": [
+    "balcon",
+    "ascenseur",
+    "loyer 700 €"
+   ],
+   "chambres": 1,
+   "classement": "exclu",
+   "contexte": "1 / 7 Appartement 700 €/mois PAU (64000) 36 m² • 2 pièces • 1 chambre Ascenseur • 1 salle de bain • Balcon • Meublé En savoir plus Appeler",
+   "derniere_vue": "2026-11-27",
+   "ecart_prix_pct": 44,
+   "etiquette_prix": "au-dessus du marché",
+   "historique_prix": [
+    {
+     "date": "2026-11-27",
+     "prix": 700
+    }
+   ],
+   "itineraire_pos": "43.4929,-1.4748",
+   "itineraire_source": "route",
+   "km_hopital": 3.0,
+   "lat": 43.4929,
+   "lon": -1.4748,
+   "min_velo": 12,
+   "min_voiture": 5,
+   "motif_exclusion": "hors zone (64000)",
+   "pieces": 2,
+   "position": "Bayonne (ville de l'agence)",
+   "premiere_vue": "2026-11-27",
+   "prix": 700,
+   "prix_m2": 19.4,
+   "reserves": [],
+   "score": 5,
+   "statut": "active",
+   "surface": 36.0,
+   "titre": "Appartement 700 €/mois PAU (64000) 36 m² • 2 pièces • 1 chambre Ascenseur • 1 salle de bain • Balcon • Meublé",
+   "type": "appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-2-pieces-22528572",
+   "ville_agence": "Bayonne"
+  },
   "https://www.laforet.com/agence-immobiliere/pau/louer/pau/appartement-2-pieces-52243321": {
    "agence": "Laforêt (64, appartements)",
    "atouts": [
@@ -5614,7 +5693,7 @@
    "classement": "exclu",
    "contexte": "1 / 8 Appartement 798 €/mois PAU (64000) 45 m² • 2 pièces • 1 chambre Terrasse • Ascenseur • 1 salle d'eau • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": 25,
+   "ecart_prix_pct": 23,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -5659,7 +5738,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 15 Appartement 650 €/mois PAU (64000) 51 m² • 2 pièces • 1 chambre Terrasse • 1 salle d'eau • Balcon En savoir plus Appeler",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": -5,
+   "ecart_prix_pct": -6,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -5700,7 +5779,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 0 / 0 Appartement 750 €/mois PAU (64000) 55 m² • 3 pièces • 2 chambres 1 cave • 1 salle d'eau • Balcon • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": 2,
+   "ecart_prix_pct": 1,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -5785,7 +5864,7 @@
    "classement": "exclu",
    "contexte": "Nouveauté 1 / 10 Appartement 795 €/mois PAU (64000) 64 m² • 3 pièces • 2 chambres Ascenseur • Garage • 1 salle d'eau • Balcon En savoir plus Appeler",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": -7,
+   "ecart_prix_pct": -8,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -5827,7 +5906,7 @@
    "classement": "exclu",
    "contexte": "1 / 10 Appartement 1 100 €/mois PAU (64000) 110 m² • 4 pièces • 3 chambres Sous-sol • 1 cave • 1 salle de bain • Meublé En savoir plus Appeler",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": -25,
+   "ecart_prix_pct": -26,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -5869,7 +5948,7 @@
    "classement": "exclu",
    "contexte": "1 / 16 Maison 1 375 €/mois PAU (64000) 82 m² • 4 pièces • 3 chambres Terrasse • Garage • 2 salles d'eau En savoir plus Appeler",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": 26,
+   "ecart_prix_pct": 24,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -6835,7 +6914,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Coup de coeur Appartement 1 pièce(s) 29.41 m² Anglet (64600) 720 € CC*",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": 75,
+   "ecart_prix_pct": 71,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -6888,8 +6967,8 @@
    "derniere_vue": "2026-11-27",
    "description": "Location Anglet : Beau T4 avec loggia vitrée et stationnement privatif idéalement placé à ANGLET BAB2. Appartement 4 pièce(s) 3 chambre(s) 81 m² Agence immobilière à Anglet Location Anglet Appartement Isabelle LAVIELLE Négociatrice Appeler l'agent Contacter l'agent Contacter l'agent Retour aux résultats Télécharger la fiche Partager ce bien Exclusivité Nouveauté Afficher toutes les photos Appartement 4 pièce(s) 3 chambre(s) 81 m² Anglet (64600) 1 180 € CC* * Charges comprises Référence 2316 A propos de ce bien Administrateurs de biens immobiliers, nous proposons à la location un appartement de 81 m² environ à ANGLET, disponible le 21 décembre 2026. Cet appartement de type 4 est situé au 2 ème étage d’une résidence érigée au calme d'une résidence elle-même située au coeur de l'activité commerciale d'ANGLET, centre commercial BAB2 accessible immédiatement à pied. Il se compose d'une entrée sur dégagement avec rangements desservant un séjour avec cuisine aménagée et entièrement équipée donnant sur loggia entièrement vitrée. Le coin nuit dessert trois belles chambres, une salle d'eau, un wc séparé et un grand dressing. L'appartement bénéficie d'un emplacement de parking privatif dans l",
    "dpe": null,
-   "ecart_prix_pct": -8,
-   "etiquette_prix": "dans le marché",
+   "ecart_prix_pct": -10,
+   "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
     {
@@ -6937,7 +7016,7 @@
    "classement": "exclu",
    "contexte": "Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 47.79 m² Anglet (64600) 804 € CC*",
    "derniere_vue": "2026-11-25",
-   "ecart_prix_pct": 6,
+   "ecart_prix_pct": 3,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -6986,7 +7065,7 @@
    "derniere_vue": "2026-11-27",
    "description": "Location Anglet : Beau T3 R2CENT à ANGLET proche BAB2. Appartement 3 pièce(s) 2 chambre(s) 56.82 m² Agence immobilière à Anglet Location Anglet Appartement Laurence VISCARRET Négociatrice Appeler l'agent Contacter l'agent Contacter l'agent Retour aux résultats Télécharger la fiche Partager ce bien Exclusivité Nouveauté Afficher toutes les photos Appartement 3 pièce(s) 2 chambre(s) 56.82 m² Anglet (64600) 903,89 € CC* * Charges comprises Référence 2148/T3meublé A propos de ce bien Administrateurs de biens immobiliers, nous proposons à la location un appartement de 56.82 m² à ANGLET, disponible le 2 janvier 2027. Cet appartement meublé de type 3 est situé au calme d'une superbe réalisation de BOUYGUES IMMOBILIER, à proximité immédiate du centre commercial BAB2 au 1er étage de la résidence, exposé sud. Il se compose d'une entrée sur dégagement avec placard desservant un séjour avec cuisine aménagée et équipée donnant sur une belle terrasse sud-est, une salle d'eau avec W.C. et deux chambres avec placards aménagés. L'appartement bénéficie d'un cellier et d'un emplacement de parking privatif en sous-sol. Un local vélo, un atelier de réparation vélos et une laverie sont accessibles dans ",
    "dpe": null,
-   "ecart_prix_pct": -71,
+   "ecart_prix_pct": -72,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -7034,7 +7113,7 @@
    "chambres": 1,
    "classement": "exclu",
    "contexte": "Nouveauté Appartement 2 pièce(s) 1 chambre(s) 42.5 m² Ciboure (64500) 701 € CC*",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-27",
    "ecart_prix_pct": 1,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
@@ -7060,7 +7139,7 @@
     "ciboure"
    ],
    "score": -8,
-   "statut": "disparu",
+   "statut": "active",
    "surface": 42.5,
    "titre": "Appartement 2 pièce(s) 1 chambre(s) 42.5 m² Ciboure (64500) 701 € CC*",
    "type": "appartement",
@@ -7076,7 +7155,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Nouveauté Appartement 2 pièce(s) 1 chambre(s) 40.91 m² Ustaritz (64480) 725 € CC*",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": 11,
+   "ecart_prix_pct": 9,
    "etiquette_prix": "dans le marché",
    "historique_prix": [
     {
@@ -7324,7 +7403,7 @@
    "classement": "exclu",
    "contexte": "Exclusivité Coup de coeur Appartement 2 pièce(s) 1 chambre(s) 32.24 m² Bayonne (64100) 657 € CC*",
    "derniere_vue": "2026-11-24",
-   "ecart_prix_pct": 53,
+   "ecart_prix_pct": 51,
    "etiquette_prix": "au-dessus du marché",
    "historique_prix": [
     {
@@ -7889,7 +7968,7 @@
    "derniere_vue": "2026-11-27",
    "description": "Appartement 90m2 BAYONNE - LOGEMENT ETUDIANT UNIQUEMENT Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 785 € Appartement 90m2 BAYONNE - LOGEMENT ETUDIANT UNIQUEMENT à louer de 2 pièce(s) sur 90 m² Retour au listing Points clés... 2 pièce(s) , 90 m² 1 salle(s) de bains Ref. 2105 Descriptif du bien • Appartement 90m2 BAYONNE - LOGEMENT ETUDIANT UNIQUEMENT LOGEMENT ETUDIANT DE SEPTEMBRE 2026 A JUIN 2027 Beaucoup de charme et de cachet pour ce grand T2 Bis meublé sis rue des basques en plein coeur du centre ville de Bayonne. A 2 pas des halles, des bords de Nive, ce logement de 90 m2 offre un très beau volume : Vaste séjour, cuisine ouverte meublée et équipée. Une salle d\\'eau équipée d\\'une grande douche, WC séparés. Une chambre et une pièce attenante, un grand dressing au calme coté escalier; Une cave compléte cette location. No2105000 BAYONNE Disponible SEPTEMBRE 2026 à JUIN 2027 Manoir de France: 05.59.59.66.33 Appartement. Nombre de pièces : T2 bis Surface habitable :90.00M2 LOYER CC / mois : 785.28EUR dont 39EUR de provision sur charges soumis à régularisation annuelle et 27EUR de Box Inte",
    "dpe": null,
-   "ecart_prix_pct": -35,
+   "ecart_prix_pct": -36,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -7947,7 +8026,7 @@
    "classement": "match",
    "contexte": "Appartement Anglet Appartement Anglet Anglet | 64600 820 € | 48 m² | Réf NG 4682000",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": 8,
+   "ecart_prix_pct": 5,
    "etiquette_prix": "dans le marché",
    "fiche_lue": false,
    "historique_prix": [
@@ -8057,7 +8136,7 @@
    "derniere_vue": "2026-11-26",
    "description": "BAYONNE QUARTIER DES ARENES - T4 A LOUER VIDE Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 1167 € BAYONNE QUARTIER DES ARENES - T4 A LOUER VIDE à louer de 4 pièce(s) sur 108 m² Retour au listing Points clés... 4 pièce(s) , 108 m² 3 chambre(s) 1 salle(s) de bains Ref. B1156030 Descriptif du bien • BAYONNE QUARTIER DES ARENES - T4 A LOUER VIDE Idéalement situé Avenue Foch, dans le quartier prisé des Arènes à Bayonne, ce T4 de 108,58 m2 séduit dès l\\'entrée par son cachet et sa luminosité exceptionnelle. Les volumes généreux, la hauteur sous plafond et les détails d\\'époque confèrent à cet appartement une atmosphère unique. Il offre un double séjour accueillant, une cuisine séparée, trois chambres confortables, un dressing, une salle de bain et des toilettes séparés. Côté extérieur, un balcon longe tout l\\'appartement et permet de profiter d\\'un ensoleillement optimal. DISPONIBILITE IMMEDIATE Manoir de France: 05.59.59.66.33 NoB1156030 BAYONNE Appartement Nombre de pièces : 4 Surface habitable : 108.58 m2 DPE : E ZONE SOUMISE A ENCADREMENT DES LOYERS LOYER CC / mois : 1167.62 EUR par mois don",
    "dpe": "E",
-   "ecart_prix_pct": -19,
+   "ecart_prix_pct": -20,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -8120,7 +8199,7 @@
    "derniere_vue": "2026-11-27",
    "description": "Bel appartement T3 - Bayonne marÃ©chal soult Bayonne Bonjour Accueil Achat Location Gestion locative Estimation Nos services Notre Agence Extranet gestion Ma sélection Contact Bayonne 916 € Bel appartement T3 - Bayonne marÃ©chal soult à louer de 3 pièce(s) sur 68 m² Retour au listing Points clés... 3 pièce(s) , 68 m² 1 salle(s) de bains Ref. 290 Descriptif du bien • Bel appartement T3 - Bayonne marÃ©chal soult A découvrir rapidement ! Bel appartement de type 3, idéalement situé avenue maréchal Soult à Bayonne. Vous découvrirez une belle pièce de vie lumineuse avec une cuisine équipée d\\'une plaque de cuisson, d\\'une hotte aspirante et de nombreux rangements. Deux belles chambres de 12m2 et 14m2, une salle d\\'eau, et les WC séparés. Possibilité de place de parking à 60 euros / mois en sus ! Vous trouverez les commerces et les transports au pied de l\\'appartement. DISPONIBLE LE 25 NOVEMBRE 2026 Manoir de France: 05.59.59.66.33 NoB2900500 BAYONNE Appartement Nombre de pièces : 3 Surface habitable : 68.51 m2 DPE : F ZONE SOUMISE A ENCADREMENT DES LOYERS LOYER CC / mois : 916.82EUR par mois charges comprises Loyer de base : 835.82EUR Loyer de référence majoré (loyer de base a ne pas dép",
    "dpe": "F",
-   "ecart_prix_pct": 2,
+   "ecart_prix_pct": 0,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -8183,7 +8262,7 @@
    "classement": "exclu",
    "contexte": "Maison Mouguerre Maison Mouguerre Mouguerre | 64990 1700 € | 207 m² | Réf B2924000",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": -42,
+   "ecart_prix_pct": -43,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -8267,7 +8346,7 @@
    "classement": "exclu",
    "contexte": "Maison Mouguerre Maison Mouguerre Mouguerre | 64990 1390 € | 123 m² | Réf B297500SO",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": -15,
+   "ecart_prix_pct": -16,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -8347,7 +8426,7 @@
    "classement": "exclu",
    "contexte": "Maison Saint-pierre-d'irube Maison Saint-pierre-d'irube Saint-Pierre-d'Irube | 64990 1650 € | 189 m² | Réf 3041000",
    "derniere_vue": "2026-11-27",
-   "ecart_prix_pct": -35,
+   "ecart_prix_pct": -36,
    "etiquette_prix": "bon prix",
    "historique_prix": [
     {
@@ -8727,7 +8806,7 @@
    "derniere_vue": "2026-11-27",
    "description": "Appartement, m² T-2 à louer à Anglet pour 685 € avec Orpi Appartement à louer 2 pièces • Anglet Déposer un dossier Message Écrire à l'agence Partager Partager via e-mail Partager via facebook Partager via whatsapp Partager via SMS Exclusivité Favoris Vidéo 6 Photos Carte Appartement à louer 2 pièces • Anglet Bon état 685 € par mois Charges comprises Loyer de base : 655 € Dépôt de garantie : 1 310 € Honoraires TTC à la charge du locataire : 546 € dont 126 € d'honoraires d'état des lieux Provisions pour charges : 30 € Location meublée Loyer de référence majoré (loyer de base à ne pas dépasser) : 705 € Réf. Orpi : d535426d-0995-4292-93f9-2d63404b8f32 L'essentiel 2 pièces Surface 42 m² 1 chambre 1 salle de bain/eau Intérieur Chauffage individuel Meublé Extérieur Balcon Place de parking Autre Étage 2 Afficher plus de détails Afficher moins de détails L'avis de l'agent Location Étudiante ou mobilité-Septembre à Juin. Location étudiante ou mobilité de septembre 2026 à juin 2027- ANGLET Plage Lumineux T2 de 42 m² comprenant une pièce de vie donnant sur un balcon et un jardin au calme, une kitchenette, une chambre, une salle de bain et wc. Une place de parking exterieure. Afin de mieux orga",
    "dpe": "A",
-   "ecart_prix_pct": 3,
+   "ecart_prix_pct": 0,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -9001,7 +9080,7 @@
    "derniere_vue": "2026-11-27",
    "description": "Appartement, m² T-3 à louer à Anglet pour 1 210 € avec Orpi Appartement à louer 3 pièces • Anglet Déposer un dossier Message Écrire à l'agence Partager Partager via e-mail Partager via facebook Partager via whatsapp Partager via SMS Favoris 9 Photos Carte Appartement à louer 3 pièces • Anglet Bon état 1 210 € par mois Charges comprises Loyer de base : 990 € Dépôt de garantie : 1 980 € Honoraires TTC à la charge du locataire : 910 € dont 210 € d'honoraires d'état des lieux Provisions pour charges : 220 € Location meublée Réf. Orpi : 4fcaa5e4-2a6d-4bfb-bd72-4eb5c3f735bc L'essentiel 3 pièces Surface 70 m² 2 chambres 1 salle de bain/eau Intérieur Meublé Extérieur Avec jardin privatif Afficher plus de détails Afficher moins de détails L'avis de l'agent Location étudiante de Septembre 2026 à Juin 2027. ANGLET Maharin - Location étudiant ou mobilité À louer, agréable appartement situé en rez-de-chaussée d’une maison, offrant un cadre de vie confortable et un accès à un jardin. Le logement comprend deux chambres, ainsi qu’un troisième coin nuit offrant un espace supplémentaire selon les besoins. Il dispose également d’une salle d’eau et de WC indépendants. Loyer TOUTES CHARGES COMPRISES : ",
    "dpe": null,
-   "ecart_prix_pct": 9,
+   "ecart_prix_pct": 6,
    "etiquette_prix": "dans le marché",
    "fiche_lue": true,
    "historique_prix": [
@@ -9672,7 +9751,7 @@
    "derniere_vue": "2026-11-27",
    "description": "À LOUER – APPARTEMENT T2 MEUBLÉ – ANGLET – RÉSIDENCE RÉCENTEVenez découvrir cet appartement T2 meublé, situé au sein d'une résidence récente e Location appartement 2 pièces - 42.52m² à Anglet (64600) Location appartement 2 pièces - 42.52m² à Anglet (64600) À LOUER – APPARTEMENT T2 MEUBLÉ – ANGLET – RÉSIDENCE RÉCENTE Venez découvrir cet appartement T2 meublé, situé au sein d'une résidence récente et calme à Anglet. Situé au 3? étage avec ascenseur, cet appartement se compose d'une entrée, d'une cuisine ouverte sur le séjour, d'une chambre indépendante entièrement meublée, ainsi que d'une salle d'eau et de WC séparés. Ce bien dispose également d'une loggia et d'une place de stationnement privative en sous-sol. Appartement disponible à partir du 1er novembre. Idéalement situé, l'appartement bénéficie de la proximité des transports en commun et des commerces. Honoraires de 558 € TTC à la charge du locataire comprenant 129 € TTC pour l'état des lieux. Zone soumise à encadrement des loyers. Loyer de référence majoré (loyer de base à ne pas dépasser) 718.58 €/mois. Loyer de base 719 €/mois. Provision sur charges 50 €/mois, régularisation annuelle. Dépôt de garantie 719 €. Classe énergie C",
    "dpe": "C",
-   "ecart_prix_pct": -18,
+   "ecart_prix_pct": -20,
    "etiquette_prix": "bon prix",
    "fiche_lue": true,
    "historique_prix": [
@@ -11700,6 +11779,12 @@
    "agences_ok": 18,
    "date": "2026-11-27",
    "nouveautes": 10
+  },
+  {
+   "actives": 95,
+   "agences_ok": 18,
+   "date": "2026-11-27",
+   "nouveautes": 13
   }
  ]
 }

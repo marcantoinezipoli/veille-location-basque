@@ -3014,6 +3014,17 @@
   "type": "appartement",
   "ville_agence": "Bidart"
  },
+ "https://www.century21.fr/trouver_logement/detail/17176087151": {
+  "agence": "Century 21 (Bidart, toutes agences)",
+  "classement": "exclu",
+  "derniere_vue": "2026-11-27",
+  "position": "Bidart (ville de l'agence)",
+  "premiere_vue": "2026-11-27",
+  "statut": "active",
+  "titre": "Exclusivité URRUGNE 64 984,81 € par mois charges comprises 67,4 m2 , appartement , 3 pcs",
+  "type": "appartement",
+  "ville_agence": "Bidart"
+ },
  "https://www.century21agencenivadour-bayonne.com/trouver_logement/detail/15635506173": {
   "agence": "Century 21 Agence Nivadour",
   "chambres": 2,
@@ -3187,12 +3198,16 @@
    {
     "date": "2026-11-04",
     "prix": 900
+   },
+   {
+    "date": "2026-11-27",
+    "prix": 850
    }
   ],
   "pieces": 3,
   "position": "Anglet (ville de l'agence)",
   "premiere_vue": "2026-11-04",
-  "prix": 900,
+  "prix": 850,
   "statut": "active",
   "surface": 58.0,
   "titre": "Appartement 3 pièces - 58 m² SAUBUSSE (40180) 900 € / mois",
@@ -8074,20 +8089,20 @@
   "agence": "Laforêt (64, appartements)",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-10-05",
+  "derniere_vue": "2026-11-27",
   "historique_prix": [
    {
-    "date": "2026-09-15",
+    "date": "2026-11-27",
     "prix": 700
    }
   ],
   "pieces": 2,
   "position": "Bayonne (ville de l'agence)",
-  "premiere_vue": "2026-09-15",
+  "premiere_vue": "2026-11-27",
   "prix": 700,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 36.0,
-  "titre": "Appartement 700 €/mois PAU (64000) 36 m² • 2 pièces • 1 chambre Ascenseur • 1 salle de…",
+  "titre": "Appartement 700 €/mois PAU (64000) 36 m² • 2 pièces • 1 chambre Ascenseur • 1 salle de bain • Balcon • Meublé",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -10034,7 +10049,7 @@
   "agence": "Le Logis Basque",
   "chambres": 1,
   "classement": "exclu",
-  "derniere_vue": "2026-11-17",
+  "derniere_vue": "2026-11-27",
   "historique_prix": [
    {
     "date": "2026-11-12",
@@ -10045,7 +10060,7 @@
   "position": "Anglet (ville de l'agence)",
   "premiere_vue": "2026-11-12",
   "prix": 701,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 42.5,
   "titre": "Appartement 2 pièce(s) 1 chambre(s) 42.5 m² Ciboure (64500) 701 € CC*",
   "type": "appartement",
