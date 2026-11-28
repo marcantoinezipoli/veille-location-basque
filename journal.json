@@ -10278,7 +10278,7 @@
   "agence": "Le Logis Basque",
   "chambres": 2,
   "classement": "exclu",
-  "derniere_vue": "2026-11-21",
+  "derniere_vue": "2026-11-28",
   "historique_prix": [
    {
     "date": "2026-10-20",
@@ -10293,7 +10293,7 @@
   "position": "Anglet (ville de l'agence)",
   "premiere_vue": "2026-10-20",
   "prix": 1350,
-  "statut": "disparu",
+  "statut": "active",
   "surface": 99.34,
   "titre": "Coup de coeur Maison 3 pièce(s) 2 chambre(s) 99.34 m² Urcuit (64990) 1 500 € CC*",
   "type": "maison",
@@ -11058,6 +11058,28 @@
   "statut": "disparu",
   "surface": 64.0,
   "titre": "Appartement Bayonne",
+  "type": "appartement",
+  "ville_agence": "Bayonne"
+ },
+ "https://www.manoirdefrance.fr/location,appartement-appartement-t3-rue-sainte-catherine,B549002": {
+  "agence": "Manoir de France",
+  "chambres": 2,
+  "classement": "match",
+  "derniere_vue": "2026-11-28",
+  "dpe": "C",
+  "historique_prix": [
+   {
+    "date": "2026-11-28",
+    "prix": 660
+   }
+  ],
+  "pieces": 3,
+  "position": "Bayonne (ville de l'agence)",
+  "premiere_vue": "2026-11-28",
+  "prix": 660,
+  "statut": "active",
+  "surface": 54.0,
+  "titre": "Appartement Bayonne Appartement Bayonne Bayonne | 64100 660 € | 54 m² | Réf B549002",
   "type": "appartement",
   "ville_agence": "Bayonne"
  },
@@ -12361,6 +12383,28 @@
   "statut": "disparu",
   "titre": "Studio à louer - BAYONNE",
   "ville_agence": "Bayonne"
+ },
+ "https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/biarritz/07f7fdc7-a763-4037-a8c3-0b38e5b601da": {
+  "agence": "Square Habitat Bidart",
+  "chambres": 2,
+  "classement": "exclu",
+  "derniere_vue": "2026-11-28",
+  "dpe": "F",
+  "historique_prix": [
+   {
+    "date": "2026-11-28",
+    "prix": 1598
+   }
+  ],
+  "pieces": 3,
+  "position": "Biarritz (ville de l'agence)",
+  "premiere_vue": "2026-11-28",
+  "prix": 1598,
+  "statut": "active",
+  "surface": 48.61,
+  "titre": "Location appartement 3 pièces - 48.61m² à Biarritz (64200)",
+  "type": "appartement",
+  "ville_agence": "Biarritz"
  },
  "https://www.squarehabitat.fr/square-habitat-pyrenees-gascogne/annonces/biens/location/appartement/biarritz/0b2c2099-4034-49c8-86a8-f942d3efb78c": {
   "agence": "Square Habitat Bidart",
