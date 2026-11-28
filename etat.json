@@ -8193,7 +8193,7 @@
    "statut": "active",
    "surface": 54.0,
    "tel": "0559596633",
-   "titre": "Appartement Bayonne Appartement Bayonne Bayonne | 64100 660 € | 54 m² | Réf B549002",
+   "titre": "Appartement Bayonne",
    "type": "appartement",
    "url": "https://www.manoirdefrance.fr/location,appartement-appartement-t3-rue-sainte-catherine,B549002",
    "ville_agence": "Bayonne"
@@ -11916,6 +11916,12 @@
    "agences_ok": 17,
    "date": "2026-11-28",
    "nouveautes": 12
+  },
+  {
+   "actives": 98,
+   "agences_ok": 18,
+   "date": "2026-11-28",
+   "nouveautes": 10
   }
  ]
 }
